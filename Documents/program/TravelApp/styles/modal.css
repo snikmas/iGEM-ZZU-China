@@ -1,0 +1,241 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* === MODAL BOX === */
+.modal-content {
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 80%;
+  max-width: 1100px;
+  height: 85vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+  box-sizing: border-box;
+
+}
+
+/* === CLOSE === */
+.modal-close {
+  
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* === MODAL MAIN CONTENT === */
+.content {
+
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: 100%;
+}
+
+/* === IMAGE === */
+.photo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* === INFO COLUMN === */
+.information {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 1rem;
+  overflow-y: auto;
+
+  margin-top: 2rem;
+  /* margin: 2rem !important; */
+}
+
+/* === TITLE === */
+.information h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* === MORE TEXT === */
+#more-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.6rem;
+  margin: 0;
+}
+
+/* === DESCRIPTION LIST === */
+.description {
+  flex-grow: 1;
+}
+
+.description dl {
+  margin: 1rem 0;
+}
+
+dl::first-letter, dt::first-letter, dd::first-letter {
+  text-transform: uppercase;
+}
+
+.description dt {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.description dd {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.5rem 0 1rem 0;
+  line-height: 1.6rem;
+}
+
+/* === PRICE + BUTTON === */
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid #4492ff;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.price-container strong {
+  color: #4492ff;
+  font-weight: 400;
+  font-size: 2rem;
+  
+}
+
+
+
+/* === BUTTON === */
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn a {
+  position: relative;
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #1778ffb1;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn a:hover {
+  background-color: #005cdd9a;
+}
+
+/* Button Borders Animation */
+.btn a span {
+  position: absolute;
+  display: block;
+}
+
+.btn a span:nth-child(1) {
+  top: 0; left: 0;
+  width: 100%; height: 2px;
+  background: linear-gradient(to right, #0c002b, #1779ff);
+  animation: animate1 2s linear infinite;
+}
+.btn a span:nth-child(2) {
+  top: 0; right: 0;
+  width: 2px; height: 100%;
+  background: linear-gradient(to bottom, #0c002b, #1779ff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 0.5s;
+}
+.btn a span:nth-child(3) {
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: linear-gradient(to left, #0c002b, #1779ff);
+  animation: animate3 2s linear infinite;
+}
+.btn a span:nth-child(4) {
+  top: 0; left: 0;
+  width: 2px; height: 100%;
+  background: linear-gradient(to top, #0c002b, #1779ff);
+  animation: animate4 2s linear infinite;
+  animation-delay: 0.5s;
+}
+
+/* Keyframes */
+@keyframes animate1 {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+@keyframes animate2 {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+@keyframes animate3 {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes animate4 {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+
+/* scrollbar */
+.information::-webkit-scrollbar {
+  width: 7px;
+}
+
+.information::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 10px;
+}
+
+.information::-webkit-scrollbar-thumb {
+  background-color: #4492ff1d;
+  border-radius: 10px;
+  border: 2px solid #222;
+}
+
+.information::-webkit-scrollbar-thumb:hover {
+  background: #2a7ae4;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+
+
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- links -->
+   <link rel="stylesheet" href="/styles/about.css">
+   <link rel="stylesheet" href="/styles/general.css">
+   <link rel="stylesheet" href="/styles/header.css">
+   <link rel="stylesheet" href="/styles/footer.css">
+   
+<body>
+      <header>
+  	<nav class="header-nav">
+      <a href="/">Home</a>
+      <a href="./about.html">About Us</a>
+
+      <div class="dropdown">
+        <a href="./destinations.html">Destinations</a>
+        <ul class="submenu">
+          <li><a href="./allTours.html?region=asia">Asia</a></li>
+          <li><a href="./allTours.html?region=africa">Africa</a></li>
+          <li><a href="./allTours.html?region=europe">Europe</a></li>
+          <li><a href="./allTours.html?region=northAmerica">North America</a></li>
+          <li><a href="./allTours.html?region=southAmerica">South America</a></li>
+        </ul>
+      </div>
+
+      <a href="./contact.html">Contact</a>
+    </nav>
+	</header>
+
+  <section class="main">
+    <div class="text">
+      <h3>NORMAN TEAM</h3>
+      <span>Our story</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum pariatur cum delectus sequi eligendi! Distinctio non quis qui alias! Quaerat perspiciatis recusandae incidunt, fugiat suscipit quasi harum ea praesentium.</p>
+    </div>
+    <div class="btn-start">
+      <a href ="#" class = "button">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        READ MORE</a>
+    </div>
+  </section>
+
+  <section class="about-us">
+    <div class="idea">
+      <div class="img-author">
+        <img src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Nataly Smith">
+      </div>
+      <div class="text">
+        <h1>How we was created</h1>
+        <p>Hello, I'm Nataly and I love hiking! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore autem cupiditate at. Quas, explicabo laboriosam porro quae inventore dolorum dolor incidunt dolores fugit nesciunt eos, pariatur vel velit deleniti delectus aliquam tempore vitae sint adipisci atque, cumque minima quo? Ut eligendi, esse iusto quo sint dicta animi error sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ducimus qui voluptate praesentium vitae iusto amet mollitia quo repellendus nisi architecto facere eos nostrum, exercitationem, illum laudantium, ut ipsum aperiam. Ipsum totam maiores ad eum voluptas ipsa perferendis dolorem eveniet.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-team">
+      <h5>Meet our guides</h5>
+      <div class="carousel-team">
+        
+      </div>
+  </section>
+
+<footer>
+    <div class="info-foot" style="padding: 5rem 0rem; width:95%">
+      <div class="subscribe">
+        <p>Get our latest upadtes: guides, tips, and tools delivered to your inbox.</p>
+
+        <form class="foot-input"   style="padding-top: 2rem">
+          <input id="email" type="text" placeholder="Email Address">
+          <button class="btn-submit" aria-label="Submit"><img src="/assets/right-arrow.svg" alt="Submit"></button>
+        </form>
+      </div>
+      
+      <div class="nav-foot">
+        <h6>Navigation</h6>
+        <nav style="margin-top:30px">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+          <a href="./destinations.html">Destinations</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <hr>
+    
+    <div class="society">
+      <div class="payment">
+        <img src="/assets/visa.svg" alt="visa">
+        <img src="/assets/maestro.svg" alt="maestro">
+        <img src="/assets/unionpay.svg" alt="union">
+        <img src="/assets/wechat.svg" alt="wechat">
+      </div>
+      <div class="society-nav">
+        <a href="#"><img src="/assets/twitter.svg" alt=""></a>
+        <a href="#"><img src="/assets/instagram.svg" alt=""></a>
+        <a href="#"><img src="/assets/facebook.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span id="modal-close" class="modal-close">&times;</span>
+    <div class="text-guide">
+      <div class="img-guide">
+        <img src="/assets/team-5.jpg" alt="team-2" id="modal-img">
+      </div>
+      <div class="info-guide">
+        <div class="modal-details">
+          <h6 id="modal-name"></h6>
+          <p id="modal-description"></p>
+        </div>
+        <div class="info-descriptions">
+          <div class="modal-specialization">
+            Specialization: <span id="modal-specialization"></span>
+          </div>
+          <div class="tours-guide">
+            Tours: <span id="modal-tours"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script type="module" src="/scripts/about.js"></script>
+</body>
+</html>

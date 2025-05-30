@@ -1,0 +1,12 @@
+.card {
+  background-size: cover;
+  background-position: center;
+}
+
+.card.no-img {
+  background-color: #222;
+  /* background-image: url('/assets/no-img.png'); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

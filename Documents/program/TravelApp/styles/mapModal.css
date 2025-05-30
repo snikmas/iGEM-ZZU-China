@@ -1,0 +1,65 @@
+.modal {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #222;
+  /* padding: 0 2rem 4rem 0rem; */
+  padding: 3rem 3rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: right;
+
+  position: relative; /* Needed for absolute children */
+  width: 80vw;
+  /* height: 85vh; */
+  overflow: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 300;
+  margin: 0rem;
+  letter-spacing: 3px;
+  padding-bottom: 3rem;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  width: 55vw;
+  /* height: auto; */
+}
+
+.land {
+  fill: #ccc;
+  stroke: white;
+  stroke-width: 0.5;
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+.land:hover {
+  fill: #4ecdc4;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}

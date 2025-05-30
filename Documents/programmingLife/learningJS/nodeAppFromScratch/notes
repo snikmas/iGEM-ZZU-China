@@ -1,9 +1,0 @@
-https://www.youtube.com/watch?v=SBvmnHTQIPY
-
-mongodb:
-pwd: adminPassword
-user: admin
-roles: dbOwner
-db: storyBooks
-
-MG_CONNECTION_STRING=mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.1 
