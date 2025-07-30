@@ -1,9 +1,8 @@
-image: node:18
+image: node:18.20.0
 
 # Define the stages used in this pipeline
 stage: 
     - build
-    - deploy
 
 # Build the React App
 
