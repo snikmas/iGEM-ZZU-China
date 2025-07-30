@@ -8,15 +8,14 @@ For up-to-date requirements, resources, help and guidance, visit [competition.ig
 
 ## Getting started
 
-You should probably only edit the files inside folders `static`, `wiki` and `wiki > pages`.
-1. Open the Web IDE
-2. Make the changes on the files you wish:
-    * For the menu, change the file [menu.html](wiki/menu.html)
-    * For the layout, change the file [layout.html](wiki/layout.html)
-    * For the pages, change the corresponding file in the foler [pages](wiki/pages)
-3. Review the changes you made
-4. Once you are done, save the changes by **committing** them to the *main branch* of the repository 
-5. An automated script will build, test and deploy your wiki, which should take less than 30 seconds.
+This repository contains the source code for the Team ZZU-China 2025 Wiki. The general structure follows a React-based setup, allowing easy modification and extension to suit your wiki's needs.
+
+### Setup
+1. Clone the repository: git clone https://gitlab.igem.org/2025/zzu-china.git -> cd zzu-china
+2. Install dependencies: npm install
+3. Ensure your Node.js version is >= 20.0.0
+4. Start the development server: npm run dev
+
 
 ## About this Template
 
@@ -42,9 +41,7 @@ The static assets are in the `static` directory. The layout and templates are in
 
   * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
   * [Python](https://www.python.org): Programming language
-  * [Flask](https://palletsprojects.com/projects/flask): Python framework
-  * [Fronzen-Flask](https://pypi.org/project/Frozen-Flask): Library that builds the wiki to be deployed as a static website
-  * [Bootstrap](https://getbootstrap.com/docs/5.3/components): CSS and JS components used
+  * [React]
 
 ### Building locally (advanced users)
 
