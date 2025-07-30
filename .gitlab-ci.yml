@@ -1,15 +1,31 @@
-image: python:3.6
+image: node:18
 
-pages:
-  stage: build
+# Define the stages used in this pipeline
+stage: 
+    - build
+    - deploy
+
+# Build the React App
+
+build:
+  stage: build  
   script:
-    - pip install --no-cache-dir -r dependencies.txt
-    - FLASK_APP=app.py flask freeze
+    - npm install
+    - npm run build
+    - mv dist public
   artifacts:
     paths:
       - public
-  rules:
-    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
-      when: never # No runners will run on branches other than main
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-      when: always
+
+
+# Deploy to GitLab Pages
+pages:
+  stage: deploy
+  script:
+    - echo "Deployed successfullly"
+  artifacts:
+    paths:
+      - public
+    only:
+      - main
+  

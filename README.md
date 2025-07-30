@@ -54,13 +54,11 @@ To work locally with this project, follow the steps below:
 ```bash
 git clone https://gitlab.igem.org/2025/zzu-china.git
 cd zzu-china
-python3 -m venv venv
-. venv/bin/activate # on Linux, MacOS; or
-. venv\Scripts\activate # on Windows
-pip install -r dependencies.txt
+npm i
+npm start
 ```
 
 #### Execute
 ```bash
-python app.py
+npm start
 ```
