@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/zzu-china'>
       <App className="font-[Arial]"/>
     </BrowserRouter>
   </StrictMode>,
