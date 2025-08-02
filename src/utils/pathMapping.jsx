@@ -8,7 +8,7 @@ function pathMapping() {
 
   return (
     // is not the best solution, later need to fix it
-  <Routes path="/" element={< Home />}>
+  <Routes path="/">
     { Object.entries(pages).map(([key, page]) => {
       const {path, more} = page;
 
