@@ -14,5 +14,5 @@ export default defineConfig({
   preview: {
     port: 5000
   },
-  base: '/zzu-china/'
+  base: '/zzu-china/',
 })

@@ -11,7 +11,7 @@ function Header() {
       <div className='container h-13 flex justify-between mx-60  items-center my-4'>
         <div className='logo'>
           <a href="#">
-            <img src={assets.logo} alt="logo" className='w-24' />
+            <img src={assets.logo} alt="logo" className='w-25' />
           </a>
         </div>
         < Navbar />

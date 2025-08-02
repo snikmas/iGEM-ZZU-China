@@ -40,7 +40,19 @@ export default function Navbar(){
           {label: "Software", link: '/software'}, 
           {label: "Hardware", link: '/hardware'}
         ]
-      } 
+      },
+      "Education": {
+        link: '/education',
+        subitems: []
+      },
+      "Human Practice":{
+        link: '/human-practice',
+        subitems: [
+          {label: "Integrated Human Practices", link: "/integrated-human-practices"},
+          {label: "Entrepreneurship", link: "/entrepreneurship"},
+          {label: "Cooperation", link: "/cooperation"}
+        ]
+      }
     }
   
 
@@ -73,7 +85,7 @@ export default function Navbar(){
 
   return (
     <nav>
-      <ul className="flex flex-row gap-14 align-middle text-lg">
+      <ul className="flex flex-row gap-8 align-middle text-lg">
         {OutputNavbar(titles)}
       </ul>
     </nav>

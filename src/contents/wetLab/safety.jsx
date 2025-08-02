@@ -1,6 +1,6 @@
 // later: add <em> tag for names
 
-export function SafetyPage() {
+export function Safety() {
     return (
       <div>
         <h1 className="templateheading">Safety</h1>
