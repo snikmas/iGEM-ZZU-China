@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Attributions() {
+export function Attributions() {
   return (
     <div>Attributions</div>
   )
 }
 
-export default Attributions

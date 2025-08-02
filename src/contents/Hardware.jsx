@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Hardware() {
+export function Hardware() {
   return (
     <div>Hardware</div>
   )
 }
-
-export default Hardware

@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Cooperation() {
+export function Cooperation() {
   return (
     <div>Cooperation</div>
   )
 }
-
-export default Cooperation

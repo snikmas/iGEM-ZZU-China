@@ -1,9 +1,9 @@
 import React from 'react'
 
-function contribution() {
+export function Contribution() {
   return (
     <div>contribution</div>
   )
 }
 
-export default contribution
+

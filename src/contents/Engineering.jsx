@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Engineering() {
+export function Engineering() {
   return (
     <div>Engineering</div>
   )
 }
-
-export default Engineering

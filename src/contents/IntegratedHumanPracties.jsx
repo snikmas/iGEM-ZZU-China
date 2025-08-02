@@ -1,9 +1,7 @@
 import React from 'react'
 
-function IntegratedHumanPracties() {
+export function IntegratedHumanPractices() {
   return (
     <div>IntegratedHumanPracties</div>
   )
 }
-
-export default IntegratedHumanPracties

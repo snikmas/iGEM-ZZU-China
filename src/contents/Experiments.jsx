@@ -1,9 +1,7 @@
 import React from 'react'
 
-function experiments() {
+export function Experiments() {
   return (
     <div>experiments</div>
   )
 }
-
-export default experiments

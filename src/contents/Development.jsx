@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Development() {
+export function Development() {
   return (
     <div>Development</div>
   )
 }
-
-export default Development
