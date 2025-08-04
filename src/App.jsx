@@ -6,24 +6,6 @@ import pages from './pages'
 import { Home } from './contents'
 import { Navigate } from 'react-router-dom'
 
-// import Home from './contents/index'
-
-
-// const router = createBrowserRouter(
-  // createRoutesFromElements(<Route index element={<h1>myy</h1>} />)
-// )
-
-// const router = createBrowserRouter(
-  // createRoutesFromElements(<Route index element={s} />)
-// )
-
-// const router = createBrowserRouter([{
-  // path:'/home',
-  // need get from pages
-  // element: <Home />,
-  // errorElement: <div>oh sorry what are you doing here</div>
-// }]);
-
 function App() {
 
   return (
@@ -31,13 +13,10 @@ function App() {
     <>
       <Header />
 
-      <Routes basename="/zzu-china">
+      <Routes>
       
-        {/* homepage */}
-        <Route index element={< Home /> } />
-
-        {/* i wanna redirect the wrong */}
-        <Route path="/" element={<Navigate to="/" replace />} />
+        {/* i wanna redirect to home */}
+        <Route path="/" element={<Navigate to="/home" replace />} />
 
 
         { Object.entries(pages).map(([key, page]) => {

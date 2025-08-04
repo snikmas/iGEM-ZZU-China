@@ -1,6 +1,7 @@
 // later: add <em> tag for names
 
 export function Safety() {
+  console.log('saf')
     return (
       <div>
         <h1 className="templateheading">Safety</h1>

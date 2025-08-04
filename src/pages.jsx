@@ -41,7 +41,7 @@ const pages = {
 
   //home 
   home: {
-    path: "/",
+    path: "/home",
     more: [
       {
         name: "Home",
@@ -62,16 +62,29 @@ const pages = {
 
         path: 'description',
         Component: Description,
+      },
+      { 
+        name: 'Engineering', 
+        Component: Engineering,
+        path: 'engineering',
+      },
+      { 
+        name: 'Results', 
+        Component: Results,
+        path: 'results',
+      },
+      { 
+        name: 'Contribution', 
+        Component: Contribution,
+        path: 'contribution',
+      },
+      { 
+        name: 'Development', 
+        Component: Development,
+        path: 'development',
       }
     ]
   },
-
-  // later also add these one to the project
-  // Engineering, 
-  // Results,
-  // Contribution, 
-  // Development, 
-  
 
   //team
   team: {
@@ -95,7 +108,7 @@ const pages = {
 
   // wetLab
   wetLab: {
-    path: '/wetlab',
+    path: '/wet-lab',
     more: [
       {
         name: "Safety",
@@ -125,7 +138,7 @@ const pages = {
 
   //drylab
   drylab: {
-    path: '/drylab',
+    path: '/dry-lab',
     more: [
       {
         name: "Model",

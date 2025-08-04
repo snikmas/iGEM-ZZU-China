@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { assets } from "../assets/assets.jsx"
+import { Attributions } from "../contents/Attributions.jsx";
 
 export default function Navbar(){
 
@@ -10,31 +11,31 @@ export default function Navbar(){
     },
     "Team": {
       subitems: [
-        {label: "Members", link: '/'},
-        {label: "Attributions", link: '/'}
+        {label: "Members", link: 'members'},
+        {label: "Attributions", link: 'attributions'}
       ],
     },
     "Project": {
       subitems: [
-        {label: "Description", link: '/description'},
-        {label: "Engineering", link: '/engineering'},
-        {label: "Results", link: '/results'}, 
-        {label: "Contribution", link: '/contribution'}, 
-        {label: "Development", link: '/development'}]
+        {label: "Description", link: 'description'},
+        {label: "Engineering", link: 'engineering'},
+        {label: "Results", link: 'results'}, 
+        {label: "Contribution", link: 'contribution'}, 
+        {label: "Development", link: 'development'}]
       },
       "Wet Lab": {
         subitems: [
-          {label: "Experiments", link: '/experiments'}, 
-          {label: "Notebook", link: '/notebook'}, 
-          {label: "Parts", link:'/parts'}, 
-          {label: "Safety", link: '/safety'}
+          {label: "Experiments", link: 'experiments'}, 
+          {label: "Notebook", link: 'notebook'}, 
+          {label: "Parts", link:'parts'}, 
+          {label: "Safety", link: 'safety'}
         ]
       },
       "Dry Lab": {
         subitems: [
-          {label: "Model", link: '/model'},
-          {label: "Software", link: '/software'}, 
-          {label: "Hardware", link: '/hardware'}
+          {label: "Model", link: 'model'},
+          {label: "Software", link: 'software'}, 
+          {label: "Hardware", link: 'hardware'}
         ]
       },
       "Education": {
@@ -44,15 +45,16 @@ export default function Navbar(){
       "Human Practice":{
         link: '/human-practice',
         subitems: [
-          {label: "Integrated Human Practices", link: "/integrated-human-practices"},
-          {label: "Entrepreneurship", link: "/entrepreneurship"},
-          {label: "Cooperation", link: "/cooperation"}
+          {label: "Integrated Human Practices", link: "integrated-human-practices"},
+          {label: "Entrepreneurship", link: "entrepreneurship"},
+          {label: "Cooperation", link: "cooperation"}
         ]
       }
     }
   
 
     function Subnav(items, parentPath){
+      console.log("subn")
       return (
         <ul className='absolute left-0 top-full pt-7 hidden group-hover:flex bg-header flex-col gap-1.5 p-4 rounded-b-xl border-b-2 border-slate-300 shadow-lg min-w-[150px] z-50'>
           {items.map(({ label, link: subPath}, index) => 
