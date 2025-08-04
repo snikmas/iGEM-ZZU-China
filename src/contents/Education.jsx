@@ -2,6 +2,6 @@ import React from 'react'
 
 export  function Education() {
   return (
-    <div>Education</div>
+    <div>Educatioffffn</div>
   )
 }

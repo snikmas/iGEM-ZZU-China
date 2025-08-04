@@ -40,18 +40,18 @@ import {
 const pages = {
 
   //home 
-  home: {
-    path: "/",
-    more: [
-      {
-        name: "Home",
-        title: "Home",
-        path: false,
-        Component: Home,
-        // errorElement: ?
-      }
-    ]
-  },
+  // home: {
+  //   path: "/",
+  //   more: [
+  //     {
+  //       name: "Home",
+  //       title: "Home",
+  //       path: false,
+  //       Component: Home,
+  //       // errorElement: ?
+  //     }
+  //   ]
+  // },
 
   // project
   project: {
@@ -61,7 +61,7 @@ const pages = {
         name: "Description",
         title: "Description",
 
-        path: '/description',
+        path: 'description',
         Component: Description,
       }
     ]
@@ -81,13 +81,13 @@ const pages = {
       {
         name: "Members",
         title: "Members",
-        path: '/members',
+        path: 'members',
         Component: Members,
       },
       {
         name: "Attributions",
         title: "Attributions",
-        path: '/attributions',
+        path: 'attributions',
         Component: Attributions,
       },
 
@@ -101,25 +101,25 @@ const pages = {
       {
         name: "Safety",
         title: "Safety",
-        path: '/safety',
+        path: 'safety',
         Component: Safety,
       },
       {
         name: "Experiments",
         title: "Experiments",
-        path: '/experiments',
+        path: 'experiments',
         Component: Experiments,
       },
       {
         name: "Notebook",
         title: "Notebook",
-        path: "/notebook",
+        path: "notebook",
         Component: Notebook
       },
       {
         name: "Parts",
         title: "Parts",
-        path: "./parts",
+        path: "parts",
         Component: Parts
       }
     ]},
@@ -131,19 +131,19 @@ const pages = {
       {
         name: "Model",
         title: "Model",
-        path: "/model",
+        path: "model",
         Component: Model
       },
       {
         name: "Software",
         title: "Software",
-        path: '/software',
+        path: 'software',
         Component: Software
       },
       {
         name: "Hardware",
         title: "Hardware",
-        path: "/hardware",
+        path: "hardware",
         Component: Hardware
       }
     ],
@@ -168,19 +168,19 @@ const pages = {
       {
         name: "Integrated Human Practices",
         title: "Integrated Human Practices",
-        path: "/integrated-human-practices",
+        path: "integrated-human-practices",
         Component: IntegratedHumanPractices
       },
       {
         name: "Entrepreneurship",
         title: "Entrepreneurship",
-        path: '/entrepreneurship',
+        path: 'entrepreneurship',
         Component: Entrepreneurship
       },
       {
         name: "Cooperation",
         title: "Cooperation",
-        path:  "/cooperation",
+        path:  "cooperation",
         Component: Cooperation
       }
     ]

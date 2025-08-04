@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import Navbar from './Navbar'
+import { Link } from 'react-router'
 
 
 // #D2E0E4
@@ -10,9 +11,9 @@ function Header() {
     <header className='bg-header w-screen flex flex-row sticky top-0'>
       <div className='container h-13 flex justify-between mx-60  items-center my-4'>
         <div className='logo'>
-          <a href="#">
+          <Link to="/">
             <img src={assets.logo} alt="logo" className='w-25' />
-          </a>
+          </Link>
         </div>
         < Navbar />
       </div>

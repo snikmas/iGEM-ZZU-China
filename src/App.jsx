@@ -2,7 +2,9 @@ import './App.css'
 import Header from './components/Header'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Routes } from "react-router-dom"
 import pages from './pages'
-import pathMapping from './utils/pathMapping'
+// import pathMapping from './utils/pathMapping'
+import { Home } from './contents'
+import { Navigate } from 'react-router-dom'
 
 // import Home from './contents/index'
 
@@ -28,7 +30,46 @@ function App() {
     // return <RouterProvider path="/home" router={router}/>
     <>
       <Header />
-      {pathMapping()}
+
+      <Routes basename="/zzu-china">
+      
+        {/* homepage */}
+        <Route index element={< Home /> } />
+        <Route path="/" element={<Navigate to="/" replace />} />
+
+
+        { Object.entries(pages).map(([key, page]) => {
+          const {path, more} = page;
+        
+          // no subnav
+          if(more.length === 1 && !more[0].path) {
+
+            const Component = more[0].Component
+            console.log(Component)
+
+            return (
+              <Route 
+                key={more[0].title} 
+                path={path} 
+                element={< Component />} 
+              />)
+          }
+
+    // If there are multiple subpages (nested routing)
+          return (
+            more.map((sub) => {
+              const SubComponent = sub.Component;
+              return (
+                <Route 
+                  key={path} 
+                  path={`${path.replace(/^\//, '')}/${sub.path}`}
+                  element={<SubComponent />}
+                />)
+      }))
+    })}  
+    </Routes>
+
+
 
     </>
   )
