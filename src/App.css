@@ -4,3 +4,33 @@
   --color-header: #D2E0E4
 }
 
+
+ /* paragraphs */
+ .title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 4rem;
+ }
+
+ .paragraph {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0rem;
+ }
+
+ .sub-title{
+  margin: 2.3rem 0 0.4rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+ }
+
+
+ /* lists */
+ol {
+  @apply list-decimal ml-6 mb-2 text-base leading-relaxed;
+  padding: 1rem 0rem;
+  font-size: 1.1rem;
+}
+
+li {
+  padding: 0.5rem 0rem;
+}
