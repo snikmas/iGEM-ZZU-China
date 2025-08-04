@@ -34,3 +34,23 @@ ol {
 li {
   padding: 0.5rem 0rem;
 }
+
+/* sidebar */
+
+.sideNavbar h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3.5rem;
+}
+
+.sideNavbarContents {
+  border:2px solid darkblue;
+  display: flex;
+  flex-direction: column;
+  gap:0.6rem;
+  width:max-content;
+}
+
+.sideNavbarContents h3 {
+
+}

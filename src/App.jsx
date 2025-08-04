@@ -15,7 +15,9 @@ function App() {
     <div className="fullSite flex flex-col gap-20">
 
       <Header />
-      <div className='screen flex px-30 gap-30 text-base leading-relaxed'>
+      <div className='screen flex px-15 gap-25 text-base leading-relaxed'>
+
+        
         < SideNavbar />
 
 
