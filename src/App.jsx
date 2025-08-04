@@ -35,6 +35,8 @@ function App() {
       
         {/* homepage */}
         <Route index element={< Home /> } />
+
+        {/* i wanna redirect the wrong */}
         <Route path="/" element={<Navigate to="/" replace />} />
 
 
@@ -67,6 +69,8 @@ function App() {
                 />)
       }))
     })}  
+
+    <Route path="*" element={<>opps, there's notihng</>}/>
     </Routes>
 
 

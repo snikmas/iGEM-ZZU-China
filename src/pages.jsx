@@ -40,18 +40,17 @@ import {
 const pages = {
 
   //home 
-  // home: {
-  //   path: "/",
-  //   more: [
-  //     {
-  //       name: "Home",
-  //       title: "Home",
-  //       path: false,
-  //       Component: Home,
-  //       // errorElement: ?
-  //     }
-  //   ]
-  // },
+  home: {
+    path: "/",
+    more: [
+      {
+        name: "Home",
+        title: "Home",
+        path: false,
+        Component: Home,
+      }
+    ]
+  },
 
   // project
   project: {
