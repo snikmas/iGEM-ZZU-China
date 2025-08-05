@@ -8,7 +8,7 @@ import { Link } from 'react-router'
 function Header() {
 
   return (
-    <header className='bg-header w-screen flex flex-row sticky top-0'>
+    <header className='bg-header flex flex-row sticky top-0'>
       <div className='container h-13 flex justify-between mx-60  items-center my-4'>
         <div className='logo'>
           <Link to="/">

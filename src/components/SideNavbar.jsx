@@ -1,25 +1,32 @@
-import React from 'react'
+  import React from 'react'
 
-function SideNavbar({props}) {
+  function SideNavbar({props}) {
 
-  console.log(props)
+    function scrollToSection(id){
+      const el = document.getElementById(id);
+      console.log(el)
+      if(el){
+        let coord = el.getBoundingClientRect();
+        console.log(coord)
+        window.scrollTo(0, coord.top - 90)
+      }
+    }
+
+    function renderSections() {
+      return Object.entries(props).map(([key, value]) => {
+        return <h6 className='render' key={key} onClick={() => scrollToSection(key)}>{value}</h6>
+      })
+    }
 
 
-  function renderSections() {
-    return Object.entries(props).map(([key, value]) => {
-      return <a key={key} href={`#${key}`}>{value}</a>
-    })
+    return (
+      <div className='sideNavbar'>
+        <h4>Contents</h4>
+        <div className='sideNavbarContents'>
+          { renderSections() }
+        </div>
+      </div>
+    )
   }
 
-
-  return (
-    <div className='sideNavbar'>
-      <h4>Contents</h4>
-      <div className='sideNavbarContents'>
-        { renderSections() }
-      </div>
-    </div>
-  )
-}
-
-export default SideNavbar
+  export default SideNavbar
