@@ -149,7 +149,14 @@ const pages = {
         name: "Model",
         title: "Model",
         path: "model",
-        Component: Model
+        Component: Model,
+        contents: {
+          section_1: "Introduction",
+          section_2: "Aptamer Screening",
+          section_3: "Molecular Docking",
+          section_4: "Complementary Strand Design",
+          section_5: "Reference",
+        }
       },
       {
         name: "Software",

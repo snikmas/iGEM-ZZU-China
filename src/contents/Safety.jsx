@@ -1,6 +1,3 @@
-
-
-
 export function Safety({props}) {
 
   const { section_1, section_2, section_3 } = props;
