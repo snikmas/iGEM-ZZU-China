@@ -18,7 +18,7 @@ import {
   Experiments,
   Notebook, 
   Parts,
-  Safety, 
+  Safety,
 
   //drylab
   Model, 
@@ -115,6 +115,11 @@ const pages = {
         title: "Safety",
         path: 'safety',
         Component: Safety,
+        contents: {
+          section_1: "Identification of Risks",
+          section_2: "Management of Risks",
+          section_3: "Responsibility in Human Practices"
+        }
       },
       {
         name: "Experiments",

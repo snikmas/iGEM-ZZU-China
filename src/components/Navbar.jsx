@@ -54,7 +54,6 @@ export default function Navbar(){
   
 
     function Subnav(items, parentPath){
-      console.log("subn")
       return (
         <ul className='absolute left-0 top-full pt-7 hidden group-hover:flex bg-header flex-col gap-1.5 p-4 rounded-b-xl border-b-2 border-slate-300 shadow-lg min-w-[150px] z-50'>
           {items.map(({ label, link: subPath}, index) => 
