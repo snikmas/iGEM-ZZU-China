@@ -8,7 +8,7 @@
       if(el){
         let coord = el.getBoundingClientRect();
         console.log(coord)
-        window.scrollTo(0, coord.top - 90)
+        window.scrollTo({top: coord.top - 90, left: 0, behavior: "smooth" })
       }
     }
 
