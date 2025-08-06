@@ -12,7 +12,7 @@ function Header() {
       <div className='container h-13 flex justify-between mx-60  items-center my-4'>
         <div className='logo'>
           <Link to="/">
-            <img src={assets.logo} alt="logo" className='w-25' />
+            <img src="https://static.igem.wiki/teams/5822/assets/logo.webp" alt="logo" className='w-25' />
           </Link>
         </div>
         < Navbar />

@@ -10,7 +10,6 @@ import SideNavbar from './components/SideNavbar'
 function App() {
 
   return (
-    // return <RouterProvider path="/home" router={router}/>
     <>
     <div className="fullSite flex flex-col gap-20">
 

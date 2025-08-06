@@ -8,6 +8,7 @@ export function Model({ props }) {
   return (
     <div>
       <h1 className="title">Model</h1>
+
       <section id="section_1">
         <h2 className="sub-title">{section_1}</h2>
         <hr />
@@ -15,12 +16,11 @@ export function Model({ props }) {
           In our designed detection system, there are four different types of magnetic beads, each of which carries an aptamer specific to a target protein and its complementary strand. When the target protein enters the detection system, the corresponding complementary strand is competitively replaced. The complementary strand contains a complementary segment to crRNA, which can activate the CRISPR/Cas14a enzyme, cleave the fluorescent probe, and emit fluorescence. Therefore, in our system, we utilized molecular docking technology and some software to assist us in the design and establishment of the model.
         </p>
         <div className='img text-center items-center flex flex-col font-medium'>
-          <img src='https://static.igem.wiki/teams/5822/assets/model/model-01.webp' alt="model-01" className='w-[90%]'/>
+          <img src='https://static.igem.wiki/teams/5822/assets/model/model-01.webp' alt="model-01" className='w-[90%]' />
           <span>Fig1. Schematic diagram</span>
         </div>
       </section>
 
-      
       <section id="section_2">
         <h2 className="sub-title">{section_2}</h2>
         <hr />
@@ -28,20 +28,21 @@ export function Model({ props }) {
           Aptamers are a class of single-stranded oligonucleotides obtained through in vitro screening techniques, capable of binding to target molecules (including proteins, small molecules, metal ions, etc.) with high affinity and specificity. Their binding ability stems from the unique three-dimensional structure formed by their self-folding, interacting with target molecules through non-covalent bonds such as hydrogen bonding, hydrophobic interactions, and van der Waals forces[1]。
         </p>
         <div className='img text-center items-center flex flex-col font-medium'>
-          <img src='https://static.igem.wiki/teams/5822/assets/model/model-02.webp' alt="model-02" className='w-[90%]'/>
-          <span>Fig2. The Structure of the aptamer</span>
+          <img src='https://static.igem.wiki/teams/5822/assets/model/model-02.webp' alt="model-02" className='w-[90%]' />
+          <span>Fig2. The structure of the aptamer</span>
         </div>
         <p className="paragraph">
           In this study, the screening of aptamers was primarily accomplished by reviewing literature and comparing equilibrium dissociation constants (KD values). The specific process is as follows:
         </p>
         <ol>
           <li className="li-paragraph">Literature search: Using the keywords "aptamer + target protein name", search for relevant literature in databases such as PubMed and Web of Science, and collect reported aptamer information specific to the target protein.</li>
-          <li className="li-paragraph">Preliminary screening: Eliminate literature with duplicate reports, ambiguous sequences, or insufficient experimental verification, and retain literature containing aptamer sequences, KD values, and specificity verification results. </li>
-          <li className="li-paragraph">KD value comparison: The KD value is an important indicator reflecting the binding affinity between the aptamer and the target. The smaller the KD value, the higher the affinity. For the aptamers initially selected, those with smaller KD values (usually &lt;100 nM) are preferred. </li>
+          <li className="li-paragraph">Preliminary screening: Eliminate literature with duplicate reports, ambiguous sequences, or insufficient experimental verification, and retain literature containing aptamer sequences, KD values, and specificity verification results.</li>
+          <li className="li-paragraph">KD value comparison: The KD value is an important indicator reflecting the binding affinity between the aptamer and the target. The smaller the KD value, the higher the affinity. For the aptamers initially selected, those with smaller KD values (usually &lt;100 nM) are preferred.</li>
         </ol>
 
-        <div className='table'>
-          <table>Table1: Aptamer Sequence of Target Protein
+        <div className='overflow-x-auto mb-6 text-center'>
+          <table className='w-full'>
+          <caption>Table 1: Aptamer Sequence of Target Protein</caption>
             <tr>
               <th>Target Protein</th>
               <th>Sequence (5’-3’)</th>
@@ -61,7 +62,7 @@ export function Model({ props }) {
               <td>PD-L1</td>
               <td>ACGGGCCACATCAACTCATTGATAGACAATGCGTCCACTGCCCGT</td>
               <td>[4]</td>
-            </tr>
+              </tr>
             <tr>
               <td>EPCAM</td>
               <td>CACTACAGAGGTTGCGTCTGTCCCACGTTGTCATGGGGGGTTGGCCTGTTTT</td>
@@ -74,81 +75,225 @@ export function Model({ props }) {
             </tr>
           </table>
         </div>
-
-
-
       </section>
 
-      <section id="section_2">
-        <h2 className="sub-title">{section_2}</h2>
+      <section id="section_3">
+        <h2 className="sub-title">{section_3}</h2>
         <hr />
         <p className="paragraph">
           Molecular docking is a crucial method in drug design and biomolecular interaction research based on molecular structure. In aptamer research, it is used to simulate the interaction between aptamers and target molecules. We utilize molecular docking to predict the binding sites of aptamers and target proteins, aiding in the subsequent design of complementary strands and ensuring the efficiency of the substitution reaction.
         </p>
+        
         <ol>
-          <li className="li-paragraph">Preparation of 3D structure</li>
-          <li className="li-paragraph"><strong>Reverse complement generation:</strong> Binding segments were reverse complemented to form the first part of the APT-c sequence.</li>
-          <li className="li-paragraph"><strong>Functional fusion:</strong> A crRNA recognition site was fused to the APT-c to activate CRISPR/Cas14a upon displacement.</li>
+            {/*  big main, 1/3 */}
+          <li className="li-paragraph"> 
+            <strong>Preparation of 3D structure</strong>
+            <ol>
+              <li className="li-paragraph braces-li">
+                {/* the 2nd one, 2/3 */}
+                <strong>Construction of aptamer structure</strong>
+                <ol>
+                  <li className="li-paragraph">
+                    <strong>Secondary structure prediction:</strong> Input the selected aptamer sequence into the UNAfold website, select the RNA folding module, and set the parameters as follows:
+                    <ul className="nested-ul li-paragraph">
+                      <li>Temperature: 37°C (simulated physiological conditions)</li>
+                      <li>Ion concentration: 140 mM Na⁺, 5 mM Mg²⁺ (simulating intracellular environment)</li>
+                      <li>Folding algorithm: Using mfold default parameters</li>
+                      <li>Output format: ct file (for tertiary structure modeling)</li>
+                    </ul>
+
+                    <div className='img text-center items-center flex flex-col font-medium py-5'>
+                      <img src='https://static.igem.wiki/teams/5822/assets/model/model-03.webp' alt="model-03" className='w-[50%] py-5' />
+                      <span>Fig3. The tertiary structure of nucleic acid aptamers</span>
+                    </div>
+
+                  </li>
+                  <li className="li-paragraph">
+                    <strong>Generation of tertiary structure:</strong> Upload the ct file output by UNAfold to RNA Composer, and select to generate the tertiary structure:
+                    <ul className="nested-ul li-paragraph">
+                      <li>Modeling accuracy: High accuracy</li>
+                      <li>Optimization rounds: 100 cycles</li>
+                      <li>Output format: PDB file</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li className="li-paragraph braces-li">
+                <strong>Acquisition of target protein structure:</strong> Retrieve the ID of the target protein from the UniProt database. Link to the PDB database via ID and download the corresponding crystal structure file.
+              </li>
+            </ol>
+
+            <div className='img text-center items-center flex flex-col font-medium py-5'>
+              <img src='https://static.igem.wiki/teams/5822/assets/model/model-04.webp' alt="model-04" className='w-[50%] py-5' />
+              <span>Fig4. The tertiary structure of nucleic acid aptamers</span>
+            </div>
+          </li>
+        
+
+          <li className="li-paragraph">
+            <strong>Molecular docking simulation</strong>
+            <p className="paragraph">
+              Submit the preprocessed aptamer and target protein PDB files to the Z-DOCK Server. Docking parameter settings:
+            </p>
+            <ul className="nested-ul li-paragraph">
+              <li>Docking type: Protein-RNA</li>
+              <li>Search space: Global docking</li>
+              <li>Sampling density: Medium (ensuring computational efficiency while covering the main binding modes)</li>
+              <li>Constraint conditions: None (no constraints are set in the initial screening stage)</li>
+            </ul>
+          </li>
+
+          <li className="li-paragraph">
+            <strong>. Result analysis and visualization (determination of docking sites)</strong>
+            <p className="paragraph">
+              Download the top 10 docking conformation files, and open the file with the best docking activity for subsequent analysis.
+            </p>
+          </li>
         </ol>
+
+
+
+        <div className='bg-amber-200 h-20'>
+          pdf
+        </div>
+
+        <div className='img text-center items-center flex flex-col font-medium py-5'>
+          <img src='https://static.igem.wiki/teams/5822/assets/model/model-05.webp' alt="model-05" className='w-[80%] py-5' />
+          <span>Fig4. The tertiary structure of nucleic acid aptamers</span>
+        </div>
+        <div className='overflow-x-auto mb-6 text-center'>
+          <table className='min-w-full border border-gray-300 text-sm'>
+            <caption>Table 2: Aptamer Sequence of Target Protein</caption>
+            <thead>
+              <tr>
+                <th>Target Protein</th>
+                <th>Sequence (5’-3’)</th>
+                <th>Reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CD63</td>
+                <td>CACCCCACCTCGCTCCCGTGACACTAATGCTA</td>
+                <td>[2]</td>
+              </tr>
+              <tr>
+                <td>ERBB2</td>
+                <td>GCAGCGGTGTGGGGGCAGCGGTGTGGGGGCAGCGGTGTGGGG</td>
+                <td>[3]</td>
+              </tr>
+              <tr>
+                <td>PD-L1</td>
+                <td>ACGGGCCACATCAACTCATTGATAGACAATGCGTCCACTGCCCGT</td>
+                <td>[4]</td>
+              </tr>
+              <tr>
+                <td>EPCAM</td>
+                <td>CACTACAGAGGTTGCGTCTGTCCCACGTTGTCATGGGGGGTTGGCCTGTTTT</td>
+                <td>[5]</td>
+              </tr>
+              <tr><td className='border px-4 py-2'>MMP9</td><td className='border px-4 py-2'>TACGGCCGCACGAAAAGGTGCCCCATAACTCAATGCCGTA</td><td className='border px-4 py-2'>[6]</td></tr>
+            </tbody>
+          </table>
+        </div>
       </section>
 
-      {/* <section id="section_4">
-        <h2 className="sub-title">{section_4}</h2>
-        <hr />
-        <p className="paragraph">
-          To assess the performance and feasibility of APT-c sequences, we used Oligo7 to analyze their thermodynamic and structural properties.
-        </p>
-        <ol>
-          <li className="li-paragraph"><strong>Structure simulation:</strong> The full “APT-APT-c” duplex was constructed by splicing the reverse-complemented APT-c to the APT sequence.</li>
-          <li className="li-paragraph"><strong>Thermodynamic analysis:</strong> Oligo7 was used to evaluate Tm and ΔG values. Ideal Tm: 58–62°C; optimal ΔG ≤ -25 kcal/mol.</li>
-          <li className="li-paragraph"><strong>Hairpin prediction:</strong> Hairpin structures in APT-c were examined to avoid self-binding, which could hinder aptamer displacement.</li>
-        </ol>
-        <p className="paragraph">
-          Sequences meeting stability and non-hairpin criteria were considered valid for experimental use.
-        </p>
-        {/* Insert figures: Hairpin analysis, thermodynamic data */}
-      {/* </section> */} 
 
-      {/* <section id="section_5">
-        <h2 className="sub-title">{section_5}</h2>
-        <hr />
-        <p className="paragraph">
-          The finalized complementary sequences (APT-c) for each target protein are shown below, including variants with optimized displacement efficiency.
-        </p>
-        {/* Add complementary strand table for each target protein */}
-        <p className="paragraph">
-          For example, the complementary strands designed for ERBB2 included:
-        </p>
-        <ul>
-          <li className="li-paragraph">TTTCGATTAAAGCTCGCCATCAAATCACACCGCTGCCCCCACA</li>
-          <li className="li-paragraph">TTTCGATTAAAGCTCGCCATCAAATACACCGCTGCCCCCACA</li>
-        </ul>
-      {/* </section> */} 
+<section id="section_4">
+  <h2 className="sub-title">Complementary Strand Design</h2>
+  <hr />
+  <ol>
+    <li className="li-paragraph braces-li">
+      <strong>Determine the binding region:</strong> Through molecular docking (ZDOCK), obtain the docking sites between the target protein and the aptamer, and select a binding segment with a length of approximately 20 bp from the APT sequence to ensure that the marker can replace APT-c.
+    </li>
+    <li className="li-paragraph braces-li">
+      <strong>Generate the main sequence of APT-c via reverse complement:</strong> Subject the selected APT binding segment to reverse complement treatment, which serves as the first segment of the APT-c sequence. This segment is used for specific binding with APT. <br />
+      <em>Fig6. APT & APT-c Complementary Sequence</em>
+    </li>
+    <li className="li-paragraph braces-li">
+      <strong>Splice functional fragments:</strong> Splice an experimentally verified and structurally stable crRNA recognition segment after the first segment of APT-c, to ensure that the target site recognized by the Cas system can be completely exposed or constructed after APT binds to APT-c, thereby realizing the signal conversion function. <br />
+      <em>Fig7. crRNA Identification Sequence and PAM Sequence</em>
+    </li>
+    <li className="li-paragraph braces-li">
+      <strong>Obtain the APT-c sequence:</strong> <br />
+      <em>Fig8. APT-c Sequence</em>
+    </li>
+  </ol>
 
-      {/* <section id="section_6">
-        <h2 className="sub-title">{section_6}</h2>
-        <hr />
-        <p className="paragraph">
-          To evaluate the efficiency of target-mediated displacement of APT-c from the APT-APT-c complex, we defined the displacement efficiency (E) using the following model:
-        </p>
-        <p className="paragraph">
-          <strong>Displacement Efficiency Formula:</strong>
-        </p>
-        <p className="paragraph">
-          E = [T] / (KD′ + [APT−c])
-        </p>
-        <p className="paragraph">
-          Where:
-        </p>
-        <ul>
-          <li className="li-paragraph"><strong>KD′:</strong> Dissociation constant between APT and APT-c, derived from ΔG using KD′ = e^(ΔG / RT)</li>
-          <li className="li-paragraph"><strong>[APT−c]:</strong> Concentration of the complementary strand, an experimentally controlled variable</li>
-        </ul>
-        <p className="paragraph">
-          For ERBB2, we applied this model to compare different APT-c variants. Results showed that CS1 exhibited the highest displacement efficiency, validating it as the optimal choice for experimental use.
-        </p>
-        {/* Insert graphical result or equation visualization if needed */}
-      {/* </section> */}
+  <h3 className="sub-sub-title">Complementary Strand Analysis</h3>
+  <ol>
+    <li className="li-paragraph braces-li">
+      <strong>Construct a complete structural template:</strong> Reverse complement the designed APT-c sequence, splice it to the end of the APT sequence, and form a complete "APT-APT-c" complex sequence to simulate its behavior in the actual binding state.
+    </li>
+    <li className="li-paragraph braces-li">
+      <strong>Input into the analysis platform:</strong> Input the complete sequence into Oligo7 software; in the "Primer Analysis" module, set the original APT sequence as the "forward primer" and APT-c as the "reverse primer", which simulates the primer pair when they bind as complementary strands.
+    </li>
+    <li className="li-paragraph braces-li">
+      <strong>Structural and thermodynamic evaluation:</strong> After clicking for analysis, the system will output the following key parameters:
+      <ul className="nested-ul li-paragraph">
+        <li><strong>Tm value (binding temperature):</strong> Used to evaluate the binding strength between APT and APT-c. Ideal range: 58~62℃.</li>
+        <li><strong>ΔG value (free energy):</strong> Reflects thermodynamic spontaneity. Recommended: ΔG ≤ -25 kcal/mol.</li>
+        <li><strong>Hairpin structure analysis:</strong> APT-c should avoid forming stable hairpins to prevent self-binding issues.</li>
+      </ul>
+      <em>Fig9–11. ΔG, Tm, and Hairpin Analysis Figures</em>
+    </li>
+    <li className="li-paragraph braces-li">
+      <strong>Comprehensive evaluation of design:</strong>
+      <ul className="nested-ul li-paragraph">
+        <li>If Tm values are within range and APT-c avoids hairpins → design is valid for experiments.</li>
+        <li>If not, reselect binding region or adjust GC content and sequence length.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h3 className="sub-sub-title">Table 3. Aptamer Complementary Strand</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Target Protein</th>
+        <th>Sequence (5’–3’)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ERBB2</td>
+        <td>TTTCGATTAAAGCTCGCCATCAAATCACACCGCTGCCCCCACA<br />TTTCGATTAAAGCTCGCCATCAAATACACCGCTGCCCCCACA</td>
+      </tr>
+      <tr>
+        <td>PD-L1</td>
+        <td>TTTCGATTAAAGCTCGCCATCAAATTTGTCTATCAATGAGTTGATGTGGC<br />TTTCGATTAAAGCTCGCCATCAAATGGACGCATTGTCTATCAATGAG</td>
+      </tr>
+      <tr>
+        <td>MMP9</td>
+        <td>TTTCGATTAAAGCTCGCCATCAAATTTATGGGGCACCTTTTCGTG<br />TTTCGATTAAAGCTCGCCATCAAATGTTATGGGGCACCTTTTCGT</td>
+      </tr>
+      <tr>
+        <td>EPCAM</td>
+        <td>TTTCGATTAAAGCTCGCCATCAAATCCCATGACAACGTGGGACAG<br />TTTCGATTAAAGCTCGCCATCAAATCATGACAACGTGGGACAGACGC</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 className="sub-sub-title">Substitution Efficiency Model</h3>
+  <p className="paragraph">
+    To quantify the competitive displacement efficiency (E) of the target protein (T) on the aptamer-complementary strand (APT–APT-c) complex, we use the formula:
+  </p>
+
+  <ul className="nested-ul li-paragraph">
+    <li><strong>KD′:</strong> Dissociation constant (from ΔG via Oligo7): KD′ = e^(ΔG / RT)</li>
+    <li><strong>[APT–c]:</strong> Complementary strand concentration (experimentally controlled)</li>
+  </ul>
+
+  <p className="paragraph">
+    The process of calculating substitution efficiency using the competitive model takes ERBB2 as an example. CS1 exhibits higher displacement efficiency, confirming it is the optimal choice.
+  </p>
+</section>
+
+
+
+      
+
+      
     </div>
   );
 }

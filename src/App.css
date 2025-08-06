@@ -85,3 +85,65 @@ li {
 .render:hover {
   background-color: #f3b0ff82;
 }
+
+
+/* lists */
+.nested-ul > li::before {
+  content: '\26AB';
+  font-size: 8px;
+  
+}
+
+.nested-ul > li {
+  align-items: center;
+  display: flex;
+  gap:10px;
+  flex-direction: row;
+}
+
+
+.braces-li{
+  list-style: none;
+  counter-increment: item;
+  position: relative;
+  padding-left: 2em;
+}
+
+.braces-li::before {
+  content: "(" counter(item) ") ";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+
+.braces-li li {
+  padding-left: 2em;
+  margin-bottom: 0.5em;
+}
+
+
+
+
+/* talbes */
+
+table th {
+  background-color: #F3F4F6;
+  border: 1px solid black;
+  padding: 15px 0px;
+}
+
+td {
+  border: 1px solid black;
+  padding:10px 0px;
+}
+
+caption {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+header {
+  z-index: 1;
+}
