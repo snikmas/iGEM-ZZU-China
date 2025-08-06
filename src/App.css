@@ -37,17 +37,6 @@ body {
  }
 
 
- /* lists */
-ol {
-  @apply list-decimal ml-6 mb-2 text-base leading-relaxed;
-  padding: 1rem 0rem;
-  font-size: 1.1rem;
-}
-
-li {
-  padding: 0.5rem 0rem;
-}
-
 /* sidebar */
 
 .sideNavbar {
@@ -88,13 +77,30 @@ li {
 
 
 /* lists */
-.nested-ul > li::before {
+/* do lists types */
+
+.list-01 {
+  @apply list-decimal ml-6 mb-2 text-base leading-relaxed;
+  padding: 1rem 0rem;
+  font-size: 1.1rem;
+}
+
+li {
+  padding: 0.5rem 0rem;
+}
+
+.list-4 {
+  background-color: cadetblue;
+  list-style: circle;
+}
+
+.list-03 > li::before {
   content: '\26AB';
   font-size: 8px;
   
 }
 
-.nested-ul > li {
+.list-03 > li {
   align-items: center;
   display: flex;
   gap:10px;
@@ -146,4 +152,40 @@ caption {
 
 header {
   z-index: 1;
+}
+
+
+/* img */
+.formula-img {
+  padding-bottom: 15px;
+}
+
+.formula-div{
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.formula-div img {
+  align-self: center;
+  width: 80%;
+}
+
+/* div */
+.formula {
+  padding-top: 2rem;       
+  padding-bottom: 2rem;
+  text-align: center;      
+  display: flex;           
+  align-items: center;     
+  flex-direction: column;  
+  font-weight: 500;    
+}
+
+.formula img {
+  width: 80%;
+  margin-top: 2rem;
 }
