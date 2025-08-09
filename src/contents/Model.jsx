@@ -3,11 +3,10 @@ import { assets } from '../assets/assets'
 
 
 export function Model({ props }) {
-  const { section_1, section_2, section_3, section_4, section_5, section_6 } = props;
+  const { section_1, section_2, section_3, section_4, section_5 } = props;
 
   return (
     <div>
-
       <section id="section_1">
         <h2 className="sub-title">{section_1}</h2>
         <hr />
@@ -15,8 +14,8 @@ export function Model({ props }) {
           In our designed detection system, there are four different types of magnetic beads, each of which carries an aptamer specific to a target protein and its complementary strand. When the target protein enters the detection system, the corresponding complementary strand is competitively replaced. The complementary strand contains a complementary segment to crRNA, which can activate the CRISPR/Cas14a enzyme, cleave the fluorescent probe, and emit fluorescence. Therefore, in our system, we utilized molecular docking technology and some software to assist us in the design and establishment of the model.
         </p>
         <div className='div-img'>
-          <img src='https://static.igem.wiki/teams/5822/assets/model/model-01.webp' alt="model-01" className='w-[90%]' />
-          <span>Fig1. Schematic diagram</span>
+          <img src='https://static.igem.wiki/teams/5822/assets/model/model-01.webp' alt="model-01"/>
+          <span><em>Fig1. Schematic diagram</em></span>
         </div>
       </section>
 
@@ -27,8 +26,8 @@ export function Model({ props }) {
           Aptamers are a class of single-stranded oligonucleotides obtained through in vitro screening techniques, capable of binding to target molecules (including proteins, small molecules, metal ions, etc.) with high affinity and specificity. Their binding ability stems from the unique three-dimensional structure formed by their self-folding, interacting with target molecules through non-covalent bonds such as hydrogen bonding, hydrophobic interactions, and van der Waals forces[1]。
         </p>
         <div className='div-img'>
-          <img src='https://static.igem.wiki/teams/5822/assets/model/model-02.webp' alt="model-02" className='w-[90%]' />
-          <span>Fig2. The structure of the aptamer</span>
+          <img src='https://static.igem.wiki/teams/5822/assets/model/model-02.webp' alt="model-02"/>
+          <span><em>Fig2.The structure of the aptamer</em></span>
         </div>
         <p className="paragraph">
           In this study, the screening of aptamers was primarily accomplished by reviewing literature and comparing equilibrium dissociation constants (KD values). 
@@ -41,7 +40,7 @@ export function Model({ props }) {
           <li>KD value comparison: The KD value is an important indicator reflecting the binding affinity between the aptamer and the target. The smaller the KD value, the higher the affinity. For the aptamers initially selected, those with smaller KD values (usually &lt;100 nM) are preferred.</li>
         </ol>
 
-        <div>
+        <div className='table-div'>
           <table>
           <caption>Table 1: Aptamer Sequence of Target Protein</caption>
             <tr>
@@ -102,8 +101,8 @@ export function Model({ props }) {
                     </ul>
 
                     <div className='div-img'>
-                      <img src='https://static.igem.wiki/teams/5822/assets/model/model-03.webp' alt="model-03" className='w-[50%] py-5' />
-                      <span>Fig3. The tertiary structure of nucleic acid aptamers</span>
+                      <img src='https://static.igem.wiki/teams/5822/assets/model/model-03.webp' alt="model-03"/>
+                      <span><em>Fig3. The tertiary structure of nucleic acid aptamers</em></span>
                     </div>
                   </li>
                   <li className="li-paragraph">
@@ -122,8 +121,8 @@ export function Model({ props }) {
             </ol>
 
             <div className='div-img'>
-              <img src='https://static.igem.wiki/teams/5822/assets/model/model-04.webp' alt="model-04" className='w-[50%] py-5' />
-              <span>Fig4. Schematic diagram of protein structure</span>
+              <img src='https://static.igem.wiki/teams/5822/assets/model/model-04.webp' alt="model-04"/>
+              <span><em>Fig4. Schematic diagram of protein structure</em></span>
             </div>
           </li>
           <li>
@@ -154,8 +153,8 @@ export function Model({ props }) {
         </div>
 
         <div className='div-img'>
-          <img src='https://static.igem.wiki/teams/5822/assets/model/model-05.webp' alt="model-05" className='w-[80%] py-5' />
-          <span>Fig5. Schematic diagram of docking results of four target proteins</span>
+          <img src='https://static.igem.wiki/teams/5822/assets/model/model-05.webp' alt="model-05"/>
+          <span><em>Fig5. Schematic diagram of docking results of four target proteins</em></span>
         </div>
         <div className='table-div'>
           <table>
@@ -196,7 +195,7 @@ export function Model({ props }) {
 
 
 <section id="section_4">
-  <h2 className="sub-title">Complementary Strand Design</h2>
+  <h2 className="sub-title">{section_4}</h2>
   <hr />
   <h3 className='text-lg pt-8 font-semibold'>Complementary strand design</h3>
   <ol className='list-01'>
@@ -315,8 +314,42 @@ export function Model({ props }) {
     <img src='https://static.igem.wiki/teams/5822/assets/model/model-15.webp' alt="model-15"/>    
     <img src='https://static.igem.wiki/teams/5822/assets/model/model-16.webp' alt="model-16"/>    
   </div>
-</section>
+  </section>
 
+  
+
+  
+<section id="section_5">
+  <h2 className="sub-title">{section_5}</h2>
+  <hr />
+  <section id="references">
+    <ol className='list-01'>
+      <li>
+        Ji C, Wei J, Zhang L, et al. Aptamer-Protein Interactions: From Regulation to Biomolecular Detection. <em>Chem Rev.</em> 2023;123(22):12471-12506.
+      </li>
+      <li>
+        Song Z, Mao J, Barrero RA, Wang P, Zhang F, Wang T. Development of a CD63 Aptamer for Efficient Cancer Immunochemistry and Immunoaffinity-Based Exosome Isolation. <em>Molecules.</em> 2020;25(23):5585. Published 2020 Nov 27. 
+        <a href="https://doi.org/10.3390/molecules25235585" target="_blank" rel="noopener noreferrer">doi:10.3390/molecules25235585</a>
+      </li>
+      <li>
+        Yan J, Bhadane R, Ran M, et al. Development of Aptamer-DNAzyme based metal-nucleic acid frameworks for gastric cancer therapy. <em>Nat Commun.</em> 15, 3684 (2024). 
+        <a href="https://doi.org/10.1038/s41467-024-48149-9" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41467-024-48149-9</a>
+      </li>
+      <li>
+        Lai WY, Huang BT, Wang JW, Lin PY, Yang PC. A Novel PD-L1-targeting Antagonistic DNA Aptamer With Antitumor Effects. <em>Mol Ther Nucleic Acids.</em> 2016;5(12):e397. Published 2016 Dec 13. 
+        <a href="https://doi.org/10.1038/mtna.2016.102" target="_blank" rel="noopener noreferrer">doi:10.1038/mtna.2016.102</a>
+      </li>
+      <li>
+        Guan X, Zhao J, Sha Z, et al. CRISPR/Cas12a and aptamer-chemiluminescence based analysis for the relative abundance determination of tumor-related protein positive exosomes for breast cancer diagnosis. <em>Biosens Bioelectron.</em> 2024;259:116380. 
+        <a href="https://doi.org/10.1016/j.bios.2024.116380" target="_blank" rel="noopener noreferrer">doi:10.1016/j.bios.2024.116380</a>
+      </li>
+      <li>
+        Yu XA, Hu Y, Zhang Y, et al. Integrating the Polydopamine Nanosphere/Aptamers Nanoplatform with a DNase-I-Assisted Recycling Amplification Strategy for Simultaneous Detection of MMP-9 and MMP-2 during Renal Interstitial Fibrosis. <em>ACS Sens.</em> 2020;5(4):1119-1125. 
+        <a href="https://doi.org/10.1021/acssensors.0c00058" target="_blank" rel="noopener noreferrer">doi:10.1021/acssensors.0c00058</a>
+      </li>
+    </ol>
+    </section>
+</section>
 
 
       

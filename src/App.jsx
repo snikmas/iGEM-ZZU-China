@@ -63,7 +63,7 @@ function App() {
                   element={
                   <div>
                   {contents && <SideNavbar props={sub.contents} />}
-                    <div className='pl-60'>
+                    <div className='pl-70'>
                       <SubComponent props={sub.contents} />
                     </div>
                   </div>}
