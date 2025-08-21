@@ -14,11 +14,9 @@ function App() {
     <div className="fullSite flex flex-col gap-20">
 
       <Header />
-      <div className='screen flex px-10 gap-25 text-base leading-relaxed'>
+      <div className="screen flex flex-col px-20 text-base leading-relaxed">
 
-        
         <Routes>
-      
         {/* i wanna redirect to home */}
         <Route path="/" element={<Navigate to="/home" replace />} />
 
@@ -28,12 +26,11 @@ function App() {
           const contents = more.contents || null;
         
           
-        { contents && <SideNavbar contents={contents} />}
+        { contents && <SideNavbar contents={contents}/>}
 
         
           // no subnav
-          if(more.length === 1 && !more[0].path) {
-            
+          if(more.length === 1 && !more[0].path) {            
             const Component = more[0].Component
             const contents = more[0].contents || null
             
@@ -42,12 +39,12 @@ function App() {
                 key={more[0].title}
                 path={path}
                 element={
-                  <div className="flex gap-10 w-full">
+                  <div>
                   {contents && <SideNavbar contents={contents} />}
-                    <div className="flex-1">
+                    <div >
                       <Component contents={contents}/>
                     </div>
-                  </div>}/>)
+                  </div>}/> )
             }
             
             // If there are multiple subpages (nested routing)
@@ -61,9 +58,9 @@ function App() {
                   key={path} 
                   path={`${path.replace(/^\//, '')}/${sub.path}`}
                   element={
-                  <div>
+                  <div className="flex gap-10 w-full">
                   {contents && <SideNavbar props={sub.contents} />}
-                    <div className='pl-70'>
+                    <div className='flex-1'>
                       <SubComponent props={sub.contents} />
                     </div>
                   </div>}

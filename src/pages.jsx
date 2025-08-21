@@ -199,7 +199,19 @@ const pages = {
         name: "Entrepreneurship",
         title: "Entrepreneurship",
         path: 'entrepreneurship',
-        Component: Entrepreneurship
+        Component: Entrepreneurship,
+        contents: {
+          section_1: "Introduction",
+          section_2: "Commercial Prospects",
+          section_3: "Market Analysis",
+          section_4: "Supply Chain",
+          section_5: "Financial Analysis",
+          section_6: "Intellectual Property",
+          section_7: "Stakeholder Analysis",
+          section_8: "Risk Assessment and Countermeasures",
+          section_9: "Development Plan",
+          section_10: "References",
+        }
       },
       {
         name: "Cooperation",
