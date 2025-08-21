@@ -8,8 +8,8 @@ import { Link } from 'react-router'
 function Header() {
 
   return (
-    <header className='bg-header flex flex-row sticky top-0'>
-      <div className='container h-13 flex justify-between mx-60  items-center my-4'>
+    <header className='bg-header flex justify-between sticky'>
+      <div className='header-container h-13 flex justify-between w-full'>
         <div className='logo'>
           <Link to="/">
             <img src="https://static.igem.wiki/teams/5822/assets/logo.webp" alt="logo" className='w-25' />
@@ -23,3 +23,4 @@ function Header() {
 }
 
 export default Header
+

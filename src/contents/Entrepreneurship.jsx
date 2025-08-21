@@ -1,5 +1,5 @@
 import React from 'react';
-import "./this.css";
+// import "./this.css";
 
 export function Entrepreneurship() {
   return (
