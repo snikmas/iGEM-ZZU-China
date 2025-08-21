@@ -9,6 +9,9 @@
   box-shadow: none;
 }
 
+header ul, header ul li{
+  list-style: none;
+}
 
 
 body {
