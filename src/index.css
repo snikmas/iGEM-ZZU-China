@@ -4,17 +4,14 @@
   --color-header: #D2E0E4
 }
 
-/* Общие стили для всего тела документа */
 body {
   font-family: Arial, sans-serif;
-  color: #2c3e50; /* Цвет текста из второго варианта */
+  color: #2c3e50;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* Добавим легкий фон */
 }
 
-/* Стили для контейнера, если он используется */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -22,21 +19,22 @@ body {
 }
 
 
-/* Стили для заголовков */
+/* TITLES */
 h1 {
-  font-size: 2.5rem; /* Размер из второго варианта, он больше и выразительнее */
-  font-weight: bold; /* Жирность из первого варианта */
-  color: #1a3c6d; /* Цвет из второго варианта */
+  font-size: 2.5rem;
+  font-weight: bold; 
+  color: #1a3c6d; 
   margin: 2rem 0 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #007bff; /* Подчеркивание из второго варианта */
+  border-bottom: 2px solid #007bff;
 }
 
 h2 {
-  font-size: 1.8rem; /* Размер из второго варианта */
+  font-size: 1.8rem;
   font-weight: 700;
   color: #2c3e50;
   margin: 1.5rem 0 1rem;
+  margin-top: 3rem;
 }
 
 h3 {
@@ -46,17 +44,17 @@ h3 {
   margin: 1rem 0 0.8rem;
 }
 
-/* Стили для абзацев и текста */
+/* TEXT ! ! ! */
 p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
-  text-align: justify; /* Выравнивание по ширине из второго варианта */
+  text-align: justify;
 }
 
 strong {
   font-weight: 700;
-  color: #1a3c6d; /* Цвет из второго варианта */
+  color: #1a3c6d;
 }
 
 em {
@@ -64,13 +62,16 @@ em {
   color: #2c3e50;
 }
 
-/* Стили для изображений и подписей */
+/* IMG CAPTURE*/
 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 1rem auto;
-  border-radius: 8px; /* Скругление углов из второго варианта */
+  margin-top: 4rem;
+  border-radius: 8px; 
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .figure-caption {
@@ -78,10 +79,18 @@ img {
   font-size: 0.9rem;
   text-align: center;
   margin-top: 0.5rem;
-  color: #6c757d; /* Цвет из второго варианта */
+  color: #6c757d; 
 }
 
-/* Стили для таблиц */
+.formula{
+  margin: 3rem auto;
+}
+
+.stats {
+  width: 80%;
+}
+
+/* table */
 .table, table {
   width: 100%;
   border-collapse: collapse;
@@ -94,7 +103,7 @@ img {
   font-weight: bold;
   text-align: center;
   margin-bottom: 0.5rem;
-  caption-side: top; /* Гарантируем, что подпись сверху */
+  caption-side: top; 
 }
 
 .table th, .table td, table th, table td {
@@ -114,10 +123,10 @@ img {
   background-color: #f8f9fa;
 }
 
-/* Стили для списков */
+/* LIST STYLES*/
 ol, ul {
   margin-left: 2rem;
-  padding-left: 0; /* Убираем стандартный отступ, чтобы использовать margin-left */
+  padding-left: 0;
 }
 
 ul {
@@ -134,12 +143,12 @@ ol li, ul li {
   margin-bottom: 0.5rem;
 }
 
-/* Стили для карточек (Card wrapper) */
+/* Card wrapper */
 .card {
   margin-bottom: 2rem;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px; /* Добавим скругление */
+  border-radius: 8px;
 }
 
 .card-body {
@@ -179,4 +188,13 @@ header {
     padding: 8px;
     font-size: 0.9rem;
   }
+}
+
+.references a {
+  color:#0052ab;
+  border-bottom:#0052ab;
+  border-bottom: 1px solid;
+}
+.references a:hover{
+  color:#337cc9;
 }

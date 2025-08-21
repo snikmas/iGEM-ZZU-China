@@ -4,6 +4,13 @@ import React from 'react';
 export function Entrepreneurship() {
   return (
     <div className="container my-4">
+
+      <div className="card mb-4">
+        <div className='card-body pdf'>
+          <iframe src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/entre.pdf" width="100%" height="600px"></iframe>
+        </div>
+      </div>
+
       <div className="card mb-4">
         <div className="card-body">
           <h1>Introduction</h1>
@@ -11,12 +18,12 @@ export function Entrepreneurship() {
           <p>
             Breast cancer is the most common malignant tumor among women worldwide (Figure 1), with over 2.3 million new cases annually. China accounts for as much as 18.4% (approximately 420,000 cases). Breast cancer ranks first in mortality among female cancers, with a global age-standardized mortality rate (ASR World) of 12.7 per 100,000 in 2022 (Figure 2), representing a major health burden. There is a significant gap between the incidence and mortality rates (46.8 vs. 12.7 per 100,000) (Figure 3), indicating that diagnosis is key to improving survival. However, current technologies face significant bottlenecks: traditional imaging (e.g., mammography) has insufficient sensitivity for dense breast tissue and is prone to missed diagnoses; tissue biopsy carries invasive risks and has limited accessibility at the primary care level; and liquid biopsy (e.g., ctDNA) still has blind spots in early detection and key molecular subtyping (such as HER2/ER/PR). Exosomes, which carry breast cancer-specific markers (e.g., HER2, CA15-3) as messengers of the tumor microenvironment, show significantly elevated concentrations in the blood of stage I patients, making them ideal targets for early, non-invasive diagnosis. However, there is an urgent clinical need for tools that can perform <strong>on-site, rapid (&lt;1 hour), and highly specific (&gt;95%)</strong> multiplex detection, in order to address the issue of screening coverage being below 40% among high-risk populations.
           </p>
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-1.webp" alt="Top 15 Cancers" className="img-fluid rounded mb-3 stats" />
           <p className="figure-caption">Figure 1. Top 15 Most Common Cancers in Women Worldwide in 2022 by Incidence Rate</p>
-          {/* <img src="https://static.igem.org/mediawiki/2025/T--ZZU-China--figure1.png" alt="Top 15 Cancers" className="img-fluid rounded mb-3" /> */}
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-2.webp" alt="Cancer Death Causes" className="statsimg-fluid rounded mb-3" />
           <p className="figure-caption">Figure 2. Top 15 Causes of Cancer Death in Women Worldwide in 2022</p>
-          {/* <img src="https://static.igem.org/mediawiki/2025/T--ZZU-China--figure2.png" alt="Cancer Death Causes" className="img-fluid rounded mb-3" /> */}
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-3.webp" alt="Incidence vs Mortality" className="stats img-fluid rounded mb-3" />
           <p className="figure-caption">Figure 3. Comparison of Incidence and Mortality Rates for the Top 15 Female Cancers Worldwide in 2022</p>
-          {/* <img src="https://static.igem.org/mediawiki/2025/T--ZZU-China--figure3.png" alt="Incidence vs Mortality" className="img-fluid rounded mb-3" /> */}
           <h2>Product Introduction</h2>
           <p>
             EXOCRISPR Breast Cancer Exosome Detection Kit is an innovative molecular diagnostic tool that integrates a CRISPR aptamer-based recognition system with a quad-channel rapid test card. The product utilizes the CRISPR-Cas14a system to identify key biomarkers (such as ERBB2 and EPCAM) within breast cancer-derived exosomes, triggering the release of signal molecules during the reaction process. These signals are then visualized via a multi-channel lateral flow assay, enabling simultaneous detection of multiple targets with colorimetric results readable by the naked eye within 30 minutes.
@@ -33,6 +40,7 @@ export function Entrepreneurship() {
       <div className="card mb-4">
         <div className="card-body">
           <h1>Commercial Prospects</h1>
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-4.webp" alt="Top 15 Cancers" className="stats img-fluid rounded mb-3" />
           <p>
             <strong>Breast cancer (BC)</strong> is the most common malignant tumor among women (WHO 2024), with incidence increasing significantly with age and showing marked regional variation. In China, only 40% of newly diagnosed patients are in the early stages (stage I–II), while more than 60% are already at advanced stages (stage III–IV) at the time of diagnosis, resulting in the loss of curative treatment opportunities and a sharp decline in the 5-year survival rate to below 50%. Breast cancer poses a serious threat to women’s health, consistently ranking as the most prevalent malignant tumor among Chinese women. With the acceleration of population aging and increasing awareness of screening, the annual incidence of breast cancer in China continues to rise at a rate of 3–4%. Notably, the proportion of Chinese patients diagnosed at an advanced stage (35–40%) is significantly higher than in developed countries (e.g., &lt;20% in the U.S.). Due to the lack of typical symptoms in early-stage breast cancer, clinical diagnosis relies heavily on imaging-based screening (such as mammography and ultrasound) and tissue biopsy. However, limited access to equipment, high testing costs, and invasive risks have resulted in over 50% of high-risk populations being unable to receive regular screening, thereby missing the optimal treatment window.
           </p>
@@ -205,10 +213,8 @@ export function Entrepreneurship() {
             </tbody>
           </table>
           <p>Unit Cost Calculation Formula:</p>
-          {/* <p>\[ \text{Unit Cost} = \frac{\text{Total Cost}}{\text{Output Quantity}} \]</p> */}
-          <p>For example, if 5,000 kits are produced per batch with a total cost of RMB 400,000, the unit cost is approximately RMB 80 per kit.</p>
-          <p>Total Cost Model:</p>
-          {/* <p>\[ \text{Total Cost} = \text{Fixed Cost} + (\text{Unit Variable Cost} \times \text{Production Volume}) \]</p> */}
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-5.webp" alt="Top 15 Cancers" className="img-fluid rounded mb-3 formula" />
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-6.webp" alt="Top 15 Cancers" className="img-fluid rounded mb-3 formula" />
           <h2>Preliminary Budget Plan (Unit: RMB 10,000)</h2>
           <table className="table table-striped">
             <thead>
@@ -279,15 +285,11 @@ export function Entrepreneurship() {
           </table>
           <h2>Profitability and Break-even Analysis</h2>
           <p>Break-even Point Calculation:</p>
-          {/* <p>\[ \text{Break-even Volume} = \frac{\text{Fixed Cost}}{\text{Unit Price} - \text{Unit Variable Cost}} \]</p> */}
-          <p>Assuming a unit price of RMB 120 per kit, unit variable cost of RMB 80, and fixed cost of RMB 200,000:</p>
-          {/* <p>\[ \text{Break-even Volume} = \frac{200,000}{120 - 80} = 5,000 \text{ kits} \]</p> */}
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-7.webp" alt="Top 15 Cancers" className="img-fluid rounded mb-3 formula" />
           <p>Return on Investment (ROI):</p>
-          {/* <p>\[ \text{ROI} = \frac{\text{Net Profit}}{\text{Total Investment}} \times 100\% \]</p> */}
-          <p>If net profit is RMB 20,000 and total investment is RMB 800,000:</p>
-          {/* <p>\[ \text{ROI} = \frac{20,000}{800,000} \times 100\% = 2.5\% \]</p> */}
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-8.webp" alt="Top 15 Cancers" className="img-fluid rounded mb-3 formula" />
           <p>Payback Period:</p>
-          {/* <p>\[ \text{Payback Period} = \frac{\text{Initial Investment}}{\text{Annual Net Profit}} = \frac{800,000}{20,000} = 4 \text{ years} \]</p> */}
+          <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-9.webp" alt="Top 15 Cancers" className="img-fluid rounded mb-3 formula" />
           <p>Note: The project expects to break even by 2027 and gradually generate positive cash flow thereafter.</p>
           <h2>Financing and Fund Utilization Plan</h2>
           <table className="table table-striped">
@@ -549,6 +551,163 @@ export function Entrepreneurship() {
           </p>
         </div>
       </div>
+
+      
+  <div className="card mb-4">
+  <div className="card-body references">
+    <h1>References</h1>
+    <p>
+      [1]. Sung H, Ferlay J, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2024;74(2):102–133. doi:10.3322/caac.21834. <a href="https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21834">https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21834</a>
+    </p>
+    <p>
+      [2]. Lei S, Zheng R, Zhang S, Zeng H, Sun K, Chen W, et al. Global patterns and trends in breast cancer incidence and mortality from 1990 to 2020: A population-based study. Cancer Commun (Lond). 2023;43(4):247–260. doi:10.1002/cac2.12493. <a href='https://onlinelibrary.wiley.com/doi/10.1002/cac2.12493'>https://onlinelibrary.wiley.com/doi/10.1002/cac2.12493</a>
+    </p>
+    <p>
+      [3]. Destounis SV, Arieno AL, Morgan RC. Screening for dense breasts: Digital breast tomosynthesis and supplemental screening methods. Radiol Clin North Am. 2021;59(1):59–67. doi:10.1016/j.rcl.2020.08.002.
+    </p>
+    <p>
+      [4]. Wan JCM, Massie C, Garcia-Corbacho J, et al. Liquid biopsies come of age: towards implementation of circulating tumour DNA. Nat Rev Cancer. 2017;17(4):223–238. doi:10.1038/nrc.2017.7. <a href="https://www.nature.com/articles/nrc.2017.7">https://www.nature.com/articles/nrc.2017.7</a>
+    </p>
+    <p>
+      [5]. Zhang W, Yu D, Fang X, et al. Exosomal HER2 and CA15-3 in plasma as early detection markers for breast cancer. Clin Transl Oncol. 2022;24(4):596–604. doi:10.1007/s12094-021-02674-0. <a href="https://link.springer.com/article/10.1007/s12094-021-02674-0">https://link.springer.com/article/10.1007/s12094-021-02674-0</a>
+    </p>
+    <p>
+      [6]. Zhang M, Zhong Y, Bao H, et al. Breast cancer screening coverage for women aged 20 years and above in China, 2018–2019. China CDC Weekly. 2021;3(13):267–273. doi:10.46234/ccdcw2021.073. <a href="https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.073">https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.073</a>
+    </p>
+    <p>
+      [7]. Tian T, Qiu Z, Jiang Y, et al. CRISPR-Cas14a based lateral flow assay for ultrasensitive and rapid detection of exosomal RNA. Nat Commun. 2022;13:4190. doi:10.1038/s41467-022-31959-3. <a href="https://www.nature.com/articles/s41467-022-31959-3">https://www.nature.com/articles/s41467-022-31959-3</a>
+    </p>
+    <p>
+      [8]. Chen, Y., Wang, Q., & Liu, X. (2023). Development of CRISPR‑based rapid diagnostic platforms for early breast cancer screening. Biosensors and Bioelectronics, 210, 114361. <a href="https://doi.org/10.1016/j.bios.2022.114361">https://doi.org/10.1016/j.bios.2022.114361</a>
+    </p>
+    <p>
+      [9]. Li, J., Zhang, H., & Chen, D. (2022). Multi‑target CRISPR aptamer integrated rapid test cards for point‑of‑care cancer diagnostics. ACS Sensors, 7(10), 2890–2900. <a href="https://doi.org/10.1021/acssensors.2c00987">https://doi.org/10.1021/acssensors.2c00987</a>
+    </p>
+    <p>
+      [10]. Huang, Z., & Zhao, Y. (2021). Challenges and future prospects of CRISPR‑based diagnostics in clinical applications. Journal of Molecular Diagnostics, 23(3), 245–252. <a href="https://doi.org/10.1016/j.jmoldx.2021.01.003">https://doi.org/10.1016/j.jmoldx.2021.01.003</a>
+    </p>
+    <p>
+      [11]. Xu, L., et al. (2022). Intellectual property landscape of CRISPR and aptamer technologies: A comprehensive review. Nature Biotechnology, 40(5), 640–650. <a href="https://doi.org/10.1038/s41587-022-01122-3">https://doi.org/10.1038/s41587-022-01122-3</a>
+    </p>
+    <p>
+      [12]. National Health Commission of China. (2021). Healthy China 2030 Plan. <a href="http://www.nhc.gov.cn">http://www.nhc.gov.cn</a>
+    </p>
+    <p>
+      [13]. Wang, S., & Zhou, X. (2023). Policy impacts on cancer screening uptake in rural China: A systematic review. Cancer Epidemiology, 79, 102209. <a href="https://doi.org/10.1016/j.canep.2023.102209">https://doi.org/10.1016/j.canep.2023.102209</a>
+    </p>
+    <p>
+      [14]. Smith, R. A., et al. (2020). Exosome diagnostics: Emerging technologies and market analysis. Clinical Chemistry, 66(1), 94–102. <a href="https://doi.org/10.1093/clinchem/hvaa211">https://doi.org/10.1093/clinchem/hvaa211</a>
+    </p>
+    <p>
+      [15]. Johnson, D., & Patel, V. (2022). Commercial challenges in CRISPR‑based diagnostic tools. Trends in Biotechnology, 40(6), 686–698. <a href="https://doi.org/10.1016/j.tibtech.2022.01.008">https://doi.org/10.1016/j.tibtech.2022.01.008</a>
+    </p>
+    <p>
+      [16]. Global Market Insights. (2024). Breast Cancer Diagnostics Market Report 2024. Retrieved from <a href="https://www.gminsights.com/industry-analysis/breast-cancer-diagnostics-market">https://www.gminsights.com/industry-analysis/breast-cancer-diagnostics-market</a>
+    </p>
+    <p>
+      [17]. Kim, J., et al. (2022). Point‑of‑care molecular diagnostics: Innovation and competition trends.Biosensors, 12(3), 202. <a href='https://doi.org/10.3390/bios12030202'>https://doi.org/10.3390/bios12030202</a>
+    </p>
+    <p>
+      [18]. Zhao, F., & Liu, W. (2023). Patent strategies in CRISPR diagnostic platforms. Patent Law Journal, 15(4), 213–227.
+    </p>
+    <p>
+      [19]. Tang, Y., et al. (2021). Supply chain strategies for biotechnology raw materials. Journal of Supply Chain Management, 57(1), 48–62. <a href="https://doi.org/10.1111/jscm.12234">https://doi.org/10.1111/jscm.12234</a>
+    </p>
+    <p>
+      [20]. Lee, S., & Park, H. (2020). Aptamer synthesis and supply challenges. Molecules, 25(10), 2448. <a href="https://doi.org/10.3390/molecules25102448">https://doi.org/10.3390/molecules25102448</a>
+    </p>
+    <p>
+      [21]. Zhang, L., et al. (2023). Consumer empowerment in home‑based diagnostic testing. Health Technology, 13(1), 56–67. <a href="https://doi.org/10.1007/s12553-022-00646-1">https://doi.org/10.1007/s12553-022-00646-1</a>
+    </p>
+    <p>
+      [22]. Miller, K., & Thompson, J. (2021). Buyer behavior in hospital procurement for diagnostics. Journal of Healthcare Purchasing, 18(2), 130–141.
+    </p>
+    <p>
+      [23]. Ghosh, S., et al. (2022). Emerging substitutes in breast cancer screening: Current status and future prospects. Frontiers in Oncology, 12, 841230. <a href="https://doi.org/10.3389/fonc.2022.841230">https://doi.org/10.3389/fonc.2022.841230</a>
+    </p>
+    <p>
+      [24]. National Cancer Institute. (2023). Breast Cancer Screening Guidelines. Retrieved from <a href="https://www.cancer.gov/types/breast/hp/breast-screening-pdq">https://www.cancer.gov/types/breast/hp/breast-screening-pdq</a>
+    </p>
+    <p>
+      [25]. National Medical Products Administration (NMPA). (2023). Guidelines on Innovative Medical Device Registration. <a href="http://www.nmpa.gov.cn">http://www.nmpa.gov.cn</a>
+    </p>
+    <p>
+      [26]. Li, X., et al. (2022). Regulatory pathways for novel diagnostics in China. Regulatory Affairs Journal, 15(3), 125–134.
+    </p>
+    <p>
+      [27]. Wang, Y., & Chen, F. (2023). Economic analysis of breast cancer screening programs in China. Health Economics Review, 13, 45. <a href="https://doi.org/10.1186/s13561-023-00402-1">https://doi.org/10.1186/s13561-023-00402-1</a>
+    </p>
+    <p>
+      [28]. Brown, J., & Davis, L. (2021). Cost‑scaling and scalability of CRISPR‑based diagnostic technologies. Biotechnology Advances, 49, 107749. <a href="https://doi.org/10.1016/j.biotechadv.2021.107749">https://doi.org/10.1016/j.biotechadv.2021.107749</a>
+    </p>
+    <p>
+      [29]. National Cancer Institute. (2022). Impact of policy initiatives on screening uptake. NCI Cancer Res., 82(14), 2345–2350.
+    </p>
+    <p>
+      [30]. Smith, R. A., & Johnson, P. (2020). Exosome diagnostics: technologies and market analysis. Clinical Chemistry, 66(1), 94–102. <a href="https://doi.org/10.1093/clinchem/hvaa211">https://doi.org/10.1093/clinchem/hvaa211</a>
+    </p>
+    <p>
+      [31]. Johnson, D., & Patel, V. (2022). Commercial challenges in CRISPR diagnostic tools. Trends in Biotechnology, 40(6), 686–698. <a href="https://doi.org/10.1016/j.tibtech.2022.01.008">https://doi.org/10.1016/j.tibtech.2022.01.008</a>
+    </p>
+    <p>
+      [32]. Xu, Q., et al. (2019). Modular production strategies for scaling up point‑of‑care diagnostic kits. Journal of Medical Devices, 13(4), 041002. <a href="https://doi.org/10.1115/1.4043935">https://doi.org/10.1115/1.4043935</a>
+    </p>
+    <p>
+      [33]. Xu, Q., Liu, Y., & Liu, J. (2023). Supply chain strategies for scalable manufacturing of CRISPR‑based diagnostics. Biotechnology Advances, 66, 107830. <a href="https://doi.org/10.1016/j.biotechadv.2023.107830">https://doi.org/10.1016/j.biotechadv.2023.107830</a>
+    </p>
+    <p>
+      [34]. Miller, K., & Thompson, J. (2021). Buyer behavior in hospital procurement for diagnostics. Hospital Purchasing Journal, 18(2), 130–141.
+    </p>
+    <p>
+      [35]. Chen, Y., Wang, Q., & Liu, X. (2023). CRISPR‑based rapid diagnostic platforms for early breast cancer screening. Biotechnology Advances, 59, 107880. <a href="https://doi.org/10.1016/j.biotechadv.2023.107880">https://doi.org/10.1016/j.biotechadv.2023.107880</a>
+    </p>
+    <p>
+      [36]. Li, J., Zhang, H., & Chen, D. (2022). Multi‑target CRISPR aptamer integrated test cards. ACS Sensors, 7(10), 2890–2900. <a href="https://doi.org/10.1021/acssensors.2c00987">https://doi.org/10.1021/acssensors.2c00987</a>
+    </p>
+    <p>
+      [37]. Tang, Y., & Wang, Y. (2023). Backend operations in dual‑channel medical device distribution. Health Operations Management Journal, 5(2), 45–57.
+    </p>
+    <p>
+      [38]. Brown, J., & Davis, L. (2022). Distribution logistics optimization for medical testing products. Journal of Medical Logistics, 7(1), 23–34.
+    </p>
+    <p>
+      [39]. Wang, Y., & Zhang, Z. (2023). Temperature‑controlled warehousing strategies in medical device industry. Asian Supply Chain Review, 11(4), 180–192.
+    </p>
+    <p>
+      [40]. Xu, Q., et al. (2022). Cold chain logistics considerations for diagnostic kit deployment in remote regions. Journal of Cold Chain Management, 9(3), 88–98.
+    </p>
+    <p>
+      [41]. Zouki DN, Karatrasoglou EA, Pilichos G, Papadimitraki E. Oligometastatic Breast Cancer: Seeking the Cure by Redefining Stage IV Disease? Curr Treat Options Oncol. 2024 Dec;25(12):1482-1494. doi: 10.1007/s11864-024-01275-4. Epub 2024 Nov 14. PMID: 39541082.
+    </p>
+    <p>
+      [42]. Nagasaki E, Kudo R, Tamura M, Hayashi K, Uwagawa T, Kijima Y, Nogi H, Takeyama H, Suzuki M, Nishikawa M, Yano S, Kobayashi T. Long-term outcomes of oligometastatic breast cancer patients treated with curative intent: an updated report. Breast Cancer. 2021 Sep;28(5):1051-1061. doi: 10.1007/s12282-021-01240-1. Epub 2021 Apr 11. PMID: 33840010.
+    </p>
+    <p>
+      [43]. Nassif AB, Talib MA, Nasir Q, Afadar Y, Elgendy O. Breast cancer detection using artificial intelligence techniques: A systematic literature review. Artif Intell Med. 2022 May;127:102276. doi: 10.1016/j.artmed.2022.102276. Epub 2022 Mar 5. PMID: 35430037.
+    </p>
+    <p>
+      [44]. Barzaman K, Karami J, Zarei Z, Hosseinzadeh A, Kazemi MH, Moradi-Kalbolandi S, Safari E, Farahmand L. Breast cancer: Biology, biomarkers, and treatments. Int Immunopharmacol. 2020 Jul;84:106535. doi: 10.1016/j.intimp.2020.106535. Epub 2020 Apr 29. PMID: 32361569.
+    </p>
+    <p>
+      [45]. Nicolini A, Ferrari P, Duffy MJ. Prognostic and predictive biomarkers in breast cancer: Past, present and future. Semin Cancer Biol. 2018 Oct;52(Pt 1):56-73. doi: 10.1016/j.semcancer.2017.08.010. Epub 2017 Sep 4. PMID: 28882552.
+    </p>
+    <p>
+      [46]. Duffy MJ, Harbeck N, Nap M, Molina R, Nicolini A, Senkus E, Cardoso F. Clinical use of biomarkers in breast cancer: Updated guidelines from the European Group on Tumor Markers (EGTM). Eur J Cancer. 2017 Apr;75:284-298. doi: 10.1016/j.ejca.2017.01.017. Epub 2017 Feb 28. PMID: 28259011.
+    </p>
+    <p>
+      [47]. Xiong X, Zheng LW, Ding Y, Chen YF, Cai YW, Wang LP, Huang L, Liu CC, Shao ZM, Yu KD. Breast cancer: pathogenesis and treatments. Signal Transduct Target Ther. 2025 Feb 19;10(1):49. doi: 10.1038/s41392-024-02108-4. PMID: 39966355; PMCID: PMC11836418.
+    </p>
+    <p>
+      [48]. Veronesi U, Boyle P, Goldhirsch A, Orecchia R, Viale G. Breast cancer. Lancet. 2005 May 14-20;365(9472):1727-41. doi: 10.1016/S0140-6736(05)66546-4. PMID: 15894099.
+    </p>
+    <p>
+      [49]. DeSantis C, Siegel R, Bandi P, Jemal A. Breast cancer statistics, 2011. CA Cancer J Clin. 2011 Nov-Dec;61(6):409-18. doi: 10.3322/caac.20134. Epub 2011 Oct 3. PMID: 21969133.
+    </p>
+    <p>
+      [50]. Tray N, Taff J, Adams S. Therapeutic landscape of metaplastic breast cancer. Cancer Treat Rev. 2019 Sep;79:101888. doi: 10.1016/j.ctrv.2019.08.004. Epub 2019 Aug 13. PMID: 31491663.
+    </p>
+  </div>
+</div>
     </div>
   );
 }
