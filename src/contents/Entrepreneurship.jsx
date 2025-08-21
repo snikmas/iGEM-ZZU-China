@@ -1,8 +1,9 @@
-import React from 'react';
-// import "./this.css";
+export function Entrepreneurship({ props }) {
+  const { section_1, section_2, section_3, section_4, section_5, section_6, section_7, section_8, section_9, section_10
+    } = props;
 
-export function Entrepreneurship() {
   return (
+    
     <div className="container my-4">
 
       <div className="card mb-4">
@@ -14,7 +15,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Introduction</h1>
+          <h1 id="section_1">{section_1}</h1>
           <h2>Problem Description</h2>
           <p>
             Breast cancer is the most common malignant tumor among women worldwide (Figure 1), with over 2.3 million new cases annually. China accounts for as much as 18.4% (approximately 420,000 cases). Breast cancer ranks first in mortality among female cancers, with a global age-standardized mortality rate (ASR World) of 12.7 per 100,000 in 2022 (Figure 2), representing a major health burden. There is a significant gap between the incidence and mortality rates (46.8 vs. 12.7 per 100,000) (Figure 3), indicating that diagnosis is key to improving survival. However, current technologies face significant bottlenecks: traditional imaging (e.g., mammography) has insufficient sensitivity for dense breast tissue and is prone to missed diagnoses; tissue biopsy carries invasive risks and has limited accessibility at the primary care level; and liquid biopsy (e.g., ctDNA) still has blind spots in early detection and key molecular subtyping (such as HER2/ER/PR). Exosomes, which carry breast cancer-specific markers (e.g., HER2, CA15-3) as messengers of the tumor microenvironment, show significantly elevated concentrations in the blood of stage I patients, making them ideal targets for early, non-invasive diagnosis. However, there is an urgent clinical need for tools that can perform <strong>on-site, rapid (&lt;1 hour), and highly specific (&gt;95%)</strong> multiplex detection, in order to address the issue of screening coverage being below 40% among high-risk populations.
@@ -40,7 +41,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Commercial Prospects</h1>
+          <h1 id="section_2">{section_2}</h1>
           <img src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/img-4.webp" alt="Top 15 Cancers" className="stats img-fluid rounded mb-3" />
           <p>
             <strong>Breast cancer (BC)</strong> is the most common malignant tumor among women (WHO 2024), with incidence increasing significantly with age and showing marked regional variation. In China, only 40% of newly diagnosed patients are in the early stages (stage I–II), while more than 60% are already at advanced stages (stage III–IV) at the time of diagnosis, resulting in the loss of curative treatment opportunities and a sharp decline in the 5-year survival rate to below 50%. Breast cancer poses a serious threat to women’s health, consistently ranking as the most prevalent malignant tumor among Chinese women. With the acceleration of population aging and increasing awareness of screening, the annual incidence of breast cancer in China continues to rise at a rate of 3–4%. Notably, the proportion of Chinese patients diagnosed at an advanced stage (35–40%) is significantly higher than in developed countries (e.g., &lt;20% in the U.S.). Due to the lack of typical symptoms in early-stage breast cancer, clinical diagnosis relies heavily on imaging-based screening (such as mammography and ultrasound) and tissue biopsy. However, limited access to equipment, high testing costs, and invasive risks have resulted in over 50% of high-risk populations being unable to receive regular screening, thereby missing the optimal treatment window.
@@ -77,7 +78,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Market Analysis</h1>
+          <h1 id="section_3">{section_3}</h1>
           <h2>SWOT</h2>
           <h3>Strengths</h3>
           <p>
@@ -146,7 +147,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Supply Chain</h1>
+          <h1 id="section_4">{section_4}</h1>
           <p>
             The success of the EXOCRISPR project depends on a robust, efficient, and scalable supply chain system. We are committed to building a closed-loop process covering raw material procurement, reagent production, product assembly, quality control, and end distribution, ensuring product quality, timely delivery, and cost control, thereby providing solid backend support for early breast cancer screening.
           </p>
@@ -171,7 +172,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Financial Analysis</h1>
+          <h1 id="section_5">{section_5}</h1>
           <h2>Financial Objectives</h2>
           <p>
             This project aims to advance the "EXOCRISPR Breast Cancer Exosome Quadruple Detection Platform" from the laboratory validation stage to small-scale market application within 1–2 years, completing product closed-loop validation and initial sales conversion. The total projected investment is RMB 800,000, covering R&D, pilot production, market testing, registration filing, and preliminary operations.
@@ -336,7 +337,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Intellectual Property</h1>
+          <h1 id="section_6">{section_6}</h1>
           <p>
             Although some basic biological materials in our detection platform (such as breast cancer exosome markers ERBB2 and EPCAM) are naturally occurring and therefore not patentable by themselves, our innovative aptamer construction methods and integrated detection structures provide multiple viable avenues for intellectual property protection, which are the cornerstone of successful product commercialization.
           </p>
@@ -360,7 +361,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Stakeholder Analysis</h1>
+          <h1 id="section_7">{section_7}</h1>
           <p>
             The core goal of the EXOCRISPR project is to develop a low-cost, highly sensitive, visual early screening tool for breast cancer to improve early detection rates and treatment opportunities for patients. This product uses a CRISPR-aptamer recognition system combined with a four-channel rapid detection card technology, enabling large-scale use in home settings, primary care, and remote screening environments. Our development involves various stakeholders whose demands, risk perceptions, and long-term feedback will play key roles in the sustainable development of EXOCRISPR.
           </p>
@@ -439,7 +440,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Risk Assessment and Countermeasures</h1>
+          <h1 id="section_8">{section_8}</h1>
           <p>
             The EXOCRISPR multi-target breast cancer exosome detection platform, integrating CRISPR aptamer systems with a quadruple rapid test card, is a novel early screening product showing strong potential in technological innovation, market demand, and application prospects. However, it also faces several potential risks. The following provides a systematic analysis from the perspectives of operational management, technology, market, and finance, along with corresponding countermeasures.
           </p>
@@ -519,7 +520,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h1>Development Plan</h1>
+          <h1 id="section_9">{section_9}</h1>
           <p>
             Throughout the EXOCRISPR project development cycle, we recognize uncertainties in technology, funding, and market conditions at every stage. Therefore, we have formulated a phased and adaptable strategic roadmap covering the full cycle from technology proof-of-concept, prototype development, clinical validation, company registration to commercialization, along with risk management and resource allocation strategies for each key milestone.
           </p>
@@ -556,7 +557,7 @@ export function Entrepreneurship() {
       
   <div className="card mb-4">
   <div className="card-body references">
-    <h1>References</h1>
+    <h1 id="section_10">{section_10}</h1>
     <p>
       [1]. Sung H, Ferlay J, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2024;74(2):102–133. doi:10.3322/caac.21834. <a href="https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21834">https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21834</a>
     </p>

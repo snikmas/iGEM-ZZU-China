@@ -17,8 +17,8 @@
 
 
 
-
-@import "tailwindcss";
+/* 
+/* @import "tailwindcss"; */
 
 @theme {
   --color-header: #D2E0E4
@@ -27,9 +27,9 @@
 .screen{
   display: flex;
   flex-direction: row;
-}
+} 
 
-
+/* 
 html {
   scroll-behavior: smooth;
 }
@@ -55,11 +55,12 @@ body {
   padding-top: 1.2rem;
  }
 
+ 
  .sub-title{
   margin: 2.3rem 0 0.4rem;
   font-weight: 600;
   font-size: 1.8rem;
- }
+ } 
 
 
 
@@ -150,7 +151,7 @@ body {
   
 }
 
-.list-03 > li {
+.lis9t-03 > li {
   align-items: center;
   display: flex;
   gap:10px;
@@ -182,61 +183,4 @@ caption {
 
 header {
   z-index: 1;
-} */ */
-
-
-/* img */
-/* 
-.div-img span {
-  margin-top:1.7rem;
-}
-
-.div-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  align-items: center;
-
-  width: 90%;
-}
-
-.div-img img {
-  width: 80%;
-}
-
-.div-img-formula {
-  padding: 3rem 0rem;
-  gap: 1rem;
-  font-size: 1.1rem;
-
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.div-img-formula img {
-  width: 80%;
-  align-self: center;
-}
-
-
-/* tables */
-
-.table-div{
-  overflow-x: auto;
-  margin-bottom: 1.5rem; /* Tailwind's mb-6 = 24px = 1.5rem */
-  text-align: center;
-}
-
-caption {
-  padding: 2rem 0 0.5rem;
-}
-
-table {
-  min-width: 100%;
-  border: 1px solid #D1D5DB; /* Tailwind's gray-300 */
-  font-size: 0.875rem; /* Tailwind's text-sm = 14px */
-  border-collapse: collapse;
 } */

@@ -10,7 +10,6 @@ function pathMapping() {
   <Routes basename="/zzu-china">
     { Object.entries(pages).map(([key, page]) => {
       const {path, more} = page;
-      console.log(path, more.length)
 
 
       // no subnav

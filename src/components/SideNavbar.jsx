@@ -5,7 +5,7 @@ function SideNavbar({ props }) {
     const el = document.getElementById(id);
     if (el) {
       let coord = el.getBoundingClientRect();
-      window.scrollTo({ top: window.scrollY + coord.top - 90, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: window.scrollY + coord.top - 160, left: 0, behavior: "smooth" });
     }
   }
 
