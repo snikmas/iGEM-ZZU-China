@@ -7,7 +7,7 @@ export function Entrepreneurship() {
 
       <div className="card mb-4">
         <div className='card-body pdf'>
-          <iframe src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/entre.pdf" width="100%" height="600px"></iframe>
+          <iframe src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/Entrepreneurship.pdf" width="100%" height="600px"></iframe>
         </div>
       </div>
 
