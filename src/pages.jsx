@@ -155,14 +155,21 @@ const pages = {
           section_2: "Aptamer Screening",
           section_3: "Molecular Docking",
           section_4: "Complementary Strand Design",
-          section_5: "Reference",
+          section_5: "References",
         }
       },
       {
         name: "Software",
         title: "Software",
         path: 'software',
-        Component: Software
+        Component: Software,
+        contents: {
+          section_1: "Overview: The core objectives of bioinformatics",
+          section_2: "Target screening process: from data to candidate molecules",
+          section_3: "Target validation: Multi-dimensional analysis to confirm reliability",
+          section_4: "Summary: The value of bioinformatics driven target screening",
+          section_5: "References",
+        }
       },
       {
         name: "Hardware",
