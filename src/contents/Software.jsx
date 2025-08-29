@@ -4,9 +4,9 @@ export function Software({props}) {
    const { section_1, section_2, section_3, section_4, section_5
     } = props;
   return (
-    <>
+    <div className='container my-4'>
     <div className="card mb-4">
-  <div className="card-body prose max-w-none">
+  <div className="card-body ">
     <h1 className="text-2xl font-bold mb-4">Bioinformatics in Target Screening</h1>
 
     <p className="mb-4">
@@ -32,7 +32,7 @@ export function Software({props}) {
     </p>
 
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-1.webp" alt="The process of target protein screening" className="img-fluid rounded mb-3 stats" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-1.webp" alt="The process of target protein screening" className="statsimg-fluid rounded mb-3 w-[70%]" />
       <p className="figure-caption">Figure 1. The process of target protein screening</p>
     </figure>
 
@@ -66,7 +66,7 @@ export function Software({props}) {
     </p>
 
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-2.webp" alt="Intersection genes" className="statsimg-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-2.webp" alt="Intersection genes" className="statsimg-fluid rounded mb-3 w-[50%]" />
       <p className="figure-caption">Figure 2. Intersection genes</p>
     </figure>
 
@@ -109,7 +109,7 @@ export function Software({props}) {
       of 2.8 and 2.1, supporting their specificity in exosome detection.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-3.webp" alt="Visualization of differential genes in TCGA-BRCA" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-3.webp" alt="Visualization of differential genes in TCGA-BRCA" className="statsimg-fluid rounded mb-3 w-[55%]"/>
       <p className="figure-caption">Figure 3. Visualization of differential genes in TCGA-BRCA</p>
     </figure>
 
@@ -123,11 +123,11 @@ export function Software({props}) {
       detection value.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-4.webp" alt="KEGG enrichment analysis" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-4.webp" alt="KEGG enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 4. KEGG enrichment analysis</p>
     </figure>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-5.webp" alt="GO enrichment analysis" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-5.webp" alt="GO enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
       <p className="figure-caption">Figure 5. GO enrichment analysis</p>
     </figure>
 {/* 3.3 */}
@@ -138,7 +138,7 @@ export function Software({props}) {
       with poorer survival trends, supporting their prognostic potential.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-6.webp" alt="Survival analysis curve" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-6.webp" alt="Survival analysis curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
         <p className="figure-caption">Figure 6. Survival analysis curve</p>
     </figure>
 
@@ -149,7 +149,7 @@ export function Software({props}) {
       value.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="ROC curve" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="ROC curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 7. ROC curve</p>
     </figure>
 
@@ -159,7 +159,7 @@ export function Software({props}) {
       infiltration (p ≤ 0.05), consistent with immune suppression function.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-8.webp" alt="Immune infiltration" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-8.webp" alt="Immune infiltration" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 8. Immune infiltration</p>
     </figure>
 {/* (4) ? */}
@@ -170,7 +170,7 @@ export function Software({props}) {
       higher in female patients.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-9.webp" alt="Clinical correlation analysis" className="stats img-fluid rounded mb-3" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-9.webp" alt="Clinical correlation analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 9. Clinical correlation analysis</p>
     </figure>
 
@@ -185,7 +185,7 @@ export function Software({props}) {
       experimentally translatable.
     </p>
 </div>
-
+</div>
 <div className="card mb-4">
   <div className="card-body references">
     <h1 id="section_5">{section_5}</h1>
@@ -215,6 +215,5 @@ export function Software({props}) {
 </div>
 
 </div>
-</>
   )
 }
