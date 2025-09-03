@@ -126,7 +126,8 @@ const pages = {
           section_1: "Identification of Risks",
           section_2: "Management of Risks",
           section_3: "Responsibility in Human Practices"
-        }
+        },
+        hero: "https://static.igem.wiki/teams/5822/assets/safety/img-0.webp"
       },
       {
         name: "Experiments",

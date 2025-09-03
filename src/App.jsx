@@ -1,4 +1,5 @@
 import './App.css'
+import Hero from './components/Hero'
 import Header from './components/Header'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Routes } from "react-router-dom"
 import pages from './pages'
@@ -11,10 +12,15 @@ function App() {
 
   return (
     <>
-    <div className="fullSite flex flex-col gap-20">
+    <div className="fullSite flex flex-col gap-0">
+
 
       <Header />
-      <div className="screen flex flex-col px-20 text-base leading-relaxed">
+
+      <Hero />
+
+
+      <div className="screen flex flex-col px-20 text-base leading-relaxed mt-10">
 
         <Routes>
         {/* i wanna redirect to home */}
@@ -52,6 +58,7 @@ function App() {
               more.map((sub) => {
                 const SubComponent = sub.Component;
                 const contents = sub.contents || null
+          
 
                 return (
                   <Route 
