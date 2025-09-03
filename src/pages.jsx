@@ -59,9 +59,16 @@ const pages = {
       {
         name: "Description",
         title: "Description",
-
         path: 'description',
         Component: Description,
+        contents: {
+          section_1: "Introduction",
+          section_2: "Background",
+          section_3: "Our Solution",
+          section_4: "Future applications",
+          section_5: "Project Innovation",
+          section_6: "Reference",
+        }
       },
       { 
         name: 'Engineering', 
@@ -155,7 +162,7 @@ const pages = {
           section_2: "Aptamer Screening",
           section_3: "Molecular Docking",
           section_4: "Complementary Strand Design",
-          section_5: "References",
+          section_5: "Reference",
         }
       },
       {
@@ -168,7 +175,7 @@ const pages = {
           section_2: "Target screening process: from data to candidate molecules",
           section_3: "Target validation: Multi-dimensional analysis to confirm reliability",
           section_4: "Summary: The value of bioinformatics driven target screening",
-          section_5: "References",
+          section_5: "Reference",
         }
       },
       {
@@ -217,7 +224,7 @@ const pages = {
           section_7: "Stakeholder Analysis",
           section_8: "Risk Assessment and Countermeasures",
           section_9: "Development Plan",
-          section_10: "References",
+          section_10: "Reference",
         }
       },
       {

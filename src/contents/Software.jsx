@@ -123,11 +123,11 @@ export function Software({props}) {
       detection value.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-4.webp" alt="KEGG enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-5.webp" alt="KEGG enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 4. KEGG enrichment analysis</p>
     </figure>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-5.webp" alt="GO enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="GO enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
       <p className="figure-caption">Figure 5. GO enrichment analysis</p>
     </figure>
 {/* 3.3 */}
@@ -138,7 +138,7 @@ export function Software({props}) {
       with poorer survival trends, supporting their prognostic potential.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-6.webp" alt="Survival analysis curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="Survival analysis curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
         <p className="figure-caption">Figure 6. Survival analysis curve</p>
     </figure>
 
@@ -159,7 +159,7 @@ export function Software({props}) {
       infiltration (p ≤ 0.05), consistent with immune suppression function.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-8.webp" alt="Immune infiltration" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-9.webp" alt="Immune infiltration" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 8. Immune infiltration</p>
     </figure>
 {/* (4) ? */}
