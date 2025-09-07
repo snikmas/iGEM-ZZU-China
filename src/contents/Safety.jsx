@@ -61,13 +61,14 @@ export function Safety({ props }) {
           <p>
             We closely collaborate with institutional biosafety officers and experienced professors in relevant fields. All laboratory work, including experiments involving E. coli strains and tumor cell lines, is conducted under the supervision and approval of biosafety officers.
           </p>
+          
           <h2>Compliance with Regulations and Guidelines</h2>
           <p>
             Our work follows the biosafety and biosecurity protocols established by our institution. We strictly adhere to local laws and international standards, including the iGEM Safety Policies, to ensure the responsible handling of biological materials and chemicals. All cell lines used (including E. coli and tumor cell lines) have undergone STR profiling and mycoplasma testing to ensure identity verification and contamination-free status. Certificates of Analysis are provided in <a href="Certificates%20of%20Analysis.pdf">Appendix: Certificates of Analysis</a>.</p>
             
             <div className='pdf pt-10 pb-10'>
 
-            <iframe src="https://static.igem.wiki/teams/5822/assets/safety/certificates-of-analysis.pdf" width="100%" height="600px"></iframe>
+            <iframe src="https://static.igem.wiki/teams/5822/assets/safety/certificatesofanalysis.pdf" width="100%" height="600px"></iframe>
             </div>
           <h2>Lab Safety and Training</h2>
           <p>

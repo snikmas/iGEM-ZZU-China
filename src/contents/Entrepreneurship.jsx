@@ -10,7 +10,6 @@ export function Entrepreneurship({ props }) {
         <div className='card-body pdf'>
           <iframe src="https://static.igem.wiki/teams/5822/assets/entrepreneurship/entrepreneurship.pdf" width="100%" height="600px"></iframe>
         </div>
-        
       </div>
 
       <div className="card mb-4">
