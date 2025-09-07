@@ -63,8 +63,12 @@ export function Safety({ props }) {
           </p>
           <h2>Compliance with Regulations and Guidelines</h2>
           <p>
-            Our work follows the biosafety and biosecurity protocols established by our institution. We strictly adhere to local laws and international standards, including the iGEM Safety Policies, to ensure the responsible handling of biological materials and chemicals. All cell lines used (including E. coli and tumor cell lines) have undergone STR profiling and mycoplasma testing to ensure identity verification and contamination-free status. Certificates of Analysis are provided in <a href="Certificates%20of%20Analysis.pdf">Appendix: Certificates of Analysis</a>.
-          </p>
+            Our work follows the biosafety and biosecurity protocols established by our institution. We strictly adhere to local laws and international standards, including the iGEM Safety Policies, to ensure the responsible handling of biological materials and chemicals. All cell lines used (including E. coli and tumor cell lines) have undergone STR profiling and mycoplasma testing to ensure identity verification and contamination-free status. Certificates of Analysis are provided in <a href="Certificates%20of%20Analysis.pdf">Appendix: Certificates of Analysis</a>.</p>
+            
+            <div className='pdf pt-10 pb-10'>
+
+            <iframe src="https://static.igem.wiki/teams/5822/assets/safety/certificates-of-analysis.pdf" width="100%" height="600px"></iframe>
+            </div>
           <h2>Lab Safety and Training</h2>
           <p>
             All team members have completed comprehensive safety training. This includes lab access rules, use of personal protective equipment (PPE), aseptic techniques, and emergency response procedures. Special care is taken when working with toxic chemicals and cell cultures, with full PPE and designated lab areas in use at all times.

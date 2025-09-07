@@ -108,10 +108,15 @@ export function Software({props}) {
       breast cancer tissues. ErbB2 and CD274 showed log<sub>2</sub> fold changes
       of 2.8 and 2.1, supporting their specificity in exosome detection.
     </p>
-    <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-3.webp" alt="Visualization of differential genes in TCGA-BRCA" className="statsimg-fluid rounded mb-3 w-[55%]"/>
-      <p className="figure-caption">Figure 3. Visualization of differential genes in TCGA-BRCA</p>
+    <div className='flex'>
+    <figure>
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-3.webp" alt="Visualization of differential genes in TCGA-BRCA" className="statsimg-fluid rounded mb-3 w-[89%]"/>
     </figure>
+    <figure>
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-4.webp" alt="Visualization of differential genes in TCGA-BRCA" className="statsimg-fluid rounded mb-3 w-[130%]"/>
+    </figure>
+    </div>
+      <p className="figure-caption mb-5">Figure 3. Visualization of differential genes in TCGA-BRCA</p>
 
 {/* 3.2 */}
     <h3 className="text-lg font-medium mt-4 mb-2">3.2 Functional Pathway Enrichment (KEGG & GO Analysis)</h3>
@@ -122,10 +127,16 @@ export function Software({props}) {
       of MMP9 in the collagen-containing extracellular matrix, confirming its
       detection value.
     </p>
+    <div className='flex'>
+
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-5.webp" alt="KEGG enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
-          <p className="figure-caption">Figure 4. KEGG enrichment analysis</p>
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-6.webp" alt="KEGG enrichment analysis" className="statsimg-fluid rounded mb-3 w-[78%]" />
     </figure>
+    <figure className="my-4 text-center">
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-5.webp" alt="KEGG enrichment analysis" className="statsimg-fluid rounded mb-3 w-[100%]" />
+    </figure>
+    </div>
+          <p className="figure-caption">Figure 4. KEGG enrichment analysis</p>
     <figure className="my-4 text-center">
       <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="GO enrichment analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
       <p className="figure-caption">Figure 5. GO enrichment analysis</p>
@@ -138,7 +149,7 @@ export function Software({props}) {
       with poorer survival trends, supporting their prognostic potential.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="Survival analysis curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-8.webp" alt="Survival analysis curve" className="statsimg-fluid rounded mb-3 w-[70%]" />
         <p className="figure-caption">Figure 6. Survival analysis curve</p>
     </figure>
 
@@ -149,7 +160,7 @@ export function Software({props}) {
       value.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-7.webp" alt="ROC curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-9.webp" alt="ROC curve" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 7. ROC curve</p>
     </figure>
 
@@ -159,7 +170,7 @@ export function Software({props}) {
       infiltration (p ≤ 0.05), consistent with immune suppression function.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-9.webp" alt="Immune infiltration" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-10.webp" alt="Immune infiltration" className="statsimg-fluid rounded mb-3 w-[50%]" />
           <p className="figure-caption">Figure 8. Immune infiltration</p>
     </figure>
 {/* (4) ? */}
@@ -170,7 +181,7 @@ export function Software({props}) {
       higher in female patients.
     </p>
     <figure className="my-4 text-center">
-      <img src="https://static.igem.wiki/teams/5822/assets/software/img-9.webp" alt="Clinical correlation analysis" className="statsimg-fluid rounded mb-3 w-[50%]" />
+      <img src="https://static.igem.wiki/teams/5822/assets/software/img-11.webp" alt="Clinical correlation analysis" className="statsimg-fluid rounded mb-3 w-[80%]" />
           <p className="figure-caption">Figure 9. Clinical correlation analysis</p>
     </figure>
 
