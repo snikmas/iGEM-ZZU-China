@@ -208,7 +208,20 @@ const pages = {
         name: "Integrated Human Practices",
         title: "Integrated Human Practices",
         path: "integrated-human-practices",
-        Component: IntegratedHumanPractices
+        Component: IntegratedHumanPractices,
+        contents: {
+          section_1: "Introduction and Problem Overview",
+          section_2: "Solution and Challenges",
+          section_3: "Integrated Report on Breast Health - Related Survey",
+          section_4: "Stakeholder SWOT Analysis",
+          section_5: "Interview on Why Exosomes and Magnetic Beads Were Chosen",
+          section_6: "Interview on the Selection of the Four Target Protein",
+          section_7: "Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down",
+          section_8: "Interview with Breast Surgeons",
+          section_9: "Interview with Laboratory Doctors",
+          section_10: "Interviews with Public and Patients",
+        }
+
       },
       {
         name: "Entrepreneurship",
