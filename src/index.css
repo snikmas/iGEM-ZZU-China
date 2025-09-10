@@ -208,3 +208,32 @@ header {
 .references a:hover{
   color:#337cc9;
 }
+
+
+/* sidebar */
+
+.logo {
+  box-shadow: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px; 
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #9ca3af82; 
+  border-radius: 9999px;     
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #6b72803f;
+}
+
+.sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #9ca3af71 transparent;
+}

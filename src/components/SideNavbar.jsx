@@ -33,11 +33,13 @@ function SideNavbar({ props }) {
 
   return (
     <div
-      className="bg-[#d2e0e4b4] px-4 py-5 
+      className="bg-[#d2e0e4b4] px-5 py-7 
         rounded-lg 
         w-64 
-        h-fit 
-        sticky top-30 self-start
+        sticky top-30 self-start         /* leave space at top */
+        max-h-[calc(90vh-5rem)]         /* leave space at bottom */
+        overflow-y-auto    
+        sidebar
       "
     >
       <div className="flex flex-col gap-2 text-base">

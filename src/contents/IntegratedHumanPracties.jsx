@@ -20,9 +20,9 @@ export function IntegratedHumanPractices() {
       <p>
         In China, breast cancer has become a serious public health issue. Data from the National Cancer Center in 2023 shows that there are approximately 420,000 new cases of breast cancer in China each year, accounting for 21.6% of all malignant tumors in Chinese women, ranking first. Each year, about 120,000 people die from it, making it the fourth leading cause of cancer death among Chinese women (after lung cancer, gastric cancer, and liver cancer)<sup>[1]</sup>. Surveys indicate that various factors such as obesity (BMI ≥ 28), alcohol consumption, lack of exercise, environmental estrogens (plasticizers, pesticide residues), long-term stress, and depression have increased the incidence of breast cancer. The prevention and treatment of breast cancer face core challenges such as low coverage of breast cancer screening (the popularity rate of mammography screening is less than 30%), uneven distribution of medical resources, and sociocultural barriers. Given its profound impact on individual health and the healthcare system, addressing the challenges posed by breast cancer is crucial for improving the overall health status in China.
       </p>
-      <img src="placeholder_image_1.jpg" alt="Top 10 Cancers by New Cases" className="img-fluid rounded mb-3 stats" />
+      <img src="https://static.igem.wiki/teams/5822/assets/integratedhp/img-01.webp" alt="Top 10 Cancers by New Cases" className="img-fluid rounded mb-3 stats" />
       <p className="figure-caption">Figure 1. The top 10 cancer types by the number of new cases among Chinese women in 2020</p>
-      <img src="placeholder_image_2.jpg" alt="Top 10 Cancers by Death Cases" className="img-fluid rounded mb-3 stats" />
+      <img src="https://static.igem.wiki/teams/5822/assets/integratedhp/img-02.webp" alt="Top 10 Cancers by Death Cases" className="img-fluid rounded mb-3 stats" />
       <p className="figure-caption">Figure 2. The top 10 cancer types by the number of death cases among Chinese women in 2020</p>
     </div>
   </div>
@@ -86,8 +86,8 @@ export function IntegratedHumanPractices() {
       <p>
         <strong>Disease Awareness:</strong> 72.5% of respondents are aware of breast hyperplasia and breast cancer, while only 34.2% can identify the symptoms and causes of diseases such as breast fibroids and mastitis. Among the 18-30 age group, the awareness rate of lactational mastitis is 18.5%. 61.3% know the association with obesity, poor mood, and family history, but only 39.7% are aware that staying up late and a high-sugar, high-fat diet are risk factors. Men's overall cognition of high-risk factors is 24.8% lower than that of women.
       </p>
-      <img src="placeholder_image_3.jpg" alt="Survey Questions and Response Statistics" className="img-fluid rounded mb-3 stats" />
-      <p className="figure-caption">Figure 1. Survey Questions and Response Statistics</p>
+      <img src="https://static.igem.wiki/teams/5822/assets/integratedhp/img-03.webp" alt="Survey Questions and Response Statistics" className="img-fluid rounded mb-3 stats" />
+      <p className="figure-caption">Figure 3. Survey Questions and Response Statistics</p>
       <p>
         <strong>Summary:</strong> The public has a certain understanding of common breast diseases, but there are gaps in knowledge about some diseases, especially among young people regarding specific diseases. Men's cognition is generally weak.
       </p>
@@ -102,8 +102,8 @@ export function IntegratedHumanPractices() {
       <p>
         <strong>Screening Practices:</strong> 73.6% of women recognize the importance of screening. Among women over 40, 49.2% have regular (1-2 years) mammography/ultrasound examinations. Only 21.5% of women aged 20-30 perform self-examinations every year, and over 52.3% do not know the method. The participation rate of men in screening is 4.7%. 59.8% pay attention to breast health, but only 29.5% adhere to a healthy lifestyle (work and rest, diet, exercise). Over 41.2% find it difficult to practice long-term due to stress and lack of motivation, and only 24.6% actively search for popular science.
       </p>
-      <img src="placeholder_image_4.jpg" alt="Survey Questions and Response Statistics" className="img-fluid rounded mb-3 stats" />
-      <p className="figure-caption">Figure 2. Survey Questions and Response Statistics</p>
+      <img src="https://static.igem.wiki/teams/5822/assets/integratedhp/img-04.webp" alt="Survey Questions and Response Statistics" className="img-fluid rounded mb-3 stats" />
+      <p className="figure-caption">Figure 4. Survey Questions and Response Statistics</p>
       <p>
         <strong>Summary:</strong> Women's awareness of screening has improved, but the self-examination rate of young women is low and their mastery of methods is insufficient. Men's participation is extremely low. Most people pay attention to it but fail to take action, and there is insufficient initiative to learn popular science.
       </p>
@@ -118,8 +118,8 @@ export function IntegratedHumanPractices() {
       <p>
         <strong>Content Preferences:</strong> 41.2% of respondents want "identification of early disease signals", 30.5% focus on "scientific preventive lifestyles", and 19.8% need "treatment and rehabilitation". The group over 55 has a prominent demand for "nursing related to diseases and aging" (accounting for 14.3%). 49.6% choose short videos/articles, 30.8% look forward to community lectures, and 19.6% prefer medical platform pushes. Young people like short videos (59.3%), while middle-aged and elderly people are more accepting of community lectures (40.7%).
       </p>
-      <img src="placeholder_image_5.jpg" alt="Survey Questions and Response Statistics" className="img-fluid rounded mb-3 stats" />
-      <p className="figure-caption">Figure 3. Survey Questions and Response Statistics</p>
+      <img src="https://static.igem.wiki/teams/5822/assets/integratedhp/img-05.webp" alt="Survey Questions and Response Statistics" className="img-fluid rounded mb-3 stats" />
+      <p className="figure-caption">Figure 5. Survey Questions and Response Statistics</p>
       <p>
         <strong>Summary:</strong> Different age groups have differences in the demand for popular science content, and the identification of early signals has high attention.
       </p>
@@ -164,8 +164,8 @@ export function IntegratedHumanPractices() {
       <p><strong>Weaknesses:</strong> Scientific research projects require large capital investment and have long cycles, and the process of transforming scientific research achievements into practical applications is relatively complex and difficult.</p>
       <p><strong>Opportunities:</strong> The government's support for scientific research projects is increasing, international scientific research cooperation is becoming more frequent, and emerging technologies such as big data and artificial intelligence are developing.</p>
       <p><strong>Threats:</strong> Fierce competition and issues related to intellectual property protection.</p>
-      <img src="placeholder_image_6.jpg" alt="Stakeholder SWOT Analysis" className="img-fluid rounded mb-3 stats" />
-      <p className="figure-caption">Figure 1. Stakeholder SWOT Analysis</p>
+      <img src="https://static.igem.wiki/teams/5822/assets/integratedhp/img-06.webp" alt="Stakeholder SWOT Analysis" className="img-fluid rounded mb-3 stats" />
+      <p className="figure-caption">Figure 6. Stakeholder SWOT Analysis</p>
       <h2>Key Issues and Solutions</h2>
       <table className="table table-bordered">
         <thead>
@@ -216,7 +216,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview method:</strong> On-site interview<br />
         <strong>Interview time:</strong> 3:00 PM, May 7, 2025
       </p>
-      <img src="placeholder_image_7.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h2>Interview Content</h2>
       <p>
         <strong>Interviewer:</strong> Among numerous tumor markers, what is <strong>the most prominent advantage</strong> of exosomes as a target for early screening of breast cancer?
@@ -252,7 +251,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interview<br />
         <strong>Interview Time:</strong> 3:00 PM, May 9, 2025
       </p>
-      <img src="placeholder_image_8.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h2>Interview Content</h2>
       <p>
         <strong>Interviewer:</strong> Hello, Professor. Our detection platform focuses on four proteins—MMP-9, HER-2, PD-L1, and EpCAM—on exosomes. From the perspective of breast cancer pathogenesis, <strong>what special significance does each of these proteins hold</strong>?
@@ -288,7 +286,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interview<br />
         <strong>Interview Time:</strong> 5:00 PM, May 22, 2025
       </p>
-      <img src="placeholder_image_9.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h2>Interview Content</h2>
       <p>
         <strong>Interviewer:</strong> Hello, Professor! Our platform uses CD63 aptamers to pull down exosomes. From the perspective of exosomal biological characteristics, <strong>why is CD63 suitable as a target for capture?</strong>
@@ -324,7 +321,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interview<br />
         <strong>Interview Time:</strong> 5:00 PM, August 2, 2025
       </p>
-      <img src="placeholder_image_10.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h2>Interview Content</h2>
       <p>
         <strong>Interviewer:</strong> Hello, Dr. [Doctor's Name]! Thank you very much for taking the time to accept our interview amidst your busy schedule. First of all, could you please introduce to us <strong>the common causes of breast cancer</strong>?
@@ -360,7 +356,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interview<br />
         <strong>Interview Time:</strong> 6:00 PM, August 2, 2025
       </p>
-      <img src="placeholder_image_11.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h2>Interview Content</h2>
       <p>
         <strong>Interviewer:</strong> Hello, Dr. [Doctor's Name]! Thank you very much for taking the time to participate in this interview. Our project focuses on "A Targeted Detection Platform for Breast Cancer Exosome Biomarkers". First, we would like to ask: What are <strong>the main responsibilities of the clinical laboratory in breast cancer screening currently</strong>? What are the characteristics of <strong>commonly used detection technologies</strong>?
@@ -397,7 +392,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interview<br />
         <strong>Interview Time:</strong> 10:00 AM, August 11, 2025
       </p>
-      <img src="placeholder_image_12.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h3>Interview Content</h3>
       <p>
         <strong>Interviewer:</strong> Hello, Ms. XX! Thank you for participating in this interview. First, could you tell us what you know about <strong>breast cancer screening</strong>? Do you actively get checked regularly?
@@ -427,7 +421,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interview<br />
         <strong>Interview Time:</strong> 2:00 PM, August 12, 2025
       </p>
-      <img src="placeholder_image_13.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h3>Interview Content</h3>
       <p>
         <strong>Interviewer:</strong> Hello, Professor XX! Currently, the coverage rate of breast cancer screening in China is still less than 50%. From a public health perspective, <strong>what measures can effectively increase this coverage</strong>?
@@ -461,7 +454,6 @@ export function IntegratedHumanPractices() {
         <strong>Interview Method:</strong> On-site interviews<br />
         <strong>Interview Time:</strong> 9:00 AM - 11:00 AM, August 17, 2025
       </p>
-      <img src="placeholder_image_14.jpg" alt="Interview Image" className="img-fluid rounded mb-3 stats" />
       <h3>Interview Content</h3>
       <p>
         <strong>Interviewer:</strong> Patient A, <strong>how did you find out you had breast cancer</strong>?
