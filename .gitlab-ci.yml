@@ -28,6 +28,7 @@ pages:
   script:
     - npm run build
     - cp -a dist/. public/
+    - echo '/* /index.html 200' > public/_redirects
   artifacts:
     paths:
       - public
