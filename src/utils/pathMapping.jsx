@@ -7,7 +7,7 @@ function pathMapping() {
 
 
   return (
-  <Routes basename="/zzu-china">
+  <Routes >
     { Object.entries(pages).map(([key, page]) => {
       const {path, more} = page;
 
