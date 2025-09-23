@@ -10,7 +10,6 @@ import {
   // project
   Description,
   Engineering, 
-  Results,
   Contribution, 
   Development, 
   
@@ -19,11 +18,11 @@ import {
   Notebook, 
   Parts,
   Safety,
+  Results,
 
   //drylab
   Model, 
-  Software, 
-  Hardware, 
+  Software,
 
   // education.
   Education, 
@@ -74,11 +73,6 @@ const pages = {
         name: 'Engineering', 
         Component: Engineering,
         path: 'engineering',
-      },
-      { 
-        name: 'Results', 
-        Component: Results,
-        path: 'results',
       },
       { 
         name: 'Contribution', 
@@ -146,7 +140,12 @@ const pages = {
         title: "Parts",
         path: "parts",
         Component: Parts
-      }
+      },
+      { 
+        name: 'Results', 
+        Component: Results,
+        path: 'results',
+      },
     ]},
 
   //drylab
@@ -178,12 +177,6 @@ const pages = {
           section_4: "Summary: The value of bioinformatics driven target screening",
           section_5: "Reference",
         }
-      },
-      {
-        name: "Hardware",
-        title: "Hardware",
-        path: "hardware",
-        Component: Hardware
       }
     ],
   },
