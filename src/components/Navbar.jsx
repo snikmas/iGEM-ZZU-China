@@ -16,7 +16,6 @@ export default function Navbar() {
       subitems: [
         { label: "Description", link: "description" },
         { label: "Engineering", link: "engineering" },
-        { label: "Results", link: "results" },
         { label: "Contribution", link: "contribution" },
         { label: "Development", link: "development" },
       ],
@@ -27,13 +26,13 @@ export default function Navbar() {
         { label: "Notebook", link: "notebook" },
         { label: "Parts", link: "parts" },
         { label: "Safety", link: "safety" },
+        { label: "Results", link: "results" },
       ],
     },
     "Dry Lab": {
       subitems: [
         { label: "Model", link: "model" },
         { label: "Software", link: "software" },
-        { label: "Hardware", link: "hardware" },
       ],
     },
     Education: { link: "/education", subitems: [] },
