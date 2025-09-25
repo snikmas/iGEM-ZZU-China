@@ -24,7 +24,7 @@ export function Attributions() {
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
         <div className="avatar-member mr-4 flex flex-row gap-5 items-center">
           <div className='w-32 h-32 rounded-full overflow-hidden'>
-            <img className="w-full h-full object-cover translate-y-[-45%]" src="https://static.igem.wiki/teams/5822/assets/members/zzu-lipei.webp" alt="Li Pei"/>
+            <img className="w-full h-full object-cover translate-y-[-45%]" src="https://static.igem.wiki/teams/5822/assets/members/lipei.webp" alt="Li Pei"/>
           </div> 
           <div className="flex flex-col justify-center title h-[80%] gap-2">
             <h6 className="text-[28px] font-bold leading-none">Li Pei</h6>
@@ -49,7 +49,7 @@ export function Attributions() {
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
         <div className="avatar-member mr-4 flex flex-row gap-5 items-center">
           <div className='w-32 h-32 rounded-full overflow-hidden'>
-            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-liukangdong.webp" alt="Kangdong Liu"/>
+            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/liukangdong.webp" alt="Liu Kangdong"/>
           </div>
           <div className="flex flex-col justify-center title h-[80%] gap-2">
             <h6 className="text-[28px] font-bold leading-none">Kangdong Liu</h6>
@@ -74,10 +74,10 @@ export function Attributions() {
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
         <div className="avatar-member mr-4 flex flex-row gap-5 items-center">
           <div className='w-32 h-32 rounded-full overflow-hidden'>
-            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-zhangshanfeng.webp" alt="Shanfeng Zhang"/>
+            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zhangshanfeng.webp" alt="Shanfeng Zhang"/>
           </div>
           <div className="flex flex-col justify-center title h-[80%] gap-2">
-            <h6 className="text-[28px] font-bold leading-none">Shanfeng Zhang</h6>
+            <h6 className="text-[28px] font-bold leading-none">Zhang Shanfeng</h6>
             <span className="text-gray-600 text-xl tracking-wider font-normal">Instructor</span>
           </div>
         </div>
@@ -101,10 +101,10 @@ export function Attributions() {
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
         <div className="avatar-member mr-4 flex flex-row gap-5 items-center">
           <div className='w-32 h-32 rounded-full overflow-hidden'>
-            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-zhangwenqiao.webp" alt="Wenqiao Zang"/>
+            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zhangwenqiao.webp" alt="Wenqiao Zang"/>
           </div>
           <div className="flex flex-col justify-center title h-[80%] gap-2">
-            <h6 className="text-[28px] font-bold leading-none">Wenqiao Zhang</h6>
+            <h6 className="text-[28px] font-bold leading-none">Zhang Wenqiao</h6>
             <span className="text-gray-600 text-xl tracking-wider font-normal">Instructor</span>
           </div>
         </div>
@@ -126,10 +126,10 @@ export function Attributions() {
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
         <div className="avatar-member mr-4 flex flex-row gap-5 items-center">
           <div className='w-32 h-32 rounded-full overflow-hidden'>
-            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-wangzhenlong.webp" alt="Zhenlong Wang"/>
+            <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/wangzhenlong.webp" alt="Zhenlong Wang"/>
           </div>
           <div className="flex flex-col justify-center title h-[80%] gap-2">
-            <h6 className="text-[28px] font-bold leading-none">Zhenlong Wang</h6>
+            <h6 className="text-[28px] font-bold leading-none">Wang Zhenlong</h6>
             <span className="text-gray-600 text-xl tracking-wider font-normal">Advisor</span>
           </div>
         </div>
@@ -151,10 +151,10 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-panzhifeng.webp" alt="Zhifeng Pan"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/panzhifeng.webp" alt="Zhifeng Pan"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
-      <h6 className="text-[28px] font-bold leading-none">Zhifeng Pan</h6>
+      <h6 className="text-[28px] font-bold leading-none">Pan Zhifeng</h6>
       <span className="text-gray-600 text-xl tracking-wider font-normal">Advisor</span>
     </div>
   </div>
@@ -248,7 +248,7 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-mengxiaoyu.webp" alt="Mengxiao Yu"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-mengyaoyu.webp" alt="Mengxiao Yu"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
       <h6 className="text-[28px] font-bold leading-none">Yu Mengxiao</h6>
@@ -272,7 +272,7 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-wenlanfang.webp" alt="Wenlan Fang"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-wenlan-fang.webp" alt="Wenlan Fang"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
       <h6 className="text-[28px] font-bold leading-none">Fang Wenlan</h6>
@@ -416,10 +416,10 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-xiaoranji.webp" alt="Xiaoran Ji"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-xiaoran-ji.webp" alt="Xiaoran Ji"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
-      <h6 className="text-[28px] font-bold leading-none">Xiaoran Ji</h6>
+      <h6 className="text-[28px] font-bold leading-none">Li Xiaoran</h6>
       <span className="text-gray-600 text-xl tracking-wider font-normal">Member</span>
     </div>
   </div>
@@ -464,7 +464,7 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-tianhuichen.webp" alt="Tianhui Chen"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-tianhui-chen.webp" alt="Tianhui Chen"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
       <h6 className="text-[28px] font-bold leading-none">Tianhui Chen</h6>
@@ -487,10 +487,10 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-peilinli.webp" alt="Peilin Li"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/huazhong-university-peilinli.webp" alt="Peilin Li"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
-      <h6 className="text-[28px] font-bold leading-none">Peilin Li</h6>
+      <h6 className="text-[28px] font-bold leading-none">Li Peilin</h6>
       <span className="text-gray-600 text-xl tracking-wider font-normal">Member</span>
     </div>
   </div>
@@ -512,10 +512,10 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-zhiquanzhang.webp" alt="Zhiquan Zhang"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/konanuniversity-zhiquanzhang.webp" alt="Zhiquan Zhang"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
-      <h6 className="text-[28px] font-bold leading-none">Zhiquan Zhang</h6>
+      <h6 className="text-[28px] font-bold leading-none">Zhang Zhiquan</h6>
       <span className="text-gray-600 text-xl tracking-wider font-normal">Member</span>
     </div>
   </div>
@@ -536,7 +536,7 @@ export function Attributions() {
 <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
   <div className="avatar-member flex flex-row gap-5 items-center">
     <div className='w-32 h-32 rounded-full overflow-hidden'>
-      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-snik.webp" alt="Snik"/>
+      <img className="w-full h-full object-cover" src="https://static.igem.wiki/teams/5822/assets/members/zzu-mary.webp" alt="Snik"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
       <h6 className="text-[28px] font-bold leading-none">Mariia Salnikova</h6>
