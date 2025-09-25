@@ -1,12 +1,14 @@
 import React from 'react'
 
-export function Attributions() {
+export function Attributions({props}) {
+  const {section_1, section_2, Section_3, section_4} = props;
+
   return (
   <>
     <div className="container my-4">
       <div className="card mb-4">
         <div className="card-body">
-          <h1 id="section_1">Introduction to Team Contributions</h1>
+          <h1 id="section_1">{section_1}</h1>
             <p>
               At ZZU-IGEM, every member's contributions are clearly documented and valued, and we sincerely appreciate the selfless support from all our external partners.
               Since the beginning of 2024, the ZZU-IGEM team has been committed to delivering a comprehensive project, pouring our utmost effort into every phase. Whether it's the repeated verifications at the lab bench, the logical restructuring in code, or the late-night brainstorming sessions, every milestone bears visible traces of our hard work. We openly share our moments of triumph and candidly document the obstacles we encounter—together, these form the most authentic growth map of our team. Each member's dedication and perseverance are recorded in the project logs, and every instance of collaboration and breakthrough earns the respect and applause of the entire team. We firmly believe: the value of teamwork lies not in flawless results, but in every step we take together.
@@ -17,7 +19,7 @@ export function Attributions() {
       
       <div className='card mb-4'>
   <div className='card-body'>
-    <h1 id='section_2'>Team Member Contributions</h1>
+    <h1 id='section_2'>{section_2}</h1>
     <div className="grid grid-cols-2 gap-6">
 
       {/* Li Pei */}
@@ -565,7 +567,7 @@ export function Attributions() {
     </div>
     <div className='card mb-4'>
   <div className='card-body'>
-    <h1 id="section_2">External Contributions</h1>
+    <h1 id="section_3">{Section_3}</h1>
     <div className='grid grid-cols-3 gap-6'>
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-2 justify-center h-120">
         <img src="https://static.igem.wiki/teams/5822/assets/sponsor.webp" alt="techman" className='m-0! object-conver mb-5!'/>
@@ -583,7 +585,7 @@ export function Attributions() {
   </div>
     <div className='card mb-4'>
   <div className='card-body'>
-    <h1 id='section_3'>Timeline</h1>
+    <h1 id='section_4'>{section_4}</h1>
     
     <div className='grid grid-cols-3 gap-6'>
       <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">

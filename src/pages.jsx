@@ -102,6 +102,12 @@ const pages = {
         title: "Attributions",
         path: 'attributions',
         Component: Attributions,
+        contents: {
+          section_1: "Introduction",
+          section_2: "Team Member Contributions",
+          section_3: "External Contributions",
+          section_4: "Timeline",
+        }
       },
 
     ]
