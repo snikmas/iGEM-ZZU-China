@@ -562,10 +562,57 @@ export function Attributions() {
       
     </div>
   </div>
-</div>
 
+  <div className='card-body'>
+    <h1 id='section_2'>Timeline</h1>
+    
+    <div className='grid grid-cols-3 gap-6'>
+      <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">
+        <h6 className='font-semibold text-[20px]'>Recruit Team Members</h6>   
+        <span>Start: 2024 October</span>
+        <span>End: 2025 March</span>
+        <span>Calendar Duration: 20 weeks</span>   
+
+      </div>
+      <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">
+        <h6 className='font-semibold text-[20px]'>Development Of Project Plan</h6>   
+        <span>Start: 2025 January</span>
+        <span>End: 2025 March</span>
+        <span>Calendar Duration: 8 weeks</span>   
+
+      </div>
+      <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">
+        <h6 className='font-semibold text-[20px]'>Wet Laboratory Activities</h6>   
+        <span>Start: 2025 July 1st</span>
+        <span>End: 2025 October 8th</span>
+        <span>Calendar Duration: 13 weeks</span>   
+
+      </div>
+      <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">
+        <h6 className='font-semibold text-[20px]'>Dry Laboratory Activities</h6>   
+        <span>Start: 2025 March</span>
+        <span>End: 2025 September</span>
+        <span>Calendar Duration: 28 weeks</span>   
+
+      </div>
+      <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">
+        <h6 className='font-semibold text-[20px]'>Building The Team Wili</h6>   
+        <span>Start: 2025 July 1st</span>
+        <span>End: 2025 October 8th</span>
+        <span>Calendar Duration: 13 weeks</span>   
+
+      </div>
+      
+
+    <div>
 
     </div>
+    </div>
+  </div>
+  </div>
+    
+
+  </div>
   </>
   )
 }
