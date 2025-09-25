@@ -562,9 +562,28 @@ export function Attributions() {
       
     </div>
   </div>
-
+    </div>
+    <div className='card mb-4'>
   <div className='card-body'>
-    <h1 id='section_2'>Timeline</h1>
+    <h1 id="section_2">External Contributions</h1>
+    <div className='grid grid-cols-3 gap-6'>
+      <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-2 justify-center h-120">
+        <img src="https://static.igem.wiki/teams/5822/assets/sponsor.webp" alt="techman" className='m-0! object-conver mb-5!'/>
+        <h6 className='font-semibold text-[20px]'>Techman Software (TECHMAN)</h6>   
+        <span>Institution Type: Industry</span>
+        <span>Relationship to Team: Sponsor</span>
+        <span>Tasks: Fundraising</span>   
+        <span>Specific tasks: Provided financial support.</span>   
+
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+    <div className='card mb-4'>
+  <div className='card-body'>
+    <h1 id='section_3'>Timeline</h1>
     
     <div className='grid grid-cols-3 gap-6'>
       <div className="card flex flex-col p-8 bg-white shadow-md rounded-2xl gap-2 justify-center h-50">
