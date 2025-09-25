@@ -1,7 +1,7 @@
 import React from 'react'
 
 export function Attributions({props}) {
-  const {section_1, section_2, Section_3, section_4} = props;
+  const {section_1, section_2, section_3, section_4} = props;
 
   return (
   <>
@@ -567,7 +567,7 @@ export function Attributions({props}) {
     </div>
     <div className='card mb-4'>
   <div className='card-body'>
-    <h1 id="section_3">{Section_3}</h1>
+    <h1 id="section_3">{section_3}</h1>
     <div className='grid grid-cols-3 gap-6'>
       <div className="card flex flex-col p-10 bg-white shadow-md rounded-2xl gap-2 justify-center h-120">
         <img src="https://static.igem.wiki/teams/5822/assets/sponsor.webp" alt="techman" className='m-0! object-conver mb-5!'/>
