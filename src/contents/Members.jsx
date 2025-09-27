@@ -11,20 +11,45 @@ export function Members({props}) {
     .map((member, idx) => (
       <div
         key={idx}
-        className="relative w-70 h-85 aspect-[3/4] rounded-2xl overflow-hidden shadow-lg group"
+        className="relative w-79 h-100 perspective group" 
+        style={{ perspective: '1000px' }}
       >
-        {/* Background Photo */}
-        <img
-          src={member.photoUri}
-          alt={member.name}
-          className={member.imgStyle}
-          // "w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
+        <div
+          className="relative w-full h-full transition-transform duration-500"
+          style={{ transformStyle: 'preserve-3d' }}
+        >
+          {/* Front Side */}
+          <div
+            className="absolute w-full h-full rounded-2xl overflow-hidden shadow-lg backface-hidden "
+            style={{ backfaceVisibility: 'hidden' }}
+          >
+            <img
+              src={member.photoUri}
+              alt={member.name}
+              className={member.imgStyle}
+            />
+            <div className="absolute bottom-[-5%] w-full bg-gradient-to-t from-black/90 via-black/90 to-transparent p-5 text-center">
+              <h2 className="text-white/90! text-lg font-semibold">{member.name}</h2>
+            </div>
+          </div>
 
-        {/* Overlay Text */}
-        <div className="absolute bottom-[-5%] w-full bg-gradient-to-t from-black/90 via-black/90 to-transparent p-5 text-center">
-          <h2 className="text-white/90! text-lg font-semibold">{member.name}</h2>
+          {/* Back Side */}
+          <div
+            className="absolute w-full h-full rounded-2xl overflow-hidden shadow-lg backface-hidden rotate-y-180 bg-black/80 flex flex-col justify-center items-center p-5 text-center"
+            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+          >
+            <h2 className="text-white! font-semibold text-lg">{member.name}</h2>
+            <span className="text-white/80 text-sm">{member.introduction}</span>
+            {/* <p className="text-white/70 text-xs mt-2">{member.introduction}</p> */}
+          </div>
         </div>
+
+        {/* Hover transform */}
+        <style jsx>{`
+          .group:hover > div {
+            transform: rotateY(180deg);
+          }
+        `}</style>
       </div>
     ));
 }
@@ -32,16 +57,17 @@ export function Members({props}) {
 
 
 
+
   function teamCards() {
     return roles.map((role, idx) => (
-      <div key={idx} className="mb-10">
+      <div key={idx} className="mb-10  p-5!">
         {/* Role Title */}
-        <h2 className="text-xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-xl font-semibold mb-8! text-gray-700">
           {role}
         </h2>
     
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-5">
+        <div className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-3 gap-21">
           {memberCard(role)}
         </div>
       </div>
@@ -52,7 +78,7 @@ export function Members({props}) {
 
   return (
     <div className="container my-4">
-      <div className="card mb-4">
+      <div className="card mb-4 w-[108%]">
         <div className="card-body">
           <h1 id="section_1">{section_1}</h1>
           <p>
@@ -63,8 +89,8 @@ export function Members({props}) {
           </p>
         </div>
       </div>
-      <div className='card mb-4'>
-        <div className="card-body p-8">
+      <div className='card mb-4 mx-[-2%]  w-[108%]'>
+        <div className="card-body p-2!">
           {/* Section Header */}
           <h1 id="section_2" className="text-3xl font-bold mb-6 text-gray-800">
             {section_2}

@@ -25,7 +25,7 @@ export const members = [
   {
     name: "Kangdong Liu",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/liukangdong.webp",
-    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%] ",
     introduction: "Hello everyone, I'm Professor Kangdong Liu. As Executive Dean of Zhengzhou University's Basic Medical College and an expert in esophageal cancer prevention, I specialize in cancer chemoprevention research with extensive experience in anticancer mechanisms of natural compounds. I'm delighted to provide professional guidance on molecular mechanism design and experimental optimization for this year's iGEM team, and look forward to collaborating with young researchers to explore innovative applications of synthetic biology in cancer prevention.",
     position: ["Primary PI", "Principal Investigator"],
     specificTasks: [
@@ -324,7 +324,7 @@ export const members = [
   {
     name: "Xiaoran Ji",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-xiaoran-ji.webp",
-    imgStyle: "w-full h-full object-cover translate-y-[-15%] scale-[140%]",
+    imgStyle: "w-full h-full object-cover translate-y-[2%] scale-[160%]",
     introduction: "Hello everyone, I'm Ji Xiaoran. I may be a bit shy and take time to warm up, but you'll find I'm genuinely dedicated once we get to know each other. In my free time, I love drawing and crafting—these hobbies have taught me to observe details patiently and nurtured my creativity. I joined the iGEM team because I was drawn to everyone's focused and dedicated attitude, and I want to gradually challenge myself through collaboration. Looking forward to growing together with all of you—your guidance would be much appreciated!",
     position: ["Human Practices Group"],
     specificTasks: [
@@ -375,7 +375,7 @@ export const members = [
   {
     name: "Peilin Li",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/huazhong-university-peilinli.webp",
-    imgStyle: "w-full h-full object-cover translate-y-[-9%] scale-[140%]",
+    imgStyle: "w-full h-full object-cover translate-y-[1%] scale-[160%]",
     introduction: "Hello everyone, I am Li Peilin, a student majoring in Clinical Medicine at Huazhong University of Science and Technology. Currently, I am enthusiastically participating in my university's iGEM competition team, primarily responsible for the Human Practices segment. My core work revolves around building a bridge between synthetic biology and the public. Through activities such as social research and science education, I explore the ethical and social issues related to our project, ensuring that scientific innovation can responsibly serve society. My background in medicine allows me to place greater emphasis on the humanistic care aspect of technology, and I look forward to collaborating with the team to achieve meaningful and impactful work. Thank you!",
     position: ["Wiki Group"],
     specificTasks: [
@@ -396,7 +396,7 @@ export const members = [
   {
     name: "Zhiquan Zhang",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/konanuniversity-zhiquanzhang.webp",
-    imgStyle: "w-full h-full object-cover translate-y-[-17%] scale-[145%] translate-x-[-15%]",
+    imgStyle: "w-full h-full object-cover  scale-[155%] translate-x-[-15%]",
     introduction: "Hello everyone, I'm Zhiquan Zhang. I’m a calm and steady person who thrives in creative environments, which makes me a natural fit for managing our YouTube content and visual storytelling. My strengths lie in video production, editing, and strategic content planning—I enjoy transforming complex ideas into engaging, accessible formats for wider audiences. Beyond the camera, I have a passion for photography and music, which help me maintain a sharp eye for detail and rhythm in my work. I joined this team because I believe in the power of media to amplify scientific impact.",
     position: ["Human Practices Group"],
     specificTasks: [
@@ -413,7 +413,7 @@ export const members = [
   {
     name: "Mariia Salnikova",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-mary.webp",
-    imgStyle: "w-full h-full object-cover translate-y-[-12%] scale-[140%]",
+    imgStyle: "w-full h-full object-cover translate-y-[-1%] scale-[150%]",
     introduction: "Hello everyone! I'm Maria, an international student currently studying in China. I’ve always been passionate about cross-cultural collaboration and scientific innovation, which is why I’m thrilled to join this team. My strengths lie in data analysis and computational modeling—I enjoy turning complex biological questions into actionable insights using tools like Python and R. Outside the lab, I love photography and hiking, which help me see problems from creative perspectives.",
     position: ["Wiki Group"],
     specificTasks: [
