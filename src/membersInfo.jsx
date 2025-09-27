@@ -1,10 +1,11 @@
-const roles = ["Principal Investigator", "Instructor", "Adbisor", "Mentor", "Student Leader", "Presentation Group", "Model Group", "Human Practices Group", "Wiki Group"]
+export const roles = ["Principal Investigator", "Instructor", "Advisor", "Mentor", "Student Leader", "Presentation Group", "Model Group", "Human Practices Group", "Wiki Group"]
 
-const members = {
-  member_01: {
+export const members = [
+  {
     name: "Pei Li",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/lipei.webp",
-    inroduction: "Hello everyone, I'm Professor Pei Li. As Vice Dean of the Basic Medical College and an expert in tumor immunology, I have extensive research experience in molecular pathology of cancer, particularly in cancer prevention and immunotherapy. I am pleased to provide this year's iGEM team with guidance in tumor immunology, experimental design optimization, and access to international academic resources. My research team has achieved innovative results in esophageal cancer chemoprevention and previously mentored student teams to win special awards in the Henan \"Challenge Cup\" competition. I look forward to collaborating with young team members to explore innovative applications of synthetic biology in cancer prevention and treatment, and to supporting your efforts to showcase Chinese scientific research on the international stage!",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I'm Professor Pei Li. As Vice Dean of the Basic Medical College and an expert in tumor immunology, I have extensive research experience in molecular pathology of cancer, particularly in cancer prevention and immunotherapy. I am pleased to provide this year's iGEM team with guidance in tumor immunology, experimental design optimization, and access to international academic resources. My research team has achieved innovative results in esophageal cancer chemoprevention and previously mentored student teams to win special awards in the Henan \"Challenge Cup\" competition. I look forward to collaborating with young team members to explore innovative applications of synthetic biology in cancer prevention and treatment, and to supporting your efforts to showcase Chinese scientific research on the international stage!",
     position: ["Primary PI", "Principal Investigator"],
     specificTasks: [
       {
@@ -21,10 +22,11 @@ const members = {
       }
     ]
   },
-  member_02: {
+  {
     name: "Kangdong Liu",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/kangdongliu.webp",
-    inroduction: "Hello everyone, I'm Professor Kangdong Liu. As Executive Dean of Zhengzhou University's Basic Medical College and an expert in esophageal cancer prevention, I specialize in cancer chemoprevention research with extensive experience in anticancer mechanisms of natural compounds. I'm delighted to provide professional guidance on molecular mechanism design and experimental optimization for this year's iGEM team, and look forward to collaborating with young researchers to explore innovative applications of synthetic biology in cancer prevention.",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/liukangdong.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I'm Professor Kangdong Liu. As Executive Dean of Zhengzhou University's Basic Medical College and an expert in esophageal cancer prevention, I specialize in cancer chemoprevention research with extensive experience in anticancer mechanisms of natural compounds. I'm delighted to provide professional guidance on molecular mechanism design and experimental optimization for this year's iGEM team, and look forward to collaborating with young researchers to explore innovative applications of synthetic biology in cancer prevention.",
     position: ["Primary PI", "Principal Investigator"],
     specificTasks: [
       {
@@ -41,10 +43,11 @@ const members = {
       }
     ]
   },
-  member_03: {
+  {
     name: "Shanfeng Zhang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/shanfengzhang.webp",
-    inroduction: "Hello everyone, I'm Professor Shangfeng Zhang. As Director of the Basic Medical Experiment Center and an expert in natural anti-tumor drug research, I specialize in developing novel molecular detection technologies and have achieved multiple innovative results in studying the anti-tumor mechanisms of plant extracts. I'm delighted to provide the iGEM team with experimental platform support, molecular detection technical guidance, and innovation/entrepreneurship resources. My experiences can strongly support your synthetic biology research. Looking forward to exploring the infinite possibilities of life sciences together with our students!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zhangshanfeng.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I'm Professor Shangfeng Zhang. As Director of the Basic Medical Experiment Center and an expert in natural anti-tumor drug research, I specialize in developing novel molecular detection technologies and have achieved multiple innovative results in studying the anti-tumor mechanisms of plant extracts. I'm delighted to provide the iGEM team with experimental platform support, molecular detection technical guidance, and innovation/entrepreneurship resources. My experiences can strongly support your synthetic biology research. Looking forward to exploring the infinite possibilities of life sciences together with our students!",
     position: ["Instructor"],
     specificTasks: [
       {
@@ -61,10 +64,11 @@ const members = {
       }
     ]
   },
-  member_04: {
+  {
     name: "Wenqiao Zang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/wenqiaozang.webp",
-    inroduction: "Hello everyone, I'm Professor Wenqiao Zang. I am excited to join the iGEM team as your research mentor! With expertise in tumor immunology and novel bacterial detection technologies, plus research experience at the New York Blood Center, I look forward to supporting your project design and experimental innovation. My background in national-level grants and international collaboration will help bridge your synthetic biology work with real-world medical applications. Let's work together to make an impact!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zhangwenqiao.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I'm Professor Wenqiao Zang. I am excited to join the iGEM team as your research mentor! With expertise in tumor immunology and novel bacterial detection technologies, plus research experience at the New York Blood Center, I look forward to supporting your project design and experimental innovation. My background in national-level grants and international collaboration will help bridge your synthetic biology work with real-world medical applications. Let's work together to make an impact!",
     position: ["Instructor"],
     specificTasks: [
       {
@@ -81,10 +85,11 @@ const members = {
       }
     ]
   },
-  member_05: {
+  {
     name: "Zhenlong Wang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zhenlongwang.webp",
-    inroduction: "Hello everyone, I'm Professor Zhenlong Wang. As a bioinformatics specialist with extensive experience in animal adaptation research and national-level projects, I'm excited to support your iGEM journey by providing genomic analysis guidance, animal model insights, and interdisciplinary research strategies - let's work together to bridge evolutionary biology with synthetic biology innovation!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/wangzhenlong.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-15%] scale-[105%]",
+    introduction: "Hello everyone, I'm Professor Zhenlong Wang. As a bioinformatics specialist with extensive experience in animal adaptation research and national-level projects, I'm excited to support your iGEM journey by providing genomic analysis guidance, animal model insights, and interdisciplinary research strategies - let's work together to bridge evolutionary biology with synthetic biology innovation!",
     position: ["Advisor"],
     specificTasks: [
       {
@@ -101,10 +106,11 @@ const members = {
       }
     ]
   },
-  member_06: {
+  {
     name: "Pan Zhifeng",
     photoUri: "https://static.igem.wiki/teams/5822/assets/members/panzhifeng.webp",
-    inroduction: "Hello everyone, I am Professor Pan Zhifeng, currently teaching at Zhengzhou University. As a long-term dedicated researcher and educator, I have always focused on nurturing students' innovative thinking and practical abilities, and have accumulated substantial experience in guiding students through innovation and entrepreneurship training programs. I am very excited to join your iGEM team and look forward to providing support and guidance in social practice strategies. Let's work together to integrate solid social practices with cutting-edge synthetic biology innovations, exploring more valuable scientific solutions!",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I am Professor Pan Zhifeng, currently teaching at Zhengzhou University. As a long-term dedicated researcher and educator, I have always focused on nurturing students' innovative thinking and practical abilities, and have accumulated substantial experience in guiding students through innovation and entrepreneurship training programs. I am very excited to join your iGEM team and look forward to providing support and guidance in social practice strategies. Let's work together to integrate solid social practices with cutting-edge synthetic biology innovations, exploring more valuable scientific solutions!",
     position: ["Advisor"],
     specificTasks: [
       {
@@ -121,10 +127,11 @@ const members = {
       }
     ]
   },
-  member_07: {
+  {
     name: "Pengjie Wang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/pengjiewang.webp",
-    inroduction: "Hello everyone, I’m Pengjie Wang. My passion lies in computational biology, particularly in using algorithms and data analysis to uncover the fundamental principles of biological systems. That’s why I’m actively engaged in cutting-edge research in this field as part of the iGEM team. I also have a strong command of English, which allows me to fluently read academic literature, communicate research ideas, and collaborate across disciplines—skills that greatly enhance my ability to explore interdisciplinary science. At the upcoming iGEM competition, I look forward to working with my teammates to push boundaries and contribute meaningfully to synthetic biology. Together, we’ll reach new heights and advance this exciting field!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-pengjiewang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[8%] translate-x-[-20%] scale-178",
+    introduction: "Hello everyone, I’m Pengjie Wang. My passion lies in computational biology, particularly in using algorithms and data analysis to uncover the fundamental principles of biological systems. That’s why I’m actively engaged in cutting-edge research in this field as part of the iGEM team. I also have a strong command of English, which allows me to fluently read academic literature, communicate research ideas, and collaborate across disciplines—skills that greatly enhance my ability to explore interdisciplinary science. At the upcoming iGEM competition, I look forward to working with my teammates to push boundaries and contribute meaningfully to synthetic biology. Together, we’ll reach new heights and advance this exciting field!",
     position: ["Student Leader", "Presentation Group", "Model Group"],
     specificTasks: [
       {
@@ -141,10 +148,11 @@ const members = {
       }
     ]
   },
-  member_08: {
+  {
     name: "Xinze Li",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/xinzeli.webp",
-    inroduction: "Hello everyone! I’m Xinze Li, an undergraduate student with a passion for lab work and data analysis. In my free time, I love honing my experimental techniques and learning how to turn raw data into meaningful insights—a process I find incredibly rewarding. It’s what drives me to take on new challenges. By joining the iGEM team, I hope to further develop my hands-on skills in molecular biology (like PCR and Western blot) while using R for data organization and visualization. This way, I can bridge the gap between experiments and analysis, making our work more impactful. What excites me most is collaborating with teammates who share the same growth mindset. Learning from and contributing to this team is what makes iGEM truly meaningful for me.",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-xinzeli.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-10%] scale-[170%]",
+    introduction: "Hello everyone! I’m Xinze Li, an undergraduate student with a passion for lab work and data analysis. In my free time, I love honing my experimental techniques and learning how to turn raw data into meaningful insights—a process I find incredibly rewarding. It’s what drives me to take on new challenges. By joining the iGEM team, I hope to further develop my hands-on skills in molecular biology (like PCR and Western blot) while using R for data organization and visualization. This way, I can bridge the gap between experiments and analysis, making our work more impactful. What excites me most is collaborating with teammates who share the same growth mindset. Learning from and contributing to this team is what makes iGEM truly meaningful for me.",
     position: ["Student Leader", "Wet Lab Group"],
     specificTasks: [
       {
@@ -165,10 +173,11 @@ const members = {
       }
     ]
   },
-  member_09: {
+  {
     name: "Jijing Ba",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/jijingba.webp",
-    inroduction: "Hello everyone! I'm Jijing Ba. What drew me to iGEM is my fascination with how science connects to real-world applications. This competition offers the perfect platform to not only dive into synthetic biology but also to collaborate on turning innovative ideas into meaningful solutions. For me, iGEM represents more than just a competition - it's an opportunity to grow as a scientist and team player while working on projects that can make a genuine difference. I'm thrilled to be part of this journey with all of you!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-jijingba.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[9%] translate-x-[35%] scale-[178%]",
+    introduction: "Hello everyone! I'm Jijing Ba. What drew me to iGEM is my fascination with how science connects to real-world applications. This competition offers the perfect platform to not only dive into synthetic biology but also to collaborate on turning innovative ideas into meaningful solutions. For me, iGEM represents more than just a competition - it's an opportunity to grow as a scientist and team player while working on projects that can make a genuine difference. I'm thrilled to be part of this journey with all of you!",
     position: ["Model Group"],
     specificTasks: [
       {
@@ -181,10 +190,11 @@ const members = {
       }
     ]
   },
-  member_10: {
+  {
     name: "Mengyao Yu",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/mengyaoyu.webp",
-    inroduction: "Hello everyone, I’m Mengyao Yu. I joined iGEM team to apply my passion for research toward meaningful work in breast cancer prevention and treatment—from experimental design to hands-on lab work. My strength lies in my meticulous, organized approach, which helps me tackle complex challenges effectively. When I’m not in the lab, you’ll likely find me on the badminton court. I’m excited to bring both my scientific dedication and attention to detail to our team’s mission!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-mengyaoyu.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I’m Mengyao Yu. I joined iGEM team to apply my passion for research toward meaningful work in breast cancer prevention and treatment—from experimental design to hands-on lab work. My strength lies in my meticulous, organized approach, which helps me tackle complex challenges effectively. When I’m not in the lab, you’ll likely find me on the badminton court. I’m excited to bring both my scientific dedication and attention to detail to our team’s mission!",
     position: ["Wet Lab Group"],
     specificTasks: [
       {
@@ -201,10 +211,11 @@ const members = {
       }
     ]
   },
-  member_11: {
+  {
     name: "Wenlan Fang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/wenlanfang.webp",
-    inroduction: "Hello everyone! I'm Wenlan Fang. I'm an outgoing yet thoughtful person who loves bringing positive energy to teamwork while staying grounded in results. My strengths lie in creative problem-solving and collaborative communication—I enjoy brainstorming ideas that balance innovation with practicality. Outside of work, I'm passionate about creative writing and outdoor sports, which fuel both my imagination and discipline. I joined this iGEM team because I believe the best solutions come from diverse perspectives working in sync.",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-wenlan-fang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[10%] scale-[180%]",
+    introduction: "Hello everyone! I'm Wenlan Fang. I'm an outgoing yet thoughtful person who loves bringing positive energy to teamwork while staying grounded in results. My strengths lie in creative problem-solving and collaborative communication—I enjoy brainstorming ideas that balance innovation with practicality. Outside of work, I'm passionate about creative writing and outdoor sports, which fuel both my imagination and discipline. I joined this iGEM team because I believe the best solutions come from diverse perspectives working in sync.",
     position: ["Human Practices Group"],
     specificTasks: [
       {
@@ -217,10 +228,11 @@ const members = {
       }
     ]
   },
-  member_12: {
+  {
     name: "Yufei Huang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/yufeihuang.webp",
-    inroduction: "Hello everyone! I'm Yufei Huang. As an iGEMer, I'm passionate about synthetic biology and fascinated by how interdisciplinary approaches can solve real-world problems - from the intricate design of gene editing to practical engineering applications. What excites me most is the entire discovery process, and I can't wait to share this enthusiasm and inspiration with all of you during our scientific journey!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-yufeihuang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone! I'm Yufei Huang. As an iGEMer, I'm passionate about synthetic biology and fascinated by how interdisciplinary approaches can solve real-world problems - from the intricate design of gene editing to practical engineering applications. What excites me most is the entire discovery process, and I can't wait to share this enthusiasm and inspiration with all of you during our scientific journey!",
     position: ["Wet Lab Group"],
     specificTasks: [
       {
@@ -233,10 +245,11 @@ const members = {
       }
     ]
   },
-  member_13: {
+  {
     name: "Yuxiao Zhang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/yuxiaozhang.webp",
-    inroduction: "Hello! I'm Yuxiao Zhang, a clinical medicine student with a creative side. When I'm not studying, you'll find me playing piano, singing, or sketching. I also love good food, quality sleep, and exploring new places - and I've recently discovered a passion for swimming! What drew me to iGEM is its incredible diversity. This competition has introduced me to brilliant minds across different disciplines while expanding my perspective through hands-on experiments and meaningful outreach activities. I'm absolutely thrilled to be meeting all of you this October in Paris - it's going to be an unforgettable experience!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-yuxiaozhang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-10%] scale-[125%]",
+    introduction: "Hello! I'm Yuxiao Zhang, a clinical medicine student with a creative side. When I'm not studying, you'll find me playing piano, singing, or sketching. I also love good food, quality sleep, and exploring new places - and I've recently discovered a passion for swimming! What drew me to iGEM is its incredible diversity. This competition has introduced me to brilliant minds across different disciplines while expanding my perspective through hands-on experiments and meaningful outreach activities. I'm absolutely thrilled to be meeting all of you this October in Paris - it's going to be an unforgettable experience!",
     position: ["Student Leader", "Human Practices Group"],
     specificTasks: [
       {
@@ -253,10 +266,11 @@ const members = {
       }
     ]
   },
-  member_14: {
+  {
     name: "Yutong Liu",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/yutongliu.webp",
-    inroduction: "Hello, I'm Liu Yutong, a second-year Basic Medicine student. I competed in iGEM, focusing on molecular cloning and protein expression. I handled vector construction, transformation, and induction, which improved my lab skills and teamwork. This experience strengthened my interest in life sciences and motivated me to advance human health. Looking forward to connecting with you all!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-yutongwang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-10%] translate-x-[14%] scale-[135%]",
+    introduction: "Hello, I'm Liu Yutong, a second-year Basic Medicine student. I competed in iGEM, focusing on molecular cloning and protein expression. I handled vector construction, transformation, and induction, which improved my lab skills and teamwork. This experience strengthened my interest in life sciences and motivated me to advance human health. Looking forward to connecting with you all!",
     position: ["Model Group"],
     specificTasks: [
       {
@@ -273,10 +287,11 @@ const members = {
       }
     ]
   },
-  member_15: {
+  {
     name: "Canyang Wang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/canyangwang.webp",
-    inroduction: "Hello everyone! I’m Canyang Wang, a student in the 2024 Basic Medical Science program. I’m excited to join this team because I want to combine my medical knowledge with collaborative innovation to create real impact. Outside of academics, I love social activities—they’ve introduced me to incredible people and expanded my perspective in ways I never expected. I also bring practical skills to the table, like video shooting and editing, which I’d love to use to document and share our team’s journey. Can’t wait to learn, create, and grow with all of you in iGEM!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-canyangwang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-1%] scale-[120%]",
+    introduction: "Hello everyone! I’m Canyang Wang, a student in the 2024 Basic Medical Science program. I’m excited to join this team because I want to combine my medical knowledge with collaborative innovation to create real impact. Outside of academics, I love social activities—they’ve introduced me to incredible people and expanded my perspective in ways I never expected. I also bring practical skills to the table, like video shooting and editing, which I’d love to use to document and share our team’s journey. Can’t wait to learn, create, and grow with all of you in iGEM!",
     position: ["Human Practices Group"],
     specificTasks: [
       {
@@ -285,10 +300,11 @@ const members = {
       }
     ]
   },
-  member_16: {
+  {
     name: "Yuxuan Xia",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/yuxuanxia.webp",
-    inroduction: "Hello everyone, I'm Yuxuan Xia. I'm particularly fascinated by biosynthesis - how we can engineer living systems as \"biological factories\" to produce valuable compounds. This cutting-edge approach in biotechnology is exactly why I joined iGEM, where I hope to deepen my knowledge of pathway design and optimization. Beyond the lab, I enjoy creative pursuits like painting, graphic design, and video production. I believe these skills can contribute uniquely to our team's projects, whether in visualization, presentation, or conceptual design. Looking forward to collaborating and creating something remarkable together!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-yuxuanxia.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-21%]",
+    introduction: "Hello everyone, I'm Yuxuan Xia. I'm particularly fascinated by biosynthesis - how we can engineer living systems as \"biological factories\" to produce valuable compounds. This cutting-edge approach in biotechnology is exactly why I joined iGEM, where I hope to deepen my knowledge of pathway design and optimization. Beyond the lab, I enjoy creative pursuits like painting, graphic design, and video production. I believe these skills can contribute uniquely to our team's projects, whether in visualization, presentation, or conceptual design. Looking forward to collaborating and creating something remarkable together!",
     position: ["Wet Lab Group"],
     specificTasks: [
       {
@@ -305,10 +321,11 @@ const members = {
       }
     ]
   },
-  member_17: {
+  {
     name: "Xiaoran Ji",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/xiaoranji.webp",
-    inroduction: "Hello everyone, I'm Ji Xiaoran. I may be a bit shy and take time to warm up, but you'll find I'm genuinely dedicated once we get to know each other. In my free time, I love drawing and crafting—these hobbies have taught me to observe details patiently and nurtured my creativity. I joined the iGEM team because I was drawn to everyone's focused and dedicated attitude, and I want to gradually challenge myself through collaboration. Looking forward to growing together with all of you—your guidance would be much appreciated!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-xiaoran-ji.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-15%] scale-[140%]",
+    introduction: "Hello everyone, I'm Ji Xiaoran. I may be a bit shy and take time to warm up, but you'll find I'm genuinely dedicated once we get to know each other. In my free time, I love drawing and crafting—these hobbies have taught me to observe details patiently and nurtured my creativity. I joined the iGEM team because I was drawn to everyone's focused and dedicated attitude, and I want to gradually challenge myself through collaboration. Looking forward to growing together with all of you—your guidance would be much appreciated!",
     position: ["Human Practices Group"],
     specificTasks: [
       {
@@ -321,10 +338,11 @@ const members = {
       }
     ]
   },
-  member_18: {
+  {
     name: "Jing Lei",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/jinglei.webp",
-    inroduction: "Hello everyone, I'm Jing Lei, a medical student specializing in clinical medicine. I have a passion for hands-on lab work and unraveling complex biological phenomena. Outside the lab, you'll find me enjoying music, writing essays, and I particularly thrive in public speaking and presentations. What excites me most about joining iGEM is the opportunity to learn, innovate, and contribute to meaningful research as part of a dynamic team. I can't wait to collaborate with all of you and look forward to our meeting in Paris!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-jinglei.webp",
+    imgStyle: "w-full h-full object-cover scale-[156%] translate-y-[-5%]",
+    introduction: "Hello everyone, I'm Jing Lei, a medical student specializing in clinical medicine. I have a passion for hands-on lab work and unraveling complex biological phenomena. Outside the lab, you'll find me enjoying music, writing essays, and I particularly thrive in public speaking and presentations. What excites me most about joining iGEM is the opportunity to learn, innovate, and contribute to meaningful research as part of a dynamic team. I can't wait to collaborate with all of you and look forward to our meeting in Paris!",
     position: ["Presentation Group", "Wet Lab Group"],
     specificTasks: [
       {
@@ -337,10 +355,11 @@ const members = {
       }
     ]
   },
-  member_19: {
+  {
     name: "Tianhui Chen",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/tianhuichen.webp",
-    inroduction: "Hello everyone! I'm Tianhui Chen. I'm an outgoing and articulate person who thrives on lively discussions and intellectual challenges. My friends often describe me as a \"friendly debater\"—I love analyzing different perspectives and finding the strongest arguments to support great ideas. When I'm not engaged in debates, you can find me reading books or playing competitive board games—both of which sharpen my critical thinking. I joined this team because I believe the best solutions come from rigorous discussion and collaborative problem-solving.",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-tianhui-chen.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-5%] scale-[150%] translate-x-[-15%]",
+    introduction: "Hello everyone! I'm Tianhui Chen. I'm an outgoing and articulate person who thrives on lively discussions and intellectual challenges. My friends often describe me as a \"friendly debater\"—I love analyzing different perspectives and finding the strongest arguments to support great ideas. When I'm not engaged in debates, you can find me reading books or playing competitive board games—both of which sharpen my critical thinking. I joined this team because I believe the best solutions come from rigorous discussion and collaborative problem-solving.",
     position: ["Presentation Group", "Wet Lab Group"],
     specificTasks: [
       {
@@ -353,10 +372,11 @@ const members = {
       }
     ]
   },
-  member_20: {
+  {
     name: "Peilin Li",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/peilinli.webp",
-    inroduction: "Hello everyone, I am Li Peilin, a student majoring in Clinical Medicine at Huazhong University of Science and Technology. Currently, I am enthusiastically participating in my university's iGEM competition team, primarily responsible for the Human Practices segment. My core work revolves around building a bridge between synthetic biology and the public. Through activities such as social research and science education, I explore the ethical and social issues related to our project, ensuring that scientific innovation can responsibly serve society. My background in medicine allows me to place greater emphasis on the humanistic care aspect of technology, and I look forward to collaborating with the team to achieve meaningful and impactful work. Thank you!",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/huazhong-university-peilinli.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-9%] scale-[140%]",
+    introduction: "Hello everyone, I am Li Peilin, a student majoring in Clinical Medicine at Huazhong University of Science and Technology. Currently, I am enthusiastically participating in my university's iGEM competition team, primarily responsible for the Human Practices segment. My core work revolves around building a bridge between synthetic biology and the public. Through activities such as social research and science education, I explore the ethical and social issues related to our project, ensuring that scientific innovation can responsibly serve society. My background in medicine allows me to place greater emphasis on the humanistic care aspect of technology, and I look forward to collaborating with the team to achieve meaningful and impactful work. Thank you!",
     position: ["Wiki Group"],
     specificTasks: [
       {
@@ -373,10 +393,11 @@ const members = {
       }
     ]
   },
-  member_21: {
+  {
     name: "Zhiquan Zhang",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zhiquanzhang.webp",
-    inroduction: "Hello everyone, I'm Zhiquan Zhang. I’m a calm and steady person who thrives in creative environments, which makes me a natural fit for managing our YouTube content and visual storytelling. My strengths lie in video production, editing, and strategic content planning—I enjoy transforming complex ideas into engaging, accessible formats for wider audiences. Beyond the camera, I have a passion for photography and music, which help me maintain a sharp eye for detail and rhythm in my work. I joined this team because I believe in the power of media to amplify scientific impact.",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/konanuniversity-zhiquanzhang.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-17%] scale-[145%] translate-x-[-15%]",
+    introduction: "Hello everyone, I'm Zhiquan Zhang. I’m a calm and steady person who thrives in creative environments, which makes me a natural fit for managing our YouTube content and visual storytelling. My strengths lie in video production, editing, and strategic content planning—I enjoy transforming complex ideas into engaging, accessible formats for wider audiences. Beyond the camera, I have a passion for photography and music, which help me maintain a sharp eye for detail and rhythm in my work. I joined this team because I believe in the power of media to amplify scientific impact.",
     position: ["Human Practices Group"],
     specificTasks: [
       {
@@ -389,10 +410,11 @@ const members = {
       }
     ]
   },
-  member_22: {
+  {
     name: "Mariia Salnikova",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/snik.webp",
-    inroduction: "Hello everyone! I'm Snik, an international student currently studying in China. I’ve always been passionate about cross-cultural collaboration and scientific innovation, which is why I’m thrilled to join this team. My strengths lie in data analysis and computational modeling—I enjoy turning complex biological questions into actionable insights using tools like Python and R. Outside the lab, I love photography and hiking, which help me see problems from creative perspectives.",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-mary.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-12%] scale-[140%]",
+    introduction: "Hello everyone! I'm Maria, an international student currently studying in China. I’ve always been passionate about cross-cultural collaboration and scientific innovation, which is why I’m thrilled to join this team. My strengths lie in data analysis and computational modeling—I enjoy turning complex biological questions into actionable insights using tools like Python and R. Outside the lab, I love photography and hiking, which help me see problems from creative perspectives.",
     position: ["Wiki Group"],
     specificTasks: [
       {
@@ -405,4 +427,4 @@ const members = {
       }
     ]
   }
-};
+];

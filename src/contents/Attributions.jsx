@@ -253,7 +253,7 @@ export function Attributions({props}) {
       <img className="w-full h-full object-cover scale-133 translate-y-[-50%]" src="https://static.igem.wiki/teams/5822/assets/members/zzu-mengyaoyu.webp" alt="Mengxiao Yu"/>
     </div>
     <div className="flex flex-col justify-center gap-2">
-      <h6 className="text-[28px] font-bold leading-none">Mengxiao Yu</h6>
+      <h6 className="text-[28px] font-bold leading-none">Mengyao Yu</h6>
       <span className="text-gray-600 text-xl tracking-wider font-normal">Member</span>
     </div>
   </div>

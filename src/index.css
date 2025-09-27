@@ -2,6 +2,7 @@
 
 @theme {
   --color-header: #D2E0E4
+
 }
 
 /* SPECIAL FEATURES */
@@ -237,3 +238,5 @@ header {
   scrollbar-width: thin;
   scrollbar-color: #9ca3af71 transparent;
 }
+
+

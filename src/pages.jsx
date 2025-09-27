@@ -96,6 +96,10 @@ const pages = {
         title: "Members",
         path: 'members',
         Component: Members,
+        contents: {
+          section_1: "Team Introduction",
+          section_2: "Team Members"
+        }
       },
       {
         name: "Attributions",

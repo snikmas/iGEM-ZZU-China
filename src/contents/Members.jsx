@@ -1,11 +1,60 @@
 import React from 'react'
+import { members, roles } from "../membersInfo"; 
 
-export function Members() {
+
+export function Members({props}) {
+  const {section_1, section_2} = props;
+
+  function memberCard(role) {
+  return members
+    .filter(member => member.position.includes(role))
+    .map((member, idx) => (
+      <div
+        key={idx}
+        className="relative w-70 h-85 aspect-[3/4] rounded-2xl overflow-hidden shadow-lg group"
+      >
+        {/* Background Photo */}
+        <img
+          src={member.photoUri}
+          alt={member.name}
+          className={member.imgStyle}
+          // "w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+
+        {/* Overlay Text */}
+        <div className="absolute bottom-[-5%] w-full bg-gradient-to-t from-black/90 via-black/90 to-transparent p-5 text-center">
+          <h2 className="text-white/90! text-lg font-semibold">{member.name}</h2>
+        </div>
+      </div>
+    ));
+}
+
+
+
+
+  function teamCards() {
+    return roles.map((role, idx) => (
+      <div key={idx} className="mb-10">
+        {/* Role Title */}
+        <h2 className="text-xl font-semibold mb-4 text-gray-700">
+          {role}
+        </h2>
+    
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-5">
+          {memberCard(role)}
+        </div>
+      </div>
+    ));
+  }
+  
+
+
   return (
     <div className="container my-4">
       <div className="card mb-4">
         <div className="card-body">
-          <h1 id="section_1">Team Introduction</h1>
+          <h1 id="section_1">{section_1}</h1>
           <p>
             On the IGEM stage, there stands a team from Zhengzhou University. We came together out of our passion for life sciences, and walk side by side with a firm original aspiration: to carve out a more accurate and efficient path for breast cancer detection through the power of synthetic biology.
             When we saw that breast cancer accounts for nearly one-third of all malignant tumors in women worldwide, and learned about the limitations of traditional detection methods, we deeply realized that every delayed diagnosis could mean a regret in life. Thus, we set our sights on the cutting-edge field of "exosome detection" and dived headfirst into the laboratory, holding fast to the belief that "we can make early screening simpler and give patients more confidence".
@@ -15,58 +64,14 @@ export function Members() {
         </div>
       </div>
       <div className='card mb-4'>
-        <div className="card-body">
-          <h1 id="section_1">Team Members</h1>
-            <h2>Principal Investigators</h2>
-          <div className="block-with-cards + text grid grid-cols-3 gap-6">
-              {/* card */}
-              <div className="card flex- bg-white shadow-md rounded-2xl gap-10">
-                <div className="card-img">
-                  <img src="https://static.igem.wiki/teams/5822/assets/members/lipei.webp" alt="LiPei" className="w-full"/>
-                </div>
-                <div className='card-description flex flex-col text-center bg-amber-50'>
-                  <h2>Pei Li</h2>
-                  <span>Primary Investigator</span>
-                </div>
-              </div>
-
-              <div className="card flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
-                <div className=" card-img">
-                  <img src="https://static.igem.wiki/teams/5822/assets/members/lipei.webp" alt="LiPei"/>
-                </div>
-                <div className='card-description'>
-                  <h2>Pei Li</h2>
-                </div>
-              </div>
-
-              <div className="card flex-col p-10 bg-white shadow-md rounded-2xl gap-10">
-                <div className=" card-img">
-                  <img src="https://static.igem.wiki/teams/5822/assets/members/lipei.webp" alt="LiPei"/>
-                </div>
-                <div className='card-description '>
-                  <h2>Pei Li</h2>
-                </div>
-              </div>
-              
-            </div>
-
-
-              
-
-            
-
-            
+        <div className="card-body p-8">
+          {/* Section Header */}
+          <h1 id="section_2" className="text-3xl font-bold mb-6 text-gray-800">
+            {section_2}
+          </h1>
+          {teamCards()}
         </div>
-
       </div>
-
-
-
-
-
-
-
-
     </div>
   )
 }
