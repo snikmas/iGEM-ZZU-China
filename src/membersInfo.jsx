@@ -268,8 +268,8 @@ export const members = [
   },
   {
     name: "Yutong Liu",
-    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-yutongwang.webp",
-    imgStyle: "w-full h-full object-cover translate-y-[-10%] translate-x-[14%] scale-[135%]",
+    photoUri: "https://static.igem.wiki/teams/5822/assets/members/zzu-liutong.webp",
+    imgStyle: "w-full h-full object-cover translate-y-[-22%] translate-x-[0%] scale-[105%]",
     introduction: "Hello, I'm Liu Yutong, a second-year Basic Medicine student. I competed in iGEM, focusing on molecular cloning and protein expression. I handled vector construction, transformation, and induction, which improved my lab skills and teamwork. This experience strengthened my interest in life sciences and motivated me to advance human health. Looking forward to connecting with you all!",
     position: ["Model Group"],
     specificTasks: [
