@@ -1,0 +1,12 @@
+item_name,is_expense,quantity,sum_of_one
+Balloons,TRUE,5000,5
+Ice Cream Machines,TRUE,12,15000
+Ice Cream Sales,FALSE,1000,120
+Cones,TRUE,2000,1
+Syrup,TRUE,500,3
+Ice Cream Cups,TRUE,1000,0.5
+Ice Cream Sales - Vanilla,FALSE,400,120
+Ice Cream Sales - Chocolate,FALSE,350,130
+Ice Cream Sales - Strawberry,FALSE,250,110
+Advertising,TRUE,1,500
+Maintenance,TRUE,1,200

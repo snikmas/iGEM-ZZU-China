@@ -1,0 +1,16 @@
+item_name,is_expense,quantity,sum_of_one
+Tomatoes,TRUE,200,1.5
+Cheese,TRUE,50,5
+Burger Sales,FALSE,120,8
+Soft Drinks,FALSE,300,2
+Burger Buns,TRUE,120,0.8
+Employee Wages,TRUE,10,1500
+Pizza Sales,FALSE,80,12
+Napkins,TRUE,500,0.1
+Cleaning Supplies,TRUE,20,15
+Delivery Fees,FALSE,40,5
+Coffee Beans,TRUE,10,20
+Dessert Sales,FALSE,60,6
+Vegetables,TRUE,100,2
+Utilities,TRUE,1,300
+Gift Cards Sold,FALSE,15,50

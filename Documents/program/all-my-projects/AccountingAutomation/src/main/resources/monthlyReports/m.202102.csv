@@ -1,0 +1,11 @@
+item_name,is_expense,quantity,sum_of_one
+Pens,TRUE,1000,0.5
+Notebooks,TRUE,500,2
+Laptop Sales,FALSE,20,1200
+Office Chairs,TRUE,10,150
+Coffee,FALSE,200,3
+Printer Ink,TRUE,50,30
+Consulting Revenue,FALSE,5,500
+Snacks,TRUE,100,1.5
+Training Fees,FALSE,10,200
+Stationery,TRUE,200,0.8
