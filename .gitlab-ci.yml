@@ -1,36 +1,17 @@
-image: node:18.20.0
+image: node:22.14.0
 
-stages:
-  - build
-  - deploy
+before_script:
+  - npm install -g pnpm
+  - pnpm install
 
-build:
+create-pages:
   stage: build
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .npm
-  before_script:
-    - npm ci
   script:
-    - npm run build
-  rules:
-    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
-
-pages:
-  stage: deploy
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .npm
-  before_script:
-    - npm ci
-  script:
-    - npm run build
-    - cp -a dist/. public/
-    - cp 404.html public/404.html
+    - pnpm run build
   artifacts:
     paths:
-      - public
+      - out
+  pages:
+    publish: out
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
