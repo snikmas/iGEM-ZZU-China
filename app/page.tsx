@@ -1,7 +1,10 @@
 import Link from "next/link";
 
+
+
 export default function Page() {
   return (
+    <>
     <div className="min-h-screen p-8">
       <h1 className="text-4xl font-bold mb-8 text-center">ZZU-China iGEM Team 2025</h1>
       
@@ -60,5 +63,6 @@ export default function Page() {
         </div>
       </div>
     </div>
+    </>
   );
 }
