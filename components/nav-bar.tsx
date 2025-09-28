@@ -8,6 +8,10 @@ type MenuItem = {
 
 const menu: MenuItem[] = [
   {
+    label: "Home",
+    href: "/",
+  },
+  {
     label: "Team",
     href: "/team",
     children: [
@@ -57,7 +61,7 @@ const menu: MenuItem[] = [
 
 export default function NavBar() {
   return (
-    <nav className="sticky top-0 z-50 w-full shadow" style={{ backgroundColor: "#69393e" }}>
+    <nav className="sticky top-0 z-50 w-full shadow bg-[#69393e]">
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-white font-semibold">ZZU-China</Link>
