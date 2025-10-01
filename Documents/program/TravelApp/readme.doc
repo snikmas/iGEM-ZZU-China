@@ -1,6 +1,32 @@
-1. 姓名：SALNIKOVA MARIIA
-2. 性别：女
-3. 2024年纪
-4. 7班
-5. 202480090230
-6. 15736792315
+TravelApp 🌍
+A simple, fast, and interactive travel planner to explore destinations and find suggested tours.
+
+TravelApp lets you quickly choose a destination and instantly view hand-picked tour suggestions. Just click Start, select a place you'd like to visit, and discover curated travel ideas—no sign-up, no clutter.
+
+✨ Features
+🎯 Pick a Destination
+Choose where you want to go with a single click.
+
+🗺️ Instant Tour Suggestions
+Browse curated tours and activities based on your selected location.
+
+⚡ Lightweight & Fast
+Built with pure HTML, CSS, and JavaScript—no frameworks or dependencies.
+
+🚀 Getting Started
+To run the app locally:
+
+```
+bash 
+git clone https://github.com/snikmas/TripApp
+cd TripApp
+npm install
+```
+
+🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit a pull request.
+
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+...test-commit

@@ -1,15 +1,20 @@
 package com.utils;
 
+import java.time.Month;
+import java.util.ArrayList;
+import java.util.List;
+
 public class MonthReport {
     int month;
     long income;
     long expense;
     long total;
-    long topExpense;
+    long topExpense ;
     String topExpenseName;
 
     long topIncome;
     String topIncomeName;
+
 
 
     public MonthReport() {

@@ -6,28 +6,7 @@ import static com.utils.MenuOperations.*;
 
 public class Main {
     public static void main(String[] args) {
-        // interface for managing a prorgam
-        // convert mounts/year info from files to objects
-        // check months -> year
-        // output
 
-        // we get .csv files
-        // MonthlyReport, YearReport
-
-        // m.YYYYMM.txt -> m -> a monthly report
-        // y.2021.csv - year 2021 report
-        // item_name, is_expense +/-, quantity, sum_of_one - month
-        // month, amount, is_expense -> 01,1000,true
-
-        // implement:
-        // 1. calculate all mounth reports
-        // 2. calculate year report
-        // 3. check reports
-        // 4. shows all info all mounth reports
-        // 5. shows info year report
-
-        // 1. Menu
-        // 2. function to open file -> get data -> process it -> save it -> output it -> return to the menu
         boolean running = true;
         final String[] menu = {
                 "Menu:",
@@ -41,7 +20,6 @@ public class Main {
 
 
         System.out.println("Welcome To Account Automation App!");
-
 
         int option = -1;
         Scanner scanner = new Scanner(System.in);
