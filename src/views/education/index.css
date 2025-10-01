@@ -1,0 +1,100 @@
+/* 教育英雄区域 */
+.education-hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  /* background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+
+.education-hero-section:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+}
+
+.hero-image-container {
+  margin-bottom: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-education-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-education-image:hover {
+  transform: translateY(-4px);
+}
+
+.hero-quote {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-quote blockquote {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #2c3e50;
+  margin: 0 0 15px 0;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.hero-quote cite {
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 500;
+  display: block;
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.overview-button {
+  text-align: center;
+}
+
+.overview-button button {
+  background: #8b4513;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.3);
+}
+
+.overview-button button:hover {
+  background: #a0522d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.4);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .education-hero-section {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+  }
+
+  .hero-quote blockquote {
+    font-size: 1.2rem;
+  }
+
+  .hero-quote cite {
+    font-size: 0.9rem;
+  }
+}
+/* 教育英雄区域 */
+

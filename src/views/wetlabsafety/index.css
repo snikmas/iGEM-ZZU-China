@@ -1,0 +1,148 @@
+.wetlabsafety {
+    width: 100%;
+    height: 100%;
+}
+
+.safety-hero {
+    position: relative;
+    width: 100%;
+    height: 36vh;
+    min-height: 260px;
+    background: #0b1730 url('../../assets/images/bg.jpeg') center/cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.safety-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%);
+}
+
+.safety-hero__text {
+    position: relative;
+    color: #fff;
+    padding: 24px 32px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.safety-hero__text h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.safety-hero__text p {
+    margin: 0;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.95);
+}
+
+.safety-layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 24px auto;
+    gap: 24px;
+    padding: 0 16px;
+}
+
+.safety-aside {
+    position: sticky;
+    top: 80px;
+    flex: 0 0 260px;
+    align-self: flex-start;
+    background: #f8fafc;
+    border: 1px solid #e6eaf0;
+    border-radius: 10px;
+    padding: 16px 18px;
+}
+
+.safety-aside ol {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.safety-aside a {
+    color: #0b5394;
+    text-decoration: none;
+}
+
+.safety-aside a:hover {
+    text-decoration: underline;
+}
+
+.safety-content {
+    flex: 1;
+    min-width: 0;
+    background: #fff;
+    border: 1px solid #e6eaf0;
+    border-radius: 10px;
+    padding: 22px 26px;
+}
+
+.safety-content h2 {
+    margin-top: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgba(11,83,148,0.2);
+}
+
+.safety-content h3 {
+    margin-top: 18px;
+    color: #183153;
+}
+
+.safety-content p {
+    line-height: 1.8;
+    color: #2a2f35;
+}
+
+/* PDF 预览器样式 */
+.pdf-viewer {
+    margin: 12px 0 18px 0;
+    border: 1px solid #e6eaf0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f9fafb;
+}
+
+.pdf-viewer iframe {
+    width: 100%;
+    height: 72vh;
+    min-height: 520px;
+    border: 0;
+    display: block;
+    background: #fff;
+}
+
+.pdf-fallback {
+    padding: 10px 14px;
+    border-top: 1px solid #e6eaf0;
+    background: #f8fafc;
+}
+
+.pdf-fallback a {
+    color: #0b5394;
+    text-decoration: none;
+}
+
+.pdf-fallback a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    .safety-layout {
+        flex-direction: column;
+    }
+    .safety-aside {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    .pdf-viewer iframe {
+        height: 64vh;
+        min-height: 420px;
+    }
+}

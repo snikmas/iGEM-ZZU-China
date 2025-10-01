@@ -1,0 +1,145 @@
+import React, { useState, useEffect } from 'react';
+import './index.css';
+import { Navigate, Routes, Route } from 'react-router-dom';
+
+import ScrollToTop from '../../components/scrolltotop';
+
+
+import Header from '../../components/header';
+import Exception_403 from '../../components/exception';
+
+// 真实页面组件
+import HomeLanding from '../../views/homelanding';
+import TeamMembers from '../../views/teammembers';
+import TeamAttributions from '../../views/teamattributions';
+import ProjectDescription from '../../views/projectdescription';
+import Contribution from '../../views/contribution';
+import Part from '../../views/part';
+
+import WetLabSafety from '../../views/wetlabsafety';
+
+import Development from '../../views/development';
+import IHP from '../../views/ihp';
+import Education from '../../views/education';
+import Cooperation from '../../views/cooperation';
+import Entrepreneurship from '../../views/entrepreneurship';
+
+
+const Team = () => <div style={{ color: '#000', fontSize: 20 }}>Team</div>;
+// const TeamMembers = () => <div style={{ color: '#000', fontSize: 20 }}>Team - Members</div>;
+// const TeamAttributions = () => <div style={{ color: '#000', fontSize: 20 }}>Team - Attributions</div>;
+
+const Project = () => <div style={{ color: '#000', fontSize: 20 }}>Project</div>;
+// const ProjectDescription = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Description</div>;
+const ProjectEngineering = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Engineering</div>;
+// const ProjectContribution = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Contribution</div>;
+// const Development = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Development</div>;
+
+const WetLab = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab</div>;
+const WetLabExperiments = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Experiments</div>;
+const WetLabNotebook = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Notebook</div>;
+const WetLabParts = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Parts</div>;
+// const WetLabSafety = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Safety</div>;
+const WetLabResults = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Results</div>;
+
+const DryLab = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab</div>;
+const DryLabModel = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Model</div>;
+const DryLabSoftware = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Software</div>;
+
+// const Education = () => <div style={{ color: '#000', fontSize: 20 }}>Education</div>;
+
+const HumanPractice = () => <div style={{ color: '#000', fontSize: 20 }}>Human Practice</div>;
+// const IHP = () => <div style={{ color: '#000', fontSize: 20 }}>Integrated Human Practices</div>;
+// const Entrepreneurship = () => <div style={{ color: '#000', fontSize: 20 }}>Entrepreneurship</div>;
+// const Cooperation = () => <div style={{ color: '#000', fontSize: 20 }}>Cooperation</div>;
+
+function Home() {
+
+
+  const [activeSection, setActiveSection] = useState('overview');
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  // 页面加载动画
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoaded(true);
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // 监听滚动事件，计算滚动进度
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const progress = (scrollTop / scrollHeight) * 100;
+      setScrollProgress(progress);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // 回到顶部函数
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  return (
+    <div className="home">
+
+      <Header />
+
+      <div className="home-body">
+        <Routes>
+          {/* 对应 header 顶部一级菜单 */}
+          <Route path="/" element={<HomeLanding />} />
+          <Route path="/home" element={<HomeLanding />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/wet-lab" element={<WetLab />} />
+          <Route path="/dry-lab" element={<DryLab />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/human-practice" element={<HumanPractice />} />
+
+          {/* 对应 mega-panel 子菜单 */}
+          <Route path="/team/members" element={<TeamMembers />} />
+          <Route path="/team/attributions" element={<TeamAttributions />} />
+
+          <Route path="/project/description" element={<ProjectDescription />} />
+          <Route path="/project/engineering" element={<ProjectEngineering />} />
+          <Route path="/project/contribution" element={<Contribution />} />
+          <Route path="/project/development" element={<Development />} />
+
+          <Route path="/wet-lab/experiments" element={<WetLabExperiments />} />
+          <Route path="/wet-lab/notebook" element={<WetLabNotebook />} />
+          <Route path="/wet-lab/parts" element={<Part />} />
+          <Route path="/wet-lab/safety" element={<WetLabSafety />} />
+          <Route path="/wet-lab/results" element={<WetLabResults />} />
+
+          <Route path="/dry-lab/model" element={<DryLabModel />} />
+          <Route path="/dry-lab/software" element={<DryLabSoftware />} />
+
+          <Route path="/human-practice/integrated-human-practices" element={<IHP />} />
+          <Route path="/human-practice/entrepreneurship" element={<Entrepreneurship />} />
+          <Route path="/human-practice/cooperation" element={<Cooperation />} />
+
+          {/* 兜底 */}
+          <Route path="*" element={<Exception_403 />} />
+        </Routes>
+      </div>
+
+
+      {/* 右下角滚动进度指示器 */}
+      <ScrollToTop />
+
+
+    </div>
+  );
+}
+
+export default Home;

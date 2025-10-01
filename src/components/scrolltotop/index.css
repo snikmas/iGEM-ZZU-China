@@ -1,0 +1,89 @@
+.scroll-progress-indicator {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .scroll-progress-indicator:hover {
+    transform: scale(1.1);
+  }
+  
+  .progress-circle {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    font-size: 24px;
+    color: #530c15;
+  }
+  
+  .progress-circle:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ... existing code ... */
+  .upto-icon {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    transition: all 0.3s ease;
+  }
+  /* ... existing code ... */
+
+.upto-arrow {
+  font-size: 24px;
+  font-weight: bold;
+  color: #530c15; /* 棕色 */
+  line-height: 1;
+}
+
+
+/* ... existing code ... */
+  
+  .scroll-tooltip {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .scroll-progress-indicator:hover .scroll-tooltip {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .scroll-progress-indicator {
+      bottom: 20px;
+      right: 20px;
+    }
+    
+    .progress-circle {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .upto-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }

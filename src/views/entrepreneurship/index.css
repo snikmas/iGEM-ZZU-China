@@ -1,0 +1,165 @@
+/* 表格容器样式 */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(83, 12, 22, 0.15);
+}
+
+/* 表格基础样式 */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+/* 表头样式 */
+.table-container thead {
+  background: linear-gradient(135deg, #623c3f 0%, #936367 100%);
+  color: #fff;
+}
+
+.table-container thead th {
+  padding: 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  border: none;
+  position: relative;
+}
+
+.table-container thead th:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 表格行样式 */
+.table-container tbody tr {
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.table-container tbody tr:hover {
+  background: linear-gradient(135deg, #fef7f7 0%, #fdf2f2 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(83, 12, 22, 0.15);
+}
+
+.table-container tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* 表格单元格样式 */
+.table-container td {
+  padding: 14px 12px;
+  border: none;
+  color: #333;
+  vertical-align: top;
+}
+
+/* 第一列样式（阶段列） */
+.table-container tbody tr td:first-child {
+  font-weight: 600;
+  color: #623c3f;
+  background: linear-gradient(135deg, #fef7f7 0%, #fdf2f2 100%);
+  border-right: 3px solid #623c3f;
+}
+
+/* 最后一列样式（金额列） */
+.table-container tbody tr td:last-child {
+  font-weight: 600;
+  text-align: right;
+  color: #2d3748;
+  background: linear-gradient(135deg, #fef7f7 0%, #fdf2f2 100%);
+}
+
+/* 总行样式 */
+.table-container tbody tr:last-child td {
+  background: linear-gradient(135deg, #623c3f 0%, #936367 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table-container tbody tr:last-child td:first-child {
+  background: linear-gradient(135deg, #623c3f 0%, #936367 100%);
+  border-right: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .table-container {
+    font-size: 10px;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 10px 8px;
+  }
+  
+  .table-container thead th {
+    font-size: 10px;
+  }
+}
+
+/* 表格标题样式 */
+.table-container + .h4 {
+  margin-top: 10px;
+  color: #623c3f;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* 表格内链接样式 */
+.table-container a {
+  color: #623c3f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.table-container a:hover {
+  color: #8b1538;
+  text-decoration: underline;
+}
+
+/* 表格内强调文本样式 */
+.table-container strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* 表格内数字样式 */
+.table-container .number {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+/* 表格内状态样式 */
+.table-container .status-positive {
+  color: #38a169;
+  font-weight: 600;
+}
+
+.table-container .status-negative {
+  color: #e53e3e;
+  font-weight: 600;
+}
+
+.table-container .status-neutral {
+  color: #718096;
+  font-weight: 600;
+}

@@ -1,0 +1,283 @@
+.teamattributions {
+  background-color: #cfb6b9;
+  min-height: 100%;
+  padding: 2rem 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.team-introduction {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.team-header h1 {
+  color: #623a3f;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-tag {
+  background-color: #623a3f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.team-content {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0rais 0.1);
+  margin-bottom: 2rem;
+}
+
+.team-quote {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #cfb6b9;
+  border-radius: 10px;
+  position: relative;
+}
+
+.team-quote blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #623a3f;
+  margin: 0;
+}
+
+.quote-source {
+  color: #623a3f;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.team-text {
+  line-height: 1.8;
+  color: #623a3f;
+  margin: 2rem 0;
+}
+
+.team-text p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.team-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.visual-element {
+  display: flex;
+  gap: 2rem;
+}
+
+.molecule {
+  width: 80px;
+  height: 80px;
+  background-color: #623a3f;
+  border-radius: 50%;
+  position: relative;
+}
+
+.molecule::before,
+.molecule::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #623a3f;
+  border-radius: 50%;
+}
+
+.molecule::before {
+  top: -10px;
+  left: 30px;
+}
+
+.molecule::after {
+  bottom: -10px;
+  right: 30px;
+}
+
+.dna {
+  width: 100px;
+  height: 100px;
+  background-color: #623a3f;
+  border-radius: 50%;
+  position: relative;
+}
+
+.dna::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.dna::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-color: #623a3f;
+  border-radius: 50%;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.team-tasks {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f5eff0;
+  border-radius: 15px;
+  border: 1px solid #e0d0d2;
+}
+
+.team-tasks h2 {
+  color: #623a3f;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.tasks-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-5px);
+}
+
+.task-item-member-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 3px solid #623a3f;
+}
+
+.task-item-member-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.task-item h3 {
+  margin: 0 0 0.5rem 0;
+  color: #623a3f;
+}
+
+.task-item p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.task-item strong {
+  color: #623a3f;
+}
+
+.team-tasks-intro {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #f4efef;
+  border-radius: 15px;
+  border: 1px solid #e3cacd;
+}
+
+.team-tasks-intro h2 {
+  color: #623a3f;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.intro-content {
+  line-height: 1.8;
+  color: #333;
+}
+
+.intro-content p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .team-introduction {
+    padding: 0 1rem;
+  }
+  
+  .team-header h1 {
+    font-size: 2rem;
+  }
+  
+  .team-content {
+    padding: 1.5rem;
+  }
+  
+  .team-quote {
+    padding: 1rem;
+  }
+  
+  .team-text {
+    font-size: 0.95rem;
+  }
+  
+  .visual-element {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .molecule,
+  .dna {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .tasks-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .task-item-member-avatar {
+    width: 60px;
+    height: 60px;
+  }
+}
