@@ -3,25 +3,25 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from '../../assets/menulogo.png';
+import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
 // Model相关图片导入 (假设图片在model文件夹中)
-import modelFigure1 from '../../assets/images/model/Figure1.png';
-import modelFigure2 from '../../assets/images/model/Figure2.png';
-import modelFigure3 from '../../assets/images/model/Figure3.png';
-import modelFigure4 from '../../assets/images/model/Figure4.png';
-import modelFigure5 from '../../assets/images/model/Figure5.png';
-import modelFigure6 from '../../assets/images/model/Figure6.png';
-import modelFigure7 from '../../assets/images/model/Figure7.png';
-import modelFigure8 from '../../assets/images/model/Figure8.png';
-import modelFigure9 from '../../assets/images/model/Figure9.png';
-import modelFigure10 from '../../assets/images/model/Figure10.png';
-import modelFigure11 from '../../assets/images/model/Figure11.png';
-import modelFigure12 from '../../assets/images/model/Figure12.png';
-import modelFigure13 from '../../assets/images/model/Figure13.png';
-import modelFigure14 from '../../assets/images/model/Figure14.png';
+import modelFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure1.png';
+import modelFigure2 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure2.png';
+import modelFigure3 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure3.png';
+import modelFigure4 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure4.png';
+import modelFigure5 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure5.png';
+import modelFigure6 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure6.png';
+import modelFigure7 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure7.png';
+import modelFigure8 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure8.png';
+import modelFigure9 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure9.png';
+import modelFigure10 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure10.png';
+import modelFigure11 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure11.png';
+import modelFigure12 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure12.png';
+import modelFigure13 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure13.png';
+import modelFigure14 from 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure14.png';
 
-import howtousePymol from '../../assets/images/model/howtousePymol.pdf';
+import howtousePymol from 'https://static.igem.wiki/teams/5822/newassets/images/model/howtousePymol.pdf';
 // 组件定义
 const MainContent = () => (
   <>

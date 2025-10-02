@@ -3,123 +3,123 @@ import './index.css';
 import '../../styles/common.css';
 
 
-import menuLogo from '../../assets/menulogo.png';
+import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 import ImageGallery from '../../components/imagegallery';
 
-import Figure1 from '../../assets/images/ihp/Introduction/Figure1.png';
-import Figure2 from '../../assets/images/ihp/Introduction/Figure2.png';
-import Figure3 from '../../assets/images/ihp/Introduction/Figure3.png';
-import SolutionFigure3 from '../../assets/images/ihp/Introduction/SolutionFigure3.png';
-import SolutionFigure4 from '../../assets/images/ihp/Introduction/SolutionFigure4.png';
-import InspirationFigure1 from '../../assets/images/ihp/Inspiration/InspirationFigure1.png';
-import InspirationFigure2 from '../../assets/images/ihp/Inspiration/InspirationFigure2.png';
+import Figure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure1.png';
+import Figure2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure2.png';
+import Figure3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure3.png';
+import SolutionFigure3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/SolutionFigure3.png';
+import SolutionFigure4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/SolutionFigure4.png';
+import InspirationFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inspiration/InspirationFigure1.png';
+import InspirationFigure2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inspiration/InspirationFigure2.png';
 
-import SWOTAnalysisFigure1 from '../../assets/images/ihp/SWOTAnalysis/SWOTAnalysisFigure1.png';
+import SWOTAnalysisFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/SWOTAnalysis/SWOTAnalysisFigure1.png';
 
-import IntegratedReportFigure1 from '../../assets/images/ihp/IntegratedReport/Figure1.png';
-import IntegratedReportFigure2_1 from '../../assets/images/ihp/IntegratedReport/Figure2_1.png';
-import IntegratedReportFigure2_2 from '../../assets/images/ihp/IntegratedReport/Figure2_2.png';
-import IntegratedReportFigure2_3 from '../../assets/images/ihp/IntegratedReport/Figure2_3.png';
-import IntegratedReportFigure3_1 from '../../assets/images/ihp/IntegratedReport/Figure3_1.png';
-import IntegratedReportFigure3_2 from '../../assets/images/ihp/IntegratedReport/Figure3_2.png';
+import IntegratedReportFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure1.png';
+import IntegratedReportFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_1.png';
+import IntegratedReportFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_2.png';
+import IntegratedReportFigure2_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_3.png';
+import IntegratedReportFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure3_1.png';
+import IntegratedReportFigure3_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure3_2.png';
 
 // 4
-import overviewpng from '../../assets/images/ihp/interview/overview.png';
-import InterviewFigure1 from '../../assets/images/ihp/interview/InterviewFigure1.png';
-import InterviewFigure2 from '../../assets/images/ihp/interview/InterviewFigure2.png';
-import InterviewFigure3 from '../../assets/images/ihp/interview/InterviewFigure3.png';
-import InterviewFigure4 from '../../assets/images/ihp/interview/InterviewFigure4.png';
-import InterviewFigure5 from '../../assets/images/ihp/interview/InterviewFigure5.png';
-import InterviewFigure6 from '../../assets/images/ihp/interview/InterviewFigure6.png';
-import InterviewFigure7 from '../../assets/images/ihp/interview/InterviewFigure7.png';
-import InterviewFigure8 from '../../assets/images/ihp/interview/InterviewFigure8.png';
-import InterviewFigure9 from '../../assets/images/ihp/interview/InterviewFigure9.png';
-import InterviewFigure10 from '../../assets/images/ihp/interview/InterviewFigure10.png';
-import InterviewFigure11 from '../../assets/images/ihp/interview/InterviewFigure11.png';
-import InterviewFigure12 from '../../assets/images/ihp/interview/InterviewFigure12.png';
-import InterviewFigure13 from '../../assets/images/ihp/interview/InterviewFigure13.png';
-import InterviewFigure14 from '../../assets/images/ihp/interview/InterviewFigure14.png';
-import InterviewFigure15 from '../../assets/images/ihp/interview/InterviewFigure15.png';
-import InterviewFigure16 from '../../assets/images/ihp/interview/InterviewFigure16.png';
+import overviewpng from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/overview.png';
+import InterviewFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure1.png';
+import InterviewFigure2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure2.png';
+import InterviewFigure3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure3.png';
+import InterviewFigure4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure4.png';
+import InterviewFigure5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure5.png';
+import InterviewFigure6 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure6.png';
+import InterviewFigure7 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure7.png';
+import InterviewFigure8 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure8.png';
+import InterviewFigure9 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure9.png';
+import InterviewFigure10 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure10.png';
+import InterviewFigure11 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure11.png';
+import InterviewFigure12 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure12.png';
+import InterviewFigure13 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure13.png';
+import InterviewFigure14 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure14.png';
+import InterviewFigure15 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure15.png';
+import InterviewFigure16 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure16.png';
 
 
 
 
 // 5
-import SurveyPDF from '../../assets/images/ihp/survey.pdf';
+import SurveyPDF from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/survey.pdf';
 
 // 6
-import FeedbackIterationContentFigure1 from '../../assets/images/ihp/FeedbackIteration/Figure1.png';
+import FeedbackIterationContentFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/FeedbackIteration/Figure1.png';
 
 // 7
-import EducationFigure1_1_1 from '../../assets/images/ihp/education/education_1_1_1.png';
-import EducationFigure1_1_2 from '../../assets/images/ihp/education/education_1_1_2.png';
-import EducationFigure1_1_3 from '../../assets/images/ihp/education/education_1_1_3.png';
-import EducationFigure1_1_4 from '../../assets/images/ihp/education/education_1_1_4.png';
+import EducationFigure1_1_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_1.png';
+import EducationFigure1_1_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_2.png';
+import EducationFigure1_1_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_3.png';
+import EducationFigure1_1_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_4.png';
 
-import EducationFigure1_2_1 from '../../assets/images/ihp/education/education_1_2_1.png';
-import EducationFigure1_2_2 from '../../assets/images/ihp/education/education_1_2_2.png';
-import EducationFigure1_2_3 from '../../assets/images/ihp/education/education_1_2_3.png';
-import EducationFigure1_2_4 from '../../assets/images/ihp/education/education_1_2_4.png';
+import EducationFigure1_2_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_1.png';
+import EducationFigure1_2_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_2.png';
+import EducationFigure1_2_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_3.png';
+import EducationFigure1_2_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_4.png';
 
-import EducationFigure1_3_1 from '../../assets/images/ihp/education/education_1_3_1.png';
-import EducationFigure1_3_2 from '../../assets/images/ihp/education/education_1_3_2.png';
-import EducationFigure1_3_3 from '../../assets/images/ihp/education/education_1_3_3.png';
-import EducationFigure1_3_4 from '../../assets/images/ihp/education/education_1_3_4.png';
-import EducationFigure1_3_5 from '../../assets/images/ihp/education/education_1_3_5.png';
+import EducationFigure1_3_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_1.png';
+import EducationFigure1_3_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_2.png';
+import EducationFigure1_3_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_3.png';
+import EducationFigure1_3_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_4.png';
+import EducationFigure1_3_5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_5.png';
 
-import EducationFigure2_1_1 from '../../assets/images/ihp/education/education_2_1_1.png';
-import EducationFigure3_1_1 from '../../assets/images/ihp/education/education_3_1_1.png';
+import EducationFigure2_1_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_2_1_1.png';
+import EducationFigure3_1_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_3_1_1.png';
 
 
 
 // 8 Cooperation
-import CooperationFigure1_1 from '../../assets/images/ihp/cooperation/cooperaton_1_1.png';
-import CooperationFigure1_2 from '../../assets/images/ihp/cooperation/cooperaton_1_2.png';
-import CooperationFigure1_3 from '../../assets/images/ihp/cooperation/cooperaton_1_3.png';
-import CooperationFigure1_4 from '../../assets/images/ihp/cooperation/cooperaton_1_4.png';
-import CooperationFigure1_5 from '../../assets/images/ihp/cooperation/cooperaton_1_5.png';
-import CooperationFigure1_6 from '../../assets/images/ihp/cooperation/cooperaton_1_6.png';
-import CooperationFigure2_1 from '../../assets/images/ihp/cooperation/cooperaton_2_1.png';
-import CooperationFigure2_2 from '../../assets/images/ihp/cooperation/cooperaton_2_2.png';
-import CooperationFigure2_3 from '../../assets/images/ihp/cooperation/cooperaton_2_3.png';
-import CooperationFigure2_4 from '../../assets/images/ihp/cooperation/cooperaton_2_4.png';
-import CooperationFigure2_5 from '../../assets/images/ihp/cooperation/cooperaton_2_5.png';
-import CooperationFigure2_6 from '../../assets/images/ihp/cooperation/cooperaton_2_6.png';
-import CooperationFigure2_7 from '../../assets/images/ihp/cooperation/cooperaton_2_7.png';
-import CooperationFigure3_1 from '../../assets/images/ihp/cooperation/cooperaton_3_1.png';
-import CooperationFigure3_2 from '../../assets/images/ihp/cooperation/cooperaton_3_2.png';
-import CooperationFigure3_3 from '../../assets/images/ihp/cooperation/cooperaton_3_3.png';
-import CooperationFigure3_4 from '../../assets/images/ihp/cooperation/cooperaton_3_4.png';
-import CooperationFigure3_5 from '../../assets/images/ihp/cooperation/cooperaton_3_5.png';
+import CooperationFigure1_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_1.png';
+import CooperationFigure1_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_2.png';
+import CooperationFigure1_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_3.png';
+import CooperationFigure1_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_4.png';
+import CooperationFigure1_5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_5.png';
+import CooperationFigure1_6 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_6.png';
+import CooperationFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_1.png';
+import CooperationFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_2.png';
+import CooperationFigure2_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_3.png';
+import CooperationFigure2_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_4.png';
+import CooperationFigure2_5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_5.png';
+import CooperationFigure2_6 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_6.png';
+import CooperationFigure2_7 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_7.png';
+import CooperationFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_1.png';
+import CooperationFigure3_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_2.png';
+import CooperationFigure3_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_3.png';
+import CooperationFigure3_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_4.png';
+import CooperationFigure3_5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_5.png';
 
 
 // 11 Safety
-import SafetyFigure1 from '../../assets/images/ihp/safety/SafetyFigure1.png'; // 临时使用现有图片
+import SafetyFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/safety/SafetyFigure1.png'; // 临时使用现有图片
 
 // 12 Spread
-import SpreadFigure1_1 from '../../assets/images/ihp/Spread/Spread_1_1.png';
-import SpreadFigure1_2 from '../../assets/images/ihp/Spread/Spread_1_2.png';
-import SpreadFigure2_1 from '../../assets/images/ihp/Spread/Spread_2_1.png';
-import SpreadFigure2_2 from '../../assets/images/ihp/Spread/Spread_2_2.png';
-import SpreadFigure2_3 from '../../assets/images/ihp/Spread/Spread_2_3.png';
-import SpreadFigure2_4 from '../../assets/images/ihp/Spread/Spread_2_4.png';
-import SpreadFigure2_5 from '../../assets/images/ihp/Spread/Spread_2_5.png';
+import SpreadFigure1_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_1_1.png';
+import SpreadFigure1_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_1_2.png';
+import SpreadFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_1.png';
+import SpreadFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_2.png';
+import SpreadFigure2_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_3.png';
+import SpreadFigure2_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_4.png';
+import SpreadFigure2_5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_5.png';
 
 // 13 Inclusiveness
-import InclusivenessFigure2_1 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_2_1.png';
-import InclusivenessFigure2_2 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_2_2.png';
-import InclusivenessFigure3_1 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_3_1.png';
-import InclusivenessFigure3_2 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_3_2.png';
-import InclusivenessFigure3_3 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_3_3.png';
-import InclusivenessFigure5_1 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_1.png';
-import InclusivenessFigure5_2 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_2.png';
-import InclusivenessFigure5_3 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_3.png';
-import InclusivenessFigure5_4 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_4.png';
-import InclusivenessFigure5_5 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_5.png';
-import InclusivenessFigure5_6 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_6.png';
-import InclusivenessFigure5_7 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_7.png';
-import InclusivenessFigure5_8 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_8.png';
+import InclusivenessFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_2_1.png';
+import InclusivenessFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_2_2.png';
+import InclusivenessFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_1.png';
+import InclusivenessFigure3_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_2.png';
+import InclusivenessFigure3_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_3.png';
+import InclusivenessFigure5_1 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_1.png';
+import InclusivenessFigure5_2 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_2.png';
+import InclusivenessFigure5_3 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_3.png';
+import InclusivenessFigure5_4 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_4.png';
+import InclusivenessFigure5_5 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_5.png';
+import InclusivenessFigure5_6 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_6.png';
+import InclusivenessFigure5_7 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_7.png';
+import InclusivenessFigure5_8 from 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_8.png';
 
 
 

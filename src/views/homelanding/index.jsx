@@ -3,24 +3,24 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './index.css';
 import { WechatOutlined, YoutubeOutlined, GoogleCircleFilled, TwitterCircleFilled } from '@ant-design/icons';
-import logo from '../../assets/images/headerlogo.png';
+import logo from 'https://static.igem.wiki/teams/5822/newassets/images/headerlogo.png';
 
 
 // 导入乳腺癌主题图片
-import section2bg from '../../assets/images/home/section2bg.png';
-import section3pic from '../../assets/images/home/section3pic.png';
-import littlemonster from '../../assets/images/home/littlemonster.png';
+import section2bg from 'https://static.igem.wiki/teams/5822/newassets/images/home/section2bg.png';
+import section3pic from 'https://static.igem.wiki/teams/5822/newassets/images/home/section3pic.png';
+import littlemonster from 'https://static.igem.wiki/teams/5822/newassets/images/home/littlemonster.png';
 
-import section5pic from '../../assets/images/home/section5pic.png';
-import section6pic from '../../assets/images/home/section6pic.png';
-import section8pic from '../../assets/images/home/section8pic.png';
-import section9pic from '../../assets/images/home/section9pic.png';
+import section5pic from 'https://static.igem.wiki/teams/5822/newassets/images/home/section5pic.png';
+import section6pic from 'https://static.igem.wiki/teams/5822/newassets/images/home/section6pic.png';
+import section8pic from 'https://static.igem.wiki/teams/5822/newassets/images/home/section8pic.png';
+import section9pic from 'https://static.igem.wiki/teams/5822/newassets/images/home/section9pic.png';
 
-import section11pic1 from '../../assets/images/home/section11pic_1.png';
-import section11pic2 from '../../assets/images/home/section11pic_2.png';
-import section11pic3 from '../../assets/images/home/section11pic_3.png';
-import section11pic4 from '../../assets/images/home/section11pic_4.png';
-import section11pic5 from '../../assets/images/home/section11pic_5.png';
+import section11pic1 from 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_1.png';
+import section11pic2 from 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_2.png';
+import section11pic3 from 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_3.png';
+import section11pic4 from 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_4.png';
+import section11pic5 from 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_5.png';
 
 function useCountUp(target, startWhenVisible) {
   const [value, setValue] = useState(0);

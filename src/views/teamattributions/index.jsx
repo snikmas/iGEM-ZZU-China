@@ -2,31 +2,31 @@ import React, { } from 'react';
 import './index.css';
 
 
-import dongbinmentor from '../../assets/images/team_menbers/mentors/董杉-mentor.jpg';
-import lipengmentor from '../../assets/images/team_menbers/mentors/李沛.png';
-import liukangdongmentor from '../../assets/images/team_menbers/mentors/刘康栋.png';
-import panzhifengmentor from '../../assets/images/team_menbers/mentors/潘志峰.png';
-import wangzhenlongmentor from '../../assets/images/team_menbers/mentors/王振龙.jpg';
-import zangwenqiaomentor from '../../assets/images/team_menbers/mentors/臧文巧.jpeg';
-import zhangshanfengmentor from '../../assets/images/team_menbers/mentors/张善锋.jpg';
+import dongbinmentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/董杉-mentor.jpg';
+import lipengmentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/李沛.png';
+import liukangdongmentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/刘康栋.png';
+import panzhifengmentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/潘志峰.png';
+import wangzhenlongmentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/王振龙.jpg';
+import zangwenqiaomentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/臧文巧.jpeg';
+import zhangshanfengmentor from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/张善锋.jpg';
 
 // 导入团队成员图片
-import avatarCanyangWang from '../../assets/images/team_menbers/members/Canyang Wang.jpg';
-import avatarSnik from '../../assets/images/team_menbers/members/snik.jpg';
-import avatarYutongLiu from '../../assets/images/team_menbers/members/Yutong Wang.jpg';
-import avatarJijingBa from '../../assets/images/team_menbers/members/Jijing Ba.jpg';
-import avatarTianhuiChen from '../../assets/images/team_menbers/members/Tianhui Chen.jpg';
-import avatarYuxiaoZhang from '../../assets/images/team_menbers/members/Yuxiao Zhang.jpg';
-import avatarJingLei from '../../assets/images/team_menbers/members/Jing Lei.jpg';
-import avatarWenlanFang from '../../assets/images/team_menbers/members/Wenlan Fang.jpg';
-import avatarYuxuanXia from '../../assets/images/team_menbers/members/Yuxuan Xia.jpg';
-import avatarMengyaoYu from '../../assets/images/team_menbers/members/Mengyao Yu.jpg';
-import avatarXiaoranJi from '../../assets/images/team_menbers/members/Xiaoran Ji.jpg';
-import avatarZhiquanZhang from '../../assets/images/team_menbers/members/Zhiquan Zhang.jpg';
-import avatarPeilinLi from '../../assets/images/team_menbers/members/Peilin Li.jpg';
-import avatarXinzeLi from '../../assets/images/team_menbers/members/Xinze Li.jpg';
-import avatarPengjieWang from '../../assets/images/team_menbers/members/Pengjie Wang.jpg';
-import avatarYufeiHuang from '../../assets/images/team_menbers/members/Yufei Huang.jpg';
+import avatarCanyangWang from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Canyang Wang.jpg';
+import avatarSnik from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/snik.jpg';
+import avatarYutongLiu from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yutong Wang.jpg';
+import avatarJijingBa from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Jijing Ba.jpg';
+import avatarTianhuiChen from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Tianhui Chen.jpg';
+import avatarYuxiaoZhang from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yuxiao Zhang.jpg';
+import avatarJingLei from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Jing Lei.jpg';
+import avatarWenlanFang from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Wenlan Fang.jpg';
+import avatarYuxuanXia from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yuxuan Xia.jpg';
+import avatarMengyaoYu from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Mengyao Yu.jpg';
+import avatarXiaoranJi from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Xiaoran Ji.jpg';
+import avatarZhiquanZhang from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Zhiquan Zhang.jpg';
+import avatarPeilinLi from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Peilin Li.jpg';
+import avatarXinzeLi from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Xinze Li.jpg';
+import avatarPengjieWang from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Pengjie Wang.jpg';
+import avatarYufeiHuang from 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yufei Huang.jpg';
 
 
 

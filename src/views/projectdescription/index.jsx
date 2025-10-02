@@ -3,15 +3,15 @@ import React, { useState, useEffect } from 'react';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from '../../assets/menulogo.png';
+import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
 // Project Description Images
-import descriptionFigure2_1 from '../../assets/images/description/descriptionFigure2_1.png';
-import descriptionFigure2_2 from '../../assets/images/description/descriptionFigure2_2.png';
-import descriptionFigure3_1 from '../../assets/images/description/descriptionFigure3_1.png';
-import descriptionFigure3_3 from '../../assets/images/description/descriptionFigure3_3.png';
-import descriptionFigure3_3_ from '../../assets/images/description/descriptionFigure3_3_.png';
-import descriptionFigure3_4 from '../../assets/images/description/descriptionFigure3_4.png';
+import descriptionFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure2_1.png';
+import descriptionFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure2_2.png';
+import descriptionFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_1.png';
+import descriptionFigure3_3 from 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_3.png';
+import descriptionFigure3_3_ from 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_3_.png';
+import descriptionFigure3_4 from 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_4.png';
 // 组件定义
 const MainContent = () => (
   <>
