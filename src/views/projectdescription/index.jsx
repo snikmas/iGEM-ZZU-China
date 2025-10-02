@@ -6,12 +6,12 @@ import '../../styles/common.css';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Project Description Images
-const descriptionFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure2_1.webp';
-const descriptionFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure2_2.webp';
-const descriptionFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_1.webp';
-const descriptionFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_3.webp';
-const descriptionFigure3_3_ = 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_3_.webp';
-const descriptionFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/images/description/descriptionFigure3_4.webp';
+const descriptionFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/description/descriptionfigure2-1.webp';
+const descriptionFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/description/descriptionfigure2-2.webp';
+const descriptionFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/description/descriptionfigure3-1.webp';
+const descriptionFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/description/descriptionfigure3-3.webp';
+const descriptionFigure3_3a = 'https://static.igem.wiki/teams/5822/newassets/description/descriptionfigure3-3a.webp';
+const descriptionFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/description/descriptionfigure3-4.webp';
 // 组件定义
 const MainContent = () => (
   <>
@@ -159,7 +159,7 @@ const MainContent = () => (
               <span className='text-strong'>RCA amplification</span>: Design <span>circular probes</span> and <span>DNA polymerases</span> for <span>substitution reaction products</span>, initiate <span>rolling ring amplification reaction</span>, generate a <span>large number of DNA fragments</span> containing <span>repetitive sequences</span>, and further <span>enhance the signal</span>, which can effectively <span>capture low abundance target signals</span>.
             </p>
             <div className="figure-container"><div className="figure-item">
-              <img src={descriptionFigure3_3_} alt="HCR reaction principle diagram" className="figure-image" />
+              <img src={descriptionFigure3_3a} alt="HCR reaction principle diagram" className="figure-image" />
               <div className="h4">Figure 4. HCR reaction principle diagram</div>
             </div></div>
           </div>

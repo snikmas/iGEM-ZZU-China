@@ -3,14 +3,13 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-
 import ImageGallery from '../../components/imagegallery';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
-const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure1.webp';
-const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure2.webp';
-const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure3.webp';
-const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure4.webp';
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/contribution/figure1.webp';
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/contribution/figure2.webp';
+const figure3 = 'https://static.igem.wiki/teams/5822/newassets/contribution/figure3.webp';
+const figure4 = 'https://static.igem.wiki/teams/5822/newassets/contribution/figure4.webp';
 
 
 
@@ -162,7 +161,7 @@ const MainContent = () => (
 );
 
 function Contribution() {
-  
+  const [activeSection, setActiveSection] = useState('overview');
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

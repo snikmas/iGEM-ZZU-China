@@ -7,12 +7,14 @@ import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
-const overview = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/overview.webp';
-const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure1.webp';
-const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure2.webp';
-const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure3.webp';
-const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure4.webp';
-const figure5 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure5.webp';
+const overview = 'https://static.igem.wiki/teams/5822/newassets/collaborations/overview.webp';
+
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-1.webp';
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-2.webp';
+const figure3 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-3.webp';
+const figure4 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-4.webp';
+const figure5 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-5.webp';
+
 const figure6 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure6.webp';
 const figure7 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure7.webp';
 const figure8 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure8.webp';
@@ -451,7 +453,7 @@ const MainContent = () => (
 
 
 function Cooperation() {
-  
+  const [activeSection, setActiveSection] = useState('overview');
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

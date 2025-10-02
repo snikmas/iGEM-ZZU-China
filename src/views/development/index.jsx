@@ -5,7 +5,7 @@ import '../../styles/common.css';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
-const developmentFigure = 'https://static.igem.wiki/teams/5822/newassets/images/development/development.webp';
+const developmentFigure = 'https://static.igem.wiki/teams/5822/newassets/development/development.webp';
 
 // 组件定义
 const MainContent = () => (
