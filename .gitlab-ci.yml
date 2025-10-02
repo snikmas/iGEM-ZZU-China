@@ -1,19 +1,19 @@
-image: node:22.14.0
+image: node:16
+
+cache:
+  paths:
+    - node_modules/
 
 before_script:
   - npm install
-  # 临时禁用 ESLint 检查，确保构建通过
-  - export DISABLE_ESLINT_PLUGIN=true
 
-create-pages:
+pages:
   stage: build
   script:
-    - pnpm run build
+    - npm run build
+    - cp -r build/* public/
   artifacts:
     paths:
-      - out
-  pages:
-    publish: out
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
- 
+      - public
+  only:
+    - main
