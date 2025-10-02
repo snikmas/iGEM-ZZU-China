@@ -19,7 +19,7 @@
         justify-content: center;
         width: 100%;
         height: calc(100% - 60px);
-        background-image: url('/src/assets/bodybg.webp';);
+        background-image: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

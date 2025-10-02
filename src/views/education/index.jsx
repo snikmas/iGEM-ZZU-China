@@ -11,8 +11,8 @@ import Menu from '../../components/menu';
 import ImageGallery from '../../components/imagegallery';
 
 
-const  menuIconDefault = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconDefault.webp';
-const menuIconHover = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconHover.webp';
+// const  menuIconDefault = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconDefault.webp';
+// const menuIconHover = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconHover.webp';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 const overview = 'https://static.igem.wiki/teams/5822/newassets/images/education/overview.webp';
@@ -162,6 +162,7 @@ const MainContent = () => (
               type="application/pdf"
               width="100%"
               height="600px"
+              aria-label="Professional Development PDF"
               className="pdf-object"
               style={{
                 border: 'none',
@@ -741,7 +742,7 @@ const MainContent = () => (
 
 
 function Education() {
-  const [activeSection, setActiveSection] = useState('overview');
+  
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

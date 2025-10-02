@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import { Navigate, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import ScrollToTop from '../../components/scrolltotop';
 
@@ -60,7 +60,7 @@ const HumanPractice = () => <div style={{ color: '#000', fontSize: 20 }}>Human P
 function Home() {
 
 
-  const [activeSection, setActiveSection] = useState('overview');
+  
   const [isLoaded, setIsLoaded] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 

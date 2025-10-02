@@ -241,7 +241,7 @@ const MainContent = () => (
 );
 
 function ProjectDescription() {
-  const [activeSection, setActiveSection] = useState('overview');
+  
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

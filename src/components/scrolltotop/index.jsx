@@ -2,18 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import { ArrowUpOutlined } from '@ant-design/icons';
 
-
-
-const UpTo = 'https://static.igem.wiki/teams/5822/newassets/upto.webp';
 const ScrollToTop = () => {
-  const [scrollProgress, setScrollProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
 
   const checkScrollContainer = () => {
     // 检查统一的滚动容器
     const viewMain = document.querySelector('.view-main');
     
-    let scrollTop, scrollHeight, clientHeight;
+    let scrollTop, scrollHeight;
     
     // 检查元素是否可见且可滚动
     const isElementVisible = (el) => el && el.offsetHeight > 0 && el.scrollHeight > el.clientHeight;
@@ -22,16 +18,12 @@ const ScrollToTop = () => {
       // 使用统一的.view-main容器
       scrollTop = viewMain.scrollTop;
       scrollHeight = viewMain.scrollHeight - viewMain.clientHeight;
-      clientHeight = viewMain.clientHeight;
     } else {
       // 备用方案：使用window滚动
       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-      clientHeight = window.innerHeight;
     }
     
-    const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
-    setScrollProgress(progress);
     setIsVisible(scrollTop > 300);
   };
 

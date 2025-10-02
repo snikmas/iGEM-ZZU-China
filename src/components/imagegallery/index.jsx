@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 // 相册组件
 const ImageGallery = ({ images, title }) => {
