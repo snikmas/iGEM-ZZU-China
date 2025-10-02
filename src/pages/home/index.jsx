@@ -17,6 +17,7 @@ import Contribution from '../../views/contribution';
 import Part from '../../views/part';
 import Experiments from '../../views/experiments';
 import WetLabSafety from '../../views/wetlabsafety';
+import Results from '../../views/results';
 import Model from '../../views/model';
 import Engineering from '../../views/engineering';
 import Development from '../../views/development';
@@ -30,7 +31,6 @@ import Software from '../../views/software';
 const Team = () => <div style={{ color: '#000', fontSize: 20 }}>Team</div>;
 const Project = () => <div style={{ color: '#000', fontSize: 20 }}>Project</div>;
 const WetLab = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab</div>;
-const WetLabResults = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Results</div>;
 const DryLab = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab</div>;
 const HumanPractice = () => <div style={{ color: '#000', fontSize: 20 }}>Human Practice</div>;
 
@@ -71,7 +71,7 @@ function Home() {
           <Route path="/wet-lab/notebook" element={<Notebook />} />
           <Route path="/wet-lab/parts" element={<Part />} />
           <Route path="/wet-lab/safety" element={<WetLabSafety />} />
-          <Route path="/wet-lab/results" element={<WetLabResults />} />
+          <Route path="/wet-lab/results" element={<Results />} />
 
           <Route path="/dry-lab/model" element={<Model />} />
           <Route path="/dry-lab/software" element={<Software />} />
