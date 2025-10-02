@@ -10,22 +10,15 @@ pages:
   script:
     - npm run build
     - rm -rf public
-    # 创建正确的目录结构
-    - mkdir -p public/zzu-china
-    - mv build/* public/zzu-china/
+    # 直接使用构建的文件
+    - cp -r build/* public/
     # 为 SPA 路由创建 404 重定向
-    - cp public/zzu-china/index.html public/zzu-china/404.html
-    # 创建根目录的重定向到 zzu-china
-    - echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/zzu-china/"></head><body>Redirecting...</body></html>' > public/index.html
+    - cp public/index.html public/404.html
     # 创建 _redirects 文件支持客户端路由
-    - echo "/zzu-china/*    /zzu-china/index.html   200" > public/_redirects
+    - echo "/*    /index.html   200" > public/_redirects
   artifacts:
     paths:
       - public
     expire_in: 1 week
   only:
     - main
-
-
-
-    

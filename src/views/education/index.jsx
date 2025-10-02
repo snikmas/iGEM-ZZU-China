@@ -23,6 +23,7 @@ const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/education/prima
 const Primary_8 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-8.webp';
 const Primary_9 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-9.webp';
 const Primary_10 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-10.webp';
+
 const Primary_11 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-11.webp';
 const Primary_12 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-12.webp';
 const Primary_13 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-13.webp';
