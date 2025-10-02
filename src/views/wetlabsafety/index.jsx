@@ -186,6 +186,7 @@ const MainContent = () => (
                   type="application/pdf"
                   width="100%"
                   height="600px"
+                  aria-label="Safety PDF Document"
                 />
             </div>
           </div>

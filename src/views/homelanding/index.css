@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+    background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
     overflow: hidden;
 }
 .hero-content {
@@ -71,7 +71,7 @@
   .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';);
+    background-image: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp');
     background-size: cover;
     background-position: center;
     opacity: .2;
@@ -85,7 +85,7 @@
   }
   
   .particle {
-    background-image: url('https://static.igem.wiki/teams/5822/newassets/images/home/section1pic.webp';);
+    background-image: url('https://static.igem.wiki/teams/5822/newassets/images/home/section1pic.webp');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -142,7 +142,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   color: #3b0d15;
   overflow: hidden;
 }
@@ -223,7 +223,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   padding: 16px 0; 
   overflow: hidden;
 }
@@ -311,7 +311,7 @@
 .challenge { 
   display:grid; 
   place-items:center; 
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   position: relative;
 }
 
@@ -328,7 +328,7 @@
   position: absolute;
   width: 100%;
   height: 200px;
-  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section4pic.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section4pic.webp') no-repeat center center;
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -398,7 +398,7 @@
 .vision {
   display: grid;
   place-items: center;
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
 }
 
 .vision-inner {
@@ -413,7 +413,7 @@
   position: absolute;
   width: 100%;
   height: 200px;
-  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section4pic.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section4pic.webp') no-repeat center center;
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -500,7 +500,7 @@
 .amplify,
 .quantify,
 .card-sec {
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
 }
 
 
@@ -646,7 +646,7 @@
 .cta-bg { 
   position: absolute; 
   inset: 0; 
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   background-size: cover;
   opacity: 0.8;
   z-index: 1;
@@ -688,7 +688,7 @@
   width: 80px; 
   height: 80px; 
   border-radius: 50%;
-  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section10little.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section10little.webp') no-repeat center center;
   background-size: cover;
   background-position: center;
   animation: float 6s ease-in-out infinite;
@@ -751,7 +751,7 @@
 .explore { 
   display: grid; 
   place-items: center; 
-  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
 }
 
 .explore-inner { 
@@ -843,7 +843,7 @@
 /* Section 12: Footer-hero */
 .footer-hero {
   position: relative;
-  background: #f6eef1 url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp';) center/cover no-repeat;
+  background: #f6eef1 url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') center/cover no-repeat;
   min-height: calc(100vh - 60px);
   display: grid;
   align-content: end;
@@ -855,7 +855,7 @@
   right: 0;
   top: 50%;
   height: 100%;
-  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section12pic.webp';) no-repeat center bottom;
+  background: url('https://static.igem.wiki/teams/5822/newassets/images/home/section12pic.webp') no-repeat center bottom;
   background-size: 100% 100%;
   background-position: center bottom;
   min-height: 200px;
@@ -899,6 +899,133 @@
 .social-link.google { background: #ffffff; border-color:#ffffff; color:#ea4335; }
 .social-link.twitter { background: #1d9bf0; border-color:#1d9bf0; }
 .social-link.wechat { background: #1aad19; border-color:#1aad19; }
+
+
+/* ... 现有样式保持不变 ... */
+
+/* 联系信息样式 */
+.contact-info {
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.contact-info .contact-text {
+  font-size: 16px;
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.contact-info .address-info {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.contact-info .address-info p {
+  margin: 4px 0;
+}
+
+/* 更新社交媒体样式 */
+.socials {
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 1.6;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link { 
+  font-size: 20px;
+  display: inline-flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 60px; 
+  height: 60px; 
+  border-radius: 12px; 
+  color: #ffffff; 
+  background: rgba(255,255,255,.12); 
+  border: 1px solid rgba(255,255,255,.18); 
+  transition: transform .2s ease, background .2s ease;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.social-link .social-label {
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.social-link:hover { 
+  transform: translateY(-2px); 
+  background: rgba(255,255,255,.22); 
+}
+
+.social-link.youtube { 
+  background: #ff0033; 
+  border-color: #ff0033; 
+}
+
+.social-link.wechat { 
+  background: #1aad19; 
+  border-color: #1aad19; 
+}
+
+/* 响应式设计 */
+@media (max-width: 760px) {
+  .contact-info {
+    padding: 16px;
+  }
+  
+  .contact-info h3 {
+    font-size: 20px;
+  }
+  
+  .contact-info .contact-text {
+    font-size: 14px;
+  }
+  
+  .contact-info .address-info {
+    font-size: 12px;
+  }
+  
+  .socials {
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  .social-link {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  .social-link .social-label {
+    font-size: 10px;
+  }
+}
+
+/* ... 其余现有样式保持不变 ... */
+
+
 
 /* Responsive */
 @media (max-width: 760px) {

@@ -811,7 +811,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure8} alt="A photo with Professor Thomas Südhof" />
+                  <img src={InterviewFigure8} alt="Professor Thomas Südhof" />
                 </div>
               </div>
             </div>
@@ -826,8 +826,8 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure9} alt="A photo with Professor Craig C. Mello" />
+              <div className="interview-image">
+                  <img src={InterviewFigure9} alt="Professor Craig C. Mello" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
@@ -1068,6 +1068,7 @@ const MainContent = () => (
                   type="application/pdf"
                   width="100%"
                   height="600px"
+                  aria-label="Survey PDF Document"
                   className="pdf-object"
                   style={{
                     border: 'none',
@@ -2039,7 +2040,6 @@ const MainContent = () => (
 
 
 function IHP() {
-  const [activeSection, setActiveSection] = useState('introduction');
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

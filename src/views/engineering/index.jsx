@@ -587,7 +587,6 @@ const MainContent = () => (
 );
 
 function Engineering() {
-  const [activeSection, setActiveSection] = useState('engineering-cycles');
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

@@ -522,7 +522,6 @@ const MainContent = () => (
 );
 
 function Model() {
-  const [activeSection, setActiveSection] = useState('introduction');
   const [isLoaded, setIsLoaded] = useState(false);
 
   // 页面加载动画

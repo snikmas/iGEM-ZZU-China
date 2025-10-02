@@ -346,18 +346,24 @@ function HomeLanding() {
         <div className='footer-hero-logo'>
           <img src={logo} alt="HerScan Logo" className='footer-hero-logo-img' />
         </div>
+
+         {/* 联系信息 */}
+         <div className="contact-info">
+          <h3>Contact Us</h3>
+          <p className="contact-text">Contact us on WeChat or YouTube</p>
+          <div className="address-info">
+            <p>Address: No. 100 Science Avenue, Zhengzhou City, Henan Province</p>
+            <p>Postcode: 450001</p>
+          </div>
+        </div>
+
+
         <div className="socials" aria-label="Social links">
           <a className="social-link wechat" href="https://mp.weixin.qq.com/s/O9jIg2UyKozFLP80mTuVYA" target="_blank" rel="noreferrer"  aria-label="WeChat" title="WeChat">
-            <WechatOutlined />
+            <img src='https://static.igem.wiki/teams/5822/newassets/images/home/wechat.webp' alt="WeChat" className='social-icon' />
           </a>
-          <a className="social-link youtube" href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
             <YoutubeOutlined />
-          </a>
-          <a className="social-link google" href="https://www.google.com/" target="_blank" rel="noreferrer" aria-label="Google" title="Google">
-            <GoogleCircleFilled />
-          </a>
-          <a className="social-link twitter" href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter" title="Twitter">
-            <TwitterCircleFilled />
           </a>
         </div>
       </section>

@@ -27,35 +27,16 @@ import Entrepreneurship from '../../views/entrepreneurship';
 import Notebook from '../../views/notebook';
 import Software from '../../views/software';
 
-
-
 const Team = () => <div style={{ color: '#000', fontSize: 20 }}>Team</div>;
-// const TeamMembers = () => <div style={{ color: '#000', fontSize: 20 }}>Team - Members</div>;
-// const TeamAttributions = () => <div style={{ color: '#000', fontSize: 20 }}>Team - Attributions</div>;
-
 const Project = () => <div style={{ color: '#000', fontSize: 20 }}>Project</div>;
-// const ProjectDescription = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Description</div>;
-// const ProjectEngineering = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Engineering</div>;
-// const ProjectContribution = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Contribution</div>;
-// const Development = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Development</div>;
-
 const WetLab = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab</div>;
-// const WetLabExperiments = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Experiments</div>;
-// const WetLabNotebook = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Notebook</div>;
-// const WetLabParts = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Parts</div>;
-// const WetLabSafety = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Safety</div>;
 const WetLabResults = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Results</div>;
-
 const DryLab = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab</div>;
-// const DryLabModel = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Model</div>;
-// const DryLabSoftware = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Software</div>;
-
-// const Education = () => <div style={{ color: '#000', fontSize: 20 }}>Education</div>;
-
 const HumanPractice = () => <div style={{ color: '#000', fontSize: 20 }}>Human Practice</div>;
-// const IHP = () => <div style={{ color: '#000', fontSize: 20 }}>Integrated Human Practices</div>;
-// const Entrepreneurship = () => <div style={{ color: '#000', fontSize: 20 }}>Entrepreneurship</div>;
-// const Cooperation = () => <div style={{ color: '#000', fontSize: 20 }}>Cooperation</div>;
+
+
+
+
 
 function Home() {
 

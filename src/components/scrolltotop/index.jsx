@@ -9,7 +9,7 @@ const ScrollToTop = () => {
     // 检查统一的滚动容器
     const viewMain = document.querySelector('.view-main');
     
-    let scrollTop, scrollHeight;
+    let scrollTop;
     
     // 检查元素是否可见且可滚动
     const isElementVisible = (el) => el && el.offsetHeight > 0 && el.scrollHeight > el.clientHeight;
@@ -17,11 +17,9 @@ const ScrollToTop = () => {
     if (isElementVisible(viewMain)) {
       // 使用统一的.view-main容器
       scrollTop = viewMain.scrollTop;
-      scrollHeight = viewMain.scrollHeight - viewMain.clientHeight;
     } else {
       // 备用方案：使用window滚动
       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
     }
     
     setIsVisible(scrollTop > 300);

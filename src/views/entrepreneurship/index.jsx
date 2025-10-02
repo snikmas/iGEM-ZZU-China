@@ -1112,6 +1112,7 @@ const MainContent = () => (
                 <object
                   data={developmentPlanPdf}
                   type="application/pdf"
+                  aria-label="Development Plan PDF Document"
                   width="100%"
                   height="600px"
                 />

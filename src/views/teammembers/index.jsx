@@ -66,7 +66,7 @@ function TeamMembers() {
         content: `Hello everyone, I'm Professor Wenqiao Zang. I am excited to join the iGEM team as your research mentor! With expertise in tumor immunology and novel bacterial detection technologies, plus research experience at the New York Blood Center, I look forward to supporting your project design and experimental innovation. My background in national-level grants and international collaboration will help bridge your synthetic biology work with real-world medical applications. Let's work together to make an impact!`
       }
     ],
-    'Advisors': [,
+    'Advisors': [
       {
         name: "Zhenlong Wang",
         title: "Advisor",

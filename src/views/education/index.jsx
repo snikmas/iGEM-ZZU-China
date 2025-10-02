@@ -209,6 +209,7 @@ const MainContent = () => (
               width="100%"
               height="600px"
               className="pdf-object"
+              aria-label="Strawberry DNA Extraction Workshop PDF"
               style={{
                 border: 'none',
                 borderRadius: '8px',
@@ -390,6 +391,7 @@ const MainContent = () => (
               width="100%"
               height="600px"
               className="pdf-object"
+              aria-label="University Education PDF"
               style={{
                 border: 'none',
                 borderRadius: '8px',
