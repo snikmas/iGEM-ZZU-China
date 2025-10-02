@@ -4,7 +4,7 @@ import { ArrowUpOutlined } from '@ant-design/icons';
 
 
 
-const UpTo = 'https://static.igem.wiki/teams/5822/newassets/upto.png';
+const UpTo = 'https://static.igem.wiki/teams/5822/newassets/upto.webp';
 const ScrollToTop = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);

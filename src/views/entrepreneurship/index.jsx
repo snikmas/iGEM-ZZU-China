@@ -3,12 +3,12 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
-const descriptionFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure1.png';
-const descriptionFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure2.png';
-const descriptionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure3.png';
-const descriptionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure4.png';
+const descriptionFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure1.webp';
+const descriptionFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure2.webp';
+const descriptionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure3.webp';
+const descriptionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure4.webp';
 
 const developmentPlanPdf = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/developmentPlan.pdf';
 

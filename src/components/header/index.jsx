@@ -4,7 +4,7 @@ import './index.css';
 import { AppstoreOutlined } from '@ant-design/icons';
 
 
-const headerLogo = 'https://static.igem.wiki/teams/5822/newassets/images/headerlogo.png';
+const headerLogo = 'https://static.igem.wiki/teams/5822/newassets/images/headerlogo.webp';
 
 function Header() {
 

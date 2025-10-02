@@ -19,7 +19,7 @@
         justify-content: center;
         width: 100%;
         height: calc(100% - 60px);
-        background-image: url('/src/assets/bodybg.png');
+        background-image: url('/src/assets/bodybg.webp';);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

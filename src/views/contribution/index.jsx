@@ -4,11 +4,11 @@ import './index.css';
 import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
-const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure1.png'
-const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure2.png'
-const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure3.png'
-const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure4.png'
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure1.webp';
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure2.webp';
+const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure3.webp';
+const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure4.webp';
 
 
 

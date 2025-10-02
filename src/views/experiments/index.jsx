@@ -5,7 +5,7 @@ import '../../styles/common.css';
 import { DownloadOutlined } from '@ant-design/icons';
 
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 // 导入PDF文件 - 按照提供的路径结构
 // APT-CRISPR
 const APTRCACRISPRPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab APT-RCA-CRISPR.pdf';

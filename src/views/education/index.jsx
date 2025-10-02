@@ -11,78 +11,78 @@ import Menu from '../../components/menu';
 import ImageGallery from '../../components/imagegallery';
 
 
-const  menuIconDefault = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconDefault.png';
-const menuIconHover = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconHover.png';
+const  menuIconDefault = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconDefault.webp';
+const menuIconHover = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconHover.webp';
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
-const overview = 'https://static.igem.wiki/teams/5822/newassets/images/education/overview.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
+const overview = 'https://static.igem.wiki/teams/5822/newassets/images/education/overview.webp';
 // Primary Education Images (1-17)
-const Primary_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_1.png';
-const Primary_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_2.png';
-const Primary_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_3.png';
-const Primary_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_4.png';
-const Primary_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_5.png';
-const Primary_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_6.png';
-const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_7.png';
-const Primary_8 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_8.png';
-const Primary_9 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_9.png';
-const Primary_10 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_10.png';
-const Primary_11 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_11.png';
-const Primary_12 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_12.png';
-const Primary_13 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_13.png';
-const Primary_14 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_14.png';
-const Primary_15 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_15.png';
-const Primary_16 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_16.png';
-const Primary_17 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_17.png';
+const Primary_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_1.webp';
+const Primary_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_2.webp';
+const Primary_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_3.webp';
+const Primary_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_4.webp';
+const Primary_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_5.webp';
+const Primary_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_6.webp';
+const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_7.webp';
+const Primary_8 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_8.webp';
+const Primary_9 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_9.webp';
+const Primary_10 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_10.webp';
+const Primary_11 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_11.webp';
+const Primary_12 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_12.webp';
+const Primary_13 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_13.webp';
+const Primary_14 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_14.webp';
+const Primary_15 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_15.webp';
+const Primary_16 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_16.webp';
+const Primary_17 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Primary_17.webp';
 
 // Middle School Images (1-3)
-const Middle_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Middle_1.png';
-const Middle_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Middle_2.png';
-const Middle_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Middle_3.png';
+const Middle_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Middle_1.webp';
+const Middle_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Middle_2.webp';
+const Middle_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/Middle_3.webp';
 
 // High School Images (1-5)
-const high_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_1.png';
-const high_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_2.png';
-const high_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_3.png';
-const high_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_4.png';
-const high_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_5.png';
+const high_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_1.webp';
+const high_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_2.webp';
+const high_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_3.webp';
+const high_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_4.webp';
+const high_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/high_5.webp';
 
 // University Images (1-10)
-const university_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_1.png';
-const university_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_2.png';
-const university_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_3.png';
-const university_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_4.png';
-const university_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_5.png';
-const university_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_6.png';
-const university_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_7.png';
-const university_8 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_8.png';
-const university_9 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_9.png';
-const university_10 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_10.png';
-const university_11 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_11.png';
-const university_12 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_12.png';
-const university_13 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_13.png';
+const university_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_1.webp';
+const university_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_2.webp';
+const university_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_3.webp';
+const university_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_4.webp';
+const university_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_5.webp';
+const university_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_6.webp';
+const university_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_7.webp';
+const university_8 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_8.webp';
+const university_9 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_9.webp';
+const university_10 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_10.webp';
+const university_11 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_11.webp';
+const university_12 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_12.webp';
+const university_13 = 'https://static.igem.wiki/teams/5822/newassets/images/education/university_13.webp';
 
 
 
-const community_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_1.png';
-const community_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_2.png';
-const community_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_3.png';
-const community_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_4.png';
-const community_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_5.png';
-const community_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_6.png';
-const community_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_7.png';
+const community_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_1.webp';
+const community_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_2.webp';
+const community_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_3.webp';
+const community_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_4.webp';
+const community_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_5.webp';
+const community_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_6.webp';
+const community_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/community_7.webp';
 
-const professional_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_1.png';
-const professional_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_2.png';
-const professional_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_3.png';
-const professional_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_4.png';
-const professional_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_5.png';
-const professional_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_6.png';
-const professional_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_7.png';
-const professional_8 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_8.png';
+const professional_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_1.webp';
+const professional_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_2.webp';
+const professional_3 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_3.webp';
+const professional_4 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_4.webp';
+const professional_5 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_5.webp';
+const professional_6 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_6.webp';
+const professional_7 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_7.webp';
+const professional_8 = 'https://static.igem.wiki/teams/5822/newassets/images/education/professional_8.webp';
 
-const online_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/online_1.png';
-const online_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/online_2.png';
+const online_1 = 'https://static.igem.wiki/teams/5822/newassets/images/education/online_1.webp';
+const online_2 = 'https://static.igem.wiki/teams/5822/newassets/images/education/online_2.webp';
 
 
 const PrimaryEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/images/education/PrimaryEducation.pdf';
@@ -91,7 +91,7 @@ const UniversityEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/im
 
 
 // Main education figure
-const educationFigure = 'https://static.igem.wiki/teams/5822/newassets/images/education/education.png';
+const educationFigure = 'https://static.igem.wiki/teams/5822/newassets/images/education/education.webp';
 
 
 // 组件定义 1

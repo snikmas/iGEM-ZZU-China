@@ -4,44 +4,44 @@ import '../../styles/common.css';
 
 import ImageGallery from '../../components/imagegallery';
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 
-const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure1.png';
-const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure2.png';
-const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure3.png';
-const SolutionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/SolutionFigure3.png';
-const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/SolutionFigure4.png';
-const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inspiration/InspirationFigure1.png';
-const InspirationFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inspiration/InspirationFigure2.png';
+const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure1.webp';
+const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure2.webp';
+const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/Figure3.webp';
+const SolutionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/SolutionFigure3.webp';
+const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Introduction/SolutionFigure4.webp';
+const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inspiration/InspirationFigure1.webp';
+const InspirationFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inspiration/InspirationFigure2.webp';
 
-const SWOTAnalysisFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/SWOTAnalysis/SWOTAnalysisFigure1.png';
+const SWOTAnalysisFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/SWOTAnalysis/SWOTAnalysisFigure1.webp';
 
-const IntegratedReportFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure1.png';
-const IntegratedReportFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_1.png';
-const IntegratedReportFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_2.png';
-const IntegratedReportFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_3.png';
-const IntegratedReportFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure3_1.png';
-const IntegratedReportFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure3_2.png';
+const IntegratedReportFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure1.webp';
+const IntegratedReportFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_1.webp';
+const IntegratedReportFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_2.webp';
+const IntegratedReportFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure2_3.webp';
+const IntegratedReportFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure3_1.webp';
+const IntegratedReportFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/IntegratedReport/Figure3_2.webp';
 
 // 4
-const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/overview.png';
-const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure1.png';
-const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure2.png';
-const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure3.png';
-const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure4.png';
-const InterviewFigure5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure5.png';
-const InterviewFigure6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure6.png';
-const InterviewFigure7 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure7.png';
-const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure8.png';
-const InterviewFigure9 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure9.png';
-const InterviewFigure10 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure10.png';
-const InterviewFigure11 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure11.png';
-const InterviewFigure12 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure12.png';
-const InterviewFigure13 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure13.png';
-const InterviewFigure14 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure14.png';
-const InterviewFigure15 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure15.png';
-const InterviewFigure16 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure16.png';
+const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/overview.webp';
+const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure1.webp';
+const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure2.webp';
+const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure3.webp';
+const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure4.webp';
+const InterviewFigure5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure5.webp';
+const InterviewFigure6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure6.webp';
+const InterviewFigure7 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure7.webp';
+const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure8.webp';
+const InterviewFigure9 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure9.webp';
+const InterviewFigure10 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure10.webp';
+const InterviewFigure11 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure11.webp';
+const InterviewFigure12 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure12.webp';
+const InterviewFigure13 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure13.webp';
+const InterviewFigure14 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure14.webp';
+const InterviewFigure15 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure15.webp';
+const InterviewFigure16 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/interview/InterviewFigure16.webp';
 
 
 
@@ -50,77 +50,77 @@ const InterviewFigure16 = 'https://static.igem.wiki/teams/5822/newassets/images/
 const SurveyPDF = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/survey.pdf';
 
 // 6
-const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/FeedbackIteration/Figure1.png';
+const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/FeedbackIteration/Figure1.webp';
 
 // 7
-const EducationFigure1_1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_1.png';
-const EducationFigure1_1_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_2.png';
-const EducationFigure1_1_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_3.png';
-const EducationFigure1_1_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_4.png';
+const EducationFigure1_1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_1.webp';
+const EducationFigure1_1_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_2.webp';
+const EducationFigure1_1_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_3.webp';
+const EducationFigure1_1_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_1_4.webp';
 
-const EducationFigure1_2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_1.png';
-const EducationFigure1_2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_2.png';
-const EducationFigure1_2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_3.png';
-const EducationFigure1_2_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_4.png';
+const EducationFigure1_2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_1.webp';
+const EducationFigure1_2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_2.webp';
+const EducationFigure1_2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_3.webp';
+const EducationFigure1_2_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_2_4.webp';
 
-const EducationFigure1_3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_1.png';
-const EducationFigure1_3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_2.png';
-const EducationFigure1_3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_3.png';
-const EducationFigure1_3_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_4.png';
-const EducationFigure1_3_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_5.png';
+const EducationFigure1_3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_1.webp';
+const EducationFigure1_3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_2.webp';
+const EducationFigure1_3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_3.webp';
+const EducationFigure1_3_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_4.webp';
+const EducationFigure1_3_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_1_3_5.webp';
 
-const EducationFigure2_1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_2_1_1.png';
-const EducationFigure3_1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_3_1_1.png';
+const EducationFigure2_1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_2_1_1.webp';
+const EducationFigure3_1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/education/education_3_1_1.webp';
 
 
 
 // 8 Cooperation
-const CooperationFigure1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_1.png';
-const CooperationFigure1_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_2.png';
-const CooperationFigure1_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_3.png';
-const CooperationFigure1_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_4.png';
-const CooperationFigure1_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_5.png';
-const CooperationFigure1_6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_6.png';
-const CooperationFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_1.png';
-const CooperationFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_2.png';
-const CooperationFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_3.png';
-const CooperationFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_4.png';
-const CooperationFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_5.png';
-const CooperationFigure2_6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_6.png';
-const CooperationFigure2_7 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_7.png';
-const CooperationFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_1.png';
-const CooperationFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_2.png';
-const CooperationFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_3.png';
-const CooperationFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_4.png';
-const CooperationFigure3_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_5.png';
+const CooperationFigure1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_1.webp';
+const CooperationFigure1_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_2.webp';
+const CooperationFigure1_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_3.webp';
+const CooperationFigure1_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_4.webp';
+const CooperationFigure1_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_5.webp';
+const CooperationFigure1_6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_1_6.webp';
+const CooperationFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_1.webp';
+const CooperationFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_2.webp';
+const CooperationFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_3.webp';
+const CooperationFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_4.webp';
+const CooperationFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_5.webp';
+const CooperationFigure2_6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_6.webp';
+const CooperationFigure2_7 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_2_7.webp';
+const CooperationFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_1.webp';
+const CooperationFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_2.webp';
+const CooperationFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_3.webp';
+const CooperationFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_4.webp';
+const CooperationFigure3_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/cooperation/cooperaton_3_5.webp';
 
 
 // 11 Safety
-const SafetyFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/safety/SafetyFigure1.png'; // 临时使用现有图片
+const SafetyFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/safety/SafetyFigure1.webp'; // 临时使用现有图片
 
 // 12 Spread
-const SpreadFigure1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_1_1.png';
-const SpreadFigure1_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_1_2.png';
-const SpreadFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_1.png';
-const SpreadFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_2.png';
-const SpreadFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_3.png';
-const SpreadFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_4.png';
-const SpreadFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_5.png';
+const SpreadFigure1_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_1_1.webp';
+const SpreadFigure1_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_1_2.webp';
+const SpreadFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_1.webp';
+const SpreadFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_2.webp';
+const SpreadFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_3.webp';
+const SpreadFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_4.webp';
+const SpreadFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Spread/Spread_2_5.webp';
 
 // 13 Inclusiveness
-const InclusivenessFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_2_1.png';
-const InclusivenessFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_2_2.png';
-const InclusivenessFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_1.png';
-const InclusivenessFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_2.png';
-const InclusivenessFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_3.png';
-const InclusivenessFigure5_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_1.png';
-const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_2.png';
-const InclusivenessFigure5_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_3.png';
-const InclusivenessFigure5_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_4.png';
-const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_5.png';
-const InclusivenessFigure5_6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_6.png';
-const InclusivenessFigure5_7 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_7.png';
-const InclusivenessFigure5_8 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_8.png';
+const InclusivenessFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_2_1.webp';
+const InclusivenessFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_2_2.webp';
+const InclusivenessFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_1.webp';
+const InclusivenessFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_2.webp';
+const InclusivenessFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_3_3.webp';
+const InclusivenessFigure5_1 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_1.webp';
+const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_2.webp';
+const InclusivenessFigure5_3 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_3.webp';
+const InclusivenessFigure5_4 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_4.webp';
+const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_5.webp';
+const InclusivenessFigure5_6 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_6.webp';
+const InclusivenessFigure5_7 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_7.webp';
+const InclusivenessFigure5_8 = 'https://static.igem.wiki/teams/5822/newassets/images/ihp/Inclusiveness/Inclusiveness_5_8.webp';
 
 
 

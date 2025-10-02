@@ -3,23 +3,23 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Model相关图片导入 (假设图片在model文件夹中)
-const modelFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure1.png';
-const modelFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure2.png';
-const modelFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure3.png';
-const modelFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure4.png';
-const modelFigure5 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure5.png';
-const modelFigure6 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure6.png';
-const modelFigure7 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure7.png';
-const modelFigure8 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure8.png';
-const modelFigure9 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure9.png';
-const modelFigure10 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure10.png';
-const modelFigure11 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure11.png';
-const modelFigure12 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure12.png';
-const modelFigure13 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure13.png';
-const modelFigure14 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure14.png';
+const modelFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure1.webp';
+const modelFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure2.webp';
+const modelFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure3.webp';
+const modelFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure4.webp';
+const modelFigure5 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure5.webp';
+const modelFigure6 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure6.webp';
+const modelFigure7 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure7.webp';
+const modelFigure8 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure8.webp';
+const modelFigure9 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure9.webp';
+const modelFigure10 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure10.webp';
+const modelFigure11 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure11.webp';
+const modelFigure12 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure12.webp';
+const modelFigure13 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure13.webp';
+const modelFigure14 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure14.webp';
 
 const howtousePymol = 'https://static.igem.wiki/teams/5822/newassets/images/model/howtousePymol.pdf';
 // 组件定义

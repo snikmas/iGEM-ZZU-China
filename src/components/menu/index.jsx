@@ -2,8 +2,8 @@ import React from 'react';
 import './index.css';
 
 // 导入默认图标和hover图标
-const defaultIcon = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconDefault.png';
-const hoverIcon = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconHover.png';
+const defaultIcon = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconDefault.webp';
+const hoverIcon = 'https://static.igem.wiki/teams/5822/newassets/images/education/menuIconHover.webp';
 
 const Menu = ({ 
   defaultSrc = defaultIcon, 

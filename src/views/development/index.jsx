@@ -3,9 +3,9 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
-const developmentFigure = 'https://static.igem.wiki/teams/5822/newassets/images/development/development.png';
+const developmentFigure = 'https://static.igem.wiki/teams/5822/newassets/images/development/development.webp';
 
 // 组件定义
 const MainContent = () => (
