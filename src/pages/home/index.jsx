@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './index.css';
 import { Routes, Route } from 'react-router-dom';
 
@@ -6,7 +6,7 @@ import ScrollToTop from '../../components/scrolltotop';
 
 
 import Header from '../../components/header';
-import Exception_403 from '../../components/exception';
+import Exception403 from '../../components/exception';
 
 // 真实页面组件
 import HomeLanding from '../../views/homelanding';
@@ -81,7 +81,7 @@ function Home() {
           <Route path="/human-practice/cooperation" element={<Cooperation />} />
 
           {/* 兜底 */}
-          <Route path="*" element={<Exception_403 />} />
+          <Route path="*" element={<Exception403 />} />
         </Routes>
       </div>
 
