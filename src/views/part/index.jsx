@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+import menuLogo from '../../assets/menulogo.png';
 const parts = [
   {
     number: 'BBa_25ZQHX62',

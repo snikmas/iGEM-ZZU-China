@@ -1,24 +1,26 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+// 在文件顶部添加导入
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 import { WechatOutlined, YoutubeOutlined, GoogleCircleFilled, TwitterCircleFilled } from '@ant-design/icons';
-import logo from 'https://static.igem.wiki/teams/5822/newassets/headerlogo.png';
+import logo from '../../assets/images/headerlogo.png';
 
 
 // 导入乳腺癌主题图片
-import section2bg from 'https://static.igem.wiki/teams/5822/newassets/home/section2bg.png';
-import section3pic from 'https://static.igem.wiki/teams/5822/newassets/home/section3pic.png';
-import littlemonster from 'https://static.igem.wiki/teams/5822/newassets/home/littlemonster.png';
+import section2bg from '../../assets/images/home/section2bg.png';
+import section3pic from '../../assets/images/home/section3pic.png';
+import littlemonster from '../../assets/images/home/littlemonster.png';
 
-import section5pic from 'https://static.igem.wiki/teams/5822/newassets/home/section5pic.png';
-import section6pic from 'https://static.igem.wiki/teams/5822/newassets/home/section6pic.png';
-import section8pic from 'https://static.igem.wiki/teams/5822/newassets/home/section8pic.png';
-import section9pic from 'https://static.igem.wiki/teams/5822/newassets/home/section9pic.png';
+import section5pic from '../../assets/images/home/section5pic.png';
+import section6pic from '../../assets/images/home/section6pic.png';
+import section8pic from '../../assets/images/home/section8pic.png';
+import section9pic from '../../assets/images/home/section9pic.png';
 
-import section11pic1 from 'https://static.igem.wiki/teams/5822/newassets/home/section11pic_1.png';
-import section11pic2 from 'https://static.igem.wiki/teams/5822/newassets/home/section11pic_2.png';
-import section11pic3 from 'https://static.igem.wiki/teams/5822/newassets/home/section11pic_3.png';
-import section11pic4 from 'https://static.igem.wiki/teams/5822/newassets/home/section11pic_4.png';
-import section11pic5 from 'https://static.igem.wiki/teams/5822/newassets/home/section11pic_5.png';
+import section11pic1 from '../../assets/images/home/section11pic_1.png';
+import section11pic2 from '../../assets/images/home/section11pic_2.png';
+import section11pic3 from '../../assets/images/home/section11pic_3.png';
+import section11pic4 from '../../assets/images/home/section11pic_4.png';
+import section11pic5 from '../../assets/images/home/section11pic_5.png';
 
 function useCountUp(target, startWhenVisible) {
   const [value, setValue] = useState(0);
@@ -81,6 +83,16 @@ function HomeLanding() {
 
   // Build particles once
   const particles = useMemo(() => new Array(24).fill(0), []);
+
+
+
+  const navigate = useNavigate();
+
+  // 处理探索项目的点击事件
+  const handleExploreClick = (route) => {
+    navigate(route);
+  };
+
 
   return (
     <div ref={containerRef} className="homelanding">
@@ -297,32 +309,32 @@ function HomeLanding() {
       <section className="hl-section explore">
         <div className="explore-inner">
           <h2 className="explore-title">Explore Our Project</h2>
-                    <div className="explore-grid">
-            <div className="explore-item">
+          <div className="explore-grid">
+            <div className="explore-item" onClick={() => handleExploreClick('/project/description')}>
               <div className="icon">
                 <img src={section11pic1} alt="Project" className="explore-icon" />
               </div>
               <div className="label pink">Project</div>
             </div>
-            <div className="explore-item">
+            <div className="explore-item" onClick={() => handleExploreClick('/wet-lab/experiments')}>
               <div className="icon">
                 <img src={section11pic2} alt="Wet Lab" className="explore-icon" />
               </div>
               <div className="label">Wet Lab</div>
             </div>
-            <div className="explore-item">
+            <div className="explore-item" onClick={() => handleExploreClick('/dry-lab/model')}>
               <div className="icon">
                 <img src={section11pic3} alt="Dry Lab" className="explore-icon" />
               </div>
               <div className="label pink">Dry Lab</div>
             </div>
-            <div className="explore-item">
+            <div className="explore-item" onClick={() => handleExploreClick('/education')}>
               <div className="icon">
                 <img src={section11pic4} alt="Education" className="explore-icon" />
               </div>
               <div className="label">Education</div>
             </div>
-            <div className="explore-item">
+            <div className="explore-item" onClick={() => handleExploreClick('/human-practice/integrated-human-practices')}>
               <div className="icon">
                 <img src={section11pic5} alt="Human Practice" className="explore-icon" />
               </div>

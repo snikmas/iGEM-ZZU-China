@@ -3,110 +3,123 @@ import './index.css';
 import '../../styles/common.css';
 
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+import menuLogo from '../../assets/menulogo.png';
 import ImageGallery from '../../components/imagegallery';
 
-import Figure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Introduction/Figure1.png';
-import Figure2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Introduction/Figure2.png';
-import Figure3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Introduction/Figure3.png';
-import SolutionFigure3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Introduction/SolutionFigure3.png';
-import InspirationFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inspiration/InspirationFigure1.png';
-import InspirationFigure2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inspiration/InspirationFigure2.png';
+import Figure1 from '../../assets/images/ihp/Introduction/Figure1.png';
+import Figure2 from '../../assets/images/ihp/Introduction/Figure2.png';
+import Figure3 from '../../assets/images/ihp/Introduction/Figure3.png';
+import SolutionFigure3 from '../../assets/images/ihp/Introduction/SolutionFigure3.png';
+import SolutionFigure4 from '../../assets/images/ihp/Introduction/SolutionFigure4.png';
+import InspirationFigure1 from '../../assets/images/ihp/Inspiration/InspirationFigure1.png';
+import InspirationFigure2 from '../../assets/images/ihp/Inspiration/InspirationFigure2.png';
 
-import SWOTAnalysisFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/SWOTAnalysis/SWOTAnalysisFigure1.png';
+import SWOTAnalysisFigure1 from '../../assets/images/ihp/SWOTAnalysis/SWOTAnalysisFigure1.png';
 
-import IntegratedReportFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/IntegratedReport/Figure1.png';
-import IntegratedReportFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/IntegratedReport/Figure2_1.png';
-import IntegratedReportFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/IntegratedReport/Figure2_2.png';
-import IntegratedReportFigure2_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/IntegratedReport/Figure2_3.png';
-import IntegratedReportFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/IntegratedReport/Figure3_1.png';
-import IntegratedReportFigure3_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/IntegratedReport/Figure3_2.png';
+import IntegratedReportFigure1 from '../../assets/images/ihp/IntegratedReport/Figure1.png';
+import IntegratedReportFigure2_1 from '../../assets/images/ihp/IntegratedReport/Figure2_1.png';
+import IntegratedReportFigure2_2 from '../../assets/images/ihp/IntegratedReport/Figure2_2.png';
+import IntegratedReportFigure2_3 from '../../assets/images/ihp/IntegratedReport/Figure2_3.png';
+import IntegratedReportFigure3_1 from '../../assets/images/ihp/IntegratedReport/Figure3_1.png';
+import IntegratedReportFigure3_2 from '../../assets/images/ihp/IntegratedReport/Figure3_2.png';
 
 // 4
-import InterviewFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure1.png';
-import InterviewFigure2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure2.png';
-import InterviewFigure3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure3.png';
-import InterviewFigure4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure4.png';
-import InterviewFigure5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure5.png';
-import InterviewFigure6 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure6.png';
-import InterviewFigure7 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure7.png';
-import InterviewFigure8 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure8.png';
+import overviewpng from '../../assets/images/ihp/interview/overview.png';
+import InterviewFigure1 from '../../assets/images/ihp/interview/InterviewFigure1.png';
+import InterviewFigure2 from '../../assets/images/ihp/interview/InterviewFigure2.png';
+import InterviewFigure3 from '../../assets/images/ihp/interview/InterviewFigure3.png';
+import InterviewFigure4 from '../../assets/images/ihp/interview/InterviewFigure4.png';
+import InterviewFigure5 from '../../assets/images/ihp/interview/InterviewFigure5.png';
+import InterviewFigure6 from '../../assets/images/ihp/interview/InterviewFigure6.png';
+import InterviewFigure7 from '../../assets/images/ihp/interview/InterviewFigure7.png';
+import InterviewFigure8 from '../../assets/images/ihp/interview/InterviewFigure8.png';
+import InterviewFigure9 from '../../assets/images/ihp/interview/InterviewFigure9.png';
+import InterviewFigure10 from '../../assets/images/ihp/interview/InterviewFigure10.png';
+import InterviewFigure11 from '../../assets/images/ihp/interview/InterviewFigure11.png';
+import InterviewFigure12 from '../../assets/images/ihp/interview/InterviewFigure12.png';
+import InterviewFigure13 from '../../assets/images/ihp/interview/InterviewFigure13.png';
+import InterviewFigure14 from '../../assets/images/ihp/interview/InterviewFigure14.png';
+import InterviewFigure15 from '../../assets/images/ihp/interview/InterviewFigure15.png';
+import InterviewFigure16 from '../../assets/images/ihp/interview/InterviewFigure16.png';
+
+
+
 
 // 5
-import SurveyPDF from 'https://static.igem.wiki/teams/5822/newassets/files/survey.pdf';
+import SurveyPDF from '../../assets/images/ihp/survey.pdf';
 
 // 6
-import FeedbackIterationContentFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/FeedbackIteration/Figure1.png';
+import FeedbackIterationContentFigure1 from '../../assets/images/ihp/FeedbackIteration/Figure1.png';
 
 // 7
-import EducationFigure1_1_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_1_1.png';
-import EducationFigure1_1_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_1_2.png';
-import EducationFigure1_1_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_1_3.png';
-import EducationFigure1_1_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_1_4.png';
+import EducationFigure1_1_1 from '../../assets/images/ihp/education/education_1_1_1.png';
+import EducationFigure1_1_2 from '../../assets/images/ihp/education/education_1_1_2.png';
+import EducationFigure1_1_3 from '../../assets/images/ihp/education/education_1_1_3.png';
+import EducationFigure1_1_4 from '../../assets/images/ihp/education/education_1_1_4.png';
 
-import EducationFigure1_2_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_2_1.png';
-import EducationFigure1_2_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_2_2.png';
-import EducationFigure1_2_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_2_3.png';
-import EducationFigure1_2_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_2_4.png';
+import EducationFigure1_2_1 from '../../assets/images/ihp/education/education_1_2_1.png';
+import EducationFigure1_2_2 from '../../assets/images/ihp/education/education_1_2_2.png';
+import EducationFigure1_2_3 from '../../assets/images/ihp/education/education_1_2_3.png';
+import EducationFigure1_2_4 from '../../assets/images/ihp/education/education_1_2_4.png';
 
-import EducationFigure1_3_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_3_1.png';
-import EducationFigure1_3_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_3_2.png';
-import EducationFigure1_3_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_3_3.png';
-import EducationFigure1_3_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_3_4.png';
-import EducationFigure1_3_5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_1_3_5.png';
+import EducationFigure1_3_1 from '../../assets/images/ihp/education/education_1_3_1.png';
+import EducationFigure1_3_2 from '../../assets/images/ihp/education/education_1_3_2.png';
+import EducationFigure1_3_3 from '../../assets/images/ihp/education/education_1_3_3.png';
+import EducationFigure1_3_4 from '../../assets/images/ihp/education/education_1_3_4.png';
+import EducationFigure1_3_5 from '../../assets/images/ihp/education/education_1_3_5.png';
 
-import EducationFigure2_1_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_2_1_1.png';
-import EducationFigure3_1_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education_3_1_1.png';
+import EducationFigure2_1_1 from '../../assets/images/ihp/education/education_2_1_1.png';
+import EducationFigure3_1_1 from '../../assets/images/ihp/education/education_3_1_1.png';
 
 
 
 // 8 Cooperation
-import CooperationFigure1_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_1_1.png';
-import CooperationFigure1_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_1_2.png';
-import CooperationFigure1_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_1_3.png';
-import CooperationFigure1_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_1_4.png';
-import CooperationFigure1_5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_1_5.png';
-import CooperationFigure1_6 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_1_6.png';
-import CooperationFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_1.png';
-import CooperationFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_2.png';
-import CooperationFigure2_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_3.png';
-import CooperationFigure2_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_4.png';
-import CooperationFigure2_5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_5.png';
-import CooperationFigure2_6 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_6.png';
-import CooperationFigure2_7 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_2_7.png';
-import CooperationFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_3_1.png';
-import CooperationFigure3_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_3_2.png';
-import CooperationFigure3_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_3_3.png';
-import CooperationFigure3_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_3_4.png';
-import CooperationFigure3_5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton_3_5.png';
+import CooperationFigure1_1 from '../../assets/images/ihp/cooperation/cooperaton_1_1.png';
+import CooperationFigure1_2 from '../../assets/images/ihp/cooperation/cooperaton_1_2.png';
+import CooperationFigure1_3 from '../../assets/images/ihp/cooperation/cooperaton_1_3.png';
+import CooperationFigure1_4 from '../../assets/images/ihp/cooperation/cooperaton_1_4.png';
+import CooperationFigure1_5 from '../../assets/images/ihp/cooperation/cooperaton_1_5.png';
+import CooperationFigure1_6 from '../../assets/images/ihp/cooperation/cooperaton_1_6.png';
+import CooperationFigure2_1 from '../../assets/images/ihp/cooperation/cooperaton_2_1.png';
+import CooperationFigure2_2 from '../../assets/images/ihp/cooperation/cooperaton_2_2.png';
+import CooperationFigure2_3 from '../../assets/images/ihp/cooperation/cooperaton_2_3.png';
+import CooperationFigure2_4 from '../../assets/images/ihp/cooperation/cooperaton_2_4.png';
+import CooperationFigure2_5 from '../../assets/images/ihp/cooperation/cooperaton_2_5.png';
+import CooperationFigure2_6 from '../../assets/images/ihp/cooperation/cooperaton_2_6.png';
+import CooperationFigure2_7 from '../../assets/images/ihp/cooperation/cooperaton_2_7.png';
+import CooperationFigure3_1 from '../../assets/images/ihp/cooperation/cooperaton_3_1.png';
+import CooperationFigure3_2 from '../../assets/images/ihp/cooperation/cooperaton_3_2.png';
+import CooperationFigure3_3 from '../../assets/images/ihp/cooperation/cooperaton_3_3.png';
+import CooperationFigure3_4 from '../../assets/images/ihp/cooperation/cooperaton_3_4.png';
+import CooperationFigure3_5 from '../../assets/images/ihp/cooperation/cooperaton_3_5.png';
 
 
 // 11 Safety
-import SafetyFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/safety/SafetyFigure1.png'; // 临时使用现有图片
+import SafetyFigure1 from '../../assets/images/ihp/safety/SafetyFigure1.png'; // 临时使用现有图片
 
 // 12 Spread
-import SpreadFigure1_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_1_1.png';
-import SpreadFigure1_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_1_2.png';
-import SpreadFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_2_1.png';
-import SpreadFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_2_2.png';
-import SpreadFigure2_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_2_3.png';
-import SpreadFigure2_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_2_4.png';
-import SpreadFigure2_5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Spread/Spread_2_5.png';
+import SpreadFigure1_1 from '../../assets/images/ihp/Spread/Spread_1_1.png';
+import SpreadFigure1_2 from '../../assets/images/ihp/Spread/Spread_1_2.png';
+import SpreadFigure2_1 from '../../assets/images/ihp/Spread/Spread_2_1.png';
+import SpreadFigure2_2 from '../../assets/images/ihp/Spread/Spread_2_2.png';
+import SpreadFigure2_3 from '../../assets/images/ihp/Spread/Spread_2_3.png';
+import SpreadFigure2_4 from '../../assets/images/ihp/Spread/Spread_2_4.png';
+import SpreadFigure2_5 from '../../assets/images/ihp/Spread/Spread_2_5.png';
 
 // 13 Inclusiveness
-import InclusivenessFigure2_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_2_1.png';
-import InclusivenessFigure2_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_2_2.png';
-import InclusivenessFigure3_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_3_1.png';
-import InclusivenessFigure3_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_3_2.png';
-import InclusivenessFigure3_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_3_3.png';
-import InclusivenessFigure5_1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_1.png';
-import InclusivenessFigure5_2 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_2.png';
-import InclusivenessFigure5_3 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_3.png';
-import InclusivenessFigure5_4 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_4.png';
-import InclusivenessFigure5_5 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_5.png';
-import InclusivenessFigure5_6 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_6.png';
-import InclusivenessFigure5_7 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_7.png';
-import InclusivenessFigure5_8 from 'https://static.igem.wiki/teams/5822/newassets/ihp/Inclusiveness/Inclusiveness_5_8.png';
+import InclusivenessFigure2_1 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_2_1.png';
+import InclusivenessFigure2_2 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_2_2.png';
+import InclusivenessFigure3_1 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_3_1.png';
+import InclusivenessFigure3_2 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_3_2.png';
+import InclusivenessFigure3_3 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_3_3.png';
+import InclusivenessFigure5_1 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_1.png';
+import InclusivenessFigure5_2 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_2.png';
+import InclusivenessFigure5_3 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_3.png';
+import InclusivenessFigure5_4 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_4.png';
+import InclusivenessFigure5_5 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_5.png';
+import InclusivenessFigure5_6 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_6.png';
+import InclusivenessFigure5_7 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_7.png';
+import InclusivenessFigure5_8 from '../../assets/images/ihp/Inclusiveness/Inclusiveness_5_8.png';
 
 
 
@@ -205,6 +218,12 @@ const MainContent = () => (
             <p>
               To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 moleculeon exosomes in samples</span> , we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
             </p>
+            <div className="figure-container">
+              <div className="figure-item">
+                <img src={SolutionFigure4} alt="Figure 1: Top 10 Cancer Types by New Cases Among Chinese Women in 2020" className="figure-image" />
+                <div className="h4">Figure 3. Vision for Technology-enabled Breast Cancer Treatment and Research</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -354,9 +373,6 @@ const MainContent = () => (
               <p>
                 Responding to clinicians' feedback about <span>"false-positive risks"</span>, we prioritized optimizing detection system specificity and accuracy. Addressing users' need for <span>"ease of operation"</span>, we developed a home sampler prototype and simplified procedures. Based on <span>"cost-control"</span> suggestions, we explored mass production cost optimization and medical insurance payment possibilities. Each optimization measure re-entered the needs insight layer, initiating new iterative cycles and refinement processes.
               </p>
-              <p>
-                This model's five-layer closed-loop structure ensures each practice phase undergoes continuous optimization based on prior feedback. From needs insight to iterative optimization, the information flow forms a complete cycle, enabling constant self-correction and improvement. This design not only enhances resource utilization efficiency but also ensures technological innovation remains synchronized with societal needs, truly achieving responsible research and innovation, and providing a sustainable development model for breast cancer prevention.
-              </p>
             </div>
           </div>
         </section>
@@ -373,6 +389,9 @@ const MainContent = () => (
               </p>
               <p>
                 Beyond this project, the ISPM model provides a valuable human practices paradigm for other synthetic biology projects. Whether iGEM teams in environmental governance, energy production, or healthcare can borrowing this model's structure to systematically conduct responsible innovation activities. It guides researchers on effectively communicating with the public, embedding ethical considerations into technology R&D cycles, and building inclusive, trusting innovation ecosystems - fully aligning with iGEM's educational goal of cultivating responsible scientists.
+              </p>
+              <p>
+                This model's five-layer closed-loop structure ensures each practice phase undergoes continuous optimization based on prior feedback. From needs insight to iterative optimization, the information flow forms a complete cycle, enabling constant self-correction and improvement. This design not only enhances resource utilization efficiency but also ensures technological innovation remains synchronized with societal needs, truly achieving responsible research and innovation, and providing a sustainable development model for breast cancer prevention.
               </p>
             </div>
           </div>
@@ -565,6 +584,15 @@ const MainContent = () => (
       </div>
 
       <div className="content-body">
+        <div className='figure-container'>
+          <div className='figure-item'>
+            <img src={overviewpng} alt="Figure 1. Interview Map" className="figure-image" />
+            <div className="h4">Figure 1. Interview Map</div>
+          </div>
+        </div>
+
+
+
         {/* 4.1 Interview on Why Exosomes and Magnetic Beads Were Chosen */}
         <section id="interview-exosomes-magnetic-beads" className="view-section">
           <div className="view-section-content">
@@ -574,20 +602,18 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👨‍🔬</span>
-                  </div>
+                  <img src={InterviewFigure1} alt="Interview with Professor Zhao Lijuan" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Professor XX</div>
-                    <p className="affiliation">Professor @ University</p>
-                    <p className="details">Area: Dry Lab | Date: May 7, 2025</p>
+                    <div className="h3">Zhao Lijuan</div>
+                    <p className="affiliation">Engaged in anti-tumor pharmacology research and tumor exosome research</p>
+                    <p className="details">Expert Interview | Figure 2</p>
                   </div>
                   <div className="interview-summary">
-                    <p>1 Exosomes are ideal for early screening due to clear signals, stability, and accessibility.</p>
-                    <p>2 Magnetic bead capture is the preferred isolation method for its specificity and simplicity.</p>
-                    <p>3 Future work requires optimizing processes, integrating methods, and validating in high-risk groups to enable widespread use.</p>
+                    <p>Exosomes are ideal for early screening due to clear signals, stability, and accessibility.</p>
+                    <p>Magnetic bead capture is the preferred isolation method for its specificity and simplicity.</p>
+                    <p>Future work requires optimizing processes, integrating methods, and validating in high-risk groups to enable widespread use.</p>
                   </div>
                 </div>
               </div>
@@ -605,20 +631,18 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Professor XX</div>
-                    <p className="affiliation">Professor @ University</p>
-                    <p className="details">Area: Dry Lab | Date: May 9, 2025</p>
+                    <div className="h3">Xu Yan (许燕)</div>
+                    <p className="affiliation">Focused on the fields of stem cell therapy and tumor immunology</p>
+                    <p className="details">Expert Interview | Figure 3</p>
                   </div>
                   <div className="interview-summary">
-                    <p>1 Four exosomal proteins (MMP-9/HER-2/PD-L1/EpCAM) reflect key breast cancer features for improved diagnosis and treatment guidance.</p>
-                    <p>2 Their combined detection enhances accuracy and clinical utility.</p>
-                    <p>3 Future needs: validate thresholds via large studies and optimize detection technology for broader clinical use.</p>
+                    <p>Four exosomal proteins (MMP-9/HER-2/PD-L1/EpCAM) reflect key breast cancer features for improved diagnosis and treatment guidance.</p>
+                    <p>Their combined detection enhances accuracy and clinical utility.</p>
+                    <p>Future needs: validate thresholds via large studies and optimize detection technology for broader clinical use.</p>
                   </div>
                 </div>
                 <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👨‍🔬</span>
-                  </div>
+                  <img src={InterviewFigure2} alt="Interview with Professor Xu Yan (许燕)" />
                 </div>
               </div>
             </div>
@@ -634,20 +658,18 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👨‍🔬</span>
-                  </div>
+                  <img src={InterviewFigure3} alt="Interview with Professor Xu Yan (徐琰)" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Professor XX</div>
-                    <p className="affiliation">Professor @ University</p>
-                    <p className="details">Area: Dry Lab | Date: May 22, 2025</p>
+                    <div className="h3">Xu Yan (徐琰)</div>
+                    <p className="affiliation">Mainly studies tumor pharmacology chemistry and biomarkers</p>
+                    <p className="details">Expert Interview | Figure 4</p>
                   </div>
                   <div className="interview-summary">
-                    <p>1 CD63 and tumor-specific aptamers enable efficient exosome enrichment with superior stability, cost, and convenience over antibodies.</p>
-                    <p>2 Future optimization of modification and secondary enrichment can improve tumor exosome purity.</p>
-                    <p>3 This approach supports early, accurate breast cancer detection.</p>
+                    <p>CD63 and tumor-specific aptamers enable efficient exosome enrichment with superior stability, cost, and convenience over antibodies.</p>
+                    <p>Future optimization of modification and secondary enrichment can improve tumor exosome purity.</p>
+                    <p>This approach supports early, accurate breast cancer detection.</p>
                   </div>
                 </div>
               </div>
@@ -655,59 +677,55 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 4.4 Interview with Breast Surgeons */}
-        <section id="interview-breast-surgeons" className="view-section">
+        {/* 4.4 Interview on the selection of breast cancer cell lines */}
+        <section id="interview-breast-cancer-cell-lines" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.4 Interview with Breast Surgeons</div>
+              <div className="h2">4.4 Interview on the Selection of Breast Cancer Cell Lines</div>
             </div>
             <div className="content-body">
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Dr. XX</div>
-                    <p className="affiliation">Breast Surgery @ XX Hospital</p>
-                    <p className="details">Area: Clinical | Date: August 2, 2025</p>
+                    <div className="h3">Xuan Xiaoyan</div>
+                    <p className="affiliation">Research on immune cell development and related diseases</p>
+                    <p className="details">Expert Interview | Figure 5</p>
                   </div>
                   <div className="interview-summary">
-                    <p>1 Interview deepened understanding of breast cancer and emphasized early screening's importance.</p>
-                    <p>2 Doctor endorsed project's potential and advised on sample quality, clinical collaboration, and ethics.</p>
-                    <p>3 Feedback will guide project optimization for clinical application in early diagnosis and prevention.</p>
+                    <p>MCF-10A, as a non-tumorigenic normal breast epithelial cell line, provides an essential negative control baseline for distinguishing between tumor-derived and normal exosomes.</p>
+                    <p>MCF-7 (Luminal A type), MDA-MB-231 (triple-negative), and SK-BR-3 (HER2-positive) cover the major molecular subtypes of breast cancer, ensuring broad-spectrum validation of the detection method developed in the project.</p>
+                    <p>The combination of these four cell lines establishes a comprehensive model system ranging from normal to malignant, encompassing key subtypes, significantly enhancing the reliability of experimental data and clinical translation potential.</p>
                   </div>
                 </div>
                 <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👩‍⚕️</span>
-                  </div>
+                  <img src={InterviewFigure4} alt="Interview with Professor Xuan Xiaoyan" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 4.5 Interview with Laboratory Doctors */}
-        <section id="interview-laboratory-doctors" className="view-section">
+        {/* 4.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established */}
+        <section id="interview-hcr-signal-amplification" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.5 Interview with Laboratory Doctors</div>
+              <div className="h2">4.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established</div>
             </div>
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👨</span>
-                  </div>
+                  <img src={InterviewFigure5} alt="Interview with Professor Geng Hongmei" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Dr. XX</div>
-                    <p className="affiliation">Clinical Laboratory @ XX Hospital</p>
-                    <p className="details">Area: Laboratory | Date: August 2, 2025</p>
+                    <div className="h3">Geng Hongmei</div>
+                    <p className="affiliation">Engaged in research on nano-oncology diagnosis and treatment, focusing on how to use enzyme-free amplification systems such as HCR to give nanomaterials higher detection sensitivity</p>
+                    <p className="details">Expert Interview | Figure 6</p>
                   </div>
                   <div className="interview-summary">
-                    <p>1 Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.</p>
-                    <p>2 Key improvements needed: standardized sample processing, automated adaptation, cost control, and technical reproducibility.</p>
-                    <p>3 Next steps: refine protocols, enhance lab collaboration, and ensure the method becomes operable and scalable for practical clinical adoption.</p>
+                    <p>The four-marker HCR simultaneously amplifies signals of CD63, CD81, CD9, and EpCAM through multiplexed hybridization chain reaction, significantly improving detection sensitivity and specificity.</p>
+                    <p>This method avoids the risk of missed detection associated with traditional single-marker approaches and is suitable for the accurate identification of tumor exosomes in complex clinical samples.</p>
+                    <p>The modular design facilitates integration with other detection modules (such as RCA and Cas14), providing multiple verification safeguards for early breast cancer diagnosis.</p>
                   </div>
                 </div>
               </div>
@@ -715,95 +733,314 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 4.6 Interview with Public Representative */}
+        {/* 4.6 Interview on Principles and Advantages of the RCA Method Module */}
+        <section id="interview-rca-method" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.6 Interview on Principles and Advantages of the RCA Method Module</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card reverse">
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Ma Lu</div>
+                    <p className="affiliation">Focuses on discovering targeted anti-tumor drugs, with a strong interest in high-sensitivity detection technologies like RCA</p>
+                    <p className="details">Expert Interview | Figure 7</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>RCA utilizes a circular DNA template for rolling circle amplification, generating long tandem repeat sequences and achieving exponential signal amplification, with a detection limit down to the single-molecule level.</p>
+                    <p>Its room temperature reaction conditions and high amplification efficiency are superior to PCR, making it more suitable for in situ detection of exosome biomarkers and integration into portable devices.</p>
+                    <p>RCA was selected as the core amplification module because it can synergize with HCR and Cas14, forming a multi-stage amplification system to enhance overall detection reliability.</p>
+                  </div>
+                </div>
+                <div className="interview-image">
+                  <img src={InterviewFigure6} alt="Interview with Professor Ma Lu" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.7 Interview on Why Cas14 Enzyme Was Chosen */}
+        <section id="interview-cas14-enzyme" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.7 Interview on Why Cas14 Enzyme Was Chosen</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card">
+                <div className="interview-image">
+                  <img src={InterviewFigure7} alt="Interview with Professor Yuan Ye" />
+                </div>
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Yuan Ye</div>
+                    <p className="affiliation">Mainly studies the design, synthesis, and antibacterial mechanisms of polypeptide and small molecule self-assembled nanozymes</p>
+                    <p className="details">Expert Interview | Figure 8</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>As a compact CRISPR system, Cas14 specifically cleaves single-stranded DNA without PAM sequence restrictions, making it suitable for detecting exosomal DNA biomarkers.</p>
+                    <p>Its high editing activity and room temperature reaction characteristics significantly reduce detection time and are compatible with magnetic bead enrichment and liquid-phase detection workflows.</p>
+                    <p>Cas14 was chosen to enable controllable activation of detection signals and suppression of background noise, providing high signal-to-noise ratio quantitative analysis for tumor exosomes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down */}
+        <section id="interview-thomas-sudhof" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card reverse">
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Thomas Südhof</div>
+                    <p className="affiliation">Primarily researches synaptic vesicle trafficking, membrane fusion, and intercellular communication; Nobel Laureate in Physiology or Medicine</p>
+                    <p className="details">Expert Interview | Figure 9</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Explained the rationale for CD63 as a pan-exosome marker from the biological basis of intercellular communication, noting its aptamer can efficiently capture exosomes for downstream analysis.</p>
+                    <p>Highlighted the potential advantages of aptamers over antibodies for capturing vesicular structures, particularly in stability and impact on membrane integrity.</p>
+                    <p>Expressed that this technology holds clear promise for analyzing the specific cargo of breast cancer-derived exosomes to achieve early diagnosis.</p>
+                  </div>
+                </div>
+                <div className="interview-image">
+                  <img src={InterviewFigure8} alt="A photo with Professor Thomas Südhof" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.9 Interview on the Application of RNA Aptamers in Exosome Capture */}
+        <section id="interview-craig-mello" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.9 Interview on the Application of RNA Aptamers in Exosome Capture</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card">
+                <div className="interview-image">
+                  <img src={InterviewFigure9} alt="A photo with Professor Craig C. Mello" />
+                </div>
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Craig C. Mello</div>
+                    <p className="affiliation">Primarily researches RNA interference (RNAi) mechanisms and gene expression regulation; Nobel Laureate in Physiology or Medicine</p>
+                    <p className="details">Expert Interview | Figure 10</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>From the perspective of specific recognition by nucleic acid molecules, affirmed the technical approach of using RNA aptamers for exosome capture.</p>
+                    <p>Emphasized the advantages of aptamers over protein antibodies in terms of synthesis cost, batch stability, and avoiding immunogenicity.</p>
+                    <p>Envisioned future integration of aptamer capture with RNAi technology to analyze exosomal cargo, thereby enhancing the specificity of breast cancer diagnosis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics */}
+        <section id="interview-yu-baofa" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card reverse">
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Yu Baofa</div>
+                    <p className="affiliation">Expert in the field of cancer therapy, focusing on tumor-targeted therapy and drug delivery systems</p>
+                    <p className="details">Expert Interview | Figure 11</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Highly evaluated the potential for clinical diagnostic applications, considering it simple to operate, cost-effective, and suitable for widespread use.</p>
+                    <p>Noted that the captured exosomes can be used for subsequent liquid biopsy analysis, providing a more convenient solution for early screening.</p>
+                    <p>Suggested future research could combine it with tumor-specific target aptamers for secondary enrichment, potentially improving detection sensitivity and specificity.</p>
+                  </div>
+                </div>
+                <div className="interview-image">
+                  <img src={InterviewFigure10} alt="Group photo with Professor Yu Baofa" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits */}
+        <section id="interview-lei-ming" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card">
+                <div className="interview-image">
+                  <img src={InterviewFigure11} alt="A photo with Professor Lei Ming" />
+                </div>
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Lei Ming</div>
+                    <p className="affiliation">Co-founder of UST Inc. (USA), focusing on the development and commercialization of in vitro diagnostic (IVD) technologies and products</p>
+                    <p className="details">Expert Interview | Figure 12</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Analyzed the significant advantages from a commercialization perspective, particularly in stability, production scale, and cost control.</p>
+                    <p>Pointed out that this method is easy to integrate into automated platforms, aligning with IVD industry trends and possessing strong market prospects.</p>
+                    <p>Proposed that future optimization could include modifying the aptamer sequence to improve affinity and developing matched detection reagents to form a complete solution.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.12 Interview on Humanities and Ethics */}
+        <section id="interview-zheng-huaixin" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.12 Interview on Humanities and Ethics</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card reverse">
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Zheng Huaixin</div>
+                    <p className="affiliation">Integrating profound humanistic care into research on pathogens and anti-infection immunity aligns closely with the ethical considerations of our exosome detection technology</p>
+                    <p className="details">Public Health Expert | Figure 13</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Exosome technology enhances screening access and compliance but requires support in cost control, quality assurance, and simplified reporting.</p>
+                    <p>Priority application scenarios include high-risk groups and community-based preliminary screening.</p>
+                    <p>Real-world data should validate its long-term impact on reducing late-stage diagnoses, advancing health equity through accessible technology.</p>
+                  </div>
+                </div>
+                <div className="interview-image">
+                  <img src={InterviewFigure12} alt="Interview with Professor Zheng Huaixin" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.13 Interview on the Clinical Significance of Exosome-Based Breast Cancer Screening */}
+        <section id="interview-lu-youyong" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.13 Interview on the Clinical Significance of Exosome-Based Breast Cancer Screening</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card">
+                <div className="interview-image">
+                  <img src={InterviewFigure13} alt="A photo with Professor Lü Youyong" />
+                </div>
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Lü Youyong</div>
+                    <p className="affiliation">Professor at Peking University Cancer Hospital, primarily researching tumor molecular biology, early cancer diagnosis, and personalized therapy</p>
+                    <p className="details">Expert Interview | Figure 14</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Affirmed the important clinical significance of exosome-targeted liquid biopsy for early breast cancer screening.</p>
+                    <p>Considered the CD63 aptamer-magnetic bead method an efficient and gentle enrichment technique that well preserves exosomal bioactivity.</p>
+                    <p>Emphasized that the core of future work is to validate the efficacy in large clinical cohorts and explore its combination with existing screening methods.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.14 Interview with Breast Surgeons */}
+        <section id="interview-zhang-yanwu" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.14 Interview with Breast Surgeons</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card reverse">
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Zhang Yanwu</div>
+                    <p className="affiliation">Associate Chief Physician at the Breast Disease Center of the Third Affiliated Hospital of Zhengzhou University</p>
+                    <p className="details">Breast Surgeons | Figure 15</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Interview deepened understanding of breast cancer and emphasized early screening's importance.</p>
+                    <p>Doctor endorsed project's potential and advised on sample quality, clinical collaboration, and ethics.</p>
+                    <p>Feedback will guide project optimization for clinical application in early diagnosis and prevention.</p>
+                  </div>
+                </div>
+                <div className="interview-image">
+                  <img src={InterviewFigure14} alt="Interview with Dr. Zhang Yanwu" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.15 Interview with Laboratory Doctors */}
+        <section id="interview-sun-li" className="view-section">
+          <div className="view-section-content">
+            <div className="content-section-header">
+              <div className="h2">4.15 Interview with Laboratory Doctors</div>
+            </div>
+            <div className="content-body">
+              <div className="interview-card">
+                <div className="interview-image">
+                  <img src={InterviewFigure15} alt="Interview with Dr. Sun Li" />
+                </div>
+                <div className="interview-content">
+                  <div className="interview-info">
+                    <div className="h3">Sun Li</div>
+                    <p className="affiliation">Engaged in clinical laboratory work and responsible for teaching the basics of clinical laboratory science and clinical hematology in the Department of Medical Laboratory Science at Zhengzhou University</p>
+                    <p className="details">Laboratory Doctors | Figure 16</p>
+                  </div>
+                  <div className="interview-summary">
+                    <p>Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.</p>
+                    <p>Key improvements needed: standardized sample processing, automated adaptation, cost control, and technical reproducibility.</p>
+                    <p>Next steps: refine protocols, enhance lab collaboration, and ensure the method becomes operable and scalable for practical clinical adoption.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 4.16 Interview with Public Representative */}
         <section id="interview-public-representative" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.6 Interview with Public Representative</div>
+              <div className="h2">4.16 Interview with Public Representative</div>
             </div>
             <div className="content-body">
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">XX</div>
-                    <p className="affiliation">Community Health Service Center</p>
-                    <p className="details">Area: Community | Date: August 11, 2025</p>
+                    <div className="h3">A member of the public</div>
+                    <p className="affiliation">Community Representative</p>
+                    <p className="details">Public Representative | Figure 17</p>
                   </div>
                   <div className="interview-summary">
-                    <p>1 Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.</p>
-                    <p>2 Non-invasive blood tests are preferred for convenience but require improved accuracy and cost-effectiveness.</p>
-                    <p>3 Effective science communication should emphasize quantitative benefits of early screening and provide actionable guidance to boost participation.</p>
+                    <p>Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.</p>
+                    <p>Non-invasive blood tests are preferred for convenience but require improved accuracy and cost-effectiveness.</p>
+                    <p>Effective science communication should emphasize quantitative benefits of early screening and provide actionable guidance to boost participation.</p>
                   </div>
                 </div>
                 <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👥</span>
-                  </div>
+                  <img src={InterviewFigure16} alt="Public Interview" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 4.7 Interview with Public Health Expert */}
-        <section id="interview-public-health-expert" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.7 Interview with Public Health Expert</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👨‍🔬</span>
-                  </div>
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Professor XX</div>
-                    <p className="affiliation">Municipal Center for Disease Control and Prevention</p>
-                    <p className="details">Area: Public Health | Date: August 12, 2025</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>1 Exosome technology enhances screening access and compliance but requires support in cost control, quality assurance, and simplified reporting.</p>
-                    <p>2 Priority application scenarios include high-risk groups and community-based preliminary screening.</p>
-                    <p>3 Real-world data should validate its long-term impact on reducing late-stage diagnoses, advancing health equity through accessible technology.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.8 Interviews with Breast Cancer Patients and Their Families */}
-        <section id="interview-patients-families" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.8 Interviews with Breast Cancer Patients and Their Families</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Patients & Families</div>
-                    <p className="affiliation">XX Hospital</p>
-                    <p className="details">Area: Patient Care | Date: August 17, 2025</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>1 Patients emphasized the need for convenient, non-invasive early screening and expressed cautious interest in exosome technology, pending improved accuracy and cost.</p>
-                    <p>2 Treatment priorities included reduced side effects, precision therapy, lower costs, and better insurance coverage.</p>
-                    <p>3 Recovery relied on active rehabilitation, nutrition, and mental health support, highlighting patient-centered insights for improving care.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <div className="placeholder-image">
-                    <span>👨‍🔬</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
     {/* 5 */}
@@ -1928,7 +2165,94 @@ function IHP() {
     {
       id: 'interview',
       title: 'Interview',
-      icon: '🎤'
+      icon: '🎤',
+      subMenus: [
+        {
+          id: 'interview-exosomes-magnetic-beads',
+          title: '4.1 Exosomes and Magnetic Beads',
+          icon: '🧲'
+        },
+        {
+          id: 'interview-target-proteins',
+          title: '4.2 Four Target Proteins',
+          icon: '🎯'
+        },
+        {
+          id: 'interview-cd63-aptamers',
+          title: '4.3 CD63 Aptamers',
+          icon: '🧬'
+        },
+        {
+          id: 'interview-breast-cancer-cell-lines',
+          title: '4.4 Breast Cancer Cell Lines',
+          icon: '🔬'
+        },
+        {
+          id: 'interview-hcr-signal-amplification',
+          title: '4.5 HCR Signal Amplification',
+          icon: '📡'
+        },
+        {
+          id: 'interview-rca-method',
+          title: '4.6 RCA Method Module',
+          icon: '🔄'
+        },
+        {
+          id: 'interview-cas14-enzyme',
+          title: '4.7 Cas14 Enzyme',
+          icon: '✂️'
+        },
+        {
+          id: 'interview-thomas-sudhof',
+          title: '4.8 Thomas Südhof',
+          icon: '🏆'
+        },
+        {
+          id: 'interview-craig-mello',
+          title: '4.9 Craig C. Mello',
+          icon: '🏆'
+        },
+        {
+          id: 'interview-yu-baofa',
+          title: '4.10 Clinical Translation',
+          icon: '🏥'
+        },
+        {
+          id: 'interview-lei-ming',
+          title: '4.11 Commercial Viability',
+          icon: '💼'
+        },
+        {
+          id: 'interview-zheng-huaixin',
+          title: '4.12 Humanities and Ethics',
+          icon: '⚖️'
+        },
+        {
+          id: 'interview-lu-youyong',
+          title: '4.13 Clinical Significance',
+          icon: '🩺'
+        },
+        {
+          id: 'interview-zhang-yanwu',
+          title: '4.14 Breast Surgeons',
+          icon: '👩‍⚕️'
+        },
+        {
+          id: 'interview-sun-li',
+          title: '4.15 Laboratory Doctors',
+          icon: '🧪'
+        },
+        {
+          id: 'interview-public-representative',
+          title: '4.16 Public Representative',
+          icon: '👥'
+        },
+        {
+          id: 'interview-patients-families',
+          title: '4.17 Patients & Families',
+          icon: '❤️'
+        }
+      ]
     },
     {
       id: 'integrated-report',

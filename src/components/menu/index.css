@@ -1,0 +1,29 @@
+/* 菜单图标组件样式 */
+.menu-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  .menu-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+  }
+  
+  .menu-icon.hover {
+    opacity: 0;
+  }
+  
+  /* 当父元素hover时切换图标 */
+  .menu-title:hover .menu-icon.default {
+    opacity: 0;
+  }
+  
+  .menu-title:hover .menu-icon.hover {
+    opacity: 1;
+  }

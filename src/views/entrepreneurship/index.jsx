@@ -3,12 +3,14 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+import menuLogo from '../../assets/menulogo.png';
 
-import descriptionFigure1 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure1.png';
-import descriptionFigure2 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure2.png';
-import descriptionFigure3 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure3.png';
-import descriptionFigure4 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure4.png';
+import descriptionFigure1 from '../../assets/images/entrepreneurship/entrepreneurshipFigure1.png';
+import descriptionFigure2 from '../../assets/images/entrepreneurship/entrepreneurshipFigure2.png';
+import descriptionFigure3 from '../../assets/images/entrepreneurship/entrepreneurshipFigure3.png';
+import descriptionFigure4 from '../../assets/images/entrepreneurship/entrepreneurshipFigure4.png';
+
+import developmentPlanPdf from '../../assets/images/entrepreneurship/developmentPlan.pdf';
 
 // 组件定义
 const MainContent = () => (
@@ -1103,6 +1105,17 @@ const MainContent = () => (
         <p>
           Through this <span>development roadmap</span>, we are committed not only to building a <span>molecular diagnostic platform</span> with <span>independent intellectual property</span>, <span>international competitiveness</span>, and <span>sustainable growth potential</span>, but also to promoting <span>early screening</span> of <span>major chronic diseases</span> like <span>breast cancer</span> through "<span>technology localization + affordable pricing</span>," reducing <span>burdens</span> on <span>public health systems</span> and providing <span>earlier</span>, <span>more accurate</span>, and <span>reassuring detection solutions</span> for <span>patients worldwide</span>.
         </p>
+
+
+        {/* PDF插入位置 */}
+        <div className="figure-container">
+                <object
+                  data={developmentPlanPdf}
+                  type="application/pdf"
+                  width="100%"
+                  height="600px"
+                />
+            </div>
       </div>
     </div>
 

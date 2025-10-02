@@ -3,38 +3,38 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
+import menuLogo from '../../assets/menulogo.png';
 
-import overview from 'https://static.igem.wiki/teams/5822/newassets/collaborations/overview.png';
-import figure1 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure1.png';
-import figure2 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure2.png';
-import figure3 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure3.png';
-import figure4 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure4.png';
-import figure5 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure5.png';
-import figure6 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure6.png';
-import figure7 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure7.png';
-import figure8 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure8.png';
-import figure9 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure9.png';
-import figure10 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure10.png';
-import figure11 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure11.png';
-import figure12 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure12.png';
-import figure13 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure13.png';
-import figure14 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure14.png';
+import overview from '../../assets/images/collaborations/overview.png';
+import figure1 from '../../assets/images/collaborations/figure1.png';
+import figure2 from '../../assets/images/collaborations/figure2.png';
+import figure3 from '../../assets/images/collaborations/figure3.png';
+import figure4 from '../../assets/images/collaborations/figure4.png';
+import figure5 from '../../assets/images/collaborations/figure5.png';
+import figure6 from '../../assets/images/collaborations/figure6.png';
+import figure7 from '../../assets/images/collaborations/figure7.png';
+import figure8 from '../../assets/images/collaborations/figure8.png';
+import figure9 from '../../assets/images/collaborations/figure9.png';
+import figure10 from '../../assets/images/collaborations/figure10.png';
+import figure11 from '../../assets/images/collaborations/figure11.png';
+import figure12 from '../../assets/images/collaborations/figure12.png';
+import figure13 from '../../assets/images/collaborations/figure13.png';
+import figure14 from '../../assets/images/collaborations/figure14.png';
 
-import figure16 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure16.png';
-import figure17 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure17.png';
-import figure18 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure18.png';
-import figure19 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure19.png';
-import figure20 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure20.png';
-import figure21 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure21.png';
-import figure22 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure22.png';
-import figure23 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure23.png';
-import figure24 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure24.png';
-import figure25 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure25.png';
-import figure26 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure26.png';
-import figure27 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure27.png';
-import figure28 from 'https://static.igem.wiki/teams/5822/newassets/collaborations/figure28.png';
-// import videoFile from '../../assets/images/collaborations/video.mp4';
+import figure16 from '../../assets/images/collaborations/figure16.png';
+import figure17 from '../../assets/images/collaborations/figure17.png';
+import figure18 from '../../assets/images/collaborations/figure18.png';
+import figure19 from '../../assets/images/collaborations/figure19.png';
+import figure20 from '../../assets/images/collaborations/figure20.png';
+import figure21 from '../../assets/images/collaborations/figure21.png';
+import figure22 from '../../assets/images/collaborations/figure22.png';
+import figure23 from '../../assets/images/collaborations/figure23.png';
+import figure24 from '../../assets/images/collaborations/figure24.png';
+import figure25 from '../../assets/images/collaborations/figure25.png';
+import figure26 from '../../assets/images/collaborations/figure26.png';
+import figure27 from '../../assets/images/collaborations/figure27.png';
+import figure28 from '../../assets/images/collaborations/figure28.png';
+import videoFile from '../../assets/images/collaborations/video.mp4';
 
 
 // 组件定义 1

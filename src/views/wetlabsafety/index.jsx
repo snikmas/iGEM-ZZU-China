@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
-import safetyPdf from 'https://static.igem.wiki/teams/5822/newassets/files/safetypdf.pdff';
-import safetyFigure1 from 'https://static.igem.wiki/teams/5822/newassets/wetlabsafety/safety.webp';
+import menuLogo from '../../assets/menulogo.png';
+import safetyPdf from '../../assets/images/wetlabsafety/safetyPdf.pdf';
+import safetyFigure1 from '../../assets/images/wetlabsafety/safety.webp';
 
 // 组件定义
 const MainContent = () => (

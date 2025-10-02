@@ -3,13 +3,13 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+import menuLogo from '../../assets/menulogo.png';
 
-import contributionFigure from 'https://static.igem.wiki/teams/5822/newassets/contribution/contribution.webp';
-import figure1 from 'https://static.igem.wiki/teams/5822/newassets/contribution/figure1.webp'
-import figure2 from 'https://static.igem.wiki/teams/5822/newassets/contribution/figure2.webp'
-import figure3 from 'https://static.igem.wiki/teams/5822/newassets/contribution/figure3.webp'
-import figure4 from 'https://static.igem.wiki/teams/5822/newassets/contribution/figure4.webp'
+import contributionFigure from '../../assets/images/contribution/contribution.png';
+import figure1 from '../../assets/images/contribution/figure1.png'
+import figure2 from '../../assets/images/contribution/figure2.png'
+import figure3 from '../../assets/images/contribution/figure3.png'
+import figure4 from '../../assets/images/contribution/figure4.png'
 import ImageGallery from '../../components/imagegallery';
 
 

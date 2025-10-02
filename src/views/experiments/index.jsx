@@ -2,45 +2,46 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+import menuLogo from '../../assets/menulogo.png';
 import { DownloadOutlined } from '@ant-design/icons';
 
 // 导入PDF文件 - 按照提供的路径结构
 // APT-CRISPR
-// APT-CRISPR
-import APTRCACRISPRPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-apt-rca-crispr.pdf';
-import ComplementaryChainPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-complementary-chain-screening.pdf';
-import CRISPRCellSuspensionPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-fluorescence-detection-in-cell-suspension-samples.pdf';
-import CRISPRSensitivityPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-fluorescence-sensitivity-specificity-valuation.pdf';
-import CRISPRHCRDetectionPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-hcr-fluorescence-detection.pdf';
-import CRISPRHCRSensitivityPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-hcr-fluorescence-sensitivity-specificity-valuation.pdf';
-import DisplacementOptimizationPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-reaction-time-and-temperature-for-displacement-reactions.pdf';
+import APTRCACRISPRPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab APT-RCA-CRISPR.pdf';
+import ComplementaryChainPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab Complementary chain screening.pdf';
+import CRISPRCellSuspensionPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Detection in Cell Suspension Samples.pdf';
+import CRISPRSensitivityPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Sensitivity & Specificity Valuation.pdf';
+import CRISPRHCRDetectionPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Detection.pdf';
+import CRISPRHCRSensitivityPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity Valuation.pdf';
+import DisplacementOptimizationPDF from '../../assets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab Optimization of reaction time and temperature for displacement reactions.pdf';
 
 // Cas14a
-import EnzymeActivityPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-enzyme-activity-assay.pdf';
-import PlasmidConstructionPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-plasmid-construction.pdf';
-import PlasmidExtractionPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-plasmid-extraction.pdf';
-import ProteinExpressionPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-protein-expression.pdf';
-import ProteinPurificationPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-protein-purification.pdf';
-import ProteinQuantificationPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-protein-quantification.pdf';
-import SDSPagePDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-sds-page.pdf';
-import TransformationPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-transformation.pdf';
+import EnzymeActivityPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Lab Enzyme activity assay.pdf';
+import PlasmidConstructionPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Lab Plasmid Construction.pdf';
+import PlasmidExtractionPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Lab Plasmid extraction.pdf';
+import ProteinExpressionPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Protein Expression.pdf';
+import ProteinPurificationPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Protein Purification.pdf';
+import ProteinQuantificationPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Protein Quantification.pdf';
+import SDSPagePDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet SDS PAGE.pdf';
+import TransformationPDF from '../../assets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Transformation.pdf';
 
 // Extracellular
-import BCAProteinPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-bca-protein-quantification.pdf';
-import ElectronMicroscopyPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-electron-microscopy-detection.pdf';
-import EVCapturePDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-extracellular-vesicle-capture.pdf';
-import WBPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-wb.pdf';
+import BCAProteinPDF from '../../assets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab BCA protein quantification.pdf';
+import ElectronMicroscopyPDF from '../../assets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab Electron microscopy detection .pdf';
+import EVCapturePDF from '../../assets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab Extracellular vesicle capture.pdf';
+import WBPDF from '../../assets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab WB.pdf';
 
 // HCR
-import HCRAmplificationPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-determination-of-hcr-amplification-fold.pdf';
-import HCRFinalPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-hcr-final-protocol.pdf';
-import HCROptimizationConcPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-hcr-reaction-concentration.pdf';
-import HCROptimizationTempPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-hcr-reaction-temperature.pdf';
-import HCROptimizationTimePDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-hcr-reaction-time.pdf';
+import HCRAmplificationPDF from '../../assets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Determination of HCR Amplification Fold.pdf';
+import HCRFinalPDF from '../../assets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab HCR final protocol.pdf';
+import HCROptimizationConcPDF from '../../assets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction concentration.pdf';
+import HCROptimizationTempPDF from '../../assets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction temperature.pdf';
+import HCROptimizationTimePDF from '../../assets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction time.pdf';
 
 // RCA
-import RCAPDF from 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-rca.pdf';
+import RCAPDF from '../../assets/images/experiments/RCA/iGEM ZZU-China 2025 Wet Lab RCA .pdf';
+
+
 
 
 
@@ -73,7 +74,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Extracellular vesicle capture
+                  iGEM ZZU-China 2025 Wet Lab Extracellular vesicle capture
                   <a href={EVCapturePDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -96,7 +97,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-BCA protein quantification
+                  iGEM ZZU-China 2025 Wet Lab BCA protein quantification
                   <a href={BCAProteinPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -119,7 +120,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-WB
+                  iGEM ZZU-China 2025 Wet Lab WB
                   <a href={WBPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -142,7 +143,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Electron microscopy detection
+                  iGEM ZZU-China 2025 Wet Lab Electron microscopy detection
                   <a href={ElectronMicroscopyPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -363,7 +364,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Optimization of HCR reaction temperature
+                  iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction temperature
                   <a href={HCROptimizationTempPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -386,7 +387,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Optimization of HCR reaction time
+                  iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction time
                   <a href={HCROptimizationTimePDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -409,7 +410,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Optimization of HCR reaction concentration
+                  iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction concentration
                   <a href={HCROptimizationConcPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -432,7 +433,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Determination of HCR Amplification Fold
+                  iGEM ZZU-China 2025 Wet Lab Determination of HCR Amplification Fold
                   <a href={HCRAmplificationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -455,7 +456,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-HCR final protocol
+                  iGEM ZZU-China 2025 Wet Lab HCR final protocol
                   <a href={HCRFinalPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -485,7 +486,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-RCA
+                  iGEM ZZU-China 2025 Wet Lab RCA
                   <a href={RCAPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -515,7 +516,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Complementary chain screening
+                  iGEM ZZU-China 2025 Wet Lab Complementary chain screening
                   <a href={ComplementaryChainPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -538,7 +539,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-Optimization of reaction time and temperature for displacement reactions
+                  iGEM ZZU-China 2025 Wet Lab Optimization of reaction time and temperature for displacement reactions
                   <a href={DisplacementOptimizationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -561,7 +562,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-CRISPR-Cas12a Fluorescence Sensitivity & Specificity Valuation
+                  iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Sensitivity & Specificity Valuation
                   <a href={CRISPRSensitivityPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -584,7 +585,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-CRISPR-Cas12a Fluorescence Detection in Cell Suspension Samples
+                  iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Detection in Cell Suspension Samples
                   <a href={CRISPRCellSuspensionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -607,7 +608,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity Valuation
+                  iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity Valuation
                   <a href={CRISPRHCRSensitivityPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -630,7 +631,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-CRISPR-Cas12a-HCR Fluorescence Detection
+                  iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Detection
                   <a href={CRISPRHCRDetectionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -653,7 +654,7 @@ const MainContent = () => (
               
               <div className="protocol-content">
                 <div className="protocol-title">
-                  igem-zzu-china-2025-wet-lab-APT-RCA-CRISPR-Cas14a
+                  iGEM ZZU-China 2025 Wet Lab APT-RCA-CRISPR-Cas14a
                   <a href={APTRCACRISPRPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)

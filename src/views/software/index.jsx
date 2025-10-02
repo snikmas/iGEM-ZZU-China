@@ -3,11 +3,11 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+import menuLogo from '../../assets/menulogo.png';
 
-import Figure1 from 'https://static.igem.wiki/teams/5822/newassets/software/figure1.png';
-import Figure2 from 'https://static.igem.wiki/teams/5822/newassets/software/figure2.png';
-import softwarePdf from 'https://static.igem.wiki/teams/5822/newassets/software/software.pdf';
+import Figure1 from '../../assets/images/software/figure1.png';
+import Figure2 from '../../assets/images/software/figure2.png';
+import softwarePdf from '../../assets/images/software/software.pdf';
 
 // 组件定义 1
 const MainContent = () => (
