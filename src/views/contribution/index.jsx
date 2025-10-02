@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
+
+
 import ImageGallery from '../../components/imagegallery';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';

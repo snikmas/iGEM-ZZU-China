@@ -867,7 +867,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure10} alt="Group photo with Professor Yu Baofa" />
+                  <img src={InterviewFigure10} alt="Professor Yu Baofa" />
                 </div>
               </div>
             </div>
@@ -883,7 +883,7 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure11} alt="A photo with Professor Lei Ming" />
+                  <img src={InterviewFigure11} alt="Professor Lei Ming" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
@@ -923,7 +923,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure12} alt="Interview with Professor Zheng Huaixin" />
+                  <img src={InterviewFigure12} alt="Professor Zheng Huaixin" />
                 </div>
               </div>
             </div>

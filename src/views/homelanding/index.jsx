@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 // 在文件顶部添加导入
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import { WechatOutlined, YoutubeOutlined, GoogleCircleFilled, TwitterCircleFilled } from '@ant-design/icons';
+import {  YoutubeOutlined } from '@ant-design/icons';
 
 const logo = 'https://static.igem.wiki/teams/5822/newassets/images/headerlogo.webp';
 const section2bg = 'https://static.igem.wiki/teams/5822/newassets/images/home/section2bg.webp';

@@ -3,10 +3,6 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-// 在文件顶部添加导入
-import Menu from '../../components/menu';
-
-// ... exi
 // 相册组件
 import ImageGallery from '../../components/imagegallery';
 
