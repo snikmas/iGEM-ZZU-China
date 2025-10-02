@@ -6,6 +6,7 @@ import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
 
 import menuLogo from '../../assets/menulogo.png';
+import overview from '../../assets/images/education/overview.png';
 // Primary Education Images (1-17)
 import Primary_1 from '../../assets/images/education/Primary_1.png';
 import Primary_2 from '../../assets/images/education/Primary_2.png';
@@ -48,11 +49,19 @@ import university_7 from '../../assets/images/education/university_7.png';
 import university_8 from '../../assets/images/education/university_8.png';
 import university_9 from '../../assets/images/education/university_9.png';
 import university_10 from '../../assets/images/education/university_10.png';
+import university_11 from '../../assets/images/education/university_11.png';
+import university_12 from '../../assets/images/education/university_12.png';
+import university_13 from '../../assets/images/education/university_13.png';
+
+
 
 import community_1 from '../../assets/images/education/community_1.png';
 import community_2 from '../../assets/images/education/community_2.png';
 import community_3 from '../../assets/images/education/community_3.png';
 import community_4 from '../../assets/images/education/community_4.png';
+import community_5 from '../../assets/images/education/community_5.png';
+import community_6 from '../../assets/images/education/community_6.png';
+import community_7 from '../../assets/images/education/community_7.png';
 
 import professional_1 from '../../assets/images/education/professional_1.png';
 import professional_2 from '../../assets/images/education/professional_2.png';
@@ -67,7 +76,9 @@ import online_1 from '../../assets/images/education/online_1.png';
 import online_2 from '../../assets/images/education/online_2.png';
 
 
-
+import PrimaryEducationPDF from '../../assets/images/education/PrimaryEducation.pdf';
+import StrawberryDNAExtractionWorkshopPDF from '../../assets/images/education/StrawberryDNAExtractionWorkshop.pdf';
+import UniversityEducationPDF from '../../assets/images/education/UniversityEducation.pdf';
 
 
 // Main education figure
@@ -113,6 +124,11 @@ const MainContent = () => (
         <p>
           Through these efforts, we hope to build a <span>culture</span> where <span>breast health</span> is openly discussed, <span>early screening</span> is normalized, and <span>science</span> truly serves <span>society</span>. Just as the <span>pink ribbon</span> symbolizes <span>care</span> and <span>resilience</span>, our <span>education activities</span> carry the hope of spreading <span>awareness</span>, <span>knowledge</span>, and <span>empowerment</span>—step by step, person by person.
         </p>
+        <div className="figure-container">
+          <div className="figure-item">
+            <img src={overview} alt="Education - Knowledge & Healing" className="figure-image" />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -130,6 +146,19 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <p>For younger students, science education should go beyond textbooks and transform into vivid, tangible experiences. Our team designed a series of outreach programs that allowed children to encounter the wonders of biology firsthand, turning abstract knowledge into exciting discoveries.</p>
+
+            <object
+              data={PrimaryEducationPDF}
+              type="application/pdf"
+              width="100%"
+              height="600px"
+              className="pdf-object"
+              style={{
+                border: 'none',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }}
+            />
 
             <div className="h4">Strawberry DNA Extraction Workshop</div>
             <p>On May 30, 2025, we visited Zhengzhou University Experimental Primary School and carried out a hands-on DNA extraction experiment with fifth-grade students. The goal was to let children not only hear about DNA but actually see it with their own eyes, planting the first seeds of scientific exploration. Divided into nine groups, the students followed step-by-step instructions: mashing strawberries, adding salt and detergent to break cell walls, filtering the mixture, and finally adding chilled alcohol to precipitate DNA.</p>
@@ -161,6 +190,19 @@ const MainContent = () => (
                   alt: "Strawberry DNA Extraction Workshop"
                 }
               ]}
+            />
+
+            <object
+              data={StrawberryDNAExtractionWorkshopPDF}
+              type="application/pdf"
+              width="100%"
+              height="600px"
+              className="pdf-object"
+              style={{
+                border: 'none',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }}
             />
 
             <div className="h4">DNA Science Workshop</div>
@@ -251,7 +293,6 @@ const MainContent = () => (
             <p>By combining storytelling with hands-on practice, the "Science Courier" model not only conveyed the logic of plasmid extraction but also lowered cognitive barriers, helping students experience the excitement of life science in a way that was both accessible and inspiring.</p>
 
             <ImageGallery
-              title="Plasmid Extraction Experiment"
               images={[
                 {
                   src: Middle_1,
@@ -287,7 +328,6 @@ const MainContent = () => (
             <p>Feedback was overwhelmingly positive. One student said, "It didn't feel like a lecture at all — it felt like talking to older siblings who had already walked the path we're about to take." Teachers praised the practical, relatable guidance. For our team, the event revealed students' genuine interests and knowledge gaps, helping tailor future outreach. Most importantly, it broke down barriers between "scientists" and students, inspiring them to see themselves as future innovators.</p>
 
             <ImageGallery
-              title="iGEM Buffet – Breaking Barriers Between Students and Science"
               images={[
                 {
                   src: high_1,
@@ -332,13 +372,25 @@ const MainContent = () => (
           <div className="content-body">
             <p>At the university level, our education efforts aim to foster critical thinking, interdisciplinary understanding, and active engagement with breast health and synthetic biology. We designed interactive and immersive experiences to go beyond traditional lectures, allowing students to explore medical knowledge, research principles, and ethical considerations in a participatory manner.</p>
 
+
+            <object
+              data={UniversityEducationPDF}
+              type="application/pdf"
+              width="100%"
+              height="600px"
+              className="pdf-object"
+              style={{
+                border: 'none',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }}
+            />
             <div className="h3">Medical Turtle Soup</div>
             <p>We introduced students to the evolution of cancer treatment through a suspenseful narrative called "Medical Turtle Soup." The activity encouraged students to reflect on medical logic, technological limits, and ethical dilemmas. A sci-fi story with elements like a "blue agent" and "nanomachines" sparked group discussions and bold hypotheses.</p>
             <p>As the story unfolded, we connected the puzzle to real science, mapping treatments from surgery, radiotherapy, and chemotherapy to targeted therapy, immunotherapy, CAR-T, and proton/heavy-ion therapy. Students engaged actively, asking about efficacy and ethics. One remarked, "I never thought learning cancer treatment could feel like solving a mystery—it makes learning exciting."</p>
             <p>This narrative approach proved effective in motivating self-directed learning. Teachers praised its creativity, and students' divergent thinking offered valuable insight for future science communication.</p>
 
             <ImageGallery
-              title="Medical Turtle Soup"
               images={[
                 {
                   src: university_1,
@@ -357,7 +409,6 @@ const MainContent = () => (
             <p>Teachers commended the event for merging rigor with cultural context, fostering both knowledge and empathy.</p>
 
             <ImageGallery
-              title="Knowledge Arena"
               images={[
                 {
                   src: university_3,
@@ -385,7 +436,6 @@ const MainContent = () => (
             <p>The event not only raised awareness of breast health but also provided feedback to refine future outreach, reinforcing the value of combining science, interaction, and humanistic context.</p>
 
             <ImageGallery
-              title="Women's Day Outreach Event"
               images={[
                 {
                   src: university_7,
@@ -401,6 +451,18 @@ const MainContent = () => (
                 },
                 {
                   src: university_10,
+                  alt: "Women's Day Outreach Event"
+                },
+                {
+                  src: university_11,
+                  alt: "Women's Day Outreach Event"
+                },
+                {
+                  src: university_12,
+                  alt: "Women's Day Outreach Event"
+                },
+                {
+                  src: university_13,
                   alt: "Women's Day Outreach Event"
                 }
               ]}
@@ -419,7 +481,7 @@ const MainContent = () => (
       <section id="march-8-public-welfare-campaign" className="education-section">
         <div className="education-section-content">
           <div className="content-section-header">
-            <div className="h2">“March 8” Public Welfare Campaign — Safeguarding Women’s Health</div>
+            <div className="h3">“March 8” Public Welfare Campaign — Safeguarding Women’s Health</div>
           </div>
           <div className="content-body">
             <p>
@@ -442,7 +504,6 @@ const MainContent = () => (
               team, it was both valuable practice and motivation to continue serving women's health through science.
             </p>
             <ImageGallery
-              title="“March 8” Public Welfare Campaign — Safeguarding Women’s Health"
               images={[
                 {
                   src: community_1,
@@ -458,6 +519,18 @@ const MainContent = () => (
                 },
                 {
                   src: community_4,
+                  alt: "“March 8” Public Welfare Campaign — Safeguarding Women’s Health"
+                },
+                {
+                  src: community_5,
+                  alt: "“March 8” Public Welfare Campaign — Safeguarding Women’s Health"
+                },
+                {
+                  src: community_6,
+                  alt: "“March 8” Public Welfare Campaign — Safeguarding Women’s Health"
+                },
+                {
+                  src: community_7,
                   alt: "“March 8” Public Welfare Campaign — Safeguarding Women’s Health"
                 }
               ]}
@@ -496,7 +569,6 @@ const MainContent = () => (
           accuracy, reliability, and empathy in our outreach.
         </p>
         <ImageGallery
-          title="Professional Education: Bridging Science and Medicine"
           images={[
             {
               src: professional_1,
@@ -559,8 +631,9 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
-              <img src={online_1} alt="WeChat Public Account" className="figure-image" />
-              <div className='h4'>WeChat Public Account</div>
+              <div className="figure-item">
+                <img src={online_1} alt="WeChat Public Account" className="figure-image" />
+                <div className='h4'>WeChat Public Account</div></div>
             </div>
           </div>
         </div>
@@ -584,8 +657,11 @@ const MainContent = () => (
               learning through demonstration rather than text-based materials.
             </p>
             <div className="figure-container">
-              <img src={online_2} alt="Short Videos and Social Media" className="figure-image" />
-              <div className='h4'>Short Videos and Social Media</div>
+              <img
+                style={{
+                  boxShadow: 'none'
+                }}
+                src={online_2} alt="Short Videos and Social Media" className="figure-image" />
             </div>
           </div>
         </div>

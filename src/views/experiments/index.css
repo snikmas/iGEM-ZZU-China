@@ -1,0 +1,150 @@
+/* Experiments页面样式 - 优化视觉效果 */
+
+/* 协议项目样式 - 更美观的设计 */
+.protocol-item {
+    display: flex;
+    margin-bottom: 24px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #69393e;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .protocol-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(105, 57, 62, 0.1));
+    transition: left 0.5s ease;
+  }
+  
+  .protocol-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-left-color: #530c16;
+  }
+  
+  .protocol-item:hover::before {
+    left: 100%;
+  }
+  
+  .protocol-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #69393e;
+    margin-right: 20px;
+    min-width: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 4px;
+    background: rgba(105, 57, 62, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .protocol-content {
+    flex: 1;
+  }
+  
+  .protocol-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #530c16;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  /* 下载链接样式 - 更美观的按钮 */
+  .download-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #69393e;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid #69393e;
+    border-radius: 20px;
+    background: rgba(105, 57, 62, 0.05);
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .download-link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(105, 57, 62, 0.1), transparent);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .download-link:hover {
+    background: #69393e;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(105, 57, 62, 0.3);
+  }
+  
+  .download-link:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .download-icon {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+  }
+  
+  .download-link:hover .download-icon {
+    transform: translateY(-2px);
+  }
+  
+  .protocol-content p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 1.05rem;
+  }
+  
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .protocol-item {
+      flex-direction: column;
+      padding: 16px;
+    }
+    
+    .protocol-number {
+      margin-right: 0;
+      margin-bottom: 12px;
+      justify-content: flex-start;
+    }
+    
+    .protocol-title {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    
+    .download-link {
+      align-self: flex-start;
+    }
+  }

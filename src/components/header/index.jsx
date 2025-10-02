@@ -3,11 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import './index.css';
 import { AppstoreOutlined } from '@ant-design/icons';
 
-import bgImg6 from '../../assets/images/demo6.png';
-import bgImg7 from '../../assets/images/demo7.png';
-import bgImg3 from '../../assets/images/demo3.png';
-import bgImg4 from '../../assets/images/demo4.png';
-import bgImg5 from '../../assets/images/demo5.png';
 
 import headerLogo from '../../assets/images/headerlogo.png';
 
@@ -19,8 +14,7 @@ function Header() {
       icon: '',
       label: 'Home',
       element: '',
-      subMenu: [],
-      banner: bgImg6
+      subMenu: []
     },
     {
       key: '/team',
@@ -30,8 +24,7 @@ function Header() {
       subMenu: [
         { key: '/team/members', icon: '', label: 'Members', element: '' },
         { key: '/team/attributions', icon: '', label: 'Attributions', element: '' }
-      ],
-      banner: bgImg7
+      ]
     },
     {
       key: '/project',
@@ -43,8 +36,7 @@ function Header() {
         { key: '/project/engineering', icon: '', label: 'Engineering', element: '' },
         { key: '/project/contribution', icon: '', label: 'Contribution', element: '' },
         { key: '/project/development', icon: '', label: 'Development', element: '' }
-      ],
-      banner: bgImg3
+      ]
     },
     {
       key: '/wet-lab',
@@ -57,8 +49,7 @@ function Header() {
         { key: '/wet-lab/notebook', icon: '', label: 'Notebook', element: '' },
         { key: '/wet-lab/parts', icon: '', label: 'Parts', element: '' },
         { key: '/wet-lab/safety', icon: '', label: 'Safety', element: '' }
-      ],
-      banner: bgImg4
+      ]
     },
     {
       key: '/dry-lab',
@@ -68,16 +59,14 @@ function Header() {
       subMenu: [
         { key: '/dry-lab/model', icon: '', label: 'Model', element: '' },
         { key: '/dry-lab/software', icon: '', label: 'Software', element: '' }
-      ],
-      banner: bgImg5
+      ]
     },
     {
       key: '/education',
       icon: '',
       label: 'Education',
       element: '',
-      subMenu: [],
-      banner: bgImg6
+      subMenu: []
     },
     {
       key: '/human-practice',
@@ -88,8 +77,7 @@ function Header() {
         { key: '/human-practice/integrated-human-practices', icon: '', label: 'Integrated Human Practices', element: '' },
         { key: '/human-practice/entrepreneurship', icon: '', label: 'Entrepreneurship', element: '' },
         { key: '/human-practice/cooperation', icon: '', label: 'Collaborations', element: '' }
-      ],
-      banner: bgImg7
+      ]
     }
   ];
 
@@ -110,7 +98,7 @@ function Header() {
   const [appsOpen, setAppsOpen] = useState(false);
 
 
-  const current = routers.find(r => r.key === activeKey) || { subMenu: [], banner: bgImg6 };
+  const current = routers.find(r => r.key === activeKey) || { subMenu: [] };
 
   // 计算面板位置的函数
   const calculatePanelPosition = (event) => {
@@ -124,7 +112,7 @@ function Header() {
     <div className="home-header-wrapper">
       <div className="home-header">
         <div className="home-header-logo">
-        <img src={headerLogo} alt="Header Logo" />
+          <img src={headerLogo} alt="Header Logo" />
         </div>
 
         <div

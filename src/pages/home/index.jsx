@@ -15,7 +15,7 @@ import TeamAttributions from '../../views/teamattributions';
 import ProjectDescription from '../../views/projectdescription';
 import Contribution from '../../views/contribution';
 import Part from '../../views/part';
-
+import Experiments from '../../views/experiments';
 import WetLabSafety from '../../views/wetlabsafety';
 
 import Development from '../../views/development';
@@ -23,6 +23,9 @@ import IHP from '../../views/ihp';
 import Education from '../../views/education';
 import Cooperation from '../../views/cooperation';
 import Entrepreneurship from '../../views/entrepreneurship';
+import Notebook from '../../views/notebook';
+import Software from '../../views/software';
+
 
 
 const Team = () => <div style={{ color: '#000', fontSize: 20 }}>Team</div>;
@@ -36,15 +39,15 @@ const ProjectEngineering = () => <div style={{ color: '#000', fontSize: 20 }}>Pr
 // const Development = () => <div style={{ color: '#000', fontSize: 20 }}>Project - Development</div>;
 
 const WetLab = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab</div>;
-const WetLabExperiments = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Experiments</div>;
-const WetLabNotebook = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Notebook</div>;
+// const WetLabExperiments = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Experiments</div>;
+// const WetLabNotebook = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Notebook</div>;
 const WetLabParts = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Parts</div>;
 // const WetLabSafety = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Safety</div>;
 const WetLabResults = () => <div style={{ color: '#000', fontSize: 20 }}>Wet Lab - Results</div>;
 
 const DryLab = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab</div>;
 const DryLabModel = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Model</div>;
-const DryLabSoftware = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Software</div>;
+// const DryLabSoftware = () => <div style={{ color: '#000', fontSize: 20 }}>Dry Lab - Software</div>;
 
 // const Education = () => <div style={{ color: '#000', fontSize: 20 }}>Education</div>;
 
@@ -115,14 +118,14 @@ function Home() {
           <Route path="/project/contribution" element={<Contribution />} />
           <Route path="/project/development" element={<Development />} />
 
-          <Route path="/wet-lab/experiments" element={<WetLabExperiments />} />
-          <Route path="/wet-lab/notebook" element={<WetLabNotebook />} />
+          <Route path="/wet-lab/experiments" element={<Experiments />} />
+          <Route path="/wet-lab/notebook" element={<Notebook />} />
           <Route path="/wet-lab/parts" element={<Part />} />
           <Route path="/wet-lab/safety" element={<WetLabSafety />} />
           <Route path="/wet-lab/results" element={<WetLabResults />} />
 
           <Route path="/dry-lab/model" element={<DryLabModel />} />
-          <Route path="/dry-lab/software" element={<DryLabSoftware />} />
+          <Route path="/dry-lab/software" element={<Software />} />
 
           <Route path="/human-practice/integrated-human-practices" element={<IHP />} />
           <Route path="/human-practice/entrepreneurship" element={<Entrepreneurship />} />

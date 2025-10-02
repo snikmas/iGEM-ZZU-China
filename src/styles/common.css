@@ -145,7 +145,7 @@
 
 .content-section-header .h3 {
   padding: 10px 0;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 700;
 }
 
@@ -176,10 +176,9 @@
 }
 
 .content-body .h3 {
-  color: #530c16;
-  font-size: 1.4rem;
+  /* color: #530c16; */
+  font-size: 1.05rem;
   padding: 10px 0;
-  position: relative;
   font-weight: 700;
 }
 
@@ -782,6 +781,11 @@
 
 /* 图片 figure - 统一样式 */
 .figure-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   margin: 30px 0;
   padding: 20px;
   background: rgba(248, 249, 250, 0.8);
@@ -790,24 +794,24 @@
   text-align: center;
 }
 
+
 .figure-container h3 {
   color: #333;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.05rem;
   margin: 15px 0;
   text-align: center;
 }
 
 .figure-container .h4 {
   color: #333;
-  font-size: 1em;
+  font-size: 1.05rem;
   margin: 10px 0;
   text-align: center;
 }
 
 .figure-image {
-  width: 360px;
-  height: auto;
+  width: 100%; /* 使用百分比宽度 */
+  max-width: 460px; 
   margin: 15px auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);

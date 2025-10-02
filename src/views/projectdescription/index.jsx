@@ -10,8 +10,8 @@ import descriptionFigure2_1 from '../../assets/images/description/descriptionFig
 import descriptionFigure2_2 from '../../assets/images/description/descriptionFigure2_2.png';
 import descriptionFigure3_1 from '../../assets/images/description/descriptionFigure3_1.png';
 import descriptionFigure3_3 from '../../assets/images/description/descriptionFigure3_3.png';
+import descriptionFigure3_3_ from '../../assets/images/description/descriptionFigure3_3_.png';
 import descriptionFigure3_4 from '../../assets/images/description/descriptionFigure3_4.png';
-
 // 组件定义
 const MainContent = () => (
   <>
@@ -45,8 +45,10 @@ const MainContent = () => (
             </p>
             
             <div className="figure-container">
+              <div className="figure-item">
               <img src={descriptionFigure2_1} alt="Top 15 Causes of Cancer Death in Women Worldwide in 2022" className="figure-image" />
               <div className="h4">Figure 1. Top 15 Causes of Cancer Death in Women Worldwide in 2022</div>
+              </div>
             </div>
 
             <p>
@@ -68,9 +70,10 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
+              <div className="figure-item">
               <img src={descriptionFigure2_2} alt="Extracellular vesicles (EVs) as liquid biopsy tools and therapeutic vehicles in BC" className="figure-image" />
               <div className="h4">Figure 2. Extracellular vesicles (EVs) as liquid biopsy tools and therapeutic vehicles in BC[6]</div>
-            </div>
+            </div></div>
           </div>
         </div>
       </section>
@@ -111,9 +114,10 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
+            <div className="figure-item">
               <img src={descriptionFigure3_1} alt="Schematic diagram of magnetic bead method for capturing extracellular vesicles" className="figure-image" />
               <div className="h4">Figure 3. Schematic diagram of magnetic bead method for capturing extracellular vesicles</div>
-            </div>
+            </div></div>
           </div>
         </div>
       </section>
@@ -146,14 +150,18 @@ const MainContent = () => (
               <span className='text-strong'>HCR amplification</span>: The <span>complementary strand</span> released in the previous step is the <span>"trigger strand"</span>, which reacts with the pre designed <span>hairpin probes H1</span> and <span>H2</span> - the <span>trigger strand</span> breaks the <span>stem structure</span> of <span>H1</span>, and the <span>exposed H1 single strand</span> binds to <span>H2</span> and breaks its <span>stem</span> (with <span>complementary fragments</span> of <span>crRNA</span> on its <span>hairpin</span>), ultimately forming a <span>long DNA polymer</span> and <span>amplifying the fluorescence signal</span>;
             </p>
 
-            <div className="figure-container">
+            <div className="figure-container"><div className="figure-item">
               <img src={descriptionFigure3_3} alt="HCR reaction principle diagram" className="figure-image" />
               <div className="h4">Figure 4. HCR reaction principle diagram</div>
-            </div>
+              </div></div>
 
             <p>
               <span className='text-strong'>RCA amplification</span>: Design <span>circular probes</span> and <span>DNA polymerases</span> for <span>substitution reaction products</span>, initiate <span>rolling ring amplification reaction</span>, generate a <span>large number of DNA fragments</span> containing <span>repetitive sequences</span>, and further <span>enhance the signal</span>, which can effectively <span>capture low abundance target signals</span>.
             </p>
+            <div className="figure-container"><div className="figure-item">
+              <img src={descriptionFigure3_3_} alt="HCR reaction principle diagram" className="figure-image" />
+              <div className="h4">Figure 4. HCR reaction principle diagram</div>
+            </div></div>
           </div>
         </div>
       </section>
@@ -170,9 +178,10 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
+            <div className="figure-item">
               <img src={descriptionFigure3_4} alt="CRISPR/Cas molecular detection principle diagram" className="figure-image" />
               <div className="h4">Figure 5. CRISPR/Cas molecular detection principle diagram</div>
-            </div>
+            </div></div>
           </div>
         </div>
       </section>

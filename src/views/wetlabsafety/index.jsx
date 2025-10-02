@@ -13,7 +13,7 @@ const MainContent = () => (
     {/* 1 */}
     <div id="overview" className="view-content">
       <div className="content-header">
-        <div className="h1">Safety</div>
+        <div className="h1">Overview</div>
       </div>
       <div className="content-body">
         <p>
@@ -128,7 +128,9 @@ const MainContent = () => (
 
 
       <div className="figure-container">
+        <div className="figure-item">
         <img src={safetyFigure1} alt="Team-to-Team Technical Exchange" className="figure-image" />
+        <div className="h4">Figure1：Lab Safety</div></div>
       </div>
     </div>
 
@@ -180,17 +182,11 @@ const MainContent = () => (
             {/* PDF插入位置 */}
             <div className="figure-container">
                 <object
-                data={safetyPdf}
-                type="application/pdf"
-                width="100%"
-                height="600px"
-                className="pdf-object"
-                style={{ 
-                  border: 'none',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
-                }}
-              ></object>
+                  data={safetyPdf}
+                  type="application/pdf"
+                  width="100%"
+                  height="600px"
+                />
             </div>
           </div>
         </div>
@@ -337,7 +333,7 @@ function WetLabSafety() {
   const menuData = [
     {
       id: 'overview',
-      title: 'Safety',
+      title: 'Overview',
       icon: '🛡️'
     },
     {

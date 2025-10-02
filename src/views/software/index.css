@@ -1,0 +1,117 @@
+/* 表格容器样式 */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(83, 12, 22, 0.12);
+  }
+  
+  /* 表格基础样式 */
+  .data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* 表头样式 */
+  .data-table thead {
+    background: linear-gradient(135deg, #530c16 0%, #94444f 100%);
+    color: #fff;
+  }
+  
+  .data-table thead th {
+    padding: 18px 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border: none;
+    position: relative;
+  }
+  
+  .data-table thead th:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 60%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* 表格行样式 */
+  .data-table tbody tr {
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .data-table tbody tr:hover {
+    background: linear-gradient(135deg, #fef7f7 0%, #fdf2f2 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(83, 12, 22, 0.15);
+  }
+  
+  .data-table tbody tr:last-child {
+    border-bottom: none;
+  }
+  
+  /* 表格单元格样式 */
+  .data-table td {
+    padding: 16px 20px;
+    border: none;
+    color: #333;
+    vertical-align: top;
+  }
+  
+  /* 第一列样式（Module列） */
+  .data-table tbody tr td:first-child {
+    font-weight: 600;
+    color: #530c16;
+    background: linear-gradient(135deg, #fef7f7 0%, #fdf2f2 100%);
+    border-right: 3px solid #530c16;
+    min-width: 120px;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .data-table {
+      font-size: 12px;
+    }
+    
+    .data-table th,
+    .data-table td {
+      padding: 12px 16px;
+    }
+    
+    .data-table thead th {
+      font-size: 14px;
+    }
+    
+    .data-table tbody tr td:first-child {
+      min-width: 100px;
+    }
+  }
+  
+  /* 表格内强调文本样式 */
+  .data-table strong {
+    color: #530c16;
+    font-weight: 700;
+  }
+  
+  /* 表格内链接样式 */
+  .data-table a {
+    color: #530c16;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .data-table a:hover {
+    color: #8b1538;
+    text-decoration: underline;
+  }

@@ -89,7 +89,7 @@ const MainContent = () => (
               The <span>judgment criteria</span> are as follows:
             </p>
             <div className="table-container">
-              <table>
+            <table>
                 <thead>
                   <tr>
                     <th>Color Development of Test Strip</th>
@@ -101,12 +101,12 @@ const MainContent = () => (
                   <tr>
                     <td>Both T Line and C Line develop color</td>
                     <td>Positive (+)</td>
-                    <td>Breast cancer exosomes are present in the sample</td>
+                    <td>Breast cancer-related proteins in the sample are highly expressed</td>
                   </tr>
                   <tr>
                     <td>T Line does not develop color, while C Line develops color</td>
                     <td>Negative (-)</td>
-                    <td>No breast cancer exosomes are present in the sample; the detection system is normal</td>
+                    <td>Breast cancer-related proteins in the sample are normally expressed</td>
                   </tr>
                   <tr>
                     <td>Neither T Line nor C Line develops color</td>

@@ -49,7 +49,7 @@ function TeamMembers() {
         name: "San Dong",
         title: "Mentor",
         image: dongbinmentor,
-        content: "Hello everyone, I am Mentor, San Dong"
+        content: "Growing up and working in different parts of China, I have witnessed how science and technology can bring changes to local communities and inspire young minds. I have always been fascinated by the way research not only solves problems in the lab, but also connects people and ideas across cultures and disciplines. With a background in Biotechnology and years of teaching and guiding students, I am currently engaged in advancing applied research and education, with a strong interest in synthetic biology and its real-world impact. As a mentor for iGEM 2024, I look forward to supporting young teams, fostering collaboration, and encouraging innovative thinking that bridges knowledge with meaningful action."
       }
     ],
     'Instructors': [
@@ -74,10 +74,10 @@ function TeamMembers() {
         content: `Hello everyone, I'm Professor Zhenlong Wang. As a bioinformatics specialist with extensive experience in animal adaptation research and national-level projects, I'm excited to support your iGEM journey by providing genomic analysis guidance, animal model insights, and interdisciplinary research strategies - let's work together to bridge evolutionary biology with synthetic biology innovation!`
       },
       {
-        name: "Pan Zhifeng",
+        name: "Zhifeng Pan",
         title: "Instructor",
         image: panzhifengmentor,
-        content: `Hello everyone, I am Professor Pan Zhifeng, currently teaching at Zhengzhou University. As a long-term dedicated researcher and educator, I have always focused on nurturing students' innovative thinking and practical abilities, and have accumulated substantial experience in guiding students through innovation and entrepreneurship training programs. I am very excited to join your iGEM team and look forward to providing support and guidance in social practice strategies. Let's work together to integrate solid social practices with cutting-edge synthetic biology innovations, exploring more valuable scientific solutions!`
+        content: `Hello everyone, I am Professor Zhifeng Pan, currently teaching at Zhengzhou University. As a long-term dedicated researcher and educator, I have always focused on nurturing students' innovative thinking and practical abilities, and have accumulated substantial experience in guiding students through innovation and entrepreneurship training programs. I am very excited to join your iGEM team and look forward to providing support and guidance in social practice strategies. Let's work together to integrate solid social practices with cutting-edge synthetic biology innovations, exploring more valuable scientific solutions!`
       }
     ]
   };
@@ -156,7 +156,7 @@ Can’t wait to learn, create, and grow with all of you in IGEM!`},
       role: 'Human Practices Group', name: 'Zhiquan Zhang', avator: avatarZhiquanZhang, content: `Hello everyone, I'm Zhiquan Zhang. I’m a calm and steady person who thrives in creative environments, which makes me a natural fit for managing our YouTube content and visual storytelling. My strengths lie in video production, editing, and strategic content planning—I enjoy transforming complex ideas into engaging, accessible formats for wider audiences. Beyond the camera, I have a passion for photography and music, which help me maintain a sharp eye for detail and rhythm in my work. I joined this team because I believe in the power of media to amplify scientific impact.`
     },
     {
-      role: 'Wiki Group', name: 'Snik', avator: avatarSnik, content: `Hello everyone! I'm snik, an international student currently studying in China. I’ve always been passionate about cross-cultural collaboration and scientific innovation, which is why I’m thrilled to join this team. My strengths lie in data analysis and computational modeling—I enjoy turning complex biological questions into actionable insights using tools like Python and R. Outside the lab, I love photography and hiking, which help me see problems from creative perspectives.`
+      role: 'Wiki Group', name: 'Maria Salnikova', avator: avatarSnik, content: `Hello everyone! I'm Maria Salnikova, an international student currently studying in China. I’ve always been passionate about cross-cultural collaboration and scientific innovation, which is why I’m thrilled to join this team. My strengths lie in data analysis and computational modeling—I enjoy turning complex biological questions into actionable insights using tools like Python and R. Outside the lab, I love photography and hiking, which help me see problems from creative perspectives.`
     },
     {
       role: 'Wiki Group', name: 'Peilin Li', avator: avatarPeilinLi, content: `Hello everyone, I am Peilin Li, a student majoring in Clinical Medicine at Huazhong University of Science and Technology. Currently, I am enthusiastically participating in my university's iGEM competition team, primarily responsible for the Human Practices segment.My core work revolves around building a bridge between synthetic biology and the public. Through activities such as social research and science education, I explore the ethical and social issues related to our project, ensuring that scientific innovation can responsibly serve society. My background in medicine allows me to place greater emphasis on the humanistic care aspect of technology, and I look forward to collaborating with the team to achieve meaningful and impactful work. Thank you!`

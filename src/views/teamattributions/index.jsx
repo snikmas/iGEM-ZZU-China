@@ -53,6 +53,13 @@ Technical Innovation Promotion: Encouraged and supported team members to carry o
       image: liukangdongmentor
     },
     {
+      name: "San Dong",
+      role: "Mentor",
+      tasks: "Mentor",
+      specificTasks: `SanDong is a mentor from China with a strong background in Biotechnology and Life Sciences. Over the years, he has accumulated extensive experience in both academic research and student training, which makes him an invaluable guide for our team. As a mentor, he has provided advice in multiple aspects of our project, including experimental design, optimization of laboratory workflows, and critical evaluation of data. Beyond the technical dimension, SanDong also encouraged us to broaden our vision, to link scientific exploration with real-world applications, and to think deeply about how our work may contribute to society. His continuous support and insightful feedback have greatly inspired our team members and helped us grow with more confidence in scientific innovation and collaboration.`,
+      image: dongbinmentor
+    },
+    {
       name: "Shanfeng Zhang",
       role: "Instructor",
       tasks: "Technical Guidance, Project Supervision, Experimental Support，Team Training",
@@ -93,7 +100,7 @@ Research Integrity Assurance: Conducted comprehensive reviews of project outputs
 
     // members
     {
-      name: "Pengjie　Wang",
+      name: "Pengjie Wang",
       role: "Primary PI",
       tasks: "Wiki Coding, Investigation, Public Engagement",
       specificTasks: `Wiki Coding: Responsible for the software engineering part of the wiki. Spent time writing, revising, and perfecting relevant content to ensure the description was accurate and comprehensive. Collaborated with team members to optimize the wiki page.
@@ -217,7 +224,7 @@ Public Engagement: Handle daily channel operations. Schedule and publish content
       image: avatarZhiquanZhang
     },
     {
-      name: " Snik",
+      name: " Maria Salnikova",
       role: "Member",
       tasks: "Wiki Coding, Web Development",
       specificTasks: `Wiki Coding: Responsible for end-to-end wiki development and maintenance. From structuring content (e.g., layout design, information architecture) to implementing functional features (interactive elements, responsive UI), ensuring the wiki is user-friendly, visually coherent, and technically robust.
@@ -272,7 +279,7 @@ Web Development: Handle the integration of front-end and back-end components. Op
 
 
           <div className="team-tasks">
-            <h2>团队成员贡献</h2>
+            {/* <h2>团队成员贡献</h2> */}
 
 
             <div className="team-tasks-intro">
@@ -299,9 +306,9 @@ Web Development: Handle the integration of front-end and back-end components. Op
                       <img src={member.image} alt={member.name} />
                     </div>
                     <h3>{member.name}</h3>
-                    <p><strong>角色：</strong>{member.role}</p>
-                    <p><strong>任务：</strong>{member.tasks}</p>
-                    <p><strong>具体任务：</strong>{member.specificTasks}</p>
+                    <p><strong>Role: </strong>{member.role}</p>
+                    <p><strong>Tasks: </strong>{member.tasks}</p>
+                    <p><strong>Specific tasks: </strong>{member.specificTasks}</p>
                   </div>
                 ))}
               </div>
@@ -312,9 +319,9 @@ Web Development: Handle the integration of front-end and back-end components. Op
                       <img src={member.image} alt={member.name} />
                     </div>
                     <h3>{member.name}</h3>
-                    <p><strong>角色：</strong>{member.role}</p>
-                    <p><strong>任务：</strong>{member.tasks}</p>
-                    <p><strong>具体任务：</strong>{member.specificTasks}</p>
+                    <p><strong>Role: </strong>{member.role}</p>
+                    <p><strong>Tasks: </strong>{member.tasks}</p>
+                    <p><strong>Specific tasks: </strong>{member.specificTasks}</p>
                   </div>
                 ))}
               </div>
@@ -325,9 +332,9 @@ Web Development: Handle the integration of front-end and back-end components. Op
                       <img src={member.image} alt={member.name} />
                     </div>
                     <h3>{member.name}</h3>
-                    <p><strong>角色：</strong>{member.role}</p>
-                    <p><strong>任务：</strong>{member.tasks}</p>
-                    <p><strong>具体任务：</strong>{member.specificTasks}</p>
+                    <p><strong>Role: </strong>{member.role}</p>
+                    <p><strong>Tasks: </strong>{member.tasks}</p>
+                    <p><strong>Specific tasks: </strong>{member.specificTasks}</p>
                   </div>
                 ))}
               </div>

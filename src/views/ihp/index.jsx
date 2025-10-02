@@ -136,10 +136,10 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <p>
-              In China, <span>breast cancer</span> has become a serious <span>public health issue</span>. Data from the National Cancer Center in 2023 shows that there are approximately <span>420,000 new cases</span> of breast cancer in China each year, accounting for <span>21.6%</span> of all malignant tumors in Chinese women, ranking <span>first</span>. Each year, about <span>120,000 people</span> die from it, making it the <span>fourth leading cause</span> of cancer death among Chinese women (after lung cancer, gastric cancer, and liver cancer).
+              In China, <span>breast cancer</span> has become a serious <span>public health issue</span>. Data from the National Cancer Center in 2023 shows that there are approximately <span>420,000 new cases</span> of breast cancer in China each year, accounting for <span>21.6%</span> of all malignant tumors in Chinese women, <span className='text-strong'>ranking first</span>. Each year, about <span>120,000 people</span> die from it, making it <span className='text-strong'> the fourth leading cause of cancer death </span>among Chinese women (after lung cancer, gastric cancer, and liver cancer).
             </p>
             <p>
-              Surveys indicate that various factors such as <span>obesity</span> (BMI ≥ 28), <span>alcohol consumption</span>, <span>lack of exercise</span>, <span>environmental estrogens</span> (plasticizers, pesticide residues), <span>long-term stress</span>, and <span>depression</span> have increased the incidence of breast cancer. The prevention and treatment of breast cancer face core challenges such as <span>low coverage</span> of breast cancer screening (the popularity rate of mammography screening is less than 30%), <span>uneven distribution</span> of medical resources, and <span>sociocultural barriers</span>.
+              Surveys indicate that <span className='text-strong'>various factors</span> such as <span>obesity</span> (BMI ≥ 28), <span>alcohol consumption</span>, <span>lack of exercise</span>, <span>environmental estrogens</span> (plasticizers, pesticide residues), <span>long-term stress</span>, and <span>depression</span> have increased the incidence of breast cancer. The prevention and treatment of breast cancer face <span className='text-strong'>core challenges</span> such as <span>low coverage</span> of breast cancer screening (the popularity rate of mammography screening is less than 30%), <span>uneven distribution</span> of medical resources, and <span>sociocultural barriers</span>.
             </p>
             <p>
               Given its profound impact on <span>individual health</span> and the <span>healthcare system</span>, addressing the challenges posed by breast cancer is crucial for improving the overall health status in China.
@@ -153,6 +153,8 @@ const MainContent = () => (
                 <img src={Figure2} alt="Figure 2: Top 10 Cancer Types by Death Cases Among Chinese Women in 2020" className="figure-image" />
                 <div className="h4">Figure 2. The Top 10 Cancer Types By the Number of Death Cases Among Chinese Women in 2020</div>
               </div>
+            </div>
+            <div className="figure-container">
               <div className="figure-item">
                 <img src={Figure3} alt="Figure 3: Approximate Population - Attributable Risks in High-income Countries" className="figure-image" />
                 <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors</div>
@@ -173,7 +175,7 @@ const MainContent = () => (
               <span>Breast cancer</span> poses a significant threat to <span>women's health</span> worldwide. Despite remarkable advancements in medicine, <span>low early diagnosis rates</span> remain a critical challenge—while the <span>5-year survival rate</span> for patients with early-stage (Stage I) breast cancer can reach <span>99%</span>, it plummets to less than <span>30%</span> for those with advanced-stage (Stage IV) disease.
             </p>
             <p>
-              Therefore, <span>popularizing early breast cancer screening</span> across society is crucial for its prevention and treatment.
+              Therefore, <span className='text-strong'>popularizing early breast cancer screening across society</span> is crucial for its prevention and treatment.
             </p>
             <div className="figure-container">
               <div className="figure-item">
@@ -193,7 +195,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <p>
-              Current breast cancer screening primarily relies on <span>imaging techniques</span> (e.g., mammography, ultrasound) and <span>serum marker tests</span> (e.g., CA15-3), but these methods have obvious drawbacks:
+              Current breast cancer screening primarily relies on <span className='text-strong'>imaging techniques</span> (e.g., mammography, ultrasound) and <span className='text-strong'>serum marker tests</span> (e.g., CA15-3), but these methods have <span className='text-strong'>obvious drawbacks</span>:
             </p>
             <ul>
               <li><strong>Insufficient sensitivity:</strong> Mammography detects only about <span>65%</span> of tumors in dense breast tissue, easily missing cases in young women.</li>
@@ -201,7 +203,7 @@ const MainContent = () => (
               <li><strong>Low timeliness:</strong> Traditional tests take several days to produce results, failing to meet the demand for rapid screening.</li>
             </ul>
             <p>
-              To address these bottlenecks, our iGEM project aims to develop a <span>low-cost</span>, <span>rapid</span>, and <span>highly sensitive</span> test strip. By targeting the <span>CD63 molecule</span> on exosomes in samples, we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
+              To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 moleculeon exosomes in samples</span> , we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
             </p>
           </div>
         </div>
@@ -215,7 +217,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <p>
-              While advancing scientific research, we identified deeper <span>social issues</span> in breast cancer prevention through social surveys, questionnaires, and interviews:
+              While advancing scientific research, we identified<span className='text-strong'> deeper social issues</span> in breast cancer prevention through social surveys, questionnaires, and interviews:
             </p>
             <ul>
               <li><strong>Public misconceptions:</strong> Over <span>60%</span> of women believe "no family history = low risk" and neglect regular screening. In rural areas, approximately <span>70%</span> of patients are diagnosed at intermediate or advanced stages, directly linked to a lack of health knowledge.</li>
@@ -223,10 +225,10 @@ const MainContent = () => (
               <li><strong>Unequal distribution of medical resources:</strong> Breast cancer mortality rates are declining in developed countries, but remain high in developing countries due to inadequate screening access.</li>
             </ul>
             <p>
-              Thus, with the dual mission of <span>"technological innovation + social advocacy,"</span> we propose a three-in-one strategy of <span>"scientific research, science popularization, and public welfare"</span> to ensure science truly benefits all lives.
+              Thus, with the dual mission of <span className='text-strong'>"technological innovation + social advocacy,"</span> we propose a three-in-one strategy of <span className='text-strong'>"scientific research, science popularization, and public welfare"</span> to ensure science truly benefits all lives.
             </p>
             <p>
-              We believe that breast cancer prevention is not only a <span>scientific issue</span> but also a <span>social one</span>. Through our iGEM project, we hope to promote the implementation of new technologies while raising public awareness of women's health, ultimately achieving the goals of <span>"popularizing early screening, democratizing knowledge, and normalizing care."</span>
+              We believe that breast cancer prevention is not only a <span className='text-strong'>scientific issue</span> but also a <span className='text-strong'>social one</span>. Through our iGEM project, we hope to promote the implementation of new technologies while raising public awareness of women's health, ultimately achieving the goals of <span className='text-strong'>"popularizing early screening, democratizing knowledge, and normalizing care."</span>
             </p>
           </div>
         </div>
@@ -278,8 +280,8 @@ const MainContent = () => (
 
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={InspirationFigure2} alt="Figure 2. The Results of the Survey Questionnaire" className="figure-image" />
-                  <div className="h4">Figure 2. The Results of the Survey Questionnaire</div></div>
+                  <img src={InspirationFigure2} alt="Needs Insight Layer Figure 2.1" className="figure-image" />
+                  <div className="h4">Needs Insight Layer Figure 2.1</div></div>
               </div>
               <p>
                 A <span>SWOT analysis</span> of stakeholders revealed: women exhibit a contradiction of "strong screening willingness but insufficient knowledge"; medical institutions face the practical dilemma of "strong professional capabilities but aging equipment and heavy workload for healthcare staff"; government departments possess the administrative characteristic of "policy-making authority but uneven resource allocation"; and research institutions confront the developmental challenge of "advantages in technological R&D but limited technology transfer capabilities." These in-depth analyses provide a comprehensive needs map and problem-oriented guidance for our subsequent practice design.
@@ -898,12 +900,18 @@ const MainContent = () => (
                           <span>Screening Practices:</span> 73.6% of women recognize the importance of screening. Among women over 40, 49.2% have regular (1-2 years) mammography/ultrasound examinations. Only 21.5% of women aged 20-30 perform self-examinations every year, and over 52.3% do not know the method. The participation rate of men in screening is <span>4.7%</span>. 59.8% pay attention to breast health, but only 29.5% adhere to a healthy lifestyle (work and rest, diet, exercise). Over 41.2% find it difficult to practice long-term due to stress and lack of motivation, and only 24.6% actively search for popular science.
                         </p>
                         <div className="figure-container">
-                          <div className="figure-item" style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
-                            <img style={{ width: '30%' }} src={IntegratedReportFigure2_1} alt="Figure 2. The Results of the Survey Questionnaire" className="figure-image" />
-                            <img style={{ width: '30%' }} src={IntegratedReportFigure2_2} alt="Figure 2. The Results of the Survey Questionnaire" className="figure-image" />
-                            <img style={{ width: '30%' }} src={IntegratedReportFigure2_3} alt="Figure 2. The Results of the Survey Questionnaire" className="figure-image" />
-
-                          </div> <div className="h3">Figure 2. The Results of the Survey Questionnaire</div>
+                          <div className="figure-item">
+                            <img src={IntegratedReportFigure2_1} alt="Screening and Prevention Behaviors Figure 2.1" className="figure-image" />
+                            <div className="h4">Screening and Prevention Behaviors Figure 2.1</div>
+                          </div>
+                          <div className="figure-item">
+                            <img src={IntegratedReportFigure2_2} alt="Screening and Prevention Behaviors Figure 2.2" className="figure-image" />
+                            <div className="h4">Screening and Prevention Behaviors Figure 2.2</div>
+                          </div>
+                          <div className="figure-item">
+                            <img src={IntegratedReportFigure2_3} alt="Screening and Prevention Behaviors Figure 2.3" className="figure-image" />
+                            <div className="h4">Screening and Prevention Behaviors Figure 2.3</div>
+                          </div>
                         </div>
                         <div className="summary-box">
                           <h4>Summary:</h4>
@@ -937,11 +945,14 @@ const MainContent = () => (
                           <span>Content Preferences:</span> 41.2% of respondents want "identification of early disease signals", 30.5% focus on "scientific preventive lifestyles", and 19.8% need "treatment and rehabilitation". The group over 55 has a prominent demand for "nursing related to diseases and aging" (accounting for 14.3%). 49.6% choose short videos/articles, 30.8% look forward to community lectures, and 19.6% prefer medical platform pushes. Young people like short videos (59.3%), while middle-aged and elderly people are more accepting of community lectures (40.7%).
                         </p>
                         <div className="figure-container">
-                          <div className="figure-item" style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
-                            <img style={{ width: '50%' }} src={IntegratedReportFigure3_1} alt="Figure 3. The Results of the Survey Questionnaire" className="figure-image" />
-                            <img style={{ width: '50%' }} src={IntegratedReportFigure3_2} alt="Figure 3. The Results of the Survey Questionnaire" className="figure-image" />
-
-                          </div> <div className="h3">Figure 3. The Results of the Survey Questionnaire</div>
+                          <div className="figure-item">
+                            <img src={IntegratedReportFigure3_1} alt="Figure 3. The Results of the Survey Questionnaire" className="figure-image" />
+                            <div className="h4">Figure 3. The Results of the Survey Questionnaire</div>
+                          </div>
+                          <div className="figure-item">
+                            <img src={IntegratedReportFigure3_2} alt="Figure 3. The Results of the Survey Questionnaire" className="figure-image" />
+                            <div className="h4">Figure 3. The Results of the Survey Questionnaire</div>
+                          </div>
                         </div>
                         <div className="summary-box">
                           <h4>Summary:</h4>

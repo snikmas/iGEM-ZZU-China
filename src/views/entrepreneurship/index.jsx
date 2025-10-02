@@ -43,17 +43,20 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
-              <img src={descriptionFigure1} alt="Top 15 Most Common Cancers in Women Worldwide in 2022 by Incidence Rate" className="figure-image" />
-              <div className="h4">Figure 1. Top 15 Most Common Cancers in Women Worldwide in 2022 by Incidence Rate</div>
-            </div>
+              <div className="figure-item">
+                <img src={descriptionFigure1} alt="Top 15 Most Common Cancers in Women Worldwide in 2022 by Incidence Rate" className="figure-image" />
+                <div className="h4">Figure 1. Top 15 Most Common Cancers in Women Worldwide in 2022 by Incidence Rate</div>
+              </div></div>
             <div className="figure-container">
-              <img src={descriptionFigure2} alt="Top 15 Causes of Cancer Death in Women Worldwide in 2022" className="figure-image" />
-              <div className="h4">Figure 2. Top 15 Causes of Cancer Death in Women Worldwide in 2022</div>
-            </div>
+              <div className="figure-item">
+                <img src={descriptionFigure2} alt="Top 15 Causes of Cancer Death in Women Worldwide in 2022" className="figure-image" />
+                <div className="h4">Figure 2. Top 15 Causes of Cancer Death in Women Worldwide in 2022</div>
+              </div></div>
             <div className="figure-container">
-              <img src={descriptionFigure3} alt="Comparison of Incidence and Mortality Rates for the Top 15 Female Cancers Worldwide in 2022" className="figure-image" />
-              <div className="h4">Figure 3. Comparison of Incidence and Mortality Rates for the Top 15 Female Cancers Worldwide in 2022</div>
-            </div>
+              <div className="figure-item">
+                <img src={descriptionFigure3} alt="Comparison of Incidence and Mortality Rates for the Top 15 Female Cancers Worldwide in 2022" className="figure-image" />
+                <div className="h4">Figure 3. Comparison of Incidence and Mortality Rates for the Top 15 Female Cancers Worldwide in 2022</div>
+              </div></div>
 
             <p>
               There is a significant gap between the <span>incidence and mortality rates</span> (46.8 vs. 12.7 per 100,000) (Figure 3), indicating that <span>diagnosis is key</span> to improving <span>survival</span>. However, current technologies face significant bottlenecks: traditional imaging (e.g., mammography) has <span>insufficient sensitivity</span> for <span>dense breast tissue</span><sup>[3]</sup> and is prone to <span>missed diagnoses</span>; tissue biopsy carries <span>invasive risks</span> and has <span>limited accessibility</span> at the <span>primary care level</span>; and liquid biopsy (e.g., ctDNA) still has <span>blind spots</span><sup>[4]</sup> in <span>early detection</span> and <span>key molecular subtyping</span> (such as HER2/ER/PR).
@@ -90,8 +93,9 @@ const MainContent = () => (
       </div>
 
       <div className="figure-container">
-        <img src={descriptionFigure4} alt="Commercial Prospects" className="figure-image" />
-        <div className="h4">Figure 4. Commercial Prospects</div>
+        <div className="figure-item">
+          <img src={descriptionFigure4} alt="Commercial Prospects" className="figure-image" />
+          <div className="h4">Figure 4. Commercial Prospects</div></div>
       </div>
 
       {/* Market Overview Subsection */}
