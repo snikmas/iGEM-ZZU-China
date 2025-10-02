@@ -2,16 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
+import ImageGallery from '../../components/imagegallery';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure1.png'
 const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure2.png'
 const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure3.png'
 const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure4.png'
-
-
-import ImageGallery from '../../components/imagegallery';
-
 
 
 
@@ -117,27 +114,27 @@ const MainContent = () => (
           Beyond <span>technological innovation</span>, our <span>team</span> has made <span>significant contributions</span> to <span>education</span> and <span>public awareness initiatives</span>. Through organizing <span>lectures</span>, <span>online seminars</span>, and <span>social media campaigns</span>, we educate the <span>public</span> about <span>early breast cancer detection</span> while highlighting the <span>cutting-edge applications</span> of <span>synthetic biology</span> in <span>medicine</span>. Our <span>focus</span> is on emphasizing the <span>critical importance</span> of <span>early detection</span>, particularly its <span>potential</span> to enhance <span>diagnostic sensitivity</span> and <span>reduce misdiagnosis rates</span>. We also underscore how <span>synthetic biology</span> drives <span>technological advancements</span> in <span>cancer screening</span> by developing <span>innovative detection systems</span>.
         </p>
         <ImageGallery
-        title="Public Awareness Activities"
-        images={[
-          {
-            src: figure1,
-            alt: "Public Awareness Activities",
-          },
-          {
-            src: figure2,
-            alt: "Public Awareness Activities",
-          },
-          {
-            src: figure3,
-            alt: "Public Awareness Activities",
-          },
-          {
-            src: figure4,
-            alt: "Public Awareness Activities",
-          }
-        ]}
+          title="Public Awareness Activities"
+          images={[
+            {
+              src: figure1,
+              alt: "Public Awareness Activities",
+            },
+            {
+              src: figure2,
+              alt: "Public Awareness Activities",
+            },
+            {
+              src: figure3,
+              alt: "Public Awareness Activities",
+            },
+            {
+              src: figure4,
+              alt: "Public Awareness Activities",
+            }
+          ]}
         />
-        
+
 
         <p>
           Through these <span>popular science activities</span>, we not only <span>raised public awareness</span> of <span>breast cancer prevention</span>, but also helped them <span>understand the application prospects</span> of <span>synthetic biology</span> in <span>cancer diagnosis</span>, stimulated <span>more people's interest</span> in <span>science</span>, and promoted the <span>recognition</span> of <span>synthetic biology technology</span> in <span>society</span>.

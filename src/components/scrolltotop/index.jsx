@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import UpTo from 'https://static.igem.wiki/teams/5822/newassets/upto.png';
 import './index.css';
 import { ArrowUpOutlined } from '@ant-design/icons';
 
+
+
+const UpTo = 'https://static.igem.wiki/teams/5822/newassets/upto.png';
 const ScrollToTop = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);

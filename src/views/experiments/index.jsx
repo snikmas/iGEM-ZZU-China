@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 import { DownloadOutlined } from '@ant-design/icons';
 
+
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 // 导入PDF文件 - 按照提供的路径结构
 // APT-CRISPR
 const APTRCACRISPRPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab APT-RCA-CRISPR.pdf';
