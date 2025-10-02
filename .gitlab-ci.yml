@@ -1,11 +1,9 @@
-image: node:18
+image: node:20
 
-cache:
-  paths:
-    - node_modules/
+cache: {}
 
 before_script:
-  - npm install
+  - npm ci --prefer-offline --no-audit
 
 pages:
   stage: deploy
@@ -13,9 +11,13 @@ pages:
     - npm run build
     - rm -rf public
     - mv build public
+    # 为 SPA 路由创建 404 重定向
     - cp public/index.html public/404.html
+    # 创建 _redirects 文件（如果支持的话）
+    - echo "/*    /index.html   200" > public/_redirects
   artifacts:
     paths:
       - public
+    expire_in: 1 week
   only:
     - main
