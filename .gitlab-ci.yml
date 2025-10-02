@@ -3,7 +3,7 @@ image: node:20
 cache: {}
 
 before_script:
-  - npm ci --prefer-offline --no-audit
+  - npm install --prefer-offline --no-audit
 
 pages:
   stage: deploy
