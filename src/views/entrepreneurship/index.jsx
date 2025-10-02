@@ -3,14 +3,14 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
-import descriptionFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure1.png';
-import descriptionFigure2 from 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure2.png';
-import descriptionFigure3 from 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure3.png';
-import descriptionFigure4 from 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure4.png';
+const descriptionFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure1.png';
+const descriptionFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure2.png';
+const descriptionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure3.png';
+const descriptionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure4.png';
 
-import developmentPlanPdf from 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/developmentPlan.pdf';
+const developmentPlanPdf = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/developmentPlan.pdf';
 
 // 组件定义
 const MainContent = () => (

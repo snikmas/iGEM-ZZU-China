@@ -3,38 +3,38 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
-import overview from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/overview.png';
-import figure1 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure1.png';
-import figure2 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure2.png';
-import figure3 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure3.png';
-import figure4 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure4.png';
-import figure5 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure5.png';
-import figure6 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure6.png';
-import figure7 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure7.png';
-import figure8 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure8.png';
-import figure9 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure9.png';
-import figure10 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure10.png';
-import figure11 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure11.png';
-import figure12 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure12.png';
-import figure13 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure13.png';
-import figure14 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure14.png';
+const overview = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/overview.png';
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure1.png';
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure2.png';
+const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure3.png';
+const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure4.png';
+const figure5 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure5.png';
+const figure6 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure6.png';
+const figure7 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure7.png';
+const figure8 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure8.png';
+const figure9 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure9.png';
+const figure10 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure10.png';
+const figure11 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure11.png';
+const figure12 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure12.png';
+const figure13 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure13.png';
+const figure14 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure14.png';
 
-import figure16 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure16.png';
-import figure17 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure17.png';
-import figure18 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure18.png';
-import figure19 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure19.png';
-import figure20 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure20.png';
-import figure21 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure21.png';
-import figure22 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure22.png';
-import figure23 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure23.png';
-import figure24 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure24.png';
-import figure25 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure25.png';
-import figure26 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure26.png';
-import figure27 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure27.png';
-import figure28 from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure28.png';
-import videoFile from 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/video.mp4';
+const figure16 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure16.png';
+const figure17 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure17.png';
+const figure18 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure18.png';
+const figure19 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure19.png';
+const figure20 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure20.png';
+const figure21 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure21.png';
+const figure22 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure22.png';
+const figure23 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure23.png';
+const figure24 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure24.png';
+const figure25 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure25.png';
+const figure26 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure26.png';
+const figure27 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure27.png';
+const figure28 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure28.png';
+const videoFile = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/video.mp4';
 
 
 // 组件定义 1

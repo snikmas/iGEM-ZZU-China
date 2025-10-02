@@ -3,12 +3,12 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
 // Engineering相关图片导入
-import engineeringFigure1 from 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure1.png';
-import engineeringFigure2 from 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure2.png';
-import engineeringFigure3 from 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure3.png';
+const engineeringFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure1.png';
+const engineeringFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure2.png';
+const engineeringFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure3.png';
 
 // 组件定义
 const MainContent = () => (

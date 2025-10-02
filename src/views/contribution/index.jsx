@@ -3,14 +3,16 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure1.png'
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure2.png'
+const figure3 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure3.png'
+const figure4 = 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure4.png'
 
-import contributionFigure from 'https://static.igem.wiki/teams/5822/newassets/images/contribution/contribution.png';
-import figure1 from 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure1.png'
-import figure2 from 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure2.png'
-import figure3 from 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure3.png'
-import figure4 from 'https://static.igem.wiki/teams/5822/newassets/images/contribution/figure4.png'
+
 import ImageGallery from '../../components/imagegallery';
+
+
 
 
 // 组件定义

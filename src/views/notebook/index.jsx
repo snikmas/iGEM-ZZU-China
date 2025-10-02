@@ -3,21 +3,21 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
+const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
 
-import image1 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年10月.png';
-import image2 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年11月.png';
-import image3 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年12月.png';
-import image4 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年1月.png';
-import image5 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年2月.png';
-import image6 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年3月.png';
-import image7 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年4月.png';
-import image8 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年5月.png';
-import image9 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年6月.png';
-import image10 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年7月.png';
-import image11 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年8月.png';
-import image12 from 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年9月.png';
+const image1 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年10月.png';
+const image2 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年11月.png';
+const image3 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年12月.png';
+const image4 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年1月.png';
+const image5 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年2月.png';
+const image6 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年3月.png';
+const image7 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年4月.png';
+const image8 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年5月.png';
+const image9 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年6月.png';
+const image10 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年7月.png';
+const image11 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年8月.png';
+const image12 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年9月.png';
 
 // 组件定义 1
 const MainContent = () => (
