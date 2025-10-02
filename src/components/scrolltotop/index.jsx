@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import UpTo from '../../assets/upto.png';
+import UpTo from 'https://static.igem.wiki/teams/5822/newassets/upto.webp';
 import './index.css';
 import { ArrowUpOutlined } from '@ant-design/icons';
 

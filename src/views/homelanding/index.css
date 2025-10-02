@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../../assets/bodybg.png') no-repeat center center;
+    background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
     overflow: hidden;
 }
 .hero-content {
@@ -71,7 +71,7 @@
   .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('../../assets/bodybg.png');
+    background-image: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp');
     background-size: cover;
     background-position: center;
     opacity: .2;
@@ -142,7 +142,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../../assets/bodybg.png') no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   color: #3b0d15;
   overflow: hidden;
 }
@@ -223,7 +223,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../../assets/bodybg.png') no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   padding: 16px 0; 
   overflow: hidden;
 }
@@ -311,7 +311,7 @@
 .challenge { 
   display:grid; 
   place-items:center; 
-  background: url('../../assets/bodybg.png') no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
   position: relative;
 }
 
@@ -398,7 +398,7 @@
 .vision {
   display: grid;
   place-items: center;
-  background: url('../../assets/bodybg.png') no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
 }
 
 .vision-inner {
@@ -751,7 +751,7 @@
 .explore { 
   display: grid; 
   place-items: center; 
-  background: url('../../assets/bodybg.png') no-repeat center center;
+  background: url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') no-repeat center center;
 }
 
 .explore-inner { 
@@ -843,7 +843,7 @@
 /* Section 12: Footer-hero */
 .footer-hero {
   position: relative;
-  background: #f6eef1 url('../../assets/bodybg.png') center/cover no-repeat;
+  background: #f6eef1 url('https://static.igem.wiki/teams/5822/newassets/bodybg.webp') center/cover no-repeat;
   min-height: calc(100vh - 60px);
   display: grid;
   align-content: end;
@@ -855,7 +855,8 @@
   right: 0;
   top: 50%;
   height: 100%;
-  background: url('../../assets/images/home/section12pic.png') no-repeat center bottom;
+  /* need to upload to igem tools */
+  /* background: url('../../assets/images/home/section12pic.png') no-repeat center bottom; */
   background-size: 100% 100%;
   background-position: center bottom;
   min-height: 200px;

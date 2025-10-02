@@ -5,10 +5,10 @@ import '../../styles/common.css';
 
 import menuLogo from '../../assets/menulogo.png';
 
-import descriptionFigure1 from '../../assets/images/entrepreneurship/entrepreneurshipFigure1.png';
-import descriptionFigure2 from '../../assets/images/entrepreneurship/entrepreneurshipFigure2.png';
-import descriptionFigure3 from '../../assets/images/entrepreneurship/entrepreneurshipFigure3.png';
-import descriptionFigure4 from '../../assets/images/entrepreneurship/entrepreneurshipFigure4.png';
+import descriptionFigure1 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure1.png';
+import descriptionFigure2 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure2.png';
+import descriptionFigure3 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure3.png';
+import descriptionFigure4 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure4.png';
 
 // 组件定义
 const MainContent = () => (

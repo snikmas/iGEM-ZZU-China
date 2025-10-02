@@ -3,7 +3,7 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
-import menuLogo from '../../assets/menulogo.png';
+import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 import overview from '../../assets/images/collaborations/overview.png';
 import figure1 from '../../assets/images/collaborations/figure1.png';

@@ -6,52 +6,53 @@ import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
 
 import menuLogo from '../../assets/menulogo.png';
-import overview from '../../assets/images/education/overview.png';
+import overview from 'https://static.igem.wiki/teams/5822/newassets/education/overview.png';
 // Primary Education Images (1-17)
-import Primary_1 from '../../assets/images/education/Primary_1.png';
-import Primary_2 from '../../assets/images/education/Primary_2.png';
-import Primary_3 from '../../assets/images/education/Primary_3.png';
-import Primary_4 from '../../assets/images/education/Primary_4.png';
-import Primary_5 from '../../assets/images/education/Primary_5.png';
-import Primary_6 from '../../assets/images/education/Primary_6.png';
-import Primary_7 from '../../assets/images/education/Primary_7.png';
-import Primary_8 from '../../assets/images/education/Primary_8.png';
-import Primary_9 from '../../assets/images/education/Primary_9.png';
-import Primary_10 from '../../assets/images/education/Primary_10.png';
-import Primary_11 from '../../assets/images/education/Primary_11.png';
-import Primary_12 from '../../assets/images/education/Primary_12.png';
-import Primary_13 from '../../assets/images/education/Primary_13.png';
-import Primary_14 from '../../assets/images/education/Primary_14.png';
-import Primary_15 from '../../assets/images/education/Primary_15.png';
-import Primary_16 from '../../assets/images/education/Primary_16.png';
-import Primary_17 from '../../assets/images/education/Primary_17.png';
+import Primary_1 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-1.webp.png';
+import Primary_2 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-2.webp.png';
+import Primary_3 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-3.webp.png';
+import Primary_4 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-4.webp.png';
+import Primary_5 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-5.webp.png';
+import Primary_6 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-6.webp.png';
+import Primary_7 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-7.webp.png';
+import Primary_8 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-8.webp.png';
+import Primary_9 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-9.webp.png';
+import Primary_10 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-10.png';
+import Primary_11 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-11.png';
+import Primary_12 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-12.png';
+import Primary_13 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-13.png';
+import Primary_14 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-14.png';
+import Primary_15 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-15.png';
+import Primary_16 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-16.png';
+import Primary_17 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-17.png';
 
 // Middle School Images (1-3)
-import Middle_1 from '../../assets/images/education/Middle_1.png';
-import Middle_2 from '../../assets/images/education/Middle_2.png';
-import Middle_3 from '../../assets/images/education/Middle_3.png';
+import Middle_1 from 'https://static.igem.wiki/teams/5822/newassets/education/middle-1.webp';
+import Middle_2 from 'https://static.igem.wiki/teams/5822/newassets/education/middle-2.webp';
+import Middle_3 from 'https://static.igem.wiki/teams/5822/newassets/education/middle-3.webp';
 
 // High School Images (1-5)
-import high_1 from '../../assets/images/education/high_1.png';
-import high_2 from '../../assets/images/education/high_2.png';
-import high_3 from '../../assets/images/education/high_3.png';
-import high_4 from '../../assets/images/education/high_4.png';
-import high_5 from '../../assets/images/education/high_5.png';
+
+import high_1 from 'https://static.igem.wiki/teams/5822/newassets/education/high-1.webp';
+import high_2 from 'https://static.igem.wiki/teams/5822/newassets/education/high-2.webp';
+import high_3 from 'https://static.igem.wiki/teams/5822/newassets/education/high-3.webp';
+import high_4 from 'https://static.igem.wiki/teams/5822/newassets/education/high-4.webp';
+import high_5 from 'https://static.igem.wiki/teams/5822/newassets/education/high-5.webp';
 
 // University Images (1-10)
-import university_1 from '../../assets/images/education/university_1.png';
-import university_2 from '../../assets/images/education/university_2.png';
-import university_3 from '../../assets/images/education/university_3.png';
-import university_4 from '../../assets/images/education/university_4.png';
-import university_5 from '../../assets/images/education/university_5.png';
-import university_6 from '../../assets/images/education/university_6.png';
-import university_7 from '../../assets/images/education/university_7.png';
-import university_8 from '../../assets/images/education/university_8.png';
-import university_9 from '../../assets/images/education/university_9.png';
-import university_10 from '../../assets/images/education/university_10.png';
-import university_11 from '../../assets/images/education/university_11.png';
-import university_12 from '../../assets/images/education/university_12.png';
-import university_13 from '../../assets/images/education/university_13.png';
+import university_1 from 'https://static.igem.wiki/teams/5822/newassets/education/university-1.webp.png';
+import university_2 from 'https://static.igem.wiki/teams/5822/newassets/education/university-2.webp.png';
+import university_3 from 'https://static.igem.wiki/teams/5822/newassets/education/university-3.webp.png';
+import university_4 from 'https://static.igem.wiki/teams/5822/newassets/education/university-4.webp.png';
+import university_5 from 'https://static.igem.wiki/teams/5822/newassets/education/university-5.webp.png';
+import university_6 from 'https://static.igem.wiki/teams/5822/newassets/education/university-6.webp.png';
+import university_7 from 'https://static.igem.wiki/teams/5822/newassets/education/university-7.webp.png';
+import university_8 from 'https://static.igem.wiki/teams/5822/newassets/education/university-8.webp.png';
+import university_9 from 'https://static.igem.wiki/teams/5822/newassets/education/university-9.webp.png';
+import university_10 from 'https://static.igem.wiki/teams/5822/newassets/education/university-10.webp.png';
+import university_11 from 'https://static.igem.wiki/teams/5822/newassets/education/university-11.webp.png';
+import university_12 from 'https://static.igem.wiki/teams/5822/newassets/education/university-12.webp.png';
+import university_13 from 'https://static.igem.wiki/teams/5822/newassets/education/university-13.webp.png';
 
 
 
@@ -63,17 +64,17 @@ import community_5 from '../../assets/images/education/community_5.png';
 import community_6 from '../../assets/images/education/community_6.png';
 import community_7 from '../../assets/images/education/community_7.png';
 
-import professional_1 from '../../assets/images/education/professional_1.png';
-import professional_2 from '../../assets/images/education/professional_2.png';
-import professional_3 from '../../assets/images/education/professional_3.png';
-import professional_4 from '../../assets/images/education/professional_4.png';
-import professional_5 from '../../assets/images/education/professional_5.png';
-import professional_6 from '../../assets/images/education/professional_6.png';
-import professional_7 from '../../assets/images/education/professional_7.png';
-import professional_8 from '../../assets/images/education/professional_8.png';
+import professional_1 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-1.webp.png';
+import professional_2 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-2.webp.png';
+import professional_3 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-3.webp.png';
+import professional_4 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-4.webp.png';
+import professional_5 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-5.webp.png';
+import professional_6 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-6.webp.png';
+import professional_7 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-7.webp.png';
+import professional_8 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-8.webp.png';
 
-import online_1 from '../../assets/images/education/online_1.png';
-import online_2 from '../../assets/images/education/online_2.png';
+import online_1 from 'https://static.igem.wiki/teams/5822/newassets/education/online_1.png';
+import online_2 from 'https://static.igem.wiki/teams/5822/newassets/education/online_2.png';
 
 
 import PrimaryEducationPDF from '../../assets/images/education/PrimaryEducation.pdf';
@@ -82,7 +83,7 @@ import UniversityEducationPDF from '../../assets/images/education/UniversityEduc
 
 
 // Main education figure
-import educationFigure from '../../assets/images/education/education.png';
+import educationFigure from 'https://static.igem.wiki/teams/5822/newassets/education/education.png';
 
 
 // 组件定义 1
