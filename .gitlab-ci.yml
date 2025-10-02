@@ -8,10 +8,13 @@ before_script:
   - npm install
 
 pages:
-  stage: build
+  stage: deploy
   script:
     - npm run build
-    - cp -r build/* public/
+    - rm -rf public
+    - mv build public
+    # 如果需要处理路由问题，添加这行
+    - cp public/index.html public/404.html
   artifacts:
     paths:
       - public
