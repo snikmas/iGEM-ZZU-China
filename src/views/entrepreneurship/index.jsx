@@ -3,7 +3,7 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 
-import menuLogo from '../../assets/menulogo.png';
+import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 
 import descriptionFigure1 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure1.png';
 import descriptionFigure2 from 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipFigure2.png';

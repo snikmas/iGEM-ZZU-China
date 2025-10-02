@@ -5,7 +5,7 @@ import '../../styles/common.css';
 // 相册组件
 import ImageGallery from '../../components/imagegallery';
 
-import menuLogo from '../../assets/menulogo.png';
+import menuLogo from 'https://static.igem.wiki/teams/5822/newassets/menulogo.png';
 import overview from 'https://static.igem.wiki/teams/5822/newassets/education/overview.png';
 // Primary Education Images (1-17)
 import Primary_1 from 'https://static.igem.wiki/teams/5822/newassets/education/primary-1.webp.png';
@@ -56,13 +56,13 @@ import university_13 from 'https://static.igem.wiki/teams/5822/newassets/educati
 
 
 
-import community_1 from '../../assets/images/education/community_1.png';
-import community_2 from '../../assets/images/education/community_2.png';
-import community_3 from '../../assets/images/education/community_3.png';
-import community_4 from '../../assets/images/education/community_4.png';
-import community_5 from '../../assets/images/education/community_5.png';
-import community_6 from '../../assets/images/education/community_6.png';
-import community_7 from '../../assets/images/education/community_7.png';
+import community_1 from 'https://static.igem.wiki/teams/5822/newassets/education/community_1.png';
+import community_2 from 'https://static.igem.wiki/teams/5822/newassets/education/community_2.png';
+import community_3 from 'https://static.igem.wiki/teams/5822/newassets/education/community_3.png';
+import community_4 from 'https://static.igem.wiki/teams/5822/newassets/education/community_4.png';
+import community_5 from 'https://static.igem.wiki/teams/5822/newassets/education/community_5.png';
+import community_6 from 'https://static.igem.wiki/teams/5822/newassets/education/community_6.png';
+import community_7 from 'https://static.igem.wiki/teams/5822/newassets/education/community_7.png';
 
 import professional_1 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-1.webp.png';
 import professional_2 from 'https://static.igem.wiki/teams/5822/newassets/education/professional-2.webp.png';
@@ -77,9 +77,9 @@ import online_1 from 'https://static.igem.wiki/teams/5822/newassets/education/on
 import online_2 from 'https://static.igem.wiki/teams/5822/newassets/education/online_2.png';
 
 
-import PrimaryEducationPDF from '../../assets/images/education/PrimaryEducation.pdf';
-import StrawberryDNAExtractionWorkshopPDF from '../../assets/images/education/StrawberryDNAExtractionWorkshop.pdf';
-import UniversityEducationPDF from '../../assets/images/education/UniversityEducation.pdf';
+import PrimaryEducationPDF from 'https://static.igem.wiki/teams/5822/newassets/primaryeducation.pdf';
+import StrawberryDNAExtractionWorkshopPDF from 'https://static.igem.wiki/teams/5822/newassets/strawberrydnaextractionworkshop.pdf';
+import UniversityEducationPDF from 'https://static.igem.wiki/teams/5822/newassets/universityeducation.pdf';
 
 
 // Main education figure

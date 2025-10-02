@@ -33,7 +33,7 @@ import InterviewFigure7 from 'https://static.igem.wiki/teams/5822/newassets/ihp/
 import InterviewFigure8 from 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/InterviewFigure8.png';
 
 // 5
-import SurveyPDF from '../../assets/images/ihp/survey.pdf';
+import SurveyPDF from 'https://static.igem.wiki/teams/5822/newassets/files/survey.pdf';
 
 // 6
 import FeedbackIterationContentFigure1 from 'https://static.igem.wiki/teams/5822/newassets/ihp/FeedbackIteration/Figure1.png';
