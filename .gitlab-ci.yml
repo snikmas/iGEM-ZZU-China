@@ -10,6 +10,7 @@ pages:
   script:
     - npm run build
     - rm -rf public
+    - mkdir -p public
     # 直接使用构建的文件
     - cp -r build/* public/
     # 为 SPA 路由创建 404 重定向
