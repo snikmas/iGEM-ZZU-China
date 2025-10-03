@@ -101,7 +101,7 @@ Research Integrity Assurance: Conducted comprehensive reviews of project outputs
     // members
     {
       name: "Pengjie Wang",
-      role: "Primary PI",
+      role: "Student Leader",
       tasks: "Wiki Coding, Investigation, Public Engagement",
       specificTasks: `Wiki Coding: Responsible for the software engineering part of the wiki. Spent time writing, revising, and perfecting relevant content to ensure the description was accurate and comprehensive. Collaborated with team members to optimize the wiki page.
 Investigation: Participated in the protein marker CRISPR detection experiment. Carried out experimental operations, recorded data, and solved problems in the experiment process to ensure the smooth progress of the experiment.
@@ -110,7 +110,7 @@ Public Engagement: Prepared for the CCIC exchange meeting, including agenda plan
     },
     {
       name: "Xinze Li",
-      role: "Member",
+      role: "Student Leader",
       tasks: "Conceptualization , Project Administration , Investigation, Software",
       specificTasks: `Conceptualization: Responsible for proposing the project's core ideas, designing the overall framework based on breast cancer detection needs, and determining the application of Apt-HCR/RCA CRISPR-cas14 technology.
 Project Administration: Responsible for coordinating the project process, managing team operations, organizing human practice activities such as conferences and exhibitions, and ensuring the smooth progress of each project link.
@@ -119,11 +119,13 @@ Software: Completed the establishment of the software model part, designed and d
       image: avatarXinzeLi
     },
     {
-      name: "Jijing Ba",
-      role: "Member",
-      tasks: "Entrepreneurship，human practice",
-      specificTasks: `Entrepreneurship: Responsible for writing the business plan of the project. Conducted market research, analyzed project commercial potential and development prospects. Formulated business strategies, including marketing, operation management, etc., to provide a commercial operation plan for the project.`,
-      image: avatarJijingBa
+      name: "Yuxiao Zhang",
+      role: "Student Leader",
+      tasks: "Human Practice, Investigation , Visualization",
+      specificTasks: `Human Practice: Carried out human practice work, including social investigation, public communication, etc. Understood social needs, promoted the combination of the project with society, and enhanced the project's social value.
+Investigation: Participated in wet experiments, specifically responsible for the CD63 aptamer pull - down exosome experiment. Conducted experimental operations, analyzed data, and contributed to experimental research.
+Visualization: Responsible for Logo and team uniform design. Created creative and representative designs to enhance the team's image and cohesion.`,
+      image: avatarYuxiaoZhang
     },
     {
       name: "Mengyao Yu",
@@ -149,13 +151,11 @@ Background Research: Defined the ethical guidelines to be followed during the pr
       image: avatarYufeiHuang
     },
     {
-      name: "Yuxiao Zhang",
+      name: "Jijing Ba",
       role: "Member",
-      tasks: "Human Practice, Investigation , Visualization",
-      specificTasks: `Human Practice: Carried out human practice work, including social investigation, public communication, etc. Understood social needs, promoted the combination of the project with society, and enhanced the project's social value.
-Investigation: Participated in wet experiments, specifically responsible for the CD63 aptamer pull - down exosome experiment. Conducted experimental operations, analyzed data, and contributed to experimental research.
-Visualization: Responsible for Logo and team uniform design. Created creative and representative designs to enhance the team's image and cohesion.`,
-      image: avatarYuxiaoZhang
+      tasks: "Entrepreneurship，Human practice",
+      specificTasks: `Entrepreneurship: Responsible for writing the business plan of the project. Conducted market research, analyzed project commercial potential and development prospects. Formulated business strategies, including marketing, operation management, etc., to provide a commercial operation plan for the project.`,
+      image: avatarJijingBa
     },
     {
       name: "Yutong Liu",
