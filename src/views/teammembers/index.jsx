@@ -5,7 +5,7 @@ import './index.css';
 // ... existing code ...
 const dongbinmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/董杉-mentor.jpg';
 const lipengmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/peili.webp';
-const liukangdongmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/刘康栋.webp';
+const liukangdongmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/kangdongliu.webp';
 const panzhifengmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/潘志峰.webp';
 const wangzhenlongmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/王振龙.jpg';
 const zangwenqiaomentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/臧文巧.jpeg';
