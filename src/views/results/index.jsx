@@ -6,7 +6,7 @@ import '../../styles/common.css';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 // Results 相关图片 - 这些需要根据实际的图片URL进行调整
-const figure1 = 'https://static.igem.wiki/teams/5822/results/figure1.webp';
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-1-standard-curve-between-fluorescence-and-aptamer-concentration.webp';
 const figure2 = 'https://static.igem.wiki/teams/5822/results/figure2.webp';
 const figure3 = 'https://static.igem.wiki/teams/5822/results/figure3.webp';
 const figure4 = 'https://static.igem.wiki/teams/5822/results/figure4.webp';
