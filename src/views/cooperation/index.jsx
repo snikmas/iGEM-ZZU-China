@@ -10,9 +10,9 @@ const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 const overview = 'https://static.igem.wiki/teams/5822/newassets/collaborations/overview.webp';
 
 const figure1 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-1.webp';
-const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-2.webp';
-const figure3 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-3.webp';
-const figure4 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-4.webp';
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-1-1.webp';
+const figure3 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/3.webp';
+const figure4 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/4.webp';
 const figure5 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-5.webp';
 
 const figure6 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure6.webp';

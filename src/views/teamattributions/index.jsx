@@ -126,7 +126,7 @@ Software: Completed the establishment of the software model part, designed and d
       image: avatarJijingBa
     },
     {
-      name: "Mengxiao Yu",
+      name: "Mengyao Yu",
       role: "Member",
       tasks: " Investigation, Writing, Data Curation ",
       specificTasks: `Writing: Responsible for project document management, including sorting out experimental reports, meeting minutes, etc. Classified and archived documents to ensure information was traceable and easy to retrieve.

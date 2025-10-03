@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import '../../styles/common.css';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
-const safetyPdf = 'https://static.igem.wiki/teams/5822/newassets/images/wetlabsafety/safetyPdf.pdf';
+const safetyPdf = 'https://static.igem.wiki/teams/5822/newassets/files/safetypdf.pdf';
 const safetyFigure1 = 'https://static.igem.wiki/teams/5822/newassets/safety/safety.webp';
 
 // 组件定义

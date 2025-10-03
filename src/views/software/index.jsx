@@ -7,7 +7,7 @@ const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/software/figure1.webp';
 const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/software/figure2.webp';
-const softwarePdf = 'https://static.igem.wiki/teams/5822/newassets/images/software/software.pdf';
+const softwarePdf = 'https://static.igem.wiki/teams/5822/newassets/files/software-pdf.pdf';
 
 // 组件定义 1
 const MainContent = () => (
