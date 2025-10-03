@@ -7,16 +7,19 @@ import ImageGallery from '../../components/imagegallery';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 
+// DONE
 const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure1.webp';
 const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure2.webp';
 const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure3.webp';
 const SolutionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure3.webp';
-const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/folutionfigure4.webp';
-const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/Inspiration/inspirationfigure1.webp';
-const InspirationFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/Inspiration/inspirationfigure2.webp';
+const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure4.webp';
+const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure1.webp';
+const InspirationFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure2.webp';
 
-const SWOTAnalysisFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/swotanalysis/swotanalysisfigure1.webp';
+// DONE
+const SWOTAnalysisFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/swot/swotanalysisfigure1.webp';
 
+// DONE
 const IntegratedReportFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/integratedreport/figure1.webp';
 const IntegratedReportFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/integratedreport/figure2-1.webp';
 const IntegratedReportFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/integratedreport/figure2-2.webp';
@@ -37,7 +40,7 @@ const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inte
 const InterviewFigure9 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure9.webp';
 const InterviewFigure10 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure10.webp';
 const InterviewFigure11 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure11.webp';
-const InterviewFigure12 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure12.webp';
+const InterviewFigure12 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfirgure12.webp';
 const InterviewFigure13 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure13.webp';
 const InterviewFigure14 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure14.webp';
 const InterviewFigure15 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure15.webp';
@@ -45,12 +48,11 @@ const InterviewFigure16 = 'https://static.igem.wiki/teams/5822/newassets/ihp/int
 
 
 
-
-// 5
+// 5 DONE
 const SurveyPDF = 'https://static.igem.wiki/teams/5822/newassets/ihp/survey.pdf';
 
-// 6
-const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/feedbackiteration/figure1.webp';
+// 6 DONE
+const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/fbi/figure1.webp';
 
 // 7 DONE
 const EducationFigure1_1_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-1-1.webp';
@@ -95,10 +97,10 @@ const CooperationFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/
 const CooperationFigure3_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-5.webp';
 
 
-// 11 Safety
+// 11 Safety DONE
 const SafetyFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/safety/safetyfigure1.webp'; // 临时使用现有图片
 
-// 12 Spread
+// 12 Spread DONE
 const SpreadFigure1_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/spread/spread-1-1.webp';
 const SpreadFigure1_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/spread/spread-1-2.webp';
 const SpreadFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/spread/spread-2-1.webp';
@@ -107,7 +109,7 @@ const SpreadFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/sprea
 const SpreadFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/spread/spread-2-4.webp';
 const SpreadFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/spread/spread-2-5.webp';
 
-// 13 Inclusiveness
+// 13 Inclusiveness DONE
 const InclusivenessFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-2-1.webp';
 const InclusivenessFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-2-2.webp';
 const InclusivenessFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-3-1.webp';
@@ -219,12 +221,7 @@ const MainContent = () => (
             <p>
               To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 moleculeon exosomes in samples</span> , we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
             </p>
-            <div className="figure-container">
-              <div className="figure-item">
-                <img src={SolutionFigure4} alt="Figure 1: Top 10 Cancer Types by New Cases Among Chinese Women in 2020" className="figure-image" />
-                <div className="h4">Figure 3. Vision for Technology-enabled Breast Cancer Treatment and Research</div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
