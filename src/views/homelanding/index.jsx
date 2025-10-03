@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 // 在文件顶部添加导入
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import {  YoutubeOutlined } from '@ant-design/icons';
+import { YoutubeOutlined } from '@ant-design/icons';
 
 const logo = 'https://static.igem.wiki/teams/5822/newassets/headerlogo/headerlogo.webp';
 const section2bg = 'https://static.igem.wiki/teams/5822/newassets/home/2bg.webp';
@@ -98,9 +98,9 @@ function HomeLanding() {
           <img className="hero-logo" src={logo} alt="HerScan Logo" />
           <div className="hero-title">
             <div className='hero-title-row'>
-            <h1 className='hero-title-her'>Her</h1><h1 className='hero-title-scan'>Scan</h1>
+              <h1 className='hero-title-her'>Her</h1><h1 className='hero-title-scan'>Scan</h1>
             </div>
-            
+
             <p>Spot it early, stop it strong!</p>
           </div>
         </div>
@@ -206,8 +206,8 @@ function HomeLanding() {
         </div>
       </section>
 
-            {/* Section 6 - Capture */}
-            <section className="hl-section capture">
+      {/* Section 6 - Capture */}
+      <section className="hl-section capture">
         <div className="container">
           <div className="text">
             <h3 className="fade-in capture-title">CD63 aptamer–magnetic beads</h3>
@@ -229,7 +229,7 @@ function HomeLanding() {
       <section className="hl-section amplify">
         <div className="container">
           <div className="media fade-in">
-          <div className="capture-media">
+            <div className="capture-media">
               <img src={section6pic} alt="CD63 aptamer–magnetic beads capture exosomes" className="capture-media-image" />
             </div>
           </div>
@@ -254,13 +254,13 @@ function HomeLanding() {
           <div className="text">
             <h3 className="fade-in hl-underline hl-purple">After CRISPR amplification</h3>
             <p className="fade-in delay1">
-            <span className="hl-underline hl-pink">the fluorescence signal</span> is quantified by a portable machine,
+              <span className="hl-underline hl-pink">the fluorescence signal</span> is quantified by a portable machine,
               providing accurate and sensitive readouts for
               <span className="hl-underline hl-pink">early breast cancer screening</span>.
             </p>
           </div>
           <div className="media fade-in delay1">
-          <div className="capture-media">
+            <div className="capture-media">
               <img src={section8pic} alt="CD63 aptamer–magnetic beads capture exosomes" className="capture-media-image" />
             </div>
           </div>
@@ -271,7 +271,7 @@ function HomeLanding() {
       <section className="hl-section card-sec">
         <div className="container">
           <div className="media fade-in">
-          <div className="capture-media">
+            <div className="capture-media">
               <img src={section9pic} alt="CD63 aptamer–magnetic beads capture exosomes" className="capture-media-image" />
             </div>
           </div>
@@ -287,8 +287,8 @@ function HomeLanding() {
       </section>
 
 
-            {/* Section 10 - CTA */}
-            <section className="hl-section cta">
+      {/* Section 10 - CTA */}
+      <section className="hl-section cta">
         <div className="cta-bg" />
         <div className="cta-bubbles" aria-hidden="true">
           {new Array(7).fill(0).map((_, i) => (
@@ -338,6 +338,80 @@ function HomeLanding() {
             </div>
           </div>
         </div>
+
+        {/* 滚动合作伙伴/赞助商 */}
+        <div className="partners-scroll">
+        <div className="partners-track">
+    {/* 所有图标必须完全复制两次 */}
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+    </div>
+    
+    {/* 完全相同的第二组 */}
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+    </div>
+    <div className="partner-item">
+      <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+    </div>
+  </div>
+
+          <div className="contact-row">
+            <div className="address-info">
+              <span className="icon">📍</span>
+              <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+                Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+                Postcode: 450001
+              </a>
+            </div>
+            <div className="email-info">
+              <span className="icon">✉️</span>
+              <a href="mailto:jychuangxin@zzu.edu.cn">
+                Email: jychuangxin@zzu.edu.cn
+              </a>
+            </div>
+          </div>
+
+          <div className="contact-row">
+            <div className="address-info">
+              <span className="icon">💻</span>
+              <a href="https://gitlab.igem.org/2025/zzu-china"  style={{color: '#333333'}}>
+                The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+              </a>
+            </div>
+          </div>
+          
+
+
+        </div>
+
       </section>
 
       {/* Section 12 - Footer */}
@@ -347,8 +421,8 @@ function HomeLanding() {
           <img src={logo} alt="HerScan Logo" className='footer-hero-logo-img' />
         </div>
 
-         {/* 联系信息 */}
-         <div className="contact-info">
+        {/* 联系信息 */}
+        <div className="contact-info">
           <h3>Contact Us</h3>
           <p className="contact-text">Contact us on WeChat or YouTube</p>
           <div className="address-info">
@@ -359,7 +433,7 @@ function HomeLanding() {
 
 
         <div className="socials" aria-label="Social links">
-          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer"  aria-label="WeChat" title="WeChat">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
             <img src='https://static.igem.wiki/teams/5822/newassets/images/home/wechat.webp' alt="WeChat" className='social-icon' />
           </a>
           <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
