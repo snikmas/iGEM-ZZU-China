@@ -85,9 +85,9 @@ const online_1 = 'https://static.igem.wiki/teams/5822/newassets/education/online
 const online_2 = 'https://static.igem.wiki/teams/5822/newassets/education/online-2.webp';
 
 
-const PrimaryEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/education/primaryEducation.pdf';
-const StrawberryDNAExtractionWorkshopPDF = 'https://static.igem.wiki/teams/5822/newassets/education/StrawberryDNAExtractionWorkshop.pdf';
-const UniversityEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/education/UniversityEducation.pdf';
+const PrimaryEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/primary-education.pdf';
+const StrawberryDNAExtractionWorkshopPDF = 'https://static.igem.wiki/teams/5822/newassets/files/strawberry-dna-extraction-workshop.pdf';
+const UniversityEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/university-education.pdf';
 
 
 // Main education figure
