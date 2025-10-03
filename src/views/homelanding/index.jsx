@@ -4,19 +4,19 @@ import { useNavigate } from 'react-router-dom';
 import './index.css';
 import {  YoutubeOutlined } from '@ant-design/icons';
 
-const logo = 'https://static.igem.wiki/teams/5822/newassets/images/headerlogo.webp';
-const section2bg = 'https://static.igem.wiki/teams/5822/newassets/images/home/section2bg.webp';
-const section3pic = 'https://static.igem.wiki/teams/5822/newassets/images/home/section3pic.webp';
-const littlemonster = 'https://static.igem.wiki/teams/5822/newassets/images/home/littlemonster.webp';
-const section5pic = 'https://static.igem.wiki/teams/5822/newassets/images/home/section5pic.webp';
-const section6pic = 'https://static.igem.wiki/teams/5822/newassets/images/home/section6pic.webp';
-const section8pic = 'https://static.igem.wiki/teams/5822/newassets/images/home/section8pic.webp';
-const section9pic = 'https://static.igem.wiki/teams/5822/newassets/images/home/section9pic.webp';
-const section11pic1 = 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_1.webp';
-const section11pic2 = 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_2.webp';
-const section11pic3 = 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_3.webp';
-const section11pic4 = 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_4.webp';
-const section11pic5 = 'https://static.igem.wiki/teams/5822/newassets/images/home/section11pic_5.webp';
+const logo = 'https://static.igem.wiki/teams/5822/newassets/headerlogo/headerlogo.webp';
+const section2bg = 'https://static.igem.wiki/teams/5822/newassets/home/normal-cell.webp';
+const section3pic = 'https://static.igem.wiki/teams/5822/newassets/home/capture.webp';
+const littlemonster = 'https://static.igem.wiki/teams/5822/newassets/home/cancer-cell.webp';
+const section5pic = 'https://static.igem.wiki/teams/5822/newassets/home/crispr.webp';
+const section6pic = 'https://static.igem.wiki/teams/5822/newassets/home/fi.webp';
+const section8pic = 'https://static.igem.wiki/teams/5822/newassets/home/card.webp';
+const section9pic = 'https://static.igem.wiki/teams/5822/newassets/home/exosome.webp';
+const section11pic1 = 'https://static.igem.wiki/teams/5822/newassets/home/project.webp';
+const section11pic2 = 'https://static.igem.wiki/teams/5822/newassets/home/wet-lab.webp';
+const section11pic3 = 'https://static.igem.wiki/teams/5822/newassets/home/dry-lab.webp';
+const section11pic4 = 'https://static.igem.wiki/teams/5822/newassets/home/education.webp';
+const section11pic5 = 'https://static.igem.wiki/teams/5822/newassets/home/human-practice.webp';
 
 function useCountUp(target, startWhenVisible) {
   const [value, setValue] = useState(0);
@@ -215,7 +215,7 @@ function HomeLanding() {
               <li>Specifically capture exosomes</li>
               <li>Magnetic separation removes impurities, enriching target proteins</li>
             </ul>
-            <div className="fade-in delay2 capture-tags">EpCAM, Her2, MMP9, PDL1</div>
+            <div className="fade-in delay2 capture-tags">EpCAM, HER-2, MMP-9, PD-L1</div>
           </div>
           <div className="media fade-in delay1">
             <div className="capture-media">
