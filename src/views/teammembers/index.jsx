@@ -175,7 +175,6 @@ Can’t wait to learn, create, and grow with all of you in IGEM!`},
 
   return (
     <div className="teammembers">
-      <div className="team-members-container">
         {/* 导师介绍区域 */}
         <div className="mentors-section">
           <h2>Team Member</h2>
@@ -325,8 +324,7 @@ Can’t wait to learn, create, and grow with all of you in IGEM!`},
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div>\
 
 
 
