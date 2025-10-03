@@ -5,10 +5,10 @@ import '../../styles/common.css';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
-const descriptionFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure1.webp';
-const descriptionFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure2.webp';
-const descriptionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure3.webp';
-const descriptionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/entrepreneurshipFigure4.webp';
+const descriptionFigure1 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure1.webp';
+const descriptionFigure2 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure2.webp';
+const descriptionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure3.webp';
+const descriptionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure4.webp';
 
 const developmentPlanPdf = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/developmentPlan.pdf';
 
