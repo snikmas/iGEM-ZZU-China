@@ -8,39 +8,39 @@ import { DownloadOutlined } from '@ant-design/icons';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 // 导入PDF文件 - 按照提供的路径结构
 // APT-CRISPR
-const APTRCACRISPRPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab APT-RCA-CRISPR.pdf';
-const ComplementaryChainPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab Complementary chain screening.pdf';
-const CRISPRCellSuspensionPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Detection in Cell Suspension Samples.pdf';
-const CRISPRSensitivityPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Sensitivity & Specificity Valuation.pdf';
-const CRISPRHCRDetectionPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Detection.pdf';
-const CRISPRHCRSensitivityPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity Valuation.pdf';
-const DisplacementOptimizationPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/APT-CRISPR/iGEM ZZU-China 2025 Wet Lab Optimization of reaction time and temperature for displacement reactions.pdf';
+const APTRCACRISPRPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-apt-rca-crispr.pdf';
+const ComplementaryChainPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-complementary-chain-screening.pdf';
+const CRISPRCellSuspensionPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-fluorescence-detection-in-cell-suspension-samples.pdf';
+const CRISPRSensitivityPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-fluorescence-sensitivity-specificity-valuation.pdf';
+const CRISPRHCRDetectionPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-hcr-fluorescence-detection.pdf';
+const CRISPRHCRSensitivityPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-hcr-fluorescence-sensitivity-specificity-valuation.pdf';
+const DisplacementOptimizationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-reaction-time-and-temperature-for-displacement-reactions.pdf';
 
 // Cas14a
-const EnzymeActivityPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Lab Enzyme activity assay.pdf';
-const PlasmidConstructionPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Lab Plasmid Construction.pdf';
-const PlasmidExtractionPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Lab Plasmid extraction.pdf';
-const ProteinExpressionPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Protein Expression.pdf';
-const ProteinPurificationPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Protein Purification.pdf';
-const ProteinQuantificationPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Protein Quantification.pdf';
-const SDSPagePDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet SDS PAGE.pdf';
-const TransformationPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Cas14a/iGEM ZZU-China 2025 Wet Transformation.pdf';
+const EnzymeActivityPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-enzyme-activity-assay.pdf';
+const PlasmidConstructionPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-plasmid-construction.pdf';
+const PlasmidExtractionPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-plasmid-extraction.pdf';
+const ProteinExpressionPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-protein-expression.pdf';
+const ProteinPurificationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-protein-purification.pdf';
+const ProteinQuantificationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-protein-quantification.pdf';
+const SDSPagePDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-sds-page.pdf';
+const TransformationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-transformation.pdf';
 
 // Extracellular
-const BCAProteinPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab BCA protein quantification.pdf';
-const ElectronMicroscopyPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab Electron microscopy detection .pdf';
-const EVCapturePDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab Extracellular vesicle capture.pdf';
-const WBPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/Extracellular/iGEM ZZU-China 2025 Wet Lab WB.pdf';
+const BCAProteinPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-bca-protein-quantification.pdf';
+const ElectronMicroscopyPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-electron-microscopy-detection.pdf';
+const EVCapturePDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-extracellular-vesicle-capture.pdf';
+const WBPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-wb.pdf';
 
 // HCR
-const HCRAmplificationPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Determination of HCR Amplification Fold.pdf';
-const HCRFinalPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab HCR final protocol.pdf';
-const HCROptimizationConcPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction concentration.pdf';
-const HCROptimizationTempPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction temperature.pdf';
-const HCROptimizationTimePDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/HCR/iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction time.pdf';
+const HCRAmplificationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-determination-of-hcr-amplification-fold.pdf';
+const HCRFinalPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-hcr-final-protocol.pdf';
+const HCROptimizationConcPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-hcr-reaction-concentration.pdf';
+const HCROptimizationTempPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-hcr-reaction-temperature.pdf';
+const HCROptimizationTimePDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-hcr-reaction-time.pdf';
 
 // RCA
-const RCAPDF = 'https://static.igem.wiki/teams/5822/newassets/images/experiments/RCA/iGEM ZZU-China 2025 Wet Lab RCA .pdf';
+const RCAPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-rca.pdf';
 
 
 
