@@ -49,7 +49,7 @@ const InterviewFigure16 = 'https://static.igem.wiki/teams/5822/newassets/ihp/int
 
 
 // 5 DONE
-const SurveyPDF = 'https://static.igem.wiki/teams/5822/newassets/ihp/survey.pdf';
+const SurveyPDF = 'https://static.igem.wiki/teams/5822/newassets/files/survey.pdf';
 
 // 6 DONE
 const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/fbi/figure1.webp';
