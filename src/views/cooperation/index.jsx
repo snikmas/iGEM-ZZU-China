@@ -9,35 +9,35 @@ const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 const overview = 'https://static.igem.wiki/teams/5822/newassets/collaborations/overview.webp';
 
-const figure1 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-1.webp';
-const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-1-1.webp';
+const figure1 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/1.webp';
+const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/2.webp';
 const figure3 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/3.webp';
 const figure4 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/4.webp';
-const figure5 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/collaborationfigure1-5.webp';
+const figure5 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/5.webp';
 
-const figure6 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure6.webp';
-const figure7 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure7.webp';
-const figure8 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure8.webp';
-const figure9 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure9.webp';
-const figure10 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure10.webp';
-const figure11 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure11.webp';
-const figure12 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure12.webp';
-const figure13 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure13.webp';
-const figure14 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure14.webp';
+const figure6 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/6.webp';
+const figure7 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/7.webp';
+const figure8 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/8.webp';
+const figure9 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/9.webp';
+const figure10 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/10.webp';
+const figure11 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/11.webp';
+const figure12 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/12.webp';
+const figure13 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/13.webp';
+const figure14 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/14.webp';
 
-const figure16 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure16.webp';
-const figure17 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure17.webp';
-const figure18 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure18.webp';
-const figure19 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure19.webp';
-const figure20 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure20.webp';
-const figure21 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure21.webp';
-const figure22 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure22.webp';
-const figure23 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure23.webp';
-const figure24 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure24.webp';
-const figure25 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure25.webp';
-const figure26 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure26.webp';
-const figure27 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure27.webp';
-const figure28 = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/figure28.webp';
+const figure16 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/16.webp';
+const figure17 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/17.webp';
+const figure18 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/18.webp';
+const figure19 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/19.webp';
+const figure20 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/20.webp';
+const figure21 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/21.webp';
+const figure22 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/22.webp';
+const figure23 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/23.webp;
+const figure24 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/24.webp';
+const figure25 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/25.webp';
+const figure26 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/26.webp';
+const figure27 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/27.webp';
+const figure28 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/28.webp';
 const videoFile = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/video.mp4';
 
 
