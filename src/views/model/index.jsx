@@ -510,12 +510,12 @@ const MainContent = () => (
       </div>
       <div className="content-body">
         <ol className="reference-list">
-          <li>[1] Ji C, Wei J, Zhang L, et al. Aptamer-Protein Interactions: From Regulation to Biomolecular Detection. Chem Rev. 2023;123(22):12471-12506.</li>
-          <li>[2] Song Z, Mao J, Barrero RA, Wang P, Zhang F, Wang T. Development of a CD63 Aptamer for Efficient Cancer Immunochemistry and Immunoaffinity-Based Exosome Isolation. Molecules. 2020;25(23):5585. Published 2020 Nov 27. doi:10.3390/molecules25235585</li>
-          <li>[3] Yan, J., Bhadane, R., Ran, M. et al. Development of Aptamer-DNAzyme based metal-nucleic acid frameworks for gastric cancer therapy. Nat Commun 15, 3684 (2024). https://doi.org/10.1038/s41467-024-48149-9</li>
-          <li>[4] Lai WY, Huang BT, Wang JW, Lin PY, Yang PC. A Novel PD-L1-targeting Antagonistic DNA Aptamer With Antitumor Effects. Mol Ther Nucleic Acids. 2016;5(12):e397. Published 2016 Dec 13. doi:10.1038/mtna.2016.102</li>
-          <li>[5] Guan X, Zhao J, Sha Z, et al. CRISPR/Cas12a and aptamer-chemiluminescence based analysis for the relative abundance determination of tumor-related protein positive exosomes for breast cancer diagnosis. Biosens Bioelectron. 2024;259:116380. doi:10.1016/j.bios.2024.116380</li>
-          <li>[6] Yu XA, Hu Y, Zhang Y, et al. Integrating the Polydopamine Nanosphere/Aptamers Nanoplatform with a DNase-I-Assisted Recycling Amplification Strategy for Simultaneous Detection of MMP-9 and MMP-2 during Renal Interstitial Fibrosis. ACS Sens. 2020;5(4):1119-1125. doi:10.1021/acssensors.0c00058</li>
+          <li> Ji C, Wei J, Zhang L, et al. Aptamer-Protein Interactions: From Regulation to Biomolecular Detection. Chem Rev. 2023;123(22):12471-12506.</li>
+          <li> Song Z, Mao J, Barrero RA, Wang P, Zhang F, Wang T. Development of a CD63 Aptamer for Efficient Cancer Immunochemistry and Immunoaffinity-Based Exosome Isolation. Molecules. 2020;25(23):5585. Published 2020 Nov 27. doi:10.3390/molecules25235585</li>
+          <li> Yan, J., Bhadane, R., Ran, M. et al. Development of Aptamer-DNAzyme based metal-nucleic acid frameworks for gastric cancer therapy. Nat Commun 15, 3684 (2024). https://doi.org/10.1038/s41467-024-48149-9</li>
+          <li> Lai WY, Huang BT, Wang JW, Lin PY, Yang PC. A Novel PD-L1-targeting Antagonistic DNA Aptamer With Antitumor Effects. Mol Ther Nucleic Acids. 2016;5(12):e397. Published 2016 Dec 13. doi:10.1038/mtna.2016.102</li>
+          <li> Guan X, Zhao J, Sha Z, et al. CRISPR/Cas12a and aptamer-chemiluminescence based analysis for the relative abundance determination of tumor-related protein positive exosomes for breast cancer diagnosis. Biosens Bioelectron. 2024;259:116380. doi:10.1016/j.bios.2024.116380</li>
+          <li> Yu XA, Hu Y, Zhang Y, et al. Integrating the Polydopamine Nanosphere/Aptamers Nanoplatform with a DNase-I-Assisted Recycling Amplification Strategy for Simultaneous Detection of MMP-9 and MMP-2 during Renal Interstitial Fibrosis. ACS Sens. 2020;5(4):1119-1125. doi:10.1021/acssensors.0c00058</li>
         </ol>
       </div>
     </div>
