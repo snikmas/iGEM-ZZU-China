@@ -41,7 +41,7 @@ const figure30 = 'https://static.igem.wiki/teams/5822/results/figure30.webp';
 const figure31 = 'https://static.igem.wiki/teams/5822/results/figure31.webp';
 const figure32 = 'https://static.igem.wiki/teams/5822/results/figure32.webp';
 const figure33 = 'https://static.igem.wiki/teams/5822/results/figure33.webp';
-const figure34 = 'https://static.igem.wiki/teams/5822/results/figure34.webp';
+const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-34.webp';
 const figure35 = 'https://static.igem.wiki/teams/5822/results/figure35.webp';
 const figure36 = 'https://static.igem.wiki/teams/5822/results/figure36.webp';
 
