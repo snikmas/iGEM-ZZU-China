@@ -38,7 +38,7 @@ const figure25 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/2
 const figure26 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/26.webp';
 const figure27 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/27.webp';
 const figure28 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/28.webp';
-const videoFile = 'https://static.igem.wiki/teams/5822/newassets/images/collaborations/video.mp4';
+const videoFile = 'https://video.igem.org/w/4fn358tiUgPLNzKES39Rnh';
 
 
 // 组件定义 1
