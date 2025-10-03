@@ -12,21 +12,21 @@ const zhangshanfengmentor = 'https://static.igem.wiki/teams/5822/newassets/image
 
 // 导入团队成员图片
 const avatarCanyangWang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Canyang Wang.jpg';
-const avatarSnik = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/snik.jpg';
-const avatarYutongLiu = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yutong Wang.jpg';
-const avatarJijingBa = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Jijing Ba.jpg';
-const avatarTianhuiChen = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Tianhui Chen.jpg';
-const avatarYuxiaoZhang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yuxiao Zhang.jpg';
-const avatarJingLei = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Jing Lei.jpg';
-const avatarWenlanFang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Wenlan Fang.jpg';
-const avatarYuxuanXia = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yuxuan Xia.jpg';
-const avatarMengyaoYu = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Mengyao Yu.jpg';
-const avatarXiaoranJi = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Xiaoran Ji.jpg';
-const avatarZhiquanZhang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Zhiquan Zhang.jpg';
-const avatarPeilinLi = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Peilin Li.jpg';
-const avatarXinzeLi = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Xinze Li.jpg';
-const avatarPengjieWang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Pengjie Wang.jpg';
-const avatarYufeiHuang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yufei Huang.jpg';
+const avatarSnik = 'https://static.igem.wiki/teams/5822/newassets/members/snik.webp';
+const avatarYutongLiu = 'https://static.igem.wiki/teams/5822/newassets/members/yutong-wang.webp';
+const avatarJijingBa = 'https://static.igem.wiki/teams/5822/newassets/members/jijing-ba.webp';
+const avatarTianhuiChen = 'https://static.igem.wiki/teams/5822/newassets/members/tianhui-chen.webp';
+const avatarYuxiaoZhang = 'https://static.igem.wiki/teams/5822/newassets/members/yuxiao-zhang.webp';
+const avatarJingLei = 'https://static.igem.wiki/teams/5822/newassets/members/jing-lei.webp';
+const avatarWenlanFang = 'https://static.igem.wiki/teams/5822/newassets/members/wenlan-fang.webp';
+const avatarYuxuanXia = 'https://static.igem.wiki/teams/5822/newassets/members/yuxuan-xia.webp';
+const avatarMengyaoYu = 'https://static.igem.wiki/teams/5822/newassets/members/mengyao-yu.webp';
+const avatarXiaoranJi = 'https://static.igem.wiki/teams/5822/newassets/members/xiaoran-ji.webp';
+const avatarZhiquanZhang = 'https://static.igem.wiki/teams/5822/newassets/members/zhiquan-zhang.webp';
+const avatarPeilinLi = 'https://static.igem.wiki/teams/5822/newassets/members/peilin-li.webp';
+const avatarXinzeLi = 'https://static.igem.wiki/teams/5822/newassets/members/xinze-li.webp';
+const avatarPengjieWang = 'https://static.igem.wiki/teams/5822/newassets/members/pengjie-wang.webp';
+const avatarYufeiHuang = 'https://static.igem.wiki/teams/5822/newassets/members/yufei-huang.webp';
 
 
 
