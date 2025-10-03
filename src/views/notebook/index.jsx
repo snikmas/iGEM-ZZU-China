@@ -6,18 +6,18 @@ import '../../styles/common.css';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 
-const image1 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年10月.webp';
-const image2 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年11月.webp';
-const image3 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/24年12月.webp';
-const image4 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年1月.webp';
-const image5 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年2月.webp';
-const image6 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年3月.webp';
-const image7 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年4月.webp';
-const image8 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年5月.webp';
-const image9 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年6月.webp';
-const image10 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年7月.webp';
-const image11 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年8月.webp';
-const image12 = 'https://static.igem.wiki/teams/5822/newassets/images/notebook/25年9月.webp';
+const image1 = 'https://static.igem.wiki/teams/5822/newassets/notebook/24-10.webp';
+const image2 = 'https://static.igem.wiki/teams/5822/newassets/notebook/24-11.webp';
+const image3 = 'https://static.igem.wiki/teams/5822/newassets/notebook/24-12.webp';
+const image4 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-1.webp';
+const image5 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-2.webp';
+const image6 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-3.webp';
+const image7 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-4.webp';
+const image8 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-5.webp';
+const image9 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-6.webp';
+const image10 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-7.webp';
+const image11 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-8.webp';
+const image12 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-9.webp';
 
 // 组件定义 1
 const MainContent = () => (
