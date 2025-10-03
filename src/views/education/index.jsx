@@ -18,13 +18,13 @@ const Primary_4 = 'https://static.igem.wiki/teams/5822/newassets/education/4.web
 const Primary_5 = 'https://static.igem.wiki/teams/5822/newassets/education/5.webp';
 
 
-const Primary_6 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-6.webp';
-const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-7.webp';
+const Primary_6 = 'https://static.igem.wiki/teams/5822/newassets/education/pri6.webp';
+const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/education/pri7.webp';
 const Primary_8 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-8.webp';
 const Primary_9 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-9.webp';
 const Primary_10 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-10.webp';
 
-const Primary_11 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-11.webp';
+const Primary_11 = 'https://static.igem.wiki/teams/5822/newassets/education/primaiary11.webp';
 const Primary_12 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-12.webp';
 const Primary_13 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-13.webp';
 const Primary_14 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-14.webp';
@@ -33,14 +33,14 @@ const Primary_16 = 'https://static.igem.wiki/teams/5822/newassets/education/prim
 const Primary_17 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-17.webp';
 
 // Middle School Images (1-3)
-const Middle_1 = 'https://static.igem.wiki/teams/5822/newassets/education/middle-1.webp';
+const Middle_1 = 'https://static.igem.wiki/teams/5822/newassets/education/middle1.webp';
 const Middle_2 = 'https://static.igem.wiki/teams/5822/newassets/education/middle-2.webp';
 const Middle_3 = 'https://static.igem.wiki/teams/5822/newassets/education/middle-3.webp';
 
 // High School Images (1-5)
 const high_1 = 'https://static.igem.wiki/teams/5822/newassets/education/high-1.webp';
-const high_2 = 'https://static.igem.wiki/teams/5822/newassets/education/high-2.webp';
-const high_3 = 'https://static.igem.wiki/teams/5822/newassets/education/high-3.webp';
+const high_2 = 'https://static.igem.wiki/teams/5822/newassets/education/high2.webp';
+const high_3 = 'https://static.igem.wiki/teams/5822/newassets/education/high3.webp';
 const high_4 = 'https://static.igem.wiki/teams/5822/newassets/education/high-4.webp';
 const high_5 = 'https://static.igem.wiki/teams/5822/newassets/education/high-5.webp';
 
@@ -58,31 +58,31 @@ const university_7 = 'https://static.igem.wiki/teams/5822/newassets/education/un
 const university_8 = 'https://static.igem.wiki/teams/5822/newassets/education/university-8.webp';
 const university_9 = 'https://static.igem.wiki/teams/5822/newassets/education/university-9.webp';
 const university_10 = 'https://static.igem.wiki/teams/5822/newassets/education/university-10.webp';
-const university_11 = 'https://static.igem.wiki/teams/5822/newassets/education/university-11.webp';
-const university_12 = 'https://static.igem.wiki/teams/5822/newassets/education/university-12.webp';
-const university_13 = 'https://static.igem.wiki/teams/5822/newassets/education/university-13.webp';
+const university_11 = 'https://static.igem.wiki/teams/5822/newassets/education/uni-11.webp';
+const university_12 = 'https://static.igem.wiki/teams/5822/newassets/education/uni-12.webp';
+const university_13 = 'https://static.igem.wiki/teams/5822/newassets/education/uni-13.webp';
 
 
 
-const community_1 = 'https://static.igem.wiki/teams/5822/newassets/education/community-1.webp';
-const community_2 = 'https://static.igem.wiki/teams/5822/newassets/education/community-2.webp';
-const community_3 = 'https://static.igem.wiki/teams/5822/newassets/education/community-3.webp';
-const community_4 = 'https://static.igem.wiki/teams/5822/newassets/education/community-4.webp';
-const community_5 = 'https://static.igem.wiki/teams/5822/newassets/education/community-5.webp';
-const community_6 = 'https://static.igem.wiki/teams/5822/newassets/education/community-6.webp';
-const community_7 = 'https://static.igem.wiki/teams/5822/newassets/education/community-7.webp';
+const community_1 = 'https://static.igem.wiki/teams/5822/newassets/education/com1.webp';
+const community_2 = 'https://static.igem.wiki/teams/5822/newassets/education/com2.webp';
+const community_3 = 'https://static.igem.wiki/teams/5822/newassets/education/com3.webp';
+const community_4 = 'https://static.igem.wiki/teams/5822/newassets/education/com4.webp';
+const community_5 = 'https://static.igem.wiki/teams/5822/newassets/education/comm5.webp';
+const community_6 = 'https://static.igem.wiki/teams/5822/newassets/education/com6.webp';
+const community_7 = 'https://static.igem.wiki/teams/5822/newassets/education/com7.webp';
 
-const professional_1 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-1.webp';
-const professional_2 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-2.webp';
-const professional_3 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-3.webp';
-// const professional_4 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-4.webp';
-const professional_5 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-5.webp';
-const professional_6 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-6.webp';
-const professional_7 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-7.webp';
-const professional_8 = 'https://static.igem.wiki/teams/5822/newassets/education/professional-8.webp';
+const professional_1 = 'https://static.igem.wiki/teams/5822/newassets/education/pro1.webp';
+const professional_2 = 'https://static.igem.wiki/teams/5822/newassets/education/pro2.webp';
+const professional_3 = 'https://static.igem.wiki/teams/5822/newassets/education/pro3.webp';
+const professional_4 = 'https://static.igem.wiki/teams/5822/newassets/education/pro4.webp';
+const professional_5 = 'https://static.igem.wiki/teams/5822/newassets/education/pro5.webp';
+const professional_6 = 'https://static.igem.wiki/teams/5822/newassets/education/pro6.webp';
+const professional_7 = 'https://static.igem.wiki/teams/5822/newassets/education/pro7.webp';
+const professional_8 = 'https://static.igem.wiki/teams/5822/newassets/education/pro8.webp';
 
-const online_1 = 'https://static.igem.wiki/teams/5822/newassets/education/online-1.webp';
-const online_2 = 'https://static.igem.wiki/teams/5822/newassets/education/online-2.webp';
+const online_1 = 'https://static.igem.wiki/teams/5822/newassets/education/wechat1.webp';
+const online_2 = 'https://static.igem.wiki/teams/5822/newassets/education/vedio2.webp';
 
 
 const PrimaryEducationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/primary-education.pdf';
