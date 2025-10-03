@@ -147,6 +147,8 @@
   opacity: 0.8;
 }
 
+
+
 .team-tasks {
   margin-top: 2rem;
   padding: 1.5rem;
@@ -161,61 +163,7 @@
   text-align: center;
 }
 
-.tasks-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.tasks-grid-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.task-item {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.task-item:hover {
-  transform: translateY(-5px);
-}
-
-.task-item-member-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: 1rem;
-  border: 3px solid #623a3f;
-}
-
-.task-item-member-avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.task-item h3 {
-  margin: 0 0 0.5rem 0;
-  color: #623a3f;
-}
-
-.task-item p {
-  margin: 0.5rem 0;
-  line-height: 1.6;
-  color: #555;
-}
-
-.task-item strong {
-  color: #623a3f;
-}
-
+/* 团队介绍部分 */
 .team-tasks-intro {
   margin: 2rem 0;
   padding: 1.5rem;
@@ -240,44 +188,133 @@
   text-align: justify;
 }
 
-@media (max-width: 768px) {
-  .team-introduction {
-    padding: 0 1rem;
-  }
-  
-  .team-header h1 {
-    font-size: 2rem;
-  }
-  
-  .team-content {
-    padding: 1.5rem;
-  }
-  
-  .team-quote {
-    padding: 1rem;
-  }
-  
-  .team-text {
-    font-size: 0.95rem;
-  }
-  
-  .visual-element {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .molecule,
-  .dna {
-    width: 60px;
-    height: 60px;
-  }
-  
+
+/* 任务网格 - 两列布局 */
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+/* 任务卡片 */
+.task-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* 卡片头部 */
+.task-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+/* 头像 */
+.task-card-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 3px solid #623a3f;
+}
+
+.task-card-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 卡片信息 */
+.task-card-info {
+  flex: 1;
+}
+
+.task-card-info h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.task-card-role {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* 卡片主体 */
+.task-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 任务部分 */
+.task-section {
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.task-section h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.task-section p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  text-align: left;
+  white-space: pre-line;
+}
+
+/* 移除旧的样式 */
+.tasks-grid-item {
+  display: none;
+}
+
+.task-item {
+  display: none;
+}
+
+/* 响应式设计 */
+@media (max-width: 968px) {
   .tasks-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 768px) {
+  .task-card-header {
+    flex-direction: column;
+    text-align: center;
+  }
   
-  .task-item-member-avatar {
-    width: 60px;
-    height: 60px;
+  .task-card-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .task-card-info h3 {
+    font-size: 1.1rem;
   }
 }

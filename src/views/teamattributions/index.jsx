@@ -299,46 +299,32 @@ Web Development: Handle the integration of front-end and back-end components. Op
 
 
             <div className="tasks-grid">
-              <div className="tasks-grid-item tasks-grid-1">
-                {teamMembers.filter((_, index) => index % 3 === 0).map((member, index) => (
-                  <div key={index} className="task-item">
-                    <div className="task-item-member-avatar">
-                      <img src={member.image} alt={member.name} />
-                    </div>
-                    <h3>{member.name}</h3>
-                    <p><strong>Role: </strong>{member.role}</p>
-                    <p><strong>Tasks: </strong>{member.tasks}</p>
-                    <p><strong>Specific tasks: </strong>{member.specificTasks}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="tasks-grid-item tasks-grid-2">
-                {teamMembers.filter((_, index) => index % 3 === 1).map((member, index) => (
-                  <div key={index} className="task-item">
-                    <div className="task-item-member-avatar">
-                      <img src={member.image} alt={member.name} />
-                    </div>
-                    <h3>{member.name}</h3>
-                    <p><strong>Role: </strong>{member.role}</p>
-                    <p><strong>Tasks: </strong>{member.tasks}</p>
-                    <p><strong>Specific tasks: </strong>{member.specificTasks}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="tasks-grid-item tasks-grid-3">
-                {teamMembers.filter((_, index) => index % 3 === 2).map((member, index) => (
-                  <div key={index} className="task-item">
-                    <div className="task-item-member-avatar">
-                      <img src={member.image} alt={member.name} />
-                    </div>
-                    <h3>{member.name}</h3>
-                    <p><strong>Role: </strong>{member.role}</p>
-                    <p><strong>Tasks: </strong>{member.tasks}</p>
-                    <p><strong>Specific tasks: </strong>{member.specificTasks}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+  {teamMembers.map((member, index) => (
+    <div key={index} className="task-card">
+      <div className="task-card-header">
+        <div className="task-card-avatar">
+          <img src={member.image} alt={member.name} />
+        </div>
+        <div className="task-card-info">
+          <h3>{member.name}</h3>
+          <p className="task-card-role">{member.role}</p>
+        </div>
+      </div>
+      
+      <div className="task-card-body">
+        <div className="task-section">
+          <h4>Tasks:</h4>
+          <p>{member.tasks}</p>
+        </div>
+        
+        <div className="task-section">
+          <h4>Specific tasks:</h4>
+          <p>{member.specificTasks}</p>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
 
 
 
