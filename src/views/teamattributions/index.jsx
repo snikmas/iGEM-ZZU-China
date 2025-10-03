@@ -42,7 +42,7 @@ function TeamAttributions() {
       specificTasks: `Overall Leadership: Took overall responsibility for the project, determining the project direction and goals. Led the team to make important decisions and ensured the project's scientific and innovative nature.
 Strategic Planning: Formulated the project's long - term development strategy and phase plans. Made sure the project was in line with academic frontiers and practical application needs.
 External Cooperation: Responsible for external communication and cooperation of the project, connecting with sponsors, academic institutions, etc. Expanded the project's influence and resource channels to provide support for project development.`,
-      image: lipengmentor
+      image: lipeimentor
     },
     {
       name: "Kangdong Liu",
