@@ -2,13 +2,13 @@ import React, { } from 'react';
 import './index.css';
 
 
-const dongbinmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/董杉-mentor.jpg';
-const lipengmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/李沛.webp';
-const liukangdongmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/刘康栋.webp';
-const panzhifengmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/潘志峰.webp';
-const wangzhenlongmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/王振龙.jpg';
-const zangwenqiaomentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/臧文巧.jpeg';
-const zhangshanfengmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/张善锋.jpg';
+const dongbinmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/sandong.webp';
+const lipengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/peili.webp';
+const liukangdongmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/kangdongliu.webp';
+const panzhifengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/zhifengpan.webp';
+const wangzhenlongmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/zenglongwang.webp';
+const zangwenqiaomentor = 'hhttps://static.igem.wiki/teams/5822/newassets/members/mentors/wenciaozang.webp';
+const zhangshanfengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/shanfengzhang.webp';
 
 // 导入团队成员图片
 const avatarCanyangWang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Canyang Wang.jpg';
