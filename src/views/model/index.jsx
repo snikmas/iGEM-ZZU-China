@@ -22,7 +22,7 @@ const modelFigure12 = 'https://static.igem.wiki/teams/5822/newassets/model/figur
 const modelFigure13 = 'https://static.igem.wiki/teams/5822/newassets/model/figure13-michaelis-menten-kinetics-of-cas14a.webp';
 const modelFigure14 = 'https://static.igem.wiki/teams/5822/newassets/model/figure14-cas14a-fluorescence-signal-30-min.webp';
 
-const howtousePymol = 'https://static.igem.wiki/teams/5822/newassets/images/model/howtousePymol.pdf';
+const howtousePymol = 'https://static.igem.wiki/teams/5822/newassets/files/how-to-use-pymol.pdf';
 // 组件定义
 const MainContent = () => (
   <>
