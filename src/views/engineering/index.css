@@ -1,0 +1,110 @@
+/* Iteration Tabs 样式 */
+.iteration-tabs {
+    display: flex;
+    gap: 0;
+    margin: 30px 0 20px 0;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    border: 2px solid #633c3f;
+    width: fit-content;
+  }
+  
+  .iteration-tab {
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: #633c3f;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-right: 1px solid #633c3f;
+    position: relative;
+  }
+  
+  .iteration-tab:last-child {
+    border-right: none;
+  }
+  
+  .iteration-tab:hover {
+    background-color: #f0f4f8;
+  }
+  
+  .iteration-tab.active {
+    background-color: #633c3f;
+    color: #ffffff;
+  }
+  
+  /* Iteration Content 样式 */
+  .iteration-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 0 8px 8px 8px;
+    border: 2px solid #e0e0e0;
+    margin-bottom: 30px;
+  }
+  
+  .iteration-content .h3 {
+    color: #633c3f;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #633c3f;
+  }
+  
+  .iteration-content .h4 {
+    color: #633c3f;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+  }
+  
+  .iteration-content p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .iteration-content span {
+    font-weight: 600;
+    color: #633c3f;
+  }
+  
+  .iteration-content ul,
+  .iteration-content ol {
+    margin: 15px 0;
+    padding-left: 30px;
+  }
+  
+  .iteration-content li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .iteration-tabs {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    
+    .iteration-tab {
+      flex: 1;
+      min-width: 120px;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+    
+    .iteration-content {
+      padding: 20px 15px;
+    }
+    
+    .iteration-content .h3 {
+      font-size: 1.2rem;
+    }
+    
+    .iteration-content .h4 {
+      font-size: 1rem;
+    }
+  }
