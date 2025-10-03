@@ -6,9 +6,9 @@ import '../../styles/common.css';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Engineering相关图片导入
-const engineeringFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure1.webp';
-const engineeringFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure2.webp';
-const engineeringFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/engineering/Figure3.webp';
+const engineeringFigure1 = 'https://static.igem.wiki/teams/5822/newassets/engineering/figure1-igem-engineering-cycle.webp';
+const engineeringFigure2 = 'https://static.igem.wiki/teams/5822/newassets/engineering/figure2-lab-iteration-diagram.webp';
+const engineeringFigure3 = 'https://static.igem.wiki/teams/5822/newassets/engineering/figure3.webp';
 
 // 组件定义
 const MainContent = () => (
