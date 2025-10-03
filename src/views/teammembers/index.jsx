@@ -11,7 +11,7 @@ const zangwenqiaomentor = 'https://static.igem.wiki/teams/5822/newassets/images/
 const zhangshanfengmentor = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/mentors/张善锋.jpg';
 
 // 导入团队成员图片
-const avatarCanyangWang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Canyang Wang.jpg';
+const avatarCanyangWang = 'https://static.igem.wiki/teams/5822/newassets/members/canyang-wang.webp';
 const avatarSnik = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/snik.jpg';
 const avatarYutongLiu = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Yutong Wang.jpg';
 const avatarJijingBa = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Jijing Ba.jpg';
