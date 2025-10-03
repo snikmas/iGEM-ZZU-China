@@ -7,11 +7,11 @@ const lipengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/ment
 const liukangdongmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/kangdongliu.webp';
 const panzhifengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/zhifengpan.webp';
 const wangzhenlongmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/zenglongwang.webp';
-const zangwenqiaomentor = 'hhttps://static.igem.wiki/teams/5822/newassets/members/mentors/wenciaozang.webp';
+const zangwenqiaomentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/wenciaozang.webp';
 const zhangshanfengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/shanfengzhang.webp';
 
 // 导入团队成员图片
-const avatarCanyangWang = 'https://static.igem.wiki/teams/5822/newassets/images/team_menbers/members/Canyang Wang.jpg';
+const avatarCanyangWang = 'https://static.igem.wiki/teams/5822/newassets/members/canyang-wang.webp';
 const avatarSnik = 'https://static.igem.wiki/teams/5822/newassets/members/snik.webp';
 const avatarYutongLiu = 'https://static.igem.wiki/teams/5822/newassets/members/yutong-wang.webp';
 const avatarJijingBa = 'https://static.igem.wiki/teams/5822/newassets/members/jijing-ba.webp';
