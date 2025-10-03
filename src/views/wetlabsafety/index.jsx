@@ -5,7 +5,7 @@ import '../../styles/common.css';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/safety/safety.webp';
 const safetyPdf = 'https://static.igem.wiki/teams/5822/newassets/images/wetlabsafety/safetyPdf.pdf';
-const safetyFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/wetlabsafety/safety.webp';
+const safetyFigure1 = 'https://static.igem.wiki/teams/5822/newassets/safety/safety.webp';
 
 // 组件定义
 const MainContent = () => (
