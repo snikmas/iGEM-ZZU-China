@@ -13,10 +13,34 @@ pages:
     - mkdir -p public
     # 直接使用构建的文件
     - cp -r build/* public/
-    # 为 SPA 路由创建 404 重定向
+    # 为 SPA 路由创建 404 重定向 - 关键修改
     - cp public/index.html public/404.html
-    # 创建 _redirects 文件支持客户端路由
-    - echo "/*    /index.html   200" > public/_redirects
+    # 创建自定义的 404.html 用于处理子路径路由
+    - |
+      cat > public/404.html << 'EOF'
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8">
+          <title>Redirecting...</title>
+          <script>
+            // GitLab Pages SPA 路由重定向脚本
+            (function() {
+              var pathSegmentsToKeep = 1; // /zzu-china 是一个段
+              var l = window.location;
+              var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+                l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+                (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                l.hash;
+              l.replace(redirect);
+            })();
+          </script>
+        </head>
+        <body>
+        </body>
+      </html>
+      EOF
   artifacts:
     paths:
       - public
