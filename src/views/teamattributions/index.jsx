@@ -3,7 +3,7 @@ import './index.css';
 
 
 const dongbinmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/sandong.webp';
-const lipengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/peili.webp';
+const lipeimentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/peili.webp';
 const liukangdongmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/kangdongliu.webp';
 const panzhifengmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/zhifengpan.webp';
 const wangzhenlongmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/zenglongwang.webp';
