@@ -6,20 +6,21 @@ import '../../styles/common.css';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Model相关图片导入 (假设图片在model文件夹中)
-const modelFigure1 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure1.webp';
-const modelFigure2 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure2.webp';
-const modelFigure3 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure3.webp';
-const modelFigure4 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure4.webp';
-const modelFigure5 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure5.webp';
-const modelFigure6 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure6.webp';
-const modelFigure7 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure7.webp';
-const modelFigure8 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure8.webp';
-const modelFigure9 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure9.webp';
-const modelFigure10 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure10.webp';
-const modelFigure11 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure11.webp';
-const modelFigure12 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure12.webp';
-const modelFigure13 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure13.webp';
-const modelFigure14 = 'https://static.igem.wiki/teams/5822/newassets/images/model/Figure14.webp';
+// https://static.igem.wiki/teams/5822/newassets/
+const modelFigure1 = 'https://static.igem.wiki/teams/5822/newassets/model/figure1-schematic-diagram.webp';
+const modelFigure2 =  'https://static.igem.wiki/teams/5822/newassets/model/figure2-the-structure-of-the-aptamer.webp';
+const modelFigure3 =  'https://static.igem.wiki/teams/5822/newassets/model/figure3-the-tertiary-structure-of-nucleic-acid-aptamers.webp';
+const modelFigure4 =  'https://static.igem.wiki/teams/5822/newassets/model/figure4-schematic-diagram-of-protein-structure.webp';
+const modelFigure5 =  'https://static.igem.wiki/teams/5822/newassets/model/figure5-schematic-diagram-of-docking-results-of-four-target-proteins.webp';
+const modelFigure6 =  'https://static.igem.wiki/teams/5822/newassets/model/figure6-apt-apt-c-complementary-sequence.webp';
+const modelFigure7 =  'https://static.igem.wiki/teams/5822/newassets/model/figure7-crrna-identification-sequence-and-pam-sequence.webp';
+const modelFigure8 =  'https://static.igem.wiki/teams/5822/newassets/model/	figure8-apt-c-sequence.webp';
+const modelFigure9 =  'https://static.igem.wiki/teams/5822/newassets/model/figure9-her-2-apt-apt-c-binding-site-and-g-tm-value.webp';
+const modelFigure10 = 'https://static.igem.wiki/teams/5822/newassets/model/figure10-her-2-apt-hairpin-structure-and-g-tm-value.webp';
+const modelFigure11 = 'https://static.igem.wiki/teams/5822/newassets/model/figure11-apt-c-hairpin-structure-and-g-tm-value.webp';
+const modelFigure12 = 'https://static.igem.wiki/teams/5822/newassets/model/figure12-schematic-of-apt-target-complementary-strand-dynamic-equilibrium.webp';
+const modelFigure13 = 'https://static.igem.wiki/teams/5822/newassets/model/figure13-michaelis-menten-kinetics-of-cas14a.webp';
+const modelFigure14 = 'https://static.igem.wiki/teams/5822/newassets/model/figure14-cas14a-fluorescence-signal-30-min.webp';
 
 const howtousePymol = 'https://static.igem.wiki/teams/5822/newassets/images/model/howtousePymol.pdf';
 // 组件定义
