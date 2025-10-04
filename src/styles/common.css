@@ -18,8 +18,7 @@
   background: #fff;
   color: #530c16;
   position: fixed;
-  left: 20px;
-  top: 80px;
+  top: 530px;
   z-index: 1000;
   transform: translateX(-100%) rotateY(-15deg);
   transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -28,6 +27,10 @@
   border-radius: 30px;
   border: 2px dashed #69393e;
   backdrop-filter: blur(10px);
+}
+
+.view-sidebar.fixed-top {
+  top: 90px;
 }
 
 .view.loaded .view-sidebar {

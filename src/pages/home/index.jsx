@@ -59,7 +59,7 @@ function Home() {
           <Route path="/human-practice" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><HumanPractice /></PageWrapper>} />
 
           {/* 对应 mega-panel 子菜单 - 都需要包装 */}
-          <Route path="/team/members" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/2054c6ebcb130d02612ddce01d8de135.webp"><TeamMembers /></PageWrapper>} />
+          <Route path="/team/members" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/d501e8fe6abaa8f7ef0667fbd0b97d55.webp"><TeamMembers /></PageWrapper>} />
           <Route path="/team/attributions" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><TeamAttributions /></PageWrapper>} />
 
           <Route path="/project/description" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><ProjectDescription /></PageWrapper>} />
@@ -76,7 +76,7 @@ function Home() {
           <Route path="/dry-lab/model" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Model /></PageWrapper>} />
           <Route path="/dry-lab/software" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Software /></PageWrapper>} />
 
-          <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/d501e8fe6abaa8f7ef0667fbd0b97d55.webp"><IHP /></PageWrapper>} />
+          <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/2054c6ebcb130d02612ddce01d8de135.webp"><IHP /></PageWrapper>} />
           <Route path="/human-practice/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Entrepreneurship /></PageWrapper>} />
           <Route path="/human-practice/cooperation" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Cooperation /></PageWrapper>} />
 
