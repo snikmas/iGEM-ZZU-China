@@ -91,9 +91,9 @@ const CooperationFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/
 const CooperationFigure2_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-6.webp';
 const CooperationFigure2_7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-7.webp';
 const CooperationFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-1.webp';
-const CooperationFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-2.webp';
+const CooperationFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperation3-2.webp';
 const CooperationFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-3.webp';
-const CooperationFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-4.webp';
+const CooperationFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperation3-4.webp';
 const CooperationFigure3_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-5.webp';
 
 
@@ -116,7 +116,7 @@ const InclusivenessFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/ih
 const InclusivenessFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-3-2.webp';
 const InclusivenessFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-3-3.webp';
 const InclusivenessFigure5_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-1.webp';
-const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-2.webp';
+const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusivenessfigure5-2.webp';
 const InclusivenessFigure5_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-3.webp';
 const InclusivenessFigure5_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-4.webp';
 const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-5.webp';
@@ -608,11 +608,10 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure1} alt="Interview with Professor Zhao Lijuan" />
-                </div>
+                  <img src={InterviewFigure1} alt="Interview with Professor  Lijuan Zhao
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Zhao Lijuan</div>
+                    <div className="h3"> Lijuan Zhao</div>
                     <p className="affiliation">Engaged in anti-tumor pharmacology research and tumor exosome research</p>
                     <p className="details">Figure 10. Interview with Professor Zhao Lijuan</p>
                   </div>
@@ -637,9 +636,9 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Xu Yan (许燕)</div>
+                    <div className="h3">Yan Xu（许燕）</div>
                     <p className="affiliation">Focused on the fields of stem cell therapy and tumor immunology</p>
-                    <p className="details">Expert Interview | Figure 3</p>
+                    <p className="details">Figure 11. Interview with Professor Yan Xu（许燕）</p>
                   </div>
                   <div className="interview-summary">
                     <p>Four exosomal proteins (MMP-9/HER-2/PD-L1/EpCAM) reflect key breast cancer features for improved diagnosis and treatment guidance.</p>
@@ -648,7 +647,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure2} alt="Interview with Professor Xu Yan (许燕)" />
+                  <img src={InterviewFigure2} alt="Interview with Professor Yan Xu（许燕）" />
                 </div>
               </div>
             </div>
@@ -664,13 +663,13 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure3} alt="Interview with Professor Xu Yan (徐琰)" />
+                  <img src={InterviewFigure3} alt="Figure 12. Interview with Professor Yan Xu（徐琰）" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Xu Yan (徐琰)</div>
+                    <div className="h3">Yan Xu（徐琰）</div>
                     <p className="affiliation">Mainly studies tumor pharmacology chemistry and biomarkers</p>
-                    <p className="details">Expert Interview | Figure 4</p>
+                    <p className="details">Figure 12. Interview with Professor Yan Xu（徐琰）</p>
                   </div>
                   <div className="interview-summary">
                     <p>CD63 and tumor-specific aptamers enable efficient exosome enrichment with superior stability, cost, and convenience over antibodies.</p>
@@ -693,9 +692,9 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Xuan Xiaoyan</div>
+                    <div className="h3">Xiaoyan Xuan</div>
                     <p className="affiliation">Research on immune cell development and related diseases</p>
-                    <p className="details">Expert Interview | Figure 5</p>
+                    <p className="details">Figure 13. Interview with Professor Xiaoyan Xuan</p>
                   </div>
                   <div className="interview-summary">
                     <p>MCF-10A, as a non-tumorigenic normal breast epithelial cell line, provides an essential negative control baseline for distinguishing between tumor-derived and normal exosomes.</p>
@@ -704,7 +703,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure4} alt="Interview with Professor Xuan Xiaoyan" />
+                  <img src={InterviewFigure4} alt="Interview with Professor Xiaoyan Xuan" />
                 </div>
               </div>
             </div>
@@ -720,13 +719,13 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure5} alt="Interview with Professor Geng Hongmei" />
+                  <img src={InterviewFigure5} alt="Interview with Professor Hongmei Geng" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
                     <div className="h3">Geng Hongmei</div>
                     <p className="affiliation">Engaged in research on nano-oncology diagnosis and treatment, focusing on how to use enzyme-free amplification systems such as HCR to give nanomaterials higher detection sensitivity</p>
-                    <p className="details">Expert Interview | Figure 6</p>
+                    <p className="details">Figure 14. Interview with Professor Hongmei Geng</p>
                   </div>
                   <div className="interview-summary">
                     <p>The four-marker HCR simultaneously amplifies signals of CD63, CD81, CD9, and EpCAM through multiplexed hybridization chain reaction, significantly improving detection sensitivity and specificity.</p>
@@ -749,9 +748,9 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Ma Lu</div>
+                    <div className="h3">Lu Ma</div>
                     <p className="affiliation">Focuses on discovering targeted anti-tumor drugs, with a strong interest in high-sensitivity detection technologies like RCA</p>
-                    <p className="details">Expert Interview | Figure 7</p>
+                    <p className="details">Figure 15. Interview with Professor Lu Ma</p>
                   </div>
                   <div className="interview-summary">
                     <p>RCA utilizes a circular DNA template for rolling circle amplification, generating long tandem repeat sequences and achieving exponential signal amplification, with a detection limit down to the single-molecule level.</p>
@@ -760,7 +759,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure6} alt="Interview with Professor Ma Lu" />
+                  <img src={InterviewFigure6} alt="Interview with Professor Lu Ma" />
                 </div>
               </div>
             </div>
@@ -776,13 +775,13 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure7} alt="Interview with Professor Yuan Ye" />
+                  <img src={InterviewFigure7} alt="Interview with Professor Ye Yuan" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Yuan Ye</div>
+                    <div className="h3">Ye Yuan</div>
                     <p className="affiliation">Mainly studies the design, synthesis, and antibacterial mechanisms of polypeptide and small molecule self-assembled nanozymes</p>
-                    <p className="details">Expert Interview | Figure 8</p>
+                    <p className="details">Figure 16. Interview with Professor Ye Yuan</p>
                   </div>
                   <div className="interview-summary">
                     <p>As a compact CRISPR system, Cas14 specifically cleaves single-stranded DNA without PAM sequence restrictions, making it suitable for detecting exosomal DNA biomarkers.</p>
@@ -807,7 +806,7 @@ const MainContent = () => (
                   <div className="interview-info">
                     <div className="h3">Thomas Südhof</div>
                     <p className="affiliation">Primarily researches synaptic vesicle trafficking, membrane fusion, and intercellular communication; Nobel Laureate in Physiology or Medicine</p>
-                    <p className="details">Expert Interview | Figure 9</p>
+                    <p className="details">Figure 17. A photo with Professor Thomas Südhof</p>
                   </div>
                   <div className="interview-summary">
                     <p>Explained the rationale for CD63 as a pan-exosome marker from the biological basis of intercellular communication, noting its aptamer can efficiently capture exosomes for downstream analysis.</p>
@@ -838,7 +837,7 @@ const MainContent = () => (
                   <div className="interview-info">
                     <div className="h3">Craig C. Mello</div>
                     <p className="affiliation">Primarily researches RNA interference (RNAi) mechanisms and gene expression regulation; Nobel Laureate in Physiology or Medicine</p>
-                    <p className="details">Expert Interview | Figure 10</p>
+                    <p className="details">Figure 18. A photo with Professor Craig C. Mello</p>
                   </div>
                   <div className="interview-summary">
                     <p>From the perspective of specific recognition by nucleic acid molecules, affirmed the technical approach of using RNA aptamers for exosome capture.</p>
@@ -861,9 +860,9 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Yu Baofa</div>
+                    <div className="h3">Baofa Yu</div>
                     <p className="affiliation">Expert in the field of cancer therapy, focusing on tumor-targeted therapy and drug delivery systems</p>
-                    <p className="details">Expert Interview | Figure 11</p>
+                    <p className="details">Figure 19. Group photo with Professor Baofa Yu</p>
                   </div>
                   <div className="interview-summary">
                     <p>Highly evaluated the potential for clinical diagnostic applications, considering it simple to operate, cost-effective, and suitable for widespread use.</p>
@@ -872,7 +871,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure10} alt="Professor Yu Baofa" />
+                  <img src={InterviewFigure10} alt="Professor Baofa Yu" />
                 </div>
               </div>
             </div>
@@ -888,13 +887,13 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure11} alt="Professor Lei Ming" />
+                  <img src={InterviewFigure11} alt="Professor Ming Lei" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
                     <div className="h3">Lei Ming</div>
                     <p className="affiliation">Co-founder of UST Inc. (USA), focusing on the development and commercialization of in vitro diagnostic (IVD) technologies and products</p>
-                    <p className="details">Expert Interview | Figure 12</p>
+                    <p className="details">Figure 20. A photo with Professor Ming Lei</p>
                   </div>
                   <div className="interview-summary">
                     <p>Analyzed the significant advantages from a commercialization perspective, particularly in stability, production scale, and cost control.</p>
@@ -919,7 +918,7 @@ const MainContent = () => (
                   <div className="interview-info">
                     <div className="h3">Zheng Huaixin</div>
                     <p className="affiliation">Integrating profound humanistic care into research on pathogens and anti-infection immunity aligns closely with the ethical considerations of our exosome detection technology</p>
-                    <p className="details">Public Health Expert | Figure 13</p>
+                    <p className="details">Figure 21. Interview with Professor Huaixin Zheng</p>
                   </div>
                   <div className="interview-summary">
                     <p>Exosome technology enhances screening access and compliance but requires support in cost control, quality assurance, and simplified reporting.</p>
@@ -928,7 +927,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure12} alt="Professor Zheng Huaixin" />
+                  <img src={InterviewFigure12} alt="Professor Huaixin Zheng" />
                 </div>
               </div>
             </div>
@@ -944,13 +943,13 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure13} alt="A photo with Professor Lü Youyong" />
+                  <img src={InterviewFigure13} alt="A photo with Professor Youyong Lü" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Lü Youyong</div>
+                    <div className="h3">Youyong Lü</div>
                     <p className="affiliation">Professor at Peking University Cancer Hospital, primarily researching tumor molecular biology, early cancer diagnosis, and personalized therapy</p>
-                    <p className="details">Expert Interview | Figure 14</p>
+                    <p className="details">Figure 22. A photo with Professor Youyong Lü</p>
                   </div>
                   <div className="interview-summary">
                     <p>Affirmed the important clinical significance of exosome-targeted liquid biopsy for early breast cancer screening.</p>
@@ -973,9 +972,9 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Zhang Yanwu</div>
+                    <div className="h3">Yanwu Zhang</div>
                     <p className="affiliation">Associate Chief Physician at the Breast Disease Center of the Third Affiliated Hospital of Zhengzhou University</p>
-                    <p className="details">Breast Surgeons | Figure 15</p>
+                    <p className="details">Figure 23. Interview with Dr. Zhang</p>
                   </div>
                   <div className="interview-summary">
                     <p>Interview deepened understanding of breast cancer and emphasized early screening's importance.</p>
@@ -984,7 +983,7 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="interview-image">
-                  <img src={InterviewFigure14} alt="Interview with Dr. Zhang Yanwu" />
+                  <img src={InterviewFigure14} alt="Interview with Dr. Zhang" />
                 </div>
               </div>
             </div>
@@ -1000,13 +999,13 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure15} alt="Interview with Dr. Sun Li" />
+                  <img src={InterviewFigure15} alt="Interview with Dr. Sun" />
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Sun Li</div>
+                    <div className="h3">Li Sun</div>
                     <p className="affiliation">Engaged in clinical laboratory work and responsible for teaching the basics of clinical laboratory science and clinical hematology in the Department of Medical Laboratory Science at Zhengzhou University</p>
-                    <p className="details">Laboratory Doctors | Figure 16</p>
+                    <p className="details">Figure 24. Interview with Dr. Sun</p>
                   </div>
                   <div className="interview-summary">
                     <p>Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.</p>
@@ -1031,7 +1030,7 @@ const MainContent = () => (
                   <div className="interview-info">
                     <div className="h3">A member of the public</div>
                     <p className="affiliation">Community Representative</p>
-                    <p className="details">Public Representative | Figure 17</p>
+                    <p className="details">Figure 25. Public Interview</p>
                   </div>
                   <div className="interview-summary">
                     <p>Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.</p>
@@ -1108,8 +1107,8 @@ const MainContent = () => (
                         </p>
                         <div className="figure-container">
                           <div className="figure-item">
-                            <img src={IntegratedReportFigure1} alt="Figure 1. The Results of the Survey Questionnaire" className="figure-image" />
-                            <div className="h4">Figure 1. The Results of the Survey Questionnaire</div>
+                            <img src={IntegratedReportFigure1} alt="Figure 26. The Results of the Survey Questionnaire" className="figure-image" />
+                            <div className="h4">Figure 26. The Results of the Survey Questionnaire</div>
                           </div>
                         </div>
                         <div className="summary-box">
@@ -1146,15 +1145,15 @@ const MainContent = () => (
                         <div className="figure-container">
                           <div className="figure-item">
                             <img src={IntegratedReportFigure2_1} alt="Screening and Prevention Behaviors Figure 2.1" className="figure-image" />
-                            <div className="h4">Screening and Prevention Behaviors Figure 2.1</div>
+                            <div className="h4">Figure 27.1 Screening and Prevention Behaviors</div>
                           </div>
                           <div className="figure-item">
                             <img src={IntegratedReportFigure2_2} alt="Screening and Prevention Behaviors Figure 2.2" className="figure-image" />
-                            <div className="h4">Screening and Prevention Behaviors Figure 2.2</div>
+                            <div className="h4">Figure 27.2 Screening and Prevention Behaviors</div>
                           </div>
                           <div className="figure-item">
                             <img src={IntegratedReportFigure2_3} alt="Screening and Prevention Behaviors Figure 2.3" className="figure-image" />
-                            <div className="h4">Screening and Prevention Behaviors Figure 2.3</div>
+                            <div className="h4">Figure 27.3 Screening and Prevention Behaviors</div>
                           </div>
                         </div>
                         <div className="summary-box">
@@ -1191,11 +1190,11 @@ const MainContent = () => (
                         <div className="figure-container">
                           <div className="figure-item">
                             <img src={IntegratedReportFigure3_1} alt="Figure 3. The Results of the Survey Questionnaire" className="figure-image" />
-                            <div className="h4">Figure 3. The Results of the Survey Questionnaire</div>
+                            <div className="h4">Figure 28.1 The Results of the Survey Questionnaire</div>
                           </div>
                           <div className="figure-item">
                             <img src={IntegratedReportFigure3_2} alt="Figure 3. The Results of the Survey Questionnaire" className="figure-image" />
-                            <div className="h4">Figure 3. The Results of the Survey Questionnaire</div>
+                            <div className="h4">Figure 28.2 The Results of the Survey Questionnaire</div>
                           </div>
                         </div>
                         <div className="summary-box">
@@ -1267,7 +1266,7 @@ const MainContent = () => (
                   <div className="figure-container">
                     <div className="figure-item">
                       <img src={FeedbackIterationContentFigure1} alt="Figure 1. Conduct Science Popularization for the Male Group" className="figure-image" />
-                      <div className="h4">Figure 1. Conduct Science Popularization for the Male Group</div>
+                      <div className="h4">Figure 29. Conduct Science Popularization for the Male Group</div>
                     </div>
                   </div>
 
@@ -1367,23 +1366,23 @@ const MainContent = () => (
                       For primary school students, we designed <span>immersive experiential activities</span> that transform abstract life sciences into tangible exploratory games. Through the "Strawberry DNA Extraction Experiment" and "DNA Science Workshop," children observed the magical moment of DNA precipitation through hands-on operation. Starting with everyday questions like "Why do some people dislike cilantro?", we guided them to discover the scientific principles behind daily phenomena. These activities not only cultivated the children's interest in science but also planted the seeds of exploring the unknown in their hearts.
                     </p>
                     <ImageGallery
-                      title="Figure 1. Primary Education"
+                      title="Figure 30. Primary Education"
                       images={[
                         {
                           src: EducationFigure1_1_1,
-                          alt: "Primary Education Figure 1.1.1"
+                          alt: "Primary Education Figure 30.1.1"
                         },
                         {
                           src: EducationFigure1_1_2,
-                          alt: "Primary Education Figure 1.1.2"
+                          alt: "Primary Education Figure 30.1.2"
                         },
                         {
                           src: EducationFigure1_1_3,
-                          alt: "Primary Education Figure 1.1.3"
+                          alt: "Primary Education Figure 30.1.3"
                         },
                         {
                           src: EducationFigure1_1_4,
-                          alt: "Primary Education Figure 1.1.4"
+                          alt: "Primary Education Figure 30.1.4"
                         }
                       ]}
                     />
@@ -1402,23 +1401,23 @@ const MainContent = () => (
                       Tailored to the cognitive characteristics of secondary school students, we designed practical activities such as the <span>"Plasmid Extraction Experiment"</span> and visits to the "Human Anatomy Science Museum." By playing the role of "Science Couriers," students completed the entire process of plasmid extraction, turning complex molecular biology techniques into an engaging challenge game. During the immersive experience in the anatomy museum, they not only learned about human structure and disease mechanisms but also gained a deeper appreciation for medical humanism and the social responsibility of scientists.
                     </p>
                     <ImageGallery
-                      title="Figure 2. Secondary Education"
+                      title="Figure 31. Secondary Education"
                       images={[
                         {
                           src: EducationFigure1_2_1,
-                          alt: "Secondary Education Figure 1.2.1"
+                          alt: "Secondary Education Figure 31.2.1"
                         },
                         {
                           src: EducationFigure1_2_2,
-                          alt: "Secondary Education Figure 1.2.2"
+                          alt: "Secondary Education Figure 31.2.2"
                         },
                         {
                           src: EducationFigure1_2_3,
-                          alt: "Secondary Education Figure 1.2.3"
+                          alt: "Secondary Education Figure 31.2.3"
                         },
                         {
                           src: EducationFigure1_2_4,
-                          alt: "Secondary Education Figure 1.2.4"
+                          alt: "Secondary Education Figure 31.2.4"
                         }
                       ]}
                     />
@@ -1437,27 +1436,27 @@ const MainContent = () => (
                       For university students and the general public, we organized activities such as <span>"Medical Turtle Soup"</span> "Knowledge Arena" and International Women's Day outreach events to promote the integration of scientific knowledge and humanistic spirit. Through competition and games, participants not only acquired professional knowledge on breast cancer prevention and treatment but also deeply considered the ethical boundaries and social responsibilities of technological development. Interactive formats like board games significantly enhanced the effectiveness of knowledge dissemination, making health science more deeply resonant.
                     </p>
                     <ImageGallery
-                      title="Figure 3. University and Community Education"
+                      title="Figure 32. University and Community Education"
                       images={[
                         {
                           src: EducationFigure1_3_1,
-                          alt: "University Education Figure 1.3.1"
+                          alt: "University Education Figure 32.3.1"
                         },
                         {
                           src: EducationFigure1_3_2,
-                          alt: "University Education Figure 1.3.2"
+                          alt: "University Education Figure 32.3.2"
                         },
                         {
                           src: EducationFigure1_3_3,
-                          alt: "University Education Figure 1.3.3"
+                          alt: "University Education Figure 32.3.3"
                         },
                         {
                           src: EducationFigure1_3_4,
-                          alt: "University Education Figure 1.3.4"
+                          alt: "University Education Figure 32.3.4"
                         },
                         {
                           src: EducationFigure1_3_5,
-                          alt: "University Education Figure 1.3.5"
+                          alt: "University Education Figure 32.3.5"
                         }
                       ]}
                     />
@@ -1484,7 +1483,7 @@ const MainContent = () => (
               <div className="figure-container">
                 <div className="figure-item">
                   <img src={EducationFigure2_1_1} alt="Professional Education Figure 1.4.1" className="figure-image" />
-                  <div className='h4'>Figure 4. Professional Education</div>
+                  <div className='h4'>Figure 33. Professional Education</div>
                 </div>
               </div>
             </div>
@@ -1510,7 +1509,7 @@ const MainContent = () => (
               <div className="figure-container">
                 <div className="figure-item">
                   <img src={EducationFigure3_1_1} alt="Online Education Figure 1.5.1" className="figure-image" />
-                  <div className='h4'>Figure 5. Online Education</div>
+                  <div className='h4'>Figure 34. Online Education</div>
                 </div>
               </div>
             </div>
@@ -1558,27 +1557,27 @@ const MainContent = () => (
                 We actively engaged in global technical exchanges to optimize CRISPR-based detection technology for breast cancer screening. Our collaboration with the University of Tokyo iGEM team focused on comparative studies of CRISPR-Cas12a/Cas3 systems, addressing both technical efficiency and ethical frameworks for gene editing. At the 14th International Conference on Genomics, we presented our exosome detection system and received valuable guidance from Nobel Laureate Professor Thomas Südhof on clinical translation pathways.
               </p>
               <ImageGallery
-                title="Figure 1. Team-to-Team Technical Exchange"
+                title="Figure 35. Team-to-Team Technical Exchange"
                 images={[
                   {
                     src: CooperationFigure1_1,
-                    alt: "Team-to-Team Technical Exchange Figure 1.1"
+                    alt: "Figure 35.1.1 Team-to-Team Technical Exchange"
                   },
                   {
                     src: CooperationFigure1_2,
-                    alt: "Team-to-Team Technical Exchange Figure 1.2"
+                    alt: "Figure 35.1.2 Team-to-Team Technical Exchange"
                   },
                   {
                     src: CooperationFigure1_3,
-                    alt: "Team-to-Team Technical Exchange Figure 1.3"
+                    alt: "Figure 35.1.3 Team-to-Team Technical Exchange"
                   },
                   {
                     src: CooperationFigure1_4,
-                    alt: "Team-to-Team Technical Exchange Figure 1.4"
+                    alt: "Figure 35.1.4 Team-to-Team Technical Exchange"
                   },
                   {
                     src: CooperationFigure1_5,
-                    alt: "Team-to-Team Technical Exchange Figure 1.5"
+                    alt: "Figure 35.1.5 Team-to-Team Technical Exchange"
                   }
                 ]}
               />
@@ -1600,35 +1599,35 @@ const MainContent = () => (
                 We implemented a multi-tiered outreach strategy to disseminate synthetic biology knowledge across diverse audiences. In primary and secondary schools, interactive experiments and accessible explanations introduced students to gene editing fundamentals, fostering scientific curiosity.
               </p>
               <ImageGallery
-                title="Figure 2. Educational & Outreach Collaboration"
+                title="Figure 36. Educational & Outreach Collaboration"
                 images={[
                   {
                     src: CooperationFigure2_1,
-                    alt: "Educational & Outreach Collaboration Figure 2.1"
+                    alt: "Figure 36.2.1 Educational & Outreach Collaboration"
                   },
                   {
                     src: CooperationFigure2_2,
-                    alt: "Educational & Outreach Collaboration Figure 2.2"
+                    alt: "Figure 36.2.2 Educational & Outreach Collaboration"
                   },
                   {
                     src: CooperationFigure2_3,
-                    alt: "Educational & Outreach Collaboration Figure 2.3"
+                    alt: "Figure 36.2.3 Educational & Outreach Collaboration"
                   },
                   {
                     src: CooperationFigure2_4,
-                    alt: "Educational & Outreach Collaboration Figure 2.4"
+                    alt: "Figure 36.2.4 Educational & Outreach Collaboration"
                   },
                   {
                     src: CooperationFigure2_5,
-                    alt: "Educational & Outreach Collaboration Figure 2.5"
+                    alt: "Figure 36.2.5 Educational & Outreach Collaboration"
                   },
                   {
                     src: CooperationFigure2_6,
-                    alt: "Educational & Outreach Collaboration Figure 3.1"
+                    alt: "Figure 36.3.1 Educational & Outreach Collaboration"
                   },
                   {
                     src: CooperationFigure2_7,
-                    alt: "Educational & Outreach Collaboration Figure 3.2"
+                    alt: "Figure 36.3.2 Educational & Outreach Collaboration"
                   },
                 ]}
               />
@@ -1653,27 +1652,27 @@ const MainContent = () => (
                 Strategic partnerships with medical institutions, industry leaders, and Nobel Laureates provided crucial guidance for our technical and regulatory development. Our collaboration with Autobio Diagnostics delivered systematic training on IVD regulatory requirements, including CE certification and ISO 13485 standards, ensuring compliance from initial R&D stages.
               </p>
               <ImageGallery
-                title="Figure 3. Institutional & Expert Collaboration"
+                title="Figure 37. Institutional & Expert Collaboration"
                 images={[
                   {
                     src: CooperationFigure3_1,
-                    alt: "Institutional & Expert Collaboration Figure 3.1"
+                    alt: "Figure 37.3.1 Institutional & Expert Collaboration"
                   },
                   {
                     src: CooperationFigure3_2,
-                    alt: "Institutional & Expert Collaboration Figure 3.2"
+                    alt: "Figure 37.3.2 Institutional & Expert Collaboration"
                   },
                   {
                     src: CooperationFigure3_3,
-                    alt: "Institutional & Expert Collaboration Figure 3.3"
+                    alt: "Figure 37.3.3 Institutional & Expert Collaboration"
                   },
                   {
                     src: CooperationFigure3_4,
-                    alt: "Institutional & Expert Collaboration Figure 3.4"
+                    alt: "Figure 37.3.4 Institutional & Expert Collaboration"
                   },
                   {
                     src: CooperationFigure3_5,
-                    alt: "Institutional & Expert Collaboration Figure 3.5"
+                    alt: "Figure 37.3.5 Institutional & Expert Collaboration"
                   },
                 ]}
               />
@@ -1759,7 +1758,7 @@ const MainContent = () => (
         <div className="figure-container">
           <div className="figure-item">
             <img src={SafetyFigure1} alt="Laboratory Safety Figure 1.1" className="figure-image" />
-            <div className="h4">Figure 1. Laboratory Safety</div>
+            <div className="h4">Figure 38. Laboratory Safety</div>
           </div>
 
         </div>
@@ -1798,12 +1797,12 @@ const MainContent = () => (
               <div className="figure-container">
                 <div className="figure-item">
                   <img src={SpreadFigure1_1} alt="Figure 1. iGEM-ZZU WeChat Public Account" className="figure-image" />
-                  <div className="h4">Figure 1. iGEM-ZZU WeChat Public Account</div>
+                  <div className="h4">Figure 39. iGEM-ZZU WeChat Public Account</div>
 
                 </div>
                 <div className="figure-item">
                   <img src={SpreadFigure1_2} alt="Figure 2. YouTube Short-form Video Channel" className="figure-image" />
-                  <div className="h4">Figure 2. YouTube Short-form Video Channel</div>
+                  <div className="h4">Figure 40. YouTube Short-form Video Channel</div>
                 </div>
 
 
@@ -1826,27 +1825,27 @@ const MainContent = () => (
                 We extended our science education efforts from online to offline, creating <span>"immersive health interaction zones."</span> In hospitals and communities, we organized public welfare pop-up events for breast health, using models to demonstrate breast anatomy, allowing residents to visually understand "why regular screening can interrupt the cancer progression process." On university campuses, we set up "interactive science booths" featuring quick Q&As, puzzle games, board games, warm message walls, and other interactive installations. These transformed academic concepts like five-year survival rates and pathological subtypes into <span>gamified content</span> that young people could participate in and share.
               </p>
               <ImageGallery
-                title="Figure 2. Offline Scenarios and Interactive Activities"
+                title="Figure 41. Offline Scenarios and Interactive Activities"
                 images={[
                   {
                     src: SpreadFigure2_1,
-                    alt: "Figure 2. Offline Scenarios and Interactive Activities"
+                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
                   },
                   {
                     src: SpreadFigure2_2,
-                    alt: "Figure 2. Offline Scenarios and Interactive Activities"
+                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
                   },
                   {
                     src: SpreadFigure2_3,
-                    alt: "Figure 2. Offline Scenarios and Interactive Activities"
+                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
                   },
                   {
                     src: SpreadFigure2_4,
-                    alt: "Figure 2. Offline Scenarios and Interactive Activities"
+                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
                   },
                   {
                     src: SpreadFigure2_5,
-                    alt: "Figure 2. Offline Scenarios and Interactive Activities"
+                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
                   },
                 ]}
               />
@@ -1916,7 +1915,7 @@ const MainContent = () => (
                 <div className="figure-container">
                   <div className="figure-item">
                     <img src={InclusivenessFigure2_1} alt="Figure 1. Inclusiveness of Women and Patient Groups" className="figure-image" />
-                    <div className="h4">Figure 1. Inclusiveness of Women and Patient Groups</div>
+                    <div className="h4">Figure 42. Inclusiveness of Women and Patient Groups</div>
                   </div>
                 </div>
               </div>
@@ -1930,7 +1929,7 @@ const MainContent = () => (
                 <div className="figure-container">
                   <div className="figure-item">
                     <img src={InclusivenessFigure2_2} alt="Figure 2. Inclusiveness of Male Breast Cancer Patients" className="figure-image" />
-                    <div className="h4">Figure 2. Inclusiveness of Male Breast Cancer Patients</div>
+                    <div className="h4">Figure 43. Inclusiveness of Male Breast Cancer Patients</div>
                   </div>
                 </div>
               </div>
@@ -1949,19 +1948,19 @@ const MainContent = () => (
                 In our human practices, we placed strong emphasis on <span>educational inclusivity</span> by designing activities tailored to different age groups. For elementary school students, we designed a "Strawberry DNA Extraction" experiment to let children experience the joy of science through hands-on cooperation. For middle school students, we held relaxed exchanges in the format of "light receptions" to help them engage with advanced knowledge in an informal atmosphere. For university students, we organized a lecture series titled <span>"Global Vision, Synthetic Future"</span> to enhance their scientific literacy. At the same time, we integrated breast health themes into International Women's Day activities, paying special attention to raising health awareness among young women. These activities covered multiple stages from childhood to young adulthood, ensuring that people with different educational backgrounds and cognitive levels could benefit.
               </p>
               <ImageGallery
-                title="Figure 3. Educational Practices for Different Age Groups"
+                title="Figure 43. Educational Practices for Different Age Groups"
                 images={[
                   {
                     src: InclusivenessFigure3_1,
-                    alt: "Figure 3. Educational Practices for Different Age Groups"
+                    alt: "Figure 43. Educational Practices for Different Age Groups"
                   },
                   {
                     src: InclusivenessFigure3_2,
-                    alt: "Figure 3. Educational Practices for Different Age Groups"
+                    alt: "Figure 43. Educational Practices for Different Age Groups"
                   },
                   {
                     src: InclusivenessFigure3_3,
-                    alt: "Figure 3. Educational Practices for Different Age Groups"
+                    alt: "Figure 43. Educational Practices for Different Age Groups"
                   }]}
               />
             </div>
@@ -1993,40 +1992,40 @@ const MainContent = () => (
                 We also used <span>cultural and creative products</span> (team uniforms, badges, keychains, etc.) to enhance interaction between the team and the public. These products feature gender-neutral designs, allowing anyone to identify with and participate in the initiative. This design philosophy reflects our commitment to <span>cultural inclusivity</span>, making science not a privilege for the few but a endeavor that can be shared and embraced by all groups.
               </p>
               <ImageGallery
-                title="Figure 4. Cultural and Creative Products"
+                title="Figure 44. Cultural and Creative Products"
                 images={
                   [
                     {
                       src: InclusivenessFigure5_1,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_2,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_3,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_4,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_5,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_6,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_7,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     },
                     {
                       src: InclusivenessFigure5_8,
-                      alt: "Figure 4. Cultural and Creative Products"
+                      alt: "Figure 44. Cultural and Creative Products"
                     }
                   ]
                 }
