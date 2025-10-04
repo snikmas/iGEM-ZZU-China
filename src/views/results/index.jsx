@@ -1412,65 +1412,65 @@ function Results() {
     {
       id: 'cd63-aptamer',
       title: 'CD63 Aptamer-Based Magnetic Bead Exosome Capture',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'crispr-aptamer-curve', title: 'CRISPR–Aptamer Standard Curve', icon: '/images/two.png' },
-        { id: 'aptamer-coating-optimization', title: 'Aptamer Coating Optimization', icon: '/images/two.png' },
-        { id: 'exosome-capture-optimization', title: 'Exosome Capture Optimization', icon: '/images/two.png' },
-        { id: 'exosome-capture-validation', title: 'Exosome Capture Validation', icon: '/images/two.png' },
-        { id: 'western-blot-validation', title: 'Western Blot Validation', icon: '/images/two.png' },
-        { id: 'tem-observation', title: 'TEM Observation' },
-        { id: 'cd63-summary', title: 'Summary' }
+        { id: 'crispr-aptamer-curve', title: 'CRISPR–Aptamer Standard Curve', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'aptamer-coating-optimization', title: 'Aptamer Coating Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'exosome-capture-optimization', title: 'Exosome Capture Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'exosome-capture-validation', title: 'Exosome Capture Validation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'western-blot-validation', title: 'Western Blot Validation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'tem-observation', title: 'TEM Observation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'cd63-summary', title: 'Summary', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'cas14a-expression',
       title: 'Cas14a Prokaryotic Expression',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'plasmid-design', title: 'Plasmid Design & Extraction', icon: '/images/two.png' },
-        { id: 'transformation', title: 'Transformation', icon: '/images/two.png' },
-        { id: 'induction', title: 'Induction', icon: '/images/two.png' },
-        { id: 'purification', title: 'Purification', icon: '/images/two.png' },
-        { id: 'dialysis', title: 'Dialysis', icon: '/images/two.png' },
-        { id: 'enzyme-activity-assay', title: 'Enzyme Activity Assay', icon: '/images/two.png' },
-        { id: 'supplementary-information', title: 'Supplementary Information', icon: '/images/two.png' }
+        { id: 'plasmid-design', title: 'Plasmid Design & Extraction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'transformation', title: 'Transformation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'induction', title: 'Induction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'purification', title: 'Purification', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'dialysis', title: 'Dialysis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'enzyme-activity-assay', title: 'Enzyme Activity Assay', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'supplementary-information', title: 'Supplementary Information', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'hcr',
       title: 'HCR',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'hcr-feasibility', title: 'HCR–CRISPR System Feasibility', icon: '/images/two.png' },
-        { id: 'probe-concentration-optimization', title: 'Probe Concentration Optimization', icon: '/images/two.png' },
-        { id: 'temperature-optimization', title: 'Temperature Optimization', icon: '/images/two.png' },
-        { id: 'reaction-time-optimization', title: 'Reaction Time Optimization', icon: '/images/two.png' },
-        { id: 'th2-standard-curve', title: 'TH2 Standard Curve', icon: '/images/two.png' },
-        { id: 'trigger-amplification', title: 'Trigger Amplification Performance', icon: '/images/two.png' }
+        { id: 'hcr-feasibility', title: 'HCR–CRISPR System Feasibility', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'probe-concentration-optimization', title: 'Probe Concentration Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'temperature-optimization', title: 'Temperature Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'reaction-time-optimization', title: 'Reaction Time Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'th2-standard-curve', title: 'TH2 Standard Curve', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'trigger-amplification', title: 'Trigger Amplification Performance', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'apt-crispr-hcr',
       title: 'APT-CRISPR-HCR Detection System',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'crispr-cas12a-optimization', title: 'CRISPR/Cas12a Optimization', icon: '/images/two.png' },
-        { id: 'displacement-optimization', title: 'Displacement Optimization', icon: '/images/two.png' },
-        { id: 'complementary-screening', title: 'Complementary Strand Screening', icon: '/images/two.png' },
-        { id: 'crispr-sensitivity-specificity', title: 'CRISPR Sensitivity & Specificity', icon: '/images/two.png' },
-        { id: 'hcr-enhanced-detection', title: 'HCR-Enhanced Detection', icon: '/images/two.png' },
-        { id: 'cell-suspension-validation', title: 'Cell Suspension Validation', icon: '/images/two.png' }  
+        { id: 'crispr-cas12a-optimization', title: 'CRISPR/Cas12a Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'displacement-optimization', title: 'Displacement Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'complementary-screening', title: 'Complementary Strand Screening', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-sensitivity-specificity', title: 'CRISPR Sensitivity & Specificity', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-enhanced-detection', title: 'HCR-Enhanced Detection', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'cell-suspension-validation', title: 'Cell Suspension Validation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }  
       ]
     },
     {
       id: 'apt-crispr-cas14a-rca',
       title: 'APT-CRISPR/Cas14a-RCA Detection System',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'crispr-cas14-sensitivity', title: 'CRISPR/Cas14 Fluorescence Sensitivity & Specificity Valuation', icon: '/images/two.png' },
-        { id: 'crispr-cas14-rca-sensitivity', title: 'CRISPR/Cas14-RCA Fluorescence Sensitivity & Specificity Valuation Results', icon: '/images/two.png' },
-        { id: 'cas14a-rca-cell-suspension', title: 'CRISPR/Cas14a-RCA Fluorescence Detection in Cell Suspension Samples', icon: '/images/two.png' }
+        { id: 'crispr-cas14-sensitivity', title: 'CRISPR/Cas14 Fluorescence Sensitivity & Specificity Valuation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-cas14-rca-sensitivity', title: 'CRISPR/Cas14-RCA Fluorescence Sensitivity & Specificity Valuation Results', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'cas14a-rca-cell-suspension', title: 'CRISPR/Cas14a-RCA Fluorescence Detection in Cell Suspension Samples', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     }
   ];
@@ -1521,11 +1521,8 @@ function Results() {
                   <img src={menuIconDefault} alt="" className="menu-icon default" />
                   <img src={menuIconHover} alt="" className="menu-icon hover" />
                 </div> */}
-                {activeMenuId === menu.id ? (
+                
                   <img src={menu.icon}  className="menu-icon" />
-                ) : (
-                  <span></span>
-                )}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -1536,11 +1533,7 @@ function Results() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
-                      {activeSubMenuId === subMenu.id ? (
-                        <img src={subMenu.icon}  className="menu-icon" />
-                      ) : (
-                        <span></span>
-                      )}
+                    <img src={subMenu.icon}  className="menu-icon" />
                       {subMenu.title}
                     </div>
                   ))}

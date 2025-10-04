@@ -2064,237 +2064,237 @@ function IHP() {
     {
       id: 'introduction',
       title: 'Introduction',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'problem-overview',
           title: 'Problem Overview',
-          icon: '/images/one.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'solution',
           title: 'Solution',
-          icon: '/images/one.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'scientific-challenges',
           title: 'Scientific Challenges',
-          icon: '/images/one.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'social-challenges',
           title: 'Social Challenges',
-          icon: '/images/one.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     {
       id: 'iterative-symbiotic-practice-model',
       title: 'Iterative Symbiotic Practice Model',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'overview',
           title: 'Overview',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'needs-insight-layer',
           title: 'Needs Insight Layer',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'practice-design-layer',
           title: 'Practice Design Layer',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'implementation-interaction-layer',
           title: 'Implementation Interaction Layer',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-integration-layer',
           title: 'Feedback Integration Layer',
-          icon: '/images/two.png'   
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'   
         },
         {
           id: 'iterative-optimization-layer',
           title: 'Iterative Optimization Layer',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'summary',
           title: 'Summary',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     {
       id: 'stakeholder-swot-analysis',
       title: 'Stakeholder SWOT Analysis',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'swot-overview',
           title: 'Overview',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'female-group',
           title: 'Female Group',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'medical-institutions',
           title: 'Medical Institutions',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'government-departments',
           title: 'Government Departments',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'scientific-research-institutions',
           title: 'Scientific Research Institutions',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     {
       id: 'interview',
       title: 'Interview',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'interview-exosomes-magnetic-beads',
           title: '4.1 Exosomes and Magnetic Beads',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-target-proteins',
           title: '4.2 Four Target Proteins',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-cd63-aptamers',
           title: '4.3 CD63 Aptamers',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-breast-cancer-cell-lines',
           title: '4.4 Breast Cancer Cell Lines',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-hcr-signal-amplification',
           title: '4.5 HCR Signal Amplification',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-rca-method',
           title: '4.6 RCA Method Module',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-cas14-enzyme',
           title: '4.7 Cas14 Enzyme',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-thomas-sudhof',
           title: '4.8 Thomas Südhof',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-craig-mello',
           title: '4.9 Craig C. Mello',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-yu-baofa',
           title: '4.10 Clinical Translation',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-lei-ming',
           title: '4.11 Commercial Viability',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-zheng-huaixin',
           title: '4.12 Humanities and Ethics',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-lu-youyong',
           title: '4.13 Clinical Significance',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-zhang-yanwu',
           title: '4.14 Breast Surgeons',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-sun-li',
           title: '4.15 Laboratory Doctors',
-          icon: '/images/two.png'   
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'   
         },
         {
           id: 'interview-public-representative',
           title: '4.16 Public Representative',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         },
         {
           id: 'interview-patients-families',
           title: '4.17 Patients & Families',
-          icon: '/images/two.png' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
         }
       ]
     },
     {
       id: 'integrated-report',
       title: 'Integrated Report on Breast Health',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'survey-overview',
           title: 'Survey Overview',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'core-results',
           title: 'Core Results',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'conclusion',
           title: 'Conclusion',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     {
       id: 'feedback-iteration',
       title: 'Feedback and Iteration',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'male-breast-cancer-awareness',
           title: 'Male Breast Cancer Awareness',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'technical-optimization',
           title: 'Technical Optimization',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-summary',
           title: 'Summary',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
@@ -2302,93 +2302,93 @@ function IHP() {
     {
       id: 'education',
       title: 'Education',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'student-education',
           title: 'Student Education',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'professional-education',
           title: 'Professional Education',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'online-education',
           title: 'Online Education',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'education-summary',
           title: 'Summary',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     {
       id: 'cooperation',
       title: 'Cooperation',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'team-technical-exchange',
           title: 'Team-to-Team Technical Exchange',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'educational-outreach-collaboration',
           title: 'Educational & Outreach Collaboration',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'institutional-expert-collaboration',
           title: 'Institutional & Expert Collaboration',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'cooperation-summary',
           title: 'Summary',
-          icon: '/images/two.png'
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     {
       id: 'bioethics',
       title: 'Bioethics',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'law-policy',
       title: 'Law and Policy',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'safety',
       title: 'Safety',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'spread',
       title: 'Spread',
-      icon: '/images/one.png',    
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',    
       subMenus: [
         {
           id: 'online-matrix',
           title: 'Online Matrix',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         },
         {
           id: 'offline-scenarios',
           title: 'Offline Scenarios',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         },
         {
           id: 'two-way-linkage',
           title: 'Two-Way Linkage',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         }
       ]
@@ -2396,37 +2396,37 @@ function IHP() {
     {
       id: 'inclusiveness',
       title: 'Inclusiveness',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
 
         {
           id: 'technological-inclusiveness',
           title: 'Technological Inclusiveness',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         },
         {
           id: 'community-dialogue',
           title: 'Community Dialogue',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         },
         {
           id: 'educational-practices',
           title: 'Educational Practices',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         },
         {
           id: 'disciplinary-boundaries',
           title: 'Breaking Boundaries',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         },
         {
           id: 'participation-belonging',
           title: 'Participation & Belonging',
-          icon: '/images/two.png',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           component: null
         }
       ]
@@ -2473,7 +2473,7 @@ function IHP() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu=== menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className={`menu-icon `} src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -2484,7 +2484,7 @@ function IHP() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenu=== subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}  /> 
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}

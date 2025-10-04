@@ -540,37 +540,37 @@ function Model() {
     {
       id: 'introduction',
       title: 'Introduction',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'aptamer-screening',
       title: 'Aptamer Screening',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'molecular-docking',
       title: 'Molecular Docking',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'complementary-strand-design',
       title: 'Complementary Strand Design',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'aptamer-target-equilibrium',
       title: 'Aptamer–Target Equilibrium Model',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'cas14a-enzyme-modeling',
       title: 'Cas14a Enzyme Activity Modeling',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'reference',
       title: 'Reference',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -607,7 +607,7 @@ function Model() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img className="menu-icon" src={menu.icon} /> : <span></span>}
+                <img className="menu-icon" src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
             </div>

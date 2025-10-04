@@ -261,6 +261,7 @@
   background: rgba(255, 255, 255, 0.1);
   word-wrap: break-word;
   white-space: normal;
+  background-color: rgb(247, 243, 243) ;
 }
 
 .menu-title:hover {
@@ -275,6 +276,11 @@
   color: #530c16;
   word-wrap: break-word;
   line-height: 1.2;
+}
+
+.menu-text:hover{
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* 子菜单样式 - 显示在一级菜单下方 */
@@ -296,6 +302,7 @@
   visibility: hidden;
   max-height: 0; /* 初始高度为0 */
   overflow: hidden;
+  background-color: rgb(247, 243, 243) ;
 }
 
 .menu-item:hover .submenu {
@@ -324,6 +331,8 @@
 .submenu-item:hover {
   background: rgba(83, 12, 22, 0.1);
   color: #530c16;
+  font-size: 16px;
+  font-weight: 600;
   transform: translateX(5px);
 }
 

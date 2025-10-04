@@ -471,16 +471,16 @@ function Cooperation() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'team-technical-exchange',
       title: 'Team-to-Team Technical Exchange',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'japan-online', title: 'Japan Online Exchange (March 2025)', icon: '/images/two.png' },
-        { id: 'osaka-university', title: 'Osaka University On-Site Exchange (April 2025)', icon: '/images/two.png' },
-        { id: 'taian-igem', title: 'Taian iGEM Exchange Conference (June 2025)', icon: '/images/two.png' },
+        { id: 'japan-online', title: 'Japan Online Exchange (March 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'osaka-university', title: 'Osaka University On-Site Exchange (April 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'taian-igem', title: 'Taian iGEM Exchange Conference (June 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'shanhe-igem', title: 'Shanhe Four Provinces iGEM Exchange Conference (June 2025)', icon: '/images/two.png' },
         { id: 'ccic-conference', title: 'The 10th China Synthetic Biology Conference (CCiC) & Synbiopunk 2025 (August 2025)', icon: '/images/two.png' }
       ]
@@ -492,26 +492,26 @@ function Cooperation() {
       subMenus: [
         { id: 'science-outreach', title: 'Science Outreach for Primary to High Schools (March–April 2025)', icon: '/images/two.png' },
         { id: 'womens-day-hospital', title: 'Women\'s Day Health Awareness Campaign at the Third Affiliated Hospital (March 8, 2025)', icon: '/images/two.png' }, 
-        { id: 'womens-day-campus', title: 'Women\'s Day Outreach at Zhengzhou University North Playground (March 2025)', icon: '/images/two.png' },
-        { id: 'campus-igem', title: 'Campus iGEM Sharing (May 2025)', icon: '/images/two.png' }
+        { id: 'womens-day-campus', title: 'Women\'s Day Outreach at Zhengzhou University North Playground (March 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'campus-igem', title: 'Campus iGEM Sharing (May 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'institutional-expert',
       title: 'Institutional & Expert Collaboration',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'autogen-partnership', title: 'Partnership with Autogen (April 2025)', icon: '/images/two.png' },
-        { id: 'thomas-sudhof', title: 'Interview with Professor Thomas Südhof (March 2025)', icon: '/images/two.png' },
-        { id: 'craig-mello', title: 'Interview with Craig C. Mello (April 2025)', icon: '/images/two.png' },
-        { id: 'clinical-experts', title: 'Guidance from Clinical Experts in China (April 2025)', icon: '/images/two.png' },
-        { id: 'twist-bioscience', title: 'Industry Perspective from Twist Bioscience (May 2025)', icon: '/images/two.png' }
+        { id: 'autogen-partnership', title: 'Partnership with Autogen (April 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'thomas-sudhof', title: 'Interview with Professor Thomas Südhof (March 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'craig-mello', title: 'Interview with Craig C. Mello (April 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'clinical-experts', title: 'Guidance from Clinical Experts in China (April 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'twist-bioscience', title: 'Industry Perspective from Twist Bioscience (May 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'impact-reflection',
       title: 'Impact and Reflection',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -556,7 +556,7 @@ function Cooperation() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -567,7 +567,7 @@ function Cooperation() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}  /> 
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}

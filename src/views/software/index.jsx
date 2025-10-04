@@ -269,47 +269,47 @@ function Software() {
     {
       id: 'overview-section',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'system-architecture',
       title: 'System Architecture',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'input-output',
       title: 'Input & Output',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'implementation',
       title: 'Implementation',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'experimental-validation',
       title: 'Experimental Validation',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'key-features',
       title: 'Key Features',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'impact',
       title: 'Impact',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'future-development',
       title: 'Future Development',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'conclusion',
       title: 'Conclusion',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -347,7 +347,7 @@ function Software() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img src={menu.icon}  className="menu-icon" /> : <span></span>}
+                <img src={menu.icon}  className="menu-icon" />
                 <span className="menu-text">{menu.title}</span>
               </div>
             </div>

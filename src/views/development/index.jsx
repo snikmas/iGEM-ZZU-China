@@ -220,34 +220,34 @@ function Development() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'crispr-lfa-system',
       title: 'CRISPR-LFA Qualitative Detection System',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'lfa-background', title: 'Background', icon: '/images/two.png' },
-        { id: 'lfa-scheme', title: 'Scheme', icon: '/images/two.png' }
+        { id: 'lfa-background', title: 'Background', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'lfa-scheme', title: 'Scheme', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'multi-channel-detection',
       title: 'Multi-Channel Detection with POCT',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'poct-cartridge', title: 'POCT Cartridge Design', icon: '/images/two.png' }
+        { id: 'poct-cartridge', title: 'POCT Cartridge Design', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'technical-advantages',
       title: 'Technical Advantages',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'future-development',
       title: 'Future Development Plans',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -291,7 +291,7 @@ function Development() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  /> 
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -302,7 +302,7 @@ function Development() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}  /> 
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}

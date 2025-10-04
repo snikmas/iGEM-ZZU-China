@@ -762,46 +762,46 @@ function Education() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'student-education',
       title: 'Education for Students',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'primary-education', title: 'Primary Education' ,icon:'/images/two.png'},
-        { id: 'middle-school-education', title: 'Middle School Education' ,icon:'/images/two.png'},
-        { id: 'high-school-education', title: 'High School Education' ,icon:'/images/two.png'},
-        { id: 'university-education', title: 'University Education' ,icon:'/images/two.png'}
+        { id: 'primary-education', title: 'Primary Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'middle-school-education', title: 'Middle School Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'high-school-education', title: 'High School Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'university-education', title: 'University Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
       ]
     },
     {
       id: 'community-education',
       title: 'Community Education',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'march-8-public-welfare-campaign', title: '“March 8” Public Welfare Campaign' ,icon:'/images/two.png'}
+        { id: 'march-8-public-welfare-campaign', title: '“March 8” Public Welfare Campaign' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
       ]
     },
     {
       id: 'professional-education',
       title: 'Professional Education',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'online-education',
       title: 'Online Education',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'wechat-section', title: 'WeChat Public Account' ,icon:'/images/two.png'},
-        { id: 'videos-section', title: 'Short Videos and Social Media' ,icon:'/images/two.png'},
-        { id: 'future-section', title: 'Future Resource Sharing' ,icon:'/images/two.png'}
+        { id: 'wechat-section', title: 'WeChat Public Account' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'videos-section', title: 'Short Videos and Social Media' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'future-section', title: 'Future Resource Sharing' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}  
       ]
     },
     {
       id: 'conclusion',
       title: 'Conclusion & Future Plans',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -851,7 +851,7 @@ function Education() {
                   <img src={menuIconDefault} alt="" className="menu-icon default" />
                   <img src={menuIconHover} alt="" className="menu-icon hover" />
                 </div> */}
-                {activeMenu=== menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -862,7 +862,7 @@ function Education() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
-                      {activeSubMenu=== subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}  />
                       {subMenu.title}
                     </div>
                   ))}

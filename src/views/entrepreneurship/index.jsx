@@ -1302,93 +1302,93 @@ function Entrepreneurship() {
     {
       id: 'overview',
       title: 'Introduction',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'problem-description',
       title: 'Problem Description',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'problem-overview', title: 'Current Challenges in Breast Cancer Detection', icon: '/images/two.png' },
-        { id: 'product-introduction', title: 'Product Introduction', icon: '/images/two.png' }
+        { id: 'problem-overview', title: 'Current Challenges in Breast Cancer Detection', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'product-introduction', title: 'Product Introduction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'commercial-prospects',
       title: 'Commercial Prospects',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'market-overview', title: 'Market Overview', icon: '/images/two.png' },
-        { id: 'market-opportunities', title: 'Market Opportunities', icon: '/images/two.png' },
-        { id: 'competitive-advantages', title: 'Competitive Advantages', icon: '/images/two.png' }  
+        { id: 'market-overview', title: 'Market Overview', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'market-opportunities', title: 'Market Opportunities', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'competitive-advantages', title: 'Competitive Advantages', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }  
       ]
     },
     {
       id: 'market-analysis',
       title: 'Market Analysis',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'swot-analysis', title: 'SWOT Analysis', icon: '/images/two.png' },
-        { id: 'porters-five-forces', title: 'Porter\'s Five Forces Analysis', icon: '/images/two.png' },
-        { id: 'macro-environment-analysis', title: 'Macro Environment Analysis', icon: '/images/two.png' }
+        { id: 'swot-analysis', title: 'SWOT Analysis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'porters-five-forces', title: 'Porter\'s Five Forces Analysis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'macro-environment-analysis', title: 'Macro Environment Analysis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'supply-chain',
       title: 'Supply Chain',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'raw-material-procurement', title: 'Raw Material Procurement', icon: '/images/two.png' },
-        { id: 'production-manufacturing', title: 'Production and Manufacturing', icon: '/images/two.png' },
-        { id: 'distribution-strategy', title: 'Distribution Strategy', icon: '/images/two.png' },
-        { id: 'warehousing-logistics', title: 'Warehousing and Logistics', icon: '/images/two.png' }
+        { id: 'raw-material-procurement', title: 'Raw Material Procurement', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'production-manufacturing', title: 'Production and Manufacturing', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'distribution-strategy', title: 'Distribution Strategy', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'warehousing-logistics', title: 'Warehousing and Logistics', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'financial-analysis',
       title: 'Financial Analysis',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'financial-objectives', title: 'Financial Objectives', icon: '/images/two.png' },
-        { id: 'revenue-model', title: 'Revenue Model', icon: '/images/two.png' },
-        { id: 'cost-structure', title: 'Cost Structure and Calculation Basis', icon: '/images/two.png' },
-        { id: 'budget-plan', title: 'Preliminary Budget Plan', icon: '/images/two.png' },
-        { id: 'profit-forecast', title: 'Profit and Loss Forecast', icon: '/images/two.png' },
-        { id: 'profitability-analysis', title: 'Profitability and Break-even Analysis', icon: '/images/two.png' },
-        { id: 'financing-plan', title: 'Financing and Fund Utilization Plan', icon: '/images/two.png' },
-        { id: 'profit-path', title: 'Profit Path Outlook', icon: '/images/two.png' }
+        { id: 'financial-objectives', title: 'Financial Objectives', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'revenue-model', title: 'Revenue Model', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'cost-structure', title: 'Cost Structure and Calculation Basis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },  
+        { id: 'budget-plan', title: 'Preliminary Budget Plan', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },  
+        { id: 'profit-forecast', title: 'Profit and Loss Forecast', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'profitability-analysis', title: 'Profitability and Break-even Analysis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'financing-plan', title: 'Financing and Fund Utilization Plan', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'profit-path', title: 'Profit Path Outlook', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'intellectual-property',
       title: 'Intellectual Property',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'stakeholder-analysis',
       title: 'Stakeholder Analysis',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
     },
     {
       id: 'risk-assessment',
       title: 'Risk Assessment and Countermeasures',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'operational-risks', title: 'Operational Management Risks and Countermeasures', icon: '/images/two.png' },
-        { id: 'technical-risks', title: 'Technical Risks and Countermeasures', icon: '/images/two.png' },
-        { id: 'market-risks', title: 'Market Risks and Countermeasures', icon: '/images/two.png' },
-        { id: 'financial-risks', title: 'Financial Risks and Countermeasures', icon: '/images/two.png' }
+        { id: 'operational-risks', title: 'Operational Management Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }, 
+        { id: 'technical-risks', title: 'Technical Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'market-risks', title: 'Market Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'financial-risks', title: 'Financial Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'development-plan',
       title: 'Development Plan',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'references',
       title: 'References',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -1432,7 +1432,7 @@ function Entrepreneurship() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img src={menu.icon} className='menu-icon' /> : <span></span>}
+                <img src={menu.icon} className='menu-icon' />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -1443,7 +1443,7 @@ function Entrepreneurship() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenu === subMenu.id ? <img src={subMenu.icon} className='menu-icon' /> : <span></span>}
+                      <img src={subMenu.icon} className='menu-icon' />
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}

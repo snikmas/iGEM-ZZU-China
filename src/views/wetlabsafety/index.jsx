@@ -336,43 +336,43 @@ function WetLabSafety() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'identification-risks',
       title: 'Identification of Risks',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'exposure-e-coli', title: 'Exposure to recombinant E. coli strains',icon: '/images/two.png' },
-        { id: 'handling-cell-lines', title: 'Handling human breast cell lines' ,icon:'/images/two.png'},
-        { id: 'magnetic-beads', title: 'Use of magnetic beads and aptamers',icon:'/images/two.png' },
-        { id: 'chemical-reagents', title: 'Chemical reagents for DNA amplification',icon:'/images/two.png' },
-        { id: 'uv-equipment', title: 'UV and electrophoresis equipment',icon:'/images/two.png' },
-        { id: 'crispr-system', title: 'CRISPR-Cas14a-based detection system',icon:'/images/two.png' }
+        { id: 'exposure-e-coli', title: 'Exposure to recombinant E. coli strains',icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'handling-cell-lines', title: 'Handling human breast cell lines' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'magnetic-beads', title: 'Use of magnetic beads and aptamers',icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'chemical-reagents', title: 'Chemical reagents for DNA amplification',icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'uv-equipment', title: 'UV and electrophoresis equipment',icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-system', title: 'CRISPR-Cas14a-based detection system',icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'management-risks',
       title: 'Management of Risks',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'expert-support', title: 'Expert Support' ,icon:'/images/two.png'},
-        { id: 'compliance-regulations', title: 'Compliance with Regulations and Guidelines' ,icon:'/images/two.png'},
-        { id: 'lab-safety-training', title: 'Lab Safety and Training' ,icon:'/images/two.png'},
-        { id: 'dedicated-lab-spaces', title: 'Dedicated Lab Spaces and Equipment' ,icon:'/images/two.png'},
-        { id: 'waste-management', title: 'Waste Management and Containment' ,icon:'/images/two.png'},
-        { id: 'risk-reduction-design', title: 'Risk Reduction by Experimental Design' ,icon:'/images/two.png'}
+        { id: 'expert-support', title: 'Expert Support' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'compliance-regulations', title: 'Compliance with Regulations and Guidelines' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'lab-safety-training', title: 'Lab Safety and Training' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'dedicated-lab-spaces', title: 'Dedicated Lab Spaces and Equipment' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'waste-management', title: 'Waste Management and Containment' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'risk-reduction-design', title: 'Risk Reduction by Experimental Design' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
       ]
     },
     {
       id: 'responsibility-human-practices',
       title: 'Responsibility in Human Practices',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'avoiding-vulnerable', title: 'Avoiding Direct Engagement with Vulnerable Individuals' ,icon:'/images/two.png'},
-        { id: 'consultation-experts', title: 'Consultation with Experts' ,icon:'/images/two.png'},
-        { id: 'informed-consent', title: 'Informed Consent and Transparency' ,icon:'/images/two.png'},
-        { id: 'ethical-outreach', title: 'Ethical Outreach and Communication' ,icon:'/images/two.png'}
+        { id: 'avoiding-vulnerable', title: 'Avoiding Direct Engagement with Vulnerable Individuals' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'consultation-experts', title: 'Consultation with Experts' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'informed-consent', title: 'Informed Consent and Transparency' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'ethical-outreach', title: 'Ethical Outreach and Communication' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
       ]
     }
   ];
@@ -417,7 +417,7 @@ function WetLabSafety() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img className="menu-icon" src={menu.icon}   /> : <span></span>}
+                <img className="menu-icon" src={menu.icon}   />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -428,7 +428,7 @@ function WetLabSafety() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
-                      {activeSubMenu === subMenu.id ? <img className="menu-icon" src={subMenu.icon}   /> : <span></span>}
+                      <img className="menu-icon" src={subMenu.icon}   />
                       <span className="menu-text">{subMenu.title}</span>
                     </div>
                   ))}

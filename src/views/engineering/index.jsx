@@ -732,29 +732,29 @@ function Engineering() {
     {
       id: 'engineering-cycles',
       title: 'Engineering Cycles',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'lab',
       title: 'Lab',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'cd63-aptamer-beads', title: 'CD63 Aptamer Magnetic Beads' ,icon:'/images/two.png'},
-        { id: 'cas14a-expression', title: 'Cas14a Prokaryotic Expression' ,icon:'/images/two.png'},
-        { id: 'hcr-amplification', title: 'HCR Amplification' ,icon:'/images/two.png'},
-        { id: 'rca-module', title: 'RCA Module' ,icon:'/images/two.png'},
-        { id: 'apt-crispr-system', title: 'APT-CRISPR Detection System' ,icon:'/images/two.png'}
+        { id: 'cd63-aptamer-beads', title: 'CD63 Aptamer Magnetic Beads' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'cas14a-expression', title: 'Cas14a Prokaryotic Expression' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'hcr-amplification', title: 'HCR Amplification' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'rca-module', title: 'RCA Module' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'apt-crispr-system', title: 'APT-CRISPR Detection System' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
       ]
     },
     {
       id: 'integrated-human-practices',
       title: 'Integrated Human Practices',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'ihp-iteration1', title: 'Male Breast Cancer Awareness' ,icon:'/images/two.png'},
-        { id: 'ihp-iteration2', title: 'Detection System Optimization' ,icon:'/images/two.png'},
-        { id: 'ihp-iteration3', title: 'Science Communication' ,icon:'/images/two.png'},
-        { id: 'ihp-iteration4', title: 'ISPM Model Construction' ,icon:'/images/two.png'}
+        { id: 'ihp-iteration1', title: 'Male Breast Cancer Awareness' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'ihp-iteration2', title: 'Detection System Optimization' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'ihp-iteration3', title: 'Science Communication' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
+        { id: 'ihp-iteration4', title: 'ISPM Model Construction' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
       ]
     }
   ];
@@ -799,7 +799,7 @@ function Engineering() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu=== menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -810,7 +810,7 @@ function Engineering() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
-                      {activeSubMenu=== subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}/>
                       {subMenu.title}
                     </div>
                   ))}

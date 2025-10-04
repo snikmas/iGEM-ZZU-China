@@ -134,7 +134,7 @@ function Part() {
       {
         id: 'parts-list',
         title: 'Parts List',
-        icon: '/images/one.png'
+        icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
       },
     ];
   
@@ -181,7 +181,7 @@ function Part() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenuId === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -192,7 +192,7 @@ function Part() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenuId === subMenu.id ? <img className='menu-icon' src={subMenu.icon} /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon} />
                       {subMenu.title}
                     </div>
                   ))}

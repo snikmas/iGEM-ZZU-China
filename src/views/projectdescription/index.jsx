@@ -258,43 +258,43 @@ function ProjectDescription() {
     {
       id: 'overview',
       title: 'Introduction',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'background',
       title: 'Background',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'breast-cancer-situation', title: 'Current situation of breast cancer', icon: '/images/two.png' },
-        { id: 'tumors-exosomes', title: 'Tumors and Exosomes', icon: '/images/two.png' },
-        { id: 'inspiration', title: 'Inspiration', icon: '/images/two.png' }
+        { id: 'breast-cancer-situation', title: 'Current situation of breast cancer', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'tumors-exosomes', title: 'Tumors and Exosomes', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'inspiration', title: 'Inspiration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'our-solution',
       title: 'Our Solution',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'magnetic-bead-method', title: 'Magnetic bead method for capturing extracellular vesicles', icon: '/images/two.png' },
-        { id: 'substitution-reaction', title: 'Substitution reaction', icon: '/images/two.png' },
-        { id: 'hcr-rca-amplification', title: 'HCR/RCA signal amplification', icon: '/images/two.png' },
-        { id: 'crispr-cas-detection', title: 'CRISPR/Cas molecular detection system', icon: '/images/two.png' }
+        { id: 'magnetic-bead-method', title: 'Magnetic bead method for capturing extracellular vesicles', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'substitution-reaction', title: 'Substitution reaction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-rca-amplification', title: 'HCR/RCA signal amplification', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-cas-detection', title: 'CRISPR/Cas molecular detection system', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'future-applications',
       title: 'Future Applications',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'project-innovation',
       title: 'Project Innovation',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'reference',
       title: 'Reference',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -338,7 +338,7 @@ function ProjectDescription() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenuId === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -349,7 +349,7 @@ function ProjectDescription() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenuId === subMenu.id ? <img className='menu-icon' src={subMenu.icon} /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon} />
                       {subMenu.title}
                     </div>
                   ))}

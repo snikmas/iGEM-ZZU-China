@@ -178,32 +178,32 @@ function Contribution() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'detection-method',
       title: 'Multi-Target Detection Method',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'biological-parts',
       title: 'Biological Parts',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'experimental-protocols',
       title: 'Experimental Protocols',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'science-education',
       title: 'Science Education Impact',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'summary',
       title: 'Summary',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -247,7 +247,7 @@ function Contribution() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
+                <img className='menu-icon' src={menu.icon}  /> 
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -258,7 +258,7 @@ function Contribution() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
-                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}  /> 
                       {subMenu.title}
                     </div>
                   ))}

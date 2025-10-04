@@ -273,27 +273,31 @@ function Notebook() {
     {
       id: '2024',
       title: '2024',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'october-2024', title: 'October', icon: '/images/two.png' },
-        { id: 'november-2024', title: 'November', icon: '/images/two.png' },
-        { id: 'december-2024', title: 'December', icon: '/images/two.png' }
+        { id: 'october-2024', title: 'October', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'november-2024', title: 'November', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'december-2024', title: 'December', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: '2025',
       title: '2025',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'january-2025', title: 'January', icon: '/images/two.png' },
-        { id: 'february-2025', title: 'February', icon: '/images/two.png' },
-        { id: 'march-2025', title: 'March', icon: '/images/two.png' },
-        { id: 'april-2025', title: 'April', icon: '/images/two.png' },
-        { id: 'may-2025', title: 'May', icon: '/images/two.png' },
-        { id: 'june-2025', title: 'June', icon: '/images/two.png' },
-        { id: 'july-2025', title: 'July', icon: '/images/two.png' },
-        { id: 'august-2025', title: 'August', icon: '/images/two.png' },
-        { id: 'september-2025', title: 'September', icon: '/images/two.png' }
+        { id: 'january-2025', title: 'January', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'february-2025', title: 'February', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'march-2025', title: 'March', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'april-2025', title: 'April', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'may-2025', title: 'May', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'june-2025', title: 'June', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'july-2025', title: 'July', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'august-2025', title: 'August', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'september-2025', title: 'September', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'october-2025', title: 'October', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'november-2025', title: 'November', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'december-2025', title: 'December', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'september-2025', title: 'September', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     }
   ];
@@ -339,10 +343,10 @@ function Notebook() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenuId === menu.id ? <img src={menu.icon} className="menu-icon active" /> : <span></span>}
+                <img src={menu.icon} className="menu-icon active" />
                 <span className="menu-text">{menu.title}</span>
               </div>
-              {menu.subMenus && (
+              {menu.subMenus && ( 
                 <div className="submenu">
                   {menu.subMenus.map((subMenu) => (
                     <div
@@ -350,7 +354,7 @@ function Notebook() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenuId === subMenu.id ? <img src={subMenu.icon} className="menu-icon active" /> : <span></span>}
+                      <img src={subMenu.icon} className="menu-icon active" />
                       {subMenu.title}
                     </div>
                   ))}
