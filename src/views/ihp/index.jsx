@@ -608,7 +608,7 @@ const MainContent = () => (
             <div className="content-body">
               <div className="interview-card">
                 <div className="interview-image">
-                  <img src={InterviewFigure1} alt="Interview with Professor  Lijuan Zhao
+                  <img src={InterviewFigure1} alt="Interview with Professor  Lijuan Zhao" />
                 <div className="interview-content">
                   <div className="interview-info">
                     <div className="h3"> Lijuan Zhao</div>
