@@ -12,7 +12,7 @@ const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/
 const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure2.webp';
 const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure3.webp';
 const SolutionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure3.webp';
-const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure4.webp';
+const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutin4.webp';
 const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure1.webp';
 const InspirationFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure2.webp';
 
@@ -173,7 +173,7 @@ const MainContent = () => (
             <div className="figure-container">
               <div className="figure-item">
                 <img src={Figure3} alt="Figure 3: Approximate Population - Attributable Risks in High-income Countries" className="figure-image" />
-                <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors</div>
+                <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors(The Lancet Breast Cancer Commission.)</div>
               </div>
             </div>
           </div>
@@ -195,8 +195,8 @@ const MainContent = () => (
             </p>
             <div className="figure-container">
               <div className="figure-item">
-                <img src={SolutionFigure3} alt="Figure 1: Top 10 Cancer Types by New Cases Among Chinese Women in 2020" className="figure-image" />
-                <div className="h4">Figure 3. Vision for Technology-enabled Breast Cancer Treatment and Research</div>
+                <img src={SolutionFigure3} alt="Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)" className="figure-image" />
+                <div className="h4">Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)</div>
               </div>
             </div>
           </div>
@@ -209,6 +209,14 @@ const MainContent = () => (
           <div className="content-section-header">
             <div className="h2">Scientific Challenges: Limitations of Existing Screening Technologies</div>
           </div>
+
+          <div className="figure-container">
+            <div className="figure-item">
+              <img src={SolutionFigure4} alt="Figure 5. History of Breast Cancer Detection" className="figure-image" />
+              <div className="h4">Figure 5. History of Breast Cancer Detection</div>
+            </div>
+          </div>
+          
           <div className="content-body">
             <p>
               Current breast cancer screening primarily relies on <span className='text-strong'>imaging techniques</span> (e.g., mammography, ultrasound) and <span className='text-strong'>serum marker tests</span> (e.g., CA15-3), but these methods have <span className='text-strong'>obvious drawbacks</span>:
@@ -219,12 +227,12 @@ const MainContent = () => (
               <li><strong>Low timeliness:</strong> Traditional tests take several days to produce results, failing to meet the demand for rapid screening.</li>
             </ul>
             <p>
-              To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 moleculeon exosomes in samples</span> , we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
+              To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 molecule on exosomes in samples</span>, we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
             </p>
-            
           </div>
         </div>
       </section>
+
 
       {/* Social Challenges Section */}
       <section id="social-challenges" className="view-section">
@@ -276,8 +284,8 @@ const MainContent = () => (
               </p>
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={InspirationFigure1} alt="Figure 1. Iterative Symbiotic Practice Model" className="figure-image" />
-                  <div className="h4">Figure 1. Iterative Symbiotic Practice Model</div>
+                  <img src={InspirationFigure1} alt="Figure 6. Iterative Symbiotic Practice Model" className="figure-image" />
+                  <div className="h4">Figure 6. Iterative Symbiotic Practice Model</div>
                 </div>
               </div>
             </div>
@@ -297,8 +305,8 @@ const MainContent = () => (
 
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={InspirationFigure2} alt="Needs Insight Layer Figure 2.1" className="figure-image" />
-                  <div className="h4">Needs Insight Layer Figure 2.1</div></div>
+                  <img src={InspirationFigure2} alt="Figure 7. The Results of the Survey Questionnaire" className="figure-image" />
+                  <div className="h4">Figure 7. The Results of the Survey Questionnaire</div></div>
               </div>
               <p>
                 A <span>SWOT analysis</span> of stakeholders revealed: women exhibit a contradiction of "strong screening willingness but insufficient knowledge"; medical institutions face the practical dilemma of "strong professional capabilities but aging equipment and heavy workload for healthcare staff"; government departments possess the administrative characteristic of "policy-making authority but uneven resource allocation"; and research institutions confront the developmental challenge of "advantages in technological R&D but limited technology transfer capabilities." These in-depth analyses provide a comprehensive needs map and problem-oriented guidance for our subsequent practice design.
@@ -421,8 +429,8 @@ const MainContent = () => (
               </p>
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={SWOTAnalysisFigure1} alt="Figure 1. Stakeholder SWOT Analysis" className="figure-image" />
-                  <div className="h4">Figure 1. Stakeholder SWOT Analysis</div>
+                  <img src={SWOTAnalysisFigure1} alt="Figure 8. Stakeholder SWOT Analysis" className="figure-image" />
+                  <div className="h4">Figure 8. Stakeholder SWOT Analysis</div>
                 </div>
               </div>
             </div>
@@ -584,8 +592,8 @@ const MainContent = () => (
       <div className="content-body">
         <div className='figure-container'>
           <div className='figure-item'>
-            <img src={overviewpng} alt="Figure 1. Interview Map" className="figure-image" />
-            <div className="h4">Figure 1. Interview Map</div>
+            <img src={overviewpng} alt="Figure 9. Interview Map" className="figure-image" />
+            <div className="h4">Figure 9. Interview Map</div>
           </div>
         </div>
 
@@ -606,7 +614,7 @@ const MainContent = () => (
                   <div className="interview-info">
                     <div className="h3">Zhao Lijuan</div>
                     <p className="affiliation">Engaged in anti-tumor pharmacology research and tumor exosome research</p>
-                    <p className="details">Expert Interview | Figure 2</p>
+                    <p className="details">Figure 10. Interview with Professor Zhao Lijuan</p>
                   </div>
                   <div className="interview-summary">
                     <p>Exosomes are ideal for early screening due to clear signals, stability, and accessibility.</p>
