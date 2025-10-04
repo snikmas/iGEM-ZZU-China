@@ -29,14 +29,14 @@ const IntegratedReportFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets
 
 // 4 DONE
 const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/ihp/overview.webp';
-const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure1.webp';
-const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure2.webp';
-const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure3.webp';
-const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure4.webp';
-const InterviewFigure5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure5.webp';
-const InterviewFigure6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure6.webp';
-const InterviewFigure7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure7.webp';
-const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure8.webp';
+const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure1.webp';
+const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure2.webp';
+const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure3.webp';
+const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure4.webp';
+const InterviewFigure5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure5.webp';
+const InterviewFigure6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure6.webp';
+const InterviewFigure7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure7.webp';
+const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure8.webp';
 const InterviewFigure9 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure9.webp';
 const InterviewFigure10 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure10.webp';
 const InterviewFigure11 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure11.webp';
