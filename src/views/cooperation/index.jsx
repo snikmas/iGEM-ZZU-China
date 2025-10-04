@@ -481,17 +481,17 @@ function Cooperation() {
         { id: 'japan-online', title: 'Japan Online Exchange (March 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'osaka-university', title: 'Osaka University On-Site Exchange (April 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'taian-igem', title: 'Taian iGEM Exchange Conference (June 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
-        { id: 'shanhe-igem', title: 'Shanhe Four Provinces iGEM Exchange Conference (June 2025)', icon: '/images/two.png' },
-        { id: 'ccic-conference', title: 'The 10th China Synthetic Biology Conference (CCiC) & Synbiopunk 2025 (August 2025)', icon: '/images/two.png' }
+        { id: 'shanhe-igem', title: 'Shanhe Four Provinces iGEM Exchange Conference (June 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'ccic-conference', title: 'The 10th China Synthetic Biology Conference (CCiC) & Synbiopunk 2025 (August 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'educational-outreach',
       title: 'Educational & Outreach Collaboration',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'science-outreach', title: 'Science Outreach for Primary to High Schools (March–April 2025)', icon: '/images/two.png' },
-        { id: 'womens-day-hospital', title: 'Women\'s Day Health Awareness Campaign at the Third Affiliated Hospital (March 8, 2025)', icon: '/images/two.png' }, 
+        { id: 'science-outreach', title: 'Science Outreach for Primary to High Schools (March–April 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'womens-day-hospital', title: 'Women\'s Day Health Awareness Campaign at the Third Affiliated Hospital (March 8, 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }, 
         { id: 'womens-day-campus', title: 'Women\'s Day Outreach at Zhengzhou University North Playground (March 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'campus-igem', title: 'Campus iGEM Sharing (May 2025)', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
