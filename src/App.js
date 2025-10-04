@@ -12,10 +12,10 @@ function App() {
       
       if (sidebar) {
         if (scrollPosition < 450) {
-          // 滚动距离小于450px时，固定高度为450px
           sidebar.classList.remove('fixed-top');
+          const height = 550 - scrollPosition;
+          sidebar.style.top = `${height}px`;
         } else {
-          // 滚动距离大于等于450px时，固定在顶部
           sidebar.classList.add('fixed-top');
         }
       }
