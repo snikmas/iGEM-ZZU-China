@@ -623,6 +623,7 @@ const MainContent = () => (
                 </div>
               </div>
             </div>
+            </div>
           </div>
         </section>
 
