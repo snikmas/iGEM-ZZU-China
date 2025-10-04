@@ -160,7 +160,7 @@ const MainContent = () => (
             </p>
             <div className="figure-container"><div className="figure-item">
               <img src={descriptionFigure3_3a} alt="RCA reaction principle diagram" className="figure-image" />
-              <div className="h4">Figure 4. RCA reaction principle diagram</div>
+              <div className="h4">Figure 5. RCA reaction principle diagram</div>
             </div></div>
           </div>
         </div>
@@ -180,7 +180,7 @@ const MainContent = () => (
             <div className="figure-container">
             <div className="figure-item">
               <img src={descriptionFigure3_4} alt="CRISPR/Cas molecular detection principle diagram" className="figure-image" />
-              <div className="h4">Figure 5. CRISPR/Cas molecular detection principle diagram</div>
+              <div className="h4">Figure 6. CRISPR/Cas molecular detection principle diagram</div>
             </div></div>
           </div>
         </div>
