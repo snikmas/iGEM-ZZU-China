@@ -12,7 +12,7 @@ const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/
 const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure2.webp';
 const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure3.webp';
 const SolutionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure3.webp';
-const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure4.webp';
+const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutin4.webp';
 const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure1.webp';
 const InspirationFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure2.webp';
 
@@ -173,7 +173,7 @@ const MainContent = () => (
             <div className="figure-container">
               <div className="figure-item">
                 <img src={Figure3} alt="Figure 3: Approximate Population - Attributable Risks in High-income Countries" className="figure-image" />
-                <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors</div>
+                <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors(The Lancet Breast Cancer Commission.)</div>
               </div>
             </div>
           </div>
@@ -196,7 +196,7 @@ const MainContent = () => (
             <div className="figure-container">
               <div className="figure-item">
                 <img src={SolutionFigure3} alt="Figure 1: Top 10 Cancer Types by New Cases Among Chinese Women in 2020" className="figure-image" />
-                <div className="h4">Figure 3. Vision for Technology-enabled Breast Cancer Treatment and Research</div>
+                <div className="h4">Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)</div>
               </div>
             </div>
           </div>
