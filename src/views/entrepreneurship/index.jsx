@@ -10,7 +10,7 @@ const descriptionFigure2 = 'https://static.igem.wiki/teams/5822/newassets/entrep
 const descriptionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure3.webp';
 const descriptionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure4.webp';
 
-const developmentPlanPdf = 'https://static.igem.wiki/teams/5822/newassets/images/entrepreneurship/developmentPlan.pdf';
+const developmentPlanPdf = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/deve.webp';
 
 // 组件定义
 const MainContent = () => (
