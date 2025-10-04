@@ -1,12 +1,12 @@
 import React from 'react';
 import './index.css';
 
-const PageWrapper = ({ children }) => {
+const PageWrapper = ({ children , headerImage }) => {
   return (
     <div className="page-wrapper">
       <div className="page-header-image">
         <img 
-          src="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif" 
+          src={headerImage}
           alt="Page Header"
         />
       </div>
