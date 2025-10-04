@@ -674,6 +674,8 @@ const MainContent = () => (
 function Experiments() {
   
   const [isLoaded, setIsLoaded] = useState(false);
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
 
   // 页面加载动画
   useEffect(() => {
@@ -688,66 +690,66 @@ function Experiments() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '🧪'
+      icon: '/images/one.png'
     },
     {
       id: 'extracellular-vesicle',
       title: 'Extracellular vesicle capture and efficacy testing',
-      icon: '🔬',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'ev-capture', title: 'Extracellular vesicle capture' },
-        { id: 'bca-protein', title: 'BCA protein quantification' },
-        { id: 'wb', title: 'WB' },
-        { id: 'electron-microscopy', title: 'Electron microscopy detection' }
+        { id: 'ev-capture', title: 'Extracellular vesicle capture', icon: '/images/two.png' },
+        { id: 'bca-protein', title: 'BCA protein quantification', icon: '/images/two.png' },
+        { id: 'wb', title: 'WB', icon: '/images/two.png' },
+        { id: 'electron-microscopy', title: 'Electron microscopy detection', icon: '/images/two.png' }
       ]
     },
     {
       id: 'cas14a-expression',
       title: 'Cas14a Prokaryotic Expression',
-      icon: '🧬',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'plasmid-construction', title: 'Plasmid Construction' },
-        { id: 'plasmid-extraction', title: 'Plasmid extraction' },
-        { id: 'transformation', title: 'Transformation' },
-        { id: 'protein-quantification', title: 'Protein Quantification' },
-        { id: 'sds-page', title: 'SDS Page' },
-        { id: 'protein-expression', title: 'Protein Expression' },
-        { id: 'protein-purification', title: 'Protein Purification' },
-        { id: 'enzyme-activity', title: 'Enzyme activity assay' }
+        { id: 'plasmid-construction', title: 'Plasmid Construction', icon: '/images/two.png' },
+        { id: 'plasmid-extraction', title: 'Plasmid extraction', icon: '/images/two.png' },
+        { id: 'transformation', title: 'Transformation', icon: '/images/two.png' },
+        { id: 'protein-quantification', title: 'Protein Quantification', icon: '/images/two.png' },
+        { id: 'sds-page', title: 'SDS Page', icon: '/images/two.png' },
+        { id: 'protein-expression', title: 'Protein Expression', icon: '/images/two.png' },
+        { id: 'protein-purification', title: 'Protein Purification', icon: '/images/two.png' },
+        { id: 'enzyme-activity', title: 'Enzyme activity assay', icon: '/images/two.png' }
       ]
     },
     {
       id: 'hcr-amplification',
       title: 'HCR amplification',
-      icon: '⚡',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'hcr-optimization-temp', title: 'Optimization of HCR reaction temperature' },
-        { id: 'hcr-optimization-time', title: 'Optimization of HCR reaction time' },
-        { id: 'hcr-optimization-conc', title: 'Optimization of HCR reaction concentration' },
-        { id: 'hcr-amplification-fold', title: 'Determination of HCR Amplification Fold' },
-        { id: 'hcr-final-protocol', title: 'HCR final protocol' }
+        { id: 'hcr-optimization-temp', title: 'Optimization of HCR reaction temperature', icon: '/images/two.png' },
+        { id: 'hcr-optimization-time', title: 'Optimization of HCR reaction time', icon: '/images/two.png' },
+        { id: 'hcr-optimization-conc', title: 'Optimization of HCR reaction concentration', icon: '/images/two.png' },
+        { id: 'hcr-amplification-fold', title: 'Determination of HCR Amplification Fold', icon: '/images/two.png' },
+        { id: 'hcr-final-protocol', title: 'HCR final protocol', icon: '/images/two.png' }
       ]
     },
     {
       id: 'rca-amplification',
       title: 'RCA amplification',
-      icon: '🔄',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'rca', title: 'RCA' }
+        { id: 'rca', title: 'RCA', icon: '/images/two.png' }
       ]
     },
     {
       id: 'apt-crispr',
       title: 'APT-CRISPR detection system',
-      icon: '🎯',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'complementary-chain', title: 'Complementary chain screening' },
-        { id: 'displacement-optimization', title: 'Optimization of reaction time and temperature' },
-        { id: 'crispr-sensitivity', title: 'CRISPR-Cas12a Fluorescence Sensitivity & Specificity' },
-        { id: 'crispr-cell-suspension', title: 'CRISPR-Cas12a Fluorescence Detection in Cell Suspension' },
-        { id: 'crispr-hcr-sensitivity', title: 'CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity' },
-        { id: 'crispr-hcr-detection', title: 'CRISPR-Cas12a-HCR Fluorescence Detection' },
-        { id: 'apt-rca-crispr', title: 'APT-RCA-CRISPR-Cas14a' }
+        { id: 'complementary-chain', title: 'Complementary chain screening', icon: '/images/two.png' },
+        { id: 'displacement-optimization', title: 'Optimization of reaction time and temperature', icon: '/images/two.png' },
+        { id: 'crispr-sensitivity', title: 'CRISPR-Cas12a Fluorescence Sensitivity & Specificity', icon: '/images/two.png' },
+        { id: 'crispr-cell-suspension', title: 'CRISPR-Cas12a Fluorescence Detection in Cell Suspension', icon: '/images/two.png' },
+        { id: 'crispr-hcr-sensitivity', title: 'CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity', icon: '/images/two.png' },
+        { id: 'crispr-hcr-detection', title: 'CRISPR-Cas12a-HCR Fluorescence Detection', icon: '/images/two.png' },
+        { id: 'apt-rca-crispr', title: 'APT-RCA-CRISPR-Cas14a', icon: '/images/two.png' }
       ]
     }
   ];
@@ -766,11 +768,14 @@ function Experiments() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -789,6 +794,7 @@ function Experiments() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <soan></soan>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && menu.subMenus.length > 0 && (
@@ -797,9 +803,10 @@ function Experiments() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {subMenu.title}
+                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}
                 </div>

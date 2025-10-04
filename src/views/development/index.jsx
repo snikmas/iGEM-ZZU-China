@@ -204,6 +204,8 @@ const MainContent = () => (
 function Development() {
   
   const [isLoaded, setIsLoaded] = useState(false);
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
 
   // 页面加载动画
   useEffect(() => {
@@ -218,34 +220,34 @@ function Development() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '🔬'
+      icon: '/images/one.png'
     },
     {
       id: 'crispr-lfa-system',
       title: 'CRISPR-LFA Qualitative Detection System',
-      icon: '🧬',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'lfa-background', title: 'Background' },
-        { id: 'lfa-scheme', title: 'Scheme' }
+        { id: 'lfa-background', title: 'Background', icon: '/images/two.png' },
+        { id: 'lfa-scheme', title: 'Scheme', icon: '/images/two.png' }
       ]
     },
     {
       id: 'multi-channel-detection',
       title: 'Multi-Channel Detection with POCT',
-      icon: '🔬',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'poct-cartridge', title: 'POCT Cartridge Design' }
+        { id: 'poct-cartridge', title: 'POCT Cartridge Design', icon: '/images/two.png' }
       ]
     },
     {
       id: 'technical-advantages',
       title: 'Technical Advantages',
-      icon: '⚡'
+      icon: '/images/one.png'
     },
     {
       id: 'future-development',
       title: 'Future Development Plans',
-      icon: '🚀'
+      icon: '/images/one.png'
     }
   ];
 
@@ -263,11 +265,14 @@ function Development() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -286,6 +291,7 @@ function Development() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -294,9 +300,10 @@ function Development() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {subMenu.title}
+                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}
                 </div>

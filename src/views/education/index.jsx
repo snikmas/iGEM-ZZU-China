@@ -746,7 +746,9 @@ const MainContent = () => (
 function Education() {
   
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
+  
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -760,46 +762,46 @@ function Education() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '🌱'
+      icon: '/images/one.png'
     },
     {
       id: 'student-education',
       title: 'Education for Students',
-      icon: '🎓',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'primary-education', title: 'Primary Education' },
-        { id: 'middle-school-education', title: 'Middle School Education' },
-        { id: 'high-school-education', title: 'High School Education' },
-        { id: 'university-education', title: 'University Education' }
+        { id: 'primary-education', title: 'Primary Education' ,icon:'/images/two.png'},
+        { id: 'middle-school-education', title: 'Middle School Education' ,icon:'/images/two.png'},
+        { id: 'high-school-education', title: 'High School Education' ,icon:'/images/two.png'},
+        { id: 'university-education', title: 'University Education' ,icon:'/images/two.png'}
       ]
     },
     {
       id: 'community-education',
       title: 'Community Education',
-      icon: '🏘️',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'march-8-public-welfare-campaign', title: '“March 8” Public Welfare Campaign' }
+        { id: 'march-8-public-welfare-campaign', title: '“March 8” Public Welfare Campaign' ,icon:'/images/two.png'}
       ]
     },
     {
       id: 'professional-education',
       title: 'Professional Education',
-      icon: '👩‍⚕️'
+      icon: '/images/one.png'
     },
     {
       id: 'online-education',
       title: 'Online Education',
-      icon: '💻',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'wechat-section', title: 'WeChat Public Account' },
-        { id: 'videos-section', title: 'Short Videos and Social Media' },
-        { id: 'future-section', title: 'Future Resource Sharing' }
+        { id: 'wechat-section', title: 'WeChat Public Account' ,icon:'/images/two.png'},
+        { id: 'videos-section', title: 'Short Videos and Social Media' ,icon:'/images/two.png'},
+        { id: 'future-section', title: 'Future Resource Sharing' ,icon:'/images/two.png'}
       ]
     },
     {
       id: 'conclusion',
       title: 'Conclusion & Future Plans',
-      icon: '🚀'
+      icon: '/images/one.png'
     }
   ];
 
@@ -817,11 +819,14 @@ function Education() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId,subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
 
@@ -846,6 +851,7 @@ function Education() {
                   <img src={menuIconDefault} alt="" className="menu-icon default" />
                   <img src={menuIconHover} alt="" className="menu-icon hover" />
                 </div> */}
+                {activeMenu=== menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -854,8 +860,9 @@ function Education() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
+                      {activeSubMenu=== subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
                       {subMenu.title}
                     </div>
                   ))}

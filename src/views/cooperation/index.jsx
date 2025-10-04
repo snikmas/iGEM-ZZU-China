@@ -455,7 +455,9 @@ const MainContent = () => (
 function Cooperation() {
   const [activeSection, setActiveSection] = useState('overview');
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
+  const [activeMenu, setActiveMenu] = useState('overview');
+  
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -469,47 +471,47 @@ function Cooperation() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '🌱'
+      icon: '/images/one.png'
     },
     {
       id: 'team-technical-exchange',
       title: 'Team-to-Team Technical Exchange',
-      icon: '🤝',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'japan-online', title: 'Japan Online Exchange (March 2025)' },
-        { id: 'osaka-university', title: 'Osaka University On-Site Exchange (April 2025)' },
-        { id: 'taian-igem', title: 'Taian iGEM Exchange Conference (June 2025)' },
-        { id: 'shanhe-igem', title: 'Shanhe Four Provinces iGEM Exchange Conference (June 2025)' },
-        { id: 'ccic-conference', title: 'The 10th China Synthetic Biology Conference (CCiC) & Synbiopunk 2025 (August 2025)' }
+        { id: 'japan-online', title: 'Japan Online Exchange (March 2025)', icon: '/images/two.png' },
+        { id: 'osaka-university', title: 'Osaka University On-Site Exchange (April 2025)', icon: '/images/two.png' },
+        { id: 'taian-igem', title: 'Taian iGEM Exchange Conference (June 2025)', icon: '/images/two.png' },
+        { id: 'shanhe-igem', title: 'Shanhe Four Provinces iGEM Exchange Conference (June 2025)', icon: '/images/two.png' },
+        { id: 'ccic-conference', title: 'The 10th China Synthetic Biology Conference (CCiC) & Synbiopunk 2025 (August 2025)', icon: '/images/two.png' }
       ]
     },
     {
       id: 'educational-outreach',
       title: 'Educational & Outreach Collaboration',
-      icon: '📚',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'science-outreach', title: 'Science Outreach for Primary to High Schools (March–April 2025)' },
-        { id: 'womens-day-hospital', title: 'Women\'s Day Health Awareness Campaign at the Third Affiliated Hospital (March 8, 2025)' },
-        { id: 'womens-day-campus', title: 'Women\'s Day Outreach at Zhengzhou University North Playground (March 2025)' },
-        { id: 'campus-igem', title: 'Campus iGEM Sharing (May 2025)' }
+        { id: 'science-outreach', title: 'Science Outreach for Primary to High Schools (March–April 2025)', icon: '/images/two.png' },
+        { id: 'womens-day-hospital', title: 'Women\'s Day Health Awareness Campaign at the Third Affiliated Hospital (March 8, 2025)', icon: '/images/two.png' }, 
+        { id: 'womens-day-campus', title: 'Women\'s Day Outreach at Zhengzhou University North Playground (March 2025)', icon: '/images/two.png' },
+        { id: 'campus-igem', title: 'Campus iGEM Sharing (May 2025)', icon: '/images/two.png' }
       ]
     },
     {
       id: 'institutional-expert',
       title: 'Institutional & Expert Collaboration',
-      icon: '🏛️',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'autogen-partnership', title: 'Partnership with Autogen (April 2025)' },
-        { id: 'thomas-sudhof', title: 'Interview with Professor Thomas Südhof (March 2025)' },
-        { id: 'craig-mello', title: 'Interview with Craig C. Mello (April 2025)' },
-        { id: 'clinical-experts', title: 'Guidance from Clinical Experts in China (April 2025)' },
-        { id: 'twist-bioscience', title: 'Industry Perspective from Twist Bioscience (May 2025)' }
+        { id: 'autogen-partnership', title: 'Partnership with Autogen (April 2025)', icon: '/images/two.png' },
+        { id: 'thomas-sudhof', title: 'Interview with Professor Thomas Südhof (March 2025)', icon: '/images/two.png' },
+        { id: 'craig-mello', title: 'Interview with Craig C. Mello (April 2025)', icon: '/images/two.png' },
+        { id: 'clinical-experts', title: 'Guidance from Clinical Experts in China (April 2025)', icon: '/images/two.png' },
+        { id: 'twist-bioscience', title: 'Industry Perspective from Twist Bioscience (May 2025)', icon: '/images/two.png' }
       ]
     },
     {
       id: 'impact-reflection',
       title: 'Impact and Reflection',
-      icon: '📊'
+      icon: '/images/one.png'
     }
   ];
 
@@ -527,11 +529,14 @@ function Cooperation() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -551,6 +556,7 @@ function Cooperation() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -559,9 +565,10 @@ function Cooperation() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {subMenu.title}
+                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}
                 </div>

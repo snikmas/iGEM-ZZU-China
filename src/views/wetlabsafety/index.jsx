@@ -321,7 +321,8 @@ const MainContent = () => (
 function WetLabSafety() {
   
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -335,43 +336,43 @@ function WetLabSafety() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '🛡️'
+      icon: '/images/one.png'
     },
     {
       id: 'identification-risks',
       title: 'Identification of Risks',
-      icon: '⚠️',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'exposure-e-coli', title: 'Exposure to recombinant E. coli strains' },
-        { id: 'handling-cell-lines', title: 'Handling human breast cell lines' },
-        { id: 'magnetic-beads', title: 'Use of magnetic beads and aptamers' },
-        { id: 'chemical-reagents', title: 'Chemical reagents for DNA amplification' },
-        { id: 'uv-equipment', title: 'UV and electrophoresis equipment' },
-        { id: 'crispr-system', title: 'CRISPR-Cas14a-based detection system' }
+        { id: 'exposure-e-coli', title: 'Exposure to recombinant E. coli strains',icon: '/images/two.png' },
+        { id: 'handling-cell-lines', title: 'Handling human breast cell lines' ,icon:'/images/two.png'},
+        { id: 'magnetic-beads', title: 'Use of magnetic beads and aptamers',icon:'/images/two.png' },
+        { id: 'chemical-reagents', title: 'Chemical reagents for DNA amplification',icon:'/images/two.png' },
+        { id: 'uv-equipment', title: 'UV and electrophoresis equipment',icon:'/images/two.png' },
+        { id: 'crispr-system', title: 'CRISPR-Cas14a-based detection system',icon:'/images/two.png' }
       ]
     },
     {
       id: 'management-risks',
       title: 'Management of Risks',
-      icon: '🔧',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'expert-support', title: 'Expert Support' },
-        { id: 'compliance-regulations', title: 'Compliance with Regulations and Guidelines' },
-        { id: 'lab-safety-training', title: 'Lab Safety and Training' },
-        { id: 'dedicated-lab-spaces', title: 'Dedicated Lab Spaces and Equipment' },
-        { id: 'waste-management', title: 'Waste Management and Containment' },
-        { id: 'risk-reduction-design', title: 'Risk Reduction by Experimental Design' }
+        { id: 'expert-support', title: 'Expert Support' ,icon:'/images/two.png'},
+        { id: 'compliance-regulations', title: 'Compliance with Regulations and Guidelines' ,icon:'/images/two.png'},
+        { id: 'lab-safety-training', title: 'Lab Safety and Training' ,icon:'/images/two.png'},
+        { id: 'dedicated-lab-spaces', title: 'Dedicated Lab Spaces and Equipment' ,icon:'/images/two.png'},
+        { id: 'waste-management', title: 'Waste Management and Containment' ,icon:'/images/two.png'},
+        { id: 'risk-reduction-design', title: 'Risk Reduction by Experimental Design' ,icon:'/images/two.png'}
       ]
     },
     {
       id: 'responsibility-human-practices',
       title: 'Responsibility in Human Practices',
-      icon: '👥',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'avoiding-vulnerable', title: 'Avoiding Direct Engagement with Vulnerable Individuals' },
-        { id: 'consultation-experts', title: 'Consultation with Experts' },
-        { id: 'informed-consent', title: 'Informed Consent and Transparency' },
-        { id: 'ethical-outreach', title: 'Ethical Outreach and Communication' }
+        { id: 'avoiding-vulnerable', title: 'Avoiding Direct Engagement with Vulnerable Individuals' ,icon:'/images/two.png'},
+        { id: 'consultation-experts', title: 'Consultation with Experts' ,icon:'/images/two.png'},
+        { id: 'informed-consent', title: 'Informed Consent and Transparency' ,icon:'/images/two.png'},
+        { id: 'ethical-outreach', title: 'Ethical Outreach and Communication' ,icon:'/images/two.png'}
       ]
     }
   ];
@@ -390,11 +391,14 @@ function WetLabSafety() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId,subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveMenu(menuId);
+    setActiveSubMenu(subMenuId);
   };
 
   return (
@@ -413,6 +417,7 @@ function WetLabSafety() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img className="menu-icon" src={menu.icon}   /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -421,9 +426,10 @@ function WetLabSafety() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
-                      {subMenu.title}
+                      {activeSubMenu === subMenu.id ? <img className="menu-icon" src={subMenu.icon}   /> : <span></span>}
+                      <span className="menu-text">{subMenu.title}</span>
                     </div>
                   ))}
                 </div>

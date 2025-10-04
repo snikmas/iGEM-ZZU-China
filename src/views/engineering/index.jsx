@@ -716,7 +716,9 @@ const MainContent = () => {
 
 function Engineering() {
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
+  
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -730,29 +732,29 @@ function Engineering() {
     {
       id: 'engineering-cycles',
       title: 'Engineering Cycles',
-      icon: '🔄'
+      icon: '/images/one.png'
     },
     {
       id: 'lab',
       title: 'Lab',
-      icon: '🧪',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'cd63-aptamer-beads', title: 'CD63 Aptamer Magnetic Beads' },
-        { id: 'cas14a-expression', title: 'Cas14a Prokaryotic Expression' },
-        { id: 'hcr-amplification', title: 'HCR Amplification' },
-        { id: 'rca-module', title: 'RCA Module' },
-        { id: 'apt-crispr-system', title: 'APT-CRISPR Detection System' }
+        { id: 'cd63-aptamer-beads', title: 'CD63 Aptamer Magnetic Beads' ,icon:'/images/two.png'},
+        { id: 'cas14a-expression', title: 'Cas14a Prokaryotic Expression' ,icon:'/images/two.png'},
+        { id: 'hcr-amplification', title: 'HCR Amplification' ,icon:'/images/two.png'},
+        { id: 'rca-module', title: 'RCA Module' ,icon:'/images/two.png'},
+        { id: 'apt-crispr-system', title: 'APT-CRISPR Detection System' ,icon:'/images/two.png'}
       ]
     },
     {
       id: 'integrated-human-practices',
       title: 'Integrated Human Practices',
-      icon: '🤝',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'ihp-iteration1', title: 'Male Breast Cancer Awareness' },
-        { id: 'ihp-iteration2', title: 'Detection System Optimization' },
-        { id: 'ihp-iteration3', title: 'Science Communication' },
-        { id: 'ihp-iteration4', title: 'ISPM Model Construction' }
+        { id: 'ihp-iteration1', title: 'Male Breast Cancer Awareness' ,icon:'/images/two.png'},
+        { id: 'ihp-iteration2', title: 'Detection System Optimization' ,icon:'/images/two.png'},
+        { id: 'ihp-iteration3', title: 'Science Communication' ,icon:'/images/two.png'},
+        { id: 'ihp-iteration4', title: 'ISPM Model Construction' ,icon:'/images/two.png'}
       ]
     }
   ];
@@ -771,11 +773,14 @@ function Engineering() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId,subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -794,6 +799,7 @@ function Engineering() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu=== menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -802,8 +808,9 @@ function Engineering() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
+                      {activeSubMenu=== subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
                       {subMenu.title}
                     </div>
                   ))}

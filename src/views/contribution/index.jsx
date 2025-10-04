@@ -163,7 +163,8 @@ const MainContent = () => (
 function Contribution() {
   const [activeSection, setActiveSection] = useState('overview');
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -177,32 +178,32 @@ function Contribution() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '🌱'
+      icon: '/images/one.png'
     },
     {
       id: 'detection-method',
       title: 'Multi-Target Detection Method',
-      icon: '🔬'
+      icon: '/images/one.png'
     },
     {
       id: 'biological-parts',
       title: 'Biological Parts',
-      icon: '🧬'
+      icon: '/images/one.png'
     },
     {
       id: 'experimental-protocols',
       title: 'Experimental Protocols',
-      icon: '📋'
+      icon: '/images/one.png'
     },
     {
       id: 'science-education',
       title: 'Science Education Impact',
-      icon: '🎓'
+      icon: '/images/one.png'
     },
     {
       id: 'summary',
       title: 'Summary',
-      icon: '📊'
+      icon: '/images/one.png'
     }
   ];
 
@@ -220,11 +221,14 @@ function Contribution() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId,subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -243,6 +247,7 @@ function Contribution() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -251,8 +256,9 @@ function Contribution() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
+                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
                       {subMenu.title}
                     </div>
                   ))}

@@ -257,7 +257,9 @@ const MainContent = () => (
 function Notebook() {
   
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenuId, setActiveMenuId] = useState('overview');
+  const [activeSubMenuId, setActiveSubMenuId] = useState(null);
+  
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -271,27 +273,27 @@ function Notebook() {
     {
       id: '2024',
       title: '2024',
-      icon: '📅',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'october-2024', title: 'October' },
-        { id: 'november-2024', title: 'November' },
-        { id: 'december-2024', title: 'December' }
+        { id: 'october-2024', title: 'October', icon: '/images/two.png' },
+        { id: 'november-2024', title: 'November', icon: '/images/two.png' },
+        { id: 'december-2024', title: 'December', icon: '/images/two.png' }
       ]
     },
     {
       id: '2025',
       title: '2025',
-      icon: '📅',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'january-2025', title: 'January' },
-        { id: 'february-2025', title: 'February' },
-        { id: 'march-2025', title: 'March' },
-        { id: 'april-2025', title: 'April' },
-        { id: 'may-2025', title: 'May' },
-        { id: 'june-2025', title: 'June' },
-        { id: 'july-2025', title: 'July' },
-        { id: 'august-2025', title: 'August' },
-        { id: 'september-2025', title: 'September' }
+        { id: 'january-2025', title: 'January', icon: '/images/two.png' },
+        { id: 'february-2025', title: 'February', icon: '/images/two.png' },
+        { id: 'march-2025', title: 'March', icon: '/images/two.png' },
+        { id: 'april-2025', title: 'April', icon: '/images/two.png' },
+        { id: 'may-2025', title: 'May', icon: '/images/two.png' },
+        { id: 'june-2025', title: 'June', icon: '/images/two.png' },
+        { id: 'july-2025', title: 'July', icon: '/images/two.png' },
+        { id: 'august-2025', title: 'August', icon: '/images/two.png' },
+        { id: 'september-2025', title: 'September', icon: '/images/two.png' }
       ]
     }
   ];
@@ -310,11 +312,14 @@ function Notebook() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenuId(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenuId(subMenuId);
+    setActiveMenuId(menuId);
   };
 
   return (
@@ -334,6 +339,7 @@ function Notebook() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenuId === menu.id ? <img src={menu.icon} className="menu-icon active" /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -342,8 +348,9 @@ function Notebook() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
+                      {activeSubMenuId === subMenu.id ? <img src={subMenu.icon} className="menu-icon active" /> : <span></span>}
                       {subMenu.title}
                     </div>
                   ))}

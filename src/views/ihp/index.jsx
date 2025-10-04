@@ -2038,7 +2038,9 @@ const MainContent = () => (
 
 function IHP() {
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
+  
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -2062,237 +2064,237 @@ function IHP() {
     {
       id: 'introduction',
       title: 'Introduction',
-      icon: '📖',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'problem-overview',
           title: 'Problem Overview',
-          icon: '📊'
+          icon: '/images/one.png'
         },
         {
           id: 'solution',
           title: 'Solution',
-          icon: '💡'
+          icon: '/images/one.png'
         },
         {
           id: 'scientific-challenges',
           title: 'Scientific Challenges',
-          icon: '🔬'
+          icon: '/images/one.png'
         },
         {
           id: 'social-challenges',
           title: 'Social Challenges',
-          icon: '🌍'
+          icon: '/images/one.png'
         }
       ]
     },
     {
       id: 'iterative-symbiotic-practice-model',
       title: 'Iterative Symbiotic Practice Model',
-      icon: '🔄',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'overview',
           title: 'Overview',
-          icon: '🔄'
+          icon: '/images/two.png'
         },
         {
           id: 'needs-insight-layer',
           title: 'Needs Insight Layer',
-          icon: '🔍'
+          icon: '/images/two.png'
         },
         {
           id: 'practice-design-layer',
           title: 'Practice Design Layer',
-          icon: '🎯'
+          icon: '/images/two.png'
         },
         {
           id: 'implementation-interaction-layer',
           title: 'Implementation Interaction Layer',
-          icon: '⚡'
+          icon: '/images/two.png'
         },
         {
           id: 'feedback-integration-layer',
           title: 'Feedback Integration Layer',
-          icon: '🔄'
+          icon: '/images/two.png'   
         },
         {
           id: 'iterative-optimization-layer',
           title: 'Iterative Optimization Layer',
-          icon: '📈'
+          icon: '/images/two.png'
         },
         {
           id: 'summary',
           title: 'Summary',
-          icon: '📋'
+          icon: '/images/two.png'
         }
       ]
     },
     {
       id: 'stakeholder-swot-analysis',
       title: 'Stakeholder SWOT Analysis',
-      icon: '📊',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'swot-overview',
           title: 'Overview',
-          icon: '📊'
+          icon: '/images/two.png'
         },
         {
           id: 'female-group',
           title: 'Female Group',
-          icon: '👩'
+          icon: '/images/two.png'
         },
         {
           id: 'medical-institutions',
           title: 'Medical Institutions',
-          icon: '🏥'
+          icon: '/images/two.png'
         },
         {
           id: 'government-departments',
           title: 'Government Departments',
-          icon: '🏛️'
+          icon: '/images/two.png'
         },
         {
           id: 'scientific-research-institutions',
           title: 'Scientific Research Institutions',
-          icon: '🔬'
+          icon: '/images/two.png'
         }
       ]
     },
     {
       id: 'interview',
       title: 'Interview',
-      icon: '🎤',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'interview-exosomes-magnetic-beads',
           title: '4.1 Exosomes and Magnetic Beads',
-          icon: '🧲'
+          icon: '/images/two.png'
         },
         {
           id: 'interview-target-proteins',
           title: '4.2 Four Target Proteins',
-          icon: '🎯'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-cd63-aptamers',
           title: '4.3 CD63 Aptamers',
-          icon: '🧬'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-breast-cancer-cell-lines',
           title: '4.4 Breast Cancer Cell Lines',
-          icon: '🔬'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-hcr-signal-amplification',
           title: '4.5 HCR Signal Amplification',
-          icon: '📡'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-rca-method',
           title: '4.6 RCA Method Module',
-          icon: '🔄'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-cas14-enzyme',
           title: '4.7 Cas14 Enzyme',
-          icon: '✂️'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-thomas-sudhof',
           title: '4.8 Thomas Südhof',
-          icon: '🏆'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-craig-mello',
           title: '4.9 Craig C. Mello',
-          icon: '🏆'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-yu-baofa',
           title: '4.10 Clinical Translation',
-          icon: '🏥'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-lei-ming',
           title: '4.11 Commercial Viability',
-          icon: '💼'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-zheng-huaixin',
           title: '4.12 Humanities and Ethics',
-          icon: '⚖️'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-lu-youyong',
           title: '4.13 Clinical Significance',
-          icon: '🩺'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-zhang-yanwu',
           title: '4.14 Breast Surgeons',
-          icon: '👩‍⚕️'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-sun-li',
           title: '4.15 Laboratory Doctors',
-          icon: '🧪'
+          icon: '/images/two.png'   
         },
         {
           id: 'interview-public-representative',
           title: '4.16 Public Representative',
-          icon: '👥'
+          icon: '/images/two.png' 
         },
         {
           id: 'interview-patients-families',
           title: '4.17 Patients & Families',
-          icon: '❤️'
+          icon: '/images/two.png' 
         }
       ]
     },
     {
       id: 'integrated-report',
       title: 'Integrated Report on Breast Health',
-      icon: '📋',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'survey-overview',
           title: 'Survey Overview',
-          icon: '📊'
+          icon: '/images/two.png'
         },
         {
           id: 'core-results',
           title: 'Core Results',
-          icon: '📈'
+          icon: '/images/two.png'
         },
         {
           id: 'conclusion',
           title: 'Conclusion',
-          icon: '✅'
+          icon: '/images/two.png'
         }
       ]
     },
     {
       id: 'feedback-iteration',
       title: 'Feedback and Iteration',
-      icon: '🔄',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'male-breast-cancer-awareness',
           title: 'Male Breast Cancer Awareness',
-          icon: '👨‍⚕️'
+          icon: '/images/two.png'
         },
         {
           id: 'technical-optimization',
           title: 'Technical Optimization',
-          icon: '🔧'
+          icon: '/images/two.png'
         },
         {
           id: 'feedback-summary',
           title: 'Summary',
-          icon: '📝'
+          icon: '/images/two.png'
         }
       ]
     },
@@ -2300,93 +2302,93 @@ function IHP() {
     {
       id: 'education',
       title: 'Education',
-      icon: '🎓',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'student-education',
           title: 'Student Education',
-          icon: '👨‍🎓'
+          icon: '/images/two.png'
         },
         {
           id: 'professional-education',
           title: 'Professional Education',
-          icon: '👩‍⚕️'
+          icon: '/images/two.png'
         },
         {
           id: 'online-education',
           title: 'Online Education',
-          icon: '💻'
+          icon: '/images/two.png'
         },
         {
           id: 'education-summary',
           title: 'Summary',
-          icon: '📝'
+          icon: '/images/two.png'
         }
       ]
     },
     {
       id: 'cooperation',
       title: 'Cooperation',
-      icon: '🤝',
+      icon: '/images/one.png',
       subMenus: [
         {
           id: 'team-technical-exchange',
           title: 'Team-to-Team Technical Exchange',
-          icon: '🤝'
+          icon: '/images/two.png'
         },
         {
           id: 'educational-outreach-collaboration',
           title: 'Educational & Outreach Collaboration',
-          icon: '🎓'
+          icon: '/images/two.png'
         },
         {
           id: 'institutional-expert-collaboration',
           title: 'Institutional & Expert Collaboration',
-          icon: '🏥'
+          icon: '/images/two.png'
         },
         {
           id: 'cooperation-summary',
           title: 'Summary',
-          icon: '📝'
+          icon: '/images/two.png'
         }
       ]
     },
     {
       id: 'bioethics',
       title: 'Bioethics',
-      icon: '⚖️'
+      icon: '/images/one.png'
     },
     {
       id: 'law-policy',
       title: 'Law and Policy',
-      icon: '📜'
+      icon: '/images/one.png'
     },
     {
       id: 'safety',
       title: 'Safety',
-      icon: '🛡️'
+      icon: '/images/one.png'
     },
     {
       id: 'spread',
       title: 'Spread',
-      icon: '📢',
+      icon: '/images/one.png',    
       subMenus: [
         {
           id: 'online-matrix',
           title: 'Online Matrix',
-          icon: '📱',
+          icon: '/images/two.png',
           component: null
         },
         {
           id: 'offline-scenarios',
           title: 'Offline Scenarios',
-          icon: '🏘️',
+          icon: '/images/two.png',
           component: null
         },
         {
           id: 'two-way-linkage',
           title: 'Two-Way Linkage',
-          icon: '🔗',
+          icon: '/images/two.png',
           component: null
         }
       ]
@@ -2394,37 +2396,37 @@ function IHP() {
     {
       id: 'inclusiveness',
       title: 'Inclusiveness',
-      icon: '🌍',
+      icon: '/images/one.png',
       subMenus: [
 
         {
           id: 'technological-inclusiveness',
           title: 'Technological Inclusiveness',
-          icon: '🔬',
+          icon: '/images/two.png',
           component: null
         },
         {
           id: 'community-dialogue',
           title: 'Community Dialogue',
-          icon: '💬',
+          icon: '/images/two.png',
           component: null
         },
         {
           id: 'educational-practices',
           title: 'Educational Practices',
-          icon: '🎓',
+          icon: '/images/two.png',
           component: null
         },
         {
           id: 'disciplinary-boundaries',
           title: 'Breaking Boundaries',
-          icon: '🌐',
+          icon: '/images/two.png',
           component: null
         },
         {
           id: 'participation-belonging',
           title: 'Participation & Belonging',
-          icon: '🤝',
+          icon: '/images/two.png',
           component: null
         }
       ]
@@ -2445,11 +2447,14 @@ function IHP() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
 
@@ -2468,6 +2473,7 @@ function IHP() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu=== menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -2476,9 +2482,10 @@ function IHP() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {subMenu.title}
+                      {activeSubMenu=== subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}
                 </div>

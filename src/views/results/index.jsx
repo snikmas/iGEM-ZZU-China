@@ -1397,7 +1397,8 @@ const MainContent = () => (
 function Results() {
 
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenuId, setActiveMenuId] = useState('overview');
+  const [activeSubMenuId, setActiveSubMenuId] = useState(null);
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -1411,13 +1412,13 @@ function Results() {
     {
       id: 'cd63-aptamer',
       title: 'CD63 Aptamer-Based Magnetic Bead Exosome Capture',
-      icon: '🧲',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'crispr-aptamer-curve', title: 'CRISPR–Aptamer Standard Curve' },
-        { id: 'aptamer-coating-optimization', title: 'Aptamer Coating Optimization' },
-        { id: 'exosome-capture-optimization', title: 'Exosome Capture Optimization' },
-        { id: 'exosome-capture-validation', title: 'Exosome Capture Validation' },
-        { id: 'western-blot-validation', title: 'Western Blot Validation' },
+        { id: 'crispr-aptamer-curve', title: 'CRISPR–Aptamer Standard Curve', icon: '/images/two.png' },
+        { id: 'aptamer-coating-optimization', title: 'Aptamer Coating Optimization', icon: '/images/two.png' },
+        { id: 'exosome-capture-optimization', title: 'Exosome Capture Optimization', icon: '/images/two.png' },
+        { id: 'exosome-capture-validation', title: 'Exosome Capture Validation', icon: '/images/two.png' },
+        { id: 'western-blot-validation', title: 'Western Blot Validation', icon: '/images/two.png' },
         { id: 'tem-observation', title: 'TEM Observation' },
         { id: 'cd63-summary', title: 'Summary' }
       ]
@@ -1425,51 +1426,51 @@ function Results() {
     {
       id: 'cas14a-expression',
       title: 'Cas14a Prokaryotic Expression',
-      icon: '🧬',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'plasmid-design', title: 'Plasmid Design & Extraction' },
-        { id: 'transformation', title: 'Transformation' },
-        { id: 'induction', title: 'Induction' },
-        { id: 'purification', title: 'Purification' },
-        { id: 'dialysis', title: 'Dialysis' },
-        { id: 'enzyme-activity-assay', title: 'Enzyme Activity Assay' },
-        { id: 'supplementary-information', title: 'Supplementary Information' }
+        { id: 'plasmid-design', title: 'Plasmid Design & Extraction', icon: '/images/two.png' },
+        { id: 'transformation', title: 'Transformation', icon: '/images/two.png' },
+        { id: 'induction', title: 'Induction', icon: '/images/two.png' },
+        { id: 'purification', title: 'Purification', icon: '/images/two.png' },
+        { id: 'dialysis', title: 'Dialysis', icon: '/images/two.png' },
+        { id: 'enzyme-activity-assay', title: 'Enzyme Activity Assay', icon: '/images/two.png' },
+        { id: 'supplementary-information', title: 'Supplementary Information', icon: '/images/two.png' }
       ]
     },
     {
       id: 'hcr',
       title: 'HCR',
-      icon: '🔗',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'hcr-feasibility', title: 'HCR–CRISPR System Feasibility' },
-        { id: 'probe-concentration-optimization', title: 'Probe Concentration Optimization' },
-        { id: 'temperature-optimization', title: 'Temperature Optimization' },
-        { id: 'reaction-time-optimization', title: 'Reaction Time Optimization' },
-        { id: 'th2-standard-curve', title: 'TH2 Standard Curve' },
-        { id: 'trigger-amplification', title: 'Trigger Amplification Performance' }
+        { id: 'hcr-feasibility', title: 'HCR–CRISPR System Feasibility', icon: '/images/two.png' },
+        { id: 'probe-concentration-optimization', title: 'Probe Concentration Optimization', icon: '/images/two.png' },
+        { id: 'temperature-optimization', title: 'Temperature Optimization', icon: '/images/two.png' },
+        { id: 'reaction-time-optimization', title: 'Reaction Time Optimization', icon: '/images/two.png' },
+        { id: 'th2-standard-curve', title: 'TH2 Standard Curve', icon: '/images/two.png' },
+        { id: 'trigger-amplification', title: 'Trigger Amplification Performance', icon: '/images/two.png' }
       ]
     },
     {
       id: 'apt-crispr-hcr',
       title: 'APT-CRISPR-HCR Detection System',
-      icon: '🔬',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'crispr-cas12a-optimization', title: 'CRISPR/Cas12a Optimization' },
-        { id: 'displacement-optimization', title: 'Displacement Optimization' },
-        { id: 'complementary-screening', title: 'Complementary Strand Screening' },
-        { id: 'crispr-sensitivity-specificity', title: 'CRISPR Sensitivity & Specificity' },
-        { id: 'hcr-enhanced-detection', title: 'HCR-Enhanced Detection' },
-        { id: 'cell-suspension-validation', title: 'Cell Suspension Validation' }
+        { id: 'crispr-cas12a-optimization', title: 'CRISPR/Cas12a Optimization', icon: '/images/two.png' },
+        { id: 'displacement-optimization', title: 'Displacement Optimization', icon: '/images/two.png' },
+        { id: 'complementary-screening', title: 'Complementary Strand Screening', icon: '/images/two.png' },
+        { id: 'crispr-sensitivity-specificity', title: 'CRISPR Sensitivity & Specificity', icon: '/images/two.png' },
+        { id: 'hcr-enhanced-detection', title: 'HCR-Enhanced Detection', icon: '/images/two.png' },
+        { id: 'cell-suspension-validation', title: 'Cell Suspension Validation', icon: '/images/two.png' }  
       ]
     },
     {
       id: 'apt-crispr-cas14a-rca',
       title: 'APT-CRISPR/Cas14a-RCA Detection System',
-      icon: '⚡',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'crispr-cas14-sensitivity', title: 'CRISPR/Cas14 Fluorescence Sensitivity & Specificity Valuation' },
-        { id: 'crispr-cas14-rca-sensitivity', title: 'CRISPR/Cas14-RCA Fluorescence Sensitivity & Specificity Valuation Results' },
-        { id: 'cas14a-rca-cell-suspension', title: 'CRISPR/Cas14a-RCA Fluorescence Detection in Cell Suspension Samples' }
+        { id: 'crispr-cas14-sensitivity', title: 'CRISPR/Cas14 Fluorescence Sensitivity & Specificity Valuation', icon: '/images/two.png' },
+        { id: 'crispr-cas14-rca-sensitivity', title: 'CRISPR/Cas14-RCA Fluorescence Sensitivity & Specificity Valuation Results', icon: '/images/two.png' },
+        { id: 'cas14a-rca-cell-suspension', title: 'CRISPR/Cas14a-RCA Fluorescence Detection in Cell Suspension Samples', icon: '/images/two.png' }
       ]
     }
   ];
@@ -1488,11 +1489,14 @@ function Results() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenuId(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenuId(subMenuId);
+    setActiveMenuId(menuId);
   };
 
 
@@ -1517,6 +1521,11 @@ function Results() {
                   <img src={menuIconDefault} alt="" className="menu-icon default" />
                   <img src={menuIconHover} alt="" className="menu-icon hover" />
                 </div> */}
+                {activeMenuId === menu.id ? (
+                  <img src={menu.icon}  className="menu-icon" />
+                ) : (
+                  <span></span>
+                )}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -1525,8 +1534,13 @@ function Results() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
                     >
+                      {activeSubMenuId === subMenu.id ? (
+                        <img src={subMenu.icon}  className="menu-icon" />
+                      ) : (
+                        <span></span>
+                      )}
                       {subMenu.title}
                     </div>
                   ))}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
@@ -127,13 +127,14 @@ const PartsTable = () => {
 };
 
 function Part() {
-
+  const [activeMenuId, setActiveMenuId] = useState('parts-list');
+  const [activeSubMenuId, setActiveSubMenuId] = useState(null);
     // 菜单数据
     const menuData = [
       {
         id: 'parts-list',
         title: 'Parts List',
-        icon: '🌱'
+        icon: '/images/one.png'
       },
     ];
   
@@ -151,11 +152,14 @@ function Part() {
     // 一级菜单点击
     const handleMainMenuClick = (menuId) => {
       scrollToSection(menuId);
+      setActiveMenuId(menuId);
     };
   
     // 二级菜单点击
-    const handleSubMenuClick = (subMenuId) => {
+    const handleSubMenuClick = (menuId, subMenuId) => {
       scrollToSection(subMenuId);
+      setActiveSubMenuId(subMenuId);
+      setActiveMenuId(menuId);
     };
 
     
@@ -177,6 +181,7 @@ function Part() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenuId === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -185,8 +190,9 @@ function Part() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
+                      {activeSubMenuId === subMenu.id ? <img className='menu-icon' src={subMenu.icon} /> : <span></span>}
                       {subMenu.title}
                     </div>
                   ))}

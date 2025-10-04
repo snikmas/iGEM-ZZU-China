@@ -243,7 +243,8 @@ const MainContent = () => (
 function ProjectDescription() {
   
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenuId, setActiveMenuId] = useState('overview');
+  const [activeSubMenuId, setActiveSubMenuId] = useState(null);
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -257,43 +258,43 @@ function ProjectDescription() {
     {
       id: 'overview',
       title: 'Introduction',
-      icon: '🔬'
+      icon: '/images/one.png'
     },
     {
       id: 'background',
       title: 'Background',
-      icon: '📚',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'breast-cancer-situation', title: 'Current situation of breast cancer' },
-        { id: 'tumors-exosomes', title: 'Tumors and Exosomes' },
-        { id: 'inspiration', title: 'Inspiration' }
+        { id: 'breast-cancer-situation', title: 'Current situation of breast cancer', icon: '/images/two.png' },
+        { id: 'tumors-exosomes', title: 'Tumors and Exosomes', icon: '/images/two.png' },
+        { id: 'inspiration', title: 'Inspiration', icon: '/images/two.png' }
       ]
     },
     {
       id: 'our-solution',
       title: 'Our Solution',
-      icon: '💡',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'magnetic-bead-method', title: 'Magnetic bead method for capturing extracellular vesicles' },
-        { id: 'substitution-reaction', title: 'Substitution reaction' },
-        { id: 'hcr-rca-amplification', title: 'HCR/RCA signal amplification' },
-        { id: 'crispr-cas-detection', title: 'CRISPR/Cas molecular detection system' }
+        { id: 'magnetic-bead-method', title: 'Magnetic bead method for capturing extracellular vesicles', icon: '/images/two.png' },
+        { id: 'substitution-reaction', title: 'Substitution reaction', icon: '/images/two.png' },
+        { id: 'hcr-rca-amplification', title: 'HCR/RCA signal amplification', icon: '/images/two.png' },
+        { id: 'crispr-cas-detection', title: 'CRISPR/Cas molecular detection system', icon: '/images/two.png' }
       ]
     },
     {
       id: 'future-applications',
       title: 'Future Applications',
-      icon: '🚀'
+      icon: '/images/one.png'
     },
     {
       id: 'project-innovation',
       title: 'Project Innovation',
-      icon: '✨'
+      icon: '/images/one.png'
     },
     {
       id: 'reference',
       title: 'Reference',
-      icon: '📖'
+      icon: '/images/one.png'
     }
   ];
 
@@ -311,11 +312,14 @@ function ProjectDescription() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenuId(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenuId(subMenuId);
+    setActiveMenuId(menuId);
   };
 
   return (
@@ -334,6 +338,7 @@ function ProjectDescription() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenuId === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -342,8 +347,9 @@ function ProjectDescription() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
+                      {activeSubMenuId === subMenu.id ? <img className='menu-icon' src={subMenu.icon} /> : <span></span>}
                       {subMenu.title}
                     </div>
                   ))}

@@ -524,6 +524,8 @@ const MainContent = () => (
 
 function Model() {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
 
   // 页面加载动画
   useEffect(() => {
@@ -538,37 +540,37 @@ function Model() {
     {
       id: 'introduction',
       title: 'Introduction',
-      icon: '🧬'
+      icon: '/images/one.png'
     },
     {
       id: 'aptamer-screening',
       title: 'Aptamer Screening',
-      icon: '🔍'
+      icon: '/images/one.png'
     },
     {
       id: 'molecular-docking',
       title: 'Molecular Docking',
-      icon: '🔗'
+      icon: '/images/one.png'
     },
     {
       id: 'complementary-strand-design',
       title: 'Complementary Strand Design',
-      icon: '🧩'
+      icon: '/images/one.png'
     },
     {
       id: 'aptamer-target-equilibrium',
       title: 'Aptamer–Target Equilibrium Model',
-      icon: '⚖️'
+      icon: '/images/one.png'
     },
     {
       id: 'cas14a-enzyme-modeling',
       title: 'Cas14a Enzyme Activity Modeling',
-      icon: '📊'
+      icon: '/images/one.png'
     },
     {
       id: 'reference',
       title: 'Reference',
-      icon: '📚'
+      icon: '/images/one.png'
     }
   ];
 
@@ -586,6 +588,7 @@ function Model() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -604,6 +607,7 @@ function Model() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img className="menu-icon" src={menu.icon} /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
             </div>

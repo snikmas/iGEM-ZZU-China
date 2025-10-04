@@ -1287,7 +1287,8 @@ const MainContent = () => (
 function Entrepreneurship() {
   
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -1301,93 +1302,93 @@ function Entrepreneurship() {
     {
       id: 'overview',
       title: 'Introduction',
-      icon: '🔬'
+      icon: '/images/one.png'
     },
     {
       id: 'problem-description',
       title: 'Problem Description',
-      icon: '⚠️',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'problem-overview', title: 'Current Challenges in Breast Cancer Detection' },
-        { id: 'product-introduction', title: 'Product Introduction' }
+        { id: 'problem-overview', title: 'Current Challenges in Breast Cancer Detection', icon: '/images/two.png' },
+        { id: 'product-introduction', title: 'Product Introduction', icon: '/images/two.png' }
       ]
     },
     {
       id: 'commercial-prospects',
       title: 'Commercial Prospects',
-      icon: '💰',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'market-overview', title: 'Market Overview' },
-        { id: 'market-opportunities', title: 'Market Opportunities' },
-        { id: 'competitive-advantages', title: 'Competitive Advantages' }
+        { id: 'market-overview', title: 'Market Overview', icon: '/images/two.png' },
+        { id: 'market-opportunities', title: 'Market Opportunities', icon: '/images/two.png' },
+        { id: 'competitive-advantages', title: 'Competitive Advantages', icon: '/images/two.png' }  
       ]
     },
     {
       id: 'market-analysis',
       title: 'Market Analysis',
-      icon: '📊',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'swot-analysis', title: 'SWOT Analysis' },
-        { id: 'porters-five-forces', title: 'Porter\'s Five Forces Analysis' },
-        { id: 'macro-environment-analysis', title: 'Macro Environment Analysis' }
+        { id: 'swot-analysis', title: 'SWOT Analysis', icon: '/images/two.png' },
+        { id: 'porters-five-forces', title: 'Porter\'s Five Forces Analysis', icon: '/images/two.png' },
+        { id: 'macro-environment-analysis', title: 'Macro Environment Analysis', icon: '/images/two.png' }
       ]
     },
     {
       id: 'supply-chain',
       title: 'Supply Chain',
-      icon: '🔗',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'raw-material-procurement', title: 'Raw Material Procurement' },
-        { id: 'production-manufacturing', title: 'Production and Manufacturing' },
-        { id: 'distribution-strategy', title: 'Distribution Strategy' },
-        { id: 'warehousing-logistics', title: 'Warehousing and Logistics' }
+        { id: 'raw-material-procurement', title: 'Raw Material Procurement', icon: '/images/two.png' },
+        { id: 'production-manufacturing', title: 'Production and Manufacturing', icon: '/images/two.png' },
+        { id: 'distribution-strategy', title: 'Distribution Strategy', icon: '/images/two.png' },
+        { id: 'warehousing-logistics', title: 'Warehousing and Logistics', icon: '/images/two.png' }
       ]
     },
     {
       id: 'financial-analysis',
       title: 'Financial Analysis',
-      icon: '💹',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'financial-objectives', title: 'Financial Objectives' },
-        { id: 'revenue-model', title: 'Revenue Model' },
-        { id: 'cost-structure', title: 'Cost Structure and Calculation Basis' },
-        { id: 'budget-plan', title: 'Preliminary Budget Plan' },
-        { id: 'profit-forecast', title: 'Profit and Loss Forecast' },
-        { id: 'profitability-analysis', title: 'Profitability and Break-even Analysis' },
-        { id: 'financing-plan', title: 'Financing and Fund Utilization Plan' },
-        { id: 'profit-path', title: 'Profit Path Outlook' }
+        { id: 'financial-objectives', title: 'Financial Objectives', icon: '/images/two.png' },
+        { id: 'revenue-model', title: 'Revenue Model', icon: '/images/two.png' },
+        { id: 'cost-structure', title: 'Cost Structure and Calculation Basis', icon: '/images/two.png' },
+        { id: 'budget-plan', title: 'Preliminary Budget Plan', icon: '/images/two.png' },
+        { id: 'profit-forecast', title: 'Profit and Loss Forecast', icon: '/images/two.png' },
+        { id: 'profitability-analysis', title: 'Profitability and Break-even Analysis', icon: '/images/two.png' },
+        { id: 'financing-plan', title: 'Financing and Fund Utilization Plan', icon: '/images/two.png' },
+        { id: 'profit-path', title: 'Profit Path Outlook', icon: '/images/two.png' }
       ]
     },
     {
       id: 'intellectual-property',
       title: 'Intellectual Property',
-      icon: '⚖️'
+      icon: '/images/one.png'
     },
     {
       id: 'stakeholder-analysis',
       title: 'Stakeholder Analysis',
-      icon: '👥',
+      icon: '/images/one.png',
     },
     {
       id: 'risk-assessment',
       title: 'Risk Assessment and Countermeasures',
-      icon: '⚠️',
+      icon: '/images/one.png',
       subMenus: [
-        { id: 'operational-risks', title: 'Operational Management Risks and Countermeasures' },
-        { id: 'technical-risks', title: 'Technical Risks and Countermeasures' },
-        { id: 'market-risks', title: 'Market Risks and Countermeasures' },
-        { id: 'financial-risks', title: 'Financial Risks and Countermeasures' }
+        { id: 'operational-risks', title: 'Operational Management Risks and Countermeasures', icon: '/images/two.png' },
+        { id: 'technical-risks', title: 'Technical Risks and Countermeasures', icon: '/images/two.png' },
+        { id: 'market-risks', title: 'Market Risks and Countermeasures', icon: '/images/two.png' },
+        { id: 'financial-risks', title: 'Financial Risks and Countermeasures', icon: '/images/two.png' }
       ]
     },
     {
       id: 'development-plan',
       title: 'Development Plan',
-      icon: '🚀'
+      icon: '/images/one.png'
     },
     {
       id: 'references',
       title: 'References',
-      icon: '📚'
+      icon: '/images/one.png'
     }
   ];
 
@@ -1405,11 +1406,14 @@ function Entrepreneurship() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
+    setActiveSubMenu(subMenuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -1428,6 +1432,7 @@ function Entrepreneurship() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img src={menu.icon} className='menu-icon' /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -1436,9 +1441,10 @@ function Entrepreneurship() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {subMenu.title}
+                      {activeSubMenu === subMenu.id ? <img src={subMenu.icon} className='menu-icon' /> : <span></span>}
+                      <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}
                 </div>

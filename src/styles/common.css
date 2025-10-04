@@ -849,3 +849,15 @@
   font-weight: 700;
   color: #333;
 }
+
+
+
+/* 图标 样式 */
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
+}

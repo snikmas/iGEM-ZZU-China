@@ -253,6 +253,8 @@ const MainContent = () => (
 function Software() {
   
   const [isLoaded, setIsLoaded] = useState(false);
+  const [activeMenu, setActiveMenu] = useState('overview');
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
 
   // 页面加载动画
   useEffect(() => {
@@ -267,47 +269,47 @@ function Software() {
     {
       id: 'overview-section',
       title: 'Overview',
-      icon: '🌱'
+      icon: '/images/one.png'
     },
     {
       id: 'system-architecture',
       title: 'System Architecture',
-      icon: '🏗️'
+      icon: '/images/one.png'
     },
     {
       id: 'input-output',
       title: 'Input & Output',
-      icon: '📊'
+      icon: '/images/one.png'
     },
     {
       id: 'implementation',
       title: 'Implementation',
-      icon: '⚙️'
+      icon: '/images/one.png'
     },
     {
       id: 'experimental-validation',
       title: 'Experimental Validation',
-      icon: '🧪'
+      icon: '/images/one.png'
     },
     {
       id: 'key-features',
       title: 'Key Features',
-      icon: '✨'
+      icon: '/images/one.png'
     },
     {
       id: 'impact',
       title: 'Impact',
-      icon: '🎯'
+      icon: '/images/one.png'
     },
     {
       id: 'future-development',
       title: 'Future Development',
-      icon: '🚀'
+      icon: '/images/one.png'
     },
     {
       id: 'conclusion',
       title: 'Conclusion',
-      icon: '🏁'
+      icon: '/images/one.png'
     }
   ];
 
@@ -325,6 +327,7 @@ function Software() {
   // 一级菜单点击
   const handleMainMenuClick = (menuId) => {
     scrollToSection(menuId);
+    setActiveMenu(menuId);
   };
 
   return (
@@ -344,6 +347,7 @@ function Software() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
+                {activeMenu === menu.id ? <img src={menu.icon}  className="menu-icon" /> : <span></span>}
                 <span className="menu-text">{menu.title}</span>
               </div>
             </div>
