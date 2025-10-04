@@ -287,14 +287,151 @@
   white-space: pre-line;
 }
 
-/* 移除旧的样式 */
-.tasks-grid-item {
-  display: none;
+/* 保留这个更完整的样式定义 */
+.external-tasks {
+  margin: 30px 0;
+  padding: 25px;
+  background: rgb(245,239,240);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(105, 57, 62, 0.2);
+  transition: all 0.3s ease;
 }
 
-.task-item {
-  display: none;
+.external-tasks:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
 }
+
+.external-tasks h2 {
+  font-size: 1.6rem;
+  margin: 0 0 25px 0;
+  padding: 12px 0;
+  font-weight: 700;
+  color: #69393e;
+  text-align: center;
+  position: relative;
+}
+
+.external-tasks h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #69393e;
+  margin: 12px auto 0;
+  border-radius: 3px;
+}
+
+.external-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+/* 将所有外部贡献卡片相关的样式都加上.external-grid前缀 */
+.external-grid .task-card {
+  background: rgb(252, 245, 247);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(105, 57, 62, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.external-grid .task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: rgba(105, 57, 62, 0.3);
+}
+
+.external-grid .task-card-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #530c16;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(105, 57, 62, 0.2);
+  text-align: center;
+}
+
+/* 卡片内文本样式 - 添加.external-grid前缀 */
+.external-grid .task-card-institution-type,
+.external-grid .task-card-relationship-to-team,
+.external-grid .task-card-tasks-title,
+.external-grid .task-card-specific-tasks-title {
+  font-weight: 600;
+  color: #69393e;
+  margin-right: 8px;
+}
+
+.external-grid .task-card-institution-type + span,
+.external-grid .task-card-relationship-to-team + span,
+.external-grid .task-card-tasks-title + span,
+.external-grid .task-card-specific-tasks {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.external-grid .task-card-specific-tasks {
+  display: block;
+  margin-top: 8px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  border-left: 3px solid #69393e;
+}
+
+/* 分隔线样式 - 添加.external-grid前缀 */
+.external-grid .task-card br {
+  margin: 8px 0;
+  display: block;
+}
+
+/* 响应式设计保持不变 */
+@media (max-width: 768px) {
+  .external-tasks {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .external-tasks h2 {
+    font-size: 1.4rem;
+  }
+  
+  .external-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .task-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .external-tasks {
+    padding: 15px;
+    border-radius: 12px;
+  }
+  
+  .external-tasks h2 {
+    font-size: 1.3rem;
+  }
+  
+  .task-card {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .task-card-name {
+    font-size: 1.2rem;
+  }
+}
+
 
 /* 响应式设计 */
 @media (max-width: 968px) {

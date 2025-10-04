@@ -232,6 +232,58 @@ Web Development: Handle the integration of front-end and back-end components. Op
       image: avatarSnik
     },
   ];
+  // 额外贡献
+  const externalMembers = [
+    {
+      name: "Yuxuan Xia",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+    {
+      name: "Xiaoran Ji",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+    {
+      name: "Jing Lei",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+    {
+      name: "Yingying Liu",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+    {
+      name: "Yingying Liu",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+    {
+      name: "Yingying Liu",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+    {
+      name: "Yingying Liu",
+      institutionType: "Academic",
+      relationshipToTeam: "External Advisor",
+      tasks: "Background Research",
+      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+    },
+  ]
 
   return (
     <div className='teamattributions'>
@@ -281,7 +333,6 @@ Web Development: Handle the integration of front-end and back-end components. Op
           <div className="team-tasks">
             {/* <h2>团队成员贡献</h2> */}
 
-
             <div className="team-tasks-intro">
               <h2>Our Commitment to Collaboration and Recognition</h2>
               <div className="intro-content">
@@ -299,32 +350,53 @@ Web Development: Handle the integration of front-end and back-end components. Op
 
 
             <div className="tasks-grid">
-  {teamMembers.map((member, index) => (
-    <div key={index} className="task-card">
-      <div className="task-card-header">
-        <div className="task-card-avatar">
-          <img src={member.image} alt={member.name} />
-        </div>
-        <div className="task-card-info">
-          <h3>{member.name}</h3>
-          <p className="task-card-role">{member.role}</p>
-        </div>
-      </div>
-      
-      <div className="task-card-body">
-        <div className="task-section">
-          <h4>Tasks:</h4>
-          <p>{member.tasks}</p>
-        </div>
-        
-        <div className="task-section">
-          <h4>Specific tasks:</h4>
-          <p>{member.specificTasks}</p>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+              {teamMembers.map((member, index) => (
+                <div key={index} className="task-card">
+                  <div className="task-card-header">
+                    <div className="task-card-avatar">
+                      <img src={member.image} alt={member.name} />
+                    </div>
+                    <div className="task-card-info">
+                      <h3>{member.name}</h3>
+                      <p className="task-card-role">{member.role}</p>
+                    </div>
+                  </div>
+
+                  <div className="task-card-body">
+                    <div className="task-section">
+                      <h4>Tasks:</h4>
+                      <p>{member.tasks}</p>
+                    </div>
+
+                    <div className="task-section">
+                      <h4>Specific tasks:</h4>
+                      <p>{member.specificTasks}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+
+
+
+          </div>
+
+          <div className="external-tasks">
+            <h2>External Contributions</h2>
+
+            <div className="external-grid">
+              {externalMembers.map((message, index) => (
+                <div key={index} className="task-card">
+                  <h3 className="task-card-name">{message.name}</h3>
+                  <span className="task-card-institution-type">Institution Type:</span><span>{message.institutionType}</span><br/>
+                  <span className="task-card-relationship-to-team">Relationship to Team:</span><span>{message.relationshipToTeam}</span><br/>
+                  <span className="task-card-tasks-title">Tasks:</span><span>{message.tasks}</span><br/>
+                  <span className="task-card-specific-tasks-title">Specific tasks:</span>
+                  <span className="task-card-specific-tasks">{message.specificTasks}</span>
+                </div>
+              ))}
+            </div>
 
 
 
