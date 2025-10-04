@@ -209,15 +209,14 @@ const MainContent = () => (
           <div className="content-section-header">
             <div className="h2">Scientific Challenges: Limitations of Existing Screening Technologies</div>
           </div>
-          </p>
-            <div className="figure-container">
-              <div className="figure-item">
-                <img src={SolutionFigure4} alt="Figure 5. History of Breast Cancer Detection" className="figure-image" />
-                <div className="h4">Figure 5. History of Breast Cancer Detection</div>
-              </div>
+
+          <div className="figure-container">
+            <div className="figure-item">
+              <img src={SolutionFigure4} alt="Figure 5. History of Breast Cancer Detection" className="figure-image" />
+              <div className="h4">Figure 5. History of Breast Cancer Detection</div>
             </div>
           </div>
-        </div>
+          
           <div className="content-body">
             <p>
               Current breast cancer screening primarily relies on <span className='text-strong'>imaging techniques</span> (e.g., mammography, ultrasound) and <span className='text-strong'>serum marker tests</span> (e.g., CA15-3), but these methods have <span className='text-strong'>obvious drawbacks</span>:
@@ -228,12 +227,12 @@ const MainContent = () => (
               <li><strong>Low timeliness:</strong> Traditional tests take several days to produce results, failing to meet the demand for rapid screening.</li>
             </ul>
             <p>
-              To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 moleculeon exosomes in samples</span> , we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
+              To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 molecule on exosomes in samples</span>, we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
             </p>
-            
           </div>
         </div>
       </section>
+
 
       {/* Social Challenges Section */}
       <section id="social-challenges" className="view-section">
