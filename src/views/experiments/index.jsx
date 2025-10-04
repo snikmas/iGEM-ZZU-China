@@ -690,66 +690,66 @@ function Experiments() {
     {
       id: 'overview',
       title: 'Overview',
-      icon: '/images/one.png'
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     },
     {
       id: 'extracellular-vesicle',
       title: 'Extracellular vesicle capture and efficacy testing',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'ev-capture', title: 'Extracellular vesicle capture', icon: '/images/two.png' },
-        { id: 'bca-protein', title: 'BCA protein quantification', icon: '/images/two.png' },
-        { id: 'wb', title: 'WB', icon: '/images/two.png' },
-        { id: 'electron-microscopy', title: 'Electron microscopy detection', icon: '/images/two.png' }
+        { id: 'ev-capture', title: 'Extracellular vesicle capture', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'bca-protein', title: 'BCA protein quantification', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'wb', title: 'WB', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'electron-microscopy', title: 'Electron microscopy detection', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'cas14a-expression',
       title: 'Cas14a Prokaryotic Expression',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'plasmid-construction', title: 'Plasmid Construction', icon: '/images/two.png' },
-        { id: 'plasmid-extraction', title: 'Plasmid extraction', icon: '/images/two.png' },
-        { id: 'transformation', title: 'Transformation', icon: '/images/two.png' },
-        { id: 'protein-quantification', title: 'Protein Quantification', icon: '/images/two.png' },
-        { id: 'sds-page', title: 'SDS Page', icon: '/images/two.png' },
-        { id: 'protein-expression', title: 'Protein Expression', icon: '/images/two.png' },
-        { id: 'protein-purification', title: 'Protein Purification', icon: '/images/two.png' },
-        { id: 'enzyme-activity', title: 'Enzyme activity assay', icon: '/images/two.png' }
+        { id: 'plasmid-construction', title: 'Plasmid Construction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'plasmid-extraction', title: 'Plasmid extraction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'transformation', title: 'Transformation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'protein-quantification', title: 'Protein Quantification', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'sds-page', title: 'SDS Page', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'protein-expression', title: 'Protein Expression', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'protein-purification', title: 'Protein Purification', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'enzyme-activity', title: 'Enzyme activity assay', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'hcr-amplification',
       title: 'HCR amplification',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'hcr-optimization-temp', title: 'Optimization of HCR reaction temperature', icon: '/images/two.png' },
-        { id: 'hcr-optimization-time', title: 'Optimization of HCR reaction time', icon: '/images/two.png' },
-        { id: 'hcr-optimization-conc', title: 'Optimization of HCR reaction concentration', icon: '/images/two.png' },
-        { id: 'hcr-amplification-fold', title: 'Determination of HCR Amplification Fold', icon: '/images/two.png' },
-        { id: 'hcr-final-protocol', title: 'HCR final protocol', icon: '/images/two.png' }
+        { id: 'hcr-optimization-temp', title: 'Optimization of HCR reaction temperature', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-optimization-time', title: 'Optimization of HCR reaction time', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-optimization-conc', title: 'Optimization of HCR reaction concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-amplification-fold', title: 'Determination of HCR Amplification Fold', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-final-protocol', title: 'HCR final protocol', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'rca-amplification',
       title: 'RCA amplification',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'rca', title: 'RCA', icon: '/images/two.png' }
+        { id: 'rca', title: 'RCA', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
       id: 'apt-crispr',
       title: 'APT-CRISPR detection system',
-      icon: '/images/one.png',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'complementary-chain', title: 'Complementary chain screening', icon: '/images/two.png' },
-        { id: 'displacement-optimization', title: 'Optimization of reaction time and temperature', icon: '/images/two.png' },
-        { id: 'crispr-sensitivity', title: 'CRISPR-Cas12a Fluorescence Sensitivity & Specificity', icon: '/images/two.png' },
-        { id: 'crispr-cell-suspension', title: 'CRISPR-Cas12a Fluorescence Detection in Cell Suspension', icon: '/images/two.png' },
-        { id: 'crispr-hcr-sensitivity', title: 'CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity', icon: '/images/two.png' },
-        { id: 'crispr-hcr-detection', title: 'CRISPR-Cas12a-HCR Fluorescence Detection', icon: '/images/two.png' },
-        { id: 'apt-rca-crispr', title: 'APT-RCA-CRISPR-Cas14a', icon: '/images/two.png' }
+        { id: 'complementary-chain', title: 'Complementary chain screening', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'displacement-optimization', title: 'Optimization of reaction time and temperature', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-sensitivity', title: 'CRISPR-Cas12a Fluorescence Sensitivity & Specificity', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-cell-suspension', title: 'CRISPR-Cas12a Fluorescence Detection in Cell Suspension', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-hcr-sensitivity', title: 'CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'crispr-hcr-detection', title: 'CRISPR-Cas12a-HCR Fluorescence Detection', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'apt-rca-crispr', title: 'APT-RCA-CRISPR-Cas14a', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     }
   ];
@@ -794,7 +794,7 @@ function Experiments() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                {activeMenu === menu.id ? <img className='menu-icon' src={menu.icon}  /> : <soan></soan>}
+                <img className='menu-icon' src={menu.icon}  />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && menu.subMenus.length > 0 && (
@@ -805,7 +805,7 @@ function Experiments() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      {activeSubMenu === subMenu.id ? <img className='menu-icon' src={subMenu.icon}  /> : <span></span>}
+                      <img className='menu-icon' src={subMenu.icon}  />
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}
