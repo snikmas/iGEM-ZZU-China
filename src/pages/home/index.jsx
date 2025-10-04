@@ -55,7 +55,7 @@ function Home() {
           <Route path="/project" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Project /></PageWrapper>} />
           <Route path="/wet-lab" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><WetLab /></PageWrapper>} />
           <Route path="/dry-lab" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><DryLab /></PageWrapper>} />
-          <Route path="/education" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Education /></PageWrapper>} />
+          <Route path="/education" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/8ce28fd2ae75722a79f657e07dcb64d1.webp"><Education /></PageWrapper>} />
           <Route path="/human-practice" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><HumanPractice /></PageWrapper>} />
 
           {/* 对应 mega-panel 子菜单 - 都需要包装 */}
@@ -68,7 +68,7 @@ function Home() {
           <Route path="/project/development" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Development /></PageWrapper>} />
 
           <Route path="/wet-lab/experiments" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Experiments /></PageWrapper>} />
-          <Route path="/wet-lab/notebook" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Notebook /></PageWrapper>} />
+          <Route path="/wet-lab/notebook" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/eeeea5641fec75c1f057bdaa773d6064.webp"><Notebook /></PageWrapper>} />
           <Route path="/wet-lab/parts" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Part /></PageWrapper>} />
           <Route path="/wet-lab/safety" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><WetLabSafety /></PageWrapper>} />
           <Route path="/wet-lab/results" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Results /></PageWrapper>} />
