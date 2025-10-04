@@ -195,7 +195,7 @@ const MainContent = () => (
             </p>
             <div className="figure-container">
               <div className="figure-item">
-                <img src={SolutionFigure3} alt="Figure 1: Top 10 Cancer Types by New Cases Among Chinese Women in 2020" className="figure-image" />
+                <img src={SolutionFigure3} alt="Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)" className="figure-image" />
                 <div className="h4">Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)</div>
               </div>
             </div>
@@ -209,6 +209,11 @@ const MainContent = () => (
           <div className="content-section-header">
             <div className="h2">Scientific Challenges: Limitations of Existing Screening Technologies</div>
           </div>
+          </p>
+            <div className="figure-container">
+              <div className="figure-item">
+                <img src={SolutionFigure4} alt="Figure 5. History of Breast Cancer Detection" className="figure-image" />
+                <div className="h4">Figure 5. History of Breast Cancer Detection</div>
           <div className="content-body">
             <p>
               Current breast cancer screening primarily relies on <span className='text-strong'>imaging techniques</span> (e.g., mammography, ultrasound) and <span className='text-strong'>serum marker tests</span> (e.g., CA15-3), but these methods have <span className='text-strong'>obvious drawbacks</span>:
