@@ -33,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename='/zzu-china'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
