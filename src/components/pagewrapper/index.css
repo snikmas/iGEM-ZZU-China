@@ -11,20 +11,23 @@
 
 .page-header-image {
   width: 100%;
-  height: 450px;
+  height: auto;
+  max-height: 600px; /* 限制最大高度，防止占满全屏 */
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
   padding-top: 11px;
+  display: flex;
+  justify-content: center;
 }
 
 .page-header-image img {
   width: 100%;
-  height: 100%;
-  /* object-fit: contain; */
-  object-fit: cover;
+  height: auto;
+  object-fit: contain; /* 确保图片完全显示不被裁剪 */
   object-position: center;
   display: block;
+  transition: filter 0.3s ease, opacity 0.3s ease; /* 添加过渡动画 */
 }
 
 .page-content {
