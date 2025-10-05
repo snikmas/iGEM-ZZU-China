@@ -297,7 +297,7 @@ const MainContent = () => (
             <div className="h2">Middle School Education</div>
           </div>
           <div className="content-body">
-            <p>Middle school students are at a stage where abstract concepts can feel distant, so they benefit most from vivid metaphors and hands-on practice. To meet this need, we designed a Plasmid Extraction Experiment framed as a role-playing game called "Science Courier."</p>
+            <p>Middle school students are at a stage where abstract concepts can feel distant, so they benefit most from vivid metaphors and hands-on practice. To meet this need, we designed a  framed as a role-playing game called "Science Courier."</p>
 
             <div className="h3">Plasmid Extraction Experiment</div>
             <p>In this activity, students were tasked with "delivering" plasmid DNA safely through a series of checkpoints. Under the guidance of our team members, they carried out key operations step by step: centrifuging to collect cells, breaking down walls with lysis buffer, stabilizing plasmids, removing impurities, and finally eluting purified DNA. Each stage was paired with simple metaphors—<strong>"gather, pry open, stabilize, clean, capture, obtain"</strong>—which made complex terms easy to visualize and remember.</p>
@@ -727,7 +727,7 @@ const MainContent = () => (
           In the future, we plan to:
         </p>
         <ul>
-          <li>Institutionalize our community programs by partnering with local healthcare centers for <strong>long-term collaboration;<strong></li>
+          <li>Institutionalize our community programs by partnering with local healthcare centers for <strong>long-term collaboration;</strong></li>
           <li>Package our student-oriented experiments into full curricula for schools;</li>
           <li>Expand digital outreach into new formats such as podcasts and live-streamed Q&A sessions;</li>
           <li>Continue working with healthcare professionals to ensure our education remains clinically <strong>accurate and socially responsible.</strong></li>
