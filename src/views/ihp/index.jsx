@@ -29,7 +29,7 @@ const IntegratedReportFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets
 
 // 4 DONE
 const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/ihp/overview.webp';
-const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure1.webp';
+const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/ihp9.webp';
 const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure2.webp';
 const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure3.webp';
 const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure4.webp';
