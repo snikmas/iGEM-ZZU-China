@@ -403,7 +403,7 @@ const MainContent = () => (
             <div className="h3">Medical Turtle Soup</div>
             <p>We introduced students to the evolution of cancer treatment through a suspenseful narrative called "Medical Turtle Soup." The activity encouraged students to reflect on medical logic, technological limits, and ethical dilemmas. A sci-fi story with elements like a "blue agent" and "nanomachines" sparked group discussions and bold hypotheses.</p>
             <p>As the story unfolded, we connected the puzzle to real science, mapping treatments from surgery, radiotherapy, and chemotherapy to targeted therapy, immunotherapy, CAR-T, and proton/heavy-ion therapy. Students engaged actively, asking about efficacy and ethics. One remarked, "I never thought learning cancer treatment could feel like solving a mystery—it makes learning exciting."</p>
-            <p>This narrative approach proved effective in motivating self-directed learning. Teachers praised its creativity, and students' divergent thinking offered valuable insight for future science communication.</p>
+            <p>This <strong>narrative approach</strong> proved effective in motivating <strong>self-directed learning</strong>. Teachers praised its creativity, and students' <strong>divergent thinking</strong> offered valuable insight for future science communication.</p>
 
             <ImageGallery
               images={[
@@ -419,9 +419,9 @@ const MainContent = () => (
             />
 
             <div className="h3">Knowledge Arena</div>
-            <p>The Knowledge Arena was an interdisciplinary competition combining scientific and humanistic aspects of breast health. It aimed to deepen understanding of breast cancer prevention and synthetic biology while raising awareness of women's health issues.</p>
+            <p>The Knowledge Arena was an interdisciplinary competition combining scientific and humanistic aspects of breast health. It aimed to deepen understanding of <strong>breast cancer prevention and synthetic biology</strong> while raising awareness of <strong>women's health issues</strong>.</p>
             <p>Teams competed in fast-paced rounds with both scientific questions (mechanisms, prevention, applications) and humanistic ones (women's health events and contributions of scientists like Marie Curie and Tu Youyou). Students collaborated, debated, and strategized, often showing greater interest in the humanistic topics. One team shared, "Learning about these women alongside modern science makes the experience inspiring."</p>
-            <p>Teachers commended the event for merging rigor with cultural context, fostering both knowledge and empathy.</p>
+            <p>Teachers commended the event for <strong>merging rigor with cultural context</strong>, fostering both <strong>knowledge and empathy</strong>.</p>
 
             <ImageGallery
               images={[
@@ -445,10 +445,10 @@ const MainContent = () => (
             />
 
             <div className="h3">Women's Day Outreach Event</div>
-            <p>On International Women's Day, we held "Pink Ribbon: Guarding Health" at Zhengzhou University, reaching a wider campus audience with interactive, game-based activities.</p>
-            <p>Highlights included a quiz challenge, a puzzle on prevention, a board game on cancer pathways, interactive sessions on female scientists, and a message wall for encouragement. A dedicated booth showcased the ZZU-iGEM project on breast cancer detection and synthetic biology.</p>
+            <p>On International Women's Day, we held "Pink Ribbon: Guarding Health" at Zhengzhou University, reaching a wider campus audience with <strong>interactive, game-based activities</strong>.</p>
+            <p>Highlights included a <strong>quiz challenge, a puzzle on prevention, a board game on cancer pathways</strong>, interactive sessions on female scientists, and a message wall for encouragement. A dedicated booth showcased the ZZU-iGEM project on breast cancer detection and synthetic biology.</p>
             <p>Students engaged enthusiastically, asking thoughtful questions about screening and hereditary risk. One participant said, "I never thought a science event could be so fun—I learned while playing games!" Teachers praised the inclusive design and multi-dimensional format.</p>
-            <p>The event not only raised awareness of breast health but also provided feedback to refine future outreach, reinforcing the value of combining science, interaction, and humanistic context.</p>
+            <p>The event not only raised awareness of breast health but also provided feedback to refine future outreach, reinforcing the value of <strong>combining science, interaction, and humanistic context</strong>.</p>
 
             <ImageGallery
               images={[
@@ -501,8 +501,8 @@ const MainContent = () => (
           <div className="content-body">
             <p>
               On International Women's Day, our team collaborated with the Third Affiliated Hospital of Zhengzhou University
-              (Henan Provincial Maternal and Child Health Hospital) to organize a breast health awareness event. The goal was
-              to enhance community knowledge of breast health, stress the importance of early screening and self-examination,
+              (Henan Provincial Maternal and Child Health Hospital) to organize a <strong>breast health awareness event</strong>. The goal was
+              to enhance community knowledge of breast health, stress the importance of <strong>early screening and self-examination</strong>,
               and showcase the role of science in breast cancer prevention.
             </p>
             <p>
@@ -514,8 +514,8 @@ const MainContent = () => (
             </p>
             <p>
               The activity received positive feedback. Many attendees reported a deeper understanding of breast health, with
-              one participant noting, "Early detection is the real protection." Others requested materials to share with family.
-              A teacher volunteer concluded, "This event brought both knowledge and genuine care into the community." For our
+              one participant noting, <strong>"Early detection is the real protection."</strong> Others requested materials to share with family.
+              A teacher volunteer concluded, <strong>"This event brought both knowledge and genuine care into the community."</strong> For our
               team, it was both valuable practice and motivation to continue serving women's health through science.
             </p>
             <ImageGallery
@@ -563,7 +563,7 @@ const MainContent = () => (
       <div className="content-body">
         <p>
           Breast cancer education cannot be complete without the involvement of medical professionals. To this end,
-          we invited breast surgeons, radiologists, and nurses for a focused seminar.
+          we invited <strong>breast surgeons, radiologists, and nurses</strong> for a focused seminar.
         </p>
         <p>
           Our team first introduced the concept of our diagnostic tool, highlighting its potential for early detection.
@@ -581,7 +581,7 @@ const MainContent = () => (
         </p>
         <p>
           By listening to doctors and nurses, we aligned our educational approach with clinical realities, ensuring
-          accuracy, reliability, and empathy in our outreach.
+          <strong>accuracy, reliability, and empathy</strong> in our outreach.
         </p>
         <ImageGallery
           images={[
@@ -642,7 +642,7 @@ const MainContent = () => (
             <p>
               We published a series of WeChat articles covering topics such as "Three Steps for Breast Self-Examination,"
               "Common Myths about Breast Cancer," and "How to Prepare for a Hospital Screening." Each article combined
-              clear text with illustrations and infographics, making complex medical knowledge accessible.
+              clear text with illustrations and infographics, <strong>making complex medical knowledge accessible.</strong>
             </p>
 
             <div className="figure-container">
@@ -663,8 +663,8 @@ const MainContent = () => (
           <div className="content-body">
             <p>
               Recognizing the influence of visual media, we created short videos on Bilibili and Douyin (TikTok China).
-              These videos included step-by-step self-exam demonstrations, myth-busting content, and animated explainers
-              about breast health. Within weeks, the videos reached thousands of views, with audience comments such as:
+              These videos included <strong>step-by-step self-exam demonstrations, myth-busting content, and animated explainers
+              about breast health.</strong> Within weeks, the videos reached thousands of views, with audience comments such as:
               "I finally understand how to check myself—it was always confusing before!"
             </p>
             <p>
@@ -713,7 +713,7 @@ const MainContent = () => (
         <p>
           Our education efforts this year encompassed community members, students of all ages,
           medical professionals, and the digital public. Each initiative was designed not as a
-          one-way lecture, but as an interactive and adaptive exchange. Residents practiced
+          one-way lecture, but as an <strong>interactive and adaptive exchange</strong>. Residents practiced
           self-exams, children conducted experiments, students asked critical questions, doctors
           provided professional advice, and online users shared our materials with their peers.
         </p>
@@ -727,15 +727,15 @@ const MainContent = () => (
           In the future, we plan to:
         </p>
         <ul>
-          <li>Institutionalize our community programs by partnering with local healthcare centers for long-term collaboration;</li>
+          <li>Institutionalize our community programs by partnering with local healthcare centers for <strong>long-term collaboration;<strong></li>
           <li>Package our student-oriented experiments into full curricula for schools;</li>
           <li>Expand digital outreach into new formats such as podcasts and live-streamed Q&A sessions;</li>
-          <li>Continue working with healthcare professionals to ensure our education remains clinically accurate and socially responsible.</li>
+          <li>Continue working with healthcare professionals to ensure our education remains clinically <strong>accurate and socially responsible.</strong></li>
         </ul>
         <p>
           Education, to us, is not an afterthought but an essential dimension of scientific innovation.
           By sharing knowledge and fostering dialogue, we not only advance our iGEM project but also
-          contribute to building a healthier, more informed, and more empowered society.
+          contribute to <strong>building a healthier, more informed, and more empowered society</strong>.
         </p>
       </div>
     </div>
