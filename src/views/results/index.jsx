@@ -633,10 +633,10 @@ const MainContent = () => (
 
 
     {/* 4 */}
-    {/* APT-CRISPR-HCR Detection System */}
+    {/* APT-CRISPR/Cas12a-HCR Detection System */}
     <div id="apt-crispr-hcr" className="view-content">
       <div className="content-header">
-        <div className="h1">四. APT-CRISPR-HCR detection system</div>
+        <div className="h1">APT-CRISPR/Cas12a-HCR detection system</div>
       </div>
       <div className="content-body">
         <p>
@@ -1104,7 +1104,7 @@ const MainContent = () => (
                     <tr><td>MCF-7</td><td>200 pg/ml</td><td>190 pg/ml</td><td>100 pg/ml</td><td>ND</td></tr>
                     <tr><td>MCF-10A</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td></tr>
                     <tr><td>SKBR3</td><td>450 pg/ml</td><td>480 pg/ml</td><td>200 pg/ml</td><td>280 pg/ml</td></tr>
-                    <tr><td>MDA-MB-231</td><td>ND</td><td>170 pg/ml</td><td>270 ng/ml</td><td>240 pg/ml</td></tr>
+                    <tr><td>MDA-MB-231</td><td>ND</td><td>170 pg/ml</td><td>270 pg/ml</td><td>240 pg/ml</td></tr>
                   </tbody>
                 </table>
               </div>
