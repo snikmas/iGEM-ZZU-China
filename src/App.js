@@ -16,6 +16,7 @@ function App() {
           const height = 750 - scrollPosition;
           sidebar.style.top = `${height}px`;
         } else {
+          sidebar.style.removeProperty('top');
           sidebar.classList.add('fixed-top');
         }
       }
