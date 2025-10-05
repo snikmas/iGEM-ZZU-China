@@ -110,19 +110,19 @@ const SpreadFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/sprea
 const SpreadFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/spread/spread-2-5.webp';
 
 // 13 Inclusiveness DONE
-const InclusivenessFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-2-1.webp';
+const InclusivenessFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/111.webp';
 const InclusivenessFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-2-2.webp';
 const InclusivenessFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-3-1.webp';
 const InclusivenessFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-3-2.webp';
 const InclusivenessFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-3-3.webp';
-const InclusivenessFigure5_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-1.webp';
-const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusivenessfigure5-2.webp';
-const InclusivenessFigure5_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-3.webp';
-const InclusivenessFigure5_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-4.webp';
-const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-5.webp';
-const InclusivenessFigure5_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-6.webp';
-const InclusivenessFigure5_7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-7.webp';
-const InclusivenessFigure5_8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/inclusiveness-5-8.webp';
+const InclusivenessFigure5_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/1.webp';
+const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/2.webp';
+const InclusivenessFigure5_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/3.webp';
+const InclusivenessFigure5_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/4.webp';
+const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/5.webp';
+const InclusivenessFigure5_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/6.webp';
+const InclusivenessFigure5_7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/7.webp';
+const InclusivenessFigure5_8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/8.webp';
 
 
 
