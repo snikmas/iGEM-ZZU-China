@@ -1200,9 +1200,9 @@ const MainContent = () => (
               </thead>
               <tbody>
                 <tr><td>EpCam</td><td>228 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9615</td></tr>
-                <tr><td>HER-2</td><td>165 ng/mL</td><td>1ng/ml-1ug/ml</td><td>0.9763</td></tr>
-                <tr><td>MMP-9</td><td>158 ng/mL</td><td>1ng/ml-1ug/ml</td><td>0.9567</td></tr>
-                <tr><td>PD-L1</td><td>113 ng/mL</td><td>1ng/ml-1ug/ml</td><td>0.9505</td></tr>
+                <tr><td>HER-2</td><td>165 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9763</td></tr>
+                <tr><td>MMP-9</td><td>158 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9567</td></tr>
+                <tr><td>PD-L1</td><td>113 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9505</td></tr>
               </tbody>
             </table>
           </div>
@@ -1278,9 +1278,9 @@ const MainContent = () => (
               </thead>
               <tbody>
                 <tr><td>EpCam</td><td>30.9 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9615</td></tr>
-                <tr><td>HER-2</td><td>21.8 ng/mL</td><td>100pg/ml-100ng/ml</td><td>0.9763</td></tr>
-                <tr><td>MMP-9</td><td>13.7 ng/mL</td><td>100pg/ml-100ng/ml</td><td>0.9567</td></tr>
-                <tr><td>PD-L1</td><td>12.2 ng/mL</td><td>100pg/ml-100ng/ml</td><td>0.9505</td></tr>
+                <tr><td>HER-2</td><td>21.8 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9763</td></tr>
+                <tr><td>MMP-9</td><td>13.7 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9567</td></tr>
+                <tr><td>PD-L1</td><td>12.2 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9505</td></tr>
               </tbody>
             </table>
           </div>
@@ -1354,7 +1354,7 @@ const MainContent = () => (
                 <tr><td>MCF-10A</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td></tr>
                 <tr><td>MCF-7</td><td>187 pg/ml</td><td>178 pg/ml</td><td>86 pg/ml</td><td>ND</td></tr>
                 <tr><td>SKBR3</td><td>423 pg/ml</td><td>416 pg/ml</td><td>198 pg/ml</td><td>215 pg/ml</td></tr>
-                <tr><td>MDA-MB-231</td><td>ND</td><td>157 pg/ml</td><td>247 ng/ml</td><td>236 pg/ml</td></tr>
+                <tr><td>MDA-MB-231</td><td>ND</td><td>157 pg/ml</td><td>247 pg/ml</td><td>236 pg/ml</td></tr>
               </tbody>
             </table>
           </div>
