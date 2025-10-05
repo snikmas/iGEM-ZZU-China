@@ -14,6 +14,7 @@ const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/2.
 const figure3 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/3.webp';
 const figure4 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/4.webp';
 const figure5 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/5.webp';
+const figure2t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/2t.webp';
 
 const figure6 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/6.webp';
 const figure7 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/7.webp';
@@ -100,6 +101,7 @@ const MainContent = () => (
               images={[
                 { src: figure1, alt: "Team-to-Team Technical Exchange Figure 1.1" },
                 { src: figure2, alt: "Team-to-Team Technical Exchange Figure 1.2" }
+                { src: figure2t, alt: "Team-to-Team Technical Exchange Figure 1.3" }
               ]}
             />
           </div>
