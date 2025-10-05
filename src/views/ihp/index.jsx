@@ -29,7 +29,7 @@ const IntegratedReportFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets
 
 // 4 DONE
 const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/ihp/overview.webp';
-const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure1.webp';
+const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/ihp9.webp';
 const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure2.webp';
 const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure3.webp';
 const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure4.webp';
@@ -724,7 +724,7 @@ const MainContent = () => (
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Geng Hongmei</div>
+                    <div className="h3">Hongmei Geng</div>
                     <p className="affiliation">Engaged in research on nano-oncology diagnosis and treatment, focusing on how to use enzyme-free amplification systems such as HCR to give nanomaterials higher detection sensitivity</p>
                     <p className="details">Figure 14. Interview with Professor Hongmei Geng</p>
                   </div>
@@ -892,7 +892,7 @@ const MainContent = () => (
                 </div>
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Lei Ming</div>
+                    <div className="h3">Ming Lei</div>
                     <p className="affiliation">Co-founder of UST Inc. (USA), focusing on the development and commercialization of in vitro diagnostic (IVD) technologies and products</p>
                     <p className="details">Figure 20. A photo with Professor Ming Lei</p>
                   </div>
@@ -917,7 +917,7 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3">Zheng Huaixin</div>
+                    <div className="h3">Huaixin Zheng</div>
                     <p className="affiliation">Integrating profound humanistic care into research on pathogens and anti-infection immunity aligns closely with the ethical considerations of our exosome detection technology</p>
                     <p className="details">Figure 21. Interview with Professor Huaixin Zheng</p>
                   </div>
