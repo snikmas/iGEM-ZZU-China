@@ -612,7 +612,7 @@ const MainContent = () => (
                 </div> {/* 关键修正：闭合interview-image容器 */}
                 <div className="interview-content">
                   <div className="interview-info">
-                    <div className="h3"> Lijuan Zhao</div>
+                    <div className="h3">Lijuan Zhao</div> {/* 优化：去除多余空格 */}
                     <p className="affiliation">Engaged in anti-tumor pharmacology research and tumor exosome research</p>
                     <p className="details">Figure 10. Interview with Professor Zhao Lijuan</p>
                   </div>
