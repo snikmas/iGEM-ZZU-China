@@ -275,14 +275,7 @@ Web Development: Handle the integration of front-end and back-end components. Op
       relationshipToTeam: "External Advisor",
       tasks: "Background Research",
       specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
-    },
-    {
-      name: "Yingying Liu",
-      institutionType: "Academic",
-      relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
-    },
+    }
   ]
 
   return (
