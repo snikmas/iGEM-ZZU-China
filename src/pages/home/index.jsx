@@ -78,7 +78,7 @@ function Home() {
 
           <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/ihp.webp"><IHP /></PageWrapper>} />
           <Route path="/human-practice/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Entrepreneurship /></PageWrapper>} />
-          <Route path="/human-practice/cooperation" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Cooperation /></PageWrapper>} />
+          <Route path="/human-practice/cooperation" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/collaboration.webp"><Cooperation /></PageWrapper>} />
 
           {/* 兜底 */}
           <Route path="*" element={<Exception403 />} />
