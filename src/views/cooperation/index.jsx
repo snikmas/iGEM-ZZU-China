@@ -100,8 +100,12 @@ const MainContent = () => (
             <ImageGallery
               images={[
                 { src: figure1, alt: "Team-to-Team Technical Exchange Figure 1.1" },
+<<<<<<< HEAD
                 { src: figure2, alt: "Team-to-Team Technical Exchange Figure 1.2" },
                 { src: figure2t, alt: "Team-to-Team Technical Exchange Figure 1.3" }
+=======
+                { src: figure2, alt: "Team-to-Team Technical Exchange Figure 1.2" }
+>>>>>>> 423d3498873caeb030a92832320250e2338a23e0
               ]}
             />
           </div>
