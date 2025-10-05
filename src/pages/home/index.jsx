@@ -68,7 +68,7 @@ function Home() {
           <Route path="/project/development" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Development /></PageWrapper>} />
 
           <Route path="/wet-lab/experiments" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Experiments /></PageWrapper>} />
-          <Route path="/wet-lab/notebook" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/eeeea5641fec75c1f057bdaa773d6064.webp"><Notebook /></PageWrapper>} />
+          <Route path="/wet-lab/notebook" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/notebook.webp"><Notebook /></PageWrapper>} />
           <Route path="/wet-lab/parts" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Part /></PageWrapper>} />
           <Route path="/wet-lab/safety" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/26d3745443447d8ca4ce302087d76b93.webp"><WetLabSafety /></PageWrapper>} />
           <Route path="/wet-lab/results" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Results /></PageWrapper>} />
