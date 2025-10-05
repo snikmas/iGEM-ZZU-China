@@ -363,6 +363,22 @@ function HomeLanding() {
             <div className="partner-item">
               <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
             </div>
+            <div className="partner-item">
+              <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+                <WechatOutlined style={{ fontSize: '50px' }} />
+              </a>
+            </div>
+            <div className="partner-item">
+              <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+                <YoutubeOutlined style={{ fontSize: '50px' }} />
+              </a>
+            </div>
+            <div className="partner-item">
+              <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+            </div>
+            <div className="partner-item">
+              <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+            </div>
 
             {/* 完全相同的第二组 */}
             <div className="partner-item">
@@ -382,6 +398,22 @@ function HomeLanding() {
             </div>
             <div className="partner-item">
               <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+            </div>
+            <div className="partner-item">
+              <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+                <WechatOutlined style={{ fontSize: '50px' }} />
+              </a>
+            </div>
+            <div className="partner-item">
+              <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+                <YoutubeOutlined style={{ fontSize: '50px' }} />
+              </a>
+            </div>
+            <div className="partner-item">
+              <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+            </div>
+            <div className="partner-item">
+              <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
             </div>
           </div>
 
@@ -410,16 +442,6 @@ function HomeLanding() {
             </div>
 
           </div>
-          {/* 插入社交媒体部分 */}
-          <div className="socials" aria-label="Social links">
-            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
-              <WechatOutlined />
-            </a>
-            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
-              <YoutubeOutlined />
-            </a>
-          </div>
-
         </div>
       </section>
     </div>

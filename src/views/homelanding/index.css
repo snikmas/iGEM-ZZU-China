@@ -1249,18 +1249,21 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
+  width: 85px;
+  height: 85px;
+  max-width: 120px;
+  max-height: 120px; 
+  border-radius: 50px;
   color: #ffffff;
   background: rgba(255, 255, 255, .12);
   border: 1px solid rgba(255, 255, 255, .18);
   transition: transform .2s ease, background .2s ease;
+  padding:8px;
 }
 
 .social-link .icon {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
 }
 
 .social-link:hover {
@@ -1271,17 +1274,6 @@
 .social-link.youtube {
   background: #ff0033;
   border-color: #ff0033;
-}
-
-.social-link.google {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #ea4335;
-}
-
-.social-link.twitter {
-  background: #1d9bf0;
-  border-color: #1d9bf0;
 }
 
 .social-link.wechat {
@@ -1329,46 +1321,6 @@
 
 
 
-
-.social-link {
-  font-size: 20px;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 35px; 
-  border-radius: 12px;
-  color: #ffffff;
-  background: rgba(255, 255, 255, .12);
-  border: 1px solid rgba(255, 255, 255, .18);
-  transition: transform .2s ease, background .2s ease;
-  text-decoration: none;
-  padding: 6px; /* 从8px减小到6px */
-}
-
-.social-link .social-label {
-  font-size: 12px;
-  margin-top: 4px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.social-link:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, .22);
-}
-
-.social-link.youtube {
-  background: #ff0033;
-  border-color: #ff0033;
-}
-
-.social-link.wechat {
-  background: #1aad19;
-  border-color: #1aad19;
-}
-
 /* 响应式设计 */
 @media (max-width: 760px) {
   .contact-info {
@@ -1398,11 +1350,6 @@
     font-size: 10px;
   }
 }
-
-/* ... 其余现有样式保持不变 ... */
-
-
-
 /* Responsive */
 @media (max-width: 760px) {
   .hero-logo {
