@@ -7,7 +7,7 @@ import '../../styles/common.css';
 import ImageGallery from '../../components/imagegallery';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
-const overview = 'https://static.igem.wiki/teams/5822/newassets/collaborations/overview.webp';
+const overview = 'https://static.igem.wiki/teams/5822/newassets/collaborations/overview1.webp';
 
 const figure1 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/1.webp';
 const figure2 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/2.webp';
