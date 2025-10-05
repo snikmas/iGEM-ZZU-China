@@ -581,7 +581,7 @@ const MainContent = () => (
         </p>
         <p>
           By listening to doctors and nurses, we aligned our educational approach with clinical realities, ensuring
-          <strong>accuracy, reliability, and empathy</strong> in our outreach.
+           <strong>accuracy, reliability, and empathy</strong> in our outreach.
         </p>
         <ImageGallery
           images={[
