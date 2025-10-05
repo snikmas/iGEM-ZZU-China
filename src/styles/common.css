@@ -18,7 +18,7 @@
   background: #fff;
   color: #530c16;
   position: fixed;
-  top: 650px;
+  /* top: 700px; */
   z-index: 1000;
   transform: translateX(-100%) rotateY(-15deg);
   transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);

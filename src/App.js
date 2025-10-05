@@ -11,9 +11,9 @@ function App() {
       const sidebar = document.querySelector('.view-sidebar');
       
       if (sidebar) {
-        if (scrollPosition < 650) {
+        if (scrollPosition < 750) {
           sidebar.classList.remove('fixed-top');
-          const height = 650 - scrollPosition;
+          const height = 750 - scrollPosition;
           sidebar.style.top = `${height}px`;
         } else {
           sidebar.classList.add('fixed-top');
