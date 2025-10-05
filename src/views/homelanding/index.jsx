@@ -2,7 +2,9 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 // 在文件顶部添加导入
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import { YoutubeOutlined } from '@ant-design/icons';
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
+
+
 
 const logo = 'https://static.igem.wiki/teams/5822/newassets/headerlogo/headerlogo.webp';
 const section2bg = 'https://static.igem.wiki/teams/5822/newassets/home/2bg.webp';
@@ -434,7 +436,8 @@ function HomeLanding() {
 
         <div className="socials" aria-label="Social links">
           <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
-            <img src='https://static.igem.wiki/teams/5822/newassets/images/home/wechat.webp' alt="WeChat" className='social-icon' />
+            {/* <img src='https://static.igem.wiki/teams/5822/newassets/images/home/wechat.webp' alt="WeChat" className='social-icon' /> */}
+            <WechatOutlined />
           </a>
           <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
             <YoutubeOutlined />
