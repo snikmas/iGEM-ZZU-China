@@ -26,6 +26,13 @@ const figure12 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/1
 const figure13 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/13.webp';
 const figure14 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/14.webp';
 
+const figure12t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/12t.webp';
+const figure13t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/13t.webp';
+const figure14t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/14t.webp';
+const figure16t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/16t.webp';
+const figure20t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/20t.webp';
+const figure21t = 'https://static.igem.wiki/teams/5822/newassets/collaborations/21.webp';
+
 const figure16 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/16.webp';
 const figure17 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/17.webp';
 const figure18 = 'https://static.igem.wiki/teams/5822/newassets/collaborations/18.webp';
@@ -257,7 +264,9 @@ const MainContent = () => (
             <ImageGallery
               images={[
                 { src: figure12, alt: "Women's Day Health Awareness Campaign at the Third Affiliated Hospital Figure 6.1" },
-                { src: figure13, alt: "Women's Day Health Awareness Campaign at the Third Affiliated Hospital Figure 6.2" }
+                { src: figure13, alt: "Women's Day Health Awareness Campaign at the Third Affiliated Hospital Figure 6.2" },
+                { src: figure12t, alt: "Women's Day Health Awareness Campaign at the Third Affiliated Hospital Figure 6.3" },
+                { src: figure13t, alt: "Women's Day Health Awareness Campaign at the Third Affiliated Hospital Figure 6.4" }
               ]}
             />
 
@@ -282,7 +291,9 @@ const MainContent = () => (
             <ImageGallery
               images={[
                 { src: figure14, alt: "Women's Day Outreach at Zhengzhou University North Playground Figure 7.1" },
-                { src: figure16, alt: "Women's Day Outreach at Zhengzhou University North Playground Figure 7.2" }
+                { src: figure16, alt: "Women's Day Outreach at Zhengzhou University North Playground Figure 7.2" },
+                { src: figure14t, alt: "Women's Day Outreach at Zhengzhou University North Playground Figure 7.3" },
+                { src: figure16t, alt: "Women's Day Outreach at Zhengzhou University North Playground Figure 7.4" }
               ]}
             />
 
@@ -349,7 +360,9 @@ const MainContent = () => (
             <ImageGallery
               images={[
                 { src: figure20, alt: "Partnership with Autogen Figure 9.1" },
-                { src: figure21, alt: "Partnership with Autogen Figure 9.2" }
+                { src: figure21, alt: "Partnership with Autogen Figure 9.2" },
+                { src: figure20t, alt: "Partnership with Autogen Figure 9.3" },
+                { src: figure21t, alt: "Partnership with Autogen Figure 9.4" }
               ]}
             />
           </div>
