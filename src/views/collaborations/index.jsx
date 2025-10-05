@@ -467,7 +467,7 @@ const MainContent = () => (
 );
 
 
-function Cooperation() {
+function Collaborations() {
   const [activeSection, setActiveSection] = useState('overview');
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
@@ -612,4 +612,4 @@ function Cooperation() {
 }
 
 
-export default Cooperation;
+export default Collaborations;

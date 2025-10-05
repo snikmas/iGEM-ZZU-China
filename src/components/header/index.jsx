@@ -76,7 +76,7 @@ function Header() {
       subMenu: [
         { key: '/human-practice/integrated-human-practices', icon: '', label: 'Integrated Human Practices', element: '' },
         { key: '/human-practice/entrepreneurship', icon: '', label: 'Entrepreneurship', element: '' },
-        { key: '/human-practice/cooperation', icon: '', label: 'Collaborations', element: '' }
+        { key: '/human-practice/collaborations', icon: '', label: 'Collaborations', element: '' }
       ]
     }
   ];
