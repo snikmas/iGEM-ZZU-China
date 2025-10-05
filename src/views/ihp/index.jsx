@@ -216,7 +216,7 @@ const MainContent = () => (
               <div className="h4">Figure 5. History of Breast Cancer Detection</div>
             </div>
           </div>
-          
+
           <div className="content-body">
             <p>
               Current breast cancer screening primarily relies on <span className='text-strong'>imaging techniques</span> (e.g., mammography, ultrasound) and <span className='text-strong'>serum marker tests</span> (e.g., CA15-3), but these methods have <span className='text-strong'>obvious drawbacks</span>:
@@ -624,7 +624,6 @@ const MainContent = () => (
                 </div>
               </div>
             </div>
-            </div>
           </div>
         </section>
 
@@ -832,7 +831,7 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <div className="interview-card">
-              <div className="interview-image">
+                <div className="interview-image">
                   <img src={InterviewFigure9} alt="Professor Craig C. Mello" />
                 </div>
                 <div className="interview-content">
@@ -2049,7 +2048,7 @@ function IHP() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenu, setActiveMenu] = useState('overview');
   const [activeSubMenu, setActiveSubMenu] = useState(null);
-  
+
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -2125,7 +2124,7 @@ function IHP() {
         {
           id: 'feedback-integration-layer',
           title: 'Feedback Integration Layer',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'   
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'iterative-optimization-layer',
@@ -2184,82 +2183,82 @@ function IHP() {
         {
           id: 'interview-target-proteins',
           title: '4.2 Four Target Proteins',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-cd63-aptamers',
           title: '4.3 CD63 Aptamers',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-breast-cancer-cell-lines',
           title: '4.4 Breast Cancer Cell Lines',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-hcr-signal-amplification',
           title: '4.5 HCR Signal Amplification',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-rca-method',
           title: '4.6 RCA Method Module',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-cas14-enzyme',
           title: '4.7 Cas14 Enzyme',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-thomas-sudhof',
           title: '4.8 Thomas Südhof',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-craig-mello',
           title: '4.9 Craig C. Mello',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-yu-baofa',
           title: '4.10 Clinical Translation',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-lei-ming',
           title: '4.11 Commercial Viability',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-zheng-huaixin',
           title: '4.12 Humanities and Ethics',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-lu-youyong',
           title: '4.13 Clinical Significance',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-zhang-yanwu',
           title: '4.14 Breast Surgeons',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-sun-li',
           title: '4.15 Laboratory Doctors',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'   
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-public-representative',
           title: '4.16 Public Representative',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interview-patients-families',
           title: '4.17 Patients & Families',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' 
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
@@ -2380,7 +2379,7 @@ function IHP() {
     {
       id: 'spread',
       title: 'Spread',
-      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',    
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'online-matrix',
@@ -2451,7 +2450,7 @@ function IHP() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 
@@ -2485,7 +2484,7 @@ function IHP() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                <img className={`menu-icon `} src={menu.icon}  />
+                <img className={`menu-icon `} src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -2496,7 +2495,7 @@ function IHP() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      <img className='menu-icon' src={subMenu.icon}  /> 
+                      <img className='menu-icon' src={subMenu.icon} />
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}

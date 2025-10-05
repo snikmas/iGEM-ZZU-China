@@ -76,7 +76,7 @@ function Home() {
           <Route path="/dry-lab/model" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/model.webp"><Model /></PageWrapper>} />
           <Route path="/dry-lab/software" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/software.webp"><Software /></PageWrapper>} />
 
-          <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/jhp.webp"><IHP /></PageWrapper>} />
+          <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/ihp.webp"><IHP /></PageWrapper>} />
           <Route path="/human-practice/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Entrepreneurship /></PageWrapper>} />
           <Route path="/human-practice/collaborations" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/collaboration.webp"><Collaborations /></PageWrapper>} />
 
