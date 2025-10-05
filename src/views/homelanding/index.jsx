@@ -408,8 +408,9 @@ function HomeLanding() {
                 The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
               </a>
             </div>
-          </div>
 
+          </div>
+          {/* 插入社交媒体部分 */}
           <div className="socials" aria-label="Social links">
             <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
               <WechatOutlined />

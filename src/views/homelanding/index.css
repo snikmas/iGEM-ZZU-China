@@ -1234,7 +1234,7 @@
 .socials {
   position: relative;
   z-index: 1;
-  padding: 8px 24px 8px 24px;
+  padding: 5px 0px 5px 20px;
   color: #ffffff;
   font-weight: 900;
   line-height: 1.6;
@@ -1289,9 +1289,6 @@
   border-color: #1aad19;
 }
 
-
-/* ... 现有样式保持不变 ... */
-
 /* 联系信息样式 */
 .contact-info {
   position: relative;
@@ -1330,19 +1327,8 @@
   margin: 4px 0;
 }
 
-/* 更新社交媒体样式 */
-.socials {
-  position: relative;
-  z-index: 1;
-  padding: 24px;
-  color: #ffffff;
-  font-weight: 900;
-  line-height: 1.6;
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-}
+
+
 
 .social-link {
   font-size: 20px;
@@ -1350,15 +1336,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px; 
   border-radius: 12px;
   color: #ffffff;
   background: rgba(255, 255, 255, .12);
   border: 1px solid rgba(255, 255, 255, .18);
   transition: transform .2s ease, background .2s ease;
   text-decoration: none;
-  padding: 8px;
+  padding: 6px; /* 从8px减小到6px */
 }
 
 .social-link .social-label {
@@ -1400,11 +1386,6 @@
 
   .contact-info .address-info {
     font-size: 12px;
-  }
-
-  .socials {
-    padding: 16px;
-    gap: 16px;
   }
 
   .social-link {
