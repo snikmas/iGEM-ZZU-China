@@ -13,13 +13,13 @@ const overview = 'https://static.igem.wiki/teams/5822/newassets/education/overvi
 // Primary Education Images (1-17)
 const Primary_1 = 'https://static.igem.wiki/teams/5822/newassets/education/1.webp';
 const Primary_2 = 'https://static.igem.wiki/teams/5822/newassets/education/2.webp';
-const Primary_3 = 'https://static.igem.wiki/teams/5822/newassets/education/3.webp';
+const Primary_3 = 'https://static.igem.wiki/teams/5822/newassets/education/dna3.webp';
 const Primary_4 = 'https://static.igem.wiki/teams/5822/newassets/education/4.webp';
-const Primary_5 = 'https://static.igem.wiki/teams/5822/newassets/education/5.webp';
+const Primary_5 = 'https://static.igem.wiki/teams/5822/newassets/education/dna5.webp';
 
 
 const Primary_6 = 'https://static.igem.wiki/teams/5822/newassets/education/pri6.webp';
-const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/education/pri7.webp';
+const Primary_7 = 'https://static.igem.wiki/teams/5822/newassets/education/prim7.webp';
 const Primary_8 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-8.webp';
 const Primary_9 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-9.webp';
 const Primary_10 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-10.webp';
@@ -27,18 +27,18 @@ const Primary_10 = 'https://static.igem.wiki/teams/5822/newassets/education/prim
 const Primary_11 = 'https://static.igem.wiki/teams/5822/newassets/education/primaiary11.webp';
 const Primary_12 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-12.webp';
 const Primary_13 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-13.webp';
-const Primary_14 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-14.webp';
+const Primary_14 = 'https://static.igem.wiki/teams/5822/newassets/education/14pri.webp';
 const Primary_15 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-15.webp';
 const Primary_16 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-16.webp';
 const Primary_17 = 'https://static.igem.wiki/teams/5822/newassets/education/primary-17.webp';
 
 // Middle School Images (1-3)
-const Middle_1 = 'https://static.igem.wiki/teams/5822/newassets/education/middle1.webp';
+const Middle_1 = 'https://static.igem.wiki/teams/5822/newassets/education/m1.webp';
 const Middle_2 = 'https://static.igem.wiki/teams/5822/newassets/education/middle-2.webp';
 const Middle_3 = 'https://static.igem.wiki/teams/5822/newassets/education/middle-3.webp';
 
 // High School Images (1-5)
-const high_1 = 'https://static.igem.wiki/teams/5822/newassets/education/high-1.webp';
+const high_1 = 'https://static.igem.wiki/teams/5822/newassets/education/h1.webp';
 const high_2 = 'https://static.igem.wiki/teams/5822/newassets/education/high2.webp';
 const high_3 = 'https://static.igem.wiki/teams/5822/newassets/education/high3.webp';
 const high_4 = 'https://static.igem.wiki/teams/5822/newassets/education/high-4.webp';
