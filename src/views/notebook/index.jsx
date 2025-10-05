@@ -17,7 +17,7 @@ const image8 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-5.webp
 const image9 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-6.webp';
 const image10 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-7.webp';
 const image11 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-8.webp';
-const image12 = 'https://static.igem.wiki/teams/5822/newassets/notebook/25-9.webp';
+const image12 = 'https://static.igem.wiki/teams/5822/newassets/notebook/9-1.webp';
 
 // 组件定义 1
 const MainContent = () => (
