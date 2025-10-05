@@ -1,50 +1,56 @@
-# zsfxueye
+# Team ZZU-China 2025 Wiki
 
-这是一个基于 React 的前端项目，使用了现代的开发工具和库来构建用户界面。
+This repository MUST contain all coding assets to generate your team's wiki (HTML, CSS, JavaScript, TypeScript, Python, etc).
+Images, photos, icons and fonts MUST be stored on static.igem.wiki using tools.igem.org, and Videos must be embedded from iGEM Video Universe.
+For up-to-date requirements, resources, help and guidance, visit competition.igem.org/deliverables/team-wiki.
 
-## 技术栈
+## Getting Started
 
-- **React 19** - 用于构建用户界面的核心库
-- **React Router v7** - 声明式路由管理
-- **Ant Design 5** - UI 组件库
-- **ECharts 5** - 数据可视化图表库
-- **Axios** - HTTP 客户端
-- **React PDF** - PDF 文件展示组件
+This repository contains the source code for the Team ZZU-China 2025 Wiki. The general structure follows a React-based setup, allowing easy modification and extension to suit your wiki's needs.
+
+## Technologies
+
+- **React 19** – Core library for building user interfaces
+- **React Router v7** – Declarative routing management
+- **Ant Design 5** – UI component library
+- **ECharts 5** – Data visualization and charting library
+- **Axios** – HTTP client
+- **React PDF** – Component for displaying PDF files
 
 
-## 目录结构
+## Directory Structure
 
 \`\`\`
 src/
-├── components/     # 可复用的通用组件
-├── pages/          # 页面级组件
-├── utils/          # 工具函数和辅助方法
-├── views/          # 视图组件
-├── App.js          # 应用根组件
-├── index.js        # 应用入口文件
+├── components/     # Reusable common components
+├── pages/          # Page-level components
+├── utils/          # Utility functions and helper methods
+├── views/          # View components
+├── App.js          # Root component of the application
+├── index.js        # Application entry point
 └── ...
 \`\`\`
 
-## 快速开始
+## Quick Start
 
-### 环境要求
+### Environment Requirements
 
 - Node.js >= 14.x
-- npm 或 yarn
+- npm or yarn
 
-### 安装依赖
+### Install Dependencies
 
 \`\`\`bash
 npm install
 \`\`\`
 
-或
+or
 
 \`\`\`bash
 yarn install
 \`\`\`
 
-### 启动开发服务器
+### Start the Development Server
 
 \`\`\`bash
 npm start
@@ -56,78 +62,75 @@ npm start
 yarn start
 \`\`\`
 
-启动完成后，应用将在浏览器中自动打开 [http://localhost:3000](http://localhost:3000)。
+After the server starts, the application will automatically open in your browser at http://localhost:3000.
 
-### 构建生产版本
+### Build for Production
 
 \`\`\`bash
 npm run build
 \`\`\`
 
-或
+or
 
 \`\`\`bash
 yarn build
 \`\`\`
 
-构建后的文件将输出到 \`build\` 目录，可用于部署。
+The built files will be output to the build directory and can be used for deployment.
 
-## 开发规范
+## Development Guidelines
 
-### 组件开发
+### Component Development
 
-1. 可复用的通用组件放在 \`src/components/\` 目录下
-2. 页面级组件放在 \`src/pages/\` 目录下
-3. 特定功能视图放在 \`src/views/\` 目录下
+1. Reusable common components are placed in the src/components/ directory.
+2. Page-level components are placed in the src/pages/ directory.
+3. Feature-specific views are placed in the src/views/ directory.
 
-### 样式规范
+### Styling Guidelines
 
-- 每个组件的样式文件与其同名，如 \`Button.jsx\` 对应 \`Button.css\`
-- 使用 CSS Modules 避免样式冲突
-- 遵循 BEM 命名规范
+- Each component should have a corresponding CSS file with the same name (e.g., Button.jsx → Button.css).
+- Use CSS Modules to avoid style conflicts.
+- Follow the BEM naming convention for consistency.
 
-### 路由管理
+### Available Scripts
 
-- 使用 React Router 进行路由管理
-- 路由配置集中管理在 App.js 中
-
-## 可用脚本
-
-在项目目录下，你可以运行：
+In the project directory, you can run:
 
 ### \`npm start\`
 
-启动开发服务器，具有热重载功能。
+Starts the development server with hot reloading enabled.
 
 ### \`npm test\`
 
-启动测试运行器，以交互式监视模式运行测试。
+Launches the test runner in interactive watch mode.
 
 ### \`npm run build\`
 
-将应用打包用于生产，输出到 \`build\` 文件夹。
+Builds the app for production and outputs the files to the build folder.
+
 
 ### \`npm run eject\`
 
-注意：这是单向操作，一旦执行无法撤销。
-此命令会将所有配置文件和传递依赖项复制到项目中，以便完全控制它们。
+Note: This is a one-way operation — once you eject, you can’t go back.
+This command will copy all configuration files and dependencies into your project, giving you full control over them.
 
-## 浏览器支持
+## Browser Support
 
-默认支持所有现代浏览器，具体列表可以在 package.json 的 \`browserslist\` 字段中查看。
+All modern browsers are supported by default.
+You can check the specific list in the browserslist field of the package.json file.
 
-## 部署
+## Deployment
 
-构建后的应用是一个静态站点，可以部署到任何静态文件服务器上：
+The built application is a static website and can be deployed to any static file server, such as:
 
 - Netlify
 - Vercel
 - GitHub Pages
-- Nginx/Apache 等传统服务器
+- Traditional servers like Nginx or Apache
 
-## 学习资源
+## Learning Resources
 
-- [React 官方文档](https://reactjs.org/)
-- [React Router 文档](https://reactrouter.com/)
-- [Ant Design 组件库](https://ant.design/)
-- [ECharts 图表库](https://echarts.apache.org/)
+- React Official Documentation
+- React Router Documentation
+- Ant Design Component Library
+- ECharts Visualization Library
