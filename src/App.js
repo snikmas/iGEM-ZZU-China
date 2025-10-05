@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react'; // 添加这行导入
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import Home from './pages/home';
 import './App.css';
 
@@ -9,8 +9,10 @@ function App() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const sidebar = document.querySelector('.view-sidebar');
-      const headerImage = document.querySelector('.page-header-image img');
-      const headerHeight = document.querySelector('.page-header-image').offsetHeight + 90;
+      const headerImage = document.querySelector('.page-header-image img');      
+      // 修改后
+      const headerElement = document.querySelector('.page-header-image');
+      const headerHeight = headerElement ? headerElement.offsetHeight + 90 : 0;
       
       // 侧边栏逻辑保持不变
       if (sidebar) {
