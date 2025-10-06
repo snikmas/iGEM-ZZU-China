@@ -873,6 +873,12 @@ const MainContent = () => (
                       <td>10ng/ml-10ug/ml</td>
                       <td>0.9849</td>
                     </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -931,6 +937,10 @@ const MainContent = () => (
                     <tr>
                       <td>PD-L1</td>
                       <td>1845</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
@@ -1008,6 +1018,12 @@ const MainContent = () => (
                       <td>131 pg/mL</td>
                       <td>1ng/ml-1ug/ml</td>
                       <td>0.9703</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
