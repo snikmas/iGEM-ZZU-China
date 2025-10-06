@@ -233,17 +233,17 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
-              <video
-                controls
-                autoPlay
-                loop
-                muted
-                className="video-player"
-              >
-                <source src={videoFile} type="video/mp4" />
-                您的浏览器不支持视频播放。
-              </video>
-            </div>
+  <iframe
+    title="ZZU-China: Science Outreach for Primary to High Schools (2025)"
+    width="560"
+    height="315"
+    src="https://video.igem.org/videos/embed/4fn358tiUgPLNzKES39Rnh"
+    allow="fullscreen"
+    sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    style={{ border: 0 }}
+  ></iframe>
+</div>
+
           </div>
         </div>
       </section>
