@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './index.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 const parts = [
   {
@@ -90,37 +90,140 @@ const parts = [
 
 const PartsTable = () => {
   return (
-    <div id="parts-list" className="parts-table-container">
-      <div className="content-header">
-        <div className="h1">Parts List</div>
-      </div>
-      <div className="table-scroll">
-        <table className="parts-table">
-          <thead>
-            <tr>
-              <th>Number</th>
-              <th>Name</th>
-              <th>Type</th>
-              <th>Length</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            {parts.map((p) => (
-              <tr key={p.number}>
-                <td>
-                  <a href={p.url} target="_blank" rel="noreferrer">
-                    {p.number}
-                  </a>
-                </td>
-                <td>{p.name}</td>
-                <td>{p.type}</td>
-                <td>{p.length}</td>
-                <td>{p.description}</td>
+    <div>
+      <div id="parts-list" className="parts-table-container">
+        <div className="content-header">
+          <div className="h1">Parts List</div>
+        </div>
+        <div className="table-scroll">
+          <table className="parts-table">
+            <thead>
+              <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Length</th>
+                <th>Description</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {parts.map((p) => (
+                <tr key={p.number}>
+                  <td>
+                    <a href={p.url} target="_blank" rel="noreferrer">
+                      {p.number}
+                    </a>
+                  </td>
+                  <td>{p.name}</td>
+                  <td>{p.type}</td>
+                  <td>{p.length}</td>
+                  <td>{p.description}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className="partners-scroll" style={{ margin: '20px 0' }}>
+        <div className="partners-track">
+          {/* 所有图标必须完全复制两次 */}
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+              <WechatOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <YoutubeOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+
+          {/* 完全相同的第二组 */}
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+              <WechatOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <YoutubeOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+        </div>
+
+        <div className="contact-row">
+          <div className="address-info">
+            <span className="icon">📍</span>
+            <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+              Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+              Postcode: 450001
+            </a>
+          </div>
+          <div className="email-info">
+            <span className="icon">✉️</span>
+            <a href="mailto:jychuangxin@zzu.edu.cn">
+              Email: jychuangxin@zzu.edu.cn
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-row">
+          <div className="address-info">
+            <span className="icon">💻</span>
+            <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+              The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+            </a>
+          </div>
+
+        </div>
       </div>
     </div>
   );
@@ -129,16 +232,16 @@ const PartsTable = () => {
 function Part() {
   const [activeMenuId, setActiveMenuId] = useState('parts-list');
   const [activeSubMenuId, setActiveSubMenuId] = useState(null);
-    // 菜单数据
-    const menuData = [
-      {
-        id: 'parts-list',
-        title: 'Parts List',
-        icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
-      },
-    ];
-  
-    // 滚动到指定位置
+  // 菜单数据
+  const menuData = [
+    {
+      id: 'parts-list',
+      title: 'Parts List',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
+    },
+  ];
+
+  // 滚动到指定位置
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -147,24 +250,24 @@ function Part() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
-  
-    // 一级菜单点击
-    const handleMainMenuClick = (menuId) => {
-      scrollToSection(menuId);
-      setActiveMenuId(menuId);
-    };
-  
-    // 二级菜单点击
-    const handleSubMenuClick = (menuId, subMenuId) => {
-      scrollToSection(subMenuId);
-      setActiveSubMenuId(subMenuId);
-      setActiveMenuId(menuId);
-    };
 
-    
+  // 一级菜单点击
+  const handleMainMenuClick = (menuId) => {
+    scrollToSection(menuId);
+    setActiveMenuId(menuId);
+  };
+
+  // 二级菜单点击
+  const handleSubMenuClick = (menuId, subMenuId) => {
+    scrollToSection(subMenuId);
+    setActiveSubMenuId(subMenuId);
+    setActiveMenuId(menuId);
+  };
+
+
   return (
     <div className="view loaded">
 
@@ -183,7 +286,7 @@ function Part() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                <img className='menu-icon' src={menu.icon}  />
+                <img className='menu-icon' src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (

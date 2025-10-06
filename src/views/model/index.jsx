@@ -2,20 +2,20 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Model相关图片导入 (假设图片在model文件夹中)
 // https://static.igem.wiki/teams/5822/newassets/
 const modelFigure1 = 'https://static.igem.wiki/teams/5822/newassets/model/figure1-schematic-diagram.webp';
-const modelFigure2 =  'https://static.igem.wiki/teams/5822/newassets/model/figure2-the-structure-of-the-aptamer.webp';
-const modelFigure3 =  'https://static.igem.wiki/teams/5822/newassets/model/figure3-the-tertiary-structure-of-nucleic-acid-aptamers.webp';
-const modelFigure4 =  'https://static.igem.wiki/teams/5822/newassets/model/figure4-schematic-diagram-of-protein-structure.webp';
-const modelFigure5 =  'https://static.igem.wiki/teams/5822/newassets/model/figure5-schematic-diagram-of-docking-results-of-four-target-proteins.webp';
-const modelFigure6 =  'https://static.igem.wiki/teams/5822/newassets/model/figure6-apt-apt-c-complementary-sequence.webp';
-const modelFigure7 =  'https://static.igem.wiki/teams/5822/newassets/model/figure7-crrna-identification-sequence-and-pam-sequence.webp';
-const modelFigure8 =  'https://static.igem.wiki/teams/5822/newassets/model/	figure8-apt-c-sequence.webp';
-const modelFigure9 =  'https://static.igem.wiki/teams/5822/newassets/model/figure9-her-2-apt-apt-c-binding-site-and-g-tm-value.webp';
+const modelFigure2 = 'https://static.igem.wiki/teams/5822/newassets/model/figure2-the-structure-of-the-aptamer.webp';
+const modelFigure3 = 'https://static.igem.wiki/teams/5822/newassets/model/figure3-the-tertiary-structure-of-nucleic-acid-aptamers.webp';
+const modelFigure4 = 'https://static.igem.wiki/teams/5822/newassets/model/figure4-schematic-diagram-of-protein-structure.webp';
+const modelFigure5 = 'https://static.igem.wiki/teams/5822/newassets/model/figure5-schematic-diagram-of-docking-results-of-four-target-proteins.webp';
+const modelFigure6 = 'https://static.igem.wiki/teams/5822/newassets/model/figure6-apt-apt-c-complementary-sequence.webp';
+const modelFigure7 = 'https://static.igem.wiki/teams/5822/newassets/model/figure7-crrna-identification-sequence-and-pam-sequence.webp';
+const modelFigure8 = 'https://static.igem.wiki/teams/5822/newassets/model/	figure8-apt-c-sequence.webp';
+const modelFigure9 = 'https://static.igem.wiki/teams/5822/newassets/model/figure9-her-2-apt-apt-c-binding-site-and-g-tm-value.webp';
 const modelFigure10 = 'https://static.igem.wiki/teams/5822/newassets/model/figure10-her-2-apt-hairpin-structure-and-g-tm-value.webp';
 const modelFigure11 = 'https://static.igem.wiki/teams/5822/newassets/model/figure11-apt-c-hairpin-structure-and-g-tm-value.webp';
 const modelFigure12 = 'https://static.igem.wiki/teams/5822/newassets/model/figure12-schematic-of-apt-target-complementary-strand-dynamic-equilibrium.webp';
@@ -35,7 +35,7 @@ const MainContent = () => (
         <p>
           In our initial detection system, four different types of <span>magnetic beads</span> were functionalized with <span>aptamers</span> specific to distinct target proteins, together with their corresponding <span>complementary strands</span>. Upon the introduction of <span>target proteins</span> into the reaction system, specific <span>aptamer–target binding</span> triggered competitive displacement of the complementary strands. Each released complementary strand contained a sequence segment partially complementary to the <span>crRNA</span>, enabling activation of the <span>CRISPR/Cas12a complex</span>. Once activated, <span>Cas12a</span> cleaved the fluorescent reporter probes, generating a detectable <span>fluorescence signal</span>. Therefore, at this stage, we employed <span>molecular docking analysis</span> and <span>bioinformatics-assisted software tools</span> to support the aptamer design, verify structural feasibility, and guide the modeling of the overall detection workflow.
         </p>
-        
+
         <div className="figure-container">
           <div className="figure-item">
             <img src={modelFigure1} alt="Schematic diagram" className="figure-image" />
@@ -65,7 +65,7 @@ const MainContent = () => (
         <p>
           In this study, the screening of aptamers was primarily accomplished by reviewing literature and comparing <span>equilibrium dissociation constants (KD values)</span>. The specific process is as follows:
         </p>
-        
+
         <ol>
           <li><strong>Literature search:</strong> Using the keywords "aptamer + target protein name", search for relevant literature in databases such as PubMed and Web of Science, and collect reported aptamer information specific to the target protein.</li>
           <li><strong>Preliminary screening:</strong> Eliminate literature with duplicate reports, ambiguous sequences, or insufficient experimental verification, and retain literature containing aptamer sequences, KD values, and specificity verification results.</li>
@@ -125,7 +125,7 @@ const MainContent = () => (
         </p>
 
         <div className="h2">1. Preparation of 3D structure</div>
-        
+
         <div className="h3">(1) Construction of aptamer structure</div>
         <div className="h4">1) Secondary structure prediction:</div>
         <p>Input the selected aptamer sequence into the <span>UNAfold website</span>, select the RNA folding module, and set the parameters as follows:</p>
@@ -180,18 +180,18 @@ const MainContent = () => (
         <p>Visualize and analyze the docking results using <span>PyMOL</span></p>
 
         <object
-              data={howtousePymol}
-              type="application/pdf"
-              width="100%"
-              height="600px"
-              className="pdf-object"
-              style={{
-                border: 'none',
-                borderRadius: '8px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
-              }}
-              >
-            </object>
+          data={howtousePymol}
+          type="application/pdf"
+          width="100%"
+          height="600px"
+          className="pdf-object"
+          style={{
+            border: 'none',
+            borderRadius: '8px',
+            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+          }}
+        >
+        </object>
 
 
 
@@ -519,6 +519,108 @@ const MainContent = () => (
         </ol>
       </div>
     </div>
+    <div className="partners-scroll">
+      <div className="partners-track">
+        {/* 所有图标必须完全复制两次 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+
+        {/* 完全相同的第二组 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">📍</span>
+          <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+            Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+            Postcode: 450001
+          </a>
+        </div>
+        <div className="email-info">
+          <span className="icon">✉️</span>
+          <a href="mailto:jychuangxin@zzu.edu.cn">
+            Email: jychuangxin@zzu.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">💻</span>
+          <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+            The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+          </a>
+        </div>
+
+      </div>
+    </div>
+
   </>
 );
 
@@ -583,7 +685,7 @@ function Model() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 

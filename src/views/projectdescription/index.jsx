@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Project Description Images
@@ -43,11 +43,11 @@ const MainContent = () => (
             <p>
               <span>Breast cancer</span> is the <span>malignant tumor</span> with the <span>highest incidence rate</span> among <span>women</span> in the world. According to the data of the <span>World Health Organization</span>, there will be more than <span>2.9 million new cases</span> worldwide in <span>2022</span> [1]. Despite continuous advances in <span>treatment methods</span>, <span>late diagnosis</span> remains the main cause of <span>high mortality rates</span> - in areas with <span>scarce medical resources</span>, over <span>60% of patients</span> are diagnosed in the <span>late stage</span>, with little hope of cure.
             </p>
-            
+
             <div className="figure-container">
               <div className="figure-item">
-              <img src={descriptionFigure2_1} alt="Top 15 Causes of Cancer Death in Women Worldwide in 2022" className="figure-image" />
-              <div className="h4">Figure 1. Top 15 Causes of Cancer Death in Women Worldwide in 2022</div>
+                <img src={descriptionFigure2_1} alt="Top 15 Causes of Cancer Death in Women Worldwide in 2022" className="figure-image" />
+                <div className="h4">Figure 1. Top 15 Causes of Cancer Death in Women Worldwide in 2022</div>
               </div>
             </div>
 
@@ -71,9 +71,9 @@ const MainContent = () => (
 
             <div className="figure-container">
               <div className="figure-item">
-              <img src={descriptionFigure2_2} alt="Extracellular vesicles (EVs) as liquid biopsy tools and therapeutic vehicles in BC" className="figure-image" />
-              <div className="h4">Figure 2. Extracellular vesicles (EVs) as liquid biopsy tools and therapeutic vehicles in BC[6]</div>
-            </div></div>
+                <img src={descriptionFigure2_2} alt="Extracellular vesicles (EVs) as liquid biopsy tools and therapeutic vehicles in BC" className="figure-image" />
+                <div className="h4">Figure 2. Extracellular vesicles (EVs) as liquid biopsy tools and therapeutic vehicles in BC[6]</div>
+              </div></div>
           </div>
         </div>
       </section>
@@ -114,10 +114,10 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
-            <div className="figure-item">
-              <img src={descriptionFigure3_1} alt="Schematic diagram of magnetic bead method for capturing extracellular vesicles" className="figure-image" />
-              <div className="h4">Figure 3. Schematic diagram of magnetic bead method for capturing extracellular vesicles</div>
-            </div></div>
+              <div className="figure-item">
+                <img src={descriptionFigure3_1} alt="Schematic diagram of magnetic bead method for capturing extracellular vesicles" className="figure-image" />
+                <div className="h4">Figure 3. Schematic diagram of magnetic bead method for capturing extracellular vesicles</div>
+              </div></div>
           </div>
         </div>
       </section>
@@ -153,7 +153,7 @@ const MainContent = () => (
             <div className="figure-container"><div className="figure-item">
               <img src={descriptionFigure3_3} alt="HCR reaction principle diagram" className="figure-image" />
               <div className="h4">Figure 4. HCR reaction principle diagram</div>
-              </div></div>
+            </div></div>
 
             <p>
               <span className='text-strong'>RCA amplification</span>: Design <span>circular probes</span> and <span>DNA polymerases</span> for <span>substitution reaction products</span>, initiate <span>rolling ring amplification reaction</span>, generate a <span>large number of DNA fragments</span> containing <span>repetitive sequences</span>, and further <span>enhance the signal</span>, which can effectively <span>capture low abundance target signals</span>.
@@ -178,10 +178,10 @@ const MainContent = () => (
             </p>
 
             <div className="figure-container">
-            <div className="figure-item">
-              <img src={descriptionFigure3_4} alt="CRISPR/Cas molecular detection principle diagram" className="figure-image" />
-              <div className="h4">Figure 6. CRISPR/Cas molecular detection principle diagram</div>
-            </div></div>
+              <div className="figure-item">
+                <img src={descriptionFigure3_4} alt="CRISPR/Cas molecular detection principle diagram" className="figure-image" />
+                <div className="h4">Figure 6. CRISPR/Cas molecular detection principle diagram</div>
+              </div></div>
           </div>
         </div>
       </section>
@@ -237,11 +237,112 @@ const MainContent = () => (
         </p>
       </div>
     </div>
+    <div className="partners-scroll">
+      <div className="partners-track">
+        {/* 所有图标必须完全复制两次 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+
+        {/* 完全相同的第二组 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">📍</span>
+          <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+            Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+            Postcode: 450001
+          </a>
+        </div>
+        <div className="email-info">
+          <span className="icon">✉️</span>
+          <a href="mailto:jychuangxin@zzu.edu.cn">
+            Email: jychuangxin@zzu.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">💻</span>
+          <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+            The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+          </a>
+        </div>
+
+      </div>
+    </div>
   </>
 );
 
 function ProjectDescription() {
-  
+
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenuId, setActiveMenuId] = useState('overview');
   const [activeSubMenuId, setActiveSubMenuId] = useState(null);
@@ -307,7 +408,7 @@ function ProjectDescription() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 
@@ -340,7 +441,7 @@ function ProjectDescription() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                <img className='menu-icon' src={menu.icon}  />
+                <img className='menu-icon' src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (

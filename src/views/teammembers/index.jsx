@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 
 // ... existing code ...
 const dongbinmentor = 'https://static.igem.wiki/teams/5822/newassets/members/mentors/sandong.webp';
@@ -39,7 +39,7 @@ function TeamMembers() {
         content: `Hello everyone, I'm Professor Pei Li. As Vice Dean of the Basic Medical College and an expert in tumor immunology, I have extensive research experience in molecular pathology of cancer, particularly in cancer prevention and immunotherapy. I am pleased to provide this year's iGEM team with guidance in tumor immunology, experimental design optimization, and access to international academic resources. My research team has achieved innovative results in esophageal cancer chemoprevention and previously mentored student teams to win special awards in the Henan "Challenge Cup" competition. I look forward to collaborating with young team members to explore innovative applications of synthetic biology in cancer prevention and treatment, and to supporting your efforts to showcase Chinese scientific research on the international stage!`
       },
       {
-        name: "Kangdong Liu", 
+        name: "Kangdong Liu",
         title: "Secondary PI",
         image: liukangdongmentor,
         content: `Hello everyone, I'm Professor Kangdong Liu. As Executive Dean of Zhengzhou University's Basic Medical College and an expert in esophageal cancer prevention, I specialize in cancer chemoprevention research with extensive experience in anticancer mechanisms of natural compounds. I'm delighted to provide professional guidance on molecular mechanism design and experimental optimization for this year's iGEM team, and look forward to collaborating with young researchers to explore innovative applications of synthetic biology in cancer prevention.`
@@ -62,7 +62,7 @@ function TeamMembers() {
       },
       {
         name: "Wenqiao Zang",
-        title: "Instructor", 
+        title: "Instructor",
         image: zangwenqiaomentor,
         content: `Hello everyone, I'm Professor Wenqiao Zang. I am excited to join the iGEM team as your research mentor! With expertise in tumor immunology and novel bacterial detection technologies, plus research experience at the New York Blood Center, I look forward to supporting your project design and experimental innovation. My background in national-level grants and international collaboration will help bridge your synthetic biology work with real-world medical applications. Let's work together to make an impact!`
       }
@@ -175,156 +175,156 @@ Can’t wait to learn, create, and grow with all of you in IGEM!`},
 
   return (
     <div className="teammembers">
-        {/* 导师介绍区域 */}
-        <div className="mentors-section">
-          <h2>Team Member</h2>
-          
-          {/* 第一行：PI组和Mentor组 */}
-          <div className="mentors-row mentors-row-1">
-            {/* PI组 */}
-            <div className="role-group pi-group">
-              <div className="group-title"
+      {/* 导师介绍区域 */}
+      <div className="mentors-section">
+        <h2>Team Member</h2>
+
+        {/* 第一行：PI组和Mentor组 */}
+        <div className="mentors-row mentors-row-1">
+          {/* PI组 */}
+          <div className="role-group pi-group">
+            <div className="group-title"
               style={{
                 display: 'flex',
                 justifyContent: 'space-around',
                 alignItems: 'center',
               }}>
-                <div>Primary PI</div>
-                <div>Secondary PI</div>
-              </div>
-              <div className="group-cards">
-                {roleGroups.PI.map((mentor, index) => (
-                  <div key={index} className="mentor-card-flip">
-                    <div className="mentor-card-inner">
-                      <div className="mentor-card-front">
-                        <div className="mentor-front-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-front-image"
-                          />
-                        </div>
-                        <div className="mentor-name">{mentor.name}</div>
-                      </div>
-                      <div className="mentor-card-back">
-                        <div className="mentor-image-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-image"
-                          />
-                        </div>
-                        <div className="mentor-content">{mentor.content}</div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+              <div>Primary PI</div>
+              <div>Secondary PI</div>
             </div>
-
-            {/* Mentor组 */}
-            <div className="role-group mentor-group">
-              <div className="group-title">Mentor</div>
-              <div className="group-cards">
-                {roleGroups.Mentor.map((mentor, index) => (
-                  <div key={index} className="mentor-card-flip">
-                    <div className="mentor-card-inner">
-                      <div className="mentor-card-front">
-                        <div className="mentor-front-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-front-image"
-                          />
-                        </div>
-                        <div className="mentor-name">{mentor.name}</div>
+            <div className="group-cards">
+              {roleGroups.PI.map((mentor, index) => (
+                <div key={index} className="mentor-card-flip">
+                  <div className="mentor-card-inner">
+                    <div className="mentor-card-front">
+                      <div className="mentor-front-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-front-image"
+                        />
                       </div>
-                      <div className="mentor-card-back">
-                        <div className="mentor-image-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-image"
-                          />
-                        </div>
-                        <div className="mentor-content">{mentor.content}</div>
+                      <div className="mentor-name">{mentor.name}</div>
+                    </div>
+                    <div className="mentor-card-back">
+                      <div className="mentor-image-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-image"
+                        />
                       </div>
+                      <div className="mentor-content">{mentor.content}</div>
                     </div>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
           </div>
 
-          {/* 第二行：Instructors组和Advisors组 */}
-          <div className="mentors-row mentors-row-2">
-            {/* Instructors组 */}
-            <div className="role-group instructors-group">
-              <div className="group-title">Instructors</div>
-              <div className="group-cards">
-                {roleGroups.Instructors.map((mentor, index) => (
-                  <div key={index} className="mentor-card-flip">
-                    <div className="mentor-card-inner">
-                      <div className="mentor-card-front">
-                        <div className="mentor-front-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-front-image"
-                          />
-                        </div>
-                        <div className="mentor-name">{mentor.name}</div>
+          {/* Mentor组 */}
+          <div className="role-group mentor-group">
+            <div className="group-title">Mentor</div>
+            <div className="group-cards">
+              {roleGroups.Mentor.map((mentor, index) => (
+                <div key={index} className="mentor-card-flip">
+                  <div className="mentor-card-inner">
+                    <div className="mentor-card-front">
+                      <div className="mentor-front-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-front-image"
+                        />
                       </div>
-                      <div className="mentor-card-back">
-                        <div className="mentor-image-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-image"
-                          />
-                        </div>
-                        <div className="mentor-content">{mentor.content}</div>
+                      <div className="mentor-name">{mentor.name}</div>
+                    </div>
+                    <div className="mentor-card-back">
+                      <div className="mentor-image-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-image"
+                        />
                       </div>
+                      <div className="mentor-content">{mentor.content}</div>
                     </div>
                   </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Advisors组 */}
-            <div className="role-group advisors-group">
-              <div className="group-title">Advisors</div>
-              <div className="group-cards">
-                {roleGroups.Advisors.map((mentor, index) => (
-                  <div key={index} className="mentor-card-flip">
-                    <div className="mentor-card-inner">
-                      <div className="mentor-card-front">
-                        <div className="mentor-front-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-front-image"
-                          />
-                        </div>
-                        <div className="mentor-name">{mentor.name}</div>
-                      </div>
-                      <div className="mentor-card-back">
-                        <div className="mentor-image-wrapper">
-                          <img
-                            src={mentor.image}
-                            alt={mentor.name}
-                            className="mentor-image"
-                          />
-                        </div>
-                        <div className="mentor-content">{mentor.content}</div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
           </div>
-        </div>\
+        </div>
+
+        {/* 第二行：Instructors组和Advisors组 */}
+        <div className="mentors-row mentors-row-2">
+          {/* Instructors组 */}
+          <div className="role-group instructors-group">
+            <div className="group-title">Instructors</div>
+            <div className="group-cards">
+              {roleGroups.Instructors.map((mentor, index) => (
+                <div key={index} className="mentor-card-flip">
+                  <div className="mentor-card-inner">
+                    <div className="mentor-card-front">
+                      <div className="mentor-front-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-front-image"
+                        />
+                      </div>
+                      <div className="mentor-name">{mentor.name}</div>
+                    </div>
+                    <div className="mentor-card-back">
+                      <div className="mentor-image-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-image"
+                        />
+                      </div>
+                      <div className="mentor-content">{mentor.content}</div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Advisors组 */}
+          <div className="role-group advisors-group">
+            <div className="group-title">Advisors</div>
+            <div className="group-cards">
+              {roleGroups.Advisors.map((mentor, index) => (
+                <div key={index} className="mentor-card-flip">
+                  <div className="mentor-card-inner">
+                    <div className="mentor-card-front">
+                      <div className="mentor-front-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-front-image"
+                        />
+                      </div>
+                      <div className="mentor-name">{mentor.name}</div>
+                    </div>
+                    <div className="mentor-card-back">
+                      <div className="mentor-image-wrapper">
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="mentor-image"
+                        />
+                      </div>
+                      <div className="mentor-content">{mentor.content}</div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -366,6 +366,109 @@ Can’t wait to learn, create, and grow with all of you in IGEM!`},
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      
+      <div className="partners-scroll">
+        <div className="partners-track">
+          {/* 所有图标必须完全复制两次 */}
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+              <WechatOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <YoutubeOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+
+          {/* 完全相同的第二组 */}
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+              <WechatOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <YoutubeOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+        </div>
+
+        <div className="contact-row">
+          <div className="address-info">
+            <span className="icon">📍</span>
+            <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+              Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+              Postcode: 450001
+            </a>
+          </div>
+          <div className="email-info">
+            <span className="icon">✉️</span>
+            <a href="mailto:jychuangxin@zzu.edu.cn">
+              Email: jychuangxin@zzu.edu.cn
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-row">
+          <div className="address-info">
+            <span className="icon">💻</span>
+            <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+              The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+            </a>
+          </div>
+
         </div>
       </div>
     </div>

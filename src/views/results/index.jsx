@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 // Results 相关图片 - 这些需要根据实际的图片URL进行调整
@@ -296,15 +296,15 @@ const MainContent = () => (
             <div className="h2">1. Optimization of Circular DNA Concentration</div>
           </div>
           <p>
-            To optimize the concentration of circular DNA in the standalone Rolling Circle Amplification (RCA) system, three concentration gradients (100 nM, 500 nM, and 800 nM) were set, with the target strand concentration, phi29 DNA polymerase dosage, and other conditions fixed, and the amplification efficiency was evaluated by fluorescence signal (with 3 replicates per group). 
+            To optimize the concentration of circular DNA in the standalone Rolling Circle Amplification (RCA) system, three concentration gradients (100 nM, 500 nM, and 800 nM) were set, with the target strand concentration, phi29 DNA polymerase dosage, and other conditions fixed, and the amplification efficiency was evaluated by fluorescence signal (with 3 replicates per group).
           </p>
           <p>
-            As shown in the figure, the 100 nM group exhibited the slowest fluorescence increase and the lowest final fluorescence value; the 500 nM group showed a faster fluorescence rise rate, and the final fluorescence intensity was significantly higher than that of the 100 nM group; although the fluorescence value of the 800 nM group was slightly higher than that of the 500 nM group, the increase range was limited. 
+            As shown in the figure, the 100 nM group exhibited the slowest fluorescence increase and the lowest final fluorescence value; the 500 nM group showed a faster fluorescence rise rate, and the final fluorescence intensity was significantly higher than that of the 100 nM group; although the fluorescence value of the 800 nM group was slightly higher than that of the 500 nM group, the increase range was limited.
           </p>
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure_1} alt="" className="figure-image" />
-              <img src={figure_2} alt="" className="figure-image"/>
+              <img src={figure_2} alt="" className="figure-image" />
               <div className="h4">Figure 25.Optimization of Circular DNA Concentration</div>
             </div>
           </div>
@@ -1411,7 +1411,107 @@ const MainContent = () => (
 
       </div>
     </div>
+    <div className="partners-scroll">
+      <div className="partners-track">
+        {/* 所有图标必须完全复制两次 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
 
+        {/* 完全相同的第二组 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">📍</span>
+          <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+            Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+            Postcode: 450001
+          </a>
+        </div>
+        <div className="email-info">
+          <span className="icon">✉️</span>
+          <a href="mailto:jychuangxin@zzu.edu.cn">
+            Email: jychuangxin@zzu.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">💻</span>
+          <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+            The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+          </a>
+        </div>
+
+      </div>
+    </div>
 
 
 
@@ -1450,9 +1550,9 @@ function Results() {
       ]
     },
     {
-      id:'RCA',
-      title:'RCA',
-      icon:'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
+      id: 'RCA',
+      title: 'RCA',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
@@ -1494,7 +1594,7 @@ function Results() {
         { id: 'complementary-screening', title: 'Complementary Strand Screening', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'crispr-sensitivity-specificity', title: 'CRISPR Sensitivity & Specificity', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'hcr-enhanced-detection', title: 'HCR-Enhanced Detection', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
-        { id: 'cell-suspension-validation', title: 'Cell Suspension Validation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }  
+        { id: 'cell-suspension-validation', title: 'Cell Suspension Validation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
@@ -1518,7 +1618,7 @@ function Results() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 
@@ -1557,8 +1657,8 @@ function Results() {
                   <img src={menuIconDefault} alt="" className="menu-icon default" />
                   <img src={menuIconHover} alt="" className="menu-icon hover" />
                 </div> */}
-                
-                  <img src={menu.icon}  className="menu-icon" />
+
+                <img src={menu.icon} className="menu-icon" />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -1567,9 +1667,9 @@ function Results() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                    <img src={subMenu.icon}  className="menu-icon" />
+                      <img src={subMenu.icon} className="menu-icon" />
                       {subMenu.title}
                     </div>
                   ))}

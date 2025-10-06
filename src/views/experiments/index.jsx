@@ -3,6 +3,7 @@ import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
 import { DownloadOutlined } from '@ant-design/icons';
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 
 
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
@@ -72,7 +73,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Extracellular vesicle capture
@@ -95,7 +96,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab BCA protein quantification
@@ -118,7 +119,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab WB
@@ -141,7 +142,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Electron microscopy detection
@@ -171,7 +172,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Plasmid Construction
@@ -194,7 +195,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Plasmid extraction
@@ -217,7 +218,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Transformation
@@ -240,7 +241,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Protein Quantification
@@ -263,7 +264,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet SDS Page
@@ -286,7 +287,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Protein Expression
@@ -309,7 +310,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Protein Purification
@@ -332,7 +333,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Enzyme activity assay
@@ -362,7 +363,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction temperature
@@ -385,7 +386,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction time
@@ -408,7 +409,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Optimization of HCR reaction concentration
@@ -431,7 +432,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Determination of HCR Amplification Fold
@@ -454,7 +455,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab HCR final protocol
@@ -484,7 +485,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab RCA
@@ -514,7 +515,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Complementary chain screening
@@ -537,7 +538,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab Optimization of reaction time and temperature for displacement reactions
@@ -560,7 +561,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Sensitivity & Specificity Valuation
@@ -583,7 +584,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a Fluorescence Detection in Cell Suspension Samples
@@ -606,7 +607,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity Valuation
@@ -629,7 +630,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab CRISPR-Cas12a-HCR Fluorescence Detection
@@ -652,7 +653,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <div className="protocol-item">
-              
+
               <div className="protocol-content">
                 <div className="protocol-title">
                   iGEM ZZU-China 2025 Wet Lab APT-RCA-CRISPR-Cas14a
@@ -668,11 +669,113 @@ const MainContent = () => (
         </div>
       </section>
     </div>
+
+    <div className="partners-scroll">
+      <div className="partners-track">
+        {/* 所有图标必须完全复制两次 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+
+        {/* 完全相同的第二组 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">📍</span>
+          <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+            Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+            Postcode: 450001
+          </a>
+        </div>
+        <div className="email-info">
+          <span className="icon">✉️</span>
+          <a href="mailto:jychuangxin@zzu.edu.cn">
+            Email: jychuangxin@zzu.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">💻</span>
+          <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+            The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+          </a>
+        </div>
+
+      </div>
+    </div>
   </>
 );
 
 function Experiments() {
-  
+
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenu, setActiveMenu] = useState('overview');
   const [activeSubMenu, setActiveSubMenu] = useState(null);
@@ -763,7 +866,7 @@ function Experiments() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 
@@ -797,7 +900,7 @@ function Experiments() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                <img className='menu-icon' src={menu.icon}  />
+                <img className='menu-icon' src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && menu.subMenus.length > 0 && (
@@ -808,7 +911,7 @@ function Experiments() {
                       className="submenu-item"
                       onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      <img className='menu-icon' src={subMenu.icon}  />
+                      <img className='menu-icon' src={subMenu.icon} />
                       <span className="submenu-text">{subMenu.title}</span>
                     </div>
                   ))}

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 // Engineering相关图片导入
@@ -525,7 +525,7 @@ const MainContent = () => {
                 </p>
 
                 {/* Tab导航 */}
-                <IterationTabs 
+                <IterationTabs
                   iterations={cd63Iterations}
                   activeTab={cd63ActiveTab}
                   onTabChange={setCd63ActiveTab}
@@ -598,7 +598,7 @@ const MainContent = () => {
                 </p>
 
                 {/* Tab导航 */}
-                <IterationTabs 
+                <IterationTabs
                   iterations={hcrIterations}
                   activeTab={hcrActiveTab}
                   onTabChange={setHcrActiveTab}
@@ -667,7 +667,7 @@ const MainContent = () => {
                 </p>
 
                 {/* Tab导航 */}
-                <IterationTabs 
+                <IterationTabs
                   iterations={aptCrisprIterations}
                   activeTab={aptCrisprActiveTab}
                   onTabChange={setAptCrisprActiveTab}
@@ -695,7 +695,7 @@ const MainContent = () => {
           </p>
 
           {/* Tab导航 */}
-          <IterationTabs 
+          <IterationTabs
             iterations={ihpIterations}
             activeTab={ihpActiveTab}
             onTabChange={setIhpActiveTab}
@@ -708,6 +708,108 @@ const MainContent = () => {
           </div>
         </div>
       </div>
+      <div className="partners-scroll">
+        <div className="partners-track">
+          {/* 所有图标必须完全复制两次 */}
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+              <WechatOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <YoutubeOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+
+          {/* 完全相同的第二组 */}
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+              <WechatOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <YoutubeOutlined style={{ fontSize: '50px' }} />
+            </a>
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+          <div className="partner-item">
+            <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+          </div>
+        </div>
+
+        <div className="contact-row">
+          <div className="address-info">
+            <span className="icon">📍</span>
+            <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+              Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+              Postcode: 450001
+            </a>
+          </div>
+          <div className="email-info">
+            <span className="icon">✉️</span>
+            <a href="mailto:jychuangxin@zzu.edu.cn">
+              Email: jychuangxin@zzu.edu.cn
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-row">
+          <div className="address-info">
+            <span className="icon">💻</span>
+            <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+              The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+            </a>
+          </div>
+
+        </div>
+      </div>
+
     </>
   );
 };
@@ -718,7 +820,7 @@ function Engineering() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenu, setActiveMenu] = useState('overview');
   const [activeSubMenu, setActiveSubMenu] = useState(null);
-  
+
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -739,11 +841,11 @@ function Engineering() {
       title: 'Lab',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'cd63-aptamer-beads', title: 'CD63 Aptamer Magnetic Beads' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'cas14a-expression', title: 'Cas14a Prokaryotic Expression' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'hcr-amplification', title: 'HCR Amplification' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'rca-module', title: 'RCA Module' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'apt-crispr-system', title: 'APT-CRISPR Detection System' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
+        { id: 'cd63-aptamer-beads', title: 'CD63 Aptamer Magnetic Beads', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'cas14a-expression', title: 'Cas14a Prokaryotic Expression', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'hcr-amplification', title: 'HCR Amplification', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'rca-module', title: 'RCA Module', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'apt-crispr-system', title: 'APT-CRISPR Detection System', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
@@ -751,10 +853,10 @@ function Engineering() {
       title: 'Integrated Human Practices',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'ihp-iteration1', title: 'Male Breast Cancer Awareness' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'ihp-iteration2', title: 'Detection System Optimization' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'ihp-iteration3', title: 'Science Communication' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'ihp-iteration4', title: 'ISPM Model Construction' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
+        { id: 'ihp-iteration1', title: 'Male Breast Cancer Awareness', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'ihp-iteration2', title: 'Detection System Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'ihp-iteration3', title: 'Science Communication', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'ihp-iteration4', title: 'ISPM Model Construction', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     }
   ];
@@ -768,7 +870,7 @@ function Engineering() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 
@@ -780,7 +882,7 @@ function Engineering() {
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (menuId,subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
     setActiveSubMenu(subMenuId);
     setActiveMenu(menuId);
@@ -802,7 +904,7 @@ function Engineering() {
                 className="menu-title"
                 onClick={() => handleMainMenuClick(menu.id)}
               >
-                <img className='menu-icon' src={menu.icon}  />
+                <img className='menu-icon' src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -811,9 +913,9 @@ function Engineering() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      <img className='menu-icon' src={subMenu.icon}/>
+                      <img className='menu-icon' src={subMenu.icon} />
                       {subMenu.title}
                     </div>
                   ))}

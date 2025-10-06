@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 
 const descriptionFigure1 = 'https://static.igem.wiki/teams/5822/newassets/entrepreneurship/entrepreneurshipfigure1.webp';
@@ -1109,14 +1109,14 @@ const MainContent = () => (
 
         {/* PDF插入位置 */}
         <div className="figure-container">
-                <object
-                  data={developmentPlanPdf}
-                  type="application/pdf"
-                  aria-label="Development Plan PDF Document"
-                  width="100%"
-                  height="600px"
-                />
-            </div>
+          <object
+            data={developmentPlanPdf}
+            type="application/pdf"
+            aria-label="Development Plan PDF Document"
+            width="100%"
+            height="600px"
+          />
+        </div>
       </div>
     </div>
 
@@ -1280,12 +1280,113 @@ const MainContent = () => (
         </p>
       </div>
     </div>
+    <div className="partners-scroll">
+      <div className="partners-track">
+        {/* 所有图标必须完全复制两次 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+
+        {/* 完全相同的第二组 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">📍</span>
+          <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+            Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+            Postcode: 450001
+          </a>
+        </div>
+        <div className="email-info">
+          <span className="icon">✉️</span>
+          <a href="mailto:jychuangxin@zzu.edu.cn">
+            Email: jychuangxin@zzu.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">💻</span>
+          <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+            The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+          </a>
+        </div>
+
+      </div>
+    </div>
 
   </>
 );
 
 function Entrepreneurship() {
-  
+
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenu, setActiveMenu] = useState('overview');
   const [activeSubMenu, setActiveSubMenu] = useState(null);
@@ -1320,7 +1421,7 @@ function Entrepreneurship() {
       subMenus: [
         { id: 'market-overview', title: 'Market Overview', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'market-opportunities', title: 'Market Opportunities', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
-        { id: 'competitive-advantages', title: 'Competitive Advantages', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }  
+        { id: 'competitive-advantages', title: 'Competitive Advantages', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
@@ -1351,8 +1452,8 @@ function Entrepreneurship() {
       subMenus: [
         { id: 'financial-objectives', title: 'Financial Objectives', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'revenue-model', title: 'Revenue Model', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
-        { id: 'cost-structure', title: 'Cost Structure and Calculation Basis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },  
-        { id: 'budget-plan', title: 'Preliminary Budget Plan', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },  
+        { id: 'cost-structure', title: 'Cost Structure and Calculation Basis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'budget-plan', title: 'Preliminary Budget Plan', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'profit-forecast', title: 'Profit and Loss Forecast', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'profitability-analysis', title: 'Profitability and Break-even Analysis', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'financing-plan', title: 'Financing and Fund Utilization Plan', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
@@ -1374,7 +1475,7 @@ function Entrepreneurship() {
       title: 'Risk Assessment and Countermeasures',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'operational-risks', title: 'Operational Management Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }, 
+        { id: 'operational-risks', title: 'Operational Management Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'technical-risks', title: 'Technical Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'market-risks', title: 'Market Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'financial-risks', title: 'Financial Risks and Countermeasures', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
@@ -1401,7 +1502,7 @@ function Entrepreneurship() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 

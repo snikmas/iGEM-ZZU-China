@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 // 引入共通样式
 import '../../styles/common.css';
-
+import { YoutubeOutlined, WechatOutlined } from '@ant-design/icons';
 // 相册组件
 import ImageGallery from '../../components/imagegallery';
 
@@ -125,13 +125,13 @@ const MainContent = () => (
         </div>
 
         <p>
-        Education has always been a cornerstone of our iGEM journey—not only a responsibility to the public, but also a bridge connecting science with daily life. This year, our project focuses on breast cancer, a disease where early screening, diagnosis, and treatment can make the difference between life and death. Guided by this theme, we designed diverse initiatives ranging from <strong>“Biology for Kids” workshops and school experiments</strong> to <strong>Anatomy Hall visits</strong> and the <strong>Little Scientist Program</strong>, allowing participants of different ages to experience science firsthand.
+          Education has always been a cornerstone of our iGEM journey—not only a responsibility to the public, but also a bridge connecting science with daily life. This year, our project focuses on breast cancer, a disease where early screening, diagnosis, and treatment can make the difference between life and death. Guided by this theme, we designed diverse initiatives ranging from <strong>“Biology for Kids” workshops and school experiments</strong> to <strong>Anatomy Hall visits</strong> and the <strong>Little Scientist Program</strong>, allowing participants of different ages to experience science firsthand.
         </p>
         <p>
-        Rather than simply “delivering knowledge,” our approach emphasized interaction, participation, and feedback. Through <strong>community roadshows, online education platforms, and health campaigns</strong>, we reached wider audiences; through <strong>Doctors’ Dialogue, Arena of Knowledge contests</strong>, and the <strong>Turtle Soup Game</strong>, we deepened understanding in engaging and interactive ways. Meanwhile, <strong>Humanistic Spirit sessions</strong> highlighted medical humanities and female scientist role models, while Empowerment activities encouraged breast self-exams and proactive health choices. To sustain these efforts, we promoted <strong>resources sharing</strong> under the belief that “<strong>Your Health, Your Choice</strong>” should be accessible to all.
+          Rather than simply “delivering knowledge,” our approach emphasized interaction, participation, and feedback. Through <strong>community roadshows, online education platforms, and health campaigns</strong>, we reached wider audiences; through <strong>Doctors’ Dialogue, Arena of Knowledge contests</strong>, and the <strong>Turtle Soup Game</strong>, we deepened understanding in engaging and interactive ways. Meanwhile, <strong>Humanistic Spirit sessions</strong> highlighted medical humanities and female scientist role models, while Empowerment activities encouraged breast self-exams and proactive health choices. To sustain these efforts, we promoted <strong>resources sharing</strong> under the belief that “<strong>Your Health, Your Choice</strong>” should be accessible to all.
         </p>
         <p>
-        Through these combined endeavors, we hope to build a culture where breast health is openly discussed, early screening is normalized, and science truly serves society. Just as the pink ribbon symbolizes care and resilience, our education activities carry the hope of spreading awareness, knowledge, and empowerment—step by step, person by person.
+          Through these combined endeavors, we hope to build a culture where breast health is openly discussed, early screening is normalized, and science truly serves society. Just as the pink ribbon symbolizes care and resilience, our education activities carry the hope of spreading awareness, knowledge, and empowerment—step by step, person by person.
         </p>
         <div className="figure-container">
           <div className="figure-item">
@@ -581,7 +581,7 @@ const MainContent = () => (
         </p>
         <p>
           By listening to doctors and nurses, we aligned our educational approach with clinical realities, ensuring
-           <strong>accuracy, reliability, and empathy</strong> in our outreach.
+          <strong>accuracy, reliability, and empathy</strong> in our outreach.
         </p>
         <ImageGallery
           images={[
@@ -664,7 +664,7 @@ const MainContent = () => (
             <p>
               Recognizing the influence of visual media, we created short videos on Bilibili and Douyin (TikTok China).
               These videos included <strong>step-by-step self-exam demonstrations, myth-busting content, and animated explainers
-              about breast health.</strong> Within weeks, the videos reached thousands of views, with audience comments such as:
+                about breast health.</strong> Within weeks, the videos reached thousands of views, with audience comments such as:
               "I finally understand how to check myself—it was always confusing before!"
             </p>
             <p>
@@ -740,17 +740,118 @@ const MainContent = () => (
       </div>
     </div>
 
+    <div className="partners-scroll">
+      <div className="partners-track">
+        {/* 所有图标必须完全复制两次 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+
+        {/* 完全相同的第二组 */}
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/cdtm.webp" alt="Partner 1" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/hnscxcyjyjd.webp" alt="Partner 2" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/jjyxy.webp" alt="Partner 3" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdx.webp" alt="Partner 4" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdw.webp" alt="Partner 5" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/zzdxdy.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <a className="social-link wechat" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTEzNjU4MQ==" target="_blank" rel="noreferrer" aria-label="WeChat" title="WeChat">
+            <WechatOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <a className="social-link youtube" href="https://youtube.com/@igemofzzu?si=zfx5budT1HFtjndj" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <YoutubeOutlined style={{ fontSize: '50px' }} />
+          </a>
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/igem.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+        <div className="partner-item">
+          <img src="https://static.igem.wiki/teams/5822/newassets/home/youtube.webp" alt="Partner 6" className="partner-logo" />
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">📍</span>
+          <a href="https://maps.google.com/?q=No. 100 Science Avenue, Zhengzhou City, Henan Province">
+            Address: No. 100 Science Avenue, Zhengzhou City, Henan Province<br />
+            Postcode: 450001
+          </a>
+        </div>
+        <div className="email-info">
+          <span className="icon">✉️</span>
+          <a href="mailto:jychuangxin@zzu.edu.cn">
+            Email: jychuangxin@zzu.edu.cn
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-row">
+        <div className="address-info">
+          <span className="icon">💻</span>
+          <a href="https://gitlab.igem.org/2025/zzu-china" style={{ color: '#333333' }}>
+            The repository used to create this website is available at gitlab.igem.org/2025/zzu-china.
+          </a>
+        </div>
+
+      </div>
+    </div>
 
   </>
 );
 
 
 function Education() {
-  
+
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenu, setActiveMenu] = useState('overview');
   const [activeSubMenu, setActiveSubMenu] = useState(null);
-  
+
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -771,10 +872,10 @@ function Education() {
       title: 'Education for Students',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'primary-education', title: 'Primary Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'middle-school-education', title: 'Middle School Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'high-school-education', title: 'High School Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'university-education', title: 'University Education' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
+        { id: 'primary-education', title: 'Primary Education', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'middle-school-education', title: 'Middle School Education', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'high-school-education', title: 'High School Education', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'university-education', title: 'University Education', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
@@ -782,7 +883,7 @@ function Education() {
       title: 'Community Education',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'march-8-public-welfare-campaign', title: '“March 8” Public Welfare Campaign' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}
+        { id: 'march-8-public-welfare-campaign', title: '“March 8” Public Welfare Campaign', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
@@ -795,9 +896,9 @@ function Education() {
       title: 'Online Education',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'wechat-section', title: 'WeChat Public Account' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'videos-section', title: 'Short Videos and Social Media' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'},
-        { id: 'future-section', title: 'Future Resource Sharing' ,icon:'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'}  
+        { id: 'wechat-section', title: 'WeChat Public Account', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'videos-section', title: 'Short Videos and Social Media', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'future-section', title: 'Future Resource Sharing', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
@@ -816,7 +917,7 @@ function Education() {
       window.scrollTo({
         top: y,
         behavior: 'smooth'
-    });
+      });
     }
   };
 
@@ -827,7 +928,7 @@ function Education() {
   };
 
   // 二级菜单点击
-  const handleSubMenuClick = (menuId,subMenuId) => {
+  const handleSubMenuClick = (menuId, subMenuId) => {
     scrollToSection(subMenuId);
     setActiveSubMenu(subMenuId);
     setActiveMenu(menuId);
@@ -855,7 +956,7 @@ function Education() {
                   <img src={menuIconDefault} alt="" className="menu-icon default" />
                   <img src={menuIconHover} alt="" className="menu-icon hover" />
                 </div> */}
-                <img className='menu-icon' src={menu.icon}  />
+                <img className='menu-icon' src={menu.icon} />
                 <span className="menu-text">{menu.title}</span>
               </div>
               {menu.subMenus && (
@@ -864,9 +965,9 @@ function Education() {
                     <div
                       key={subMenu.id}
                       className="submenu-item"
-                      onClick={() => handleSubMenuClick(menu.id,subMenu.id)}
+                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
                     >
-                      <img className='menu-icon' src={subMenu.icon}  />
+                      <img className='menu-icon' src={subMenu.icon} />
                       {subMenu.title}
                     </div>
                   ))}
@@ -875,7 +976,7 @@ function Education() {
             </div>
           ))}
         </nav>
-{/* <nav className="sidebar-nav">
+        {/* <nav className="sidebar-nav">
           {menuData.map((menu) => (
             <div key={menu.id} className="menu-item">
               <div
