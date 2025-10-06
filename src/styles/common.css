@@ -870,3 +870,103 @@
   vertical-align: middle;
   display: inline-block;
 }
+
+/* 通用表格容器样式 */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(83, 12, 22, 0.05);
+}
+
+/* 通用表格样式 - 应用于所有表格 */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* 表头样式 */
+table thead {
+  background: #530c16;
+  color: #fff;
+}
+
+/* 表头单元格样式 */
+table thead th {
+  padding: 14px 18px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  border: none;
+  position: relative;
+}
+
+/* 表头单元格分隔线 */
+table thead th:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 表格行样式 */
+table tbody tr {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* 表格行悬停效果 */
+table tbody tr:hover {
+  background: #faf5f5;
+  transform: translateY(-0.5px);
+  box-shadow: 0 1px 5px rgba(83, 12, 22, 0.05);
+}
+
+/* 最后一行样式 */
+table tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* 表格单元格样式 */
+table td {
+  padding: 13px 18px;
+  border: none;
+  color: #333;
+  vertical-align: middle;
+}
+
+/* 第一列特殊样式 */
+table tbody tr td:first-child {
+  font-weight: 600;
+  color: #530c16;
+  background: #fef7f7;
+  border-right: 2px solid #e8c6c9;
+  min-width: 110px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  table {
+    font-size: 13px;
+  }
+  
+  table th,
+  table td {
+    padding: 11px 14px;
+  }
+  
+  table tbody tr td:first-child {
+    min-width: 90px;
+  }
+}
