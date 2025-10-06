@@ -41,9 +41,9 @@ const figure30 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-3
 const figure31 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-31.webp';
 const figure32 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-32.webp';
 const figure33 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-33.webp';
-const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-34.webp';
+const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/fig34.webp';
 const figure35 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-35.webp';
-const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-36.webp';
+const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/fig36.webp';
 
 // 新加 RAC 相关图片
 const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-37.webp';
