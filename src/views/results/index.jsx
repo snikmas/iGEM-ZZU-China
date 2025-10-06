@@ -727,7 +727,7 @@ const MainContent = () => (
               <h3>Optimization of Coating Time/Temperature</h3>
               <div className="figure-item">
                 <img src={figure25} alt="Optimization of coating time and temperature" className="figure-image" />
-                <div className="h4">Figure 25. Optimization of coating time and temperature</div>
+                <div className="h4">Figure 26. Optimization of coating time and temperature</div>
                 <div className="figure-description">
                   <p><strong>Group 1: HER-2 Aptamer:</strong> (A) Optimization curve of coating time for HER-2 reaction. (B) HER-2 reaction coating time optimization bar chart. (C) Optimization curve of coating temperature for HER-2 reaction. (D) HER-2 reaction coating temperature optimization bar chart.</p>
                   <p><strong>Group 2: EpCam Aptamer:</strong> (E) Optimization curve of coating time for EpCam reaction. (F) EpCam reaction coating time optimization bar chart. (G) Optimization curve of coating temperature for EpCam reaction. (H) EpCam reaction coating temperature optimization bar chart.</p>
@@ -768,7 +768,7 @@ const MainContent = () => (
               <h3>Temperature optimization</h3>
               <div className="figure-item">
                 <img src={figure26} alt="Optimization of displacement temperature" className="figure-image" />
-                <div className="h4">Figure 26. Optimization of displacement temperature</div>
+                <div className="h4">Figure 27. Optimization of displacement temperature</div>
                 <div className="figure-description">
                   <p>(A) Optimization curve of reaction temperature for EpCam displacement reaction (B) EpCam displacement reaction temperature optimization bar chart (C) Optimization curve of reaction temperature for HER-2 displacement reaction (D) HER-2 displacement reaction temperature optimization bar chart (E) Optimization curve of reaction temperature for MMP-9 displacement reaction (F) MMP-9 displacement reaction temperature optimization bar chart (G) Optimization curve of reaction temperature for PD-L1 displacement reaction (H) PD-L1 displacement reaction temperature optimization bar chart</p>
                 </div>
@@ -783,7 +783,7 @@ const MainContent = () => (
               <h3>Time optimization</h3>
               <div className="figure-item">
                 <img src={figure27} alt="Optimization of displacement time" className="figure-image" />
-                <div className="h4">Figure 27. Optimization of displacement time</div>
+                <div className="h4">Figure 28. Optimization of displacement time</div>
                 <div className="figure-description">
                   <p>(A) Optimization curve of reaction time for EpCam displacement reaction (B) EpCam displacement reaction time optimization bar chart (C) Optimization curve of reaction time for HER-2 displacement reaction (D) HER-2 displacement reaction time optimization bar chart (E) Optimization curve of reaction time for MMP-9 displacement reaction (F) MMP-9 displacement reaction time optimization bar chart (G) Optimization curve of reaction time for PD-L1 displacement reaction (H) PD-L1 displacement reaction time optimization bar chart</p>
                 </div>
@@ -831,7 +831,7 @@ const MainContent = () => (
               <h3>APT-c optimization result graph</h3>
               <div className="figure-item">
                 <img src={figure28} alt="Optimization of displacement time" className="figure-image" />
-                <div className="h4">Figure 28. Optimization of displacement time</div>
+                <div className="h4">Figure 29. Optimization of displacement time</div>
                 <div className="figure-description">
                   <p>(A) Graph of the screening results for the complementary strand of the EpCam aptamer (B) Graph of the screening results for the complementary strand of the HER-2 aptamer (C) Graph of the screening results for the complementary strand of the MMP-9 aptamer (D) Graph of the screening results for the complementary strand of the PD-L1 aptamer</p>
                 </div>
@@ -913,7 +913,7 @@ const MainContent = () => (
                 <h3>Analytical performance and standard curve</h3>
                 <div className="figure-item">
                   <img src={figure29} alt="Analytical performance and standard curve" className="figure-image" />
-                  <div className="h4">Figure 29. Analytical performance and standard curve</div>
+                  <div className="h4">Figure 30. Analytical performance and standard curve</div>
                   <div className="figure-description">
                     <p><strong>EpCam Analysis:</strong> (A) Raw Fluorescence Intensity as a Function of EpCam Protein Concentration (B) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis (C) Time-dependent Fluorescence Curves of EpCam Protein at different Concentrations (D) bar chart of Fluorescence Intensity at Different EpCam Protein Concentrations</p>
                     <p><strong>HER-2 Analysis:</strong> (E) Raw Fluorescence Intensity as a Function of HER-2 Protein Concentration (F) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis (G) Time-dependent Fluorescence Curves of HER-2 Protein at different Concentrations (H) bar chart of Fluorescence Intensity at Different HER-2 Protein Concentrations</p>
@@ -935,7 +935,7 @@ const MainContent = () => (
                 <h3>Specificity analysis for four exosomal protein biomarkers</h3>
                 <div className="figure-item">
                   <img src={figure30} alt="Specificity analysis for four exosomal protein biomarkers" className="figure-image" />
-                  <div className="h4">Figure 30. Specificity analysis for four exosomal protein biomarkers</div>
+                  <div className="h4">Figure 31. Specificity analysis for four exosomal protein biomarkers</div>
                 </div>
               </div>
 
@@ -1059,7 +1059,7 @@ const MainContent = () => (
                 <h3>Quantitative detection and calibration curves of four exosomal protein biomarkers</h3>
                 <div className="figure-item">
                   <img src={figure31} alt="Quantitative detection and calibration curves of four exosomal protein biomarkers" className="figure-image" />
-                  <div className="h4">Figure 31. Quantitative detection and calibration curves of four exosomal protein biomarkers</div>
+                  <div className="h4">Figure 32. Quantitative detection and calibration curves of four exosomal protein biomarkers</div>
                   <div className="figure-description">
                     <p><strong>EpCam Analysis:</strong> (A) Raw Fluorescence Intensity as a Function of EpCam Protein Concentration (B) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis (C) Time-dependent Fluorescence Curves of EpCam Protein at different Concentrations (D) bar chart of Fluorescence Intensity at Different EpCam Protein Concentrations</p>
                     <p><strong>HER-2 Analysis:</strong> (E) Raw Fluorescence Intensity as a Function of HER-2 Protein Concentration (F) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis (G) Time-dependent Fluorescence Curves of HER-2 Protein at different Concentrations (H) bar chart of Fluorescence Intensity at Different HER-2 Protein Concentrations</p>
@@ -1095,7 +1095,7 @@ const MainContent = () => (
                 <h3>Specificity analysis for four exosomal protein biomarkers</h3>
                 <div className="figure-item">
                   <img src={figure32} alt="Specificity analysis for four exosomal protein biomarkers" className="figure-image" />
-                  <div className="h4">Figure 32. Specificity analysis for four exosomal protein biomarkers</div>
+                  <div className="h4">Figure 33. Specificity analysis for four exosomal protein biomarkers</div>
                 </div>
               </div>
 
@@ -1296,7 +1296,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure33} alt="Linear calibration curves for four exosomal protein biomarkers" className="figure-image" />
-              <div className="h4">Figure 33. Linear calibration curves for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 34. Linear calibration curves for four exosomal protein biomarkers</div>
               <p className="figure-caption">
                 (A) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis
                 (B) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis
@@ -1314,7 +1314,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure34} alt="Specificity analysis for four exosomal protein biomarkers" className="figure-image" />
-              <div className="h4">Figure 34. Specificity analysis for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 35. Specificity analysis for four exosomal protein biomarkers</div>
             </div>
           </div>
 
@@ -1376,7 +1376,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure35} alt="Linear calibration curves for four exosomal protein biomarkers with RCA enhancement" className="figure-image" />
-              <div className="h4">Figure 35. Linear calibration curves for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 36. Linear calibration curves for four exosomal protein biomarkers</div>
               <p className="figure-caption">
                 (A) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis
                 (B) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis
@@ -1392,7 +1392,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure36} alt="Specificity analysis for four exosomal protein biomarkers with RCA enhancement" className="figure-image" />
-              <div className="h4">Figure 36. Specificity analysis for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 37. Specificity analysis for four exosomal protein biomarkers</div>
             </div>
           </div>
 
