@@ -828,9 +828,6 @@
   object-fit: contain; /* 确保图片完整显示，不会被裁剪 */
 }
 
-.figure-image-large {
-  max-width: 550px !important;
-}
 
 .figure-image:hover {
   transform: scale(1.02);

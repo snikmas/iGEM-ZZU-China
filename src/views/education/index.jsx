@@ -135,8 +135,8 @@ const MainContent = () => (
         </p>
         <div className="figure-container">
           <div className="figure-item">
-            <img src={overview} alt="Education - Knowledge & Healing" className="figure-image" />
-            <div className="h4">Event Guide Map</div>
+            <img src={overview} alt="Education - Knowledge & Healing" className="figure-image" style={{maxWidth: '600px'}} />
+            <em>Event Guide Map</em>
           </div>
         </div>
       </div>
@@ -647,7 +647,7 @@ const MainContent = () => (
 
             <div className="figure-container">
               <div className="figure-item">
-                <img src={online_1} alt="WeChat Public Account" className="figure-image figure-image-large" />
+                <img src={online_1} alt="WeChat Public Account" className="figure-image" />
                 <div className='h4'>WeChat Public Account</div></div>
             </div>
           </div>
