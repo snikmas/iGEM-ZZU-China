@@ -284,7 +284,7 @@ const MainContent = () => (
       </div>
     </div>
 
-    {/*新加 RAC*/}
+    {/*新加 RCA*/}
     <div id="RCA" className="view-content">
       <div className="content-header">
         <div className="h1">RCA</div>
@@ -648,6 +648,12 @@ const MainContent = () => (
                   <td>50</td>
                   <td>847</td>
                   <td>16.94</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
               </tbody>
             </table>
