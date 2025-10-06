@@ -3,6 +3,11 @@
    =========================================== */
 
 /* 基础布局和容器 */
+
+html, body {
+  overflow-x: hidden;
+}
+
 .view {
   display: flex;
   width: 100%;
