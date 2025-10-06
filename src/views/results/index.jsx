@@ -1098,6 +1098,10 @@ const MainContent = () => (
                       <td>PD-L1</td>
                       <td>1452</td>
                     </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -1159,6 +1163,7 @@ const MainContent = () => (
                     <tr><td>MCF-10A</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td></tr>
                     <tr><td>SK-BR-3</td><td>450 pg/ml</td><td>ND</td><td>214 pg/ml</td><td>ND</td></tr>
                     <tr><td>MDA-MB-231</td><td>ND</td><td>313 pg/ml</td><td>298 pg/ml</td><td>287 pg/ml</td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
                   </tbody>
                 </table>
               </div>
