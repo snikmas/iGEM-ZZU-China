@@ -41,13 +41,13 @@ const figure30 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-3
 const figure31 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-31.webp';
 const figure32 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-32.webp';
 const figure33 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-33.webp';
-const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-34.webp';
+const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/fig34.webp';
 const figure35 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-35.webp';
-const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-36.webp';
+const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/fig36.webp';
 
-// 新加 RAC 相关图片
-const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-37.webp';
-const figure_2 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-38.webp';
+// 新加 RCA 相关图片
+const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/rca.webp';
+
 
 
 // 组件定义 1
@@ -284,13 +284,13 @@ const MainContent = () => (
       </div>
     </div>
 
-    {/*新加 RAC*/}
+    {/* 新加 RCA
     <div id="RCA" className="view-content">
       <div className="content-header">
         <div className="h1">RCA</div>
       </div>
       <div className="content-body">
-        {/* 1. Optimization of Circular DNA Concentration */}
+        {/* 1. Optimization of Circular DNA Concentration//
         <section id="Optimization_Concentration" className="results-section">
           <div className="content-section-header">
             <div className="h2">1. Optimization of Circular DNA Concentration</div>
@@ -311,7 +311,7 @@ const MainContent = () => (
           <p>In conclusion, 500 nM is the optimal concentration of circular DNA for standalone RCA, as it not only ensures efficient amplification but also avoids nonspecific reactions caused by high-concentration templates.</p>
         </section>
       </div>
-    </div>
+    </div> */}
 
 
     {/* 2. Cas14a Prokaryotic Expression */}
@@ -649,6 +649,12 @@ const MainContent = () => (
                   <td>847</td>
                   <td>16.94</td>
                 </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -661,7 +667,33 @@ const MainContent = () => (
       </div>
     </div>
 
-
+{/*新加 RCA*/}
+    <div id="RCA" className="view-content">
+      <div className="content-header">
+        <div className="h1">RCA</div>
+      </div>
+      <div className="content-body">
+        {/* 1. Optimization of Circular DNA Concentration */}
+        <section id="Optimization_Concentration" className="results-section">
+          <div className="content-section-header">
+            <div className="h2">1. Optimization of Circular DNA Concentration</div>
+          </div>
+          <p>
+            To optimize the concentration of circular DNA in the standalone Rolling Circle Amplification (RCA) system, three concentration gradients (100 nM, 500 nM, and 800 nM) were set, with the target strand concentration, phi29 DNA polymerase dosage, and other conditions fixed, and the amplification efficiency was evaluated by fluorescence signal (with 3 replicates per group).
+          </p>
+          <p>
+            As shown in the figure, the 100 nM group exhibited the slowest fluorescence increase and the lowest final fluorescence value; the 500 nM group showed a faster fluorescence rise rate, and the final fluorescence intensity was significantly higher than that of the 100 nM group; although the fluorescence value of the 800 nM group was slightly higher than that of the 500 nM group, the increase range was limited.
+          </p>
+          <div className="figure-container">
+            <div className="figure-item">
+              <img src={figure_1} alt="" className="figure-image" />
+              <div className="h4">Figure 25.Optimization of Circular DNA Concentration</div>
+            </div>
+          </div>
+          <p>In conclusion, 500 nM is the optimal concentration of circular DNA for standalone RCA, as it not only ensures efficient amplification but also avoids nonspecific reactions caused by high-concentration templates.</p>
+        </section>
+      </div>
+    </div>
 
 
     {/* 4 */}
@@ -695,7 +727,7 @@ const MainContent = () => (
               <h3>Optimization of Coating Time/Temperature</h3>
               <div className="figure-item">
                 <img src={figure25} alt="Optimization of coating time and temperature" className="figure-image" />
-                <div className="h4">Figure 25. Optimization of coating time and temperature</div>
+                <div className="h4">Figure 26. Optimization of coating time and temperature</div>
                 <div className="figure-description">
                   <p><strong>Group 1: HER-2 Aptamer:</strong> (A) Optimization curve of coating time for HER-2 reaction. (B) HER-2 reaction coating time optimization bar chart. (C) Optimization curve of coating temperature for HER-2 reaction. (D) HER-2 reaction coating temperature optimization bar chart.</p>
                   <p><strong>Group 2: EpCam Aptamer:</strong> (E) Optimization curve of coating time for EpCam reaction. (F) EpCam reaction coating time optimization bar chart. (G) Optimization curve of coating temperature for EpCam reaction. (H) EpCam reaction coating temperature optimization bar chart.</p>
@@ -736,7 +768,7 @@ const MainContent = () => (
               <h3>Temperature optimization</h3>
               <div className="figure-item">
                 <img src={figure26} alt="Optimization of displacement temperature" className="figure-image" />
-                <div className="h4">Figure 26. Optimization of displacement temperature</div>
+                <div className="h4">Figure 27. Optimization of displacement temperature</div>
                 <div className="figure-description">
                   <p>(A) Optimization curve of reaction temperature for EpCam displacement reaction (B) EpCam displacement reaction temperature optimization bar chart (C) Optimization curve of reaction temperature for HER-2 displacement reaction (D) HER-2 displacement reaction temperature optimization bar chart (E) Optimization curve of reaction temperature for MMP-9 displacement reaction (F) MMP-9 displacement reaction temperature optimization bar chart (G) Optimization curve of reaction temperature for PD-L1 displacement reaction (H) PD-L1 displacement reaction temperature optimization bar chart</p>
                 </div>
@@ -751,7 +783,7 @@ const MainContent = () => (
               <h3>Time optimization</h3>
               <div className="figure-item">
                 <img src={figure27} alt="Optimization of displacement time" className="figure-image" />
-                <div className="h4">Figure 27. Optimization of displacement time</div>
+                <div className="h4">Figure 28. Optimization of displacement time</div>
                 <div className="figure-description">
                   <p>(A) Optimization curve of reaction time for EpCam displacement reaction (B) EpCam displacement reaction time optimization bar chart (C) Optimization curve of reaction time for HER-2 displacement reaction (D) HER-2 displacement reaction time optimization bar chart (E) Optimization curve of reaction time for MMP-9 displacement reaction (F) MMP-9 displacement reaction time optimization bar chart (G) Optimization curve of reaction time for PD-L1 displacement reaction (H) PD-L1 displacement reaction time optimization bar chart</p>
                 </div>
@@ -799,7 +831,7 @@ const MainContent = () => (
               <h3>APT-c optimization result graph</h3>
               <div className="figure-item">
                 <img src={figure28} alt="Optimization of displacement time" className="figure-image" />
-                <div className="h4">Figure 28. Optimization of displacement time</div>
+                <div className="h4">Figure 29. Optimization of displacement time</div>
                 <div className="figure-description">
                   <p>(A) Graph of the screening results for the complementary strand of the EpCam aptamer (B) Graph of the screening results for the complementary strand of the HER-2 aptamer (C) Graph of the screening results for the complementary strand of the MMP-9 aptamer (D) Graph of the screening results for the complementary strand of the PD-L1 aptamer</p>
                 </div>
@@ -832,8 +864,8 @@ const MainContent = () => (
                 The system demonstrated excellent linearity across a wide dynamic range (10 ng/mL to 10 μg/mL) for all four markers, with R² values above 0.95, confirming high quantitative reliability.
               </p>
 
-              <div className="sensitivity-table-container">
-                <table className="sensitivity-table">
+              <div className="table-container">
+                <table className="results-table">
                   <thead>
                     <tr>
                       <th>Protein</th>
@@ -867,6 +899,12 @@ const MainContent = () => (
                       <td>10ng/ml-10ug/ml</td>
                       <td>0.9849</td>
                     </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -875,7 +913,7 @@ const MainContent = () => (
                 <h3>Analytical performance and standard curve</h3>
                 <div className="figure-item">
                   <img src={figure29} alt="Analytical performance and standard curve" className="figure-image" />
-                  <div className="h4">Figure 29. Analytical performance and standard curve</div>
+                  <div className="h4">Figure 30. Analytical performance and standard curve</div>
                   <div className="figure-description">
                     <p><strong>EpCam Analysis:</strong> (A) Raw Fluorescence Intensity as a Function of EpCam Protein Concentration (B) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis (C) Time-dependent Fluorescence Curves of EpCam Protein at different Concentrations (D) bar chart of Fluorescence Intensity at Different EpCam Protein Concentrations</p>
                     <p><strong>HER-2 Analysis:</strong> (E) Raw Fluorescence Intensity as a Function of HER-2 Protein Concentration (F) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis (G) Time-dependent Fluorescence Curves of HER-2 Protein at different Concentrations (H) bar chart of Fluorescence Intensity at Different HER-2 Protein Concentrations</p>
@@ -897,12 +935,12 @@ const MainContent = () => (
                 <h3>Specificity analysis for four exosomal protein biomarkers</h3>
                 <div className="figure-item">
                   <img src={figure30} alt="Specificity analysis for four exosomal protein biomarkers" className="figure-image" />
-                  <div className="h4">Figure 30. Specificity analysis for four exosomal protein biomarkers</div>
+                  <div className="h4">Figure 31. Specificity analysis for four exosomal protein biomarkers</div>
                 </div>
               </div>
 
-              <div className="specificity-table-container">
-                <table className="specificity-table">
+              <div className="table-container">
+                <table className="results-table">
                   <thead>
                     <tr>
                       <th>Protein</th>
@@ -925,6 +963,10 @@ const MainContent = () => (
                     <tr>
                       <td>PD-L1</td>
                       <td>1845</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
@@ -968,8 +1010,8 @@ const MainContent = () => (
                 We evaluated this system across a concentration range of 1 ng/mL to 1 μg/mL for four protein targets (EpCAM, HER-2, MMP-9, PD-L1). All assays were performed in triplicate, and standard curves were generated by plotting fluorescence intensity against log-transformed protein concentrations.
               </p>
 
-              <div className="sensitivity-table-container">
-                <table className="sensitivity-table">
+              <div className="table-container">
+                <table className="results-table">
                   <thead>
                     <tr>
                       <th>Protein</th>
@@ -1003,6 +1045,12 @@ const MainContent = () => (
                       <td>1ng/ml-1ug/ml</td>
                       <td>0.9703</td>
                     </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -1011,7 +1059,7 @@ const MainContent = () => (
                 <h3>Quantitative detection and calibration curves of four exosomal protein biomarkers</h3>
                 <div className="figure-item">
                   <img src={figure31} alt="Quantitative detection and calibration curves of four exosomal protein biomarkers" className="figure-image" />
-                  <div className="h4">Figure 31. Quantitative detection and calibration curves of four exosomal protein biomarkers</div>
+                  <div className="h4">Figure 32. Quantitative detection and calibration curves of four exosomal protein biomarkers</div>
                   <div className="figure-description">
                     <p><strong>EpCam Analysis:</strong> (A) Raw Fluorescence Intensity as a Function of EpCam Protein Concentration (B) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis (C) Time-dependent Fluorescence Curves of EpCam Protein at different Concentrations (D) bar chart of Fluorescence Intensity at Different EpCam Protein Concentrations</p>
                     <p><strong>HER-2 Analysis:</strong> (E) Raw Fluorescence Intensity as a Function of HER-2 Protein Concentration (F) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis (G) Time-dependent Fluorescence Curves of HER-2 Protein at different Concentrations (H) bar chart of Fluorescence Intensity at Different HER-2 Protein Concentrations</p>
@@ -1047,12 +1095,12 @@ const MainContent = () => (
                 <h3>Specificity analysis for four exosomal protein biomarkers</h3>
                 <div className="figure-item">
                   <img src={figure32} alt="Specificity analysis for four exosomal protein biomarkers" className="figure-image" />
-                  <div className="h4">Figure 32. Specificity analysis for four exosomal protein biomarkers</div>
+                  <div className="h4">Figure 33. Specificity analysis for four exosomal protein biomarkers</div>
                 </div>
               </div>
 
-              <div className="specificity-table-container">
-                <table className="specificity-table">
+              <div className="table-container">
+                <table className="results-table">
                   <thead>
                     <tr>
                       <th>Protein</th>
@@ -1075,6 +1123,10 @@ const MainContent = () => (
                     <tr>
                       <td>PD-L1</td>
                       <td>1452</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
@@ -1137,6 +1189,7 @@ const MainContent = () => (
                     <tr><td>MCF-10A</td><td>ND</td><td>ND</td><td>ND</td><td>ND</td></tr>
                     <tr><td>SK-BR-3</td><td>450 pg/ml</td><td>ND</td><td>214 pg/ml</td><td>ND</td></tr>
                     <tr><td>MDA-MB-231</td><td>ND</td><td>313 pg/ml</td><td>298 pg/ml</td><td>287 pg/ml</td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -1235,6 +1288,7 @@ const MainContent = () => (
                 <tr><td>HER-2</td><td>165 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9763</td></tr>
                 <tr><td>MMP-9</td><td>158 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9567</td></tr>
                 <tr><td>PD-L1</td><td>113 pg/mL</td><td>1ng/ml-1ug/ml</td><td>0.9505</td></tr>
+                <tr><td></td><td></td><td></td><td></td></tr>
               </tbody>
             </table>
           </div>
@@ -1242,7 +1296,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure33} alt="Linear calibration curves for four exosomal protein biomarkers" className="figure-image" />
-              <div className="h4">Figure 33. Linear calibration curves for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 34. Linear calibration curves for four exosomal protein biomarkers</div>
               <p className="figure-caption">
                 (A) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis
                 (B) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis
@@ -1260,7 +1314,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure34} alt="Specificity analysis for four exosomal protein biomarkers" className="figure-image" />
-              <div className="h4">Figure 34. Specificity analysis for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 35. Specificity analysis for four exosomal protein biomarkers</div>
             </div>
           </div>
 
@@ -1274,6 +1328,7 @@ const MainContent = () => (
                 <tr><td>HER-2</td><td>2962</td></tr>
                 <tr><td>MMP-9</td><td>2587</td></tr>
                 <tr><td>PD-L1</td><td>2595</td></tr>
+                <tr><td></td><td></td></tr>
               </tbody>
             </table>
           </div>
@@ -1313,6 +1368,7 @@ const MainContent = () => (
                 <tr><td>HER-2</td><td>21.8 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9763</td></tr>
                 <tr><td>MMP-9</td><td>13.7 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9567</td></tr>
                 <tr><td>PD-L1</td><td>12.2 pg/mL</td><td>100pg/ml-100ng/ml</td><td>0.9505</td></tr>
+                <tr><td></td><td></td><td></td><td></td></tr>
               </tbody>
             </table>
           </div>
@@ -1320,7 +1376,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure35} alt="Linear calibration curves for four exosomal protein biomarkers with RCA enhancement" className="figure-image" />
-              <div className="h4">Figure 35. Linear calibration curves for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 36. Linear calibration curves for four exosomal protein biomarkers</div>
               <p className="figure-caption">
                 (A) Fluorescence Intensity versus Log-transformed EpCam Protein Concentration with Linear Regression Analysis
                 (B) Fluorescence Intensity versus Log-transformed HER-2 Protein Concentration with Linear Regression Analysis
@@ -1336,7 +1392,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure36} alt="Specificity analysis for four exosomal protein biomarkers with RCA enhancement" className="figure-image" />
-              <div className="h4">Figure 36. Specificity analysis for four exosomal protein biomarkers</div>
+              <div className="h4">Figure 37. Specificity analysis for four exosomal protein biomarkers</div>
             </div>
           </div>
 
@@ -1350,6 +1406,7 @@ const MainContent = () => (
                 <tr><td>HER-2</td><td>2746</td></tr>
                 <tr><td>MMP-9</td><td>2458</td></tr>
                 <tr><td>PD-L1</td><td>2687</td></tr>
+                <tr><td></td><td></td></tr>
               </tbody>
             </table>
           </div>
@@ -1387,6 +1444,7 @@ const MainContent = () => (
                 <tr><td>MCF-7</td><td>187 pg/ml</td><td>178 pg/ml</td><td>86 pg/ml</td><td>ND</td></tr>
                 <tr><td>SKBR3</td><td>423 pg/ml</td><td>416 pg/ml</td><td>198 pg/ml</td><td>215 pg/ml</td></tr>
                 <tr><td>MDA-MB-231</td><td>ND</td><td>157 pg/ml</td><td>247 pg/ml</td><td>236 pg/ml</td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td></tr>
               </tbody>
             </table>
           </div>
@@ -1549,14 +1607,14 @@ function Results() {
         { id: 'cd63-summary', title: 'Summary', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
-    {
-      id: 'RCA',
-      title: 'RCA',
-      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
-      subMenus: [
-        { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
-      ]
-    },
+    // {
+    //   id: 'RCA',
+    //   title: 'RCA',
+    //   icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
+    //   subMenus: [
+    //     { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
+    //   ]
+    // },
     {
       id: 'cas14a-expression',
       title: 'Cas14a Prokaryotic Expression',
@@ -1582,6 +1640,14 @@ function Results() {
         { id: 'reaction-time-optimization', title: 'Reaction Time Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'th2-standard-curve', title: 'TH2 Standard Curve', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'trigger-amplification', title: 'Trigger Amplification Performance', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
+      ]
+    },
+    {
+      id: 'RCA',
+      title: 'RCA',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
+      subMenus: [
+        { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {

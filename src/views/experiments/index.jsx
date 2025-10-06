@@ -16,6 +16,7 @@ const CRISPRSensitivityPDF = 'https://static.igem.wiki/teams/5822/newassets/file
 const CRISPRHCRDetectionPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-hcr-fluorescence-detection.pdf';
 const CRISPRHCRSensitivityPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crispr-cas12a-hcr-fluorescence-sensitivity-specificity-valuation.pdf';
 const DisplacementOptimizationPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-optimization-of-reaction-time-and-temperature-for-displacement-reactions.pdf';
+const CoatingPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-crisprcas12a-fluorescence-detection-system-optimization-of-coating-time-temperature.pdf';
 
 // Cas14a
 const EnzymeActivityPDF = 'https://static.igem.wiki/teams/5822/newassets/files/igem-zzu-china-2025-wet-lab-enzyme-activity-assay.pdf';
@@ -175,7 +176,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Plasmid Construction
+                  iGEM ZZU-China 2025 Wet Lab Plasmid Construction
                   <a href={PlasmidConstructionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -198,7 +199,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Plasmid extraction
+                  iGEM ZZU-China 2025 Wet Lab Plasmid extraction
                   <a href={PlasmidExtractionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -221,7 +222,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Transformation
+                  iGEM ZZU-China 2025 Wet Lab Transformation
                   <a href={TransformationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -244,7 +245,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Protein Quantification
+                  iGEM ZZU-China 2025 Wet Lab Protein Quantification
                   <a href={ProteinQuantificationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -267,7 +268,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet SDS Page
+                  iGEM ZZU-China 2025 Wet Lab SDS Page
                   <a href={SDSPagePDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -290,7 +291,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Protein Expression
+                  iGEM ZZU-China 2025 Wet Lab Protein Expression
                   <a href={ProteinExpressionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -313,7 +314,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Protein Purification
+                  iGEM ZZU-China 2025 Wet Lab Protein Purification
                   <a href={ProteinPurificationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -336,7 +337,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Enzyme activity assay
+                  iGEM ZZU-China 2025 Wet Lab Enzyme activity assay
                   <a href={EnzymeActivityPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -508,23 +509,23 @@ const MainContent = () => (
         <div className="h1">APT-CRISPR detection system</div>
       </div>
 
-      <section id="complementary-chain" className="education-section">
+      <section id="coating" className="education-section">
         <div className="education-section-content">
           <div className="content-section-header">
-            <div className="h2">Complementary chain screening</div>
+            <div className="h2">Optimization of Coating Time and Temperature</div>
           </div>
           <div className="content-body">
             <div className="protocol-item">
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Lab Complementary chain screening
-                  <a href={ComplementaryChainPDF} download className="download-link">
+                  iGEM ZZU-China 2025 Wet Lab Optimization of Coating Time and Temperature
+                  <a href={CoatingPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
                   </a>
                 </div>
-                <p>Screens and identifies the optimal complementary strand (APT-c1 or APT-c2) for efficient aptamer displacement and signal activation in CRISPR/Cas12a assays.</p>
+                <p>This document describes the detailed steps for optimizing coating time and temperature.</p>
               </div>
             </div>
           </div>
@@ -548,6 +549,29 @@ const MainContent = () => (
                   </a>
                 </div>
                 <p>Optimizes incubation temperature and reaction time for aptamer-target displacement to ensure maximal signal generation and stability.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="complementary-chain" className="education-section">
+        <div className="education-section-content">
+          <div className="content-section-header">
+            <div className="h2">Complementary chain screening</div>
+          </div>
+          <div className="content-body">
+            <div className="protocol-item">
+
+              <div className="protocol-content">
+                <div className="protocol-title">
+                  iGEM ZZU-China 2025 Wet Lab Complementary chain screening
+                  <a href={ComplementaryChainPDF} download className="download-link">
+                    <DownloadOutlined className="download-icon" />
+                    (pdf)
+                  </a>
+                </div>
+                <p>Screens and identifies the optimal complementary strand (APT-c1 or APT-c2) for efficient aptamer displacement and signal activation in CRISPR/Cas12a assays.</p>
               </div>
             </div>
           </div>
@@ -846,8 +870,9 @@ function Experiments() {
       title: 'APT-CRISPR detection system',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-        { id: 'complementary-chain', title: 'Complementary chain screening', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'coating', title: 'Optimization of Coating Time and Temperature', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'displacement-optimization', title: 'Optimization of reaction time and temperature', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
+        { id: 'complementary-chain', title: 'Complementary chain screening', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'crispr-sensitivity', title: 'CRISPR-Cas12a Fluorescence Sensitivity & Specificity', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'crispr-cell-suspension', title: 'CRISPR-Cas12a Fluorescence Detection in Cell Suspension', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'crispr-hcr-sensitivity', title: 'CRISPR-Cas12a-HCR Fluorescence Sensitivity & Specificity', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },

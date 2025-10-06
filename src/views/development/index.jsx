@@ -113,6 +113,11 @@ const MainContent = () => (
                     <td>Invalid Test</td>
                     <td>The test strip is invalid or the reaction steps are abnormal; retesting is required</td>
                   </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
