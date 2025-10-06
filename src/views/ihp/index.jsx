@@ -144,7 +144,7 @@ const MainContent = () => (
         </blockquote>
       </div>
 
-      {/* Problem Overview Section */}
+      {/* 1.1 Problem Overview Section */}
       <section id="problem-overview" className="view-section">
         <div className="view-section-content">
           <div className="content-section-header">
@@ -152,10 +152,10 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <p>
-              In China, <span>breast cancer</span> has become a serious <span>public health issue</span>. Data from the National Cancer Center in 2023 shows that there are approximately <span>420,000 new cases</span> of breast cancer in China each year, accounting for <span>21.6%</span> of all malignant tumors in Chinese women, <span className='text-strong'>ranking first</span>. Each year, about <span>120,000 people</span> die from it, making it <span className='text-strong'> the fourth leading cause of cancer death </span>among Chinese women (after lung cancer, gastric cancer, and liver cancer).
+              In China, <span>breast cancer</span> has become a serious <span>public health issue</span>. Data from the National Cancer Center in 2023 shows that there are approximately <span>420,000 new cases</span> of breast cancer in China each year, accounting for <span>21.6%</span> of all malignant tumors in Chinese women, <b>ranking first</b>. Each year, about <span>120,000 people</span> die from it, making it <b> the fourth leading cause of cancer death </b>among Chinese women (after lung cancer, gastric cancer, and liver cancer)<span className="citation">[1]</span>.
             </p>
             <p>
-              Surveys indicate that <span className='text-strong'>various factors</span> such as <span>obesity</span> (BMI ≥ 28), <span>alcohol consumption</span>, <span>lack of exercise</span>, <span>environmental estrogens</span> (plasticizers, pesticide residues), <span>long-term stress</span>, and <span>depression</span> have increased the incidence of breast cancer. The prevention and treatment of breast cancer face <span className='text-strong'>core challenges</span> such as <span>low coverage</span> of breast cancer screening (the popularity rate of mammography screening is less than 30%), <span>uneven distribution</span> of medical resources, and <span>sociocultural barriers</span>.
+              Surveys indicate that <b>various factors</b> such as <span>obesity</span> (BMI ≥ 28), <span>alcohol consumption</span>, <span>lack of exercise</span>, <span>environmental estrogens</span> (plasticizers, pesticide residues), <span>long-term stress</span>, and <span>depression</span> have increased the incidence of breast cancer. The prevention and treatment of breast cancer face <b>core challenges</b> such as <span>low coverage</span> of breast cancer screening (the popularity rate of mammography screening is less than 30%), <span>uneven distribution</span> of medical resources, and <span>sociocultural barriers</span>.
             </p>
             <p>
               Given its profound impact on <span>individual health</span> and the <span>healthcare system</span>, addressing the challenges posed by breast cancer is crucial for improving the overall health status in China.
@@ -163,24 +163,24 @@ const MainContent = () => (
             <div className="figure-container">
               <div className="figure-item">
                 <img src={Figure1} alt="Figure 1: Top 10 Cancer Types by New Cases Among Chinese Women in 2020" className="figure-image" />
-                <div className="h4">Figure 1. The Top 10 Cancer Types By the Number of New Cases Among Chinese Women in 2020</div>
+                <div className="h4">Figure 1. The Top 10 Cancer Types By the Number of New Cases Among Chinese Women in 2020<span className="citation">[1]</span></div>
               </div>
               <div className="figure-item">
                 <img src={Figure2} alt="Figure 2: Top 10 Cancer Types by Death Cases Among Chinese Women in 2020" className="figure-image" />
-                <div className="h4">Figure 2. The Top 10 Cancer Types By the Number of Death Cases Among Chinese Women in 2020</div>
+                <div className="h4">Figure 2. The Top 10 Cancer Types By the Number of Death Cases Among Chinese Women in 2020<span className="citation">[1]</span></div>
               </div>
             </div>
             <div className="figure-container">
               <div className="figure-item">
                 <img src={Figure3} alt="Figure 3: Approximate Population - Attributable Risks in High-income Countries" className="figure-image" />
-                <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors(The Lancet Breast Cancer Commission.)</div>
+                <div className="h4">Figure 3. Approximate Population - Attributable Risks in High-income Countries of More Readily Modifiable Breast Cancer Risk Factors(The Lancet Breast Cancer Commission.)<span className="citation">[2]</span></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Solution Section */}
+      {/*1.2 Solution Section */}
       <section id="solution" className="view-section">
         <div className="view-section-content">
           <div className="content-section-header">
@@ -191,19 +191,19 @@ const MainContent = () => (
               <span>Breast cancer</span> poses a significant threat to <span>women's health</span> worldwide. Despite remarkable advancements in medicine, <span>low early diagnosis rates</span> remain a critical challenge—while the <span>5-year survival rate</span> for patients with early-stage (Stage I) breast cancer can reach <span>99%</span>, it plummets to less than <span>30%</span> for those with advanced-stage (Stage IV) disease.
             </p>
             <p>
-              Therefore, <span className='text-strong'>popularizing early breast cancer screening across society</span> is crucial for its prevention and treatment.
+              Therefore, <b>popularizing early breast cancer screening across society</b> is crucial for its prevention and treatment.
             </p>
             <div className="figure-container">
               <div className="figure-item">
                 <img src={SolutionFigure3} alt="Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)" className="figure-image" />
-                <div className="h4">Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)</div>
+                <div className="h4">Figure 4. Vision for Technology-enabled Breast Cancer Treatment and Research(The Lancet Breast Cancer Commission.)<span className="citation">[2]</span></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Scientific Challenges Section */}
+      {/* 1.3Scientific Challenges Section */}
       <section id="scientific-challenges" className="view-section">
         <div className="view-section-content">
           <div className="content-section-header">
@@ -219,7 +219,7 @@ const MainContent = () => (
 
           <div className="content-body">
             <p>
-              Current breast cancer screening primarily relies on <span className='text-strong'>imaging techniques</span> (e.g., mammography, ultrasound) and <span className='text-strong'>serum marker tests</span> (e.g., CA15-3), but these methods have <span className='text-strong'>obvious drawbacks</span>:
+              Current breast cancer screening primarily relies on imaging techniques(e.g., mammography, ultrasound) and <b>serum marker tests</b> (e.g., CA15-3), but these methods have <b>obvious drawbacks</b>:
             </p>
             <ul>
               <li><strong>Insufficient sensitivity:</strong> Mammography detects only about <span>65%</span> of tumors in dense breast tissue, easily missing cases in young women.</li>
@@ -227,14 +227,14 @@ const MainContent = () => (
               <li><strong>Low timeliness:</strong> Traditional tests take several days to produce results, failing to meet the demand for rapid screening.</li>
             </ul>
             <p>
-              To address these bottlenecks, our iGEM project aims to develop <span className='text-strong'>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 molecule on exosomes in samples</span>, we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
+              To address these bottlenecks, our iGEM project aims to develop <b>a low-cost, rapid, and highly sensitive test strip. By targeting the CD63 molecule on exosomes in samples</b>, we will enable rapid breast cancer screening, overcoming the limitations of existing technologies.
             </p>
           </div>
         </div>
       </section>
 
 
-      {/* Social Challenges Section */}
+      {/*1.4 Social Challenges Section */}
       <section id="social-challenges" className="view-section">
         <div className="view-section-content">
           <div className="content-section-header">
@@ -242,7 +242,7 @@ const MainContent = () => (
           </div>
           <div className="content-body">
             <p>
-              While advancing scientific research, we identified<span className='text-strong'> deeper social issues</span> in breast cancer prevention through social surveys, questionnaires, and interviews:
+              While advancing scientific research, we identified<b> deeper social issues</b> in breast cancer prevention through social surveys, questionnaires, and interviews:
             </p>
             <ul>
               <li><strong>Public misconceptions:</strong> Over <span>60%</span> of women believe "no family history = low risk" and neglect regular screening. In rural areas, approximately <span>70%</span> of patients are diagnosed at intermediate or advanced stages, directly linked to a lack of health knowledge.</li>
@@ -250,10 +250,10 @@ const MainContent = () => (
               <li><strong>Unequal distribution of medical resources:</strong> Breast cancer mortality rates are declining in developed countries, but remain high in developing countries due to inadequate screening access.</li>
             </ul>
             <p>
-              Thus, with the dual mission of <span className='text-strong'>"technological innovation + social advocacy,"</span> we propose a three-in-one strategy of <span className='text-strong'>"scientific research, science popularization, and public welfare"</span> to ensure science truly benefits all lives.
+              Thus, with the dual mission of <b>"technological innovation + social advocacy,"</b> we propose a three-in-one strategy of <b>"scientific research, science popularization, and public welfare"</b> to ensure science truly benefits all lives.
             </p>
             <p>
-              We believe that breast cancer prevention is not only a <span className='text-strong'>scientific issue</span> but also a <span className='text-strong'>social one</span>. Through our iGEM project, we hope to promote the implementation of new technologies while raising public awareness of women's health, ultimately achieving the goals of <span className='text-strong'>"popularizing early screening, democratizing knowledge, and normalizing care."</span>
+              We believe that breast cancer prevention is not only a scientific issue but also a social one. Through our iGEM project, we hope to promote the implementation of new technologies while raising public awareness of women's health, ultimately achieving the goals of <b>"popularizing early screening, democratizing knowledge, and normalizing care."</b>
             </p>
           </div>
         </div>
@@ -266,7 +266,7 @@ const MainContent = () => (
       </div>
 
       <div className="content-body">
-        {/* 2. Overview */}
+        {/* 2.1 Overview */}
         <section id="overview" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
@@ -274,13 +274,13 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                In the practice of advancing early breast cancer screening and public education, we have constructed an <span>Iterative Symbiotic Practice Model (ISPM)</span>, which is a systematic framework based on feedback loops. The theoretical foundation of this model is the concept of <span>Responsible Research and Innovation (RRI)</span>, emphasizing that technological innovation must form a <span>symbiotic relationship</span> with societal needs through bidirectional feedback, perfectly aligning with the purpose of the iGEM competition—promoting the responsible and ethical application of synthetic biology in solving real-world problems.
+                In the practice of advancing early breast cancer screening and public education, we have constructed an <b>Iterative Symbiotic Practice Model (ISPM)</b>, which is a systematic framework based on feedback loops. The theoretical foundation of this model is the concept of <b>Responsible Research and Innovation (RRI)</b>, emphasizing that technological innovation must form a <span>symbiotic relationship</span> with societal needs through bidirectional feedback, perfectly aligning with the purpose of the iGEM competition—<b>promoting the responsible and ethical application of synthetic biology in solving real-world problems</b>.
               </p>
               <p>
-                Simultaneously, the model incorporates the essence of <span>action research theory (Kurt Lewin)</span>, adhering to the cyclical methodology of <span>"planning-acting-observing-reflecting"</span>, ensuring that every human practice is grounded in scientific empirical evidence.
+                Simultaneously, the model incorporates the essence ofspan <b>action research theory (Kurt Lewin)</b>, adhering to the cyclical methodology of <b>"planning-acting-observing-reflecting"</b>, ensuring that every human practice is grounded in scientific empirical evidence.
               </p>
               <p>
-                The ISPM model consists of <span>five interconnected layers</span>: the Needs Insight Layer, Practice Design Layer, Implementation Interaction Layer, Feedback Integration Layer, and Iterative Optimization Layer. Each layer serves a specific function while forming organic connections with other layers through feedback mechanisms. The Needs Insight Layer establishes the foundation through empirical research, the Practice Design Layer translates needs into action plans, the Implementation Interaction Layer tests designs in practice, the Feedback Integration Layer provides in-depth interpretation of practical outcomes, and the Iterative Optimization Layer achieves spiral progression of the system. This layered structure reflects the holistic thinking of systems theory, ensuring that each segment receives input from and generates output to other segments.
+                The ISPM model consists of five interconnected layers: <b>the Needs Insight Layer, Practice Design Layer, Implementation Interaction Layer, Feedback Integration Layer, and Iterative Optimization Layer</b>. Each layer serves a specific function while forming organic connections with other layers through feedback mechanisms. The Needs Insight Layer establishes the foundation through empirical research, the Practice Design Layer translates needs into action plans, the Implementation Interaction Layer tests designs in practice, the Feedback Integration Layer provides in-depth interpretation of practical outcomes, and the Iterative Optimization Layer achieves spiral progression of the system. This layered structure reflects <b>the holistic thinking of systems theory</b>, ensuring that each segment receives input from and generates output to other segments.
               </p>
               <div className="figure-container">
                 <div className="figure-item">
@@ -292,7 +292,7 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 2.1 Needs Insight Layer */}
+        {/* 2.2 Needs Insight Layer */}
         <section id="needs-insight-layer" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
@@ -300,7 +300,7 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                This layer employs multiple research methods to comprehensively gather societal needs. By designing scientific questionnaires, we collected <span>200 valid samples</span> covering diverse populations of different ages, genders, and educational backgrounds. The survey results indicate: the awareness rate of lactational mastitis among the 18-30 age group is only <span>18.5%</span>, significantly lower than other age groups; men's awareness of high-risk factors for breast cancer is <span>24.8% lower</span> than that of women, highlighting gender-based cognitive disparities. These data provide clear directional guidance for the subsequent design of educational content.
+                This layer employs multiple research methods to <b>comprehensively gather societal needs</b>. By designing scientific questionnaires, we collected 200 valid samples covering diverse populations of different ages, genders, and educational backgrounds. The survey results indicate: the awareness rate of lactational mastitis among the 18-30 age group is only <span>18.5%</span>, significantly lower than other age groups; men's awareness of high-risk factors for breast cancer is <span>24.8% lower</span> than that of women, highlighting gender-based cognitive disparities. These data provide <b>clear directional guidance for the subsequent design of educational content</b>.
               </p>
 
               <div className="figure-container">
@@ -309,13 +309,13 @@ const MainContent = () => (
                   <div className="h4">Figure 7. The Results of the Survey Questionnaire</div></div>
               </div>
               <p>
-                A <span>SWOT analysis</span> of stakeholders revealed: women exhibit a contradiction of "strong screening willingness but insufficient knowledge"; medical institutions face the practical dilemma of "strong professional capabilities but aging equipment and heavy workload for healthcare staff"; government departments possess the administrative characteristic of "policy-making authority but uneven resource allocation"; and research institutions confront the developmental challenge of "advantages in technological R&D but limited technology transfer capabilities." These in-depth analyses provide a comprehensive needs map and problem-oriented guidance for our subsequent practice design.
+                A <span>SWOT analysis</span> of stakeholders revealed: women exhibit a contradiction of "strong screening willingness but insufficient knowledge"; medical institutions face the practical dilemma of "strong professional capabilities but aging equipment and heavy workload for healthcare staff"; government departments possess the administrative characteristic of "policy-making authority but uneven resource allocation"; and research institutions confront the developmental challenge of "advantages in technological R&D but limited technology transfer capabilities." These in-depth analyses provide <b>a comprehensive needs map and problem-oriented guidance</b> for our <b>subsequent practice design</b>.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 2.2 Practice Design Layer */}
+        {/* 2.3 Practice Design Layer */}
         <section id="practice-design-layer" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
@@ -323,16 +323,16 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                Based on prior needs insight, we designed a comprehensive <span>tiered education system</span>. Targeting the cognitive characteristics and interests of primary school students, we developed the <span>"Strawberry DNA Extraction Experiment"</span> and <span>"DNA Science Pop-up Class"</span>, sparking scientific curiosity through hands-on activities. For middle school students, considering their knowledge level and learning needs, we designed the <span>"Plasmid Extraction Experiment"</span> and <span>"Human Anatomy Science Museum Visit"</span>, effectively bridging theoretical knowledge with practical application.
+                Based on prior needs insight, we designed <b>a comprehensive tiered education system</b>. Targeting the cognitive characteristics and interests of primary school students, we developed the <span>"Strawberry DNA Extraction Experiment"</span> and <span>"DNA Science Pop-up Class"</span>, sparking scientific curiosity through hands-on activities. For middle school students, considering their knowledge level and learning needs, we designed the <span>"Plasmid Extraction Experiment"</span> and <span>"Human Anatomy Science Museum Visit"</span>, effectively bridging theoretical knowledge with practical application.
               </p>
               <p>
-                The collaboration design fully embodies the tailored approach: the partnership with <span>Antu Biology</span> focused on learning CE certification processes and medical device compliance requirements; exchanges with the <span>UTokyo team</span> primarily centered on CRISPR technology optimization and pathogen detection applications; cooperation with the <span>Third Affiliated Hospital of Zhengzhou University</span> emphasized clinical needs alignment and medical practice validation. Each collaboration model was designed for specific needs, ensuring precise and effective resource allocation.
+                The collaboration design <b>fully embodies the tailored approach</b>: the partnership with Antu Biology focused on learning CE certification processes and medical device compliance requirements; exchanges with the <span>UTokyo team</span> primarily centered on CRISPR technology optimization and pathogen detection applications; cooperation with the <span>Third Affiliated Hospital of Zhengzhou University</span> emphasized clinical needs alignment and medical practice validation. Each collaboration model was <b>designed for specific needs</b>, ensuring precise and effective resource allocation.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 2.3 Implementation Interaction Layer */}
+        {/* 2.4 Implementation Interaction Layer */}
         <section id="implementation-interaction-layer" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
@@ -340,16 +340,16 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                We established a comprehensive <span>multi-channel feedback mechanism</span> during implementation. Initial testing of the board game revealed that over <span>60% of participants</span> found the questions too difficult, particularly those related to breast cancer screening knowledge, with a correct answer rate below <span>30%</span>. We promptly responded by adding knowledge explanation sessions, creating short videos, and graphic posters to pre-educate on basic concepts.
+                We established <b>a comprehensive multi-channel feedback mechanism during implementation</b>. Initial testing of the board game revealed that over 60% of participants found the questions too difficult, particularly those related to breast cancer screening knowledge, with a correct answer rate below <span>30%</span>. We promptly responded by <b>adding knowledge explanation sessions</b>, creating short videos, and graphic posters to <b>pre-educate</b> on basic concepts.
               </p>
               <p>
-                Innocent questions from primary students during DNA experiments, like <span>"Can the DNA helix break?"</span>, prompted us to refine the accuracy of our scientific analogies. Middle school students' queries about experimental procedures drove us to improve the lab guide manual. University students' in-depth discussions on ethical issues inspired us to incorporate real-case studies. This real-time feedback from the field provided crucial basis for subsequent deep optimization.
+                Innocent questions from primary students during DNA experiments, like <span>"Can the DNA helix break?"</span>, prompted us to refine the accuracy of our scientific analogies. Middle school students' queries about experimental procedures drove us to improve the lab guide manual. University students' in-depth discussions on ethical issues inspired us to incorporate real-case studies. This real-time feedback from the field provided <b>crucial basis</b> for <b>subsequent deep optimization</b>.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 2.4 Feedback Integration Layer */}
+        {/* 2.5 Feedback Integration Layer */}
         <section id="feedback-integration-layer" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
@@ -357,16 +357,16 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                In-depth professional feedback was obtained through <span>structured interviews</span>. A breast surgeon's suggestion that <span>"exosome detection should prioritize specificity over sensitivity"</span> directly guided the focus of our experimental design optimization. Emphasis from laboratory medicine experts on <span>"the importance of standardized operating procedures"</span> led us to establish a comprehensive SOP documentation system and quality control standards.
+                <b>In-depth professional feedback</b> was obtained through <span>structured interviews</span>. A breast surgeon's suggestion that <span>"exosome detection should prioritize specificity over sensitivity"</span> directly guided the focus of our experimental design optimization. Emphasis from laboratory medicine experts on <span>"the importance of standardized operating procedures"</span> led us to establish a comprehensive SOP documentation system and quality control standards.
               </p>
               <p>
-                The strategy proposed by public health scholars to <span>"prioritize high-risk groups"</span> helped us adjust screening promotion priorities and resource allocation. Concerns from patients' families about testing costs prompted exploration of domestic reagent solutions and cost-control measures. Practical suggestions from community workers on science communication formats drove optimization of dissemination methods and content presentation. These diverse professional inputs formed systematic optimization plans and implementation pathways.
+                The strategy proposed by public health scholars to <span>"prioritize high-risk groups"</span> helped us adjust screening promotion priorities and resource allocation. Concerns from patients' families about testing costs prompted exploration of domestic reagent solutions and cost-control measures. Practical suggestions from community workers on science communication formats drove optimization of dissemination methods and content presentation. These diverse <b>professional inputs formed systematic optimization plans and implementation pathways</b>.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 2.5 Iterative Optimization Layer */}
+        {/* 2.6 Iterative Optimization Layer */}
         <section id="iterative-optimization-layer" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
@@ -374,31 +374,27 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                In-depth data analysis revealed that science communication effectiveness closely relates to format: <span>short videos had 59.3% acceptance</span> among 18-35-year-olds, while <span>community lectures were more popular (40.7%)</span> among those over 50. Accordingly, we developed a tailored communication system employing differentiated strategies and content formats for different age groups and educational backgrounds.
+                In-depth data analysis revealed that <b>science communication effectiveness closely relates to format</b>:short videos had 59.3% acceptance among 18-35-year-olds, while community lectures were more popular (40.7%) among those over 50. Accordingly, we developed a tailored communication system employing <b>differentiated strategies and content formats for different age groups</b> and educational backgrounds.
               </p>
               <p>
-                Responding to clinicians' feedback about <span>"false-positive risks"</span>, we prioritized optimizing detection system specificity and accuracy. Addressing users' need for <span>"ease of operation"</span>, we developed a home sampler prototype and simplified procedures. Based on <span>"cost-control"</span> suggestions, we explored mass production cost optimization and medical insurance payment possibilities. Each optimization measure re-entered the needs insight layer, initiating new iterative cycles and refinement processes.
+                Responding to clinicians' feedback about <span>"false-positive risks"</span>, we prioritized optimizing detection system specificity and accuracy. Addressing users' need for <span>"ease of operation"</span>, we developed a home sampler prototype and simplified procedures. Based on <span>"cost-control"</span> suggestions, we explored mass production cost optimization and medical insurance payment possibilities. Each optimization measure <b>re-entered the needs insight layer</b>, initiating new iterative cycles and refinement processes.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 2.6 Summary */}
+        {/* 2.7 Summary */}
         <section id="summary" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">Summary</div>
             </div>
-            <div className="content-body">
+            <div className="content-body interview-summary">
               <p>
-                We believe the <span>ISPM model</span> holds significant development potential and promote value. For our project, it serves as the cornerstone for continuous optimization and obtaining social license. Through its iterative cycles, we developed a home sampler prototype based on public feedback for "ease of operation," while optimizing detection specificity per doctors' "false-positive risk" concerns, making the technological product increasingly aligned with real needs through iteration.
+                This model's five-layer closed-loop structure ensures each practice phase undergoes continuous optimization based on prior feedback. From needs insight to iterative optimization, the information flow forms <b>a complete cycle</b>, enabling <b>constant self-correction and improvement</b>. This design not only enhances resource utilization efficiency but also ensures technological innovation remains synchronized with societal needs, truly achieving responsible research and innovation, and providing a <b>sustainable development model</b> for breast cancer prevention.
               </p>
-              <p>
-                Beyond this project, the ISPM model provides a valuable human practices paradigm for other synthetic biology projects. Whether iGEM teams in environmental governance, energy production, or healthcare can borrowing this model's structure to systematically conduct responsible innovation activities. It guides researchers on effectively communicating with the public, embedding ethical considerations into technology R&D cycles, and building inclusive, trusting innovation ecosystems - fully aligning with iGEM's educational goal of cultivating responsible scientists.
-              </p>
-              <p>
-                This model's five-layer closed-loop structure ensures each practice phase undergoes continuous optimization based on prior feedback. From needs insight to iterative optimization, the information flow forms a complete cycle, enabling constant self-correction and improvement. This design not only enhances resource utilization efficiency but also ensures technological innovation remains synchronized with societal needs, truly achieving responsible research and innovation, and providing a sustainable development model for breast cancer prevention.
-              </p>
+              <p>We believe the ISPM model holds <b>significant development potential</b> and <b>promote  value</b>. For our project, it serves as the cornerstone for continuous optimization and obtaining social license. Through its iterative cycles, we developed a home sampler prototype based on public feedback for "ease of operation," while optimizing detection specificity per doctors' "false-positive risk" concerns, making the technological product increasingly aligned with real needs through iteration.</p>
+              <p>Beyond this project, the ISPM model provides <b>a valuable human practices paradigm</b> for other synthetic biology projects. Whether iGEM teams in environmental governance, energy production, or healthcare can borrowing this model's structure to systematically conduct responsible innovation activities. It guides researchers on <b>effectively communicating with the public, embedding ethical considerations into technology R&D cycles, and building inclusive, trusting innovation ecosystems</b> - fully aligning with iGEM's educational goal of cultivating responsible scientists.</p>
             </div>
           </div>
         </section>
@@ -419,13 +415,10 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                The SWOT analysis was proposed by American management expert <span>Albert Humphrey</span> in the 1960s. Initially designed for the <span>"Fortune 500 Enterprise Strategic Planning Project"</span> of the Stanford Research Institute (SRI) in the United States, it was used to help enterprises analyze their competitive situation. Currently, it has been applied to various fields such as enterprise management, project planning, personal development, and public policy formulation.
+                The SWOT analysis was proposed by American management expert Albert Humphrey in the 1960s. Initially designed for the "Fortune 500 Enterprise Strategic Planning Project" of the Stanford Research Institute (SRI) in the United States, it was used to help enterprises analyze their competitive situation.
               </p>
               <p>
-                SWOT analysis is a strategic planning tool used to identify and analyze the <span>Strengths</span>, <span>Weaknesses</span>, <span>Opportunities</span>, and <span>Threats</span> of an organization or project. By comprehensively analyzing internal and external factors, SWOT analysis can help decision-makers formulate effective strategies and response measures.
-              </p>
-              <p>
-                In our project, SWOT analysis is used to systematically evaluate the internal strengths and weaknesses, as well as external opportunities and threats, of core stakeholders such as <span>women's groups</span>, <span>medical institutions</span>, <span>government departments</span>, and <span>scientific research institutions</span>. It clarifies the role positioning of all parties, promotes the complementarity of advantages and integration of resources, and at the same time avoids risks and seizes opportunities in a targeted manner.
+                SWOT analysis is a strategic planning tool used to <b>identify and analyze the Strengths, Weaknesses, Opportunities, and Threats of an organization or project</b>. Prior to conducting in-depth interviews, we performed a <b>systematic SWOT analysis of our core stakeholders</b>. This analysis helped us preliminarily identify the positioning, needs, and challenges of each party within the breast cancer screening ecosystem, providing a strategic blueprint for designing our interview protocols and conducting targeted engagements.
               </p>
               <div className="figure-container">
                 <div className="figure-item">
@@ -466,8 +459,8 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 3.2 Medical Institutions */}
-        <section id="medical-institutions" className="view-section">
+        {/* 3.2 Female Group */}
+        <section id="female-group" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">3.2 Medical Institutions</div>
@@ -495,8 +488,8 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 3.3 Government Departments */}
-        <section id="government-departments" className="view-section">
+        {/* 3.3 Medical Institutions */}
+        <section id="medical-institutions" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">3.3 Government Departments</div>
@@ -524,8 +517,8 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 3.4 Scientific Research Institutions */}
-        <section id="scientific-research-institutions" className="view-section">
+        {/* 3.4 Government Departments */}
+        <section id="government-departments" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">3.4 Scientific Research Institutions</div>
@@ -552,9 +545,9 @@ const MainContent = () => (
 
               <div className="solutions-table">
                 <div className="table-header">
-                  <div className="table-cell">Key Issues</div>
-                  <div className="table-cell">Solutions</div>
-                  <div className="table-cell">Key Measures</div>
+                  <div className="table-cell">Identified Key Issues</div>
+                  <div className="table-cell">Our Response Strategy</div>
+                  <div className="table-cell">Specific Implementation Methods</div>
                 </div>
                 <div className="table-row">
                   <div className="table-cell">Women's insufficient awareness and low willingness to be screened</div>
@@ -580,10 +573,9 @@ const MainContent = () => (
             </div>
           </div>
         </section>
-
       </div>
     </div>
-    {/* 4 */}
+    {/* 4 interview */}
     <div id="interview" className="view-content">
       <div className="content-header">
         <div className="h1">4 Interview</div>
@@ -599,27 +591,44 @@ const MainContent = () => (
 
 
 
-        {/* 4.1 Interview on Why Exosomes and Magnetic Beads Were Chosen */}
-        <section id="interview-exosomes-magnetic-beads" className="view-section">
+        {/* 4.1 Introduction */}
+        <section id="introduction" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.1 Interview on Why Exosomes and Magnetic Beads Were Chosen</div>
+              <div className="h2">4.1 Introduction</div>
             </div>
             <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure1} alt="Interview with Professor Lijuan Zhao" />
-                </div> {/* 关键修正：闭合interview-image容器 */}
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Lijuan Zhao</div> {/* 优化：去除多余空格 */}
-                    <p className="affiliation">Engaged in anti-tumor pharmacology research and tumor exosome research</p>
-                    <p className="details">Figure 10. Interview with Professor Zhao Lijuan</p>
+              <div className="interview-card-professional">
+                <div className="interview-card-header">
+                  <div className="interview-card-title">Interview Overview</div>
+                  <div className="interview-card-subtitle">Comprehensive Expert Insights</div>
+                </div>
+                <div className="interview-card-content">
+                  <div className="interview-card-image">
+                    <img src={overviewpng} alt="Figure 9. Interview Map" />
+                    <div className="interview-card-figure-caption">Figure 9. Interview Map</div>
                   </div>
-                  <div className="interview-summary">
-                    <p>Exosomes are ideal for early screening due to clear signals, stability, and accessibility.</p>
-                    <p>Magnetic bead capture is the preferred isolation method for its specificity and simplicity.</p>
-                    <p>Future work requires optimizing processes, integrating methods, and validating in high-risk groups to enable widespread use.</p>
+                  <div className="interview-card-body">
+                    <div className="interview-card-findings">
+                      <div className="interview-card-finding">
+                        <div className="interview-card-finding-number">1</div>
+                        <div className="interview-card-finding-text">
+                          This chapter systematically documents our in-depth interviews with experts across various fields, aiming to examine and optimize our project from multiple perspectives.
+                        </div>
+                      </div>
+                      <div className="interview-card-finding">
+                        <div className="interview-card-finding-number">2</div>
+                        <div className="interview-card-finding-text">
+                          To clearly demonstrate the unique value of feedback from different groups, we have categorized the interviews into three sections: Technical Experts (focusing on technical routes and feasibility), Clinical Doctors (focusing on clinical needs and application), and The Public & Patients (focusing on user experience and social acceptance).
+                        </div>
+                      </div>
+                      <div className="interview-card-finding">
+                        <div className="interview-card-finding-number">3</div>
+                        <div className="interview-card-finding-text">
+                          Following each interview record, we have included a Feedback & Impact section to clarify how their professional opinions directly drove specific refinements and iterations in our project.
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -627,97 +636,817 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 4.2 Interview on the Selection of the Four Target Proteins */}
-        <section id="interview-target-proteins" className="view-section">
+        {/*4.2 Interviews with Technical Experts */}
+        <section id="interviews-with-technical-experts" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.2 Interview on the Selection of the Four Target Proteins</div>
+              <div className="h2">4.2 Interviews with Technical Experts </div>
+              <p>This section features interviews with technical experts in fields such as tumor biology, exosomes, and detection technologies.</p>
+              <p>Their feedback primarily served to <b>validate and optimize the scientific basis and innovation of our core technical route</b>, laying a solid technical foundation for the project.</p>
             </div>
             <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Yan Xu（许燕）</div>
-                    <p className="affiliation">Focused on the fields of stem cell therapy and tumor immunology</p>
-                    <p className="details">Figure 11. Interview with Professor Yan Xu（许燕）</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Four exosomal proteins (MMP-9/HER-2/PD-L1/EpCAM) reflect key breast cancer features for improved diagnosis and treatment guidance.</p>
-                    <p>Their combined detection enhances accuracy and clinical utility.</p>
-                    <p>Future needs: validate thresholds via large studies and optimize detection technology for broader clinical use.</p>
+              {/* 4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen */}
+              <section id="interview-on-why-exosomes-and-magnetic-beads-were-chosen" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen
                   </div>
                 </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure2} alt="Interview with Professor Yan Xu（许燕）" />
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Exosomes and Magnetic Beads Selection</div>
+                      <div className="interview-card-subtitle">Lijuan Zhao</div>
+                      <div className="interview-card-profile">Engaged in anti-tumor pharmacology research and tumor exosome research</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 10. Interview with Professor Lijuan Zhao" />
+                        <div className="interview-card-figure-caption">Figure 10. Interview with Professor Lijuan Zhao</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Exosomes are ideal for early screening due to clear signals, stability, and accessibility.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Magnetic bead capture is the preferred isolation method for its simplicity and efficiency.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Future work requires optimizing processes, integrating methods, and validating in high-risk groups to enable widespread use.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </section>
+              {/* 4.2.2 Interview on the Selection of the Four Target Proteins */}
+              <section id="interview-on-the-selection-of-the-four-target-proteins" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.2 Interview on the Selection of the Four Target Proteins
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Selection of Four Target Proteins</div>
+                      <div className="interview-card-subtitle">Yan Xu（许燕）</div>
+                      <div className="interview-card-profile">Focused on the fields of stem cell therapy and tumor immunology</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 11. Interview with Professor Yan Xu (许燕)" />
+                        <div className="interview-card-figure-caption">Figure 11. Interview with Professor Yan Xu (许燕)</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Four exosomal proteins (MMP-9/HER-2/PD-L1/EpCAM) reflect key breast cancer features for improved diagnosis and treatment guidance.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Their combined detection enhances accuracy and clinical utility.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Future needs: validate thresholds via large studies and optimize detection technology for broader clinical use.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/* 4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down */}
+              <section id="interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">CD63 Aptamers for Exosome Pull-Down</div>
+                      <div className="interview-card-subtitle">Yan Xu（徐琰）</div>
+                      <div className="interview-card-profile">Mainly studies tumor pharmacology chemistry and biomarkers</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 12. Interview with Professor Yan Xu (徐琰)" />
+                        <div className="interview-card-figure-caption">Figure 12. Interview with Professor Yan Xu (徐琰)</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              CD63 and tumor-specific aptamers enable efficient exosome enrichment with superior stability, cost, and convenience over antibodies.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Future optimization of modification and secondary enrichment can improve tumor exosome purity.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/* 4.2.4 Interview on the selection of breast cancer cell lines */}
+              <section id="interview-on-the-selection-of-breast-cancer-cell-lines" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.4 Interview on the selection of breast cancer cell lines
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Selection of Breast Cancer Cell Lines</div>
+                      <div className="interview-card-subtitle">Xiaoyan Xuan</div>
+                      <div className="interview-card-profile">Research on immune cell development and related diseases</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 13. Interview with Professor Xiaoyan Xuan" />
+                        <div className="interview-card-figure-caption">Figure 13. Interview with Professor Xiaoyan Xuan</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              MCF-10A, as a non-tumorigenic normal breast epithelial cell line, provides an essential negative control baseline for distinguishing between tumor-derived and normal exosomes.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              MCF-7 (Luminal A type), MDA-MB-231 (triple-negative), and SK-BR-3 (HER2-positive) cover the major molecular subtypes of breast cancer, ensuring broad-spectrum validation of the detection method developed in the project.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              The combination of these four cell lines establishes a comprehensive model system ranging from normal to malignant, encompassing key subtypes, significantly enhancing the reliability of experimental data and clinical translation potential.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established */}
+              <section id="interview-on-why-the-four-marker-hcr-signal-amplification-principle-was-established" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Four-Marker HCR Signal Amplification Principle</div>
+                      <div className="interview-card-subtitle">Hongmei Geng</div>
+                      <div className="interview-card-profile">Engaged in research on nano-oncology diagnosis and treatment, focusing on how to use enzyme-free amplification systems such as HCR to give nanomaterials higher detection sensitivity</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 14. Interview with Professor Hongmei Geng" />
+                        <div className="interview-card-figure-caption">Figure 14. Interview with Professor Hongmei Geng</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              The four-marker HCR simultaneously amplifies signals of CD63, CD81, CD9, and EpCAM through multiplexed hybridization chain reaction, significantly improving detection sensitivity and specificity.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              This method avoids the risk of missed detection associated with traditional single-marker approaches and is suitable for the accurate identification of tumor exosomes in complex clinical samples.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              The modular design facilitates integration with other detection modules (such as RCA and Cas14), providing multiple verification safeguards for early breast cancer diagnosis.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.6 Interview on Principles and Advantages of the RCA Method Module */}
+              <section id="interview-on-principles-and-advantages-of-the-rca-method-module" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.6 Interview on Principles and Advantages of the RCA Method Module
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Principles and Advantages of the RCA Method Module</div>
+                      <div className="interview-card-subtitle">Lu Ma</div>
+                      <div className="interview-card-profile">Focuses on discovering targeted anti-tumor drugs, with a strong interest in high-sensitivity detection technologies like RCA</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 15. Interview with Professor Lu Ma" />
+                        <div className="interview-card-figure-caption">Figure 15. Interview with Professor Lu Ma</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              RCA utilizes a circular DNA template for rolling circle amplification, generating long tandem repeat sequences and achieving exponential signal amplification, with a detection limit down to the single-molecule level.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Its room temperature reaction conditions and high amplification efficiency are superior to PCR, making it more suitable for in situ detection of exosome biomarkers and integration into portable devices.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              RCA was selected as the core amplification module because it can synergize with HCR and Cas14, forming a multi-stage amplification system to enhance overall detection reliability.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.7 Interview on Why Cas14 Enzyme Was Chosen */}
+              <section id="interview-on-why-cas14-enzyme-was-chosen" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.7 Interview on Why Cas14 Enzyme Was Chosen
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Why Cas14 Enzyme Was Chosen</div>
+                      <div className="interview-card-subtitle">Ye Yuan</div>
+                      <div className="interview-card-profile">Mainly studies the design, synthesis, and antibacterial mechanisms of polypeptide and small molecule self-assembled nanozymes</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 16. Interview with Professor Ye Yuan" />
+                        <div className="interview-card-figure-caption">Figure 16. Interview with Professor Ye Yuan</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              As a compact CRISPR system, Cas14 specifically cleaves single-stranded DNA without PAM sequence restrictions, making it suitable for detecting exosomal DNA biomarkers.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Its high editing activity and room temperature reaction characteristics significantly reduce detection time and are compatible with magnetic bead enrichment and liquid-phase detection workflows.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Cas14 was chosen to enable controllable activation of detection signals and suppression of background noise, providing high signal-to-noise ratio quantitative analysis for tumor exosomes.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down */}
+              <section id="interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull-downs" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Interview on CD63 Aptamers for Exosome Pull-Down</div>
+                      <div className="interview-card-subtitle">Thomas Südhof</div>
+                      <div className="interview-card-profile">Nobel Laureate in Physiology or Medicine, researching synaptic vesicle trafficking, membrane fusion, and intercellular communication</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="A photo with Professor Thomas Südhof" />
+                        <div className="interview-card-figure-caption">Figure 17. A photo with Professor Thomas Südhof</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Explained the rationale for CD63 as a pan-exosome marker from the biological basis of intercellular communication, noting its aptamer can efficiently capture exosomes for downstream analysis.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Highlighted the potential advantages of aptamers over antibodies for capturing vesicular structures, particularly in stability and impact on membrane integrity.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Expressed that this technology holds clear promise for analyzing the specific cargo of breast cancer-derived exosomes to achieve early diagnosis.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.9 Interview on the Application of RNA Aptamers in Exosome Capture */}
+              <section id="interview-on-the-application-of-rna-aptamers-in-exosome-capture" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.9 Interview on the Application of RNA Aptamers in Exosome Capture
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Application of RNA Aptamers in Exosome Capture</div>
+                      <div className="interview-card-subtitle">Craig C. Mello</div>
+                      <div className="interview-card-profile">Primarily researches RNA interference (RNAi) mechanisms and gene expression regulation; Nobel Laureate in Physiology or Medicine</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 18. A photo with Professor Craig C. Mello" />
+                        <div className="interview-card-figure-caption">Figure 18. A photo with Professor Craig C. Mello</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              From the perspective of specific recognition by nucleic acid molecules, affirmed the technical approach of using RNA aptamers for exosome capture.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Emphasized the advantages of aptamers over protein antibodies in terms of synthesis cost, batch stability, and avoiding immunogenicity.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Envisioned future integration of aptamer capture with RNAi technology to analyze exosomal cargo, thereby enhancing the specificity of breast cancer diagnosis.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics */}
+              <section id="interview-on-the-clinical-translation-potential-of-aptamer-based-diagnostics" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Clinical Translation Potential of Aptamer-Based Diagnostics</div>
+                      <div className="interview-card-subtitle">Baofa Yu</div>
+                      <div className="interview-card-profile">Expert in the field of cancer therapy, focusing on tumor-targeted therapy and drug delivery systems</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 19. Group photo with Professor Baofa Yu" />
+                        <div className="interview-card-figure-caption">Figure 19. Group photo with Professor Baofa Yu</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Highly evaluated the potential for clinical diagnostic applications, considering it simple to operate, cost-effective, and suitable for widespread use.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Noted that the captured exosomes can be used for subsequent liquid biopsy analysis, providing a more convenient solution for early screening.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Suggested future research could combine it with tumor-specific target aptamers for secondary enrichment, potentially improving detection sensitivity and specificity.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits */}
+              <section id="interview-on-the-commercial-viability-of-aptamer-based-exosome-capture-kits" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Commercial Viability of Aptamer-Based Exosome Capture Kits</div>
+                      <div className="interview-card-subtitle">Ming Lei</div>
+                      <div className="interview-card-profile">Co-founder of UST Inc. (USA), focusing on the development and commercialization of in vitro diagnostic (IVD) technologies and products</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 20. A photo with Professor Ming Lei" />
+                        <div className="interview-card-figure-caption">Figure 20. A photo with Professor Ming Lei</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Analyzed the significant advantages from a commercialization perspective, particularly in stability, production scale, and cost control.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Pointed out that this method is easy to integrate into automated platforms, aligning with IVD industry trends and possessing strong market prospects.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Proposed that future optimization could include modifying the aptamer sequence to improve affinity and developing matched detection reagents to form a complete solution.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.12 Interview on Humanities and Ethics */}
+              <section id="interview-on-humanities-and-ethics" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.12 Interview on Humanities and Ethics
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Humanities and Ethics in Exosome Detection Technology</div>
+                      <div className="interview-card-subtitle">Huaixin Zheng</div>
+                      <div className="interview-card-profile">Integrating profound humanistic care into research on pathogens and anti-infection immunity, aligning closely with the ethical considerations of exosome detection technology</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 21. Interview with Professor Huaixin Zheng" />
+                        <div className="interview-card-figure-caption">Figure 21. Interview with Professor Huaixin Zheng</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Exosome technology enhances screening access and compliance but requires support in cost control, quality assurance, and simplified reporting.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Priority application scenarios include high-risk groups and community-based preliminary screening.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Real-world data should validate its long-term impact on reducing late-stage diagnoses, advancing health equity through accessible technology.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.2.13 Feedback & Impact */}
+              <section id="interview-on-feedback-and-impact" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.2.13 Feedback & Impact
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="feedback-impact-card">
+                    <div className="feedback-impact-header">
+                      <div className="feedback-impact-title">Impact of Expert Feedback on Project Development</div>
+                    </div>
+                    <div className="feedback-impact-content">
+                      <div className="feedback-impact-item">
+                        <div className="feedback-impact-item-number">1</div>
+                        <div className="feedback-impact-item-content">
+                          <h4 className="feedback-impact-item-title">Establishment and Optimization of the Core Technical Pathway</h4>
+                          <div className="feedback-impact-item-feedback">
+                            <strong>Key Feedback:</strong> Professor Lijuan Zhao, Professor Thomas Südhof, and other experts pointed out from various perspectives that exosomes are ideal markers for early screening, and that the aptamer-based magnetic bead capture method offers advantages in specificity, stability, and cost. Professor Yan Xu, among others, further suggested optimizing strategies for "affinity" and "secondary enrichment".
+                          </div>
+                          <div className="feedback-impact-item-impact">
+                            <strong>Project Impact:</strong> This concentrated feedback from authoritative experts strongly solidified our confidence in adopting the "aptamer-magnetic bead" approach as our core capture technology. More importantly, it provided a clear roadmap for technical optimization; we have now planned to further refine our wet-lab experiments through "affinity maturation" and "secondary enrichment".
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="feedback-impact-item">
+                        <div className="feedback-impact-item-number">2</div>
+                        <div className="feedback-impact-item-content">
+                          <h4 className="feedback-impact-item-title">Formation of the Multi-Target Detection and Signal Amplification Strategy</h4>
+                          <div className="feedback-impact-item-feedback">
+                            <strong>Key Feedback:</strong> Professor Yan Xu emphasized the value of jointly detecting multiple target proteins (MMP-9/HER-2/PD-L1/EpCAM) for improving accuracy. Professors Hongmei Geng, Lu Ma, and Ye Yuan provided key validation for constructing a multi-stage amplification system from the perspectives of signal amplification principles, sensitivity, and reaction conditions.
+                          </div>
+                          <div className="feedback-impact-item-impact">
+                            <strong>Project Impact:</strong> These series of professional insights collectively prompted us to abandon a single detection mode. We ultimately developed an integrated detection scheme of "multi-target capture + HCR/RCA/Cas14 multi-stage amplification", significantly enhancing the reliability and clinical potential of our method.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="feedback-impact-item">
+                        <div className="feedback-impact-item-number">3</div>
+                        <div className="feedback-impact-item-content">
+                          <h4 className="feedback-impact-item-title">Anticipation of Clinical Translation and Commercial Prospects</h4>
+                          <div className="feedback-impact-item-feedback">
+                            <strong>Key Feedback:</strong> Industry experts like Professor Baofa Yu and Dr. Ming Lei assessed the technology's potential for clinical diagnostic applications and commercial viability, affirming its advantages in being simple to operate and cost-effective. They also provided specific suggestions such as integration with automated platforms and developing matched detection reagents.
+                          </div>
+                          <div className="feedback-impact-item-impact">
+                            <strong>Project Impact:</strong> This elevated our thinking beyond the laboratory. We proactively incorporated "cost control", "scalable production", and "regulatory compliance" into our long-term project planning, paving the way for future technology translation.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
         </section>
 
-        {/* 4.3 Interview on Why CD63 Aptamers Are Chosen */}
-        <section id="interview-cd63-aptamers" className="view-section">
+        {/* 4.3 Interviews with Clinical Doctors */}
+        <section id="interview-with-clinical-doctor" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">4.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down</div>
             </div>
+            <p>This section features interviews with doctors and experts in breast surgery, laboratory medicine, and public health.</p>
+            <p>Their feedback was crucial for transitioning our technology from the laboratory to clinical settings, ensuring it meets real medical needs, workflow requirements, and quality control standards.</p>
             <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure3} alt="Figure 12. Interview with Professor Yan Xu（徐琰）" />
+              {/* 4.3.1 Interview with Clinical Doctors */}
+              <section id="interview-with-clinical-doctors" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.3.1 Interview with Clinical Doctors
+                  </div>
                 </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Yan Xu（徐琰）</div>
-                    <p className="affiliation">Mainly studies tumor pharmacology chemistry and biomarkers</p>
-                    <p className="details">Figure 12. Interview with Professor Yan Xu（徐琰）</p>
+                <div className="content-body">
+                  <p>Interviewee: Youyong Lü</p>
+                  <p>Character Profile: Professor at Peking University Cancer Hospital, primarily researching tumor molecular biology, early cancer diagnosis, and personalized therapy.</p>
+                  {/* 图片 */}
+                  <div className="figure-item">
+                    <img src={SWOTAnalysisFigure1} alt="Figure 22. A photo with Professor Youyong Lü" className="figure-image" />
+                    <div className="h4">Figure 22. A photo with Professor Youyong Lü</div>
                   </div>
                   <div className="interview-summary">
-                    <p>CD63 and tumor-specific aptamers enable efficient exosome enrichment with superior stability, cost, and convenience over antibodies.</p>
-                    <p>Future optimization of modification and secondary enrichment can improve tumor exosome purity.</p>
-                    <p>This approach supports early, accurate breast cancer detection.</p>
+                    <p>
+                      1 Affirmed the important clinical significance of exosome-targeted liquid biopsy for early breast cancer screening.
+                    </p>
+                    <p>
+                      2 Considered the CD63 aptamer-magnetic bead method an efficient and gentle enrichment technique that well preserves exosomal bioactivity.
+                    </p>
+                    <p>
+                      3 Emphasized that the core of future work is to validate the efficacy in large clinical cohorts and explore its combination with existing screening methods.
+
+                    </p>
                   </div>
                 </div>
-              </div>
+              </section>
+
+              {/* 4.3.2 Interview with Breast Surgeons */}
+              <section id="interview-with-breast-surgeons" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.3.2 Interview with Breast Surgeons
+                  </div>
+                </div>
+                <div className="content-body">
+                  <p>Interviewee: Yanwu Zhang</p>
+                  <p>Character Profile: Associate Chief Physician at the Breast Disease Center of the Third Affiliated Hospital of Zhengzhou University.</p>
+                  {/* 图片 */}
+                  <div className="figure-item">
+                    <img src={SWOTAnalysisFigure1} alt="Figure 23. A photo with Associate Chief Physician Yanwu Zhang" className="figure-image" />
+                    <div className="h4">Figure 23. A photo with Associate Chief Physician Yanwu Zhang</div>
+                  </div>
+                  <div className="interview-summary">
+                    <p>
+                      1 Interview deepened understanding of breast cancer and emphasized early screening's importance.
+                    </p>
+                    <p>
+                      2 Doctor endorsed project's potential and advised on sample quality, clinical collaboration, and ethics.
+                    </p>
+                    <p>
+                      3 Feedback will guide project optimization for clinical application in early diagnosis and prevention.
+
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.3.3 Interview with Laboratory Doctors */}
+              <section id="interview-with-laboratory-doctors" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.3.3 Interview with Laboratory Doctors
+                  </div>
+                </div>
+                <div className="content-body">
+                  <p>Interviewee : Li Sun</p>
+                  <p>Character Profile: Engaged in clinical laboratory work and responsible for teaching the basics of clinical laboratory science and clinical hematology in the Department of Medical Laboratory Science at Zhengzhou University</p>
+                  {/* 图片 */}
+                  <div className="figure-item">
+                    <img src={SWOTAnalysisFigure1} alt="Figure 24. A photo with Laboratory Doctor Li Sun" className="figure-image" />
+                    <div className="h4">Figure 24. A photo with Laboratory Doctor Li Sun</div>
+                  </div>
+                  <div className="interview-summary">
+                    <p>
+                      1 Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.
+                    </p>
+                    <p>
+                      2 Key improvements needed: standardized sample processing, automated adaptation, cost control, and technical reproducibility.
+                    </p>
+                    <p>
+                      3 Next steps: refine protocols, enhance lab collaboration, and ensure the method becomes operable and scalable for practical clinical adoption.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* 4.3.4 Interview with Clinical Doctors in Other Countries */}
+              <section id="interview-with-clinical-doctor-in-other-countries" className="view-subsection">
+                <div className="content-section-header">
+                  <div className="h3">
+                    4.3.4 Interview with Clinical Doctors in Other Countries
+                  </div>
+                </div>
+                <div className="content-body">
+                  <div className="h3">1. Fundamental Adjustment of Clinical Priorities</div>
+                  <p>Key Feedback: Professor Youyong Lü, Chief Physician Yanwu Zhang, and other clinicians repeatedly emphasized that for a screening tool, "specificity is more critical than sensitivity" to minimize false-positive risks. Concurrently, laboratory medicine doctor Li Sun stressed that "Standardized Operating Procedures (SOPs)" are crucial for reliable results.</p>
+                  <br />
+                  <p>Project Impact: This prompted a strategic shift in our R&D focus, moving from "pursuing pure performance metrics" to "ensuring the credibility and reproducibility of results." We committed to establishing and strictly implementing SOPs, and prioritized optimizing specificity as the highest experimental priority.</p>
+                  <div className="h3">2. Clarification of Application Scenarios and Validation Pathways</div>
+                  <p>Key Feedback: Doctors advised initially validating the technology preferentially in "high-risk groups" and considering integration with community screening. They pointed out that efficacy must ultimately be proven through "large-scale clinical cohorts."</p>
+                  <p>Project Impact: This outlined a clear translation pathway for us. We adjusted our project narrative and promotion strategy, positioning screening for high-risk groups as the core application scenario. We also began planning long-term collaborations with hospitals to prepare for future clinical studies.</p>
+
+                </div>
+              </section>
             </div>
           </div>
         </section>
 
-        {/* 4.4 Interview on the selection of breast cancer cell lines */}
-        <section id="interview-breast-cancer-cell-lines" className="view-section">
+        {/* 4.4 Interview with Breast Surgeons */}
+        <section id="interview-with-breast-surgeon" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">4.4 Interview on the Selection of Breast Cancer Cell Lines</div>
             </div>
+            <p>This section features interviews with members of the public, breast cancer patients, and their families.</p>
+            <p>Their feedback focuses on ensuring our technological solution is user-friendly, accessible, and genuinely addresses user concerns, which is fundamental for the project's social acceptance.</p>
             <div className="content-body">
               <div className="interview-card reverse">
                 <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Xiaoyan Xuan</div>
-                    <p className="affiliation">Research on immune cell development and related diseases</p>
-                    <p className="details">Figure 13. Interview with Professor Xiaoyan Xuan</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>MCF-10A, as a non-tumorigenic normal breast epithelial cell line, provides an essential negative control baseline for distinguishing between tumor-derived and normal exosomes.</p>
-                    <p>MCF-7 (Luminal A type), MDA-MB-231 (triple-negative), and SK-BR-3 (HER2-positive) cover the major molecular subtypes of breast cancer, ensuring broad-spectrum validation of the detection method developed in the project.</p>
-                    <p>The combination of these four cell lines establishes a comprehensive model system ranging from normal to malignant, encompassing key subtypes, significantly enhancing the reliability of experimental data and clinical translation potential.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure4} alt="Interview with Professor Xiaoyan Xuan" />
+                  {/* 4.4.1 Interview with Public Representative */}
+                  <section id="interview-with-public-representative" className="interview-section">
+                    <div className="interview-info">
+                      <div className="h3">4.4.1 Interview with Public Representative</div>
+                      <p>Interviewee: A member of the public</p>
+                      {/* 图片 */}
+                      <div className="figure-item">
+                        <img src={SWOTAnalysisFigure1} alt="Figure 25. Public Interview" className="figure-image" />
+                        <div className="h4">Figure 25. Public Interview</div>
+                      </div>
+                      <div className="interview-content">
+                        <p>
+                          1 Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.
+                        </p>
+                        <p>
+                          2 Non-invasive blood tests are preferred for convenience but require improved accuracy and cost-effectiveness.
+                        </p>
+                        <p>
+                          3 Effective science communication should emphasize quantitative benefits of early screening and provide actionable guidance to boost participation.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+
+                  {/* 4.4.2 Interview with Breast Surgeons */}
+                  <section id="interview-with-breast-surgeons" className="interview-section">
+                    <div className="interview-info">
+                      <div className="h3">4.4.2 Interview with Breast Surgeons</div>
+                      <p>Interviewees：Patients and their families</p>
+                      <div className="interview-summary">
+                        <p>
+                          1 Patients emphasized the need for convenient, non-invasive early screening and expressed cautious interest in exosome technology, pending improved accuracy and cost.
+                        </p>
+                        <p>
+                          2 Treatment priorities included reduced side effects, precision therapy, lower costs, and better insurance coverage.
+                        </p>
+                        <p>
+                          3 Recovery relied on active rehabilitation, nutrition, and mental health support, highlighting patient-centered insights for improving care.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  {/* 4.4.3 Feedback & Impact */}
+                  <section id="feedback-and-impact" className="interview-section">
+                    <div className="interview-info">
+                      <div className="h3">4.4.3 Feedback & Impact</div>
+                      <div className="h3">1. Reshaping Product Positioning and User Experience</div>
+                      <p>Key Feedback: The public generally expressed reluctance towards traditional screening due to "fear of pain" and "complex procedures", showing a strong preference for detection methods that are "non-invasive, convenient, and low-cost". Patients and their families expressed deepest concern regarding the "accuracy" and "cost" of the test.</p>
+                      <p>Project Impact: These voices directly drove our product design philosophy. We defined the direction for a "home-sampling" product prototype and established "cost control (targeting &lt;¥200 per test)" and "simplified operation" as core design goals, equal in importance to technical performance.</p>
+                      <div className="h3">2. Integration of Communication Strategies and Psychological Care</div>
+                      <p>Key Feedback: Interviews revealed user "fear" of screening, concerns about "privacy", and (for male patients) "social stigma".</p>
+                      <p>Project Impact: In all our science communication efforts, we emphasized the benefits of early screening and provided clear operational guidance. Simultaneously, we proactively planned for post-test support channels for positive results and incorporated strict privacy protection measures into our design, directly addressing users' emotional needs.</p>
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 4.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established */}
-        <section id="interview-hcr-signal-amplification" className="view-section">
+        {/* 4.5 Summary of the interview */}
+        <section id="summary-of-the-interview" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established</div>
+              <div className="h2">4.5 Summary of the interview</div>
             </div>
             <div className="content-body">
+              <p>In conclusion, these systematic interviews form the three pillars of our project's iteration: Technical experts ensured scientific depth, clinical doctors outlined the scope of application, and patients and the public provided the technology with its human warmth.</p>
+              <p>The feedback from these three aspects is complementary and indispensable, working together to shape our breast cancer screening project from a preliminary concept into a responsible innovation solution that embodies technical foresight, clinical practicality, and social inclusivity.</p>
               <div className="interview-card">
                 <div className="interview-image">
                   <img src={InterviewFigure5} alt="Interview with Professor Hongmei Geng" />
@@ -738,319 +1467,10 @@ const MainContent = () => (
             </div>
           </div>
         </section>
-
-        {/* 4.6 Interview on Principles and Advantages of the RCA Method Module */}
-        <section id="interview-rca-method" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.6 Interview on Principles and Advantages of the RCA Method Module</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Lu Ma</div>
-                    <p className="affiliation">Focuses on discovering targeted anti-tumor drugs, with a strong interest in high-sensitivity detection technologies like RCA</p>
-                    <p className="details">Figure 15. Interview with Professor Lu Ma</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>RCA utilizes a circular DNA template for rolling circle amplification, generating long tandem repeat sequences and achieving exponential signal amplification, with a detection limit down to the single-molecule level.</p>
-                    <p>Its room temperature reaction conditions and high amplification efficiency are superior to PCR, making it more suitable for in situ detection of exosome biomarkers and integration into portable devices.</p>
-                    <p>RCA was selected as the core amplification module because it can synergize with HCR and Cas14, forming a multi-stage amplification system to enhance overall detection reliability.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure6} alt="Interview with Professor Lu Ma" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.7 Interview on Why Cas14 Enzyme Was Chosen */}
-        <section id="interview-cas14-enzyme" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.7 Interview on Why Cas14 Enzyme Was Chosen</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure7} alt="Interview with Professor Ye Yuan" />
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Ye Yuan</div>
-                    <p className="affiliation">Mainly studies the design, synthesis, and antibacterial mechanisms of polypeptide and small molecule self-assembled nanozymes</p>
-                    <p className="details">Figure 16. Interview with Professor Ye Yuan</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>As a compact CRISPR system, Cas14 specifically cleaves single-stranded DNA without PAM sequence restrictions, making it suitable for detecting exosomal DNA biomarkers.</p>
-                    <p>Its high editing activity and room temperature reaction characteristics significantly reduce detection time and are compatible with magnetic bead enrichment and liquid-phase detection workflows.</p>
-                    <p>Cas14 was chosen to enable controllable activation of detection signals and suppression of background noise, providing high signal-to-noise ratio quantitative analysis for tumor exosomes.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down */}
-        <section id="interview-thomas-sudhof" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Thomas Südhof</div>
-                    <p className="affiliation">Primarily researches synaptic vesicle trafficking, membrane fusion, and intercellular communication; Nobel Laureate in Physiology or Medicine</p>
-                    <p className="details">Figure 17. A photo with Professor Thomas Südhof</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Explained the rationale for CD63 as a pan-exosome marker from the biological basis of intercellular communication, noting its aptamer can efficiently capture exosomes for downstream analysis.</p>
-                    <p>Highlighted the potential advantages of aptamers over antibodies for capturing vesicular structures, particularly in stability and impact on membrane integrity.</p>
-                    <p>Expressed that this technology holds clear promise for analyzing the specific cargo of breast cancer-derived exosomes to achieve early diagnosis.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure8} alt="Professor Thomas Südhof" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.9 Interview on the Application of RNA Aptamers in Exosome Capture */}
-        <section id="interview-craig-mello" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.9 Interview on the Application of RNA Aptamers in Exosome Capture</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure9} alt="Professor Craig C. Mello" />
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Craig C. Mello</div>
-                    <p className="affiliation">Primarily researches RNA interference (RNAi) mechanisms and gene expression regulation; Nobel Laureate in Physiology or Medicine</p>
-                    <p className="details">Figure 18. A photo with Professor Craig C. Mello</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>From the perspective of specific recognition by nucleic acid molecules, affirmed the technical approach of using RNA aptamers for exosome capture.</p>
-                    <p>Emphasized the advantages of aptamers over protein antibodies in terms of synthesis cost, batch stability, and avoiding immunogenicity.</p>
-                    <p>Envisioned future integration of aptamer capture with RNAi technology to analyze exosomal cargo, thereby enhancing the specificity of breast cancer diagnosis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics */}
-        <section id="interview-yu-baofa" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Baofa Yu</div>
-                    <p className="affiliation">Expert in the field of cancer therapy, focusing on tumor-targeted therapy and drug delivery systems</p>
-                    <p className="details">Figure 19. Group photo with Professor Baofa Yu</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Highly evaluated the potential for clinical diagnostic applications, considering it simple to operate, cost-effective, and suitable for widespread use.</p>
-                    <p>Noted that the captured exosomes can be used for subsequent liquid biopsy analysis, providing a more convenient solution for early screening.</p>
-                    <p>Suggested future research could combine it with tumor-specific target aptamers for secondary enrichment, potentially improving detection sensitivity and specificity.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure10} alt="Professor Baofa Yu" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits */}
-        <section id="interview-lei-ming" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure11} alt="Professor Ming Lei" />
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Ming Lei</div>
-                    <p className="affiliation">Co-founder of UST Inc. (USA), focusing on the development and commercialization of in vitro diagnostic (IVD) technologies and products</p>
-                    <p className="details">Figure 20. A photo with Professor Ming Lei</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Analyzed the significant advantages from a commercialization perspective, particularly in stability, production scale, and cost control.</p>
-                    <p>Pointed out that this method is easy to integrate into automated platforms, aligning with IVD industry trends and possessing strong market prospects.</p>
-                    <p>Proposed that future optimization could include modifying the aptamer sequence to improve affinity and developing matched detection reagents to form a complete solution.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.12 Interview on Humanities and Ethics */}
-        <section id="interview-zheng-huaixin" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.12 Interview on Humanities and Ethics</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Huaixin Zheng</div>
-                    <p className="affiliation">Integrating profound humanistic care into research on pathogens and anti-infection immunity aligns closely with the ethical considerations of our exosome detection technology</p>
-                    <p className="details">Figure 21. Interview with Professor Huaixin Zheng</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Exosome technology enhances screening access and compliance but requires support in cost control, quality assurance, and simplified reporting.</p>
-                    <p>Priority application scenarios include high-risk groups and community-based preliminary screening.</p>
-                    <p>Real-world data should validate its long-term impact on reducing late-stage diagnoses, advancing health equity through accessible technology.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure12} alt="Professor Huaixin Zheng" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.13 Interview on the Clinical Significance of Exosome-Based Breast Cancer Screening */}
-        <section id="interview-lu-youyong" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.13 Interview on the Clinical Significance of Exosome-Based Breast Cancer Screening</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure13} alt="A photo with Professor Youyong Lü" />
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Youyong Lü</div>
-                    <p className="affiliation">Professor at Peking University Cancer Hospital, primarily researching tumor molecular biology, early cancer diagnosis, and personalized therapy</p>
-                    <p className="details">Figure 22. A photo with Professor Youyong Lü</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Affirmed the important clinical significance of exosome-targeted liquid biopsy for early breast cancer screening.</p>
-                    <p>Considered the CD63 aptamer-magnetic bead method an efficient and gentle enrichment technique that well preserves exosomal bioactivity.</p>
-                    <p>Emphasized that the core of future work is to validate the efficacy in large clinical cohorts and explore its combination with existing screening methods.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.14 Interview with Breast Surgeons */}
-        <section id="interview-zhang-yanwu" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.14 Interview with Breast Surgeons</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Yanwu Zhang</div>
-                    <p className="affiliation">Associate Chief Physician at the Breast Disease Center of the Third Affiliated Hospital of Zhengzhou University</p>
-                    <p className="details">Figure 23. Interview with Dr. Zhang</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Interview deepened understanding of breast cancer and emphasized early screening's importance.</p>
-                    <p>Doctor endorsed project's potential and advised on sample quality, clinical collaboration, and ethics.</p>
-                    <p>Feedback will guide project optimization for clinical application in early diagnosis and prevention.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure14} alt="Interview with Dr. Zhang" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.15 Interview with Laboratory Doctors */}
-        <section id="interview-sun-li" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.15 Interview with Laboratory Doctors</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure15} alt="Interview with Dr. Sun" />
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Li Sun</div>
-                    <p className="affiliation">Engaged in clinical laboratory work and responsible for teaching the basics of clinical laboratory science and clinical hematology in the Department of Medical Laboratory Science at Zhengzhou University</p>
-                    <p className="details">Figure 24. Interview with Dr. Sun</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.</p>
-                    <p>Key improvements needed: standardized sample processing, automated adaptation, cost control, and technical reproducibility.</p>
-                    <p>Next steps: refine protocols, enhance lab collaboration, and ensure the method becomes operable and scalable for practical clinical adoption.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.16 Interview with Public Representative */}
-        <section id="interview-public-representative" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">4.16 Interview with Public Representative</div>
-            </div>
-            <div className="content-body">
-              <div className="interview-card reverse">
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">A member of the public</div>
-                    <p className="affiliation">Community Representative</p>
-                    <p className="details">Figure 25. Public Interview</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.</p>
-                    <p>Non-invasive blood tests are preferred for convenience but require improved accuracy and cost-effectiveness.</p>
-                    <p>Effective science communication should emphasize quantitative benefits of early screening and provide actionable guidance to boost participation.</p>
-                  </div>
-                </div>
-                <div className="interview-image">
-                  <img src={InterviewFigure16} alt="Public Interview" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
       </div>
     </div>
     {/* 5 */}
-    <div id="integrated-report" className="view-content">
+    <div id="integrated-report-on-breast-health" className="view-content">
       <div className="content-header">
         <div className="h1">5 Integrated Report on Breast Health</div>
       </div>
@@ -1064,10 +1484,10 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               <p>
-                The <span>"Protecting Breast Health"</span> survey focused on the cognition, behaviors, and popular science needs regarding breast health knowledge. Data was collected through online questionnaires, with <span>200 valid responses</span> received, covering a diverse group of people, providing a basis for optimizing breast health science popularization.
+                The "Protecting Breast Health" survey focused on the cognition, behaviors, and popular science needs regarding breast health knowledge.
               </p>
+              <p>Data was collected through online questionnaires, with 200 valid responses received, covering a diverse group of people, providing a basis for optimizing breast health science popularization.</p>
               <div className="pdf-iframe-wrapper">
-
                 <object
                   data={SurveyPDF}
                   type="application/pdf"
@@ -1166,7 +1586,6 @@ const MainContent = () => (
                           <ol>
                             <li>Communities carry out self-examination training workshops for young women and distribute self-examination guide manuals</li>
                             <li>Medical institutions provide free simple breast screening for men to improve their participation enthusiasm</li>
-                            <li>Develop a healthy lifestyle check-in applet with reward mechanisms to encourage persistence</li>
                             <li>Push a series of popular science articles on medical platforms and social media to guide active learning</li>
                           </ol>
                         </div>
@@ -1252,7 +1671,7 @@ const MainContent = () => (
         </p>
 
         {/* 6.1 Feedback and Iteration Regarding Insufficient Awareness of Male Breast Cancer */}
-        <section id="male-breast-cancer-awareness" className="view-section">
+        <section id="feedback-iteration-regarding-insufficient-awareness-of-male-breast-cancer" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">6.1 Feedback and Iteration Regarding Insufficient Awareness of Male Breast Cancer</div>
@@ -1265,6 +1684,7 @@ const MainContent = () => (
                   </p>
 
                   <div className="figure-container">
+                    {/* 图片 */}
                     <div className="figure-item">
                       <img src={FeedbackIterationContentFigure1} alt="Figure 1. Conduct Science Popularization for the Male Group" className="figure-image" />
                       <div className="h4">Figure 29. Conduct Science Popularization for the Male Group</div>
@@ -1287,7 +1707,7 @@ const MainContent = () => (
         </section>
 
         {/* 6.2 Feedback and Iteration on Technical Optimization and Reliability Improvement */}
-        <section id="technical-optimization" className="view-section">
+        <section id="feedback-iteration-on-technical-optimization-and-reliability-improvement" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">6.2 Feedback and Iteration on Technical Optimization and Reliability Improvement</div>
@@ -1335,707 +1755,489 @@ const MainContent = () => (
       </div>
     </div>
     {/* 7 */}
-    <div id="education" className="view-content">
+    <div id="hp-driven-redesign-of-external-work" className="view-content">
       <div className="content-header">
-        <div className="h1">7 Education</div>
+        <div className="h1">7 HP-Driven Redesign of external work</div>
       </div>
 
       <div className="content-body">
         <p>
-          Through systematic questionnaires, in-depth interviews, and stakeholder analysis, we gained valuable feedback regarding the public's needs for science education. Surveys revealed that <span>85%</span> of the public find existing science communication formats "dry and difficult to understand," expressing a stronger desire for life sciences to be more closely integrated with daily life. These findings prompted us to redesign our educational approach, shifting from one-way knowledge transmission to two-way interactive learning, ensuring that each educational activity is rooted in real needs and addresses societal concerns.
+          The insights gathered through our Human Practices did not merely influence our laboratory research; they fundamentally reshaped our external activities and strategic framework.
         </p>
         <p>
-          In advancing early breast cancer screening and public education, we have consistently adhered to the philosophy that <span>"education is not the filling of a pail, but the lighting of a fire."</span> Through multi-level, differentiated educational practices, we have built a bridge between science and society. From hands-on experiments in primary schools to ethical debates in universities, we are committed to enabling every age group to understand science through interaction and to dispel knowledge gaps and fears about breast cancer through participation.
+          This section demonstrates how feedback directly guided the redesign of our education, collaboration, safety, and ethical policies, ensuring all external-facing work is deeply integrated with societal needs.
         </p>
 
         {/* 7.1 Education for Students: Inspiring the Next Generation */}
-        <section id="student-education" className="view-section">
+        <section id="education-outreach-from-dissemination-to-dialogue" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">7.1 Education for Students: Inspiring the Next Generation</div>
+              <div className="h2">7.1 Education & Outreach: From Dissemination to Dialogue</div>
             </div>
             <div className="content-body">
-
-              {/* 7.1.1 Primary Education */}
-              <section id="primary-education" className="view-section">
-                <div className="view-section-content">
-                  <div className="content-section-header">
-                    <div className="h3">7.1.1 Primary Education</div>
-                  </div>
-                  <div className="content-body">
-                    <p>
-                      For primary school students, we designed <span>immersive experiential activities</span> that transform abstract life sciences into tangible exploratory games. Through the "Strawberry DNA Extraction Experiment" and "DNA Science Workshop," children observed the magical moment of DNA precipitation through hands-on operation. Starting with everyday questions like "Why do some people dislike cilantro?", we guided them to discover the scientific principles behind daily phenomena. These activities not only cultivated the children's interest in science but also planted the seeds of exploring the unknown in their hearts.
-                    </p>
-                    <ImageGallery
-                      title="Figure 30. Primary Education"
-                      images={[
-                        {
-                          src: EducationFigure1_1_1,
-                          alt: "Primary Education Figure 30.1.1"
-                        },
-                        {
-                          src: EducationFigure1_1_2,
-                          alt: "Primary Education Figure 30.1.2"
-                        },
-                        {
-                          src: EducationFigure1_1_3,
-                          alt: "Primary Education Figure 30.1.3"
-                        },
-                        {
-                          src: EducationFigure1_1_4,
-                          alt: "Primary Education Figure 30.1.4"
-                        }
-                      ]}
-                    />
-                  </div>
+              <p>Our educational strategy evolved from one-way knowledge transfer to a dynamic, feedback-driven dialogue, ensuring our outreach was both engaging and effective.</p>
+              <p>Our initial plan involved standard popular science lectures. However, survey data revealed that 85% of the public found existing science communication formats "dry and difficult to understand.</p>
+              <p>This clear feedback necessitated a complete strategic pivot.</p>
+              <p>Consequently, we undertook a comprehensive redesign. First, we replaced lectures with interactive workshops, board games, and hands-on experiments.</p>
+              <p>This shift was directly validated by significantly higher engagement and positive feedback from participants across all age groups. </p>
+              <p>Second, we focused on real-time optimization during implementation.</p>
+              <p>For instance, during a DNA science pop-up class, a primary student's question—"Can the DNA helix break?"—prompted us to refine the accuracy and relatability of all our scientific analogies across educational materials. Finally, we segmented our communication channels based on data.</p>
+              <p>Surveys indicated that 59.3% of young people preferred short videos, while 40.7% of those over 50 favored community lectures.</p>
+              <p>This led us to develop a tiered communication system, producing animated shorts for social media while maintaining in-person lectures for older demographics.</p>
+              <div className="figure-container">
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_1} alt="Figure 30. Primary Education" className="figure-image" />
+                  <div className="h4">Figure 30. Primary Education</div>
                 </div>
-              </section>
-
-              {/* 7.1.2 Secondary Education */}
-              <section id="secondary-education" className="view-section">
-                <div className="view-section-content">
-                  <div className="content-section-header">
-                    <div className="h3">7.1.2 Secondary Education</div>
-                  </div>
-                  <div className="content-body">
-                    <p>
-                      Tailored to the cognitive characteristics of secondary school students, we designed practical activities such as the <span>"Plasmid Extraction Experiment"</span> and visits to the "Human Anatomy Science Museum." By playing the role of "Science Couriers," students completed the entire process of plasmid extraction, turning complex molecular biology techniques into an engaging challenge game. During the immersive experience in the anatomy museum, they not only learned about human structure and disease mechanisms but also gained a deeper appreciation for medical humanism and the social responsibility of scientists.
-                    </p>
-                    <ImageGallery
-                      title="Figure 31. Secondary Education"
-                      images={[
-                        {
-                          src: EducationFigure1_2_1,
-                          alt: "Secondary Education Figure 31.2.1"
-                        },
-                        {
-                          src: EducationFigure1_2_2,
-                          alt: "Secondary Education Figure 31.2.2"
-                        },
-                        {
-                          src: EducationFigure1_2_3,
-                          alt: "Secondary Education Figure 31.2.3"
-                        },
-                        {
-                          src: EducationFigure1_2_4,
-                          alt: "Secondary Education Figure 31.2.4"
-                        }
-                      ]}
-                    />
-                  </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_2} alt="Figure 30. Primary Education" className="figure-image" />
+                  <div className="h4">Figure 30. Primary Education</div>
                 </div>
-              </section>
-
-              {/* 7.1.3 University and Community Education */}
-              <section id="university-community-education" className="view-section">
-                <div className="view-section-content">
-                  <div className="content-section-header">
-                    <div className="h3">7.1.3 University and Community Education</div>
-                  </div>
-                  <div className="content-body">
-                    <p>
-                      For university students and the general public, we organized activities such as <span>"Medical Turtle Soup"</span> "Knowledge Arena" and International Women's Day outreach events to promote the integration of scientific knowledge and humanistic spirit. Through competition and games, participants not only acquired professional knowledge on breast cancer prevention and treatment but also deeply considered the ethical boundaries and social responsibilities of technological development. Interactive formats like board games significantly enhanced the effectiveness of knowledge dissemination, making health science more deeply resonant.
-                    </p>
-                    <ImageGallery
-                      title="Figure 32. University and Community Education"
-                      images={[
-                        {
-                          src: EducationFigure1_3_1,
-                          alt: "University Education Figure 32.3.1"
-                        },
-                        {
-                          src: EducationFigure1_3_2,
-                          alt: "University Education Figure 32.3.2"
-                        },
-                        {
-                          src: EducationFigure1_3_3,
-                          alt: "University Education Figure 32.3.3"
-                        },
-                        {
-                          src: EducationFigure1_3_4,
-                          alt: "University Education Figure 32.3.4"
-                        },
-                        {
-                          src: EducationFigure1_3_5,
-                          alt: "University Education Figure 32.3.5"
-                        }
-                      ]}
-                    />
-                  </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_1} alt="Figure 30. Primary Education" className="figure-image" />
+                  <div className="h4">Figure 30. Primary Education</div>
                 </div>
-              </section>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_2} alt="Figure 30. Primary Education" className="figure-image" />
+                  <div className="h4">Figure 30. Primary Education</div>
+                </div>
+              </div>
+              <div className="figure-container">
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_1} alt="Figure 31. Secondary Education" className="figure-image" />
+                  <div className="h4">Figure 31. Secondary Education</div>
+                </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_2} alt="Figure 31. Secondary Education" className="figure-image" />
+                  <div className="h4">Figure 31. Secondary Education</div>
+                </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_1} alt="Figure 31. Secondary Education" className="figure-image" />
+                  <div className="h4">Figure 31. Secondary Education</div>
+                </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_2} alt="Figure 31. Secondary Education" className="figure-image" />
+                  <div className="h4">Figure 31. Secondary Education</div>
+                </div>
+              </div>
+              <div className="figure-container">
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_1} alt="Figure 32. University and Community Education" className="figure-image" />
+                  <div className="h4">Figure 32. University and Community Education</div>
+                </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_2} alt="Figure 32. University and Community Education" className="figure-image" />
+                  <div className="h4">Figure 32. University and Community Education</div>
+                </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_1} alt="Figure 32. University and Community Education" className="figure-image" />
+                  <div className="h4">Figure 32. University and Community Education</div>
+                </div>
+                <div className="figure-item">
+                  <img src={IntegratedReportFigure3_2} alt="Figure 32. University and Community Education" className="figure-image" />
+                  <div className="h4">Figure 32. University and Community Education</div>
+                </div>
+              </div>
+              <div className="figure-item">
+                <img src={IntegratedReportFigure3_2} alt="Figure 33. Professional Education" className="figure-image" />
+                <div className="h4">Figure 33. Professional Education</div>
+              </div>
+              <div className="figure-item">
+                <img src={IntegratedReportFigure3_2} alt="Figure 34. Online Education" className="figure-image" />
+                <div className="h4">Figure 34. Online Education</div>
+              </div>
             </div>
+            <p>Ultimately, education itself became a two-way feedback loop. We not only disseminated knowledge but also used these interactions as a live channel to test messaging, identify knowledge gaps, and continuously refine our public engagement strategy.</p>
           </div>
         </section>
 
-        {/* 7.2 Professional Education: Bridging Science and Medicine */}
-        <section id="professional-education" className="view-section">
+        {/* 7.2 Collaboration & Partnership: Building a Feedback-Informed Network */}
+        <section id="collaboration-partnership" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">7.2 Professional Education: Bridging Science and Medicine</div>
+              <div className="h2">7.2 Collaboration & Partnership: Building a Feedback-Informed Network</div>
             </div>
             <div className="content-body">
               <p>
-                Our educational initiatives for healthcare and scientific research professionals form a crucial component of this project. Through expert interviews and SWOT analysis, we identified key issues including uneven screening capabilities across medical institutions and complexities in research translation. To address these, we organized a series of specialized seminars, inviting breast surgeons, laboratory specialists, and nurses to engage in in-depth dialogues.
+                We moved beyond general networking to establish strategic, purpose-driven partnerships, each designed to address a specific knowledge gap or challenge identified through our HP analysis.
               </p>
               <p>
-                Physicians emphasized that <span>"diagnostic tools must be paired with clear referral pathways,"</span> feedback that directly informed the optimization of our educational materials. Technical challenges raised by laboratory experts, such as "batch-to-batch variation control of magnetic beads" and "integration into automated detection platforms," prompted us to develop targeted training modules. These professionally tailored educational contents ensure the smooth transition of exosome detection technology from laboratory research to clinical application, effectively bridging science and medicine.
+                Our initial approach to collaboration was relatively broad. However, our SWOT analysis clearly highlighted key challenges: "difficulties in translating scientific research achievements" and "uneven distribution of medical resources." We needed targeted collaborations to address these issues.
+              </p>
+              <p>
+                Therefore, we reshaped our collaborations with clear objectives. To bridge the "translation gap," we partnered with Antu Biology. This provided systematic training on IVD regulatory pathways, enabling us to integrate compliance requirements into our R&D and quality control processes from an early stage. For technical validation and optimization, we engaged in exchanges with the UTokyo iGEM team, focusing specifically on CRISPR-Cas system selection and optimization, which provided alternative strategies for our signal amplification module. To accurately understand clinical needs, we worked closely with the Third Affiliated Hospital of Zhengzhou University. Feedback from breast surgeons and laboratory doctors emphasizing "specificity over sensitivity" and "standardized operating procedures" directly guided our experimental priorities and protocol development.
               </p>
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Professional Education Figure 1.4.1" className="figure-image" />
-                  <div className='h4'>Figure 33. Professional Education</div>
+                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
+                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
+                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
+                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
+                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
+                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 35. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className="h4">Figure 35. Institutional & Expert Collaboration</div>
                 </div>
               </div>
+
+              <div className="figure-container">
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Institutional & Expert Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
+                </div>
+              </div>
+
+
+              <div className="figure-container">
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
+                </div>
+                <div className="figure-item">
+                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
+                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
 
-        {/* 7.3 Online Education: Extending Our Reach */}
-        <section id="online-education" className="view-section">
+        {/* 7.3 Safety, Ethics & Policy: A Proactive Framework */}
+        <section id="safety-ethics-policy" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">7.3 Online Education: Extending Our Reach</div>
+              <div className="h2">7.3 Safety, Ethics & Policy: A Proactive Framework</div>
             </div>
             <div className="content-body">
               <p>
-                Online education serves as a vital strategy responding to the <span>"diverse preferences for science communication channels"</span> identified through questionnaire surveys. Based on data showing 49.6% of audiences prefer short videos and 30.8% anticipate community lectures, we established a multi-level digital science communication system.
+                Insights from patients and experts transformed our approach to safety and ethics from a reactive compliance checklist into a proactive, human-centered design framework.
               </p>
               <p>
-                Our WeChat public account regularly publishes illustrated articles such as <span>"Three Steps for Breast Self-Examination"</span> and "Common Misconceptions About Breast Cancer," utilizing visual illustrations and infographics to lower comprehension barriers. On Bilibili and Douyin platforms, dynamic demonstrations of self-examination procedures and animated explanations of exosome technology effectively address operational knowledge gaps among younger demographics.
+                Initially, our focus was on standard laboratory safety protocols. However, interviews with patients revealed deeper concerns: anxiety about false-positive results, data privacy, and the psychological burden associated with screening.
               </p>
               <p>
-                Furthermore, we consolidated all educational materials into an open-source toolkit shared globally through Wiki platforms, empowering teachers and student teams worldwide. This approach not only aligns with the opportunities identified in SWOT analysis but also ensures the accuracy and accessibility of science communication content.
+                This feedback drove a comprehensive redesign across all fronts. Regarding product safety and user trust, in response to user fears, we prioritized biocompatible materials and designed a simple, "foolproof" testing procedure to minimize operational errors. Simultaneously, we established clear post-test support channels to counsel users with positive results, directly addressing the anxiety highlighted in interviews. In terms of data ethics, prompted by patient concerns over privacy, we implemented strict informed consent and data anonymization protocols from the outset, exceeding basic regulatory requirements. For regulatory foresight, consultations with IVD industry experts made us aware of the "policy lag" threat. Consequently, we proactively studied FDA and CE regulatory pathways, ensuring our development process and documentation align with future medical device approval standards.
               </p>
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={EducationFigure3_1_1} alt="Online Education Figure 1.5.1" className="figure-image" />
-                  <div className='h4'>Figure 34. Online Education</div>
+                  <img src={EducationFigure3_1_1} alt="Figure 38. Laboratory Safety" className="figure-image" />
+                  <div className='h4'>Figure 38. Laboratory Safety</div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 7.4 Summary */}
-        <section id="education-summary" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">7.4 Summary</div>
-            </div>
-            <div className="content-body">
-              <div className="summary-content">
-                <p>
-                  Through systematic educational practices, we have successfully constructed a <span>full-chain science communication system</span>—from enlightenment to advanced understanding. These activities have not only disseminated knowledge on breast cancer prevention and treatment but have also fostered public scientific literacy and health awareness.
-                </p>
-                <p>
-                  The success of these educational practices validates the value of <span>"innovation through feedback."</span> In the future, we will continue to collect feedback through questionnaires, interviews, and other methods to dynamically optimize educational content, ensuring that science education remains a vibrant force that actively responds to societal concerns.
-                </p>
-              </div>
+              <p>Ultimately, safety and ethics became the cornerstone of public trust. By embedding these considerations, informed by Human Practices feedback, into our design philosophy, we are building not just an effective test, but a responsible, trustworthy, and compassionate healthcare solution.</p>
             </div>
           </div>
         </section>
       </div>
     </div>
     {/* 8 */}
-    <div id="cooperation" className="view-content">
-      <div className="content-header">
-        <div className="h1">8 Cooperation</div>
-      </div>
-      <div className="content-body">
-        <p>
-          At ZZU-iGEM, we firmly believe that meaningful innovation in synthetic biology stems not only from technological breakthroughs in the laboratory but also from <span>cross-disciplinary</span>, <span>cross-cultural</span>, and <span>multi-level collaboration</span> and dialogue. Through extensive partnerships with hospitals, enterprises, universities, international conferences, and educational institutions, we have deeply integrated technological R&D with humanistic care, advancing our breast cancer early screening project from concept to practice and truly fulfilling our mission of <span>"Technology Serving Society."</span>
-        </p>
-
-        {/* 8.1 Team-to-Team Technical Exchange */}
-        <section id="team-technical-exchange" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">8.1 Team-to-Team Technical Exchange</div>
-            </div>
-            <div className="content-body">
-              <p>
-                We actively engaged in global technical exchanges to optimize CRISPR-based detection technology for breast cancer screening. Our collaboration with the University of Tokyo iGEM team focused on comparative studies of CRISPR-Cas12a/Cas3 systems, addressing both technical efficiency and ethical frameworks for gene editing. At the 14th International Conference on Genomics, we presented our exosome detection system and received valuable guidance from Nobel Laureate Professor Thomas Südhof on clinical translation pathways.
-              </p>
-              <ImageGallery
-                title="Figure 35. Team-to-Team Technical Exchange"
-                images={[
-                  {
-                    src: CooperationFigure1_1,
-                    alt: "Figure 35.1.1 Team-to-Team Technical Exchange"
-                  },
-                  {
-                    src: CooperationFigure1_2,
-                    alt: "Figure 35.1.2 Team-to-Team Technical Exchange"
-                  },
-                  {
-                    src: CooperationFigure1_3,
-                    alt: "Figure 35.1.3 Team-to-Team Technical Exchange"
-                  },
-                  {
-                    src: CooperationFigure1_4,
-                    alt: "Figure 35.1.4 Team-to-Team Technical Exchange"
-                  },
-                  {
-                    src: CooperationFigure1_5,
-                    alt: "Figure 35.1.5 Team-to-Team Technical Exchange"
-                  }
-                ]}
-              />
-              <p>
-                Regional collaborations, including a cloud summit with nine universities, allowed us to share technical promotion strategies and refine public engagement methodologies. The 10th China Synthetic Biology Conference provided a platform for critical discussions with industry leaders like Twist Bioscience on scaling challenges and implementation pathways. These exchanges formed a comprehensive support system bridging fundamental research and industrial application.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* 8.2 Educational & Outreach Collaboration */}
-        <section id="educational-outreach-collaboration" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">8.2 Educational & Outreach Collaboration</div>
-            </div>
-            <div className="content-body">
-              <p>
-                We implemented a multi-tiered outreach strategy to disseminate synthetic biology knowledge across diverse audiences. In primary and secondary schools, interactive experiments and accessible explanations introduced students to gene editing fundamentals, fostering scientific curiosity.
-              </p>
-              <ImageGallery
-                title="Figure 36. Educational & Outreach Collaboration"
-                images={[
-                  {
-                    src: CooperationFigure2_1,
-                    alt: "Figure 36.2.1 Educational & Outreach Collaboration"
-                  },
-                  {
-                    src: CooperationFigure2_2,
-                    alt: "Figure 36.2.2 Educational & Outreach Collaboration"
-                  },
-                  {
-                    src: CooperationFigure2_3,
-                    alt: "Figure 36.2.3 Educational & Outreach Collaboration"
-                  },
-                  {
-                    src: CooperationFigure2_4,
-                    alt: "Figure 36.2.4 Educational & Outreach Collaboration"
-                  },
-                  {
-                    src: CooperationFigure2_5,
-                    alt: "Figure 36.2.5 Educational & Outreach Collaboration"
-                  },
-                  {
-                    src: CooperationFigure2_6,
-                    alt: "Figure 36.3.1 Educational & Outreach Collaboration"
-                  },
-                  {
-                    src: CooperationFigure2_7,
-                    alt: "Figure 36.3.2 Educational & Outreach Collaboration"
-                  },
-                ]}
-              />
-              <p>
-                Our partnership with Henan Provincial Maternal and Child Health Hospital established a "Research-Clinical-Public" model during International Women's Day initiatives. Through volunteer-supported health campaigns, we gathered public feedback on early detection technologies while providing technical explanations and logistical support.
-              </p>
-              <p>
-                At the Zhengzhou University Sino-Canadian High-Level Forum on Medical Education, we demonstrated synthetic biology applications in breast cancer diagnosis and engaged with global experts on integrating engineering technologies into medical education. These activities simultaneously promoted scientific literacy and generated practical insights for project improvement.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* 8.3 Institutional & Expert Collaboration */}
-        <section id="institutional-expert-collaboration" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">8.3 Institutional & Expert Collaboration</div>
-            </div>
-            <div className="content-body">
-              <p>
-                Strategic partnerships with medical institutions, industry leaders, and Nobel Laureates provided crucial guidance for our technical and regulatory development. Our collaboration with Autobio Diagnostics delivered systematic training on IVD regulatory requirements, including CE certification and ISO 13485 standards, ensuring compliance from initial R&D stages.
-              </p>
-              <ImageGallery
-                title="Figure 37. Institutional & Expert Collaboration"
-                images={[
-                  {
-                    src: CooperationFigure3_1,
-                    alt: "Figure 37.3.1 Institutional & Expert Collaboration"
-                  },
-                  {
-                    src: CooperationFigure3_2,
-                    alt: "Figure 37.3.2 Institutional & Expert Collaboration"
-                  },
-                  {
-                    src: CooperationFigure3_3,
-                    alt: "Figure 37.3.3 Institutional & Expert Collaboration"
-                  },
-                  {
-                    src: CooperationFigure3_4,
-                    alt: "Figure 37.3.4 Institutional & Expert Collaboration"
-                  },
-                  {
-                    src: CooperationFigure3_5,
-                    alt: "Figure 37.3.5 Institutional & Expert Collaboration"
-                  },
-                ]}
-              />
-              <p>
-                Academic exchanges with Professor Bao Fa in Japan and Nobel Laureate Professor Craig Mello at the Taian Symposium advanced our understanding of CRISPR and RNAi applications in oncology, particularly regarding ethical considerations and clinical translation pathways. Consultations with Twist Bioscience executives clarified engineering constraints for technology scaling, quality control protocols, and regulatory submission processes. These expert interactions ensured our project maintained both innovation excellence and practical implementability.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* 8.4 Summary */}
-        <section id="cooperation-summary" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">8.4 Summary</div>
-            </div>
-            <div className="content-body">
-              <div className="summary-content">
-                <p>
-                  The ZZU-iGEM project exemplifies how <span>open collaboration and mutual empowerment</span> drive meaningful innovation. Each exchange represented a convergence of technological advancement and humanistic values, while every partnership accelerated the translation of theoretical research into practical solutions.
-                </p>
-                <p>
-                  Through cross-disciplinary dialogues, we have not only advanced breast cancer screening technology but also demonstrated synthetic biology's societal potential and the responsibility of young scientists. Moving forward, we remain committed to deepening these collaborations to ensure technology truly serves humanity and innovation benefits all society.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-    {/* 9 */}
-    <div id="bioethics" className="view-content">
-      <div className="content-header">
-        <div className="h1">9 Bioethics</div>
-      </div>
-      <div className="content-body">
-        <p>
-          We deeply recognize that any intervention in biological systems through synthetic biology must be grounded in <span>thorough ethical reflection</span>. Therefore, we have always placed ethical considerations at the forefront of our early breast cancer detection project. Based on a series of in-depth interviews, we have further established a <span>patient-wellbeing-centric design philosophy</span>. It is important to note that while our project does not directly involve treatment, we are consistently committed to ensuring that every test embodies a practice of <span>warm, humanistic care</span>.
-        </p>
-        <p>
-          Specifically, we focus on the <span>accessibility of the detection technology</span> and its <span>psychological impact</span>: On one hand, we optimize processes to reduce production costs, thereby ensuring women from diverse economic backgrounds can have equitable access to screening. On the other hand, we strictly define the confidence intervals for test results and proactively provide clear result interpretation guidelines and psychological counseling support channels. This helps avoid unnecessary psychological distress caused by false-positive results. Regarding safety, all laboratory operations comply with <span>Biosafety Level 2 standards</span>, ensuring zero risk to the environment and personnel.
-        </p>
-        <p>
-          Furthermore, we place special emphasis on <span>human-centric design</span> for the testing experience. For instance, we have simplified the operational procedures so that tests can be conducted in community hospitals, reducing the need for patients to travel extensively. On an industrial design level, the testing devices employ soft colors and rounded forms to alleviate the anxiety often associated with medical settings. More importantly, we have established a <span>post-test support system</span>. By collaborating with partner medical institutions, we provide green channels for women requiring further diagnosis and conduct ongoing patient education programs to help the public develop a scientific understanding of prevention and treatment.
-        </p>
-        <div className="summary-content">
-          <div className="h3">Summary</div>
-          <p>
-            In summary, this philosophy of deeply integrating <span>technological innovation with humanistic care</span> essentially reflects our reverence for the dignity of life. Our goal is not merely to detect cancer cells, but to safeguard every woman's hope for a better life. Precisely for this reason, we firmly believe that genuine medical progress should make technology more compassionate and, simultaneously, make humanistic care more accessible.
-          </p>
-        </div>
-      </div>
-    </div>
-    {/* 10 */}
-    <div id="law-policy" className="view-content">
-      <div className="content-header">
-        <div className="h1">10 Law and Policy</div>
-      </div>
-      <div className="content-body">
-        <p>
-          We consistently treat <span>legal and policy compliance</span> as the foundation for advancing our early breast cancer detection project. At the technological R&D level, we strictly adhere to international guidelines and local laws and regulations concerning synthetic biology. All laboratory operations comply with <span>Biosafety Level 2 standards</span>, and we implement stringent biological waste disposal protocols to ensure zero environmental leakage of engineered strains and biological materials, fully conforming to environmental protection safety standards.
-        </p>
-        <p>
-          At the medical product development level, we strictly follow the regulatory requirements of the <span>Food and Drug Administration (FDA)</span> for In Vitro Diagnostic (IVD) devices. Our processes—from biomarker selection and assay optimization to equipment design—all comply with quality system regulations. Currently in the preclinical research stage, the project will, upon progressing to clinical and industrial phases, involve collaboration with medical institutions to systematically conduct performance validation and clinical trials. We will subsequently apply for <span>FDA approval</span> via the 510(k) or De Novo pathways as appropriate, ensuring the product's safety, efficacy, and reliability.
-        </p>
-        <p>
-          Regarding data and ethics, the use of all patient samples and data is based on <span>informed consent</span> and complies with health data privacy protection regulations. We are committed to advancing technological innovation within the legal and regulatory framework, aiming to make early breast cancer detection a <span>safe, accessible, and trustworthy</span> public healthcare resource.
-        </p>
-      </div>
-    </div>
-    {/* 11 */}
-    <div id="safety" className="view-content">
-      <div className="content-header">
-        <div className="h1">11 Safety</div>
-      </div>
-      <div className="content-body">
-        <p>
-          Our team considers <span>safety assurance</span> as the fundamental cornerstone of project development, committed to implementing stringent safety standards throughout the entire process of scientific exploration, product transformation, and social application. In the development of early breast cancer detection technology, we consistently base our work on a <span>systematic risk management framework</span> that covers all aspects—from laboratory operations and material handling to personnel training and product design—ensuring every task complies with biosafety and ethical norms to reliably safeguard the safety of team members, end-users, and the environment.
-        </p>
-        <p>
-          In terms of <span>laboratory safety</span>, we strictly adhere to <span>Biosafety Level 2 (BSL-2) standards</span> for all experimental activities. All operations involving engineered strains, human tumor cell lines, and nucleic acid amplification reagents are conducted within biosafety cabinets or under appropriate ventilation conditions to minimize the risk of aerosol contamination and cross-contact. Team members must complete comprehensive safety training and pass assessments before gaining laboratory access. Training covers the correct use of personal protective equipment, handling procedures for chemical and biological waste, and emergency response protocols. We rigorously enforce a <span>"buddy supervision system,"</span> prohibiting any form of solo experimentation. All high-risk operations require dual-person verification and process documentation to ensure controllability, traceability, and reliability.
-        </p>
-        <div className="figure-container">
-          <div className="figure-item">
-            <img src={SafetyFigure1} alt="Laboratory Safety Figure 1.1" className="figure-image" />
-            <div className="h4">Figure 38. Laboratory Safety</div>
-          </div>
-
-        </div>
-        <p>
-          Regarding <span>technical safety and product responsibility</span>, we emphasize user safety and environmental compatibility from the design stage. All components used in the diagnostic system are selected for their biocompatibility, avoiding the introduction of toxic or high-risk substances. The testing procedure is designed to be simple and reliable, significantly reducing potential risks arising from operational errors. Clear disposal guidelines are provided for all components, ensuring full lifecycle compliance with environmental requirements—from production and use to disposal. Throughout the project, we consistently prioritize the <span>ethical boundaries of synthetic biology</span>, maintaining communication with biosafety committees and ethics experts. All external materials undergo review to prevent misleading statements, upholding rigor and transparency to earn public trust.
-        </p>
-        <div className="summary-content">
-          <div className="h3">Summary</div>
-          <p>
-            We firmly believe that <span>innovation must be built upon safety and responsibility</span>. By integrating safety awareness into every phase of R&D, the early breast cancer detection project not only aims to deliver effective medical solutions but also strives to advance public health through safe, trustworthy, and human-centered technology.
-          </p>
-        </div>
-      </div>
-    </div>
-    {/* 12 */}
     <div id="spread" className="view-content">
       <div className="content-header">
-        <div className="h1">12 Spread</div>
+        <div className="h1">8 Spread</div>
       </div>
       <div className="content-body">
         <p>
-          In the healthcare field, the dissemination of disease awareness and the implementation of technological innovation often go hand in hand. When we identified, through online information and public exchanges, the importance of early breast cancer diagnosis and the widespread lack of public science education, we resolved to build a <span>multi-dimensional, comprehensive science education and promotion system</span> with the goal of <span>"bridging the knowledge gap and promoting technological accessibility."</span>
+          In the healthcare field, the dissemination of disease awareness and the implementation of technological innovation often go hand in hand.
+
+        </p>
+        <p>
+          When we identified, through online information and public exchanges, the importance of early breast cancer diagnosis and the widespread lack of public science education, we resolved to build a multi-dimensional, comprehensive science education and promotion system with the goal of "bridging the knowledge gap and promoting technological accessibility."
         </p>
 
-        {/* 12.1 Online Matrix */}
+        {/* 8.1 Online Matrix: Breaking Down Information Barriers with New Media */}
         <section id="online-matrix" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">12.1 Online Matrix: Breaking Down Information Barriers with New Media</div>
+              <div className="h2">8.1 Online Matrix: Breaking Down Information Barriers with New Media</div>
             </div>
             <div className="content-body">
               <p>
-                We established a <span>dual-platform communication matrix</span> comprising the iGEM-ZZU WeChat public account and a YouTube short-form video channel. On the public account, we launched a "Breast Cancer Early Diagnosis" column, using accessible language to explain cutting-edge detection technologies like CRISPR—for instance, translating "mammography" into "calcification tracking" and using comic-style diagrams to illustrate technical principles. Simultaneously, we serialized "ZZU Team's Progress in the Breast Cancer Early Diagnosis Project," conveying key messages such as <span>"early diagnosis and treatment can increase survival rates by 40%"</span> through real-world scenarios. The short-form video platform focused on "bite-sized science," producing lightweight content like "Understanding CRISPR in 2 Minutes" and "ZZU-iGEMers' Vlogs." Feedback in the comments sections confirmed the reach and impact of these science communication efforts.
+                We established a dual-platform communication matrix comprising the iGEM-ZZU WeChat public account and a YouTube short-form video channel. On the public account, we launched a "Breast Cancer Early Diagnosis" column, using accessible language to explain cutting-edge detection technologies like CRISPR—for instance, translating "mammography" into "calcification tracking" and using comic-style diagrams to illustrate technical principles. Simultaneously, we serialized "ZZU Team's Progress in the Breast Cancer Early Diagnosis Project," conveying key messages such as "early diagnosis and treatment can increase survival rates by 40%" through real-world scenarios. The short-form video platform focused on "bite-sized science," producing lightweight content like "Understanding CRISPR in 2 Minutes" and "ZZU-iGEMers' Vlogs." Feedback in the comments sections confirmed the reach and impact of these science communication efforts.
               </p>
-
+              {/* 图片 */}
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={SpreadFigure1_1} alt="Figure 1. iGEM-ZZU WeChat Public Account" className="figure-image" />
-                  <div className="h4">Figure 39. iGEM-ZZU WeChat Public Account</div>
-
+                  <img src={SpreadFigure1_1} alt="Figure 39. iGEM-ZZU WeChat Public Account" className="figure-image" />
+                  <div className='h4'>Figure 39. iGEM-ZZU WeChat Public Account</div>
                 </div>
+              </div>
+              <div className="figure-container">
                 <div className="figure-item">
-                  <img src={SpreadFigure1_2} alt="Figure 2. YouTube Short-form Video Channel" className="figure-image" />
-                  <div className="h4">Figure 40. YouTube Short-form Video Channel</div>
+                  <img src={SpreadFigure1_2} alt="Figure 40. YouTube Short-form Video Channel" className="figure-image" />
+                  <div className='h4'>Figure 40. YouTube Short-form Video Channel</div>
                 </div>
-
-
               </div>
               <p>
-                This content was not created in isolation but drew on the operational logic of excellent medical science accounts within the industry—blending the rigor of professional institutional accounts with the communication skills of health Key Opinion Leaders (KOLs), allowing complex knowledge to permeate public awareness in an <span>engaging and popular format</span>.
+                This content was not created in isolation but drew on the operational logic of excellent medical science accounts within the industry—blending the rigor of professional institutional accounts with the communication skills of health Key Opinion Leaders (KOLs), allowing complex knowledge to permeate public awareness in an engaging and popular format.
               </p>
             </div>
           </div>
         </section>
 
-        {/* 12.2 Offline Scenarios */}
+        {/* 8.2 Offline Scenarios: Integrating Science into the Fabric of Daily Life */}
         <section id="offline-scenarios" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">12.2 Offline Scenarios: Integrating Science into the Fabric of Daily Life</div>
+              <div className="h2">8.2 Offline Scenarios: Integrating Science into the Fabric of Daily Life</div>
             </div>
             <div className="content-body">
-              <p>
-                We extended our science education efforts from online to offline, creating <span>"immersive health interaction zones."</span> In hospitals and communities, we organized public welfare pop-up events for breast health, using models to demonstrate breast anatomy, allowing residents to visually understand "why regular screening can interrupt the cancer progression process." On university campuses, we set up "interactive science booths" featuring quick Q&As, puzzle games, board games, warm message walls, and other interactive installations. These transformed academic concepts like five-year survival rates and pathological subtypes into <span>gamified content</span> that young people could participate in and share.
+              <p>We extended our science education efforts from online to offline, creating "u     In hospitals and communities, we organized public welfare pop-up events for breast health, using models to demonstrate breast anatomy, allowing residents to visually understand "why regular screening can interrupt the cancer progression process." On university campuses, we set up "interactive science booths" featuring quick Q&As, puzzle games, board games, warm message walls, and other interactive installations. These transformed academic concepts like five-year survival rates and pathological subtypes into gamified content that young people could participate in and share.
               </p>
-              <ImageGallery
-                title="Figure 41. Offline Scenarios and Interactive Activities"
-                images={[
-                  {
-                    src: SpreadFigure2_1,
-                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
-                  },
-                  {
-                    src: SpreadFigure2_2,
-                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
-                  },
-                  {
-                    src: SpreadFigure2_3,
-                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
-                  },
-                  {
-                    src: SpreadFigure2_4,
-                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
-                  },
-                  {
-                    src: SpreadFigure2_5,
-                    alt: "Figure 41. Offline Scenarios and Interactive Activities"
-                  },
-                ]}
-              />
+              {/* 图片 */}
+              <div className="figure-container">
+                <div className="figure-item">
+                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
+                  <div className='h4'>Figure 41. Offline Scenarios</div>
+                </div>
+                <div className="figure-item">
+                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
+                  <div className='h4'>Figure 41. Offline Scenarios</div>
+                </div>
+                <div className="figure-item">
+                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
+                  <div className='h4'>Figure 41. Offline Scenarios</div>
+                </div>
+                <div className="figure-item">
+                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
+                  <div className='h4'>Figure 41. Offline Scenarios</div>
+                </div>
+                <div className="figure-item">
+                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
+                  <div className='h4'>Figure 41. Offline Scenarios</div>
+                </div>
+              </div>
+
               <p>
-                More innovatively, we transformed laboratory technology into <span>participatory science</span>: in primary and secondary schools, we conducted "Strawberry DNA Extraction" experiments, using the "code of life in fruit" as an analogy for "breast cancer biomarker detection," planting the seeds of scientific exploration. In middle schools, we held cocktail receptions, using a crossover format of "molecular gastronomy + medical knowledge" to explain the link between diet and breast health. We organized high school students to visit human anatomy specimen museums, linking breast specimens to explanations of CRISPR technology's application in breast cancer detection, thereby helping future potential healthcare audiences build an early understanding of <span>"technology for the people."</span>
+                More innovatively, we  : in primary and secondary schools, we conducted "Strawberry DNA Extraction" experiments, using the "code of life in fruit" as an analogy for "breast cancer biomarker detection," planting the seeds of scientific exploration. In middle schools, we held cocktail receptions, using a crossover format of "molecular gastronomy + medical knowledge" to explain the link between diet and breast health. We organized high school students to visit human anatomy specimen museums, linking breast specimens to explanations of CRISPR technology's application in breast cancer detection, thereby helping future potential healthcare audiences build an early understanding of "technology for the people."
               </p>
             </div>
           </div>
         </section>
 
-        {/* 12.3 Two-Way Linkage */}
+        {/* 8.3 Two-Way Linkage: From "Knowledge Transfer" to "Trust Building" */}
         <section id="two-way-linkage" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">12.3 Two-Way Linkage: From "Knowledge Transfer" to "Trust Building"</div>
+              <div className="h2">8.3 Two-Way Linkage: From "Knowledge Transfer" to "Trust Building"</div>
             </div>
             <div className="content-body">
               <p>
-                Online science communication helped the public recognize that breast cancer is not invincible and that early diagnosis is key. Offline interactive experiences turned technology from a laboratory concept into a tangible solution. The linkage between these two ultimately aims to create a <span>"public-healthcare-technology" trust loop</span>: when people learn about the value of early breast cancer diagnosis through science communication, they naturally develop an interest in the CRISPR detection technology our team is developing. Conversely, the professionalism of the technology lends authority to the science content, creating a virtuous cycle where <span>"science education raises awareness, and technology meets the demand."</span>
+                Online science communication helped the public recognize that breast cancer is not invincible and that early diagnosis is key. Offline interactive experiences turned technology from a laboratory concept into a tangible solution. The linkage between these two ultimately aims to create a "public-healthcare-technology" trust loop: when people learn about the value of early breast cancer diagnosis through science communication, they naturally develop an interest in the CRISPR detection technology our team is developing. Conversely, the professionalism of the technology lends authority to the science content, creating a virtuous cycle where "science education raises awareness, and technology meets the demand."
               </p>
               <p>
-                In the future, we will continue to deepen the integrated model of <span>"content-scenario-technology,"</span> ensuring that breast cancer early diagnosis education is both warm and profound, and enabling cutting-edge testing technology to truly move from the laboratory to every corner where it is needed.
+                In the future, we will continue to deepen the integrated model of "content-scenario-technology," ensuring that breast cancer early diagnosis education is both warm and profound, and enabling cutting-edge testing technology to truly move from the laboratory to every corner where it is needed.
               </p>
             </div>
           </div>
         </section>
+
       </div>
     </div>
-
-    {/* 13 */}
+    {/* 9 */}
     <div id="inclusiveness" className="view-content">
       <div className="content-header">
-        <div className="h1">13 Inclusiveness</div>
+        <div className="h1">9 Inclusiveness Design</div>
       </div>
       <div className="content-body">
-        <p>
-          Our iGEM project deeply recognizes that true innovation lies not only in technological breakthroughs but also in ensuring that the technology is <span>inclusive and benefits everyone</span>. We have worked systematically to break down barriers to public engagement with synthetic biology and translate cutting-edge science into <span>equitable and accessible social benefits</span>.
-        </p>
-
-        {/* 13.1 Technological Inclusiveness */}
-        <section id="technological-inclusiveness" className="view-section">
+        <p>Our iGEM project deeply recognizes that true innovation lies not only in technological breakthroughs but also in ensuring that the technology is inclusive and benefits everyone. We have worked systematically to break down barriers to public engagement with synthetic biology and translate cutting-edge science into equitable and accessible social benefits.</p>
+        {/* 9.1 Inclusiveness Overview */}
+        <section id="inclusiveness-overview" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">13.1 Technological Inclusiveness</div>
+              <div className="h2">9.1 Inclusiveness Overview</div>
             </div>
             <div className="content-body">
               <p>
-                The gold-standard <span>lateral flow biosensor (LFB)</span> we designed integrates multiple marker proteins to cover various breast cancer subtypes as comprehensively as possible during detection, thereby reducing false negatives caused by tumor heterogeneity. This multi-target detection approach ensures that patients with rare or atypical breast cancers are not excluded from early diagnosis. Additionally, the test strip is simple to operate and does not rely on large instruments, making it particularly suitable for <span>elderly patients, people in primary-care or remote areas, and those with limited mobility</span>—effectively lowering diagnostic barriers caused by uneven distribution of medical resources. We are also exploring the possibility of using <span>non-invasive samples</span> (such as saliva or urine) to provide a more user-friendly testing pathway for special populations, including individuals with coagulation disorders or mucosal sensitivity.
-              </p>
+                The gold-standard lateral flow biosensor (LFB) we designed integrates multiple marker proteins to cover various breast cancer subtypes as comprehensively as possible during detection, thereby reducing false negatives caused by tumor heterogeneity. This multi-target detection approach ensures that patients with rare or atypical breast cancers are not excluded from early diagnosis. Additionally, the test strip is simple to operate and does not rely on large instruments, making it particularly suitable for elderly patients, people in primary-care or remote areas, and those with limited mobility—effectively lowering diagnostic barriers caused by uneven distribution of medical resources. We are also exploring the possibility of using non-invasive samples (such as saliva or urine) to provide a more user-friendly testing pathway for special populations, including individuals with coagulation disorders or mucosal sensitivity.              </p>
             </div>
           </div>
         </section>
 
-        {/* 13.2 Community Dialogue */}
-        <section id="community-dialogue" className="view-section">
+
+        {/* 9.2 Community Dialogues */}
+        <section id="community-dialogues" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">13.2 Community Dialogue</div>
+              <div className="h2">9.2 Community Dialogues</div>
             </div>
             <div className="content-body">
-              {/* 13.2.1 Inclusiveness of Women and Patient Groups */}
-              <div className="sub-section">
-                <div className="h3">13.2.1 Inclusiveness of Women and Patient Groups</div>
-                <p>
-                  As breast cancer is one of the most common cancers among women globally, we have always placed <span>women and patients at the core</span> of our practice. Through surveys and interviews, we specifically collected feedback from breast cancer patients and their families to gain a deeper understanding of the challenges they face in diagnosis, treatment, and psychological well-being. For example, patients often express concerns about the complexity and high cost of detection methods, as well as the anxiety associated with medical visits. By listening to these voices, we have prioritized <span>simplicity of use, low psychological burden, and accessibility</span> in our product design, striving to enable women to access health information in a comfortable and safe environment. Furthermore, during outreach activities on International Women's Day, we integrated breast health education with messages of self-care, helping more women recognize the importance of early detection.
-                </p>
-                <div className="figure-container">
-                  <div className="figure-item">
-                    <img src={InclusivenessFigure2_1} alt="Figure 1. Inclusiveness of Women and Patient Groups" className="figure-image" />
-                    <div className="h4">Figure 42. Inclusiveness of Women and Patient Groups</div>
+              {/* 9.2.1 Inclusiveness of Women and Patient Groups */}
+              <section id="inclusiveness-of-women-and-patient-groups" className="view-section">
+                <div className="content-section-header">
+                  <div className="h3">9.2.1 Inclusiveness of Women and Patient Groups</div>
+                </div>
+                <div className="content-body">
+                  <p>
+                    As breast cancer is one of the most common cancers among women globally, we have always placed women and patients at the core of our practice. Through surveys and interviews, we specifically collected feedback from breast cancer patients and their families to gain a deeper understanding of the challenges they face in diagnosis, treatment, and psychological well-being. For example, patients often express concerns about the complexity and high cost of detection methods, as well as the anxiety associated with medical visits. By listening to these voices, we have prioritized simplicity of use, low psychological burden, and accessibility in our product design, striving to enable women to access health information in a comfortable and safe environment. Furthermore, during outreach activities on International Women’s Day, we integrated breast health education with messages of self-care, helping more women recognize the importance of early detection.                  </p>
+                  {/* 图片 */}
+                  <div className="figure-container">
+                    <div className="figure-item">
+                      <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
+                      <div className='h4'>Figure 41. Offline Scenarios</div>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* 13.2.2 Inclusiveness of Male Breast Cancer Patients */}
-              <div className="sub-section">
-                <div className="h3">13.2.2 Inclusiveness of Male Breast Cancer Patients</div>
-                <p>
-                  Although breast cancer is more common in women, men can also develop the disease. However, due to its lower incidence, male breast cancer is often overlooked. Male patients not only face diagnostic and treatment challenges but may also endure psychological stress and social stigma stemming from limited public awareness. Our detection system, based on exosome biomarkers, is <span>not gender-specific</span> and is equally applicable to male patients. In our human practices, we have specifically emphasized in science communication that <span>"men can also get breast cancer,"</span> helping to dispel misconceptions and biases. This reflects our attention to minority groups and expands the project's applicability and social value.
-                </p>
-                <div className="figure-container">
-                  <div className="figure-item">
-                    <img src={InclusivenessFigure2_2} alt="Figure 2. Inclusiveness of Male Breast Cancer Patients" className="figure-image" />
-                    <div className="h4">Figure 43. Inclusiveness of Male Breast Cancer Patients</div>
-                  </div>
+              </section>
+
+              {/* 9.2.2 Inclusiveness of Male Breast Cancer Patients */}
+              <section id="inclusiveness-of-male-breast-cancer-patients" className="view-section">
+                <div className="content-section-header">
+                  <div className="h3">9.2.2 Inclusiveness of Male Breast Cancer Patients</div>
                 </div>
-              </div>
+                <div className="content-body">
+                  <p>
+                    Although breast cancer is more common in women, men can also develop the disease. However, due to its lower incidence, male breast cancer is often overlooked. Male patients not only face diagnostic and treatment challenges but may also endure psychological stress and social stigma stemming from limited public awareness. Our detection system, based on exosome biomarkers, is not gender-specific and is equally applicable to male patients. In our human practices, we have specifically emphasized in science communication that "men can also get breast cancer," helping to dispel misconceptions and biases. This reflects our attention to minority groups and expands the project’s applicability and social value.                  </p>
+                </div>
+              </section>
             </div>
           </div>
         </section>
-
-        {/* 13.3 Educational Practices for Different Age Groups */}
+        {/* 9.3 Educational Practices */}
         <section id="educational-practices" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">13.3 Educational Practices for Different Age Groups</div>
-            </div>
-            <div className="content-body">
-              <p>
-                In our human practices, we placed strong emphasis on <span>educational inclusivity</span> by designing activities tailored to different age groups. For elementary school students, we designed a "Strawberry DNA Extraction" experiment to let children experience the joy of science through hands-on cooperation. For middle school students, we held relaxed exchanges in the format of "light receptions" to help them engage with advanced knowledge in an informal atmosphere. For university students, we organized a lecture series titled <span>"Global Vision, Synthetic Future"</span> to enhance their scientific literacy. At the same time, we integrated breast health themes into International Women's Day activities, paying special attention to raising health awareness among young women. These activities covered multiple stages from childhood to young adulthood, ensuring that people with different educational backgrounds and cognitive levels could benefit.
-              </p>
-              <ImageGallery
-                title="Figure 43. Educational Practices for Different Age Groups"
-                images={[
-                  {
-                    src: InclusivenessFigure3_1,
-                    alt: "Figure 43. Educational Practices for Different Age Groups"
-                  },
-                  {
-                    src: InclusivenessFigure3_2,
-                    alt: "Figure 43. Educational Practices for Different Age Groups"
-                  },
-                  {
-                    src: InclusivenessFigure3_3,
-                    alt: "Figure 43. Educational Practices for Different Age Groups"
-                  }]}
-              />
+          <div className="content-section-header">
+            <div className="h2">9.3 Educational Practices</div>
+          </div>
+          <div className="content-body">
+            <p>
+              Educational practices play a crucial role in promoting inclusiveness and equity in breast cancer care. By providing comprehensive training and support to both women and patient groups, we can equip them with the knowledge and skills needed to make informed decisions about their health. This, in turn, can help to reduce the incidence of breast cancer and improve the overall quality of life for all women.
+            </p>
+            {/* 图片 */}
+            <div className="figure-container">
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 43. Educational Practices for Different Age Groups" className="figure-image" />
+                <div className='h4'>Figure 43. Educational Practices for Different Age Groups</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 43. Educational Practices for Different Age Groups" className="figure-image" />
+                <div className='h4'>Figure 43. Educational Practices for Different Age Groups</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 43. Educational Practices for Different Age Groups" className="figure-image" />
+                <div className='h4'>Figure 43. Educational Practices for Different Age Groups</div>
+              </div>
             </div>
           </div>
         </section>
-
-        {/* 13.4 Breaking Disciplinary and Cultural Boundaries */}
-        <section id="disciplinary-boundaries" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">13.4 Breaking Disciplinary and Cultural Boundaries</div>
-            </div>
-            <div className="content-body">
-              <p>
-                In terms of communication and collaboration, we participated in international and domestic conferences such as the online exchange with the University of Tokyo, the World Gene Conference, and CCiC, engaging in discussions with teams from diverse cultural and disciplinary backgrounds. Through these exchanges, we not only disseminated our project's philosophy but also incorporated diverse feedback. Such <span>cross-cultural and interdisciplinary cooperation</span> demonstrates our respect and openness to different groups, avoiding the limitations of research confined to a single perspective.
-              </p>
-            </div>
+        {/* 9.4 Breaking Disciplinary Cultural Boundaries */}
+        <section id="breaking-disciplinary-cultural-boundaries" className="view-section">
+          <div className="content-section-header">
+            <div className="h2">9.4 Breaking Disciplinary Cultural Boundaries</div>
+          </div>
+          <div className="content-body">
+            <p>
+              In terms of communication and collaboration, we participated in international and domestic conferences such as the online exchange with the University of Tokyo, the World Gene Conference, and CCiC, engaging in discussions with teams from diverse cultural and disciplinary backgrounds. Through these exchanges, we not only disseminated our project’s philosophy but also incorporated diverse feedback. Such cross-cultural and interdisciplinary cooperation demonstrates our respect and openness to different groups, avoiding the limitations of research confined to a single perspective.
+            </p>
           </div>
         </section>
-
-        {/* 13.5 Enhancing Sense of Participation and Belonging */}
-        <section id="participation-belonging" className="view-section">
-          <div className="view-section-content">
-            <div className="content-section-header">
-              <div className="h2">13.5 Enhancing Sense of Participation and Belonging</div>
-            </div>
-            <div className="content-body">
-              <p>
-                We also used <span>cultural and creative products</span> (team uniforms, badges, keychains, etc.) to enhance interaction between the team and the public. These products feature gender-neutral designs, allowing anyone to identify with and participate in the initiative. This design philosophy reflects our commitment to <span>cultural inclusivity</span>, making science not a privilege for the few but a endeavor that can be shared and embraced by all groups.
-              </p>
-              <ImageGallery
-                title="Figure 44. Cultural and Creative Products"
-                images={
-                  [
-                    {
-                      src: InclusivenessFigure5_1,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_2,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_3,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_4,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_5,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_6,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_7,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    },
-                    {
-                      src: InclusivenessFigure5_8,
-                      alt: "Figure 44. Cultural and Creative Products"
-                    }
-                  ]
-                }
-              />
+        {/* 9.5 Enhancing Sense of Participation and Belonging */}
+        <section id="enhancing-sense-of-participation-and-belonging" className="view-section">
+          <div className="content-section-header">
+            <div className="h2">9.5 Enhancing Sense of Participation and Belonging</div>
+          </div>
+          <div className="content-body">
+            <p>
+              We also used cultural and creative products (team uniforms, badges, keychains, etc.) to enhance interaction between the team and the public. These products feature gender-neutral designs, allowing anyone to identify with and participate in the initiative. This design philosophy reflects our commitment to cultural inclusivity, making science not a privilege for the few but a endeavor that can be shared and embraced by all groups.
+            </p>
+            {/* 图片 */}
+            <div className="figure-container">
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
+              <div className="figure-item">
+                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
+                <div className='h4'>Figure 44. Cultural and Creative Products</div>
+              </div>
             </div>
           </div>
         </section>
       </div>
     </div>
+    {/* 10 */}
+    <div id="reference" className="view-content">
+      <div className="content-header">
+        <div className="h1">10 Reference</div>
+      </div>
+      <div className="content-body">
+        <p>[1]Zheng R, Zhang S, Zeng H, Wang S, Sun K, Chen R, Li L, Wei W, He J. Cancer incidence and mortality in China, 2016. J Natl Cancer Cent. 2022 Feb 27;2(1):1-9. doi: 10.1016/j.jncc.2022.02.002. PMID: 39035212; PMCID: PMC11256658.</p>
+        <p>[2]Coles CE, Earl H, Anderson BO, Barrios CH, Bienz M, Bliss JM, Cameron DA, Cardoso F, Cui W, Francis PA, Jagsi R, Knaul FM, McIntosh SA, Phillips KA, Radbruch L, Thompson MK, André F, Abraham JE, Bhattacharya IS, Franzoi MA, Drewett L, Fulton A, Kazmi F, Inbah Rajah D, Mutebi M, Ng D, Ng S, Olopade OI, Rosa WE, Rubasingham J, Spence D, Stobart H, Vargas Enciso V, Vaz-Luis I, Villarreal-Garza C; Lancet Breast Cancer Commission. The Lancet Breast Cancer Commission. Lancet. 2024 May 11;403(10439):1895-1950. doi: 10.1016/S0140-6736(24)00747-5. Epub 2024 Apr 15. PMID: 38636533.</p>
+      </div>
+    </div>
+
+
+
 
     <div className="partners-scroll">
       <div className="partners-track">
@@ -2149,7 +2351,7 @@ function IHP() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeMenu, setActiveMenu] = useState('overview');
   const [activeSubMenu, setActiveSubMenu] = useState(null);
-
+  // const [activeSubSubMenu, setActiveSubSubMenu] = useState(null);
   // 页面加载动画
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -2170,375 +2372,405 @@ function IHP() {
 
   // 菜单数据
   const menuData = [
+    // 1
     {
       id: 'introduction',
-      title: 'Introduction',
+      title: '1 Introduction',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'problem-overview',
-          title: 'Problem Overview',
+          title: '1.1 Problem Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'solution',
-          title: 'Solution',
+          title: '1.2 Solution',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'scientific-challenges',
-          title: 'Scientific Challenges',
+          title: '1.3 Scientific Challenges',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'social-challenges',
-          title: 'Social Challenges',
+          title: '1.4Social Challenges',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
+    // 2 
     {
       id: 'iterative-symbiotic-practice-model',
-      title: 'Iterative Symbiotic Practice Model',
+      title: '2 Iterative Symbiotic Practice Model',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'overview',
-          title: 'Overview',
+          title: '2.1 Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'needs-insight-layer',
-          title: 'Needs Insight Layer',
+          title: '2.2 Needs Insight Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'practice-design-layer',
-          title: 'Practice Design Layer',
+          title: '2.3 Practice Design Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'implementation-interaction-layer',
-          title: 'Implementation Interaction Layer',
+          title: '2.4 Implementation Interaction Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-integration-layer',
-          title: 'Feedback Integration Layer',
+          title: '2.5 Feedback Integration Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'iterative-optimization-layer',
-          title: 'Iterative Optimization Layer',
+          title: '2.6 Iterative Optimization Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'summary',
-          title: 'Summary',
+          title: '2.7 Summary',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
+    // 3
     {
       id: 'stakeholder-swot-analysis',
-      title: 'Stakeholder SWOT Analysis',
+      title: '3 Stakeholder SWOT Analysis',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
-          id: 'swot-overview',
-          title: 'Overview',
+          id: 'female-group',
+          title: '3.1 Female Group',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'female-group',
-          title: 'Female Group',
+          title: '3.2 Medical Institutions',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'medical-institutions',
-          title: 'Medical Institutions',
+          title: '3.3 Government Departments',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'government-departments',
-          title: 'Government Departments',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'scientific-research-institutions',
-          title: 'Scientific Research Institutions',
+          title: '3.4 Scientific Research Institutions',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
+    // 4
     {
       id: 'interview',
-      title: 'Interview',
+      title: '4 Interview',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
-          id: 'interview-exosomes-magnetic-beads',
-          title: '4.1 Exosomes and Magnetic Beads',
+          id: 'introduction',
+          title: '4.1 Introduction',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'interview-target-proteins',
-          title: '4.2 Four Target Proteins',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+          id: 'interviews-with-technical-experts',
+          title: '4.2 Interviews with Technical Experts ',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
+          subMenus: [
+            {
+              id: 'interview-on-why-exosomes-and-magnetic-beads-were-chosen',
+              title: '4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-the-selection-of-the-four-target-proteins',
+              title: '4.2.2 Interview on the Selection of the Four Target Proteins',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull',
+              title: '4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-the-selection-of-breast-cancer-cell-lines',
+              title: '4.2.4 Interview on the selection of breast cancer cell lines',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-why-the-four-marker-hcr-signal-amplification-principle-was-established',
+              title: '4.2.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-principles-and-advantages-of-the-rca-method-module',
+              title: '4.2.6 Interview on Principles and Advantages of the RCA Method Module',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-why-cas14-enzyme-was-chosen',
+              title: '4.2.7 Interview on Why Cas14 Enzyme Was Chosen',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull-down',
+              title: '4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-the-application-of-rna-aptamers-in-exosome-capture',
+              title: '4.2.9 Interview on the Application of RNA Aptamers in Exosome Capture',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-the-clinical-translation-potential-of-aptamer-based-diagnostics',
+              title: '4.2.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-the-commercial-viability-of-aptamer-based-exosome-capture-kits',
+              title: '4.2.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-humanities-and-ethics',
+              title: '4.2.12 Interview on Humanities and Ethics',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-on-feedback-and-impact',
+              title: '4.2.13 Feedback & Impact',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            }
+          ]
         },
         {
-          id: 'interview-cd63-aptamers',
-          title: '4.3 CD63 Aptamers',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+          id: 'interview-with-clinical-doctors',
+          title: '4.3 Interviews with Clinical Doctors',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
+          subMenus: [
+            {
+              id: 'interview-with-clinical-doctors',
+              title: '4.3.1 Interview with Clinical Doctors',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-with-clinical-doctors',
+              title: '4.3.2 Interview with Breast Surgeons',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-with-clinical-doctors',
+              title: '4.3.3 Interview with Laboratory Doctors',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-with-clinical-doctors',
+              title: '4.3.4 Interview with Clinical Doctors in Other Countries',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            }
+          ]
         },
         {
-          id: 'interview-breast-cancer-cell-lines',
-          title: '4.4 Breast Cancer Cell Lines',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+          id: 'interview-with-breast-surgeons',
+          title: '4.4 Interview with Breast Surgeons',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
+          subMenus: [
+            {
+              id: 'interview-with-public-representative',
+              title: '4.4.1 Interview with Public Representative',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'interview-with-breast-surgeons',
+              title: '4.4.2 Interview with Breast Surgeons',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'feedback-and-impact',
+              title: '4.4.3 Feedback & Impact',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+          ]
         },
         {
-          id: 'interview-hcr-signal-amplification',
-          title: '4.5 HCR Signal Amplification',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-rca-method',
-          title: '4.6 RCA Method Module',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-cas14-enzyme',
-          title: '4.7 Cas14 Enzyme',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-thomas-sudhof',
-          title: '4.8 Thomas Südhof',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-craig-mello',
-          title: '4.9 Craig C. Mello',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-yu-baofa',
-          title: '4.10 Clinical Translation',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-lei-ming',
-          title: '4.11 Commercial Viability',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-zheng-huaixin',
-          title: '4.12 Humanities and Ethics',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-lu-youyong',
-          title: '4.13 Clinical Significance',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-zhang-yanwu',
-          title: '4.14 Breast Surgeons',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-sun-li',
-          title: '4.15 Laboratory Doctors',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-public-representative',
-          title: '4.16 Public Representative',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'interview-patients-families',
-          title: '4.17 Patients & Families',
+          id: 'summary-of-the-interview',
+          title: '4.5 Summary of the interview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
+
+
       ]
     },
+    // 5
     {
-      id: 'integrated-report',
-      title: 'Integrated Report on Breast Health',
+      id: 'integrated-report-on-breast-health',
+      title: '5 Integrated Report on Breast Health',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'survey-overview',
-          title: 'Survey Overview',
+          title: '5.1 Survey Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'core-results',
-          title: 'Core Results',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+          title: '5.2 Core Results',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
+          subMenus: [
+            {
+              id: 'knowledge-cognition',
+              title: '5.2.1 Knowledge Cognition',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'screening-prevention-behaviors',
+              title: '5.2.2 Screening and Prevention Behaviors',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'popular-science-needs',
+              title: '5.2.3 Popular Science Needs',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            }
+          ]
         },
         {
           id: 'conclusion',
-          title: 'Conclusion',
+          title: '5.3 Conclusion',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
+    // 6
     {
       id: 'feedback-iteration',
-      title: 'Feedback and Iteration',
+      title: '6 Feedback and Iteration',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
-          id: 'male-breast-cancer-awareness',
-          title: 'Male Breast Cancer Awareness',
+          id: 'feedback-iteration-regarding-insufficient-awareness-of-male-breast-cancer',
+          title: '6.1 Feedback and Iteration Regarding Insufficient Awareness of Male Breast Cancer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'technical-optimization',
-          title: 'Technical Optimization',
+          id: 'feedback-iteration-on-technical-optimization-and-reliability-improvement',
+          title: '6.2 Feedback and Iteration on Technical Optimization and Reliability Improvement',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-summary',
-          title: 'Summary',
+          title: '6.3 Summary',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
     // 7
     {
-      id: 'education',
-      title: 'Education',
+      id: 'hp-driven-redesign-of-external-work',
+      title: '7 HP-Driven Redesign of External Work',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
-          id: 'student-education',
-          title: 'Student Education',
+          id: 'education-outreach-from-dissemination-to-dialogue',
+          title: '7.1 Education & Outreach: From Dissemination to Dialogue',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'professional-education',
-          title: 'Professional Education',
+          id: 'collaboration-partnership',
+          title: '7.2 Collaboration & Partnership: Building a Feedback-Informed Network',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'online-education',
-          title: 'Online Education',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'education-summary',
-          title: 'Summary',
+          id: 'safety-ethics-policy',
+          title: '7.3 Safety, Ethics & Policy: A Proactive Framework',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
-    {
-      id: 'cooperation',
-      title: 'Cooperation',
-      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
-      subMenus: [
-        {
-          id: 'team-technical-exchange',
-          title: 'Team-to-Team Technical Exchange',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'educational-outreach-collaboration',
-          title: 'Educational & Outreach Collaboration',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'institutional-expert-collaboration',
-          title: 'Institutional & Expert Collaboration',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        },
-        {
-          id: 'cooperation-summary',
-          title: 'Summary',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
-        }
-      ]
-    },
-    {
-      id: 'bioethics',
-      title: 'Bioethics',
-      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
-    },
-    {
-      id: 'law-policy',
-      title: 'Law and Policy',
-      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
-    },
-    {
-      id: 'safety',
-      title: 'Safety',
-      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
-    },
+    // 8
     {
       id: 'spread',
-      title: 'Spread',
+      title: '8 Spread',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'online-matrix',
-          title: 'Online Matrix',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          title: '8.1 Online Matrix: Breaking Down Information Barriers with New Media',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'offline-scenarios',
-          title: 'Offline Scenarios',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          title: '8.2 Offline Scenarios: Integrating Science into the Fabric of Daily Life',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'two-way-linkage',
-          title: 'Two-Way Linkage',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          title: '8.3 Two-Way Linkage: From "Knowledge Transfer" to "Trust Building"',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
     },
+    // 9
     {
       id: 'inclusiveness',
-      title: 'Inclusiveness',
+      title: '9 Inclusiveness Design',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
-
         {
-          id: 'technological-inclusiveness',
-          title: 'Technological Inclusiveness',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          id: 'inclusiveness-overview',
+          title: '9.1 Inclusiveness Overview',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'community-dialogue',
-          title: 'Community Dialogue',
+          id: 'inclusiveness-approaches',
+          title: '9.2 Inclusiveness Approaches',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          subMenus: [
+            {
+              id: 'inclusiveness-of-women-and-patient-groups',
+              title: '9.2.1 Inclusiveness of Women and Patient Groups',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            },
+            {
+              id: 'inclusiveness-of-male-breast-cancer-patients',
+              title: '9.2.2 Inclusiveness of Male Breast Cancer Patients',
+              icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
+            }
+          ]
         },
         {
           id: 'educational-practices',
-          title: 'Educational Practices',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          title: '9.3 Educational Practices for Different Age Groups',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'disciplinary-boundaries',
-          title: 'Breaking Boundaries',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          id: 'breaking-disciplinary-cultural-boundaries',
+          title: '9.4 Breaking Disciplinary and Cultural Boundaries',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'participation-belonging',
-          title: 'Participation & Belonging',
-          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
-          component: null
+          id: 'enhancing-sense-of-participation-and-belonging',
+          title: '9.5 Enhancing Sense of Participation and Belonging',
+          icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
+    },
+    // 10
+    {
+      id: 'reference',
+      title: 'Reference',
+      icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp'
     }
   ];
 
@@ -2591,13 +2823,29 @@ function IHP() {
               {menu.subMenus && (
                 <div className="submenu">
                   {menu.subMenus.map((subMenu) => (
-                    <div
-                      key={subMenu.id}
-                      className="submenu-item"
-                      onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
-                    >
-                      <img className='menu-icon' src={subMenu.icon} />
-                      <span className="submenu-text">{subMenu.title}</span>
+                    <div key={subMenu.id} className="submenu-container">
+                      <div
+                        className="submenu-item"
+                        onClick={() => handleSubMenuClick(menu.id, subMenu.id)}
+                      >
+                        <img className='menu-icon' src={subMenu.icon} />
+                        <span className="submenu-text">{subMenu.title}</span>
+                      </div>
+                      {/* 三级菜单渲染 */}
+                      {subMenu.subMenus && (
+                        <div className="submenu-level3">
+                          {subMenu.subMenus.map((subMenu3) => (
+                            <div
+                              key={subMenu3.id}
+                              className="submenu-item-level3"
+                              onClick={() => handleSubMenuClick(subMenu.id, subMenu3.id)}
+                            >
+                              <img className='menu-icon' src={subMenu3.icon} />
+                              <span className="submenu-text-level3">{subMenu3.title}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
