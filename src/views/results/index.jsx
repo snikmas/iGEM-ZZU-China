@@ -45,6 +45,9 @@ const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-3
 const figure35 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-35.webp';
 const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-36.webp';
 
+// 新加 RAC 相关图片
+const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-37.webp';
+const figure_2 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-38.webp';
 
 
 // 组件定义 1
@@ -278,6 +281,35 @@ const MainContent = () => (
           <p>This system provides a reliable, efficient, and specific method for exosome isolation from cell culture supernatants, forming a solid foundation for downstream biomarker detection.</p>
         </section>
 
+      </div>
+    </div>
+
+    {/*新加 RAC*/}
+    <div id="RCA" className="view-content">
+      <div className="content-header">
+        <div className="h1">RCA</div>
+      </div>
+      <div className="content-body">
+        {/* 1. Optimization of Circular DNA Concentration */}
+        <section id="Optimization_Concentration" className="results-section">
+          <div className="content-section-header">
+            <div className="h2">1. Optimization of Circular DNA Concentration</div>
+          </div>
+          <p>
+            To optimize the concentration of circular DNA in the standalone Rolling Circle Amplification (RCA) system, three concentration gradients (100 nM, 500 nM, and 800 nM) were set, with the target strand concentration, phi29 DNA polymerase dosage, and other conditions fixed, and the amplification efficiency was evaluated by fluorescence signal (with 3 replicates per group). 
+          </p>
+          <p>
+            As shown in the figure, the 100 nM group exhibited the slowest fluorescence increase and the lowest final fluorescence value; the 500 nM group showed a faster fluorescence rise rate, and the final fluorescence intensity was significantly higher than that of the 100 nM group; although the fluorescence value of the 800 nM group was slightly higher than that of the 500 nM group, the increase range was limited. 
+          </p>
+          <div className="figure-container">
+            <div className="figure-item">
+              <img src={figure_1} alt="" className="figure-image" />
+              <img src={figure_2} alt="" className="figure-image"/>
+              <div className="h4">Figure 25.Optimization of Circular DNA Concentration</div>
+            </div>
+          </div>
+          <p>In conclusion, 500 nM is the optimal concentration of circular DNA for standalone RCA, as it not only ensures efficient amplification but also avoids nonspecific reactions caused by high-concentration templates.</p>
+        </section>
       </div>
     </div>
 
@@ -1415,6 +1447,14 @@ function Results() {
         { id: 'western-blot-validation', title: 'Western Blot Validation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'tem-observation', title: 'TEM Observation', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
         { id: 'cd63-summary', title: 'Summary', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
+      ]
+    },
+    {
+      id:'RCA',
+      title:'RCA',
+      icon:'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
+      subMenus: [
+        { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
       ]
     },
     {
