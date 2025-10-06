@@ -2,6 +2,9 @@
     width: 100%;
     height: 100%;
 }
+.content-body span {
+    font-weight: bold;
+}
 
 .safety-hero {
     position: relative;
@@ -146,3 +149,4 @@
         min-height: 420px;
     }
 }
+
