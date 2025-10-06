@@ -459,8 +459,8 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 3.2 Female Group */}
-        <section id="female-group" className="view-section">
+        {/* 3.2 Medical Institutions */}
+        <section id="medical-institutions" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">3.2 Medical Institutions</div>
@@ -488,8 +488,8 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 3.3 Medical Institutions */}
-        <section id="medical-institutions" className="view-section">
+        {/* 3.3 Government Departments */}
+        <section id="government-departments" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">3.3 Government Departments</div>
@@ -517,8 +517,8 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 3.4 Government Departments */}
-        <section id="government-departments" className="view-section">
+        {/* 3.4 Scientific Research Institutions */}
+        <section id="scientific-research-institutions" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">3.4 Scientific Research Institutions</div>
@@ -637,7 +637,7 @@ const MainContent = () => (
         </section>
 
         {/*4.2 Interviews with Technical Experts */}
-        <section id="interviews-with-technical-experts" className="view-section">
+        <section id="interviews-experts" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
               <div className="h2">4.2 Interviews with Technical Experts </div>
@@ -646,7 +646,7 @@ const MainContent = () => (
             </div>
             <div className="content-body">
               {/* 4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen */}
-              <section id="interview-on-why-exosomes-and-magnetic-beads-were-chosen" className="view-subsection">
+              <section id="interview-beads-were-chosen" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen
@@ -691,7 +691,7 @@ const MainContent = () => (
                 </div>
               </section>
               {/* 4.2.2 Interview on the Selection of the Four Target Proteins */}
-              <section id="interview-on-the-selection-of-the-four-target-proteins" className="view-subsection">
+              <section id="interview-target-proteins" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.2.2 Interview on the Selection of the Four Target Proteins
@@ -736,7 +736,7 @@ const MainContent = () => (
                 </div>
               </section>
               {/* 4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down */}
-              <section id="interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull" className="view-subsection">
+              <section id="interview-chosen-pull" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down
@@ -959,7 +959,7 @@ const MainContent = () => (
               </section>
 
               {/* 4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down */}
-              <section id="interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull-downs" className="view-subsection">
+              <section id="interview-on-the-application-of-rna-aptamers-in-exosome-capture" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down
@@ -1257,7 +1257,7 @@ const MainContent = () => (
             <p>Their feedback was crucial for transitioning our technology from the laboratory to clinical settings, ensuring it meets real medical needs, workflow requirements, and quality control standards.</p>
             <div className="content-body">
               {/* 4.3.1 Interview with Clinical Doctors */}
-              <section id="interview-with-clinical-doctors" className="view-subsection">
+              <section id="clinical-doctors" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.3.1 Interview with Clinical Doctors
@@ -1287,7 +1287,7 @@ const MainContent = () => (
               </section>
 
               {/* 4.3.2 Interview with Breast Surgeons */}
-              <section id="interview-with-breast-surgeons" className="view-subsection">
+              <section id="surgeons" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.3.2 Interview with Breast Surgeons
@@ -1317,7 +1317,7 @@ const MainContent = () => (
               </section>
 
               {/* 4.3.3 Interview with Laboratory Doctors */}
-              <section id="interview-with-laboratory-doctors" className="view-subsection">
+              <section id="laboratory-doctors" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.3.3 Interview with Laboratory Doctors
@@ -1346,7 +1346,7 @@ const MainContent = () => (
               </section>
 
               {/* 4.3.4 Interview with Clinical Doctors in Other Countries */}
-              <section id="interview-with-clinical-doctor-in-other-countries" className="view-subsection">
+              <section id="interview-countries" className="view-subsection">
                 <div className="content-section-header">
                   <div className="h3">
                     4.3.4 Interview with Clinical Doctors in Other Countries
@@ -2231,8 +2231,8 @@ const MainContent = () => (
         <div className="h1">10 Reference</div>
       </div>
       <div className="content-body">
-        <p>[1]Zheng R, Zhang S, Zeng H, Wang S, Sun K, Chen R, Li L, Wei W, He J. Cancer incidence and mortality in China, 2016. J Natl Cancer Cent. 2022 Feb 27;2(1):1-9. doi: 10.1016/j.jncc.2022.02.002. PMID: 39035212; PMCID: PMC11256658.</p>
-        <p>[2]Coles CE, Earl H, Anderson BO, Barrios CH, Bienz M, Bliss JM, Cameron DA, Cardoso F, Cui W, Francis PA, Jagsi R, Knaul FM, McIntosh SA, Phillips KA, Radbruch L, Thompson MK, André F, Abraham JE, Bhattacharya IS, Franzoi MA, Drewett L, Fulton A, Kazmi F, Inbah Rajah D, Mutebi M, Ng D, Ng S, Olopade OI, Rosa WE, Rubasingham J, Spence D, Stobart H, Vargas Enciso V, Vaz-Luis I, Villarreal-Garza C; Lancet Breast Cancer Commission. The Lancet Breast Cancer Commission. Lancet. 2024 May 11;403(10439):1895-1950. doi: 10.1016/S0140-6736(24)00747-5. Epub 2024 Apr 15. PMID: 38636533.</p>
+        <p><span className="citation">[1]</span>Zheng R, Zhang S, Zeng H, Wang S, Sun K, Chen R, Li L, Wei W, He J. Cancer incidence and mortality in China, 2016. J Natl Cancer Cent. 2022 Feb 27;2(1):1-9. doi: 10.1016/j.jncc.2022.02.002. PMID: 39035212; PMCID: PMC11256658.</p>
+        <p><span className='citation'>[2]</span>Coles CE, Earl H, Anderson BO, Barrios CH, Bienz M, Bliss JM, Cameron DA, Cardoso F, Cui W, Francis PA, Jagsi R, Knaul FM, McIntosh SA, Phillips KA, Radbruch L, Thompson MK, André F, Abraham JE, Bhattacharya IS, Franzoi MA, Drewett L, Fulton A, Kazmi F, Inbah Rajah D, Mutebi M, Ng D, Ng S, Olopade OI, Rosa WE, Rubasingham J, Spence D, Stobart H, Vargas Enciso V, Vaz-Luis I, Villarreal-Garza C; Lancet Breast Cancer Commission. The Lancet Breast Cancer Commission. Lancet. 2024 May 11;403(10439):1895-1950. doi: 10.1016/S0140-6736(24)00747-5. Epub 2024 Apr 15. PMID: 38636533.</p>
       </div>
     </div>
 
@@ -2455,17 +2455,17 @@ function IHP() {
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'female-group',
+          id: 'medical-institutions',
           title: '3.2 Medical Institutions',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'medical-institutions',
+          id: 'government-departments',
           title: '3.3 Government Departments',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'government-departments',
+          id: 'scientific-research-institutions',
           title: '3.4 Scientific Research Institutions',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
@@ -2483,22 +2483,22 @@ function IHP() {
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
-          id: 'interviews-with-technical-experts',
+          id: 'interviews-experts',
           title: '4.2 Interviews with Technical Experts ',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
-              id: 'interview-on-why-exosomes-and-magnetic-beads-were-chosen',
+              id: 'interview-beads-were-chosen',
               title: '4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-on-the-selection-of-the-four-target-proteins',
+              id: 'interview-target-proteins',
               title: '4.2.2 Interview on the Selection of the Four Target Proteins',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull',
+              id: 'interview-chosen-pull',
               title: '4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
@@ -2523,12 +2523,12 @@ function IHP() {
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull-down',
+              id: 'interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull-2',
               title: '4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-on-the-application-of-rna-aptamers-in-exosome-capture',
+              id: 'interview-on-the-application-of-rna-aptamers-in-exosome-capture-2',
               title: '4.2.9 Interview on the Application of RNA Aptamers in Exosome Capture',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
@@ -2560,22 +2560,22 @@ function IHP() {
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
-              id: 'interview-with-clinical-doctors',
+              id: 'clinical-doctors',
               title: '4.3.1 Interview with Clinical Doctors',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-with-clinical-doctors',
+              id: 'surgeons',
               title: '4.3.2 Interview with Breast Surgeons',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-with-clinical-doctors',
+              id: 'laboratory-doctors',
               title: '4.3.3 Interview with Laboratory Doctors',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
-              id: 'interview-with-clinical-doctors',
+              id: 'interview-countries',
               title: '4.3.4 Interview with Clinical Doctors in Other Countries',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             }
