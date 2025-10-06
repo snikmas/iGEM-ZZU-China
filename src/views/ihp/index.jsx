@@ -10,7 +10,7 @@ const menuLogo = 'https://static.igem.wiki/teams/5822/newassets/menulogo.webp';
 // DONE
 const Figure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure1.webp';
 const Figure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure2.webp';
-const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure3.webp';
+const Figure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/figure3t.webp';
 const SolutionFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutionfigure3.webp';
 const SolutionFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/introduction/solutin4.webp';
 const InspirationFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inspiration/inspirationfigure1.webp';
@@ -213,7 +213,7 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={SolutionFigure4} alt="Figure 5. History of Breast Cancer Detection" className="figure-image" />
-              <div className="h4">Figure 5. History of Breast Cancer Detection</div>
+              <div className="h4"><strong>Figure 5. History of Breast Cancer Detection</strong></div>
             </div>
           </div>
 
