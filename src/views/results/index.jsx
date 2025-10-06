@@ -45,7 +45,7 @@ const figure34 = 'https://static.igem.wiki/teams/5822/newassets/results/fig34.we
 const figure35 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-35.webp';
 const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/fig36.webp';
 
-// 新加 RAC 相关图片
+// 新加 RCA 相关图片
 const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/rca.webp';
 
 
@@ -284,8 +284,8 @@ const MainContent = () => (
       </div>
     </div>
 
-    {/* 新加 RAC
-    <div id="RAC" className="view-content">
+    {/* 新加 RCA
+    <div id="RCA" className="view-content">
       <div className="content-header">
         <div className="h1">RCA</div>
       </div>
@@ -667,8 +667,8 @@ const MainContent = () => (
       </div>
     </div>
 
-{/*新加 RAC*/}
-    <div id="RAC" className="view-content">
+{/*新加 RCA*/}
+    <div id="RCA" className="view-content">
       <div className="content-header">
         <div className="h1">RCA</div>
       </div>
@@ -1608,8 +1608,8 @@ function Results() {
       ]
     },
     // {
-    //   id: 'RAC',
-    //   title: 'RAC',
+    //   id: 'RCA',
+    //   title: 'RCA',
     //   icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
     //   subMenus: [
     //     { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
@@ -1643,8 +1643,8 @@ function Results() {
       ]
     },
     {
-      id: 'RAC',
-      title: 'RAC',
+      id: 'RCA',
+      title: 'RCA',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         { id: 'Optimization_Concentration', title: 'Optimization of Circular DNA Concentration', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' }
