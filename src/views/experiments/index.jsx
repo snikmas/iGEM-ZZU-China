@@ -175,7 +175,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Plasmid Construction
+                  iGEM ZZU-China 2025 Wet Lab Plasmid Construction
                   <a href={PlasmidConstructionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -198,7 +198,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Plasmid extraction
+                  iGEM ZZU-China 2025 Wet Lab Plasmid extraction
                   <a href={PlasmidExtractionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -221,7 +221,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Transformation
+                  iGEM ZZU-China 2025 Wet Lab Transformation
                   <a href={TransformationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -244,7 +244,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Protein Quantification
+                  iGEM ZZU-China 2025 Wet Lab Protein Quantification
                   <a href={ProteinQuantificationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -267,7 +267,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet SDS Page
+                  iGEM ZZU-China 2025 Wet Lab SDS Page
                   <a href={SDSPagePDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -290,7 +290,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Protein Expression
+                  iGEM ZZU-China 2025 Wet Lab Protein Expression
                   <a href={ProteinExpressionPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -313,7 +313,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Protein Purification
+                  iGEM ZZU-China 2025 Wet Lab Protein Purification
                   <a href={ProteinPurificationPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
@@ -336,7 +336,7 @@ const MainContent = () => (
 
               <div className="protocol-content">
                 <div className="protocol-title">
-                  iGEM ZZU-China 2025 Wet Enzyme activity assay
+                  iGEM ZZU-China 2025 Wet Lab Enzyme activity assay
                   <a href={EnzymeActivityPDF} download className="download-link">
                     <DownloadOutlined className="download-icon" />
                     (pdf)
