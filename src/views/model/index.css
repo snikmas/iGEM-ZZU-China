@@ -178,6 +178,7 @@
 
 .data-table th,
 .data-table td {
+  
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -198,6 +199,7 @@
 }
 
 .data-table td {
+  font-size: 1.4em;
   word-break: break-word;
   max-width: 300px;
 }
@@ -205,7 +207,7 @@
 /* 序列显示样式 */
 .data-table td:nth-child(2) {
   font-family: 'Courier New', monospace;
-  font-size: 0.85em;
+  font-size: 1.4em;
   background: #f8f9fa;
   color: #333;
 }
@@ -213,7 +215,7 @@
 /* 响应式表格 */
 @media (max-width: 768px) {
   .data-table {
-    font-size: 0.8em;
+    font-size: 0.85em;
   }
   
   .data-table th,
