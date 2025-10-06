@@ -46,8 +46,8 @@ const figure35 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-3
 const figure36 = 'https://static.igem.wiki/teams/5822/newassets/results/fig36.webp';
 
 // 新加 RAC 相关图片
-const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-37.webp';
-const figure_2 = 'https://static.igem.wiki/teams/5822/newassets/results/figure-38.webp';
+const figure_1 = 'https://static.igem.wiki/teams/5822/newassets/results/rca.webp';
+
 
 
 // 组件定义 1
@@ -687,7 +687,6 @@ const MainContent = () => (
           <div className="figure-container">
             <div className="figure-item">
               <img src={figure_1} alt="" className="figure-image" />
-              <img src={figure_2} alt="" className="figure-image" />
               <div className="h4">Figure 25.Optimization of Circular DNA Concentration</div>
             </div>
           </div>
