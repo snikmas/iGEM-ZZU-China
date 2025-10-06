@@ -877,60 +877,47 @@
   overflow-x: auto;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(83, 12, 22, 0.05);
-}
-
-/* 通用表格样式 - 应用于所有表格 */
-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: #ffffff;
-  border-radius: 8px;
-  overflow: hidden;
-  font-size: 14px;
-  line-height: 1.5;
+  box-shadow: 0 3px 8px rgba(60, 120, 80, 0.05);
 }
 
 /* 表头样式 */
 table thead {
-  background: #530c16;
+  background: #2e7d32;
   color: #fff;
 }
 
-/* 表头单元格样式 */
-table thead th {
-  padding: 14px 18px;
-  text-align: left;
+/* 第一列特殊样式 */
+table tbody tr td:first-child {
   font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.2px;
-  border: none;
-  position: relative;
+  color: #2e7d32;
+  background: #f1f8f2;
+  border-right: 2px solid #a5d6a7;
+  min-width: 110px;
 }
 
-/* 表头单元格分隔线 */
-table thead th:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 20%;
-  height: 60%;
-  width: 1px;
-  background: rgba(255, 255, 255, 0.3);
+/* 表格内强调文本样式 */
+table strong {
+  color: #2e7d32;
+  font-weight: 700;
 }
 
-/* 表格行样式 */
-table tbody tr {
-  transition: all 0.2s ease;
-  border-bottom: 1px solid #f0f0f0;
+/* 表格内链接样式 */
+table a {
+  color: #2e7d32;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+table a:hover {
+  color: #388e3c;
+  text-decoration: underline;
 }
 
 /* 表格行悬停效果 */
 table tbody tr:hover {
-  background: #faf5f5;
+  background: #f8fcf8;
   transform: translateY(-0.5px);
-  box-shadow: 0 1px 5px rgba(83, 12, 22, 0.05);
+  box-shadow: 0 1px 5px rgba(60, 120, 80, 0.05);
 }
 
 /* 最后一行样式 */
@@ -949,11 +936,30 @@ table td {
 /* 第一列特殊样式 */
 table tbody tr td:first-child {
   font-weight: 600;
-  color: #530c16;
-  background: #fef7f7;
-  border-right: 2px solid #e8c6c9;
+  color: #1e5a8d;
+  background: #f0f7fb;
+  border-right: 2px solid #b8d8e9;
   min-width: 110px;
 }
+
+/* 表格内强调文本样式 */
+table strong {
+  color: #1e5a8d;
+  font-weight: 700;
+}
+
+/* 表格内链接样式 */
+table a {
+  color: #1e5a8d;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+table a:hover {
+  color: #2a7ab9;
+  text-decoration: underline;
+}
+
 
 /* 响应式设计 */
 @media (max-width: 768px) {
