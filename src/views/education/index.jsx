@@ -647,7 +647,7 @@ const MainContent = () => (
 
             <div className="figure-container">
               <div className="figure-item">
-                <img src={online_1} alt="WeChat Public Account" className="figure-image" />
+                <img src={online_1} alt="WeChat Public Account" className="figure-image figure-image-large" />
                 <div className='h4'>WeChat Public Account</div></div>
             </div>
           </div>
