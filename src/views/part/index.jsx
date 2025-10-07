@@ -27,7 +27,7 @@ const table2 = [
     number: 'BBa_25LW4TKU',
     name: 'Complementary Strand 2 of PD-L1 Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '47',
+    length: '47bp',
     description:
       'The complementary strand of this aptamer can bind to the corresponding PD-L1 aptamer and be specifically replaced by the target protein PD-L1. Under the enrichment effect of magnetic beads, the reaction signal is amplified. After being replaced, it can be recognized by crRNA, activating the trans - cleavage activity of the Cas14a enzyme and triggering the CRISPR reaction, thereby achieving highly sensitive and specific detection of the biomarker.',
     url: 'https://registry.igem.org/parts/bba-25sls2lc',
@@ -36,7 +36,7 @@ const table2 = [
     number: 'BBa_25K7QOR7',
     name: 'Complementary Strand 1 of MMP-9 Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '45',
+    length: '45bp',
     description:
       'This DNA strand is the complementary sequence to the MMP-9 aptamer. It maintains a hybridized state with the aptamer until MMP-9 binding occurs. Upon target recognition, the aptamer undergoes structural rearrangement that displaces this complementary strand. The released strand hybridizes with crRNA, activating the CRISPR/Cas12a nuclease, which then cleaves a fluorescent reporter probe, generating a measurable fluorescence signal.',
     url: 'https://registry.igem.org/parts/bba-25k7qor7',
@@ -45,7 +45,7 @@ const table2 = [
     number: 'BBa_25BXVJM5',
     name: 'Complementary Strand 2 of MMP-9 Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '45',
+    length: '45bp',
     description:
       'This DNA strand serves as an alternative complementary sequence for the MMP-9 aptamer. It is displaced upon aptamer-target binding and subsequently hybridizes with crRNA to activate the CRISPR/Cas12a system. The activated Cas12a enzyme cleaves a fluorescent reporter probe, producing a fluorescence readout for target detection.',
     url: 'https://registry.igem.org/parts/bba-25bxvjm5',
@@ -54,7 +54,7 @@ const table2 = [
     number: 'BBa_25F6X5I9',
     name: 'Complementary Strand 1 of HER2 Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '43',
+    length: '43bp',
     description:
       'This DNA strand is designed as the complementary sequence to the HER2 aptamer. It forms a stable duplex with the aptamer under initial conditions. Upon binding of the HER2 protein, the aptamer undergoes a conformational change, resulting in the displacement of this complementary strand. The released strand contains a universal region complementary to the crRNA, which hybridizes with the crRNA recognition sequence and activates the CRISPR/Cas12a system. Once activated, Cas12a cleaves fluorescent reporter probes, generating a detectable signal for molecular diagnostics.',
     url: 'https://registry.igem.org/parts/bba-25f6x5i9',
@@ -63,7 +63,7 @@ const table2 = [
     number: 'BBa_25H6PVML',
     name: 'Complementary Strand 2 of HER2 Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '42',
+    length: '42bp',
     description:
       'This DNA strand serves as an alternative complementary sequence to the HER2 aptamer, enabling flexible duplex formation and efficient strand displacement. Upon HER2 binding, the aptamer structural rearrangement releases this complementary strand, which subsequently hybridizes with crRNA to activate the CRISPR/Cas12a system. The activated Cas12a cleaves a fluorescent reporter probe, providing a measurable fluorescence output for HER2 detection.',
     url: 'https://registry.igem.org/parts/bba-25h6pvml',
@@ -72,7 +72,7 @@ const table2 = [
     number:'BBa_25ZTSIDP',
     name: 'Complementary Strand 1 of EpCAM Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '45',
+    length: '45bp',
     description:
       'This DNA strand is the complementary sequence to the EpCAM aptamer. In the absence of the target, it hybridizes with the aptamer to form a stable duplex. Upon EpCAM binding, the aptamer undergoes conformational rearrangement, leading to displacement of the complementary strand. The released strand hybridizes with crRNA and activates the CRISPR/Cas12a system. Activated Cas12a cleaves a fluorescent reporter, producing a detectable signal that indicates the presence of EpCAM.',
     url: 'https://registry.igem.org/parts/bba-25ztsidp',
@@ -81,7 +81,7 @@ const table2 = [
     number: 'BBa_25RUKTIR',
     name: 'Complementary Strand 2 of EpCAM Aptamer',
     type: 'Oligo [SO:0000696]',
-    length: '47',
+    length: '47bp',
     description:
       'This DNA strand acts as an auxiliary complementary sequence to the EpCAM aptamer, designed to enhance detection performance and signal strength. Upon EpCAM recognition, the aptamer releases this complementary strand, which hybridizes with the crRNA region to activate the CRISPR/Cas12a nuclease. The activated enzyme cleaves fluorescent reporter probes, leading to measurable fluorescence output for target detection.',
     url: 'https://registry.igem.org/parts/bba-25ruktir',
