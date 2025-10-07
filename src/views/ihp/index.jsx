@@ -2013,7 +2013,7 @@ const MainContent = () => (
     {/* 9 */}
     <div id="inclusiveness" className="view-content">
       <div className="content-header">
-        <div className="h1">9 Inclusiveness Design</div>
+        <div className="h1">9 Inclusiveness</div>
       </div>
       <div className="content-body">
         <p>Our iGEM project deeply recognizes that true innovation lies not only in technological breakthroughs but also in ensuring that the technology is inclusive and benefits everyone. We have worked systematically to break down barriers to public engagement with synthetic biology and translate cutting-edge science into equitable and accessible social benefits.</p>
@@ -2525,7 +2525,7 @@ function IHP() {
     // 9
     {
       id: 'inclusiveness',
-      title: 'Inclusiveness Design',
+      title: 'Inclusiveness',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
