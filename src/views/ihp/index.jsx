@@ -1411,11 +1411,11 @@ const MainContent = () => (
           </div>
         </section>
 
-        {/* 4.4 Interview with Breast Surgeons */}
+        {/* 4.4 Interviews with the Public & Patients */}
         <section id="interview-with-breast-surgeon" className="view-section">
           <div className="view-section-content">
             <div className="content-section-header">
-              <div className="h2">4.4 Interview on the Selection of Breast Cancer Cell Lines</div>
+              <div className="h2">4.4 Interviews with the Public & Patients</div>
             </div>
             <p>This section features interviews with members of the public, breast cancer patients, and their families.</p>
             <p>Their feedback focuses on ensuring our technological solution is user-friendly, accessible, and genuinely addresses user concerns, which is fundamental for the project's social acceptance.</p>
@@ -1446,10 +1446,10 @@ const MainContent = () => (
                     </div>
                   </section>
 
-                  {/* 4.4.2 Interview with Breast Surgeons */}
+                  {/* 4.4.2 Interviews with Breast Cancer Patients and Their Families（Breast Cancer Patients and Their Families） */}
                   <section id="interview-with-breast-surgeons" className="interview-section">
                     <div className="interview-info">
-                      <div className="h3">4.4.2 Interview with Breast Surgeons</div>
+                      <div className="h3">4.4.2 Interviews with Breast Cancer Patients and Their Families（Breast Cancer Patients and Their Families）</div>
                       <p>Interviewees：Patients and their families</p>
                       <div className="interview-summary">
                         <p>
