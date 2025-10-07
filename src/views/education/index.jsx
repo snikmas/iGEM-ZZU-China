@@ -646,7 +646,7 @@ const MainContent = () => (
 
             <div className="figure-container">
               <div className="figure-item">
-                <img src={online_1} alt="WeChat Public Account" className="figure-image" />
+                <img src={online_1} alt="WeChat Public Account" className="figure-image" style={{maxWidth: '600px'}} />
                 <div className='h4'>WeChat Public Account</div></div>
             </div>
           </div>
@@ -673,7 +673,8 @@ const MainContent = () => (
             <div className="figure-container">
               <img
                 style={{
-                  boxShadow: 'none'
+                  boxShadow: 'none',
+                  maxWidth: '600px',
                 }}
                 src={online_2} alt="Short Videos and Social Media" className="figure-image" />
             </div>
