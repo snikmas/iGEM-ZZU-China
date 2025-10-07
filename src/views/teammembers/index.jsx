@@ -46,7 +46,7 @@ function TeamMembers() {
     ],
     'Mentor': [
       {
-        name: "San Dong",
+        name: "Shan Dong",
         title: "Mentor",
         image: dongbinmentor,
         content: "Growing up and working in different parts of China, I have witnessed how science and technology can bring changes to local communities and inspire young minds. I have always been fascinated by the way research not only solves problems in the lab, but also connects people and ideas across cultures and disciplines. With a background in Biotechnology and years of teaching and guiding students, I am currently engaged in advancing applied research and education, with a strong interest in synthetic biology and its real-world impact. As a mentor for iGEM 2024, I look forward to supporting young teams, fostering collaboration, and encouraging innovative thinking that bridges knowledge with meaningful action."
@@ -54,10 +54,10 @@ function TeamMembers() {
     ],
     'Instructors': [
       {
-        name: "Shangfeng Zhang",
+        name: "Shanfeng Zhang",
         title: "Instructor",
-        image: zhangshanfengmentor,
-        content: `Hello everyone, I'm Professor Shangfeng Zhang. As Director of the Basic Medical Experiment Center and an expert in natural anti-tumor drug research, I specialize in developing novel molecular detection technologies and have achieved multiple innovative results in studying the anti-tumor mechanisms of plant extracts. I'm delighted to provide the iGEM team with experimental platform support, molecular detection technical guidance, and innovation/entrepreneurship resources. My experiences can strongly support your synthetic biology research. Looking forward to exploring the infinite possibilities of life sciences together with our students!`
+        image: zhanshanfengmentor,
+        content: `Hello everyone, I'm Professor Shanfeng Zhang. As Director of the Basic Medical Experiment Center and an expert in natural anti-tumor drug research, I specialize in developing novel molecular detection technologies and have achieved multiple innovative results in studying the anti-tumor mechanisms of plant extracts. I'm delighted to provide the iGEM team with experimental platform support, molecular detection technical guidance, and innovation/entrepreneurship resources. My experiences can strongly support your synthetic biology research. Looking forward to exploring the infinite possibilities of life sciences together with our students!`
       },
       {
         name: "Wenqiao Zang",
