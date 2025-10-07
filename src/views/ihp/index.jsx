@@ -1193,7 +1193,7 @@ const MainContent = () => (
                 <div className="content-body">
                   <div className="feedback-impact-card">
                     <div className="feedback-impact-header">
-                      <div className="feedback-impact-title">Impact of Expert Feedback on Project Development</div>
+                      <div className="feedback-impact-title"></div>
                     </div>
                     <div className="feedback-impact-content">
                       <div className="feedback-impact-item">
