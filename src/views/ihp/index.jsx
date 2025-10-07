@@ -603,10 +603,6 @@ const MainContent = () => (
                   <div className="interview-card-subtitle">Comprehensive Expert Insights</div>
                 </div>
                 <div className="interview-card-content">
-                  <div className="interview-card-image">
-                    <img src={overviewpng} alt="Figure 9. Interview Map" />
-                    <div className="interview-card-figure-caption">Figure 9. Interview Map</div>
-                  </div>
                   <div className="interview-card-body">
                     <div className="interview-card-findings">
                       <div className="interview-card-finding">
@@ -660,7 +656,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 10. Interview with Professor Lijuan Zhao" />
+                        <img src={InterviewFigure1} alt="Figure 10. Interview with Professor Lijuan Zhao" />
                         <div className="interview-card-figure-caption">Figure 10. Interview with Professor Lijuan Zhao</div>
                       </div>
                       <div className="interview-card-body">
@@ -705,7 +701,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 11. Interview with Professor Yan Xu (许燕)" />
+                        <img src={InterviewFigure2} alt="Figure 11. Interview with Professor Yan Xu (许燕)" />
                         <div className="interview-card-figure-caption">Figure 11. Interview with Professor Yan Xu (许燕)</div>
                       </div>
                       <div className="interview-card-body">
@@ -750,7 +746,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 12. Interview with Professor Yan Xu (徐琰)" />
+                        <img src={InterviewFigure3} alt="Figure 12. Interview with Professor Yan Xu (徐琰)" />
                         <div className="interview-card-figure-caption">Figure 12. Interview with Professor Yan Xu (徐琰)</div>
                       </div>
                       <div className="interview-card-body">
@@ -789,7 +785,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 13. Interview with Professor Xiaoyan Xuan" />
+                        <img src={InterviewFigure4} alt="Figure 13. Interview with Professor Xiaoyan Xuan" />
                         <div className="interview-card-figure-caption">Figure 13. Interview with Professor Xiaoyan Xuan</div>
                       </div>
                       <div className="interview-card-body">
@@ -835,7 +831,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 14. Interview with Professor Hongmei Geng" />
+                        <img src={InterviewFigure5} alt="Figure 14. Interview with Professor Hongmei Geng" />
                         <div className="interview-card-figure-caption">Figure 14. Interview with Professor Hongmei Geng</div>
                       </div>
                       <div className="interview-card-body">
@@ -881,7 +877,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 15. Interview with Professor Lu Ma" />
+                        <img src={InterviewFigure6} alt="Figure 15. Interview with Professor Lu Ma" />
                         <div className="interview-card-figure-caption">Figure 15. Interview with Professor Lu Ma</div>
                       </div>
                       <div className="interview-card-body">
@@ -927,7 +923,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 16. Interview with Professor Ye Yuan" />
+                        <img src={InterviewFigure7} alt="Figure 16. Interview with Professor Ye Yuan" />
                         <div className="interview-card-figure-caption">Figure 16. Interview with Professor Ye Yuan</div>
                       </div>
                       <div className="interview-card-body">
@@ -973,7 +969,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="A photo with Professor Thomas Südhof" />
+                        <img src={InterviewFigure8} alt="A photo with Professor Thomas Südhof" />
                         <div className="interview-card-figure-caption">Figure 17. A photo with Professor Thomas Südhof</div>
                       </div>
                       <div className="interview-card-body">
@@ -1019,7 +1015,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 18. A photo with Professor Craig C. Mello" />
+                        <img src={InterviewFigure9} alt="Figure 18. A photo with Professor Craig C. Mello" />
                         <div className="interview-card-figure-caption">Figure 18. A photo with Professor Craig C. Mello</div>
                       </div>
                       <div className="interview-card-body">
@@ -1065,7 +1061,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 19. Group photo with Professor Baofa Yu" />
+                        <img src={InterviewFigure10} alt="Figure 19. Group photo with Professor Baofa Yu" />
                         <div className="interview-card-figure-caption">Figure 19. Group photo with Professor Baofa Yu</div>
                       </div>
                       <div className="interview-card-body">
@@ -1111,7 +1107,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 20. A photo with Professor Ming Lei" />
+                        <img src={InterviewFigure11} alt="Figure 20. A photo with Professor Ming Lei" />
                         <div className="interview-card-figure-caption">Figure 20. A photo with Professor Ming Lei</div>
                       </div>
                       <div className="interview-card-body">
@@ -1157,7 +1153,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 21. Interview with Professor Huaixin Zheng" />
+                        <img src={InterviewFigure12} alt="Figure 21. Interview with Professor Huaixin Zheng" />
                         <div className="interview-card-figure-caption">Figure 21. Interview with Professor Huaixin Zheng</div>
                       </div>
                       <div className="interview-card-body">
@@ -1271,7 +1267,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="A photo with Professor Youyong Lü" />
+                        <img src={InterviewFigure13} alt="A photo with Professor Youyong Lü" />
                         <div className="interview-card-figure-caption">Figure 22. A photo with Professor Youyong Lü</div>
                       </div>
                       <div className="interview-card-body">
@@ -1317,7 +1313,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="A photo with Associate Chief Physician Yanwu Zhang" />
+                        <img src={InterviewFigure14} alt="A photo with Associate Chief Physician Yanwu Zhang" />
                         <div className="interview-card-figure-caption">Figure 23. A photo with Associate Chief Physician Yanwu Zhang</div>
                       </div>
                       <div className="interview-card-body">
@@ -1363,7 +1359,7 @@ const MainContent = () => (
                     </div>
                     <div className="interview-card-content">
                       <div className="interview-card-image">
-                        <img src={SWOTAnalysisFigure1} alt="A photo with Laboratory Doctor Li Sun" />
+                        <img src={InterviewFigure15} alt="A photo with Laboratory Doctor Li Sun" />
                         <div className="interview-card-figure-caption">Figure 24. A photo with Laboratory Doctor Li Sun</div>
                       </div>
                       <div className="interview-card-body">
@@ -1433,7 +1429,7 @@ const MainContent = () => (
                       <p>Interviewee: A member of the public</p>
                       {/* 图片 */}
                       <div className="figure-item">
-                        <img src={SWOTAnalysisFigure1} alt="Figure 25. Public Interview" className="figure-image" />
+                        <img src={InterviewFigure16} alt="Figure 25. Public Interview" className="figure-image" />
                         <div className="h4">Figure 25. Public Interview</div>
                       </div>
                       <div className="interview-content">
@@ -1834,20 +1830,20 @@ const MainContent = () => (
               <p>This led us to develop a tiered communication system, producing animated shorts for social media while maintaining in-person lectures for older demographics.</p>
               <ImageGallery
                 images={[
-                  { src: IntegratedReportFigure3_1, alt: "Figure 30. Primary Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 30. Primary Education" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 30. Primary Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 30. Primary Education" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 31. Secondary Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 31. Secondary Education" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 31. Secondary Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 31. Secondary Education" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 32. University and Community Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 32. University and Community Education" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 32. University and Community Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 32. University and Community Education" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 33. Professional Education" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 34. Professional Education" },
+                  { src: EducationFigure1_1_1, alt: "Figure 30. Primary Education" },
+                  { src: EducationFigure1_1_2, alt: "Figure 30. Primary Education" },
+                  { src: EducationFigure1_1_3, alt: "Figure 30. Primary Education" },
+                  { src: EducationFigure1_1_4, alt: "Figure 30. Primary Education" },
+                  { src: EducationFigure1_2_1, alt: "Figure 31. Secondary Education" },
+                  { src: EducationFigure1_2_2, alt: "Figure 31. Secondary Education" },
+                  { src: EducationFigure1_2_3, alt: "Figure 31. Secondary Education" },
+                  { src: EducationFigure1_2_4, alt: "Figure 31. Secondary Education" },
+                  { src: EducationFigure3_1_1, alt: "Figure 32. University and Community Education" },
+                  { src: EducationFigure1_3_1, alt: "Figure 32. University and Community Education" },
+                  { src: EducationFigure1_3_2, alt: "Figure 32. University and Community Education" },
+                  { src: EducationFigure1_3_3, alt: "Figure 32. University and Community Education" },
+                  { src: EducationFigure1_3_4, alt: "Figure 33. Professional Education" },
+                  { src: EducationFigure1_3_5, alt: "Figure 34. Professional Education" },
                 ]}
               />
             </div>
@@ -1873,51 +1869,26 @@ const MainContent = () => (
               </p>
               <ImageGallery
                 images={[
-                  { src: IntegratedReportFigure3_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 35. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 35. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 37. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_2, alt: "Figure 37. Team-to-Team Technical Exchange" },
-                  { src: IntegratedReportFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure1_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure1_2, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure1_3, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure1_4, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure1_5, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure1_6, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_3, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_4, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_5, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_6, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure2_7, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure3_2, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure3_3, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure3_4, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: CooperationFigure3_5, alt: "Figure 37. Team-to-Team Technical Exchange" },
                 ]}
               />
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
-                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
-                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
-                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
-                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
-                  <div className="h4">Figure 35. Team-to-Team Technical Exchange</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 35. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className="h4">Figure 35. Institutional & Expert Collaboration</div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -1940,7 +1911,7 @@ const MainContent = () => (
               </p>
               <div className="figure-container">
                 <div className="figure-item">
-                  <img src={EducationFigure3_1_1} alt="Figure 38. Laboratory Safety" className="figure-image" />
+                  <img src={SafetyFigure1} alt="Figure 38. Laboratory Safety" className="figure-image" />
                   <div className='h4'>Figure 38. Laboratory Safety</div>
                 </div>
               </div>
@@ -2004,29 +1975,15 @@ const MainContent = () => (
               <p>We extended our science education efforts from online to offline, creating "u     In hospitals and communities, we organized public welfare pop-up events for breast health, using models to demonstrate breast anatomy, allowing residents to visually understand "why regular screening can interrupt the cancer progression process." On university campuses, we set up "interactive science booths" featuring quick Q&As, puzzle games, board games, warm message walls, and other interactive installations. These transformed academic concepts like five-year survival rates and pathological subtypes into gamified content that young people could participate in and share.
               </p>
               {/* 图片 */}
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
-                  <div className='h4'>Figure 41. Offline Scenarios</div>
-                </div>
-                <div className="figure-item">
-                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
-                  <div className='h4'>Figure 41. Offline Scenarios</div>
-                </div>
-                <div className="figure-item">
-                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
-                  <div className='h4'>Figure 41. Offline Scenarios</div>
-                </div>
-                <div className="figure-item">
-                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
-                  <div className='h4'>Figure 41. Offline Scenarios</div>
-                </div>
-                <div className="figure-item">
-                  <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
-                  <div className='h4'>Figure 41. Offline Scenarios</div>
-                </div>
-              </div>
-
+              <ImageGallery
+                images={[
+                  { src: SpreadFigure2_1, alt: "Figure 41. Offline Scenarios" },
+                  { src: SpreadFigure2_2, alt: "Figure 42. Offline Scenarios" },
+                  { src: SpreadFigure2_3, alt: "Figure 43. Offline Scenarios" },
+                  { src: SpreadFigure2_4, alt: "Figure 44. Offline Scenarios" },
+                  { src: SpreadFigure2_5, alt: "Figure 45. Offline Scenarios" },
+                ]}
+              />
               <p>
                 More innovatively, we  : in primary and secondary schools, we conducted "Strawberry DNA Extraction" experiments, using the "code of life in fruit" as an analogy for "breast cancer biomarker detection," planting the seeds of scientific exploration. In middle schools, we held cocktail receptions, using a crossover format of "molecular gastronomy + medical knowledge" to explain the link between diet and breast health. We organized high school students to visit human anatomy specimen museums, linking breast specimens to explanations of CRISPR technology's application in breast cancer detection, thereby helping future potential healthcare audiences build an early understanding of "technology for the people."
               </p>
@@ -2092,8 +2049,8 @@ const MainContent = () => (
                   {/* 图片 */}
                   <div className="figure-container">
                     <div className="figure-item">
-                      <img src={SpreadFigure2_1} alt="Figure 41. Offline Scenarios" className="figure-image" />
-                      <div className='h4'>Figure 41. Offline Scenarios</div>
+                      <img src={InclusivenessFigure2_1} alt="Figure 41. Inclusiveness of Women and Patient Groups" className="figure-image" />
+                      <div className='h4'>Figure 41. Inclusiveness of Women and Patient Groups</div>
                     </div>
                   </div>
                 </div>
@@ -2125,9 +2082,9 @@ const MainContent = () => (
             {/* 图片 */}
             <ImageGallery
               images={[
-                { src: SpreadFigure2_1, alt: "Figure 43. Educational Practices for Different Age Groups" },
-                { src: SpreadFigure2_1, alt: "Figure 43. Educational Practices for Different Age Groups" },
-                { src: SpreadFigure2_1, alt: "Figure 43. Educational Practices for Different Age Groups" }
+                { src: InclusivenessFigure3_1, alt: "Figure 43. Educational Practices for Different Age Groups" },
+                { src: InclusivenessFigure3_2, alt: "Figure 43. Educational Practices for Different Age Groups" },
+                { src: InclusivenessFigure3_3, alt: "Figure 43. Educational Practices for Different Age Groups" }
               ]}
             />
           </div>
@@ -2156,13 +2113,14 @@ const MainContent = () => (
             <div className="figure-container">
               <ImageGallery
                 images={[
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
-                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" }
+                  { src: InclusivenessFigure5_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_2, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_3, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_4, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_5, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_6, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_7, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: InclusivenessFigure5_8, alt: "Figure 44. Cultural and Creative Products" }
                 ]}
               />
             </div>
