@@ -838,7 +838,7 @@ html, body {
 
 .figure-image {
   width: 100%; /* 使用百分比宽度 */
-  max-width: 460px; 
+  max-width: 600px; 
   margin: 15px auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);

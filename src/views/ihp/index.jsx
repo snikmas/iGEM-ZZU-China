@@ -1263,24 +1263,40 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="content-body">
-                  <p>Interviewee: Youyong Lü</p>
-                  <p>Character Profile: Professor at Peking University Cancer Hospital, primarily researching tumor molecular biology, early cancer diagnosis, and personalized therapy.</p>
-                  {/* 图片 */}
-                  <div className="figure-item">
-                    <img src={SWOTAnalysisFigure1} alt="Figure 22. A photo with Professor Youyong Lü" className="figure-image" />
-                    <div className="h4">Figure 22. A photo with Professor Youyong Lü</div>
-                  </div>
-                  <div className="interview-summary">
-                    <p>
-                      1 Affirmed the important clinical significance of exosome-targeted liquid biopsy for early breast cancer screening.
-                    </p>
-                    <p>
-                      2 Considered the CD63 aptamer-magnetic bead method an efficient and gentle enrichment technique that well preserves exosomal bioactivity.
-                    </p>
-                    <p>
-                      3 Emphasized that the core of future work is to validate the efficacy in large clinical cohorts and explore its combination with existing screening methods.
-
-                    </p>
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Interview with Clinical Doctors</div>
+                      <div className="interview-card-subtitle">Youyong Lü</div>
+                      <div className="interview-card-profile">Professor at Peking University Cancer Hospital, primarily researching tumor molecular biology, early cancer diagnosis, and personalized therapy</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="A photo with Professor Youyong Lü" />
+                        <div className="interview-card-figure-caption">Figure 22. A photo with Professor Youyong Lü</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Affirmed the important clinical significance of exosome-targeted liquid biopsy for early breast cancer screening.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Considered the CD63 aptamer-magnetic bead method an efficient and gentle enrichment technique that well preserves exosomal bioactivity.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Emphasized that the core of future work is to validate the efficacy in large clinical cohorts and explore its combination with existing screening methods.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </section>
@@ -1293,24 +1309,40 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="content-body">
-                  <p>Interviewee: Yanwu Zhang</p>
-                  <p>Character Profile: Associate Chief Physician at the Breast Disease Center of the Third Affiliated Hospital of Zhengzhou University.</p>
-                  {/* 图片 */}
-                  <div className="figure-item">
-                    <img src={SWOTAnalysisFigure1} alt="Figure 23. A photo with Associate Chief Physician Yanwu Zhang" className="figure-image" />
-                    <div className="h4">Figure 23. A photo with Associate Chief Physician Yanwu Zhang</div>
-                  </div>
-                  <div className="interview-summary">
-                    <p>
-                      1 Interview deepened understanding of breast cancer and emphasized early screening's importance.
-                    </p>
-                    <p>
-                      2 Doctor endorsed project's potential and advised on sample quality, clinical collaboration, and ethics.
-                    </p>
-                    <p>
-                      3 Feedback will guide project optimization for clinical application in early diagnosis and prevention.
-
-                    </p>
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Interview with Breast Surgeons</div>
+                      <div className="interview-card-subtitle">Yanwu Zhang</div>
+                      <div className="interview-card-profile">Associate Chief Physician at the Breast Disease Center of the Third Affiliated Hospital of Zhengzhou University</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="A photo with Associate Chief Physician Yanwu Zhang" />
+                        <div className="interview-card-figure-caption">Figure 23. A photo with Associate Chief Physician Yanwu Zhang</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Interview deepened understanding of breast cancer and emphasized early screening's importance.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Doctor endorsed project's potential and advised on sample quality, clinical collaboration, and ethics.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Feedback will guide project optimization for clinical application in early diagnosis and prevention.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </section>
@@ -1323,23 +1355,40 @@ const MainContent = () => (
                   </div>
                 </div>
                 <div className="content-body">
-                  <p>Interviewee : Li Sun</p>
-                  <p>Character Profile: Engaged in clinical laboratory work and responsible for teaching the basics of clinical laboratory science and clinical hematology in the Department of Medical Laboratory Science at Zhengzhou University</p>
-                  {/* 图片 */}
-                  <div className="figure-item">
-                    <img src={SWOTAnalysisFigure1} alt="Figure 24. A photo with Laboratory Doctor Li Sun" className="figure-image" />
-                    <div className="h4">Figure 24. A photo with Laboratory Doctor Li Sun</div>
-                  </div>
-                  <div className="interview-summary">
-                    <p>
-                      1 Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.
-                    </p>
-                    <p>
-                      2 Key improvements needed: standardized sample processing, automated adaptation, cost control, and technical reproducibility.
-                    </p>
-                    <p>
-                      3 Next steps: refine protocols, enhance lab collaboration, and ensure the method becomes operable and scalable for practical clinical adoption.
-                    </p>
+                  <div className="interview-card-professional">
+                    <div className="interview-card-header">
+                      <div className="interview-card-title">Interview with Laboratory Doctors</div>
+                      <div className="interview-card-subtitle">Li Sun</div>
+                      <div className="interview-card-profile">Engaged in clinical laboratory work and responsible for teaching the basics of clinical laboratory science and clinical hematology in the Department of Medical Laboratory Science at Zhengzhou University</div>
+                    </div>
+                    <div className="interview-card-content">
+                      <div className="interview-card-image">
+                        <img src={SWOTAnalysisFigure1} alt="A photo with Laboratory Doctor Li Sun" />
+                        <div className="interview-card-figure-caption">Figure 24. A photo with Laboratory Doctor Li Sun</div>
+                      </div>
+                      <div className="interview-card-body">
+                        <div className="interview-card-findings">
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">1</div>
+                            <div className="interview-card-finding-text">
+                              Exosome detection and magnetic bead technology show strong potential for early breast cancer screening, yet require optimization for clinical use.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">2</div>
+                            <div className="interview-card-finding-text">
+                              Key improvements needed: standardized sample processing, automated adaptation, cost control, and technical reproducibility.
+                            </div>
+                          </div>
+                          <div className="interview-card-finding">
+                            <div className="interview-card-finding-number">3</div>
+                            <div className="interview-card-finding-text">
+                              Next steps: refine protocols, enhance lab collaboration, and ensure the method becomes operable and scalable for practical clinical adoption.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </section>
@@ -1783,68 +1832,24 @@ const MainContent = () => (
               <p>For instance, during a DNA science pop-up class, a primary student's question—"Can the DNA helix break?"—prompted us to refine the accuracy and relatability of all our scientific analogies across educational materials. Finally, we segmented our communication channels based on data.</p>
               <p>Surveys indicated that 59.3% of young people preferred short videos, while 40.7% of those over 50 favored community lectures.</p>
               <p>This led us to develop a tiered communication system, producing animated shorts for social media while maintaining in-person lectures for older demographics.</p>
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_1} alt="Figure 30. Primary Education" className="figure-image" />
-                  <div className="h4">Figure 30. Primary Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_2} alt="Figure 30. Primary Education" className="figure-image" />
-                  <div className="h4">Figure 30. Primary Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_1} alt="Figure 30. Primary Education" className="figure-image" />
-                  <div className="h4">Figure 30. Primary Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_2} alt="Figure 30. Primary Education" className="figure-image" />
-                  <div className="h4">Figure 30. Primary Education</div>
-                </div>
-              </div>
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_1} alt="Figure 31. Secondary Education" className="figure-image" />
-                  <div className="h4">Figure 31. Secondary Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_2} alt="Figure 31. Secondary Education" className="figure-image" />
-                  <div className="h4">Figure 31. Secondary Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_1} alt="Figure 31. Secondary Education" className="figure-image" />
-                  <div className="h4">Figure 31. Secondary Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_2} alt="Figure 31. Secondary Education" className="figure-image" />
-                  <div className="h4">Figure 31. Secondary Education</div>
-                </div>
-              </div>
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_1} alt="Figure 32. University and Community Education" className="figure-image" />
-                  <div className="h4">Figure 32. University and Community Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_2} alt="Figure 32. University and Community Education" className="figure-image" />
-                  <div className="h4">Figure 32. University and Community Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_1} alt="Figure 32. University and Community Education" className="figure-image" />
-                  <div className="h4">Figure 32. University and Community Education</div>
-                </div>
-                <div className="figure-item">
-                  <img src={IntegratedReportFigure3_2} alt="Figure 32. University and Community Education" className="figure-image" />
-                  <div className="h4">Figure 32. University and Community Education</div>
-                </div>
-              </div>
-              <div className="figure-item">
-                <img src={IntegratedReportFigure3_2} alt="Figure 33. Professional Education" className="figure-image" />
-                <div className="h4">Figure 33. Professional Education</div>
-              </div>
-              <div className="figure-item">
-                <img src={IntegratedReportFigure3_2} alt="Figure 34. Online Education" className="figure-image" />
-                <div className="h4">Figure 34. Online Education</div>
-              </div>
+              <ImageGallery
+                images={[
+                  { src: IntegratedReportFigure3_1, alt: "Figure 30. Primary Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 30. Primary Education" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 30. Primary Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 30. Primary Education" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 31. Secondary Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 31. Secondary Education" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 31. Secondary Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 31. Secondary Education" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 32. University and Community Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 32. University and Community Education" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 32. University and Community Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 32. University and Community Education" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 33. Professional Education" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 34. Professional Education" },
+                ]}
+              />
             </div>
             <p>Ultimately, education itself became a two-way feedback loop. We not only disseminated knowledge but also used these interactions as a live channel to test messaging, identify knowledge gaps, and continuously refine our public engagement strategy.</p>
           </div>
@@ -1866,6 +1871,27 @@ const MainContent = () => (
               <p>
                 Therefore, we reshaped our collaborations with clear objectives. To bridge the "translation gap," we partnered with Antu Biology. This provided systematic training on IVD regulatory pathways, enabling us to integrate compliance requirements into our R&D and quality control processes from an early stage. For technical validation and optimization, we engaged in exchanges with the UTokyo iGEM team, focusing specifically on CRISPR-Cas system selection and optimization, which provided alternative strategies for our signal amplification module. To accurately understand clinical needs, we worked closely with the Third Affiliated Hospital of Zhengzhou University. Feedback from breast surgeons and laboratory doctors emphasizing "specificity over sensitivity" and "standardized operating procedures" directly guided our experimental priorities and protocol development.
               </p>
+              <ImageGallery
+                images={[
+                  { src: IntegratedReportFigure3_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 35. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 36. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_2, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                  { src: IntegratedReportFigure3_1, alt: "Figure 37. Team-to-Team Technical Exchange" },
+                ]}
+              />
               <div className="figure-container">
                 <div className="figure-item">
                   <img src={EducationFigure2_1_1} alt="Figure 35. Team-to-Team Technical Exchange" className="figure-image" />
@@ -1892,62 +1918,6 @@ const MainContent = () => (
                   <div className="h4">Figure 35. Institutional & Expert Collaboration</div>
                 </div>
               </div>
-
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Institutional & Expert Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 36. Educational & Outreach Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 36. Educational & Outreach Collaboration</div>
-                </div>
-              </div>
-
-
-              <div className="figure-container">
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
-                </div>
-                <div className="figure-item">
-                  <img src={EducationFigure2_1_1} alt="Figure 37. Institutional & Expert Collaboration" className="figure-image" />
-                  <div className='h4'>Figure 37. Institutional & Expert Collaboration</div>
-                </div>
-              </div>
-
             </div>
           </div>
         </section>
@@ -2153,20 +2123,13 @@ const MainContent = () => (
               Educational practices play a crucial role in promoting inclusiveness and equity in breast cancer care. By providing comprehensive training and support to both women and patient groups, we can equip them with the knowledge and skills needed to make informed decisions about their health. This, in turn, can help to reduce the incidence of breast cancer and improve the overall quality of life for all women.
             </p>
             {/* 图片 */}
-            <div className="figure-container">
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 43. Educational Practices for Different Age Groups" className="figure-image" />
-                <div className='h4'>Figure 43. Educational Practices for Different Age Groups</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 43. Educational Practices for Different Age Groups" className="figure-image" />
-                <div className='h4'>Figure 43. Educational Practices for Different Age Groups</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 43. Educational Practices for Different Age Groups" className="figure-image" />
-                <div className='h4'>Figure 43. Educational Practices for Different Age Groups</div>
-              </div>
-            </div>
+            <ImageGallery
+              images={[
+                { src: SpreadFigure2_1, alt: "Figure 43. Educational Practices for Different Age Groups" },
+                { src: SpreadFigure2_1, alt: "Figure 43. Educational Practices for Different Age Groups" },
+                { src: SpreadFigure2_1, alt: "Figure 43. Educational Practices for Different Age Groups" }
+              ]}
+            />
           </div>
         </section>
         {/* 9.4 Breaking Disciplinary Cultural Boundaries */}
@@ -2191,34 +2154,17 @@ const MainContent = () => (
             </p>
             {/* 图片 */}
             <div className="figure-container">
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
-              <div className="figure-item">
-                <img src={SpreadFigure2_1} alt="Figure 44. Cultural and Creative Products" className="figure-image" />
-                <div className='h4'>Figure 44. Cultural and Creative Products</div>
-              </div>
+              <ImageGallery
+                images={[
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" },
+                  { src: SpreadFigure2_1, alt: "Figure 44. Cultural and Creative Products" }
+                ]}
+              />
             </div>
           </div>
         </section>

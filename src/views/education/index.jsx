@@ -134,7 +134,7 @@ const MainContent = () => (
         </p>
         <div className="figure-container">
           <div className="figure-item">
-            <img src={overview} alt="Education - Knowledge & Healing" className="figure-image" style={{maxWidth: '600px'}} />
+            <img src={overview} alt="Education - Knowledge & Healing" className="figure-image" style={{ maxWidth: '600px' }} />
             <em>Event Guide Map</em>
           </div>
         </div>
@@ -646,7 +646,7 @@ const MainContent = () => (
 
             <div className="figure-container">
               <div className="figure-item">
-                <img src={online_1} alt="WeChat Public Account" className="figure-image" style={{maxWidth: '600px'}} />
+                <img src={online_1} alt="WeChat Public Account" className="figure-image" style={{ maxWidth: '600px' }} />
                 <div className='h4'>WeChat Public Account</div></div>
             </div>
           </div>
@@ -671,12 +671,15 @@ const MainContent = () => (
               learning through demonstration rather than text-based materials.
             </p>
             <div className="figure-container">
-              <img
-                style={{
-                  boxShadow: 'none',
-                  maxWidth: '600px',
-                }}
-                src={online_2} alt="Short Videos and Social Media" className="figure-image" />
+              <div className="figure-item">
+                <img
+                  style={{
+                    boxShadow: 'none',
+                    maxWidth: '600px',
+                  }}
+                  src={online_2} alt="Short Videos and Social Media" className="figure-image" />
+                <div className='h4'>Short Videos and Social Media</div>
+              </div>
             </div>
           </div>
         </div>
