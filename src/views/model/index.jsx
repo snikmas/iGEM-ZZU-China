@@ -13,7 +13,7 @@ const modelFigure3 =  'https://static.igem.wiki/teams/5822/newassets/model/figur
 const modelFigure4 =  'https://static.igem.wiki/teams/5822/newassets/model/figure4-schematic-diagram-of-protein-structure.webp';
 const modelFigure5 =  'https://static.igem.wiki/teams/5822/newassets/model/model5.webp';
 const modelFigure6 =  'https://static.igem.wiki/teams/5822/newassets/model/figure6-apt-apt-c-complementary-sequence.webp';
-const modelFigure7 =  'https://static.igem.wiki/teams/5822/newassets/model/figure7-crrna-identification-sequence-and-pam-sequence.webp';
+const modelFigure7 =  'https://static.igem.wiki/teams/5822/newassets/model/fig7.webp';
 const modelFigure8 =  'https://static.igem.wiki/teams/5822/newassets/model/	figure8-apt-c-sequence.webp';
 const modelFigure9 =  'https://static.igem.wiki/teams/5822/newassets/model/figure9-her-2-apt-apt-c-binding-site-and-g-tm-value.webp';
 const modelFigure10 = 'https://static.igem.wiki/teams/5822/newassets/model/figure10-her-2-apt-hairpin-structure-and-g-tm-value.webp';
@@ -236,7 +236,7 @@ const MainContent = () => (
         <div className="figure-container">
           <div className="figure-item">
             <img src={modelFigure7} alt="CrRNA Identification Sequence and PAM Sequence" className="figure-image" />
-            <div className="figure-caption">Figure 7. CrRNA Identification Sequence and PAM Sequence</div>
+            <div className="figure-caption">Figure 7. crRNA Identification Sequence</div>
           </div>
         </div>
 
