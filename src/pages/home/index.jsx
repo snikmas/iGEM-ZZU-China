@@ -61,11 +61,11 @@ function Home() {
 
           {/* 对应 mega-panel 子菜单 - 都需要包装 */}
           <Route path="/team/members" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/merber.webp"><TeamMembers /><Bottom /></PageWrapper>} />
-          <Route path="/team/attributions" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/team.webp"><TeamAttributions /><Bottom /></PageWrapper>} />
+          <Route path="/attributions" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/team.webp"><TeamAttributions /><Bottom /></PageWrapper>} />
 
           <Route path="/project/description" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/description1.webp"><ProjectDescription /><Bottom /></PageWrapper>} />
           <Route path="/project/engineering" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/engineering-1.webp"><Engineering /><Bottom /></PageWrapper>} />
-          <Route path="/project/contribution" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/contribution-1.webp"><Contribution /><Bottom /></PageWrapper>} />
+          <Route path="/contribution" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/contribution-1.webp"><Contribution /><Bottom /></PageWrapper>} />
           <Route path="/project/development" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/development-1.webp"><Development /><Bottom /></PageWrapper>} />
 
           <Route path="/wet-lab/experiments" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/experjents.webp"><Experiments /><Bottom /></PageWrapper>} />
