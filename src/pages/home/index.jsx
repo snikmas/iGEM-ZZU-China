@@ -7,6 +7,7 @@ import PageWrapper from '../../components/pagewrapper';
 
 import Header from '../../components/header';
 import Exception403 from '../../components/exception';
+import Bottom from '../../components/bottom';
 
 // 真实页面组件
 import HomeLanding from '../../views/homelanding';
@@ -49,36 +50,36 @@ function Home() {
       <div className="home-body">
         <Routes>
           {/* 对应 header 顶部一级菜单 - HomeLanding 不需要包装 */}
-          <Route path="/" element={<HomeLanding />} />
-          <Route path="/home" element={<HomeLanding />} />
-          <Route path="/team" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Team /></PageWrapper>} />
-          <Route path="/project" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Project /></PageWrapper>} />
-          <Route path="/wet-lab" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><WetLab /></PageWrapper>} />
-          <Route path="/dry-lab" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><DryLab /></PageWrapper>} />
-          <Route path="/education" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/8ce28fd2ae75722a79f657e07dcb64d1.webp"><Education /></PageWrapper>} />
-          <Route path="/human-practice" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><HumanPractice /></PageWrapper>} />
+          <Route path="/" element={<><HomeLanding /></>} />
+          <Route path="/home" element={<><HomeLanding /></>} />
+          <Route path="/team" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Team /><Bottom /></PageWrapper>} />
+          <Route path="/project" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Project /><Bottom /></PageWrapper>} />
+          <Route path="/wet-lab" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><WetLab /><Bottom /></PageWrapper>} />
+          <Route path="/dry-lab" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><DryLab /><Bottom /></PageWrapper>} />
+          <Route path="/education" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/8ce28fd2ae75722a79f657e07dcb64d1.webp"><Education /><Bottom /></PageWrapper>} />
+          <Route path="/human-practice" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><HumanPractice /><Bottom /></PageWrapper>} />
 
           {/* 对应 mega-panel 子菜单 - 都需要包装 */}
-          <Route path="/team/members" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/d501e8fe6abaa8f7ef0667fbd0b97d55.webp"><TeamMembers /></PageWrapper>} />
-          <Route path="/team/attributions" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/d501e8fe6abaa8f7ef0667fbd0b97d55.webp"><TeamAttributions /></PageWrapper>} />
+          <Route path="/team/members" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/d501e8fe6abaa8f7ef0667fbd0b97d55.webp"><TeamMembers /><Bottom /></PageWrapper>} />
+          <Route path="/team/attributions" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/d501e8fe6abaa8f7ef0667fbd0b97d55.webp"><TeamAttributions /><Bottom /></PageWrapper>} />
 
-          <Route path="/project/description" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/description.webp"><ProjectDescription /></PageWrapper>} />
-          <Route path="/project/engineering" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/engineering.webp"><Engineering /></PageWrapper>} />
-          <Route path="/project/contribution" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/contribution.webp"><Contribution /></PageWrapper>} />
-          <Route path="/project/development" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/development.webp"><Development /></PageWrapper>} />
+          <Route path="/project/description" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/description.webp"><ProjectDescription /><Bottom /></PageWrapper>} />
+          <Route path="/project/engineering" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/engineering.webp"><Engineering /><Bottom /></PageWrapper>} />
+          <Route path="/project/contribution" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/contribution.webp"><Contribution /><Bottom /></PageWrapper>} />
+          <Route path="/project/development" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/development.webp"><Development /><Bottom /></PageWrapper>} />
 
-          <Route path="/wet-lab/experiments" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Experiments /></PageWrapper>} />
-          <Route path="/wet-lab/notebook" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/notebook2.webp"><Notebook /></PageWrapper>} />
-          <Route path="/wet-lab/parts" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Part /></PageWrapper>} />
-          <Route path="/wet-lab/safety" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/26d3745443447d8ca4ce302087d76b93.webp"><WetLabSafety /></PageWrapper>} />
-          <Route path="/wet-lab/results" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Results /></PageWrapper>} />
+          <Route path="/wet-lab/experiments" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Experiments /><Bottom /></PageWrapper>} />
+          <Route path="/wet-lab/notebook" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/notebook2.webp"><Notebook /><Bottom /></PageWrapper>} />
+          <Route path="/wet-lab/parts" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Part /><Bottom /></PageWrapper>} />
+          <Route path="/wet-lab/safety" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/26d3745443447d8ca4ce302087d76b93.webp"><WetLabSafety /><Bottom /></PageWrapper>} />
+          <Route path="/wet-lab/results" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Results /><Bottom /></PageWrapper>} />
 
-          <Route path="/dry-lab/model" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/model.webp"><Model /></PageWrapper>} />
-          <Route path="/dry-lab/software" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/softwarett.webp"><Software /></PageWrapper>} />
+          <Route path="/dry-lab/model" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/model.webp"><Model /><Bottom /></PageWrapper>} />
+          <Route path="/dry-lab/software" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/softwarett.webp"><Software /><Bottom /></PageWrapper>} />
 
-          <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/ihp.webp"><IHP /></PageWrapper>} />
-          <Route path="/human-practice/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Entrepreneurship /></PageWrapper>} />
-          <Route path="/human-practice/collaborations" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Collaborations /></PageWrapper>} />
+          <Route path="/human-practice/integrated-human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/ihp.webp"><IHP /><Bottom /></PageWrapper>} />
+          <Route path="/human-practice/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Entrepreneurship /><Bottom /></PageWrapper>} />
+          <Route path="/human-practice/collaborations" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5115/header/notebook-header-new.gif"><Collaborations /><Bottom /></PageWrapper>} />
 
           {/* 兜底 */}
           <Route path="*" element={<Exception403 />} />
