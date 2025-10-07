@@ -27,15 +27,15 @@ const IntegratedReportFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets
 const IntegratedReportFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/integratedreport/figure3-2.webp';
 
 // 4 DONE
-const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/ihp/overview.webp';
+const overviewpng = 'https://static.igem.wiki/teams/5822/newassets/ihp/ihp9.webp';
 const InterviewFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure1.webp';
-const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure2.webp';
-const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure3.webp';
-const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure4.webp';
-const InterviewFigure5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure5.webp';
-const InterviewFigure6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure6.webp';
-const InterviewFigure7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure7.webp';
-const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interviewer1to8/interviewfigure8.webp';
+const InterviewFigure2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure2.webp';
+const InterviewFigure3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure3.webp';
+const InterviewFigure4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure4.webp';
+const InterviewFigure5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure5.webp';
+const InterviewFigure6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure6.webp';
+const InterviewFigure7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure7.webp';
+const InterviewFigure8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure8.webp';
 const InterviewFigure9 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure9.webp';
 const InterviewFigure10 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure10.webp';
 const InterviewFigure11 = 'https://static.igem.wiki/teams/5822/newassets/ihp/interview/interviewfigure11.webp';
@@ -51,7 +51,7 @@ const InterviewFigure16 = 'https://static.igem.wiki/teams/5822/newassets/ihp/int
 const SurveyPDF = 'https://static.igem.wiki/teams/5822/newassets/files/survey.pdf';
 
 // 6 DONE
-const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/fbi/figure1.webp';
+const FeedbackIterationContentFigure1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/111666.webp';
 
 // 7 DONE
 const EducationFigure1_1_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-1-1.webp';
@@ -60,14 +60,14 @@ const EducationFigure1_1_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/
 const EducationFigure1_1_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-1-4.webp';
 
 const EducationFigure1_2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-2-1.webp';
-const EducationFigure1_2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-2-2.webp';
+const EducationFigure1_2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/1.webp';
 const EducationFigure1_2_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-2-3.webp';
 const EducationFigure1_2_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-2-4.webp';
 
 const EducationFigure1_3_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-3-1.webp';
 const EducationFigure1_3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-3-2.webp';
 const EducationFigure1_3_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-3-3.webp';
-const EducationFigure1_3_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-3-4.webp';
+const EducationFigure1_3_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/2.webp';
 const EducationFigure1_3_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-3-5.webp';
 
 const EducationFigure2_1_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-2-1-1.webp';
@@ -81,16 +81,16 @@ const CooperationFigure1_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/
 const CooperationFigure1_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-1-3.webp';
 const CooperationFigure1_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-1-4.webp';
 const CooperationFigure1_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-1-5.webp';
-const CooperationFigure1_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-1-6.webp';
+const CooperationFigure1_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/3.webp';
 const CooperationFigure2_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-1.webp';
-const CooperationFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-2.webp';
+const CooperationFigure2_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/2.webp';
 const CooperationFigure2_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-3.webp';
 const CooperationFigure2_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-4.webp';
 const CooperationFigure2_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-5.webp';
 const CooperationFigure2_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-6.webp';
-const CooperationFigure2_7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-2-7.webp';
+const CooperationFigure2_7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/education-1-2-4.webp';
 const CooperationFigure3_1 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-1.webp';
-const CooperationFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperation3-2.webp';
+const CooperationFigure3_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/4.webp';
 const CooperationFigure3_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-3.webp';
 const CooperationFigure3_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperation3-4.webp';
 const CooperationFigure3_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/cooperation/cooperaton-3-5.webp';
@@ -118,7 +118,7 @@ const InclusivenessFigure5_1 = 'https://static.igem.wiki/teams/5822/newassets/ih
 const InclusivenessFigure5_2 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/2.webp';
 const InclusivenessFigure5_3 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/3.webp';
 const InclusivenessFigure5_4 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/4.webp';
-const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/5.webp';
+const InclusivenessFigure5_5 = 'https://static.igem.wiki/teams/5822/newassets/ihp/education/7.webp';
 const InclusivenessFigure5_6 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/6.webp';
 const InclusivenessFigure5_7 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/7.webp';
 const InclusivenessFigure5_8 = 'https://static.igem.wiki/teams/5822/newassets/ihp/inclusiveness/8.webp';
