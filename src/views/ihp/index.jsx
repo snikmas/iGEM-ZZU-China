@@ -1491,23 +1491,7 @@ const MainContent = () => (
             <div className="content-body">
               <p>In conclusion, these systematic interviews form the three pillars of our project's iteration: Technical experts ensured scientific depth, clinical doctors outlined the scope of application, and patients and the public provided the technology with its human warmth.</p>
               <p>The feedback from these three aspects is complementary and indispensable, working together to shape our breast cancer screening project from a preliminary concept into a responsible innovation solution that embodies technical foresight, clinical practicality, and social inclusivity.</p>
-              <div className="interview-card">
-                <div className="interview-image">
-                  <img src={InterviewFigure5} alt="Interview with Professor Hongmei Geng" />
-                </div>
-                <div className="interview-content">
-                  <div className="interview-info">
-                    <div className="h3">Hongmei Geng</div>
-                    <p className="affiliation">Engaged in research on nano-oncology diagnosis and treatment, focusing on how to use enzyme-free amplification systems such as HCR to give nanomaterials higher detection sensitivity</p>
-                    <p className="details">Figure 14. Interview with Professor Hongmei Geng</p>
-                  </div>
-                  <div className="interview-summary">
-                    <p>The four-marker HCR simultaneously amplifies signals of CD63, CD81, CD9, and EpCAM through multiplexed hybridization chain reaction, significantly improving detection sensitivity and specificity.</p>
-                    <p>This method avoids the risk of missed detection associated with traditional single-marker approaches and is suitable for the accurate identification of tumor exosomes in complex clinical samples.</p>
-                    <p>The modular design facilitates integration with other detection modules (such as RCA and Cas14), providing multiple verification safeguards for early breast cancer diagnosis.</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </section>
