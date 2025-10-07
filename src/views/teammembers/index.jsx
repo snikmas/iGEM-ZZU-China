@@ -56,7 +56,7 @@ function TeamMembers() {
       {
         name: "Shanfeng Zhang",
         title: "Instructor",
-        image: zhanshanfengmentor,
+        image: zhangshanfengmentor,
         content: `Hello everyone, I'm Professor Shanfeng Zhang. As Director of the Basic Medical Experiment Center and an expert in natural anti-tumor drug research, I specialize in developing novel molecular detection technologies and have achieved multiple innovative results in studying the anti-tumor mechanisms of plant extracts. I'm delighted to provide the iGEM team with experimental platform support, molecular detection technical guidance, and innovation/entrepreneurship resources. My experiences can strongly support your synthetic biology research. Looking forward to exploring the infinite possibilities of life sciences together with our students!`
       },
       {
