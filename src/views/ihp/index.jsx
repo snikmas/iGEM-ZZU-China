@@ -1201,9 +1201,9 @@ const MainContent = () => (
                     </div>
                     <div className="feedback-impact-content">
                       <div className="feedback-impact-item">
-                        <div className="feedback-impact-item-number">1</div>
+                        <div className="feedback-impact-item-number"> </div>
                         <div className="feedback-impact-item-content">
-                          <h4 className="feedback-impact-item-title">Establishment and Optimization of the Core Technical Pathway</h4>
+                          <h4 className="feedback-impact-item-title">1 Establishment and Optimization of the Core Technical Pathway</h4>
                           <div className="feedback-impact-item-feedback">
                             <strong>Key Feedback:</strong> Professor Lijuan Zhao, Professor Thomas Südhof, and other experts pointed out from various perspectives that exosomes are ideal markers for early screening, and that the aptamer-based magnetic bead capture method offers advantages in specificity, stability, and cost. Professor Yan Xu, among others, further suggested optimizing strategies for "affinity" and "secondary enrichment".
                           </div>
@@ -1214,9 +1214,9 @@ const MainContent = () => (
                       </div>
 
                       <div className="feedback-impact-item">
-                        <div className="feedback-impact-item-number">2</div>
+                        <div className="feedback-impact-item-number"> </div>
                         <div className="feedback-impact-item-content">
-                          <h4 className="feedback-impact-item-title">Formation of the Multi-Target Detection and Signal Amplification Strategy</h4>
+                          <h4 className="feedback-impact-item-title">2 Formation of the Multi-Target Detection and Signal Amplification Strategy</h4>
                           <div className="feedback-impact-item-feedback">
                             <strong>Key Feedback:</strong> Professor Yan Xu emphasized the value of jointly detecting multiple target proteins (MMP-9/HER-2/PD-L1/EpCAM) for improving accuracy. Professors Hongmei Geng, Lu Ma, and Ye Yuan provided key validation for constructing a multi-stage amplification system from the perspectives of signal amplification principles, sensitivity, and reaction conditions.
                           </div>
@@ -1227,9 +1227,9 @@ const MainContent = () => (
                       </div>
 
                       <div className="feedback-impact-item">
-                        <div className="feedback-impact-item-number">3</div>
+                        <div className="feedback-impact-item-number"> </div>
                         <div className="feedback-impact-item-content">
-                          <h4 className="feedback-impact-item-title">Anticipation of Clinical Translation and Commercial Prospects</h4>
+                          <h4 className="feedback-impact-item-title">3 Anticipation of Clinical Translation and Commercial Prospects</h4>
                           <div className="feedback-impact-item-feedback">
                             <strong>Key Feedback:</strong> Industry experts like Professor Baofa Yu and Dr. Ming Lei assessed the technology's potential for clinical diagnostic applications and commercial viability, affirming its advantages in being simple to operate and cost-effective. They also provided specific suggestions such as integration with automated platforms and developing matched detection reagents.
                           </div>
@@ -2274,27 +2274,27 @@ function IHP() {
     // 1
     {
       id: 'introduction',
-      title: '1 Introduction',
+      title: 'Introduction',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'problem-overview',
-          title: '1.1 Problem Overview',
+          title: 'Problem Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'solution',
-          title: '1.2 Solution',
+          title: 'Solution',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'scientific-challenges',
-          title: '1.3 Scientific Challenges',
+          title: 'Scientific Challenges',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'social-challenges',
-          title: '1.4Social Challenges',
+          title: 'Social Challenges',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2302,42 +2302,42 @@ function IHP() {
     // 2 
     {
       id: 'iterative-symbiotic-practice-model',
-      title: '2 Iterative Symbiotic Practice Model',
+      title: 'Iterative Symbiotic Practice Model',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'overview',
-          title: '2.1 Overview',
+          title: 'Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'needs-insight-layer',
-          title: '2.2 Needs Insight Layer',
+          title: 'Needs Insight Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'practice-design-layer',
-          title: '2.3 Practice Design Layer',
+          title: 'Practice Design Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'implementation-interaction-layer',
-          title: '2.4 Implementation Interaction Layer',
+          title: 'Implementation Interaction Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-integration-layer',
-          title: '2.5 Feedback Integration Layer',
+          title: 'Feedback Integration Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'iterative-optimization-layer',
-          title: '2.6 Iterative Optimization Layer',
+          title: 'Iterative Optimization Layer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'summary',
-          title: '2.7 Summary',
+          title: 'Summary',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2345,27 +2345,27 @@ function IHP() {
     // 3
     {
       id: 'stakeholder-swot-analysis',
-      title: '3 Stakeholder SWOT Analysis',
+      title: 'Stakeholder SWOT Analysis',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'female-group',
-          title: '3.1 Female Group',
+          title: 'Female Group',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'medical-institutions',
-          title: '3.2 Medical Institutions',
+          title: 'Medical Institutions',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'government-departments',
-          title: '3.3 Government Departments',
+          title: 'Government Departments',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'scientific-research-institutions',
-          title: '3.4 Scientific Research Institutions',
+          title: 'Scientific Research Institutions',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2373,138 +2373,138 @@ function IHP() {
     // 4
     {
       id: 'interview',
-      title: '4 Interview',
+      title: 'Interview',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'introduction',
-          title: '4.1 Introduction',
+          title: 'Introduction',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'interviews-experts',
-          title: '4.2 Interviews with Technical Experts ',
+          title: 'Interviews with Technical Experts ',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
               id: 'interview-beads-were-chosen',
-              title: '4.2.1 Interview on Why Exosomes and Magnetic Beads Were Chosen',
+              title: 'Interview on Why Exosomes and Magnetic Beads Were Chosen',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-target-proteins',
-              title: '4.2.2 Interview on the Selection of the Four Target Proteins',
+              title: 'Interview on the Selection of the Four Target Proteins',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-chosen-pull',
-              title: '4.2.3 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
+              title: 'Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-the-selection-of-breast-cancer-cell-lines',
-              title: '4.2.4 Interview on the selection of breast cancer cell lines',
+              title: 'Interview on the selection of breast cancer cell lines',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-why-the-four-marker-hcr-signal-amplification-principle-was-established',
-              title: '4.2.5 Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established',
+              title: 'Interview on Why the Four-Marker HCR Signal Amplification Principle Was Established',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-principles-and-advantages-of-the-rca-method-module',
-              title: '4.2.6 Interview on Principles and Advantages of the RCA Method Module',
+              title: 'Interview on Principles and Advantages of the RCA Method Module',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-why-cas14-enzyme-was-chosen',
-              title: '4.2.7 Interview on Why Cas14 Enzyme Was Chosen',
+              title: 'Interview on Why Cas14 Enzyme Was Chosen',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-why-cd63-aptamers-are-chosen-for-exosome-pull-2',
-              title: '4.2.8 Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
+              title: 'Interview on Why CD63 Aptamers Are Chosen for Exosome Pull-Down',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-the-application-of-rna-aptamers-in-exosome-capture-2',
-              title: '4.2.9 Interview on the Application of RNA Aptamers in Exosome Capture',
+              title: 'Interview on the Application of RNA Aptamers in Exosome Capture',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-the-clinical-translation-potential-of-aptamer-based-diagnostics',
-              title: '4.2.10 Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics',
+              title: 'Interview on the Clinical Translation Potential of Aptamer-Based Diagnostics',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-the-commercial-viability-of-aptamer-based-exosome-capture-kits',
-              title: '4.2.11 Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits',
+              title: 'Interview on the Commercial Viability of Aptamer-Based Exosome Capture Kits',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-humanities-and-ethics',
-              title: '4.2.12 Interview on Humanities and Ethics',
+              title: 'Interview on Humanities and Ethics',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-on-feedback-and-impact',
-              title: '4.2.13 Feedback & Impact',
+              title: 'Feedback & Impact',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             }
           ]
         },
         {
           id: 'interview-with-clinical-doctors',
-          title: '4.3 Interviews with Clinical Doctors',
+          title: 'Interviews with Clinical Doctors',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
               id: 'clinical-doctors',
-              title: '4.3.1 Interview with Clinical Doctors',
+              title: 'Interview with Clinical Doctors',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'surgeons',
-              title: '4.3.2 Interview with Breast Surgeons',
+              title: 'Interview with Breast Surgeons',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'laboratory-doctors',
-              title: '4.3.3 Interview with Laboratory Doctors',
+              title: 'Interview with Laboratory Doctors',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-countries',
-              title: '4.3.4 Interview with Clinical Doctors in Other Countries',
+              title: 'Interview with Clinical Doctors in Other Countries',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             }
           ]
         },
         {
           id: 'interview-with-breast-surgeons',
-          title: '4.4 Interview with Breast Surgeons',
+          title: 'Interview with Breast Surgeons',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
               id: 'interview-with-public-representative',
-              title: '4.4.1 Interview with Public Representative',
+              title: 'Interview with Public Representative',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'interview-with-breast-surgeons',
-              title: '4.4.2 Interview with Breast Surgeons',
+              title: 'Interview with Breast Surgeons',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'feedback-and-impact',
-              title: '4.4.3 Feedback & Impact',
+              title: 'Feedback & Impact',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
           ]
         },
         {
           id: 'summary-of-the-interview',
-          title: '4.5 Summary of the interview',
+          title: 'Summary of the interview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
 
@@ -2514,39 +2514,39 @@ function IHP() {
     // 5
     {
       id: 'integrated-report-on-breast-health',
-      title: '5 Integrated Report on Breast Health',
+      title: 'Integrated Report on Breast Health',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'survey-overview',
-          title: '5.1 Survey Overview',
+          title: 'Survey Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'core-results',
-          title: '5.2 Core Results',
+          title: 'Core Results',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
               id: 'knowledge-cognition',
-              title: '5.2.1 Knowledge Cognition',
+              title: 'Knowledge Cognition',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'screening-prevention-behaviors',
-              title: '5.2.2 Screening and Prevention Behaviors',
+              title: 'Screening and Prevention Behaviors',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'popular-science-needs',
-              title: '5.2.3 Popular Science Needs',
+              title: 'Popular Science Needs',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             }
           ]
         },
         {
           id: 'conclusion',
-          title: '5.3 Conclusion',
+          title: 'Conclusion',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2554,22 +2554,22 @@ function IHP() {
     // 6
     {
       id: 'feedback-iteration',
-      title: '6 Feedback and Iteration',
+      title: 'Feedback and Iteration',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'feedback-iteration-regarding-insufficient-awareness-of-male-breast-cancer',
-          title: '6.1 Feedback and Iteration Regarding Insufficient Awareness of Male Breast Cancer',
+          title: 'Feedback and Iteration Regarding Insufficient Awareness of Male Breast Cancer',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-iteration-on-technical-optimization-and-reliability-improvement',
-          title: '6.2 Feedback and Iteration on Technical Optimization and Reliability Improvement',
+          title: 'Feedback and Iteration on Technical Optimization and Reliability Improvement',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'feedback-summary',
-          title: '6.3 Summary',
+          title: 'Summary',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2577,22 +2577,22 @@ function IHP() {
     // 7
     {
       id: 'hp-driven-redesign-of-external-work',
-      title: '7 HP-Driven Redesign of External Work',
+      title: 'HP-Driven Redesign of External Work',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'education-outreach-from-dissemination-to-dialogue',
-          title: '7.1 Education & Outreach: From Dissemination to Dialogue',
+          title: 'Education & Outreach: From Dissemination to Dialogue',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'collaboration-partnership',
-          title: '7.2 Collaboration & Partnership: Building a Feedback-Informed Network',
+          title: 'Collaboration & Partnership: Building a Feedback-Informed Network',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'safety-ethics-policy',
-          title: '7.3 Safety, Ethics & Policy: A Proactive Framework',
+          title: 'Safety, Ethics & Policy: A Proactive Framework',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2600,22 +2600,22 @@ function IHP() {
     // 8
     {
       id: 'spread',
-      title: '8 Spread',
+      title: 'Spread',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'online-matrix',
-          title: '8.1 Online Matrix: Breaking Down Information Barriers with New Media',
+          title: 'Online Matrix: Breaking Down Information Barriers with New Media',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'offline-scenarios',
-          title: '8.2 Offline Scenarios: Integrating Science into the Fabric of Daily Life',
+          title: 'Offline Scenarios: Integrating Science into the Fabric of Daily Life',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'two-way-linkage',
-          title: '8.3 Two-Way Linkage: From "Knowledge Transfer" to "Trust Building"',
+          title: 'Two-Way Linkage: From "Knowledge Transfer" to "Trust Building"',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]
@@ -2623,44 +2623,44 @@ function IHP() {
     // 9
     {
       id: 'inclusiveness',
-      title: '9 Inclusiveness Design',
+      title: 'Inclusiveness Design',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         {
           id: 'inclusiveness-overview',
-          title: '9.1 Inclusiveness Overview',
+          title: 'Inclusiveness Overview',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'inclusiveness-approaches',
-          title: '9.2 Inclusiveness Approaches',
+          title: 'Inclusiveness Approaches',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp',
           subMenus: [
             {
               id: 'inclusiveness-of-women-and-patient-groups',
-              title: '9.2.1 Inclusiveness of Women and Patient Groups',
+              title: 'Inclusiveness of Women and Patient Groups',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             },
             {
               id: 'inclusiveness-of-male-breast-cancer-patients',
-              title: '9.2.2 Inclusiveness of Male Breast Cancer Patients',
+              title: 'Inclusiveness of Male Breast Cancer Patients',
               icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
             }
           ]
         },
         {
           id: 'educational-practices',
-          title: '9.3 Educational Practices for Different Age Groups',
+          title: 'Educational Practices for Different Age Groups',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'breaking-disciplinary-cultural-boundaries',
-          title: '9.4 Breaking Disciplinary and Cultural Boundaries',
+          title: 'Breaking Disciplinary and Cultural Boundaries',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         },
         {
           id: 'enhancing-sense-of-participation-and-belonging',
-          title: '9.5 Enhancing Sense of Participation and Belonging',
+          title: 'Enhancing Sense of Participation and Belonging',
           icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp'
         }
       ]

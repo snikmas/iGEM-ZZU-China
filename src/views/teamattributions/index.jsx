@@ -269,11 +269,11 @@ Web Development: Handle the integration of front-end and back-end components. Op
       specificTasks: "Shared insights on early breast cancer screening and clinical workflows, helping us design a test strip compatible with real-world hospital routines."
     },
     {
-      name: "Yingying Liu",
-      institutionType: "Academic",
-      relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+      name: "Chengdu Taimeng Software Co., Ltd.",
+      institutionType: "Industry",
+      relationshipToTeam: "Sponsor",
+      tasks: "Fundraising",
+      specificTasks: "Provided financial support for our project."
     }
   ]
 
