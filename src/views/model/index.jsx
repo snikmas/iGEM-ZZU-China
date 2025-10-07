@@ -89,7 +89,7 @@ const MainContent = () => (
                 <td>[2]</td>
               </tr>
               <tr>
-                <td>ERBB2</td>
+                <td>HER-2</td>
                 <td>GCAGCGGTGTGGGGGCAGCGGTGTGGGGGCAGCGGTGTGGGG</td>
                 <td>[3]</td>
               </tr>
@@ -303,7 +303,7 @@ const MainContent = () => (
             </thead>
             <tbody>
               <tr>
-                <td rowSpan="2">ERBB2</td>
+                <td rowSpan="2">HER-2</td>
                 <td>TTTCGATTAAAGCTCGCCATCAAATCACACCGCTGCCCCCACA</td>
               </tr>
               <tr>
