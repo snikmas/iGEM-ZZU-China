@@ -235,39 +235,39 @@ Web Development: Handle the integration of front-end and back-end components. Op
   // 额外贡献
   const externalMembers = [
     {
-      name: "Yuxuan Xia",
-      institutionType: "Academic",
+      name: "Zhengzhou Autobio Diagnostics Co., Ltd.",
+      institutionType: "Industry",
       relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+      tasks: "Analysis",
+      specificTasks: "Provided feedback on improving the purity and yield of exosome samples, which directly influenced the optimization of our upstream processing steps."
     },
     {
-      name: "Xiaoran Ji",
-      institutionType: "Academic",
+      name: "Thomas Sudhof",
+      institutionType: "Other",
       relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+      tasks: "Other",
+      specificTasks: "He shared his insights on cellular signaling and synaptic mechanisms, helping us understand how fundamental biological principles can guide the design of highly sensitive detection systems. His advice was crucial in optimizing our project for early breast cancer biomarkers."
     },
     {
-      name: "Jing Lei",
-      institutionType: "Academic",
+      name: "Craig C. Mello",
+      institutionType: "Other",
       relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+      tasks: "Other",
+      specificTasks: "We discussed RNA interference and gene regulation, which inspired improvements in our LFA detection strategy, particularly in enhancing signal specificity and reducing background noise. His guidance directly influenced how we refined the molecular components of our test strips."
     },
     {
-      name: "Yingying Liu",
-      institutionType: "Academic",
+      name: "Twist Bioscience",
+      institutionType: "Industry",
       relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+      tasks: "Analysis",
+      specificTasks: "He provided guidance on oligonucleotide design, production scalability, and quality control, improving the stability and reproducibility of our LFA strips and bridging our academic work with industrial feasibility."
     },
     {
-      name: "Yingying Liu",
-      institutionType: "Academic",
+      name: "Yu Baofa",
+      institutionType: "Nonprofit",
       relationshipToTeam: "External Advisor",
-      tasks: "Background Research",
-      specificTasks: "She provided clinical insights and data on breast reconstruction, strengthening the team's confidence in adipocyte implantation and guiding adaptation for non-reconstruction patients."
+      tasks: "Other",
+      specificTasks: "Shared insights on early breast cancer screening and clinical workflows, helping us design a test strip compatible with real-world hospital routines."
     },
     {
       name: "Yingying Liu",

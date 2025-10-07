@@ -59,7 +59,7 @@ const MainContent = () => (
         <div className="figure-container">
           <div className="figure-item">
             <img src={modelFigure2} alt="The structure of the aptamer" className="figure-image" />
-            <div className="figure-caption">Figure 2. The structure of the aptamer</div>
+            <div className="figure-caption">Figure 2. The structure of the aptamer[1]</div>
           </div>
         </div>
 
