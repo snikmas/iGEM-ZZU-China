@@ -134,7 +134,7 @@ const MainContent = () => (
     {/* 1 */}
     <div id="introduction" className="view-content">
       <div className="content-header">
-        <div className="h1">Introduction</div>
+        <div className="h1">1 Introduction</div>
       </div>
       <div className="content-body">
         <blockquote className="intro-quote">
