@@ -70,6 +70,7 @@ function Home() {
           <Route path="/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/eng.webp"><Entrepreneurship /><Bottom /></PageWrapper>} />
           <Route path="/collaborations" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/collabratjon.webp"><Collaborations /><Bottom /></PageWrapper>} />
           
+          
           {/* 兜底 */}
           <Route path="*" element={<Exception403 />} />
         </Routes>
