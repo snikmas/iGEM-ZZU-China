@@ -848,7 +848,7 @@ const MainContent = () => (
         </section>
 
 
-        {/* 4. CRISPRCas12a Fluorescence Sensitivity & Specificity Valuation */}
+        {/* 4. CRISPR/Cas12a Fluorescence Sensitivity & Specificity Valuation */}
         <section className="subsection" id="crispr-sensitivity-specificity">
           <h2 className="subsection-title">4. CRISPRCas12a Fluorescence Sensitivity & Specificity Valuation</h2>
 
@@ -1550,7 +1550,7 @@ function Results() {
     },
     {
       id: 'apt-crispr-hcr',
-      title: 'APT-CRISPR-HCR Detection System',
+      title: 'APT-CRISPR/Cas12a-HCR Detection System',
       icon: 'https://static.igem.wiki/teams/5822/newassets/icons/one.webp',
       subMenus: [
         { id: 'crispr-cas12a-optimization', title: 'CRISPR/Cas12a Optimization', icon: 'https://static.igem.wiki/teams/5822/newassets/icons/two.webp' },
