@@ -3,11 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import './index.css';
 import { AppstoreOutlined } from '@ant-design/icons';
 
-
 const headerLogo = 'https://static.igem.wiki/teams/5822/newassets/headerlogo/headerlogo.webp';
 
 function Header() {
-
   const routers = [
     {
       key: '/',
@@ -22,8 +20,8 @@ function Header() {
       label: 'Team',
       element: '',
       subMenu: [
-        { key: '/team/members', icon: '', label: 'Members', element: '' },
-        { key: '/team/attributions', icon: '', label: 'Attributions', element: '' }
+        { key: '/members', icon: '', label: 'Members', element: '' },
+        { key: '/attributions', icon: '', label: 'Attributions', element: '' }
       ]
     },
     {
@@ -32,10 +30,10 @@ function Header() {
       label: 'Project',
       element: '',
       subMenu: [
-        { key: '/project/description', icon: '', label: 'Description', element: '' },
-        { key: '/project/engineering', icon: '', label: 'Engineering', element: '' },
-        { key: '/project/contribution', icon: '', label: 'Contribution', element: '' },
-        { key: '/project/development', icon: '', label: 'Development', element: '' }
+        { key: '/description', icon: '', label: 'Description', element: '' },
+        { key: '/engineering', icon: '', label: 'Engineering', element: '' },
+        { key: '/contribution', icon: '', label: 'Contribution', element: '' },
+        { key: '/development', icon: '', label: 'Development', element: '' }
       ]
     },
     {
@@ -44,11 +42,11 @@ function Header() {
       label: 'Wet Lab',
       element: '',
       subMenu: [
-        { key: '/wet-lab/experiments', icon: '', label: 'Experiments', element: '' },
-        { key: '/wet-lab/results', icon: '', label: 'Results', element: '' },
-        { key: '/wet-lab/notebook', icon: '', label: 'Notebook', element: '' },
-        { key: '/wet-lab/parts', icon: '', label: 'Parts', element: '' },
-        { key: '/wet-lab/safety', icon: '', label: 'Safety', element: '' }
+        { key: '/experiments', icon: '', label: 'Experiments', element: '' },
+        { key: '/results', icon: '', label: 'Results', element: '' },
+        { key: '/notebook', icon: '', label: 'Notebook', element: '' },
+        { key: '/parts', icon: '', label: 'Parts', element: '' },
+        { key: '/safety', icon: '', label: 'Safety', element: '' }
       ]
     },
     {
@@ -57,8 +55,8 @@ function Header() {
       label: 'Dry Lab',
       element: '',
       subMenu: [
-        { key: '/dry-lab/model', icon: '', label: 'Model', element: '' },
-        { key: '/dry-lab/software', icon: '', label: 'Software', element: '' }
+        { key: '/model', icon: '', label: 'Model', element: '' },
+        { key: '/software', icon: '', label: 'Software', element: '' }
       ]
     },
     {
@@ -74,20 +72,20 @@ function Header() {
       label: 'Human Practice',
       element: '',
       subMenu: [
-        { key: '/human-practice/integrated-human-practices', icon: '', label: 'Integrated Human Practices', element: '' },
-        { key: '/human-practice/entrepreneurship', icon: '', label: 'Entrepreneurship', element: '' },
-        { key: '/human-practice/collaborations', icon: '', label: 'Collaborations', element: '' }
+        { key: '/integrated-human-practices', icon: '', label: 'Integrated Human Practices', element: '' },
+        { key: '/entrepreneurship', icon: '', label: 'Entrepreneurship', element: '' },
+        { key: '/collaborations', icon: '', label: 'Collaborations', element: '' }
       ]
     }
   ];
 
   // 应用面板数据：直达常用页面
   const apps = [
-    { key: 'members', label: 'Members', icon: '👥', link: '/team/members' },
-    { key: 'engineering', label: 'Engineering', icon: '🛠️', link: '/project/engineering' },
-    { key: 'contribution', label: 'Contribution', icon: '🤝', link: '/project/contribution' },
-    { key: 'experiments', label: 'Experiments', icon: '🧪', link: '/wet-lab/experiments' },
-    { key: 'model', label: 'Model', icon: '📊', link: '/dry-lab/model' },
+    { key: 'members', label: 'Members', icon: '👥', link: '/members' },
+    { key: 'engineering', label: 'Engineering', icon: '🛠️', link: '/engineering' },
+    { key: 'contribution', label: 'Contribution', icon: '🤝', link: '/contribution' },
+    { key: 'experiments', label: 'Experiments', icon: '🧪', link: '/experiments' },
+    { key: 'model', label: 'Model', icon: '📊', link: '/model' },
   ];
 
   const navigate = useNavigate();
