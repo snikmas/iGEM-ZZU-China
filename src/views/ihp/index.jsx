@@ -1201,9 +1201,9 @@ const MainContent = () => (
                     </div>
                     <div className="feedback-impact-content">
                       <div className="feedback-impact-item">
-                        <div className="feedback-impact-item-number">1</div>
+                        <div className="feedback-impact-item-number"> </div>
                         <div className="feedback-impact-item-content">
-                          <h4 className="feedback-impact-item-title">Establishment and Optimization of the Core Technical Pathway</h4>
+                          <h4 className="feedback-impact-item-title">1 Establishment and Optimization of the Core Technical Pathway</h4>
                           <div className="feedback-impact-item-feedback">
                             <strong>Key Feedback:</strong> Professor Lijuan Zhao, Professor Thomas Südhof, and other experts pointed out from various perspectives that exosomes are ideal markers for early screening, and that the aptamer-based magnetic bead capture method offers advantages in specificity, stability, and cost. Professor Yan Xu, among others, further suggested optimizing strategies for "affinity" and "secondary enrichment".
                           </div>
@@ -1214,9 +1214,9 @@ const MainContent = () => (
                       </div>
 
                       <div className="feedback-impact-item">
-                        <div className="feedback-impact-item-number">2</div>
+                        <div className="feedback-impact-item-number"> </div>
                         <div className="feedback-impact-item-content">
-                          <h4 className="feedback-impact-item-title">Formation of the Multi-Target Detection and Signal Amplification Strategy</h4>
+                          <h4 className="feedback-impact-item-title">2 Formation of the Multi-Target Detection and Signal Amplification Strategy</h4>
                           <div className="feedback-impact-item-feedback">
                             <strong>Key Feedback:</strong> Professor Yan Xu emphasized the value of jointly detecting multiple target proteins (MMP-9/HER-2/PD-L1/EpCAM) for improving accuracy. Professors Hongmei Geng, Lu Ma, and Ye Yuan provided key validation for constructing a multi-stage amplification system from the perspectives of signal amplification principles, sensitivity, and reaction conditions.
                           </div>
@@ -1227,9 +1227,9 @@ const MainContent = () => (
                       </div>
 
                       <div className="feedback-impact-item">
-                        <div className="feedback-impact-item-number">3</div>
+                        <div className="feedback-impact-item-number"> </div>
                         <div className="feedback-impact-item-content">
-                          <h4 className="feedback-impact-item-title">Anticipation of Clinical Translation and Commercial Prospects</h4>
+                          <h4 className="feedback-impact-item-title">3 Anticipation of Clinical Translation and Commercial Prospects</h4>
                           <div className="feedback-impact-item-feedback">
                             <strong>Key Feedback:</strong> Industry experts like Professor Baofa Yu and Dr. Ming Lei assessed the technology's potential for clinical diagnostic applications and commercial viability, affirming its advantages in being simple to operate and cost-effective. They also provided specific suggestions such as integration with automated platforms and developing matched detection reagents.
                           </div>
