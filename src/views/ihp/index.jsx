@@ -2110,7 +2110,6 @@ const MainContent = () => (
               We also used cultural and creative products (team uniforms, badges, keychains, etc.) to enhance interaction between the team and the public. These products feature gender-neutral designs, allowing anyone to identify with and participate in the initiative. This design philosophy reflects our commitment to cultural inclusivity, making science not a privilege for the few but a endeavor that can be shared and embraced by all groups.
             </p>
             {/* 图片 */}
-            <div className="figure-container">
               <ImageGallery
                 images={[
                   { src: InclusivenessFigure5_1, alt: "Figure 44. Cultural and Creative Products" },
@@ -2123,7 +2122,6 @@ const MainContent = () => (
                   { src: InclusivenessFigure5_8, alt: "Figure 44. Cultural and Creative Products" }
                 ]}
               />
-            </div>
           </div>
         </section>
       </div>
