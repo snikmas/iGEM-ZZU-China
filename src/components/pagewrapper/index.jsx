@@ -18,4 +18,4 @@ const PageWrapper = ({ children , headerImage }) => {
   );
 };
 
-export default PageWrapper;
+export default PageWrapper; 
