@@ -68,7 +68,7 @@ const MainContent = () => (
           We have developed a <span>standardized RCA (Rolling Circle Amplification) component</span> that allows for the <span>efficient amplification</span> of <span>circular DNA sequences</span>, which is <span>crucial</span> for <span>amplifying low-concentration biomarkers</span> in the context of <span>breast cancer detection</span>. This <span>component</span> can be <span>easily integrated</span> into <span>other biosensor designs</span> that require a <span>high-sensitivity amplification system</span>.
         </p>
         <p>
-          These <span>components</span> and <span>tools</span> not only <span>enrich the resource base</span> of <span>synthetic biology</span>, but also provide <span>reusable modules</span> for <span>other teams</span>, facilitating <span>technological development</span> in the <span>field</span>. If you want to see our <span>parts</span>, <a href="/wet-lab/parts" className="inline-link">click here</a>.
+          These <span>components</span> and <span>tools</span> not only <span>enrich the resource base</span> of <span>synthetic biology</span>, but also provide <span>reusable modules</span> for <span>other teams</span>, facilitating <span>technological development</span> in the <span>field</span>. If you want to see our <span>parts</span>, <a href="/zzu-china/parts" className="inline-link">click here</a>.
         </p>
       </div>
     </div>
@@ -99,7 +99,7 @@ const MainContent = () => (
           Our <span>team</span> has also developed a <span>protocol</span> for <span>RCA-based amplification</span>, which allows the <span>rolling circle amplification</span> of <span>circular DNA</span>. This <span>method</span> is <span>ideal</span> for creating a <span>high-sensitivity detection system</span> by <span>amplifying the target signal</span> for <span>easy detection</span> in the context of <span>biosensing applications</span> like <span>cancer diagnostics</span>.
         </p>
         <p>
-          These <span>experimental protocols</span> not only <span>systematize our work</span>, but also provide a <span>reference standard</span> for <span>future synthetic biology experiments</span> to help <span>other research teams</span> do their <span>work more efficiently</span>. If you want to learn about our <span>protocols</span>, <a href="/wet-lab/experiments" className="inline-link">click here</a>.
+          These <span>experimental protocols</span> not only <span>systematize our work</span>, but also provide a <span>reference standard</span> for <span>future synthetic biology experiments</span> to help <span>other research teams</span> do their <span>work more efficiently</span>. If you want to learn about our <span>protocols</span>, <a href="/zzu-china/experiments" className="inline-link">click here</a>.
         </p>
       </div>
     </div>
