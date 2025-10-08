@@ -308,19 +308,19 @@ function HomeLanding() {
         <div className="explore-inner">
           <h2 className="explore-title">Explore Our Project</h2>
           <div className="explore-grid">
-            <div className="explore-item" onClick={() => handleExploreClick('/project/description')}>
+            <div className="explore-item" onClick={() => handleExploreClick('/description')}>
               <div className="icon">
                 <img src={section11pic1} alt="Project" className="explore-icon" />
               </div>
               <div className="label pink">Project</div>
             </div>
-            <div className="explore-item" onClick={() => handleExploreClick('/wet-lab/experiments')}>
+            <div className="explore-item" onClick={() => handleExploreClick('/experiments')}>
               <div className="icon">
                 <img src={section11pic2} alt="Wet Lab" className="explore-icon" />
               </div>
               <div className="label">Wet Lab</div>
             </div>
-            <div className="explore-item" onClick={() => handleExploreClick('/dry-lab/model')}>
+            <div className="explore-item" onClick={() => handleExploreClick('/model')}>
               <div className="icon">
                 <img src={section11pic3} alt="Dry Lab" className="explore-icon" />
               </div>
@@ -332,7 +332,7 @@ function HomeLanding() {
               </div>
               <div className="label">Education</div>
             </div>
-            <div className="explore-item" onClick={() => handleExploreClick('/human-practice/integrated-human-practices')}>
+            <div className="explore-item" onClick={() => handleExploreClick('/human-practices')}>
               <div className="icon">
                 <img src={section11pic5} alt="Human Practice" className="explore-icon" />
               </div>

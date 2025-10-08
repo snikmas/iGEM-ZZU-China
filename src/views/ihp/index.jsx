@@ -1423,44 +1423,89 @@ const MainContent = () => (
               <div className="interview-card reverse">
                 <div className="interview-content">
                   {/* 4.4.1 Interview with Public Representative */}
-                  <section id="interview-with-public-representative" className="interview-section">
-                    <div className="interview-info">
-                      <div className="h3">4.4.1 Interview with Public Representative</div>
-                      <p>Interviewee: A member of the public</p>
-                      {/* 图片 */}
-                      <div className="figure-item">
-                        <img src={InterviewFigure16} alt="Figure 25. Public Interview" className="figure-image" />
-                        <div className="h4">Figure 25. Public Interview</div>
+                  <section id="interview-with-public-representative" className="view-subsection">
+                    <div className="content-section-header">
+                      <div className="h3">
+                        4.4.1 Interview with Public Representative
                       </div>
-                      <div className="interview-content">
-                        <p>
-                          1 Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.
-                        </p>
-                        <p>
-                          2 Non-invasive blood tests are preferred for convenience but require improved accuracy and cost-effectiveness.
-                        </p>
-                        <p>
-                          3 Effective science communication should emphasize quantitative benefits of early screening and provide actionable guidance to boost participation.
-                        </p>
+                    </div>
+                    <div className="content-body">
+                      <div className="interview-card-professional">
+                        <div className="interview-card-header">
+                          <div className="interview-card-title">Interview with Public Representative</div>
+                          <div className="interview-card-subtitle">A member of the public</div>
+                          <div className="interview-card-profile">General public perspective on breast cancer screening</div>
+                        </div>
+                        <div className="interview-card-content">
+                          <div className="interview-card-image">
+                            <img src={InterviewFigure16} alt="Public Interview" />
+                            <div className="interview-card-figure-caption">Figure 25. Public Interview</div>
+                          </div>
+                          <div className="interview-card-body">
+                            <div className="interview-card-findings">
+                              <div className="interview-card-finding">
+                                <div className="interview-card-finding-number">1</div>
+                                <div className="interview-card-finding-text">
+                                  Public reluctance toward breast cancer screening stems from fear of pain, risk avoidance, and complex procedures.
+                                </div>
+                              </div>
+                              <div className="interview-card-finding">
+                                <div className="interview-card-finding-number">2</div>
+                                <div className="interview-card-finding-text">
+                                  Non-invasive blood tests are preferred for convenience but require improved accuracy and cost-effectiveness.
+                                </div>
+                              </div>
+                              <div className="interview-card-finding">
+                                <div className="interview-card-finding-number">3</div>
+                                <div className="interview-card-finding-text">
+                                  Effective science communication should emphasize quantitative benefits of early screening and provide actionable guidance to boost participation.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </section>
 
-                  {/* 4.4.2 Interviews with Breast Cancer Patients and Their Families（Breast Cancer Patients and Their Families） */}
-                  <section id="interview-with-breast-surgeons" className="interview-section">
-                    <div className="interview-info">
-                      <div className="h3">4.4.2 Interviews with Breast Cancer Patients and Their Families（Breast Cancer Patients and Their Families）</div>
-                      <p>Interviewees：Patients and their families</p>
-                      <div className="interview-summary">
-                        <p>
-                          1 Patients emphasized the need for convenient, non-invasive early screening and expressed cautious interest in exosome technology, pending improved accuracy and cost.
-                        </p>
-                        <p>
-                          2 Treatment priorities included reduced side effects, precision therapy, lower costs, and better insurance coverage.
-                        </p>
-                        <p>
-                          3 Recovery relied on active rehabilitation, nutrition, and mental health support, highlighting patient-centered insights for improving care.
-                        </p>
+                  {/* 4.4.2 Interviews with Breast Cancer Patients and Their Families */}
+                  <section id="interview-with-breast-surgeons" className="view-subsection">
+                    <div className="content-section-header">
+                      <div className="h3">
+                        4.4.2 Interviews with Breast Cancer Patients and Their Families
+                      </div>
+                    </div>
+                    <div className="content-body">
+                      <div className="interview-card-professional">
+                        <div className="interview-card-header">
+                          <div className="interview-card-title">Interviews with Breast Cancer Patients and Their Families</div>
+                          <div className="interview-card-subtitle">Patients and their families</div>
+                          <div className="interview-card-profile">Personal experiences and perspectives on breast cancer screening and treatment</div>
+                        </div>
+                        <div className="interview-card-content">
+                          <div className="interview-card-body">
+                            <div className="interview-card-findings">
+                              <div className="interview-card-finding">
+                                <div className="interview-card-finding-number">1</div>
+                                <div className="interview-card-finding-text">
+                                  Patients emphasized the need for convenient, non-invasive early screening and expressed cautious interest in exosome technology, pending improved accuracy and cost.
+                                </div>
+                              </div>
+                              <div className="interview-card-finding">
+                                <div className="interview-card-finding-number">2</div>
+                                <div className="interview-card-finding-text">
+                                  Treatment priorities included reduced side effects, precision therapy, lower costs, and better insurance coverage.
+                                </div>
+                              </div>
+                              <div className="interview-card-finding">
+                                <div className="interview-card-finding-number">3</div>
+                                <div className="interview-card-finding-text">
+                                  Recovery relied on active rehabilitation, nutrition, and mental health support, highlighting patient-centered insights for improving care.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </section>
