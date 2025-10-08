@@ -600,7 +600,7 @@ const MainContent = () => (
               <div className="interview-card-professional">
                 <div className="interview-card-header">
                   <div className="interview-card-title">Interview Overview</div>
-                  <div className="interview-card-subtitle">Comprehensive Expert Insights</div>
+                  <div className="interview-card-subtitle"> </div>
                 </div>
                 <div className="interview-card-content">
                   <div className="interview-card-body">
@@ -1468,10 +1468,10 @@ const MainContent = () => (
                   <section id="feedback-and-impact" className="interview-section">
                     <div className="interview-info">
                       <div className="h3">4.4.3 Feedback & Impact</div>
-                      <div className="h3">1. Reshaping Product Positioning and User Experience</div>
+                      <div className="h4">1. Reshaping Product Positioning and User Experience</div>
                       <p>Key Feedback: The public generally expressed reluctance towards traditional screening due to "fear of pain" and "complex procedures", showing a strong preference for detection methods that are "non-invasive, convenient, and low-cost". Patients and their families expressed deepest concern regarding the "accuracy" and "cost" of the test.</p>
                       <p>Project Impact: These voices directly drove our product design philosophy. We defined the direction for a "home-sampling" product prototype and established "cost control (targeting &lt;¥200 per test)" and "simplified operation" as core design goals, equal in importance to technical performance.</p>
-                      <div className="h3">2. Integration of Communication Strategies and Psychological Care</div>
+                      <div className="h4">2. Integration of Communication Strategies and Psychological Care</div>
                       <p>Key Feedback: Interviews revealed user "fear" of screening, concerns about "privacy", and (for male patients) "social stigma".</p>
                       <p>Project Impact: In all our science communication efforts, we emphasized the benefits of early screening and provided clear operational guidance. Simultaneously, we proactively planned for post-test support channels for positive results and incorporated strict privacy protection measures into our design, directly addressing users' emotional needs.</p>
                     </div>
