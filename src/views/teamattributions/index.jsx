@@ -52,10 +52,10 @@ Technical Innovation Promotion: Encouraged and supported team members to carry o
       image: liukangdongmentor
     },
     {
-      name: "San Dong",
+      name: "Shan Dong",
       role: "Mentor",
       tasks: "Mentor",
-      specificTasks: `SanDong is a mentor from China with a strong background in Biotechnology and Life Sciences. Over the years, he has accumulated extensive experience in both academic research and student training, which makes him an invaluable guide for our team. As a mentor, he has provided advice in multiple aspects of our project, including experimental design, optimization of laboratory workflows, and critical evaluation of data. Beyond the technical dimension, SanDong also encouraged us to broaden our vision, to link scientific exploration with real-world applications, and to think deeply about how our work may contribute to society. His continuous support and insightful feedback have greatly inspired our team members and helped us grow with more confidence in scientific innovation and collaboration.`,
+      specificTasks: `ShanDong is a mentor from China with a strong background in Biotechnology and Life Sciences. Over the years, he has accumulated extensive experience in both academic research and student training, which makes him an invaluable guide for our team. As a mentor, he has provided advice in multiple aspects of our project, including experimental design, optimization of laboratory workflows, and critical evaluation of data. Beyond the technical dimension, SanDong also encouraged us to broaden our vision, to link scientific exploration with real-world applications, and to think deeply about how our work may contribute to society. His continuous support and insightful feedback have greatly inspired our team members and helped us grow with more confidence in scientific innovation and collaboration.`,
       image: dongbinmentor
     },
     {
@@ -223,7 +223,7 @@ Public Engagement: Handle daily channel operations. Schedule and publish content
       image: avatarZhiquanZhang
     },
     {
-      name: " Maria Salnikova",
+      name: " snik ",
       role: "Member",
       tasks: "Wiki Coding, Web Development",
       specificTasks: `Wiki Coding: Responsible for end-to-end wiki development and maintenance. From structuring content (e.g., layout design, information architecture) to implementing functional features (interactive elements, responsive UI), ensuring the wiki is user-friendly, visually coherent, and technically robust.

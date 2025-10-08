@@ -67,7 +67,7 @@ function Home() {
           <Route path="/model" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/models.webp"><Model /><Bottom /></PageWrapper>} />
           <Route path="/software" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/software-1.webp"><Software /><Bottom /></PageWrapper>} />
           <Route path="/human-practices" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/ihp-1.webp"><IHP /><Bottom /></PageWrapper>} />
-          <Route path="/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/eng.webp"><Entrepreneurship /><Bottom /></PageWrapper>} />
+          <Route path="/entrepreneurship" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/entrepreneurship.webp"><Entrepreneurship /><Bottom /></PageWrapper>} />
           <Route path="/collaborations" element={<PageWrapper headerImage="https://static.igem.wiki/teams/5822/newassets/titleimgs/collabratjon.webp"><Collaborations /><Bottom /></PageWrapper>} />
           
           
