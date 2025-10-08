@@ -1446,10 +1446,10 @@ const MainContent = () => (
                     </div>
                   </section>
 
-                  {/* 4.4.2 Interviews with Breast Cancer Patients and Their Families（Breast Cancer Patients and Their Families） */}
+                  {/* 4.4.2 Interviews with Breast Cancer Patients and Their Families */}
                   <section id="interview-with-breast-surgeons" className="interview-section">
                     <div className="interview-info">
-                      <div className="h3">4.4.2 Interviews with Breast Cancer Patients and Their Families（Breast Cancer Patients and Their Families）</div>
+                      <div className="h3">4.4.2 Interviews with Breast Cancer Patients and Their Families</div>
                       <p>Interviewees：Patients and their families</p>
                       <div className="interview-summary">
                         <p>
